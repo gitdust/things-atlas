@@ -42,9 +42,9 @@ One file per item: `data/items/{id}.json`. Field names follow the Spec:
 - `years.{invention,patent,mass_production,popularization}` → `YearMark | null`
 - `locations[]` (≥1) with bilingual place labels, `kind`, `confidence`, optional `year_override`
 - `confidence`, `sources[]`, `disputed`, `summary_zh` / `summary_en`, `updated`
-- optional `notes`, `tags`
+- optional `primary` (`invention|patent|mass_production|popularization`), `notes`, `tags`
 
-**`primary_year` is not stored.** Build derives it: `patent → mass_production → invention → popularization` (first non-null).
+**`primary_year` is not stored.** Build derives it (`src/lib/primaryYear.ts`): if the item sets `primary` and that mark is non-null, use it; otherwise the first non-null of `invention → patent → mass_production → popularization`. Item-level `confidence` is one of `exact|year|decade|century|disputed`.
 
 Schema: `data/schema/item.schema.json`. Teaching copies: `data/examples/`.
 

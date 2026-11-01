@@ -7,53 +7,96 @@
     "invention": {
       "year": 1938,
       "precision": "year",
-      "ref": "László Bíró patent filing era"
+      "ref": "László Bíró, Hungarian priority 1938-04-25"
     },
     "patent": {
-      "year": 1945,
-      "precision": "year",
-      "ref": "Commercialization patents / Eversharp–Reynolds era"
+      "year": 1939,
+      "precision": "exact",
+      "ref": "GB 498,997 and FR 839,929"
     },
     "mass_production": {
       "year": 1945,
-      "precision": "year"
+      "precision": "exact",
+      "ref": "Reynolds Rocket sold at Gimbels, New York"
     },
     "popularization": {
       "year": 1950,
-      "precision": "decade"
+      "precision": "decade",
+      "ref": "Bic Cristal"
     }
   },
   "locations": [
     {
-      "lat": 47.4979,
-      "lng": 19.0402,
+      "lat": 47.498,
+      "lng": 19.04,
       "place_label_zh": "匈牙利布达佩斯",
       "place_label_en": "Budapest, Hungary",
       "kind": "invention",
-      "confidence": "city",
-      "year_override": 1938
+      "confidence": "city"
     },
     {
-      "lat": -34.6037,
-      "lng": -58.3816,
+      "lat": -34.604,
+      "lng": -58.382,
       "place_label_zh": "阿根廷布宜诺斯艾利斯",
       "place_label_en": "Buenos Aires, Argentina",
-      "kind": "contested",
+      "kind": "patent",
       "confidence": "city",
       "year_override": 1943
     },
     {
-      "lat": 48.8566,
-      "lng": 2.3522,
-      "place_label_zh": "法国巴黎（早期滚珠笔尝试）",
-      "place_label_en": "Paris, France (earlier ball-tip attempts)",
+      "lat": 40.75,
+      "lng": -73.988,
+      "place_label_zh": "美国纽约（金贝尔百货）",
+      "place_label_en": "New York, USA (Gimbels)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1945
+    },
+    {
+      "lat": 48.905,
+      "lng": 2.306,
+      "place_label_zh": "法国克利希（Bic）",
+      "place_label_en": "Clichy, France (Bic)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1950
+    },
+    {
+      "lat": 42.218,
+      "lng": -70.941,
+      "place_label_zh": "美国马萨诸塞韦茅斯（劳德）",
+      "place_label_en": "Weymouth, Massachusetts, USA (Loud)",
       "kind": "contested",
-      "confidence": "region",
+      "confidence": "city",
       "year_override": 1888
     }
   ],
   "confidence": "disputed",
   "sources": [
+    {
+      "title": "GB 498,997 (Bíró) — Google Patents",
+      "url": "https://patents.google.com/patent/GB498997A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "FR 839,929 (Bíró) — Google Patents",
+      "url": "https://patents.google.com/patent/FR839929A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 2,390,636 (Biro) — Google Patents",
+      "url": "https://patents.google.com/patent/US2390636A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 392,046 (Loud) — Google Patents",
+      "url": "https://patents.google.com/patent/US392046A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
     {
       "title": "Ballpoint pen — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ballpoint_pen",
@@ -61,16 +104,16 @@
       "accessed": "2026-11-01"
     },
     {
-      "title": "Loud 1888 patent narratives vs Bíró design",
-      "url": "https://en.wikipedia.org/wiki/John_J._Loud",
-      "type": "wiki",
+      "title": "Our Story — BIC",
+      "url": "https://corporate.bic.com/en-us/our-story",
+      "type": "brand",
       "accessed": "2026-11-01"
     }
   ],
   "disputed": true,
-  "notes": "争议双方：一方强调约翰·劳德（John J. Loud）1888 年美国专利中的滚珠笔尖构想，认为「圆珠笔」概念更早；另一方强调拉斯洛·比罗（László Bíró）在布达佩斯—布宜诺斯艾利斯路线上的实用油墨与量产设计，才使日常书写圆珠笔真正普及。本条目并行标注多地，不把单一国家写成唯一发明叙事。",
-  "summary_zh": "实用圆珠笔常归功于比罗，但更早滚珠笔尖专利与多地叙事并存，故标为争议。",
-  "summary_en": "Practical ballpoints are often credited to Bíró, but earlier ball-tip patents and multi-place narratives remain contested.",
+  "notes": "两种起源说法并存：一说是约翰·劳德（John J. Loud）1888 年的美国专利 US 392,046，但他的滚珠笔只能在皮革等粗糙表面做标记，从未量产；另一说是拉斯洛·比罗（László Bíró）1938 年在布达佩斯的设计（匈牙利优先权 1938-04-25），1939 年获英法专利，1943 年在布宜诺斯艾利斯申请美国专利，才是可日常书写的实用圆珠笔。流传的「1931 年原型」一说没有找到一手出处，未采用。",
+  "summary_zh": "实用圆珠笔通常归功于比罗（1938 年），但劳德 1888 年已有滚珠笔专利，故标为争议；1945 年纽约量产，1950 年代 Bic 普及。",
+  "summary_en": "Practical ballpoints are credited to Bíró (1938), but Loud patented a ball-tip marker in 1888, so it is disputed; mass-produced in New York 1945, popularized by Bic in the 1950s.",
   "tags": ["pen", "office", "pocket-desk", "disputed"],
   "updated": "2026-11-01"
 }

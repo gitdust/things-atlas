@@ -1,3 +1,7 @@
+import type { YearKey } from './primaryYear';
+
+export type { YearKey };
+
 export type YearPrecision = 'exact' | 'year' | 'decade' | 'century';
 
 export type YearMark = {
@@ -73,6 +77,8 @@ export type AtlasItem = {
     mass_production: YearMark;
     popularization: YearMark;
   };
+  /** Optional: which years.* mark is the map's primary year (default: invention-first). */
+  primary?: YearKey;
   locations: ItemLocation[];
   confidence: ItemConfidence;
   sources: ItemSource[];
@@ -97,7 +103,7 @@ export type ItemsIndex = {
     data_min: number;
     data_max: number;
   };
-  primary_year_priority: string[];
+  primary_year_priority: YearKey[];
   items: AtlasItem[];
 };
 

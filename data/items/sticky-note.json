@@ -5,61 +5,76 @@
   "category": "stationery",
   "years": {
     "invention": {
-      "year": 1968,
+      "year": 1974,
       "precision": "year",
-      "ref": "Spencer Silver acrylate adhesive at 3M"
+      "ref": "Art Fry's bookmark idea using Spencer Silver's 1968 adhesive"
     },
     "patent": {
-      "year": 1970,
-      "precision": "year",
-      "ref": "US Patent related to microspheres adhesive"
+      "year": 1972,
+      "precision": "exact",
+      "ref": "US 3,691,140 (Silver, acrylate copolymer microspheres)"
     },
     "mass_production": {
-      "year": 1977,
-      "precision": "exact",
-      "ref": "Post-it test markets"
-    },
-    "popularization": {
       "year": 1980,
       "precision": "exact",
-      "ref": "US national launch"
+      "ref": "US nationwide launch 1980-04-06"
+    },
+    "popularization": {
+      "year": 1981,
+      "precision": "year",
+      "ref": "Launch in Canada and Europe"
     }
   },
   "locations": [
     {
-      "lat": 44.9537,
-      "lng": -93.09,
+      "lat": 44.951,
+      "lng": -93.0,
       "place_label_zh": "美国明尼苏达圣保罗（3M）",
       "place_label_en": "St. Paul, Minnesota, USA (3M)",
       "kind": "invention",
       "confidence": "city"
+    },
+    {
+      "lat": 43.615,
+      "lng": -116.202,
+      "place_label_zh": "美国爱达荷博伊西（试销）",
+      "place_label_en": "Boise, Idaho, USA (test market)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1978
     }
   ],
-  "confidence": "exact",
+  "confidence": "year",
   "sources": [
     {
-      "title": "History of Post-it Notes — 3M",
-      "url": "https://www.3m.com/3M/en_US/post-it-notes/contact-us/about-us/",
-      "type": "brand",
+      "title": "Art Fry — Post-it Notes — National Inventors Hall of Fame",
+      "url": "https://www.invent.org/blog/inventors/art-fry-post-it-notes",
+      "type": "other",
       "accessed": "2026-11-01"
     },
     {
-      "title": "Post-it Note — Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Post-it_Note",
+      "title": "US 3,691,140 (Silver) — Google Patents",
+      "url": "https://patents.google.com/patent/US3691140A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Who Invented Post-it Notes? — National Inventors Hall of Fame",
+      "url": "https://www.invent.org/blog/trends-stem/who-invented-post-it-notes",
+      "type": "other",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Post-it note — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Post-it_note",
       "type": "wiki",
-      "accessed": "2026-11-01"
-    },
-    {
-      "title": "MoMA collection note on Post-it",
-      "url": "https://www.moma.org/",
-      "type": "museum",
       "accessed": "2026-11-01"
     }
   ],
   "disputed": false,
-  "notes": "Adhesive invented 1968; bookmark/use case and national rollout came later — classic invention vs popularization split.",
-  "summary_zh": "1968 年胶水、1977 年试销、1980 年全国发售——发明年与普及年明显分离。",
-  "summary_en": "Adhesive in 1968, test markets in 1977, US national launch in 1980 — invention and popularization years diverge.",
+  "notes": "胶水由西尔弗于 1968 年发现，1972 年获专利；1974 年弗赖想到用它做书签，才有便利贴的构想。1978 年在博伊西试销，1980-04-06 全美上市，1981 年进入加拿大和欧洲。艾姆伦（Amron）曾声称自己 1973 年发明，双方和解后他再次起诉，被法院驳回。",
+  "summary_zh": "1968 年发现胶水、1974 年弗赖构想书签用途、1980 年全美上市——发明年与普及年明显分离。",
+  "summary_en": "Adhesive found in 1968, Fry's bookmark idea in 1974, US nationwide launch in 1980 — invention and popularization years diverge.",
   "tags": ["office", "adhesive", "pocket-desk"],
   "updated": "2026-11-01"
 }

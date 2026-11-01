@@ -1,6 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  derivePrimaryYear,
+  PRIMARY_YEAR_PRIORITY,
+  type YearKey,
+} from '../src/lib/primaryYear';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -28,6 +33,7 @@ type Item = {
     mass_production: YearMark;
     popularization: YearMark;
   };
+  primary?: YearKey;
   locations: Location[];
   confidence: string;
   sources: unknown[];
@@ -38,16 +44,6 @@ type Item = {
   tags?: string[];
   updated: string;
 };
-
-/** Spec primary_year priority: patent → mass_production → invention → popularization */
-function derivePrimaryYear(years: Item['years']): number | null {
-  const order = ['patent', 'mass_production', 'invention', 'popularization'] as const;
-  for (const key of order) {
-    const mark = years[key];
-    if (mark && typeof mark.year === 'number') return mark.year;
-  }
-  return null;
-}
 
 fs.mkdirSync(outDir, { recursive: true });
 
@@ -63,7 +59,7 @@ for (const file of files) {
   const data = JSON.parse(
     fs.readFileSync(path.join(itemsDir, file), 'utf8'),
   ) as Item;
-  const primary = derivePrimaryYear(data.years);
+  const primary = derivePrimaryYear(data.years, data.primary);
   if (primary == null) {
     throw new Error(`${file}: cannot derive primary_year`);
   }
@@ -110,12 +106,7 @@ const index = {
     data_min: minYear,
     data_max: maxYear,
   },
-  primary_year_priority: [
-    'patent',
-    'mass_production',
-    'invention',
-    'popularization',
-  ],
+  primary_year_priority: [...PRIMARY_YEAR_PRIORITY],
   items,
 };
 

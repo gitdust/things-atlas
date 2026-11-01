@@ -48,6 +48,11 @@
         "popularization": { "$ref": "#/$defs/yearMarkOrNull" }
       }
     },
+    "primary": {
+      "description": "Optional. Which years.* mark is the derived primary_year; must point to a non-null mark. When unset: invention → patent → mass_production → popularization (first non-null).",
+      "type": "string",
+      "enum": ["invention", "patent", "mass_production", "popularization"]
+    },
     "locations": {
       "type": "array",
       "minItems": 1,

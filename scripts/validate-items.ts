@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
+import { YEAR_KEYS, type YearKey } from '../src/lib/primaryYear';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -22,6 +23,7 @@ type YearMark = { year: number; precision: string; ref?: string } | null;
 type Item = {
   id: string;
   years: Record<string, YearMark>;
+  primary?: YearKey;
   sources: { type: string }[];
   disputed: boolean;
   notes?: string;
@@ -49,6 +51,8 @@ let failed = false;
 for (const file of files) {
   const full = path.join(itemsDir, file);
   const raw = fs.readFileSync(full, 'utf8');
+  const failedBefore = failed;
+  failed = false;
   let data: Item;
   try {
     data = JSON.parse(raw) as Item;
@@ -84,6 +88,17 @@ for (const file of files) {
     failed = true;
   }
 
+  if (
+    data.primary != null &&
+    (YEAR_KEYS as readonly string[]).includes(data.primary) &&
+    data.years?.[data.primary] == null
+  ) {
+    console.error(
+      `✗ ${file}: primary="${data.primary}" points to a null years.${data.primary}`,
+    );
+    failed = true;
+  }
+
   const nonBrand = (data.sources ?? []).some((s) => s.type !== 'brand');
   if (!nonBrand) {
     console.error(`✗ ${file}: sources cannot be brand-only`);
@@ -102,12 +117,10 @@ for (const file of files) {
     }
   }
 
-  if (!failed || ok) {
-    // keep going; only log success if no prior hard fail for this file messaging
-  }
-  if (ok && data.id === expectedId) {
+  if (!failed) {
     console.log(`✓ ${file}`);
   }
+  failed = failed || failedBefore;
 }
 
 if (failed) {

@@ -5,61 +5,83 @@
   "category": "stationery",
   "years": {
     "invention": {
-      "year": 1899,
+      "year": 1892,
       "precision": "year",
-      "ref": "Gem-type clip popularization era"
+      "ref": "Gem clip by Cushman & Denison"
     },
-    "patent": {
-      "year": 1899,
-      "precision": "year",
-      "ref": "Johan Vaaler patent often cited; Gem design unpatented in common telling"
-    },
+    "patent": null,
     "mass_production": {
-      "year": 1900,
-      "precision": "decade"
+      "year": 1899,
+      "precision": "exact",
+      "ref": "Middlebrook clip-making machine, US 636,272"
     },
     "popularization": {
-      "year": 1910,
-      "precision": "decade"
+      "year": 1900,
+      "precision": "year",
+      "ref": "Gem clip widely sold (Early Office Museum)"
     }
   },
   "locations": [
     {
-      "lat": 59.9139,
-      "lng": 10.7522,
-      "place_label_zh": "挪威奥斯陆",
-      "place_label_en": "Oslo, Norway",
-      "kind": "patent",
+      "lat": 40.713,
+      "lng": -74.006,
+      "place_label_zh": "美国纽约（Cushman & Denison）",
+      "place_label_en": "New York, USA (Cushman & Denison)",
+      "kind": "invention",
       "confidence": "city"
     },
     {
-      "lat": 51.5074,
-      "lng": -0.1278,
-      "place_label_zh": "英国伦敦（Gem 型常见叙事）",
-      "place_label_en": "London, UK (Gem-type common narrative)",
+      "lat": 41.558,
+      "lng": -73.052,
+      "place_label_zh": "美国康涅狄格沃特伯里",
+      "place_label_en": "Waterbury, Connecticut, USA",
       "kind": "production",
-      "confidence": "region"
+      "confidence": "city"
+    },
+    {
+      "lat": 59.914,
+      "lng": 10.752,
+      "place_label_zh": "挪威奥斯陆（瓦勒）",
+      "place_label_en": "Oslo, Norway (Vaaler)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1901
+    },
+    {
+      "lat": 41.398,
+      "lng": -79.831,
+      "place_label_zh": "美国宾夕法尼亚富兰克林（费伊）",
+      "place_label_en": "Franklin, Pennsylvania, USA (Fay)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1867
     }
   ],
-  "confidence": "decade",
+  "confidence": "year",
   "sources": [
     {
-      "title": "Paper clip — Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Paper_clip",
-      "type": "wiki",
+      "title": "Paper Clips — Early Office Museum (Wayback Machine)",
+      "url": "http://web.archive.org/web/20240117002637/http://www.officemuseum.com/paper_clips.htm",
+      "type": "museum",
       "accessed": "2026-11-01"
     },
     {
-      "title": "Early fastener patents overview",
-      "url": "https://en.wikipedia.org/wiki/Paper_clip#History",
-      "type": "wiki",
+      "title": "US 636,272 (Middlebrook) — Google Patents",
+      "url": "https://patents.google.com/patent/US636272A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 675,761 (Vaaler) — Google Patents",
+      "url": "https://patents.google.com/patent/US675761A/en",
+      "type": "patent",
       "accessed": "2026-11-01"
     }
   ],
-  "disputed": false,
-  "notes": "Gem paperclip design is often treated as unpatented British stationery manufacture; Vaaler patents are frequently over-credited in popular culture.",
-  "summary_zh": "Gem 型回形针在世纪之交普及；挪威专利叙事与英伦量产叙事常被并列提及。",
-  "summary_en": "Gem-type clips spread around 1900; Norwegian patent lore and British manufacture narratives are often told together.",
+  "disputed": true,
+  "notes": "回形针起源有三种说法：一是挪威说，认为瓦勒（Johan Vaaler）发明，实为公众误传——他的美国专利 US 675,761（1901）设计从未投产；二是英国 1870 年代说，被 Early Office Museum 反驳；三是美国说，1892 年纽约 Cushman & Denison 推出 Gem 型，本条目采用此说。Gem 型从未申请专利，故 patent 为空。更早的 1867 年费伊（Fay）美国专利 US 64,088 也是一种纸夹，标为 contested。",
+  "summary_zh": "Gem 型回形针 1892 年由纽约 Cushman & Denison 推出，从未申请专利；挪威瓦勒发明说是常见误传。",
+  "summary_en": "The Gem-type clip was introduced by Cushman & Denison in New York in 1892 and never patented; the Norwegian Vaaler origin story is a popular myth.",
   "tags": ["office", "wire", "pocket-desk"],
   "updated": "2026-11-01"
 }
