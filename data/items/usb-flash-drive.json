@@ -1,0 +1,88 @@
+{
+  "id": "usb-flash-drive",
+  "name_zh": "U 盘",
+  "name_en": "USB flash drive",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1999,
+      "precision": "year",
+      "ref": "M-Systems files \"USB-based PC flash disk\" patent (5 Apr 1999); Netac files in China (14 Nov 1999)",
+      "ref_zh": "M-Systems 申请 USB 闪存盘专利（1999-04-05）；朗科在中国申请（1999-11-14）"
+    },
+    "patent": {
+      "year": 2000,
+      "precision": "exact",
+      "ref": "US 6,148,354 granted to M-Systems (14 Nov 2000)",
+      "ref_zh": "M-Systems 获美国专利 US 6,148,354（2000-11-14）"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 2000,
+      "precision": "year",
+      "ref": "Trek 2000 sells the first USB flash drive (ThumbDrive), late 2000",
+      "ref_zh": "Trek 2000 于 2000 年底首先发售 ThumbDrive"
+    }
+  },
+  "locations": [
+    {
+      "lat": 32.175,
+      "lng": 34.907,
+      "place_label_zh": "以色列（M-Systems）",
+      "place_label_en": "Israel (M-Systems)",
+      "kind": "invention",
+      "confidence": "country"
+    },
+    {
+      "lat": 22.543,
+      "lng": 114.058,
+      "place_label_zh": "中国深圳（朗科）",
+      "place_label_en": "Shenzhen, China (Netac)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1999
+    },
+    {
+      "lat": 1.352,
+      "lng": 103.82,
+      "place_label_zh": "新加坡（Trek 2000）",
+      "place_label_en": "Singapore (Trek 2000)",
+      "kind": "popularization",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "USB flash drive — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/USB_flash_drive",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 6,148,354 (M-Systems) — Google Patents",
+      "url": "https://patents.google.com/patent/US6148354A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "发明权争议很大：M-Systems 的 Ban、Moran、Ogdan 1999 年 4 月申请，常被视为发明者；朗科 1999 年 11 月申请、2002 年获中国专利，曾与 M-Systems、Trek 2000 发生专利纠纷；IBM 工程师 Shmueli 也在 1999 年提交过发明披露。",
+  "summary_zh": "1999 年以色列 M-Systems 与深圳朗科先后申请 USB 闪存盘专利，新加坡 Trek 2000 于 2000 年底最先发售，三方都自称发明者。",
+  "summary_en": "In 1999 Israel's M-Systems and Shenzhen's Netac both filed USB flash-drive patents; Singapore's Trek 2000 sold the first one in late 2000, and all three claim the invention.",
+  "tags": [
+    "storage",
+    "usb",
+    "flash-memory"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/usb-flash-drive.jpg",
+    "alt_zh": "一只闪迪 4GB U 盘",
+    "alt_en": "A SanDisk Cruzer 4 GB USB flash drive",
+    "credit": "Evan-Amos",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg"
+  },
+  "notes_en": "Heavily disputed. M-Systems' Ban, Moran and Ogdan filed in April 1999 and are often called the inventors; Netac filed in November 1999 and won a Chinese patent in 2002, contested by M-Systems and Trek 2000; IBM engineer Shimon Shmueli also filed an invention disclosure in 1999."
+}

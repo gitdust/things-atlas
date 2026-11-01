@@ -1,0 +1,78 @@
+{
+  "id": "snap-fastener",
+  "name_zh": "按扣",
+  "name_en": "Snap fastener",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1885,
+      "precision": "year",
+      "ref": "Heribert Bauer's German patent \"Federknopf-Verschluss\"",
+      "ref_zh": "鲍尔获德国专利「弹簧纽扣扣件」"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 1903,
+      "precision": "year",
+      "ref": "Prym produces press fasteners",
+      "ref_zh": "普瑞姆（Prym）开始生产按扣"
+    }
+  },
+  "locations": [
+    {
+      "lat": 51.0,
+      "lng": 10.4,
+      "place_label_zh": "德国（鲍尔）",
+      "place_label_en": "Germany (Bauer)",
+      "kind": "patent",
+      "confidence": "country"
+    },
+    {
+      "lat": 55.676,
+      "lng": 12.568,
+      "place_label_zh": "丹麦（Bertel Sanders）",
+      "place_label_en": "Denmark (Bertel Sanders)",
+      "kind": "contested",
+      "confidence": "country",
+      "year_override": 1885
+    },
+    {
+      "lat": 45.188,
+      "lng": 5.724,
+      "place_label_zh": "法国格勒诺布尔（Raymond）",
+      "place_label_en": "Grenoble, France (Raymond)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1886
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Snap fastener — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snap_fastener",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "发明者存在争议：德国鲍尔 1885 年专利最早，但也有人认为是丹麦的桑德斯；1886 年法国格勒诺布尔的 Raymond 也推出了按扣。德国、丹麦的具体城市未核实，只标到国家。",
+  "summary_zh": "1885 年德国人赫里伯特·鲍尔为男裤用的弹簧扣申请专利，这是现代按扣的雏形；也有人归功于丹麦的贝特尔·桑德斯。",
+  "summary_en": "German inventor Heribert Bauer patented a spring fastener for men's trousers in 1885, the modern snap; some credit Denmark's Bertel Sanders.",
+  "tags": [
+    "clothing",
+    "fastener",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/snap-fastener.jpg",
+    "alt_zh": "皮革上的金属按扣",
+    "alt_en": "Metal snap fasteners on leather",
+    "credit": "Grkauls",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Druckknopf.jpg"
+  },
+  "notes_en": "Disputed: Bauer's 1885 German patent is earliest, but some credit Denmark's Bertel Sanders, and Raymond of Grenoble introduced a snap in 1886. Cities for Bauer and Sanders are unverified, so they are country-level."
+}

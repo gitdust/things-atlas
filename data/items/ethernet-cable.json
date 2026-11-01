@@ -1,0 +1,71 @@
+{
+  "id": "ethernet-cable",
+  "name_zh": "网线",
+  "name_en": "Ethernet cable",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1973,
+      "precision": "exact",
+      "ref": "Metcalfe's Ether Network memo (22 May 1973); first ran 11 Nov 1973, Xerox PARC",
+      "ref_zh": "梅特卡夫写下以太网备忘录（1973-05-22），同年 11 月 11 日首次运行"
+    },
+    "patent": {
+      "year": 1977,
+      "precision": "year",
+      "ref": "US 4,063,220 multipoint data communication system",
+      "ref_zh": "美国专利 US 4,063,220"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 1980,
+      "precision": "year",
+      "ref": "Ethernet commercially introduced",
+      "ref_zh": "以太网商用推出"
+    }
+  },
+  "locations": [
+    {
+      "lat": 37.441,
+      "lng": -122.143,
+      "place_label_zh": "美国加州帕洛阿尔托（施乐 PARC）",
+      "place_label_en": "Palo Alto, California, USA (Xerox PARC)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "exact",
+  "sources": [
+    {
+      "title": "Ethernet — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ethernet",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 4,063,220 (Metcalfe et al.) — Google Patents",
+      "url": "https://patents.google.com/patent/US4063220A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "最初的以太网使用粗同轴电缆，并非今天的双绞线 RJ45 网线；本条目以以太网本身的诞生为起点。",
+  "summary_zh": "1973 年梅特卡夫在施乐帕洛阿尔托研究中心构想并跑通以太网，最初用同轴电缆；后来改用今天常见的双绞线网线。",
+  "summary_en": "Robert Metcalfe conceived Ethernet at Xerox PARC in 1973 and it first ran that November over coaxial cable; later versions moved to today's twisted-pair cables.",
+  "tags": [
+    "network",
+    "cable",
+    "connector"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/ethernet-cable.jpg",
+    "alt_zh": "黄色网线的 RJ45 水晶头",
+    "alt_en": "Yellow Ethernet cables with RJ45 plugs",
+    "credit": "Wikideas1",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ethernet_connector.webp"
+  },
+  "notes_en": "Early Ethernet ran on thick coaxial cable, not today's twisted-pair RJ45 cable; this entry dates Ethernet itself."
+}

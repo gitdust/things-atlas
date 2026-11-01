@@ -1,0 +1,80 @@
+{
+  "id": "measuring-tape",
+  "name_zh": "卷尺",
+  "name_en": "Tape measure",
+  "category": "hand_tool",
+  "years": {
+    "invention": {
+      "year": 1821,
+      "precision": "year",
+      "ref": "James Chesterman's retractable tape, Sheffield",
+      "ref_zh": "谢菲尔德的切斯特曼制作可收卷的卷尺"
+    },
+    "patent": {
+      "year": 1868,
+      "precision": "exact",
+      "ref": "Alvin J. Fellows, US 79,965 (14 Jul 1868)",
+      "ref_zh": "费洛斯获美国专利 US 79,965（1868-07-14）"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 53.381,
+      "lng": -1.47,
+      "place_label_zh": "英国谢菲尔德（切斯特曼）",
+      "place_label_en": "Sheffield, UK (Chesterman)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 41.661,
+      "lng": -72.78,
+      "place_label_zh": "美国康涅狄格州新不列颠（费洛斯）",
+      "place_label_en": "New Britain, Connecticut, USA (Fellows)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Tape measure — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tape_measure",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 79,965 (Fellows) — Google Patents",
+      "url": "https://patents.google.com/patent/US79965A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Chesterman Steel Tape — Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1803895",
+      "type": "museum",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "1864 年 William H. Bangs 也获得过卷尺专利；费洛斯的设计加入了可锁定尺带的弹簧卡扣。",
+  "summary_zh": "1821 年谢菲尔德的詹姆斯·切斯特曼做出可收卷的卷尺；1868 年康涅狄格州的费洛斯为带弹簧卡位的卷尺申请专利。",
+  "summary_en": "James Chesterman of Sheffield made a retractable measuring tape in 1821; Alvin Fellows of Connecticut patented a spring tape measure in 1868.",
+  "tags": [
+    "measuring",
+    "spring",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/measuring-tape.jpg",
+    "alt_zh": "一只橙色钢卷尺",
+    "alt_en": "An orange steel tape measure",
+    "credit": "Klein Tools",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tape_Measure_25%27_Klein_Tools.jpg"
+  },
+  "notes_en": "William H. Bangs also patented a tape measure in 1864; Fellows's design added a spring click lock to hold the tape."
+}

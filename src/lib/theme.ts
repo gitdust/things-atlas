@@ -12,7 +12,7 @@ export const CATEGORY_COLORS: Record<CategoryId, string> = {
   home: '#4f7d5c', // verdigris
   personal_care: '#85587f', // madder mauve
   digital: '#2a7b80', // teal ink
-  kitchen: '#7a7266', // umber grey (reserved)
+  kitchen: '#7a7266', // umber grey
 };
 
 export const INK = '#1f1b16';

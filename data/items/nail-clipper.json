@@ -1,0 +1,73 @@
+{
+  "id": "nail-clipper",
+  "name_zh": "指甲刀",
+  "name_en": "Nail clipper",
+  "category": "personal_care",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1875,
+      "precision": "year",
+      "ref": "Valentine Fogerty files the first US patent for finger-nail trimmers",
+      "ref_zh": "福格蒂申请美国第一个指甲剪改进专利"
+    },
+    "mass_production": {
+      "year": 1896,
+      "precision": "year",
+      "ref": "\"Gem\" brand clipper, later made by H. C. Cook Co., Ansonia, CT",
+      "ref_zh": "「Gem」牌指甲刀，后由安索尼亚的 H. C. Cook 公司生产"
+    },
+    "popularization": {
+      "year": 1947,
+      "precision": "year",
+      "ref": "William Bassett's \"Trim\" clipper",
+      "ref_zh": "巴西特推出「Trim」牌指甲刀"
+    }
+  },
+  "locations": [
+    {
+      "lat": 39.8,
+      "lng": -98.6,
+      "place_label_zh": "美国（福格蒂）",
+      "place_label_en": "United States (Fogerty)",
+      "kind": "patent",
+      "confidence": "country"
+    },
+    {
+      "lat": 41.346,
+      "lng": -73.079,
+      "place_label_zh": "美国康涅狄格州安索尼亚（H. C. Cook）",
+      "place_label_en": "Ansonia, Connecticut, USA (H. C. Cook)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Nail clipper — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nail_clipper",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "Gem 牌 1896 年的说法来自公司总裁约 1928 年的自述，未有独立佐证。",
+  "summary_zh": "1875 年福格蒂申请美国第一个指甲剪专利；1896 年推出的 Gem 牌和 1947 年的 Trim 牌奠定了今天的杠杆式指甲刀。",
+  "summary_en": "Valentine Fogerty filed the first US nail-clipper patent in 1875; the Gem (1896) and Bassett's Trim (1947) defined today's lever clipper.",
+  "tags": [
+    "nails",
+    "metal",
+    "lever"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/nail-clipper.jpg",
+    "alt_zh": "几把不同款式的指甲刀",
+    "alt_en": "Several styles of nail clippers",
+    "credit": "Evan-Amos",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nail-clippers-variety.jpg"
+  },
+  "notes_en": "The 1896 Gem date comes from the company president's own claim around 1928 and is not independently confirmed."
+}

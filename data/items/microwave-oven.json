@@ -1,0 +1,82 @@
+{
+  "id": "microwave-oven",
+  "name_zh": "微波炉",
+  "name_en": "Microwave oven",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1945,
+      "precision": "year",
+      "ref": "Percy Spencer discovers microwave heating at Raytheon",
+      "ref_zh": "斯潘塞在雷神公司发现微波加热效应"
+    },
+    "patent": {
+      "year": 1950,
+      "precision": "year",
+      "ref": "US 2,495,429 method of treating foodstuffs (filed 8 Oct 1945)",
+      "ref_zh": "美国专利 US 2,495,429（1945-10-08 申请）"
+    },
+    "mass_production": {
+      "year": 1947,
+      "precision": "year",
+      "ref": "Raytheon Radarange first sold",
+      "ref_zh": "雷神 Radarange 开始销售"
+    },
+    "popularization": {
+      "year": 1967,
+      "precision": "year",
+      "ref": "Amana introduces the countertop microwave oven",
+      "ref_zh": "Amana 推出台式微波炉"
+    }
+  },
+  "locations": [
+    {
+      "lat": 42.36,
+      "lng": -71.059,
+      "place_label_zh": "美国马萨诸塞州（雷神，以波士顿示意）",
+      "place_label_en": "Massachusetts, USA (Raytheon; Boston shown)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 41.8,
+      "lng": -91.87,
+      "place_label_zh": "美国艾奥瓦州阿马纳",
+      "place_label_en": "Amana, Iowa, USA",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Microwave oven — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Microwave_oven",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 2,495,429 (Spencer) — Google Patents",
+      "url": "https://patents.google.com/patent/US2495429A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1945 年雷神公司工程师珀西·斯潘塞偶然发现微波能加热食物，1947 年推出商用 Radarange，1967 年 Amana 的台式微波炉让它走进家庭。",
+  "summary_en": "Raytheon engineer Percy Spencer discovered microwave heating in 1945; the commercial Radarange followed in 1947, and Amana's 1967 countertop model brought it into homes.",
+  "tags": [
+    "appliance",
+    "cooking",
+    "electric"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/microwave-oven.jpg",
+    "alt_zh": "一台松下不锈钢微波炉",
+    "alt_en": "A Panasonic stainless-steel microwave oven",
+    "credit": "Mrbeastmodeallday",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Panasonic_NN-SD69LS_20220410.jpg"
+  }
+}

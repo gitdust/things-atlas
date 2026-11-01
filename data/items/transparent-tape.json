@@ -1,0 +1,53 @@
+{
+  "id": "transparent-tape",
+  "name_zh": "透明胶带",
+  "name_en": "Transparent tape",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1930,
+      "precision": "year",
+      "ref": "Richard Drew of 3M develops clear cellulose tape",
+      "ref_zh": "3M 的德鲁研制出透明玻璃纸胶带"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 44.954,
+      "lng": -93.09,
+      "place_label_zh": "美国明尼苏达州圣保罗（3M）",
+      "place_label_en": "St. Paul, Minnesota, USA (3M)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Scotch Tape — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scotch_Tape",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1930 年，3M 工程师理查德·德鲁在明尼苏达州圣保罗发明透明玻璃纸胶带，即思高（Scotch）胶带。",
+  "summary_en": "In 1930, 3M engineer Richard Drew in St. Paul, Minnesota, invented clear cellulose tape, sold as Scotch Tape.",
+  "tags": [
+    "office",
+    "adhesive",
+    "3m"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/transparent-tape.jpg",
+    "alt_zh": "桌上几盒思高透明胶带",
+    "alt_en": "Boxes of Scotch transparent tape on a desk",
+    "credit": "Amin",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Scotch_tape.jpg"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "toothbrush",
+  "name_zh": "牙刷",
+  "name_en": "Toothbrush",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 619,
+      "precision": "century",
+      "ref": "Hog-bristle toothbrush used in Tang-dynasty China (619–907)",
+      "ref_zh": "唐代（619–907）中国已使用猪鬃牙刷"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1780,
+      "precision": "year",
+      "ref": "William Addis makes the first mass-produced toothbrush in England",
+      "ref_zh": "英国的阿迪斯制作首批量产牙刷"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 34.341,
+      "lng": 108.94,
+      "place_label_zh": "中国（唐代，以长安示意）",
+      "place_label_en": "China (Tang dynasty; Chang'an shown)",
+      "kind": "invention",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 54.0,
+      "lng": -2.0,
+      "place_label_zh": "英国（阿迪斯）",
+      "place_label_en": "United Kingdom (Addis)",
+      "kind": "production",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Toothbrush — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Toothbrush",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "更早的嚼枝（chew stick）可追溯到约前 3500 年的苏美尔，但不属于刷毛牙刷。阿迪斯的具体城市未核实，地点只到国家。",
+  "summary_zh": "把猪鬃装在骨柄上的牙刷在唐代中国已经使用，17 世纪传入欧洲；1780 年英国的威廉·阿迪斯开始量产牙刷。",
+  "summary_en": "Bristle toothbrushes were used in Tang-dynasty China and reached Europe in the 17th century; William Addis began mass-producing them in England around 1780.",
+  "tags": [
+    "hygiene",
+    "teeth",
+    "bristle"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/toothbrush.jpg",
+    "alt_zh": "一支蓝色牙刷",
+    "alt_en": "A blue toothbrush",
+    "credit": "Jonas Bergsten",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Toothbrush_20050716_004.jpg"
+  },
+  "notes_en": "Chew sticks go back to Sumer around 3500 BCE but are not bristle brushes. Addis's city is unverified, so the location is country-level."
+}

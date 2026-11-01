@@ -1,0 +1,68 @@
+{
+  "id": "shoelace",
+  "name_zh": "鞋带",
+  "name_en": "Shoelace",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1150,
+      "precision": "century",
+      "ref": "Medieval shoes with laces through eyelets, 12th century (Museum of London)",
+      "ref_zh": "12 世纪的中世纪鞋已用鞋带穿过鞋眼（伦敦博物馆）"
+    },
+    "patent": {
+      "year": 1790,
+      "precision": "year",
+      "ref": "Harvey Kennedy patents the aglet-tipped shoelace in the UK",
+      "ref_zh": "肯尼迪在英国为带金属头的鞋带申请专利"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 51.507,
+      "lng": -0.128,
+      "place_label_zh": "英国伦敦（中世纪鞋履）",
+      "place_label_en": "London, UK (medieval footwear)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 54.0,
+      "lng": -2.0,
+      "place_label_zh": "英国（肯尼迪）",
+      "place_label_en": "United Kingdom (Kennedy)",
+      "kind": "patent",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Shoelaces — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shoelaces",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "更早的「鞋带」见于亚美尼亚 Areni-1 皮鞋（约前 3500 年）和冰人奥茨的鞋（约前 3300 年），早于本站年份范围；本条目以伦敦博物馆记录的 12 世纪鞋带作为现代意义鞋带的起点。",
+  "summary_zh": "12 世纪的中世纪鞋已用鞋带穿过鞋眼系紧；1790 年哈维·肯尼迪在英国为两端带硬头的鞋带申请了专利。",
+  "summary_en": "Medieval shoes from the 12th century were already laced through eyelets; in 1790 Harvey Kennedy patented aglet-tipped shoelaces in the UK.",
+  "tags": [
+    "clothing",
+    "shoe",
+    "cord"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/shoelace.jpg",
+    "alt_zh": "一对黑色鞋带",
+    "alt_en": "A pair of black shoelaces",
+    "credit": "Jonas Bergsten",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shoelaces_20050719_001.jpg"
+  },
+  "notes_en": "Earlier laces appear on the Areni-1 shoe (c. 3500 BCE) and Ötzi's shoes (c. 3300 BCE), both before this atlas's year range. This entry starts with 12th-century laced shoes documented by the Museum of London."
+}

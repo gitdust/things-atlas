@@ -1,0 +1,53 @@
+{
+  "id": "rubber-band",
+  "name_zh": "橡皮筋",
+  "name_en": "Rubber band",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1845,
+      "precision": "exact",
+      "ref": "Stephen Perry's English patent (17 Mar 1845)",
+      "ref_zh": "佩里在英国获得专利（1845-03-17）"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 51.507,
+      "lng": -0.128,
+      "place_label_zh": "英国伦敦（Perry & Co）",
+      "place_label_en": "London, UK (Perry & Co)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "exact",
+  "sources": [
+    {
+      "title": "Rubber band — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rubber_band",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1845 年 3 月 17 日，伦敦 Perry & Co 的斯蒂芬·佩里获得橡皮筋专利，用于捆扎纸张与信封。",
+  "summary_en": "Stephen Perry of Messrs Perry & Co, London, patented the rubber band on 17 March 1845 for holding papers and envelopes together.",
+  "tags": [
+    "rubber",
+    "office",
+    "elastic"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/rubber-band.jpg",
+    "alt_zh": "几根橙色橡皮筋",
+    "alt_en": "Several orange rubber bands",
+    "credit": "FML",
+    "license": "CC BY-SA 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rubber_bands.jpg"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "chopsticks",
+  "name_zh": "筷子",
+  "name_en": "Chopsticks",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": -1200,
+      "precision": "century",
+      "ref": "Bronze chopsticks excavated from the Ruins of Yin near Anyang (c. 1200 BCE)",
+      "ref_zh": "安阳殷墟出土青铜筷，约公元前 1200 年"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 36.12,
+      "lng": 114.32,
+      "place_label_zh": "中国河南安阳殷墟",
+      "place_label_en": "Ruins of Yin, Anyang, Henan, China",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Chopsticks — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chopsticks",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "已知最早的筷子是河南安阳殷墟出土的 6 支青铜筷，约属公元前 1200 年的商代。",
+  "summary_en": "The earliest known chopsticks are six bronze sticks excavated from the Ruins of Yin near Anyang, Henan, dated to about 1200 BCE in the Shang dynasty.",
+  "tags": [
+    "utensil",
+    "eating",
+    "wood"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/chopsticks.jpg",
+    "alt_zh": "各式各样的筷子",
+    "alt_en": "An assortment of chopsticks",
+    "credit": "FiveRings at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Many-chopsticks.jpg"
+  }
+}

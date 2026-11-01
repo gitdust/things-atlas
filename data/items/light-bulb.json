@@ -1,0 +1,88 @@
+{
+  "id": "light-bulb",
+  "name_zh": "白炽灯泡",
+  "name_en": "Incandescent light bulb",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1879,
+      "precision": "year",
+      "ref": "Edison's carbon-filament lamp at Menlo Park; Swan demonstrates his lamp in Newcastle",
+      "ref_zh": "爱迪生在门洛帕克研制碳丝灯；斯旺在纽卡斯尔演示其灯泡"
+    },
+    "patent": {
+      "year": 1880,
+      "precision": "year",
+      "ref": "Edison's US 223,898 (filed 4 Nov 1879, granted Jan 1880)",
+      "ref_zh": "爱迪生美国专利 US 223,898（1879-11-04 申请，1880 年 1 月授权）"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 1881,
+      "precision": "year",
+      "ref": "Swan lamps installed and in daily use in London",
+      "ref_zh": "斯旺灯泡在伦敦安装并日常使用"
+    }
+  },
+  "locations": [
+    {
+      "lat": 40.559,
+      "lng": -74.336,
+      "place_label_zh": "美国新泽西州门洛帕克（爱迪生）",
+      "place_label_en": "Menlo Park, New Jersey, USA (Edison)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 54.978,
+      "lng": -1.617,
+      "place_label_zh": "英国纽卡斯尔（斯旺）",
+      "place_label_en": "Newcastle upon Tyne, UK (Swan)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1879
+    },
+    {
+      "lat": 51.507,
+      "lng": -0.128,
+      "place_label_zh": "英国伦敦",
+      "place_label_en": "London, UK",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Incandescent light bulb — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 223,898 (Edison) — Google Patents",
+      "url": "https://patents.google.com/patent/US223898A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "历史学家列出过多位早于爱迪生和斯旺的白炽灯发明者。斯旺 1879 年 1 月 17 日在纽卡斯尔成功演示，他的灯泡 1881 年已在伦敦日常使用；爱迪生的优势在于高真空、高电阻灯丝和整套供电系统。",
+  "summary_zh": "白炽灯有多位先驱；1879 年爱迪生在门洛帕克做出实用碳丝灯并申请专利，同年英国的斯旺也公开演示，1881 年斯旺灯已在伦敦日常使用。",
+  "summary_en": "Many pioneered the incandescent lamp. In 1879 Edison made a practical carbon-filament lamp at Menlo Park and filed a patent; Swan demonstrated his in England that year and lit London by 1881.",
+  "tags": [
+    "electric",
+    "light",
+    "glass"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/light-bulb.jpg",
+    "alt_zh": "黑色背景下点亮的白炽灯泡",
+    "alt_en": "A lit incandescent bulb against a dark background",
+    "credit": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lamp_with_lit_incandescent_light_bulb_and_black_background.jpg"
+  },
+  "notes_en": "Historians list several incandescent-lamp inventors before Swan and Edison. Swan demonstrated his lamp in Newcastle on 17 January 1879 and it was in daily use in London by 1881; Edison's edge came from a higher vacuum, a high-resistance filament and a complete power system."
+}

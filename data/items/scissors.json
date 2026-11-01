@@ -1,0 +1,77 @@
+{
+  "id": "scissors",
+  "name_zh": "剪刀",
+  "name_en": "Scissors",
+  "category": "hand_tool",
+  "years": {
+    "invention": {
+      "year": -1000,
+      "precision": "century",
+      "ref": "Bow shears appear in Europe around 1000 BCE",
+      "ref_zh": "约公元前 1000 年欧洲出现弓形剪"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1761,
+      "precision": "year",
+      "ref": "Robert Hinchliffe of Sheffield makes cast-steel scissors for the mass market",
+      "ref_zh": "谢菲尔德的欣奇利夫生产面向大众的铸钢剪刀"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 50.0,
+      "lng": 10.0,
+      "place_label_zh": "欧洲（弓形剪）",
+      "place_label_en": "Europe (bow shears)",
+      "kind": "invention",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 53.381,
+      "lng": -1.47,
+      "place_label_zh": "英国谢菲尔德",
+      "place_label_en": "Sheffield, UK",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 30.274,
+      "lng": 120.155,
+      "place_label_zh": "中国杭州（张小泉）",
+      "place_label_en": "Hangzhou, China (Zhang Xiaoquan)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1663
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Scissors — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scissors",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "早期的是弹簧式弓形剪，支轴式剪刀后来才普及。杭州张小泉创立于 1663 年，创始人张思家早在约 1580 年（明代）就开创了这种镶钢工艺。",
+  "summary_zh": "弓形剪约公元前 1000 年出现在欧洲；1761 年谢菲尔德的欣奇利夫开始量产铸钢剪刀；杭州张小泉自 1663 年制作支轴剪。",
+  "summary_en": "Bow shears appeared in Europe around 1000 BCE; Robert Hinchliffe of Sheffield mass-produced cast-steel scissors in 1761; Hangzhou's Zhang Xiaoquan has made pivoted scissors since 1663.",
+  "tags": [
+    "cutting",
+    "metal",
+    "blade"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/scissors.jpg",
+    "alt_zh": "一把不锈钢家用剪刀",
+    "alt_en": "A stainless-steel household scissors",
+    "credit": "Doggerelblogger",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Standard_household_scissors.jpg"
+  },
+  "notes_en": "Early shears were spring-type bow shears; pivoted scissors came later. Hangzhou's Zhang Xiaoquan was founded in 1663, and founder Zhang Sijia pioneered its inlaid-steel design around 1580 in the Ming dynasty."
+}

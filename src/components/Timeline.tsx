@@ -2,7 +2,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { AtlasItem } from '@/lib/types';
 import { CATEGORY_COLORS } from '@/lib/theme';
 import { YEAR_KEYS } from '@/lib/primaryYear';
-import { pick, t, type Lang } from '@/lib/i18n';
+import { formatYear, pick, t, type Lang } from '@/lib/i18n';
+import { makeTimeScale } from '@/lib/timeScale';
 
 type Props = {
   lang: Lang;
@@ -29,8 +30,8 @@ export function Timeline({
   onChange,
   onSelect,
 }: Props) {
-  const span = Math.max(1, max - min);
-  const pct = (y: number) => ((y - min) / span) * 100;
+  const scale = useMemo(() => makeTimeScale(min, max), [min, max]);
+  const pct = scale.pct;
   const trackRef = useRef<HTMLDivElement | null>(null);
   const [playing, setPlaying] = useState(false);
   const [dragging, setDragging] = useState(false);
@@ -54,30 +55,20 @@ export function Timeline({
     return { counts, peak };
   }, [items]);
 
-  /** Beeswarm: stack items that share a primary year (±1). */
+  /** Beeswarm: stack items whose dots would overlap on the (non-linear) axis. */
   const swarm = useMemo(() => {
     const sorted = [...items].sort((a, b) => a.primary_year - b.primary_year);
-    const placed: { item: AtlasItem; level: number }[] = [];
+    const placed: { item: AtlasItem; level: number; x: number }[] = [];
     for (const item of sorted) {
+      const x = scale.pct(item.primary_year);
       let level = 0;
-      while (
-        placed.some(
-          (p) => p.level === level && Math.abs(p.item.primary_year - item.primary_year) < 2,
-        )
-      )
-        level++;
-      placed.push({ item, level });
+      while (placed.some((p) => p.level === level && Math.abs(p.x - x) < 0.7)) level++;
+      placed.push({ item, level, x });
     }
     return placed;
-  }, [items]);
+  }, [items, scale]);
 
-  const ticks = useMemo(() => {
-    const out: { y: number; major: boolean; mid: boolean }[] = [];
-    for (let y = Math.ceil(min); y <= max; y++) {
-      out.push({ y, major: y % 10 === 0, mid: y % 5 === 0 });
-    }
-    return out;
-  }, [min, max]);
+  const ticks = scale.ticks;
 
   const yearFromClientX = useCallback(
     (clientX: number) => {
@@ -85,9 +76,9 @@ export function Timeline({
       if (!el) return yearRef.current;
       const r = el.getBoundingClientRect();
       const f = Math.min(1, Math.max(0, (clientX - r.left) / r.width));
-      return Math.round(min + f * span);
+      return scale.yearAt(f);
     },
-    [min, span],
+    [scale],
   );
 
   // play / pause
@@ -95,7 +86,7 @@ export function Timeline({
     if (!playing) return;
     if (yearRef.current >= max) onChange(min);
     const timer = window.setInterval(() => {
-      const next = yearRef.current + 1;
+      const next = yearRef.current + scale.stepAt(yearRef.current);
       if (next > max) {
         setPlaying(false);
         return;
@@ -104,7 +95,7 @@ export function Timeline({
     }, STEP_MS);
     return () => window.clearInterval(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [playing, min, max]);
+  }, [playing, min, max, scale]);
 
   const onKeyDown = (e: React.KeyboardEvent) => {
     const set = (y: number) => {
@@ -113,15 +104,18 @@ export function Timeline({
     };
     if (e.key === 'Home') set(min);
     else if (e.key === 'End') set(max);
-    else if (e.key === 'PageUp') set(year + 10);
-    else if (e.key === 'PageDown') set(year - 10);
+    else if (e.key === 'PageUp') set(year + 10 * scale.stepAt(year));
+    else if (e.key === 'PageDown') set(year - 10 * scale.stepAt(year - 1));
     else if (e.key === ' ' || e.key === 'Enter') {
       e.preventDefault();
       setPlaying((p) => !p);
     }
   };
 
-  const decadeLabel = (y: number) => (y % 50 === 0 ? String(y) : `’${String(y).slice(2)}`);
+  const decadeLabel = (y: number) => {
+    if (y < 1800) return formatYear(lang, y, true);
+    return y % 50 === 0 ? String(y) : `’${String(y).slice(2)}`;
+  };
 
   return (
     <div className={`timeline${dragging ? ' is-dragging' : ''}`}>
@@ -146,7 +140,7 @@ export function Timeline({
         </button>
         <div className="tl-year">
           <span className="tl-year-label">{t(lang, 'upTo')}</span>
-          <span className="tl-year-num num">{year}</span>
+          <span className="tl-year-num num">{formatYear(lang, year, true)}</span>
         </div>
       </div>
 
@@ -159,7 +153,7 @@ export function Timeline({
         aria-valuemin={min}
         aria-valuemax={max}
         aria-valuenow={year}
-        aria-valuetext={String(year)}
+        aria-valuetext={formatYear(lang, year)}
         onKeyDown={onKeyDown}
         onPointerDown={(e) => {
           if ((e.target as HTMLElement).closest('.tl-dot')) return;
@@ -204,7 +198,7 @@ export function Timeline({
                   bottom: `${level * 15}px`,
                   ['--c' as string]: CATEGORY_COLORS[item.category],
                 }}
-                title={`${pick(lang, item.name_zh, item.name_en)} · ${item.primary_year}`}
+                title={`${pick(lang, item.name_zh, item.name_en)} · ${formatYear(lang, item.primary_year)}`}
                 onClick={() => onSelect(item.id)}
               >
                 <span className="tl-dot-label">
@@ -235,7 +229,7 @@ export function Timeline({
         </div>
 
         <div className="tl-thumb" style={{ left: `${pct(year)}%` }} aria-hidden="true">
-          <span className="tl-thumb-flag num">{year}</span>
+          <span className="tl-thumb-flag num">{formatYear(lang, year, true)}</span>
           <span className="tl-thumb-line" />
           <span className="tl-thumb-knob" />
         </div>

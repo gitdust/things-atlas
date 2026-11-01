@@ -1,0 +1,66 @@
+{
+  "id": "thermos",
+  "name_zh": "保温瓶",
+  "name_en": "Vacuum flask",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1892,
+      "precision": "year",
+      "ref": "James Dewar invents the vacuum flask for cryogenics research",
+      "ref_zh": "杜瓦为低温研究发明真空瓶"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1904,
+      "precision": "year",
+      "ref": "Reinhold Burger and Albert Aschenbrenner commercialize it as Thermos, Berlin",
+      "ref_zh": "伯格与阿申布伦纳在柏林将其商业化为 Thermos"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 51.507,
+      "lng": -0.128,
+      "place_label_zh": "英国伦敦（杜瓦）",
+      "place_label_en": "London, UK (Dewar)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 52.52,
+      "lng": 13.405,
+      "place_label_zh": "德国柏林（Thermos）",
+      "place_label_en": "Berlin, Germany (Thermos)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Vacuum flask — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vacuum_flask",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1892 年苏格兰科学家詹姆斯·杜瓦发明真空瓶用于低温研究；1904 年两位德国玻璃匠将它改成耐用的日用保温瓶。",
+  "summary_en": "Scottish scientist James Dewar invented the vacuum flask in 1892 for cryogenics; in 1904 two German glassblowers made a sturdier version for everyday hot and cold drinks.",
+  "tags": [
+    "insulation",
+    "glass",
+    "bottle"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/thermos.jpg",
+    "alt_zh": "一只红色保温瓶",
+    "alt_en": "A red vacuum flask",
+    "credit": "Denae Bedard",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thermos.JPG"
+  }
+}

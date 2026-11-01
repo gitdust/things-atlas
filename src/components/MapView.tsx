@@ -9,7 +9,7 @@ import type { FeatureCollection, LineString, Point } from 'geojson';
 import { CATEGORY_COLORS, INK, MAP_STYLE, PAPER, localizeBasemap, tuneBasemap } from '@/lib/theme';
 import { itemBounds, type ArcProps, type ItemFeatureProps } from '@/lib/geo';
 import type { AtlasItem } from '@/lib/types';
-import { pick, t, type Lang, type MessageKey } from '@/lib/i18n';
+import { pick, t, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
 
 type Props = {
   lang: Lang;
@@ -89,7 +89,7 @@ function tooltipHtml(p: ItemFeatureProps, lang: Lang) {
   return `
     <div class="tip-kicker"><span class="tip-dot" style="--c:${
       CATEGORY_COLORS[p.category as keyof typeof CATEGORY_COLORS] ?? INK
-    }"></span>${esc(kind)} · <span class="num">${year}</span></div>
+    }"></span>${esc(kind)} · <span class="num">${esc(formatYear(lang, year))}</span></div>
     <div class="tip-title">${esc(name)} <span class="tip-alt">${esc(alt)}</span></div>
     <div class="tip-place">${esc(place)}</div>`;
 }

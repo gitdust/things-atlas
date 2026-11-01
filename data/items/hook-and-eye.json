@@ -1,0 +1,66 @@
+{
+  "id": "hook-and-eye",
+  "name_zh": "风纪扣",
+  "name_en": "Hook-and-eye closure",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1350,
+      "precision": "century",
+      "ref": "\"Crochet and loop\" fastening recorded in 14th-century England",
+      "ref_zh": "14 世纪英格兰出现名为 crochet and loop 的钩扣"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1830,
+      "precision": "year",
+      "ref": "Henry North of New Britain, CT, has a machine built to make hooks and eyes",
+      "ref_zh": "新不列颠的诺斯请人造机器量产钩扣"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 52.36,
+      "lng": -1.17,
+      "place_label_zh": "英格兰",
+      "place_label_en": "England",
+      "kind": "invention",
+      "confidence": "country"
+    },
+    {
+      "lat": 41.661,
+      "lng": -72.78,
+      "place_label_zh": "美国康涅狄格州新不列颠",
+      "place_label_en": "New Britain, Connecticut, USA",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Hook-and-eye closure — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hook-and-eye_closure",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "钩扣在 14 世纪的英格兰被称为 crochet and loop；1830 年康涅狄格州的亨利·诺斯推动了机器量产。",
+  "summary_en": "Hook-and-eye fastenings appear as \"crochet and loop\" in 14th-century England; Henry North of Connecticut mechanized production in 1830.",
+  "tags": [
+    "clothing",
+    "fastener",
+    "wire"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/hook-and-eye.jpg",
+    "alt_zh": "一副金属钩扣",
+    "alt_en": "A metal hook-and-eye pair",
+    "credit": "Eitan Ferman",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hook_and_eye_clasp.JPG"
+  }
+}

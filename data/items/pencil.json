@@ -1,0 +1,81 @@
+{
+  "id": "pencil",
+  "name_zh": "铅笔",
+  "name_en": "Pencil",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1565,
+      "precision": "decade",
+      "ref": "Conrad Gessner describes a wood-held graphite pencil; Borrowdale graphite in use",
+      "ref_zh": "格斯纳记载木杆夹石墨的书写工具；英格兰博罗代尔石墨矿开采"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1662,
+      "precision": "year",
+      "ref": "Pencil production recorded in Nuremberg",
+      "ref_zh": "德国纽伦堡出现铅笔生产"
+    },
+    "popularization": {
+      "year": 1795,
+      "precision": "year",
+      "ref": "Nicolas-Jacques Conté's graphite-and-clay lead, Paris",
+      "ref_zh": "孔戴在巴黎发明石墨与黏土混合笔芯"
+    }
+  },
+  "locations": [
+    {
+      "lat": 54.51,
+      "lng": -3.15,
+      "place_label_zh": "英格兰博罗代尔（石墨矿）",
+      "place_label_en": "Borrowdale, England (graphite)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 49.452,
+      "lng": 11.077,
+      "place_label_zh": "德国纽伦堡",
+      "place_label_en": "Nuremberg, Germany",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 48.857,
+      "lng": 2.352,
+      "place_label_zh": "法国巴黎（孔戴）",
+      "place_label_en": "Paris, France (Conté)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "decade",
+  "sources": [
+    {
+      "title": "Pencil — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pencil",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "约 1560 年意大利 Bernacotti 夫妇曾做出木杆包石墨的雏形；1565 年格斯纳的描述是较早的文字记载，因此年份精度只到十年。",
+  "summary_zh": "16 世纪 60 年代，英格兰博罗代尔的石墨被做成书写工具；1795 年孔戴的石墨黏土笔芯奠定了现代铅笔。",
+  "summary_en": "Graphite from Borrowdale, England, was used for writing by the 1560s; Conté's 1795 graphite-and-clay lead defined the modern pencil.",
+  "tags": [
+    "writing",
+    "graphite",
+    "wood"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/pencil.jpg",
+    "alt_zh": "两支削尖的 HB 铅笔",
+    "alt_en": "Two sharpened HB pencils",
+    "credit": "Original uploader was Dmgerman at en.wikipedia",
+    "license": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pencils_hb.jpg"
+  },
+  "notes_en": "An Italian couple, the Bernacottis, made a wood-encased prototype around 1560; Gessner's 1565 description is an early written record, so the date is given to the decade."
+}

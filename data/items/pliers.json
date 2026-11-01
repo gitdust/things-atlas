@@ -1,0 +1,55 @@
+{
+  "id": "pliers",
+  "name_zh": "钳子",
+  "name_en": "Pliers",
+  "category": "hand_tool",
+  "years": {
+    "invention": {
+      "year": -3000,
+      "precision": "century",
+      "ref": "Bronze pliers probably develop before 3000 BCE",
+      "ref_zh": "青铜钳大概在公元前 3000 年前出现"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 50.0,
+      "lng": 10.0,
+      "place_label_zh": "欧洲（青铜时代）",
+      "place_label_en": "Europe (Bronze Age)",
+      "kind": "invention",
+      "confidence": "approximate"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Pliers — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pliers",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "来源较弱：维基百科只说青铜钳「可能」出现在公元前 3000 年之前，没有具体出土年代或地点，本条目取本站最早年份并标为争议。",
+  "summary_zh": "早期冶金需要夹持高温材料的工具，钳子大约在公元前 3000 年前由木制演变为青铜制。",
+  "summary_en": "Early metalworking needed tools to hold hot material; pliers probably evolved from wood to bronze before 3000 BCE.",
+  "tags": [
+    "metal",
+    "gripping",
+    "repair"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/pliers.jpg",
+    "alt_zh": "一把红色钢丝钳",
+    "alt_en": "Red combination pliers",
+    "credit": "Jacek Halicki",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2023_Kombinerki_(1).jpg"
+  },
+  "notes_en": "Weak sourcing: Wikipedia only says bronze pliers \"probably\" appeared before 3000 BCE, with no specific find or place, so this entry uses the earliest year the atlas allows and marks it disputed."
+}

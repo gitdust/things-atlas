@@ -1,0 +1,55 @@
+{
+  "id": "highlighter",
+  "name_zh": "荧光笔",
+  "name_en": "Highlighter",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1963,
+      "precision": "year",
+      "ref": "Frank Honn invents the highlighter; Carter's Ink sells it as Hi-Liter",
+      "ref_zh": "霍恩发明荧光笔，Carter's Ink 以 Hi-Liter 品牌出售"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39.8,
+      "lng": -98.6,
+      "place_label_zh": "美国（Carter's Ink）",
+      "place_label_en": "United States (Carter's Ink)",
+      "kind": "invention",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Highlighter — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Highlighter",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "来源较弱：目前只有维基百科记载霍恩与 1963 年，公司所在城市未核实，地点仅标到国家。",
+  "summary_zh": "1963 年弗兰克·霍恩发明荧光笔，由 Carter's Ink 公司以 Hi-Liter 商标推出。",
+  "summary_en": "Frank Honn invented the highlighter in 1963; Carter's Ink Company sold it under the Hi-Liter trademark.",
+  "tags": [
+    "writing",
+    "ink",
+    "office"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/highlighter.jpg",
+    "alt_zh": "黄色荧光笔放在纸上",
+    "alt_en": "A yellow highlighter lying on paper",
+    "credit": "Gausanchennai",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Highlighting_pens.jpg"
+  },
+  "notes_en": "Weak sourcing: only Wikipedia documents Honn and 1963; the company's city is unverified, so the location is country-level."
+}

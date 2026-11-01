@@ -1,0 +1,66 @@
+{
+  "id": "hdmi-cable",
+  "name_zh": "HDMI 线",
+  "name_en": "HDMI cable",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 2002,
+      "precision": "exact",
+      "ref": "HDMI founders begin developing HDMI 1.0 (16 Apr 2002)",
+      "ref_zh": "HDMI 创始成员开始制定 HDMI 1.0（2002-04-16）"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 2003,
+      "precision": "year",
+      "ref": "HDMI introduced in consumer electronics",
+      "ref_zh": "HDMI 进入消费电子产品"
+    }
+  },
+  "locations": [
+    {
+      "lat": 35.68,
+      "lng": 139.7,
+      "place_label_zh": "日本（日立 / 松下 / 索尼 / 东芝等）",
+      "place_label_en": "Japan (Hitachi, Panasonic, Sony, Toshiba…)",
+      "kind": "invention",
+      "confidence": "country"
+    },
+    {
+      "lat": 37.39,
+      "lng": -122.0,
+      "place_label_zh": "美国加州（Silicon Image）",
+      "place_label_en": "California, USA (Silicon Image)",
+      "kind": "invention",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "exact",
+  "sources": [
+    {
+      "title": "HDMI — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HDMI",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "2002 年 4 月日立、松下、飞利浦、Silicon Image、索尼、汤姆逊、东芝等开始制定 HDMI，2003 年推出，逐步取代模拟视频接口。",
+  "summary_en": "Hitachi, Panasonic, Philips, Silicon Image, Sony, Thomson and Toshiba began HDMI in April 2002; launched in 2003, it largely replaced analogue video connectors.",
+  "tags": [
+    "video",
+    "cable",
+    "connector"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/hdmi-cable.jpg",
+    "alt_zh": "HDMI 线的接头",
+    "alt_en": "An HDMI cable plug",
+    "credit": "Evan-Amos",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg"
+  }
+}

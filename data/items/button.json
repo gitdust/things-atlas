@@ -1,0 +1,63 @@
+{
+  "id": "button",
+  "name_zh": "纽扣",
+  "name_en": "Button",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1250,
+      "precision": "century",
+      "ref": "Functional buttons with buttonholes appear in 13th-century Germany",
+      "ref_zh": "13 世纪德国出现配合扣眼使用的纽扣"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 51.0,
+      "lng": 10.4,
+      "place_label_zh": "德国",
+      "place_label_en": "Germany",
+      "kind": "invention",
+      "confidence": "country"
+    },
+    {
+      "lat": 27.329,
+      "lng": 68.139,
+      "place_label_zh": "巴基斯坦摩亨佐-达罗（装饰性贝壳纽扣）",
+      "place_label_en": "Mohenjo-daro, Pakistan (ornamental shell buttons)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": -2000
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Button — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Button",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "「纽扣」的起点取决于定义：摩亨佐-达罗的贝壳纽扣（约前 2000 年，科特迪吉遗址更早至前 2800–2600 年）是装饰品，不是扣件；本条目以 13 世纪德国扣眼的出现作为扣合式纽扣的起点。",
+  "summary_zh": "约公元前 2000 年印度河流域已有装饰性贝壳纽扣；真正配合扣眼扣合衣物的纽扣出现在 13 世纪的德国。",
+  "summary_en": "Ornamental shell buttons existed in the Indus Valley by about 2000 BCE; buttons used with buttonholes to fasten clothing appeared in 13th-century Germany.",
+  "tags": [
+    "clothing",
+    "fastener"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/button.jpg",
+    "alt_zh": "一堆铜质制服纽扣",
+    "alt_en": "A pile of brass uniform buttons",
+    "credit": "Europeana staff photographer",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Reserveknapper_til_Hans%27_uniform.jpg"
+  },
+  "notes_en": "It depends on the definition. Mohenjo-daro shell buttons (c. 2000 BCE; Kot Diji even earlier, 2800–2600 BCE) were ornaments, not fasteners. This entry dates the fastening button to the 13th-century German buttonhole."
+}

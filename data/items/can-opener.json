@@ -1,0 +1,74 @@
+{
+  "id": "can-opener",
+  "name_zh": "开罐器",
+  "name_en": "Can opener",
+  "category": "hand_tool",
+  "years": {
+    "invention": {
+      "year": 1855,
+      "precision": "year",
+      "ref": "Robert Yeates devises a claw-ended can opener, London",
+      "ref_zh": "伦敦的耶茨发明爪式开罐器"
+    },
+    "patent": {
+      "year": 1858,
+      "precision": "year",
+      "ref": "Ezra Warner of Waterbury, CT, US 19,063",
+      "ref_zh": "沃特伯里的沃纳获专利 US 19,063"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 51.531,
+      "lng": -0.06,
+      "place_label_zh": "英国伦敦哈克尼路（耶茨）",
+      "place_label_en": "Hackney Road, London, UK (Yeates)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 41.558,
+      "lng": -73.052,
+      "place_label_zh": "美国康涅狄格州沃特伯里（沃纳）",
+      "place_label_en": "Waterbury, Connecticut, USA (Warner)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Can opener — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Can_opener",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 19,063 (Warner) — Google Patents",
+      "url": "https://patents.google.com/patent/US19063A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "今天常见的转轮式开罐器出现得更晚（1870 年 William Lyman 的专利）。",
+  "summary_zh": "罐头出现约半个世纪后，1855 年伦敦的罗伯特·耶茨才发明首个手持爪式开罐器；1858 年美国沃纳获得开罐器专利。",
+  "summary_en": "Decades after canned food appeared, Robert Yeates of London made the first claw-ended hand can opener in 1855; Ezra Warner patented one in the US in 1858.",
+  "tags": [
+    "kitchen",
+    "cutting",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/can-opener.jpg",
+    "alt_zh": "一把手持齿轮开罐器",
+    "alt_en": "A handheld gear-driven can opener",
+    "credit": "Evan-Amos",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kitchen-Modern-Can-Opener.jpg"
+  },
+  "notes_en": "The familiar rotating-wheel opener came later, with William Lyman's 1870 patent."
+}

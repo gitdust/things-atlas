@@ -38,8 +38,8 @@
     },
     {
       "id": "kitchen",
-      "name_zh": "厨具（预留）",
-      "name_en": "Kitchen (reserved)",
+      "name_zh": "厨具",
+      "name_en": "Kitchen",
       "color": "#64748b"
     }
   ]

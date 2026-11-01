@@ -1,0 +1,58 @@
+{
+  "id": "light-switch",
+  "name_zh": "电灯开关",
+  "name_en": "Light switch",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1884,
+      "precision": "year",
+      "ref": "John Henry Holmes's quick-break switch, Shieldfield, Newcastle upon Tyne",
+      "ref_zh": "霍姆斯在纽卡斯尔希尔德菲尔德发明快速断开开关"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1916,
+      "precision": "year",
+      "ref": "Toggle light switch invented by William J. Newton and Morris Goldberg",
+      "ref_zh": "牛顿与戈德堡发明拨动式开关"
+    }
+  },
+  "locations": [
+    {
+      "lat": 54.978,
+      "lng": -1.6,
+      "place_label_zh": "英国纽卡斯尔希尔德菲尔德",
+      "place_label_en": "Shieldfield, Newcastle upon Tyne, UK",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Light switch — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Light_switch",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1884 年约翰·亨利·霍姆斯在纽卡斯尔发明快速断开开关，触点迅速分合，减少电弧；1916 年出现拨动式开关。",
+  "summary_en": "John Henry Holmes invented the quick-break switch in Newcastle upon Tyne in 1884, snapping contacts apart to limit arcing; the toggle switch followed in 1916.",
+  "tags": [
+    "electric",
+    "switch",
+    "wall"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/light-switch.jpg",
+    "alt_zh": "打开面板的墙壁开关和接线盒",
+    "alt_en": "A wall light switch with its box opened",
+    "credit": "Oleg Alexandrov",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Opened_light_switch.JPG"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "coat-hanger",
+  "name_zh": "衣架",
+  "name_en": "Clothes hanger",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1903,
+      "precision": "year",
+      "ref": "Albert J. Parkhouse bends a wire into a hanger at work, Jackson, Michigan",
+      "ref_zh": "帕克豪斯在密歇根州杰克逊用铁丝弯出衣架"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 42.246,
+      "lng": -84.401,
+      "place_label_zh": "美国密歇根州杰克逊",
+      "place_label_en": "Jackson, Michigan, USA",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 41.661,
+      "lng": -72.78,
+      "place_label_zh": "美国康涅狄格州新不列颠（O. A. North 衣钩）",
+      "place_label_en": "New Britain, Connecticut, USA (O. A. North coat hook)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1869
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Clothes hanger — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clothes_hanger",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "发明者有争议：肩形铁丝衣架受 1869 年 O. A. North 的衣钩启发，但杰克逊的帕克豪斯在 1903 年的故事也广为流传，本条目以 1903 年为发明年，并把 North 标为 contested。",
+  "summary_zh": "常见的肩形铁丝衣架，一说源于 1869 年康涅狄格州 O. A. North 的衣钩，一说是 1903 年密歇根州的帕克豪斯在单位找不到挂钩时用铁丝弯出来的。",
+  "summary_en": "The shoulder-shaped wire hanger is traced either to O. A. North's 1869 coat hook in Connecticut or to Albert Parkhouse, who bent one from wire in Michigan in 1903 when all hooks were taken.",
+  "tags": [
+    "clothing",
+    "wire",
+    "storage"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/coat-hanger.jpg",
+    "alt_zh": "一摞木质衣架",
+    "alt_en": "A stack of wooden coat hangers",
+    "credit": "Photograph by Mike Peel (www.mikepeel.net).",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wooden_coat_hangers.jpg"
+  },
+  "notes_en": "Disputed: the wire hanger was inspired by O. A. North's 1869 coat hook, but the 1903 Parkhouse story from Jackson is also widely told. This entry uses 1903 and marks North as contested."
+}

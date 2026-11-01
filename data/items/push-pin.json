@@ -1,0 +1,73 @@
+{
+  "id": "push-pin",
+  "name_zh": "图钉",
+  "name_en": "Push pin",
+  "category": "stationery",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1900,
+      "precision": "year",
+      "ref": "Edwin Moore patents the push-pin and founds Moore Push-Pin Co.",
+      "ref_zh": "摩尔为「推钉」申请专利并创办 Moore Push-Pin 公司"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39.952,
+      "lng": -75.165,
+      "place_label_zh": "美国费城（摩尔）",
+      "place_label_en": "Philadelphia, USA (Moore)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 53.21,
+      "lng": 13.31,
+      "place_label_zh": "德国吕兴（基尔斯滕）",
+      "place_label_en": "Lychen, Germany (Kirsten)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1903
+    },
+    {
+      "lat": 48.208,
+      "lng": 16.373,
+      "place_label_zh": "奥地利（萨克斯）",
+      "place_label_en": "Austria (Sachs)",
+      "kind": "contested",
+      "confidence": "country",
+      "year_override": 1888
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Thumbtack — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thumbtack",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "带柄推钉（摩尔，1900）与扁头图钉是两种形态：扁头图钉一说为德国吕兴钟表匠基尔斯滕 1903 年发明，另一说为奥地利工厂主萨克斯 1888 年用单片金属冲压而成。萨克斯的具体城市未核实。",
+  "summary_zh": "1900 年爱德温·摩尔为带柄的「推钉」申请美国专利；扁头图钉则有德国 1903 年和奥地利 1888 年两种说法。",
+  "summary_en": "Edwin Moore patented the handled push-pin in the US in 1900; the flat thumbtack is credited either to Johann Kirsten (Lychen, 1903) or Heinrich Sachs (Austria, 1888).",
+  "tags": [
+    "office",
+    "pin",
+    "paper"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/push-pin.jpg",
+    "alt_zh": "一枚红色推钉",
+    "alt_en": "A red push pin",
+    "credit": "Slashme",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RedPushPin_(cropped).jpg"
+  },
+  "notes_en": "The handled push-pin (Moore, 1900) and the flat thumbtack are distinct forms. The flat tack is credited either to Lychen clockmaker Johann Kirsten (1903) or to Austrian factory owner Heinrich Sachs (1888), who pressed it from a single metal disk; Sachs's city is unverified."
+}

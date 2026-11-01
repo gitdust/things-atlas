@@ -1,0 +1,59 @@
+{
+  "id": "correction-fluid",
+  "name_zh": "修正液",
+  "name_en": "Correction fluid",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1956,
+      "precision": "year",
+      "ref": "Bette Nesmith Graham's Mistake Out (later Liquid Paper), Dallas",
+      "ref_zh": "格雷厄姆在达拉斯发明 Mistake Out（后称 Liquid Paper）"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 32.777,
+      "lng": -96.797,
+      "place_label_zh": "美国得克萨斯州达拉斯",
+      "place_label_en": "Dallas, Texas, USA",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Correction fluid — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Correction_fluid",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Bette Nesmith Graham — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bette_Nesmith_Graham",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1956 年，达拉斯秘书贝蒂·格雷厄姆用白色颜料遮盖打字错误，后来发展成 Liquid Paper 修正液。",
+  "summary_en": "In 1956, Dallas secretary Bette Nesmith Graham began covering typing errors with white paint, which became Liquid Paper.",
+  "tags": [
+    "office",
+    "typing",
+    "paint"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/correction-fluid.jpg",
+    "alt_zh": "一瓶 BIC Wite-Out 修正液",
+    "alt_en": "A bottle of BIC Wite-Out correction fluid",
+    "credit": "J B from USA",
+    "license": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wite-Out_and_Shadow_(3373550912).jpg"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bar-soap",
+  "name_zh": "肥皂",
+  "name_en": "Soap",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": -2800,
+      "precision": "century",
+      "ref": "Soap-like materials made in ancient Babylon",
+      "ref_zh": "古巴比伦已制作类似肥皂的物质"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 32.536,
+      "lng": 44.421,
+      "place_label_zh": "伊拉克巴比伦",
+      "place_label_en": "Babylon, Iraq",
+      "kind": "invention",
+      "confidence": "approximate"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Soap — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Soap",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "古巴比伦的是「类肥皂」物质，真正的肥皂工艺大约在其后到公元 1 世纪之间形成，因此只标到世纪。",
+  "summary_zh": "约公元前 2800 年的古巴比伦已有制作类似肥皂物质的证据；古罗马人至迟在公元 1 世纪才开始用肥皂。",
+  "summary_en": "Evidence of soap-like materials dates to ancient Babylon around 2800 BCE; the Romans did not use soap until at least the 1st century CE.",
+  "tags": [
+    "hygiene",
+    "washing",
+    "fat"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/bar-soap.jpg",
+    "alt_zh": "一块手工香皂",
+    "alt_en": "A bar of handmade soap",
+    "credit": "Malene Thyssen, simplified by HLHJ",
+    "license": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Handmade_soap_cropped_and_simplified.jpg"
+  },
+  "notes_en": "The Babylonian material was soap-like; true soap-making emerged sometime between then and the 1st century CE, so only century precision is used."
+}

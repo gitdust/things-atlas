@@ -1,0 +1,82 @@
+{
+  "id": "shampoo",
+  "name_zh": "洗发水",
+  "name_en": "Shampoo",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1900,
+      "precision": "year",
+      "ref": "Josef Wilhelm Rausch develops the first liquid hair-washing soap, Emmishofen, Switzerland",
+      "ref_zh": "劳施在瑞士埃米斯霍芬研制出第一种液体洗发皂"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1927,
+      "precision": "year",
+      "ref": "Hans Schwarzkopf improves liquid shampoo for mass production, Berlin",
+      "ref_zh": "施华蔻在柏林改进液体洗发水并量产"
+    },
+    "popularization": {
+      "year": 1930,
+      "precision": "decade",
+      "ref": "Drene, the first shampoo with synthetic surfactants",
+      "ref_zh": "Drene 成为首款使用合成表面活性剂的洗发水"
+    }
+  },
+  "locations": [
+    {
+      "lat": 47.65,
+      "lng": 9.17,
+      "place_label_zh": "瑞士埃米斯霍芬",
+      "place_label_en": "Emmishofen, Switzerland",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 52.52,
+      "lng": 13.405,
+      "place_label_zh": "德国柏林（施华蔻）",
+      "place_label_en": "Berlin, Germany (Schwarzkopf)",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 50.823,
+      "lng": -0.137,
+      "place_label_zh": "英国布莱顿（马哈茂德）",
+      "place_label_en": "Brighton, UK (Mahomed)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1814
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Shampoo — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shampoo",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "马哈茂德最初在英国推广的是印度式头部按摩（shampooing），不是洗发液；他 1821 年在布莱顿开设浴室。",
+  "summary_zh": "「洗发」一词经印度旅行家迪恩·马哈茂德 1814 年传入英国；1900 年劳施在瑞士研制出液体洗发皂，1927 年施华蔻在柏林实现量产。",
+  "summary_en": "Sake Dean Mahomed brought \"shampooing\" (head massage) to Britain in 1814; Rausch made the first liquid hair soap in Switzerland in 1900, and Schwarzkopf mass-produced it in Berlin in 1927.",
+  "tags": [
+    "hygiene",
+    "hair",
+    "liquid"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/shampoo.jpg",
+    "alt_zh": "一瓶多芬洗发水",
+    "alt_en": "A bottle of Dove shampoo",
+    "credit": "Ranjima np",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dove_shampoo_bottle.jpg"
+  },
+  "notes_en": "Mahomed originally introduced Indian-style head massage (shampooing), not a liquid product; he opened his Brighton baths in 1821."
+}

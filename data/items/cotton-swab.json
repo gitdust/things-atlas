@@ -1,0 +1,66 @@
+{
+  "id": "cotton-swab",
+  "name_zh": "棉签",
+  "name_en": "Cotton swab",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1923,
+      "precision": "year",
+      "ref": "Leo Gerstenzang develops the first mass-produced cotton swab",
+      "ref_zh": "格斯滕藏研制出第一种量产棉签"
+    },
+    "patent": {
+      "year": 1927,
+      "precision": "year",
+      "ref": "US 1,652,108 swab patent",
+      "ref_zh": "棉签专利 US 1,652,108"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39.8,
+      "lng": -98.6,
+      "place_label_zh": "美国（格斯滕藏）",
+      "place_label_en": "United States (Gerstenzang)",
+      "kind": "invention",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Cotton swab — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cotton_swab",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 1,652,108 — Google Patents",
+      "url": "https://patents.google.com/patent/US1652108A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "格斯滕藏公司所在城市未核实，地点只标到国家。",
+  "summary_zh": "1923 年格斯滕藏看到妻子把棉花缠在牙签上给婴儿清洁耳朵，于是做出量产棉签，后来叫作 Q-tips。",
+  "summary_en": "In 1923 Leo Gerstenzang, after watching his wife wrap cotton on toothpicks to clean their baby's ears, created the first mass-produced swab, later called Q-tips.",
+  "tags": [
+    "hygiene",
+    "cotton",
+    "ear"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/cotton-swab.jpg",
+    "alt_zh": "一根白色棉签",
+    "alt_en": "A white cotton swab",
+    "credit": "Aney",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:White_menbo.jpg"
+  },
+  "notes_en": "The city of Gerstenzang's company is unverified, so the location is country-level."
+}

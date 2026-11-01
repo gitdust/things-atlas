@@ -1,0 +1,94 @@
+{
+  "id": "toilet-paper",
+  "name_zh": "卫生纸",
+  "name_en": "Toilet paper",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 589,
+      "precision": "century",
+      "ref": "Scholar-official Yan Zhitui mentions using paper for toilet purposes (c. 589)",
+      "ref_zh": "学者颜之推（约 589 年）提到用纸如厕"
+    },
+    "patent": {
+      "year": 1883,
+      "precision": "year",
+      "ref": "Seth Wheeler of Albany, NY: earliest US toilet-paper and dispenser patents",
+      "ref_zh": "奥尔巴尼的惠勒获美国最早的卫生纸与纸架专利"
+    },
+    "mass_production": {
+      "year": 1393,
+      "precision": "year",
+      "ref": "Ming court at Nanjing receives 720,000 sheets a year",
+      "ref_zh": "明朝南京宫廷每年供应 72 万张手纸"
+    },
+    "popularization": {
+      "year": 1857,
+      "precision": "year",
+      "ref": "Joseph Gayetty's Medicated Paper, first modern commercial toilet paper in the US",
+      "ref_zh": "盖耶蒂推出「药用纸」，美国最早的现代商品卫生纸"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.341,
+      "lng": 108.94,
+      "place_label_zh": "中国（隋唐时期，以长安示意）",
+      "place_label_en": "China (Sui–Tang era; Chang'an shown)",
+      "kind": "invention",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 32.06,
+      "lng": 118.797,
+      "place_label_zh": "中国南京（明代宫廷）",
+      "place_label_en": "Nanjing, China (Ming court)",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 39.8,
+      "lng": -98.6,
+      "place_label_zh": "美国（盖耶蒂）",
+      "place_label_en": "United States (Gayetty)",
+      "kind": "popularization",
+      "confidence": "country"
+    },
+    {
+      "lat": 42.653,
+      "lng": -73.756,
+      "place_label_zh": "美国纽约州奥尔巴尼（惠勒）",
+      "place_label_en": "Albany, New York, USA (Wheeler)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Toilet paper — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Toilet_paper",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "颜之推的记载只说明当时已有人用纸如厕；地点以隋唐都城长安示意。盖耶蒂的城市未经核实，只标到国家。",
+  "summary_zh": "约 589 年颜之推已提到用纸如厕；14 世纪中国已大量生产手纸；1857 年美国出现商品卫生纸，1883 年惠勒获得卷筒纸架专利。",
+  "summary_en": "Yan Zhitui mentioned toilet paper around 589; China mass-produced it by the 14th century. Gayetty sold commercial toilet paper in the US in 1857, and Wheeler patented rolls and dispensers in 1883.",
+  "tags": [
+    "paper",
+    "hygiene",
+    "bathroom"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/toilet-paper.jpg",
+    "alt_zh": "一卷白色卫生纸",
+    "alt_en": "A roll of white toilet paper",
+    "credit": "Derrick Coetzee (User:Dcoetzee)",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Roll_of_toilet_paper_with_one_sheet_folded_down_in_front.jpg"
+  },
+  "notes_en": "Yan Zhitui's remark only shows paper was already used this way; Chang'an marks the Sui–Tang capital as an approximation. Gayetty's city is unverified, so it is country-level."
+}

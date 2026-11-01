@@ -1,0 +1,80 @@
+{
+  "id": "computer-mouse",
+  "name_zh": "鼠标",
+  "name_en": "Computer mouse",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1964,
+      "precision": "year",
+      "ref": "Douglas Engelbart and Bill English build the first mouse prototype at SRI",
+      "ref_zh": "恩格尔巴特与英格利希在斯坦福研究所制作第一个鼠标原型"
+    },
+    "patent": {
+      "year": 1970,
+      "precision": "year",
+      "ref": "US 3,541,541 X-Y position indicator for a display system",
+      "ref_zh": "美国专利 US 3,541,541（显示系统 X-Y 位置指示器）"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 1968,
+      "precision": "year",
+      "ref": "Public demonstration in \"The Mother of All Demos\"",
+      "ref_zh": "在「演示之母」上公开展示"
+    }
+  },
+  "locations": [
+    {
+      "lat": 37.453,
+      "lng": -122.182,
+      "place_label_zh": "美国加州门洛帕克（SRI）",
+      "place_label_en": "Menlo Park, California, USA (SRI)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.0,
+      "lng": 10.4,
+      "place_label_zh": "德国（Telefunken Rollkugel）",
+      "place_label_en": "Germany (Telefunken Rollkugel)",
+      "kind": "contested",
+      "confidence": "country",
+      "year_override": 1968
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Computer mouse — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Computer_mouse",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 3,541,541 (Engelbart) — Google Patents",
+      "url": "https://patents.google.com/patent/US3541541A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "1968 年 10 月 2 日 Telefunken 发布 Rollkugel 滚球鼠标，比恩格尔巴特的公开演示早两个多月，是独立发明的滚球鼠标。",
+  "summary_zh": "1964 年道格拉斯·恩格尔巴特和比尔·英格利希在斯坦福研究所做出第一个鼠标原型，1968 年公开演示；同年德国 Telefunken 也推出滚球式鼠标。",
+  "summary_en": "Douglas Engelbart and Bill English built the first mouse at SRI in 1964 and demonstrated it in 1968; Germany's Telefunken showed a rolling-ball mouse that same year.",
+  "tags": [
+    "computer",
+    "input",
+    "pointing"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/computer-mouse.jpg",
+    "alt_zh": "一只微软三键鼠标",
+    "alt_en": "A Microsoft three-button mouse",
+    "credit": "Darkone",
+    "license": "CC BY-SA 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:3-Tasten-Maus_Microsoft.jpg"
+  },
+  "notes_en": "Telefunken announced its Rollkugel rolling-ball mouse on 2 October 1968, two months before Engelbart's public demo, as an independent ball-mouse design."
+}

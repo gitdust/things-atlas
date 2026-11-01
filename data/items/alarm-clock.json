@@ -1,0 +1,68 @@
+{
+  "id": "alarm-clock",
+  "name_zh": "闹钟",
+  "name_en": "Alarm clock",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1787,
+      "precision": "year",
+      "ref": "Levi Hutchins builds the first American alarm clock, Concord, NH",
+      "ref_zh": "哈钦斯在新罕布什尔州康科德制作美国第一只闹钟"
+    },
+    "patent": {
+      "year": 1847,
+      "precision": "year",
+      "ref": "Antoine Redier patents the first adjustable mechanical alarm clock, France",
+      "ref_zh": "雷迪耶在法国获得首个可调机械闹钟专利"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 43.208,
+      "lng": -71.538,
+      "place_label_zh": "美国新罕布什尔州康科德",
+      "place_label_en": "Concord, New Hampshire, USA",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 48.857,
+      "lng": 2.352,
+      "place_label_zh": "法国（雷迪耶）",
+      "place_label_en": "France (Redier)",
+      "kind": "patent",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Alarm clock — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alarm_clock",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "15 世纪欧洲已有可设定的机械闹钟，但无具体年份；本条目采用 1787 年哈钦斯（只是美国第一只），并以雷迪耶 1847 年专利为可调闹钟的起点。",
+  "summary_zh": "可设定的机械闹钟至迟 15 世纪已在欧洲出现；1787 年哈钦斯做出只能在凌晨四点响的闹钟，1847 年雷迪耶获得可调闹钟专利。",
+  "summary_en": "Settable mechanical alarms existed in Europe by the 15th century; Levi Hutchins built one that rang only at 4 a.m. in 1787, and Antoine Redier patented an adjustable one in 1847.",
+  "tags": [
+    "clock",
+    "time",
+    "bell"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/alarm-clock.jpg",
+    "alt_zh": "一只黑色双铃机械闹钟",
+    "alt_en": "A black twin-bell mechanical alarm clock",
+    "credit": "Sun Ladder",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2010-07-20_Black_windup_alarm_clock_face.jpg"
+  },
+  "notes_en": "Settable mechanical alarms existed in 15th-century Europe, but without a precise date. This entry uses Hutchins in 1787 (only the first in America) and Redier's 1847 patent for the adjustable alarm."
+}

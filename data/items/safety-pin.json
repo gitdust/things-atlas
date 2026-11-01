@@ -1,0 +1,70 @@
+{
+  "id": "safety-pin",
+  "name_zh": "别针",
+  "name_en": "Safety pin",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1849,
+      "precision": "exact",
+      "ref": "Walter Hunt's US 6,281 (10 Apr 1849)",
+      "ref_zh": "亨特获美国专利 US 6,281（1849-04-10）"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 40.713,
+      "lng": -74.006,
+      "place_label_zh": "美国纽约（亨特）",
+      "place_label_en": "New York, USA (Hunt)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 52.486,
+      "lng": -1.89,
+      "place_label_zh": "英国伯明翰（Rowley）",
+      "place_label_en": "Birmingham, UK (Rowley)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1849
+    }
+  ],
+  "confidence": "exact",
+  "sources": [
+    {
+      "title": "Safety pin — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Safety_pin",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 6,281 (Hunt) — Google Patents",
+      "url": "https://patents.google.com/patent/US6281A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "同年英国伯明翰的 Charles Rowley 也获得了类似别针的专利；古代的扣针（fibula）在功能上是它的前身。",
+  "summary_zh": "1849 年 4 月 10 日，纽约机械师沃尔特·亨特获得别针专利，据说他为还一笔 15 美元的债，用一根铜丝做出了它。",
+  "summary_en": "New York mechanic Walter Hunt patented the safety pin on 10 April 1849, reportedly twisting it from wire to pay off a $15 debt.",
+  "tags": [
+    "clothing",
+    "pin",
+    "wire"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/safety-pin.jpg",
+    "alt_zh": "一枚金属别针",
+    "alt_en": "A metal safety pin",
+    "credit": "Haragayato",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Safety_Pin.jpg"
+  },
+  "notes_en": "Charles Rowley of Birmingham patented a similar pin in 1849 as well; the ancient fibula brooch is a functional ancestor."
+}

@@ -1,0 +1,55 @@
+{
+  "id": "padlock",
+  "name_zh": "挂锁",
+  "name_en": "Padlock",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": -500,
+      "precision": "century",
+      "ref": "Padlocks dating to the Roman era (500 BCE – 300 CE)",
+      "ref_zh": "古罗马时期（前 500–公元 300 年）已有挂锁"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 41.9,
+      "lng": 12.5,
+      "place_label_zh": "罗马帝国（意大利罗马）",
+      "place_label_en": "Roman world (Rome, Italy)",
+      "kind": "invention",
+      "confidence": "approximate"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Padlock — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Padlock",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "来源较弱：年代跨度很大，只能标到世纪；英文 padlock 一词 15 世纪末才出现。",
+  "summary_zh": "已发现的挂锁可追溯到古罗马时期（公元前 500 年至公元 300 年）；19 世纪的波尔亨锁等设计让挂锁更安全。",
+  "summary_en": "Surviving padlocks date to the Roman era (500 BCE–300 CE); 19th-century designs such as the Polhem lock made them more secure.",
+  "tags": [
+    "lock",
+    "security",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/padlock.jpg",
+    "alt_zh": "一把铜挂锁和钥匙",
+    "alt_en": "A brass padlock with keys",
+    "credit": "Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com]",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Padlock_kl%C3%B3dka_ubt.JPG"
+  },
+  "notes_en": "Weak sourcing: the date range is wide, so only century precision is given; the English word padlock dates from the late 15th century."
+}

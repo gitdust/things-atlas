@@ -1,0 +1,76 @@
+{
+  "id": "flashlight",
+  "name_zh": "手电筒",
+  "name_en": "Flashlight",
+  "category": "hand_tool",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1899,
+      "precision": "exact",
+      "ref": "David Misell's US 617,592 (10 Jan 1899)",
+      "ref_zh": "米塞尔获美国专利 US 617,592（1899-01-10）"
+    },
+    "mass_production": {
+      "year": 1899,
+      "precision": "year",
+      "ref": "American Electrical Novelty and Manufacturing Co. (later Eveready), New York",
+      "ref_zh": "纽约的美国电气新奇制造公司（后来的永备）生产"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 40.713,
+      "lng": -74.006,
+      "place_label_zh": "美国纽约",
+      "place_label_en": "New York, USA",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "exact",
+  "sources": [
+    {
+      "title": "Flashlight — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Flashlight",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 617,592 (Misell) — Google Patents",
+      "url": "https://patents.google.com/patent/US617592A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Eveready Battery Company — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eveready_Battery_Company",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "RFD: Miscellaneous other items (Ever Ready Flash Light) — Smithsonian National Postal Museum",
+      "url": "https://postalmuseum.si.edu/research-article/rfd-marketing-to-a-rural-audience-miscellaneous-supplies-supplemental-equipment",
+      "type": "museum",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1899 年 1 月 10 日，大卫·米塞尔获得手电筒专利，并转让给纽约的美国电气新奇制造公司，也就是后来的永备（Eveready）。",
+  "summary_en": "David Misell patented the flashlight on 10 January 1899 and assigned it to New York's American Electrical Novelty and Manufacturing Co., later Eveready.",
+  "tags": [
+    "light",
+    "battery",
+    "portable"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/flashlight.jpg",
+    "alt_zh": "两支 LED 手电筒",
+    "alt_en": "Two LED flashlights",
+    "credit": "Brownse10",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:LED_Flashlights.jpg"
+  }
+}

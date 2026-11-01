@@ -1,0 +1,60 @@
+{
+  "id": "toothpaste-tube",
+  "name_zh": "牙膏管",
+  "name_en": "Toothpaste tube",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1880,
+      "precision": "decade",
+      "ref": "Washington Sheffield of New London, CT, puts toothpaste in a collapsible tube",
+      "ref_zh": "新伦敦的谢菲尔德把牙膏装进可挤压软管"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1896,
+      "precision": "year",
+      "ref": "Colgate dental cream sold in collapsible tubes",
+      "ref_zh": "高露洁牙膏开始用软管销售"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 41.356,
+      "lng": -72.1,
+      "place_label_zh": "美国康涅狄格州新伦敦",
+      "place_label_en": "New London, Connecticut, USA",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "decade",
+  "sources": [
+    {
+      "title": "Toothpaste — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Toothpaste",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "年份有分歧：维基百科写作 1880 年，其他资料常写 1892 年，因此精度只标到十年。牙膏本身比软管古老得多。",
+  "summary_zh": "19 世纪 80 至 90 年代，康涅狄格州牙医华盛顿·谢菲尔德把牙膏装进可挤压的金属软管；1896 年高露洁跟进。",
+  "summary_en": "In the 1880s–90s, Connecticut dentist Washington Sheffield put toothpaste into a collapsible tube; Colgate followed in 1896.",
+  "tags": [
+    "hygiene",
+    "teeth",
+    "packaging"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/toothpaste-tube.jpg",
+    "alt_zh": "浴室柜里的两支儿童牙膏",
+    "alt_en": "Two toothpaste tubes in a bathroom cabinet",
+    "credit": "Thomas Angermann",
+    "license": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zendium_toothpaste_tubes.jpg"
+  },
+  "notes_en": "Dates vary: Wikipedia says 1880, while other sources often give 1892, so only decade precision is used. Toothpaste itself is far older than the tube."
+}

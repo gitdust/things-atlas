@@ -1,0 +1,74 @@
+{
+  "id": "safety-razor",
+  "name_zh": "安全剃须刀",
+  "name_en": "Safety razor",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1880,
+      "precision": "year",
+      "ref": "Frederic and Otto Kampfe of Brooklyn file the first \"safety razor\" patent",
+      "ref_zh": "布鲁克林的坎普夫兄弟首次以「安全剃须刀」申请专利"
+    },
+    "patent": {
+      "year": 1904,
+      "precision": "year",
+      "ref": "King Camp Gillette's double-edge disposable-blade razor, US 775,134",
+      "ref_zh": "吉列的双刃可替换刀片剃须刀专利 US 775,134"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 40.678,
+      "lng": -73.944,
+      "place_label_zh": "美国纽约布鲁克林（坎普夫兄弟）",
+      "place_label_en": "Brooklyn, New York, USA (Kampfe)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 42.36,
+      "lng": -71.059,
+      "place_label_zh": "美国波士顿（吉列）",
+      "place_label_en": "Boston, USA (Gillette)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Safety razor — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Safety_razor",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 775,134 (Gillette) — Google Patents",
+      "url": "https://patents.google.com/patent/US775134A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "约 1762 年法国刀匠佩雷已给直剃刀加装护罩；吉列 1901 年提交专利申请，1904 年获批。",
+  "summary_zh": "1880 年布鲁克林的坎普夫兄弟首次以「安全剃须刀」之名申请专利；1904 年吉列的一次性双刃刀片让它真正普及。",
+  "summary_en": "The Kampfe brothers of Brooklyn first used the term in an 1880 safety-razor patent; King Gillette's disposable double-edge blade, patented in 1904, made it widespread.",
+  "tags": [
+    "shaving",
+    "blade",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/safety-razor.jpg",
+    "alt_zh": "一把双刃安全剃须刀和刀片",
+    "alt_en": "A double-edge safety razor and blade",
+    "credit": "Simon A. Eugster",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Parker-76R_Safety_Razor.jpg"
+  },
+  "notes_en": "French cutler Jean-Jacques Perret added a guard to a straight razor around 1762; Gillette applied in 1901 and was granted in 1904."
+}

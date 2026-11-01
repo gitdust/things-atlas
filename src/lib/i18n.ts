@@ -147,3 +147,14 @@ export function tf(
     t(lang, key),
   );
 }
+
+/**
+ * Format a (possibly BCE) year. Negative years are BCE:
+ * zh → 「公元前 2800」/ short 「前2800」, en → "2800 BCE".
+ */
+export function formatYear(lang: Lang, y: number, short = false): string {
+  if (y >= 0) return String(y);
+  const n = String(-y);
+  if (lang === 'zh') return short ? `前${n}` : `公元前 ${n}`;
+  return `${n} BCE`;
+}

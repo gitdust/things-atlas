@@ -1,0 +1,69 @@
+{
+  "id": "fountain-pen",
+  "name_zh": "钢笔",
+  "name_en": "Fountain pen",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1702,
+      "precision": "year",
+      "ref": "Earliest datable reservoir pen of the type described by Nicholas Bion",
+      "ref_zh": "比翁所描述类型的储墨笔，最早一支刻有 1702 年"
+    },
+    "patent": {
+      "year": 1827,
+      "precision": "exact",
+      "ref": "Petrache Poenaru's French patent (25 May 1827)",
+      "ref_zh": "波埃纳鲁获法国专利（1827-05-25）"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 48.857,
+      "lng": 2.352,
+      "place_label_zh": "法国巴黎（比翁 / 波埃纳鲁）",
+      "place_label_en": "Paris, France (Bion / Poenaru)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.507,
+      "lng": -0.128,
+      "place_label_zh": "英国伦敦（Fölsch 1809 专利）",
+      "place_label_en": "London, UK (Fölsch 1809 patent)",
+      "kind": "contested",
+      "confidence": "country",
+      "year_override": 1809
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Fountain pen — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fountain_pen",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "钢笔没有单一发明者：1702 年的储墨笔形制见于比翁的著作，1809 年英国 Fölsch 获首个专利，1827 年罗马尼亚人波埃纳鲁获法国专利，19 世纪末纽约的 Waterman 等品牌让它普及。本条目以 1702 年为发明年。",
+  "summary_zh": "储墨笔最早可追溯到 1702 年；1809 年英国出现首个钢笔专利，1827 年波埃纳鲁在法国获得鹅毛管储墨笔专利。",
+  "summary_en": "Reservoir pens date to at least 1702; England granted its first fountain-pen patent in 1809, and Petrache Poenaru received a French patent in 1827.",
+  "tags": [
+    "writing",
+    "ink",
+    "nib"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/fountain-pen.jpg",
+    "alt_zh": "钢笔笔尖在纸上书写",
+    "alt_en": "A fountain pen nib writing on paper",
+    "credit": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fountain_pen_writing_(literacy).jpg"
+  },
+  "notes_en": "No single inventor: Bion documented the reservoir pen (earliest dated 1702), Fölsch got the first English patent in 1809, Poenaru a French patent in 1827, and late-19th-century makers such as Waterman in New York made it common. This entry uses 1702 as invention."
+}

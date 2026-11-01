@@ -1,0 +1,78 @@
+{
+  "id": "adhesive-bandage",
+  "name_zh": "创可贴",
+  "name_en": "Adhesive bandage",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1920,
+      "precision": "year",
+      "ref": "Earle Dickson of Johnson & Johnson makes the first Band-Aid, Highland Park, NJ",
+      "ref_zh": "强生员工迪克森在新泽西州高地公园做出第一片邦迪"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1924,
+      "precision": "year",
+      "ref": "Johnson & Johnson installs machines to mass-produce Band-Aids",
+      "ref_zh": "强生安装机器量产邦迪"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 40.496,
+      "lng": -74.424,
+      "place_label_zh": "美国新泽西州高地公园",
+      "place_label_en": "Highland Park, New Jersey, USA",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 40.486,
+      "lng": -74.452,
+      "place_label_zh": "美国新泽西州新不伦瑞克（强生）",
+      "place_label_en": "New Brunswick, New Jersey, USA (Johnson & Johnson)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Adhesive bandage — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adhesive_bandage",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Band-Aid — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Band-Aid",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Earle Dickson — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Earle_Dickson",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1920 年，强生员工厄尔·迪克森为常在厨房受伤的妻子，把纱布块间隔贴在胶带上，做出第一片邦迪；1924 年实现机器量产。",
+  "summary_en": "In 1920 Johnson & Johnson employee Earle Dickson stuck gauze squares onto tape for his often-injured wife, creating the Band-Aid; machines mass-produced it from 1924.",
+  "tags": [
+    "first-aid",
+    "adhesive",
+    "gauze"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/adhesive-bandage.jpg",
+    "alt_zh": "几种形状的创可贴",
+    "alt_en": "Adhesive bandages in several shapes",
+    "credit": "Foto: Jonn Leffmann",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pl%C3%A5ster_-_Adhesive_bandage_-_2025.jpg"
+  }
+}

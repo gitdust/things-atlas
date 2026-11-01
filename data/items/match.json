@@ -1,0 +1,73 @@
+{
+  "id": "match",
+  "name_zh": "火柴",
+  "name_en": "Match",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1826,
+      "precision": "year",
+      "ref": "John Walker's friction match, Stockton-on-Tees",
+      "ref_zh": "沃克在斯托克顿发明摩擦火柴"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1855,
+      "precision": "year",
+      "ref": "Lundström brothers' safety matches shown at the Paris Universal Exhibition (made in Jönköping)",
+      "ref_zh": "伦德斯特伦兄弟的安全火柴在巴黎世博会展出（产自延雪平）"
+    },
+    "popularization": {
+      "year": 1827,
+      "precision": "year",
+      "ref": "Walker sells his first friction matches",
+      "ref_zh": "沃克开始出售摩擦火柴"
+    }
+  },
+  "locations": [
+    {
+      "lat": 54.57,
+      "lng": -1.318,
+      "place_label_zh": "英国斯托克顿",
+      "place_label_en": "Stockton-on-Tees, UK",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 57.783,
+      "lng": 14.161,
+      "place_label_zh": "瑞典延雪平（伦德斯特伦兄弟）",
+      "place_label_en": "Jönköping, Sweden (Lundström brothers)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Match — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Match",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "火柴头不再含易燃物、改由火柴盒侧面的红磷擦纸点燃的「安全火柴」，由瑞典人帕施 1844 年提出（专利用于擦面）；伦德斯特伦兄弟在延雪平量产，1855 年在巴黎世博会展出。更早的中国硫磺松木条据元代《南村辍耕录》（1366）记载，577 年已有人使用。",
+  "summary_zh": "1826 年斯托克顿药剂师约翰·沃克发明摩擦火柴；今天常用的安全火柴把红磷放到火柴盒侧面，由瑞典人发展并在延雪平量产。",
+  "summary_en": "Stockton chemist John Walker invented the friction match in 1826. Today's safety match moves red phosphorus to the box's striker, an idea developed and mass-produced in Sweden.",
+  "tags": [
+    "fire",
+    "phosphorus",
+    "wood"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/match.jpg",
+    "alt_zh": "在火柴盒上划燃一根火柴",
+    "alt_en": "Striking a match on its box",
+    "credit": "Yann SEGALEN",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Friction_d%27une_allumette.jpg"
+  },
+  "notes_en": "The safety match puts red phosphorus on the box's striker instead of in the head; Swede Gustaf Erik Pasch proposed it in 1844 and patented the striking surface. The Lundström brothers mass-produced it in Jönköping and showed it at the 1855 Paris Exhibition. Chinese sulfur-impregnated pine sticks are said, in a 1366 text, to have been used as early as 577."
+}

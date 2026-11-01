@@ -1,0 +1,79 @@
+{
+  "id": "eraser",
+  "name_zh": "橡皮",
+  "name_en": "Eraser",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1770,
+      "precision": "year",
+      "ref": "Edward Nairne markets rubber erasers in London (noted by Priestley, 15 Apr 1770)",
+      "ref_zh": "奈恩在伦敦出售橡胶擦（普里斯特利 1770 年 4 月 15 日记载）"
+    },
+    "patent": {
+      "year": 1858,
+      "precision": "exact",
+      "ref": "Hymen Lipman's pencil-with-eraser patent US 19,783 (30 Mar 1858)",
+      "ref_zh": "李普曼获铅笔加橡皮头专利 US 19,783（1858-03-30）"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 1839,
+      "precision": "year",
+      "ref": "Charles Goodyear's vulcanization makes rubber durable",
+      "ref_zh": "固特异发明硫化，使橡胶耐用"
+    }
+  },
+  "locations": [
+    {
+      "lat": 51.507,
+      "lng": -0.128,
+      "place_label_zh": "英国伦敦（奈恩）",
+      "place_label_en": "London, UK (Nairne)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 39.952,
+      "lng": -75.165,
+      "place_label_zh": "美国费城（李普曼）",
+      "place_label_en": "Philadelphia, USA (Lipman)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Eraser — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eraser",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 19,783 (Lipman) — Google Patents",
+      "url": "https://patents.google.com/patent/US19783A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "李普曼的专利后来被美国最高法院判定无效（认为只是两种已有物的组合）。橡皮本身先于硫化橡胶出现，1839 年的硫化让它更耐用。",
+  "summary_zh": "1770 年伦敦仪器商奈恩开始出售橡胶擦，普里斯特利记下它能擦掉铅笔痕；1858 年李普曼为铅笔加橡皮头申请了专利。",
+  "summary_en": "London instrument maker Edward Nairne sold rubber erasers in 1770, as Priestley noted; Hymen Lipman patented a pencil with an attached eraser in 1858.",
+  "tags": [
+    "writing",
+    "rubber",
+    "office"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/eraser.jpg",
+    "alt_zh": "两块粉色橡皮",
+    "alt_en": "Two pink erasers",
+    "credit": "Evan-Amos",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Office-pink-erasers.jpg"
+  },
+  "notes_en": "Lipman's patent was later invalidated by the US Supreme Court as a mere combination of existing things. Erasers predate vulcanized rubber; Goodyear's 1839 process made them durable."
+}

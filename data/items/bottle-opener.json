@@ -1,0 +1,64 @@
+{
+  "id": "bottle-opener",
+  "name_zh": "开瓶器",
+  "name_en": "Bottle opener",
+  "category": "hand_tool",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1894,
+      "precision": "exact",
+      "ref": "William Painter's hand-held opener patent (6 Feb 1894), Baltimore",
+      "ref_zh": "巴尔的摩的佩因特获手持开瓶器专利（1894-02-06）"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39.29,
+      "lng": -76.612,
+      "place_label_zh": "美国巴尔的摩（佩因特）",
+      "place_label_en": "Baltimore, USA (Painter)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 37.974,
+      "lng": -87.556,
+      "place_label_zh": "美国印第安纳州埃文斯维尔（Bernardin）",
+      "place_label_en": "Evansville, Indiana, USA (Bernardin)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1893
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Bottle opener — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bottle_opener",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "通常把开瓶器归功于皇冠瓶盖的发明者佩因特，但印第安纳州埃文斯维尔的 Bernardin 于 1893 年 7 月 11 日就获得了台式开瓶器专利，比佩因特早几个月。",
+  "summary_zh": "1894 年巴尔的摩的威廉·佩因特为配合他发明的皇冠瓶盖获得手持开瓶器专利；埃文斯维尔的 Bernardin 早几个月申请了台式开瓶器专利。",
+  "summary_en": "William Painter of Baltimore, inventor of the crown cork, patented a hand-held bottle opener in 1894; Bernardin of Evansville patented a table-mounted one months earlier.",
+  "tags": [
+    "bottle",
+    "metal",
+    "lever"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/bottle-opener.jpg",
+    "alt_zh": "一只钥匙扣开瓶器",
+    "alt_en": "A keychain bottle opener",
+    "credit": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bottle_opener_keychain.jpg"
+  },
+  "notes_en": "Credit usually goes to Painter, inventor of the crown cork, but Bernardin of Evansville, Indiana, patented a table-mounted opener on 11 July 1893, months before Painter."
+}

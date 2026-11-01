@@ -1,0 +1,83 @@
+{
+  "id": "jeans-rivet",
+  "name_zh": "牛仔裤铆钉",
+  "name_en": "Jeans rivet",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1871,
+      "precision": "year",
+      "ref": "Jacob Davis, a tailor in Reno, rivets work pants",
+      "ref_zh": "里诺裁缝雅各布·戴维斯用铆钉加固工装裤"
+    },
+    "patent": {
+      "year": 1873,
+      "precision": "exact",
+      "ref": "US 139,121 to Davis and Levi Strauss (20 May 1873)",
+      "ref_zh": "戴维斯与李维·斯特劳斯获专利 US 139,121（1873-05-20）"
+    },
+    "mass_production": {
+      "year": 1873,
+      "precision": "year",
+      "ref": "Levi Strauss & Co. produces riveted pants in San Francisco",
+      "ref_zh": "李维斯在旧金山生产铆钉裤"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39.53,
+      "lng": -119.814,
+      "place_label_zh": "美国内华达州里诺",
+      "place_label_en": "Reno, Nevada, USA",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 37.775,
+      "lng": -122.419,
+      "place_label_zh": "美国旧金山（李维斯）",
+      "place_label_en": "San Francisco, USA (Levi Strauss)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Jeans — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jeans",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 139,121 (Davis & Strauss) — Google Patents",
+      "url": "https://patents.google.com/patent/US139121A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Jacob W. Davis — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jacob_W._Davis",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1871 年里诺裁缝雅各布·戴维斯用铜铆钉加固裤袋，1873 年与李维·斯特劳斯合作获得专利，牛仔裤由此诞生。",
+  "summary_en": "Reno tailor Jacob Davis reinforced pocket corners with copper rivets in 1871 and patented the idea with Levi Strauss in 1873, creating blue jeans.",
+  "tags": [
+    "clothing",
+    "denim",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/jeans-rivet.jpg",
+    "alt_zh": "牛仔裤背面的铜铆钉",
+    "alt_en": "Copper rivets on the back of a pair of jeans",
+    "credit": "Tokunori",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:501xx-rivet-back.jpg"
+  }
+}

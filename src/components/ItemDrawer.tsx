@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import type { AtlasItem, CategoryMeta, YearKey, YearMark } from '@/lib/types';
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { CATEGORY_COLORS } from '@/lib/theme';
-import { pick, t, tf, type Lang, type MessageKey } from '@/lib/i18n';
+import { pick, t, tf, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
 
 type Props = {
   lang: Lang;
@@ -90,7 +90,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
         <p className="drawer-alt">{alt}</p>
 
         <div className="drawer-primary">
-          <span className="num">{item.primary_year}</span>
+          <span className="num">{formatYear(lang, item.primary_year)}</span>
           <small>
             {t(lang, 'primaryYear')}
             {pKey ? ` · ${t(lang, pKey as MessageKey)}` : ''}
@@ -134,7 +134,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
                 key={key}
                 className={`${mark ? '' : 'is-null'}${key === pKey ? ' is-primary' : ''}`}
               >
-                <span className="ms-year num">{mark ? mark.year : '—'}</span>
+                <span className="ms-year num">{mark ? formatYear(lang, mark.year, true) : '—'}</span>
                 <span className="ms-node" aria-hidden="true" />
                 <div className="ms-body">
                   <div className="ms-label">
@@ -168,7 +168,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
                   <div className="place-meta">
                     <span className="place-kind">{t(lang, `kind_${loc.kind}` as MessageKey)}</span>
                     {loc.year_override != null ? (
-                      <span className="num"> · {loc.year_override}</span>
+                      <span className="num"> · {formatYear(lang, loc.year_override)}</span>
                     ) : null}
                     <span className="place-coord num"> · {fmtCoord(loc.lat, loc.lng)}</span>
                   </div>

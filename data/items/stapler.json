@@ -1,0 +1,91 @@
+{
+  "id": "stapler",
+  "name_zh": "订书机",
+  "name_en": "Stapler",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1877,
+      "precision": "year",
+      "ref": "Henry R. Heyl files US 195,603: first machine to insert and clinch a staple in one step",
+      "ref_zh": "黑尔申请 US 195,603：首台一步完成穿钉与弯脚的机器"
+    },
+    "patent": {
+      "year": 1879,
+      "precision": "exact",
+      "ref": "George McGill's Single-Stroke Staple Press, US 212,316 (18 Feb 1879)",
+      "ref_zh": "麦吉尔「单击订书机」专利 US 212,316（1879-02-18）"
+    },
+    "mass_production": {
+      "year": 1879,
+      "precision": "year",
+      "ref": "McGill Single-Stroke Staple Press, first commercially successful stapler",
+      "ref_zh": "麦吉尔单击订书机成为首款商业成功的订书机"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39.8,
+      "lng": -98.6,
+      "place_label_zh": "美国（黑尔）",
+      "place_label_en": "United States (Heyl)",
+      "kind": "invention",
+      "confidence": "country"
+    },
+    {
+      "lat": 39.8,
+      "lng": -98.6,
+      "place_label_zh": "美国（麦吉尔）",
+      "place_label_en": "United States (McGill)",
+      "kind": "patent",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Stapler — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stapler",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 195,603 (Heyl) — Google Patents",
+      "url": "https://patents.google.com/patent/US195603A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 212,316 (McGill) — Google Patents",
+      "url": "https://patents.google.com/patent/US212316A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 56,587 (McGill fastener, 1866) — Google Patents",
+      "url": "https://patents.google.com/patent/US56587A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": true,
+  "notes": "谁发明了订书机说法不一：麦吉尔 1866 年先获得弯脚纸钉专利 US 56,587，但一步订装的机器由黑尔 1877 年申请；本条目以黑尔为发明、麦吉尔 1879 年为商业化。两人的具体城市未经核实，地点只标到国家。",
+  "summary_zh": "1877 年黑尔的机器首次一步完成穿钉与弯脚；1879 年麦吉尔的单击订书机成为第一款商业成功的订书机。",
+  "summary_en": "Henry Heyl's 1877 machine first inserted and clinched a staple in one step; George McGill's 1879 Single-Stroke Staple Press was the first commercial success.",
+  "tags": [
+    "office",
+    "paper",
+    "fastener"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/stapler.jpg",
+    "alt_zh": "一台白色桌面订书机和一排订书钉",
+    "alt_en": "A white desktop stapler with a strip of staples",
+    "credit": "Jacek Halicki",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2017_Zszywacz_biurowy.jpg"
+  },
+  "notes_en": "Credit is split: McGill patented a bendable paper fastener in 1866 (US 56,587), but Heyl filed the first one-step stapling machine in 1877. This entry treats Heyl as inventor and McGill's 1879 press as the commercial breakthrough. Their cities are unverified, so locations are country-level."
+}

@@ -1,0 +1,74 @@
+{
+  "id": "headphones",
+  "name_zh": "耳机",
+  "name_en": "Headphones",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1910,
+      "precision": "year",
+      "ref": "Nathaniel Baldwin builds a prototype telephone headset",
+      "ref_zh": "鲍德温制作电话头戴式耳机原型"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1910,
+      "precision": "decade",
+      "ref": "Baldwin and partners set up manufacturing in Utah",
+      "ref_zh": "鲍德温与合作方在犹他州建厂生产"
+    },
+    "popularization": {
+      "year": 1920,
+      "precision": "decade",
+      "ref": "Baldwin mica-diaphragm radio headphones popular",
+      "ref_zh": "鲍德温云母振膜收音机耳机流行"
+    }
+  },
+  "locations": [
+    {
+      "lat": 40.761,
+      "lng": -111.891,
+      "place_label_zh": "美国犹他州（以盐湖城示意）",
+      "place_label_en": "Utah, USA (Salt Lake City shown)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 48.857,
+      "lng": 2.352,
+      "place_label_zh": "法国（Mercadier 入耳式专利）",
+      "place_label_en": "France (Mercadier in-ear patent)",
+      "kind": "contested",
+      "confidence": "country",
+      "year_override": 1891
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Headphones — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Headphones",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "法国工程师 Mercadier 1891 年就为入耳式耳机申请过专利。之后的演进：1958 年密尔沃基的约翰·科斯推出第一副立体声耳机，1979 年随身听让轻便耳机普及，后来的入耳式耳塞、无线耳机都属于耳机的进化。",
+  "summary_zh": "1910 年，犹他州的纳撒尼尔·鲍德温为了在礼拜时听清布道，做出头戴式耳机原型；后来的立体声耳机、入耳式耳塞都是它的演进。",
+  "summary_en": "In 1910 Utah's Nathaniel Baldwin, unable to hear Sunday sermons, built a prototype headset; stereo headphones and in-ear earbuds evolved from it later.",
+  "tags": [
+    "audio",
+    "sound",
+    "listening"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/headphones.jpg",
+    "alt_zh": "耳机架上的 AKG 头戴式耳机",
+    "alt_en": "AKG over-ear headphones on a stand",
+    "credit": "http://muzyczny.pl",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:S%C5%82uchawki_referencyjne_K-701_firmy_AKG.jpg"
+  },
+  "notes_en": "French engineer Ernest Mercadier patented in-ear headphones as early as 1891. Later evolution: John Koss of Milwaukee made the first stereo headphones in 1958, the 1979 Walkman popularized lightweight headphones, and in-ear and wireless earbuds followed."
+}

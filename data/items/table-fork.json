@@ -1,0 +1,77 @@
+{
+  "id": "table-fork",
+  "name_zh": "餐叉",
+  "name_en": "Table fork",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 300,
+      "precision": "century",
+      "ref": "Personal table fork in common use in the Byzantine Empire by the 4th century",
+      "ref_zh": "4 世纪拜占庭帝国已普遍使用个人餐叉"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1004,
+      "precision": "year",
+      "ref": "Byzantine princess Maria Argyropoulina brings golden forks to Venice",
+      "ref_zh": "拜占庭公主玛丽亚把金叉带到威尼斯"
+    }
+  },
+  "locations": [
+    {
+      "lat": 41.008,
+      "lng": 28.978,
+      "place_label_zh": "君士坦丁堡（今伊斯坦布尔）",
+      "place_label_en": "Constantinople (Istanbul)",
+      "kind": "invention",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 45.44,
+      "lng": 12.316,
+      "place_label_zh": "意大利威尼斯",
+      "place_label_en": "Venice, Italy",
+      "kind": "popularization",
+      "confidence": "city"
+    },
+    {
+      "lat": 36.06,
+      "lng": 103.83,
+      "place_label_zh": "中国甘肃（齐家文化骨叉）",
+      "place_label_en": "Gansu, China (Qijia bone forks)",
+      "kind": "contested",
+      "confidence": "region",
+      "year_override": -2000
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Fork — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fork",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "中国齐家文化（前 2400–前 1900 年）和商代遗址出土过骨叉，迈锡尼墓葬有前 16 世纪的青铜叉，但用途未必是个人进餐；齐家文化地点以兰州一带示意。",
+  "summary_zh": "个人餐叉很可能起源于拜占庭帝国，4 世纪已普遍使用；1004 年拜占庭公主把金叉带到威尼斯，之后才在欧洲慢慢传开。",
+  "summary_en": "The personal table fork most likely began in the Byzantine Empire, common by the 4th century; a Byzantine princess brought golden forks to Venice in 1004, and they spread slowly in Europe.",
+  "tags": [
+    "utensil",
+    "eating",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/table-fork.jpg",
+    "alt_zh": "几把不同样式的叉子",
+    "alt_en": "An assortment of forks",
+    "credit": "Marktaff",
+    "license": "CC BY-SA 3.0 us",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Assorted_forks.jpg"
+  },
+  "notes_en": "Bone forks from China's Qijia culture (2400–1900 BCE) and Shang sites, and a 16th-century-BCE Mycenaean bronze fork, are known, but may not have been personal eating forks; the Qijia pin is placed near Lanzhou as an approximation."
+}

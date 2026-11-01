@@ -1,0 +1,74 @@
+{
+  "id": "frying-pan",
+  "name_zh": "平底锅",
+  "name_en": "Frying pan",
+  "category": "kitchen",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1954,
+      "precision": "year",
+      "ref": "Marc Grégoire patents bonding Teflon to aluminium, France",
+      "ref_zh": "格雷瓜尔在法国获得把特氟龙黏合到铝上的专利"
+    },
+    "mass_production": {
+      "year": 1880,
+      "precision": "century",
+      "ref": "Flat-bottomed cast-iron skillets arrive with cooking stoves, late 19th century",
+      "ref_zh": "19 世纪末随炉灶普及出现平底铸铁煎锅"
+    },
+    "popularization": {
+      "year": 1956,
+      "precision": "year",
+      "ref": "Grégoire founds Tefal to sell non-stick cookware",
+      "ref_zh": "格雷瓜尔创立特福（Tefal）销售不粘锅"
+    }
+  },
+  "primary": "mass_production",
+  "locations": [
+    {
+      "lat": 46.6,
+      "lng": 2.4,
+      "place_label_zh": "法国（特福）",
+      "place_label_en": "France (Tefal)",
+      "kind": "patent",
+      "confidence": "country"
+    },
+    {
+      "lat": 32.536,
+      "lng": 44.421,
+      "place_label_zh": "美索不达米亚（铜锅）",
+      "place_label_en": "Mesopotamia (copper pans)",
+      "kind": "contested",
+      "confidence": "approximate"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Frying pan — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frying_pan",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "来源较弱：古代美索不达米亚铜锅没有具体年代，因此不设发明年；本条目以 19 世纪末平底铸铁煎锅为主年份。",
+  "summary_zh": "古代美索不达米亚已有铜制煎锅；19 世纪末炉灶普及带来平底铸铁煎锅；1954 年法国的格雷瓜尔发明不粘锅涂层工艺。",
+  "summary_en": "Copper frying pans were used in ancient Mesopotamia; flat cast-iron skillets came with cooking stoves in the late 19th century; in 1954 France's Marc Grégoire patented a non-stick coating.",
+  "tags": [
+    "cookware",
+    "frying",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/frying-pan.jpg",
+    "alt_zh": "一只黑柄不粘平底锅",
+    "alt_en": "A non-stick frying pan with a black handle",
+    "credit": "User:Lcarsdata",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Frying_pan_with_black_handle.jpg"
+  },
+  "notes_en": "Weak sourcing: the ancient Mesopotamian copper pans have no specific date, so invention is left null and the late-19th-century flat cast-iron skillet is the primary year."
+}

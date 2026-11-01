@@ -1,0 +1,82 @@
+{
+  "id": "keyboard",
+  "name_zh": "键盘（QWERTY）",
+  "name_en": "Keyboard (QWERTY)",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1870,
+      "precision": "decade",
+      "ref": "Christopher Latham Sholes devises the QWERTY layout in the early 1870s",
+      "ref_zh": "肖尔斯在 1870 年代初设计 QWERTY 布局"
+    },
+    "patent": {
+      "year": 1878,
+      "precision": "year",
+      "ref": "Sholes's type-writing machine patent US 207,559",
+      "ref_zh": "肖尔斯打字机专利 US 207,559"
+    },
+    "mass_production": {
+      "year": 1874,
+      "precision": "year",
+      "ref": "Sholes and Glidden typewriter sold by E. Remington and Sons",
+      "ref_zh": "雷明顿公司开始出售肖尔斯-格利登打字机"
+    },
+    "popularization": {
+      "year": 1878,
+      "precision": "year",
+      "ref": "Remington No. 2 makes the layout popular",
+      "ref_zh": "雷明顿 2 号让该布局流行开来"
+    }
+  },
+  "locations": [
+    {
+      "lat": 42.585,
+      "lng": -87.821,
+      "place_label_zh": "美国威斯康星州基诺沙（肖尔斯）",
+      "place_label_en": "Kenosha, Wisconsin, USA (Sholes)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 43.015,
+      "lng": -75.035,
+      "place_label_zh": "美国纽约州伊利恩（雷明顿）",
+      "place_label_en": "Ilion, New York, USA (Remington)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "decade",
+  "sources": [
+    {
+      "title": "QWERTY — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/QWERTY",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 207,559 (Sholes) — Google Patents",
+      "url": "https://patents.google.com/patent/US207559A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "QWERTY 键盘布局由报人肖尔斯在 1870 年代初设计，1874 年随雷明顿打字机上市，1878 年雷明顿 2 号流行后一直沿用到今天的电脑键盘。",
+  "summary_en": "Christopher Sholes devised the QWERTY layout in the early 1870s; it shipped on Remington typewriters from 1874 and, after the 1878 Remington No. 2, became the standard still used on computers.",
+  "tags": [
+    "typing",
+    "input",
+    "layout"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/keyboard.jpg",
+    "alt_zh": "黑色笔记本电脑 QWERTY 键盘",
+    "alt_en": "A black laptop QWERTY keyboard",
+    "credit": "MichaelMaggs",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:QWERTY_keyboard.jpg"
+  }
+}

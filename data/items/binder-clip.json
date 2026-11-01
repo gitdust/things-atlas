@@ -1,0 +1,64 @@
+{
+  "id": "binder-clip",
+  "name_zh": "长尾夹",
+  "name_en": "Binder clip",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1910,
+      "precision": "year",
+      "ref": "Louis E. Baltzley invents the binder clip in Washington, D.C.",
+      "ref_zh": "巴尔茨利在华盛顿发明长尾夹"
+    },
+    "patent": {
+      "year": 1915,
+      "precision": "year",
+      "ref": "US 1,139,627 paper binding clip",
+      "ref_zh": "专利 US 1,139,627（纸张夹）"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 38.907,
+      "lng": -77.037,
+      "place_label_zh": "美国华盛顿特区",
+      "place_label_en": "Washington, D.C., USA",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Binder clip — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Binder_clip",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "US 1,139,627 (Baltzley) — Google Patents",
+      "url": "https://patents.google.com/patent/US1139627A/en",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1910 年，路易斯·巴尔茨利在华盛顿发明长尾夹，方便他父亲夹住手稿，1915 年获得专利。",
+  "summary_en": "Louis E. Baltzley invented the binder clip in Washington, D.C., in 1910 to hold his father's manuscripts; it was patented in 1915.",
+  "tags": [
+    "office",
+    "paper",
+    "fastener"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/binder-clip.jpg",
+    "alt_zh": "两只黑色长尾夹",
+    "alt_en": "Two black binder clips",
+    "credit": "Cal.on",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sponka.jpg"
+  }
+}

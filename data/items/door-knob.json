@@ -1,0 +1,55 @@
+{
+  "id": "door-knob",
+  "name_zh": "门把手",
+  "name_en": "Door handle",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 50,
+      "precision": "century",
+      "ref": "Doors excavated from Lake Nemi (c. 1st century CE) have knob-shaped handles",
+      "ref_zh": "内米湖出土的约公元 1 世纪的门已带有球形把手"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 41.713,
+      "lng": 12.703,
+      "place_label_zh": "意大利内米湖",
+      "place_label_en": "Lake Nemi, Italy",
+      "kind": "invention",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Door handle — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Door_handle",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "来源较弱：内米湖门只是有据可查的早期实例，并非发明；工业革命后锁具与门把手才大规模生产。",
+  "summary_zh": "门把手至少有数千年历史；意大利内米湖出土、约公元 1 世纪的门上就有球形把手。",
+  "summary_en": "Door handles have existed for thousands of years; doors excavated from Lake Nemi in Italy, dated to about the 1st century CE, already had knob-shaped handles.",
+  "tags": [
+    "door",
+    "hardware",
+    "metal"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/door-knob.jpg",
+    "alt_zh": "加拿大一扇老门上的黑色球形门把手",
+    "alt_en": "A black knob on an old door in Canada",
+    "credit": "Gogerr",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Old_Door_Knob_in_Canada.jpg"
+  },
+  "notes_en": "Weak sourcing: the Lake Nemi doors are an early documented example, not an invention; locks and handles were mass-produced only after the Industrial Revolution."
+}

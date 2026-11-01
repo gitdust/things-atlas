@@ -1,0 +1,66 @@
+{
+  "id": "sd-card",
+  "name_zh": "SD 卡",
+  "name_en": "SD card",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1999,
+      "precision": "year",
+      "ref": "Secure Digital introduced in August 1999 by SanDisk, Panasonic and Toshiba",
+      "ref_zh": "闪迪、松下、东芝于 1999 年 8 月推出 SD 格式"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 2000,
+      "precision": "year",
+      "ref": "SD Association formed (January 2000)",
+      "ref_zh": "SD 协会成立（2000 年 1 月）"
+    }
+  },
+  "locations": [
+    {
+      "lat": 37.39,
+      "lng": -122.0,
+      "place_label_zh": "美国加利福尼亚（闪迪）",
+      "place_label_en": "California, USA (SanDisk)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 35.68,
+      "lng": 139.7,
+      "place_label_zh": "日本（松下 / 东芝）",
+      "place_label_en": "Japan (Panasonic / Toshiba)",
+      "kind": "invention",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "SD card — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SD_card",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1999 年 8 月，闪迪、松下和东芝联合推出 SD 存储卡，作为 MMC 卡的继任者；2000 年 1 月成立 SD 协会。",
+  "summary_en": "SanDisk, Panasonic and Toshiba introduced the Secure Digital card in August 1999 as a successor to MMC, forming the SD Association in January 2000.",
+  "tags": [
+    "storage",
+    "flash-memory",
+    "camera"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/sd-card.jpg",
+    "alt_zh": "一张闪迪 128MB SD 卡的正反面",
+    "alt_en": "Front and back of a SanDisk 128 MB SD card",
+    "credit": "Mister rf",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SanDisk_128MB_SD_card.jpg"
+  }
+}
