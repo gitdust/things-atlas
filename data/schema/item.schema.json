@@ -68,8 +68,8 @@
       "items": { "$ref": "#/$defs/source" }
     },
     "disputed": { "type": "boolean" },
-    "notes": { "type": "string", "description": "Chinese editorial notes (required when disputed)." },
-    "notes_en": { "type": "string", "description": "English editorial notes." },
+    "notes": { "type": "string", "description": "Chinese dispute / editorial note. Required (≥40 chars) when disputed=true; shown in the drawer only for disputed entries." },
+    "notes_en": { "type": "string", "description": "English dispute / editorial note. Required when disputed=true; shown in the drawer only for disputed entries." },
     "image": {
       "description": "Optional illustrative photo shown in the item drawer. Prefer a local path under /images/.",
       "type": "object",

@@ -216,10 +216,10 @@ export function ItemDrawer({ lang, item, entryNo, category, eagerImage = false, 
           </ul>
         </section>
 
-        {item.notes ? (
+        {item.disputed && pick(lang, item.notes, item.notes_en) ? (
           <section className="drawer-section">
             <h3>{t(lang, 'notes')}</h3>
-            <blockquote className="notes">{item.notes}</blockquote>
+            <blockquote className="notes">{pick(lang, item.notes, item.notes_en)}</blockquote>
           </section>
         ) : null}
 

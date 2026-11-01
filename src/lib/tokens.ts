@@ -30,7 +30,7 @@ export const categoryColor: Record<CategoryId, string> = {
   kitchen: '#7a7266', // umber grey
 };
 
-/** Warm "atlas paper" recolouring of the OpenFreeMap Positron basemap. */
+/** Warm "atlas paper" basemap palette (applied to Positron in theme.ts). */
 export const basemap = {
   background: color.paperMap,
   water: '#d7dcd6',

@@ -26,7 +26,7 @@ const dict = {
     sources: '来源',
     locations: '地点',
     years: '年份',
-    notes: '编者注',
+    notes: '争议说明',
     milestones: '年表',
     entry: '条目',
     photoCredit: '图注',
@@ -60,7 +60,7 @@ const dict = {
     precision_century: '约略到世纪',
 
     footer:
-      '底图为现代国界，地点为近似定位 · 代码 MIT · 数据 CC BY 4.0 · 底图 © OpenFreeMap / OpenStreetMap',
+      '底图为现代国界，地点为近似定位 · 代码 MIT · 数据 CC BY 4.0',
   },
   en: {
     title: 'Things Atlas',
@@ -84,7 +84,7 @@ const dict = {
     sources: 'Sources',
     locations: 'Places',
     years: 'Years',
-    notes: 'Notes',
+    notes: 'Disputed note',
     milestones: 'Timeline',
     entry: 'Entry',
     photoCredit: 'Photo',
@@ -114,7 +114,7 @@ const dict = {
     precision_century: 'approx. century',
 
     footer:
-      'Modern borders; places are approximate · Code MIT · Data CC BY 4.0 · Basemap © OpenFreeMap / OpenStreetMap',
+      'Modern borders; places are approximate · Code MIT · Data CC BY 4.0',
   },
 } as const;
 

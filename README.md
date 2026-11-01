@@ -35,11 +35,11 @@ npm run new-item -- my-object
 | Layer | Choice |
 | --- | --- |
 | App | Vite 6 + React 18 + TypeScript |
-| Map | MapLibre GL JS + OpenFreeMap Positron vector tiles (`https://tiles.openfreemap.org/styles/positron`), re-inked at runtime in `src/lib/theme.ts` |
+| Map | MapLibre GL JS + **OpenFreeMap** Positron (`https://tiles.openfreemap.org/styles/positron`; free, no API key; © OpenMapTiles / OpenStreetMap — attribution comes from MapLibre’s control). Recoloured and language-localised in `src/lib/theme.ts`. |
 | Data | `data/items/*.json` in git |
 | CI | GitHub Actions `validate.yml` |
 
-Basemap is **OpenFreeMap** (free, no API key; © OpenMapTiles / OpenStreetMap — keep the attribution). `tuneBasemap()` recolors it to the warm atlas-paper palette and `localizeBasemap()` switches place labels between 中文 and English. Fonts: Source Serif 4 + Noto Serif SC (display), Inter + Noto Sans SC (UI), all self-hosted — Latin faces from `@fontsource-variable/*`, CJK faces as subsets built by `npm run fonts` (only the characters the site uses, split into a small first-view file and an entry-text file).
+Fonts: Source Serif 4 + Noto Serif SC (display), Inter + Noto Sans SC (UI), all self-hosted — Latin faces from `@fontsource-variable/*`, CJK faces as subsets built by `npm run fonts` (only the characters the site uses, split into a small first-view file and an entry-text file).
 
 ## Design tokens
 
@@ -65,7 +65,7 @@ One file per item: `data/items/{id}.json`. Field names follow the Spec:
 
 **`primary_year` is not stored.** Build derives it (`src/lib/primaryYear.ts`): if the item sets `primary` and that mark is non-null, use it; otherwise the first non-null of `invention → patent → mass_production → popularization`. Item-level `confidence` is one of `exact|year|decade|century|disputed`.
 
-Optional `image` (local path under `public/images/` preferred) is shown in the item drawer; credits live in `public/images/CREDITS.md`. Year-mark `ref` / `ref_zh` and `notes` / `notes_en` keep the drawer fully bilingual.
+Optional `image` (local path under `public/images/` preferred) is shown in the item drawer; credits live in `public/images/CREDITS.md`. Year-mark `ref` / `ref_zh` keep the drawer bilingual. `notes` / `notes_en` hold the dispute explanation and are shown in the drawer only when `disputed: true`.
 
 Schema: `data/schema/item.schema.json`. Teaching copies: `data/examples/`.
 

@@ -20,6 +20,7 @@ type Item = {
   sources: { type: string }[];
   disputed: boolean;
   notes?: string;
+  notes_en?: string;
   tags?: string[];
 };
 
@@ -96,9 +97,15 @@ for (const file of files) {
     failed = true;
   }
 
-  if (data.disputed === true && (!data.notes || data.notes.length < 40)) {
-    console.error(`✗ ${file}: disputed=true requires notes ≥ 40 chars`);
-    failed = true;
+  if (data.disputed === true) {
+    if (!data.notes || data.notes.length < 40) {
+      console.error(`✗ ${file}: disputed=true requires notes ≥ 40 chars`);
+      failed = true;
+    }
+    if (!data.notes_en || !data.notes_en.trim()) {
+      console.error(`✗ ${file}: disputed=true requires notes_en`);
+      failed = true;
+    }
   }
 
   for (const tag of data.tags ?? []) {
