@@ -12,8 +12,7 @@ export function filterItems(
     showDisputed: boolean;
   },
 ): AtlasItem[] {
-  const catSet =
-    opts.categories.length === 0 ? null : new Set(opts.categories);
+  const catSet = opts.categories.length === 0 ? null : new Set(opts.categories);
   return items.filter((item) => {
     if (!opts.showDisputed && item.disputed) return false;
     if (catSet && !catSet.has(item.category)) return false;

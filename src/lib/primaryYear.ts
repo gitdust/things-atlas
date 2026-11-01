@@ -4,12 +4,7 @@
  * Rule: if the item sets `primary` and that years.* mark is non-null, use it;
  * otherwise take the first non-null of invention → patent → mass_production → popularization.
  */
-export const YEAR_KEYS = [
-  'invention',
-  'patent',
-  'mass_production',
-  'popularization',
-] as const;
+export const YEAR_KEYS = ['invention', 'patent', 'mass_production', 'popularization'] as const;
 
 export type YearKey = (typeof YEAR_KEYS)[number];
 

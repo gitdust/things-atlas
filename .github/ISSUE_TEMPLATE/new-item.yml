@@ -1,7 +1,7 @@
 name: New item proposal
 description: Propose an everyday object for Things Atlas
-title: "[item] "
-labels: ["content"]
+title: '[item] '
+labels: ['content']
 body:
   - type: input
     id: name_en

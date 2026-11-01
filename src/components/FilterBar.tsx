@@ -1,5 +1,5 @@
 import type { CategoryId, CategoryMeta } from '@/lib/types';
-import { CATEGORY_COLORS } from '@/lib/theme';
+import { categoryColor } from '@/lib/tokens';
 import { pick, t, tf, type Lang } from '@/lib/i18n';
 
 type Props = {
@@ -51,7 +51,7 @@ export function FilterBar({
                 type="button"
                 className={`chip${active ? ' active' : ''}${n === 0 ? ' empty' : ''}`}
                 aria-pressed={active}
-                style={{ ['--chip-color' as string]: CATEGORY_COLORS[c.id] }}
+                style={{ ['--chip-color' as string]: categoryColor[c.id] }}
                 onClick={() => onToggleCategory(c.id)}
               >
                 <span className="chip-dot" aria-hidden="true" />

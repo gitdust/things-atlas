@@ -1,0 +1,186 @@
+/* ==========================================================================
+   Things Atlas — design tokens
+   Single source of truth for colour, type, space, shape, depth and motion.
+   Mirrored for JS/MapLibre in src/lib/tokens.ts — `npm run lint` checks
+   that the two stay in sync (scripts/check-tokens.ts).
+   ========================================================================== */
+
+:root {
+  /* ---------------------------------------------------------------- palette */
+  /* channel triplets — use as rgba(var(--ink-rgb), <alpha>) */
+  --ink-rgb: 31, 27, 22;
+  --paper-rgb: 244, 239, 230;
+  --paper-2-rgb: 235, 228, 214;
+  --paper-map-rgb: 239, 233, 221;
+  --glass-rgb: 249, 246, 240;
+  --surface-rgb: 250, 247, 241;
+  --accent-rgb: 181, 70, 46;
+  --umber-rgb: 120, 100, 70;
+  --black-rgb: 0, 0, 0;
+  --white-rgb: 255, 255, 255;
+
+  --paper: #f4efe6;
+  --paper-2: #ebe4d6;
+  --paper-3: #e2d9c7;
+  --paper-map: #efe9dd; /* page + basemap background */
+  --ink: #1f1b16;
+  --ink-2: #3f382f;
+  --ink-3: #6b6254;
+  --muted: #8a8070;
+  --black: #000;
+  --white: #fff;
+  --accent: #b5462e; /* cinnabar */
+
+  /* ------------------------------------------------------- semantic colours */
+  --rule: rgba(var(--ink-rgb), 0.12);
+  --rule-strong: rgba(var(--ink-rgb), 0.22);
+  --accent-soft: rgba(var(--accent-rgb), 0.1);
+  --accent-border: rgba(var(--accent-rgb), 0.25);
+  --surface-drawer: rgba(var(--surface-rgb), 0.95);
+  --surface-note: rgba(var(--paper-2-rgb), 0.55);
+  --surface-attrib: rgba(var(--paper-rgb), 0.7);
+  --surface-inverse: rgba(var(--ink-rgb), 0.92); /* map tooltip */
+  --text-inverse: var(--paper);
+  --text-inverse-2: rgba(var(--paper-rgb), 0.8);
+  --text-inverse-3: rgba(var(--paper-rgb), 0.7);
+  --text-inverse-4: rgba(var(--paper-rgb), 0.65);
+  --text-inverse-5: rgba(var(--paper-rgb), 0.6);
+  --hist-bar: rgba(var(--ink-rgb), 0.08);
+  --hist-bar-lit: rgba(var(--ink-rgb), 0.32);
+  --focus-ring: var(--ink);
+  --focus-halo: rgba(var(--ink-rgb), 0.15);
+
+  /* category inks (pigment-inspired; UI + map) */
+  --cat-stationery: #2f5d8a; /* prussian blue */
+  --cat-apparel-accessory: #b5462e; /* cinnabar */
+  --cat-hand-tool: #b8862b; /* ochre */
+  --cat-home: #4f7d5c; /* verdigris */
+  --cat-personal-care: #85587f; /* madder mauve */
+  --cat-digital: #2a7b80; /* teal ink */
+  --cat-kitchen: #7a7266; /* umber grey */
+
+  /* basemap recolouring (consumed by MapLibre via src/lib/tokens.ts) */
+  --map-background: #efe9dd;
+  --map-water: #d7dcd6;
+  --map-waterway: #cdd3cc;
+  --map-park: #e6e2d4;
+  --map-residential: #ebe5d8;
+  --map-ice: #f6f2ea;
+  --map-building: #e7e0d2;
+  --map-road: #e9e2d4;
+  --map-road-casing: #ddd5c5;
+  --map-boundary: #b9ae9b;
+  --map-label: #6f6656;
+  --map-label-strong: #4a4236;
+  --map-water-label: #7d8a86;
+  --map-halo: rgba(244, 239, 230, 0.85);
+
+  /* glass */
+  --glass: rgba(var(--glass-rgb), 0.76);
+  --glass-strong: rgba(var(--glass-rgb), 0.92);
+  --glass-border: rgba(var(--white-rgb), 0.65);
+  --blur: saturate(1.4) blur(16px);
+  --blur-tip: blur(8px);
+
+  /* ------------------------------------------------------------------ type */
+  --font-serif:
+    'Source Serif 4 Variable', 'Source Serif 4', 'Noto Serif SC Subset', 'Noto Serif SC',
+    'Songti SC', 'STSong', Georgia, serif;
+  --font-serif-zh:
+    'Noto Serif SC Subset', 'Noto Serif SC', 'Source Serif 4 Variable', 'Source Serif 4',
+    'Songti SC', 'STSong', serif;
+  --font-sans:
+    'Inter Variable', 'Inter', 'Noto Sans SC Subset', 'Noto Sans SC', 'PingFang SC',
+    'Hiragino Sans GB', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --fs-3xs: 10px;
+  --fs-2xs: 10.5px;
+  --fs-xs: 11px;
+  --fs-sm: 12.5px;
+  --fs-md: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 20px;
+  --fs-2xl: 28px;
+  --fs-3xl: 44px;
+  /* display / component sizes */
+  --fs-ui-sm: 12px;
+  --fs-tip-alt: 13px;
+  --fs-note-zh: 14.5px;
+  --fs-note: 15px;
+  --fs-lede: 17px;
+  --fs-brand-zh: 19px;
+  --fs-brand: 26px;
+  --fs-year-mobile: 30px;
+  --fs-display-mobile: 36px;
+  --fs-display: 46px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --lh-tight: 1.05;
+  --lh-snug: 1.2;
+  --lh-base: 1.5;
+
+  /* ------------------------------------------------------- spacing / shape */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+
+  --r-xs: 2px;
+  --r-tag: 6px;
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 18px;
+  --r-sheet: 22px;
+  --r-pill: 999px;
+  --r-round: 50%;
+
+  /* ------------------------------------------------------------- elevation */
+  --shadow-1: 0 1px 2px rgba(var(--ink-rgb), 0.06), 0 2px 8px rgba(var(--ink-rgb), 0.05);
+  --shadow-2:
+    0 1px 1px rgba(var(--ink-rgb), 0.04), 0 8px 24px -6px rgba(var(--ink-rgb), 0.16),
+    0 24px 48px -24px rgba(var(--ink-rgb), 0.18);
+  --shadow-3: 0 2px 4px rgba(var(--ink-rgb), 0.05), 0 24px 64px -16px rgba(var(--ink-rgb), 0.28);
+  --shadow-indicator:
+    0 1px 2px rgba(var(--black-rgb), 0.2), 0 4px 10px -4px rgba(var(--black-rgb), 0.35);
+  --shadow-knob-sm: 0 1px 2px rgba(var(--black-rgb), 0.25);
+  --shadow-knob: 0 2px 6px rgba(var(--black-rgb), 0.22);
+  --shadow-knob-focus: 0 0 0 4px var(--focus-halo), 0 2px 6px rgba(var(--black-rgb), 0.25);
+  --shadow-flag: 0 2px 6px -2px rgba(var(--black-rgb), 0.4);
+  --shadow-play: 0 2px 6px -1px rgba(var(--ink-rgb), 0.35);
+  --shadow-vignette: inset 0 0 160px rgba(var(--umber-rgb), 0.14);
+
+  /* --------------------------------------------------------------- z-index */
+  --z-raised: 1; /* in-component stacking */
+  --z-hover: 2;
+  --z-thumb: 3;
+  --z-scrim: 1;
+  --z-filter: 4;
+  --z-chrome: 5;
+  --z-drawer: 6;
+
+  /* ---------------------------------------------------------------- motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur: 220ms; /* default UI transition */
+  --dur-bar: 260ms;
+  --dur-slide: 320ms;
+  --dur-layout: 420ms;
+  --dur-enter: 480ms;
+
+  /* ----------------------------------------------------------- breakpoints */
+  /* Informational: media queries can't read custom properties, so app.css
+     hard-codes these two values; check-tokens.ts verifies they match. */
+  --bp-lg: 1100px;
+  --bp-md: 760px;
+
+  /* ---------------------------------------------------------------- layout */
+  --edge: 24px;
+  --drawer-w: 460px;
+  --tl-h: 168px;
+}

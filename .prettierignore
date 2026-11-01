@@ -1,0 +1,11 @@
+dist
+node_modules
+src/generated
+public/generated
+public/images
+package-lock.json
+pnpm-lock.yaml
+*.md
+data
+public
+src/styles/fonts.css

@@ -10,14 +10,7 @@ const root = path.resolve(__dirname, '..');
 const itemsDir = path.join(root, 'data', 'items');
 const schemaPath = path.join(root, 'data', 'schema', 'item.schema.json');
 
-const FOOD_TAG_BLACKLIST = new Set([
-  'food',
-  'cuisine',
-  'recipe',
-  'beverage',
-  'drink',
-  'meal',
-]);
+const FOOD_TAG_BLACKLIST = new Set(['food', 'cuisine', 'recipe', 'beverage', 'drink', 'meal']);
 
 type YearMark = { year: number; precision: string; ref?: string } | null;
 type Item = {
@@ -51,7 +44,7 @@ let failed = false;
 for (const file of files) {
   const full = path.join(itemsDir, file);
   const raw = fs.readFileSync(full, 'utf8');
-  const failedBefore = failed;
+  const failedBefore: boolean = failed;
   failed = false;
   let data: Item;
   try {
@@ -93,9 +86,7 @@ for (const file of files) {
     (YEAR_KEYS as readonly string[]).includes(data.primary) &&
     data.years?.[data.primary] == null
   ) {
-    console.error(
-      `✗ ${file}: primary="${data.primary}" points to a null years.${data.primary}`,
-    );
+    console.error(`✗ ${file}: primary="${data.primary}" points to a null years.${data.primary}`);
     failed = true;
   }
 

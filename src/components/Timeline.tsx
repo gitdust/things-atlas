@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { AtlasItem } from '@/lib/types';
-import { CATEGORY_COLORS } from '@/lib/theme';
+import { categoryColor } from '@/lib/tokens';
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { formatYear, pick, t, type Lang } from '@/lib/i18n';
 import { makeTimeScale } from '@/lib/timeScale';
@@ -196,24 +196,19 @@ export function Timeline({
                 style={{
                   left: `${pct(item.primary_year)}%`,
                   bottom: `${level * 15}px`,
-                  ['--c' as string]: CATEGORY_COLORS[item.category],
+                  ['--c' as string]: categoryColor[item.category],
                 }}
                 title={`${pick(lang, item.name_zh, item.name_en)} · ${formatYear(lang, item.primary_year)}`}
                 onClick={() => onSelect(item.id)}
               >
-                <span className="tl-dot-label">
-                  {pick(lang, item.name_zh, item.name_en)}
-                </span>
+                <span className="tl-dot-label">{pick(lang, item.name_zh, item.name_en)}</span>
               </button>
             );
           })}
         </div>
 
         <div className="tl-track" aria-hidden="true">
-          <div
-            className="tl-fill"
-            style={{ width: `${pct(year)}%` }}
-          />
+          <div className="tl-fill" style={{ width: `${pct(year)}%` }} />
         </div>
 
         <div className="tl-ticks" aria-hidden="true">

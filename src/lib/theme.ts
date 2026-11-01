@@ -1,42 +1,10 @@
 import type { Map as MlMap } from 'maplibre-gl';
-import type { CategoryId } from './types';
-
-/**
- * Editorial palette — pigment-inspired category inks that sit well on a warm
- * paper basemap. (UI-only; data/categories.json keeps its own legacy colors.)
- */
-export const CATEGORY_COLORS: Record<CategoryId, string> = {
-  stationery: '#2f5d8a', // prussian blue
-  apparel_accessory: '#b5462e', // cinnabar
-  hand_tool: '#b8862b', // ochre
-  home: '#4f7d5c', // verdigris
-  personal_care: '#85587f', // madder mauve
-  digital: '#2a7b80', // teal ink
-  kitchen: '#7a7266', // umber grey
-};
-
-export const INK = '#1f1b16';
-export const PAPER = '#f4efe6';
+import { basemap } from './tokens';
 
 /** OpenFreeMap Positron — free vector tiles, no API key. */
 export const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
 
-const BASEMAP = {
-  background: '#efe9dd',
-  water: '#d7dcd6',
-  waterway: '#cdd3cc',
-  park: '#e6e2d4',
-  residential: '#ebe5d8',
-  ice: '#f6f2ea',
-  building: '#e7e0d2',
-  road: '#e9e2d4',
-  roadCasing: '#ddd5c5',
-  boundary: '#b9ae9b',
-  label: '#6f6656',
-  labelStrong: '#4a4236',
-  waterLabel: '#7d8a86',
-  halo: 'rgba(244,239,230,0.85)',
-};
+const BASEMAP = basemap;
 
 function setPaint(map: MlMap, id: string, prop: string, value: unknown) {
   if (!map.getLayer(id)) return;
@@ -82,7 +50,12 @@ export function tuneBasemap(map: MlMap) {
     if (layer.type === 'symbol') {
       const isWater = id.startsWith('water');
       const isCountry = id.startsWith('label_country');
-      setPaint(map, id, 'text-color', isWater ? BASEMAP.waterLabel : isCountry ? BASEMAP.labelStrong : BASEMAP.label);
+      setPaint(
+        map,
+        id,
+        'text-color',
+        isWater ? BASEMAP.waterLabel : isCountry ? BASEMAP.labelStrong : BASEMAP.label,
+      );
       setPaint(map, id, 'text-halo-color', BASEMAP.halo);
       setPaint(map, id, 'text-halo-width', 1.2);
       setPaint(map, id, 'text-halo-blur', 0.4);

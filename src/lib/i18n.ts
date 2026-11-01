@@ -2,9 +2,8 @@ export type Lang = 'zh' | 'en';
 
 const dict = {
   zh: {
-    // brand (subtitle used only if needed; header brand mark stays bilingual)
+    // brand (header brand mark stays bilingual)
     title: 'Things Atlas',
-    subtitle: '日常之物图志',
     tagline: '日常之物的发明、专利、量产与普及',
 
     // chrome
@@ -65,7 +64,6 @@ const dict = {
   },
   en: {
     title: 'Things Atlas',
-    subtitle: 'Atlas of everyday things',
     tagline: 'Invention, patent, manufacture, and popularization',
 
     year: 'Year',
@@ -137,11 +135,7 @@ export function pick(
 }
 
 /** Fill `{n}` / `{total}` / `{date}` style templates. */
-export function tf(
-  lang: Lang,
-  key: MessageKey,
-  vars: Record<string, string | number>,
-): string {
+export function tf(lang: Lang, key: MessageKey, vars: Record<string, string | number>): string {
   return Object.entries(vars).reduce(
     (s, [k, v]) => s.replaceAll(`{${k}}`, String(v)),
     t(lang, key),

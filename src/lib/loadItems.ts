@@ -10,10 +10,7 @@ export function loadCategories(): CategoryMeta[] {
   return categoriesJson.categories as CategoryMeta[];
 }
 
-export function findItem(
-  items: AtlasItem[],
-  id: string | null,
-): AtlasItem | null {
+export function findItem(items: AtlasItem[], id: string | null): AtlasItem | null {
   if (!id) return null;
   return items.find((i) => i.id === id) ?? null;
 }
