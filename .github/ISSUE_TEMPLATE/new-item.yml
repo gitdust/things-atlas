@@ -1,0 +1,42 @@
+name: New item proposal
+description: Propose an everyday object for Things Atlas
+title: "[item] "
+labels: ["content"]
+body:
+  - type: input
+    id: name_en
+    attributes:
+      label: English name
+    validations:
+      required: true
+  - type: input
+    id: name_zh
+    attributes:
+      label: 中文名
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - stationery
+        - apparel_accessory
+        - hand_tool
+        - home
+        - personal_care
+        - digital
+    validations:
+      required: true
+  - type: textarea
+    id: years
+    attributes:
+      label: Year marks (invention / patent / mass_production / popularization)
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (URLs)
+    validations:
+      required: true
