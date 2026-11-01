@@ -32,7 +32,6 @@ const dict = {
     photoCredit: '图注',
     photoSource: '来源',
     primaryYear: '主年份',
-    updated: '更新于 {date}',
     disputed: '有争议',
 
     // year stages
@@ -90,7 +89,6 @@ const dict = {
     photoCredit: 'Photo',
     photoSource: 'Source',
     primaryYear: 'Primary year',
-    updated: 'Updated {date}',
     disputed: 'Disputed',
 
     invention: 'Invention',

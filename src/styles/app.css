@@ -1205,12 +1205,6 @@ button {
   color: var(--muted);
   margin-top: 2px;
 }
-.drawer-foot {
-  margin-top: var(--s-6);
-  font-size: var(--fs-xs);
-  color: var(--muted);
-  letter-spacing: 0.04em;
-}
 
 /* ------------------------------------------------------------- responsive */
 

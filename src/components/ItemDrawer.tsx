@@ -3,7 +3,7 @@ import type { AtlasItem, CategoryMeta, ItemImage, YearKey, YearMark } from '@/li
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { categoryColor } from '@/lib/tokens';
 import { IMAGE_SIZES, variantSrcSet } from '@/lib/images';
-import { pick, t, tf, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
+import { pick, t, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
 
 type Props = {
   lang: Lang;
@@ -242,7 +242,6 @@ export function ItemDrawer({ lang, item, entryNo, category, eagerImage = false, 
           </ol>
         </section>
 
-        <footer className="drawer-foot num">{tf(lang, 'updated', { date: item.updated })}</footer>
       </div>
     </aside>
   );
