@@ -9,3 +9,7 @@ public/generated/*
 !public/generated/.gitkeep
 src/generated/*
 !src/generated/.gitkeep
+
+# local package-manager noise
+pnpm-lock.yaml
+pnpm-workspace.yaml
