@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import type { AtlasItem, CategoryMeta, YearKey, YearMark } from '@/lib/types';
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { CATEGORY_COLORS } from '@/lib/theme';
-import { t, type Lang, type MessageKey } from '@/lib/i18n';
+import { pick, t, tf, type Lang, type MessageKey } from '@/lib/i18n';
 
 type Props = {
   lang: Lang;
@@ -57,8 +57,8 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
       if (!b.mark) return -1;
       return a.mark.year - b.mark.year;
     });
-  const title = lang === 'zh' ? item.name_zh : item.name_en;
-  const alt = lang === 'zh' ? item.name_en : item.name_zh;
+  const title = pick(lang, item.name_zh, item.name_en);
+  const alt = pick(lang === 'zh' ? 'en' : 'zh', item.name_zh, item.name_en);
 
   return (
     <aside
@@ -75,7 +75,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
             <span className="kicker-sep" />
             <span className="kicker-cat">
               <span className="chip-dot" />
-              {category ? (lang === 'zh' ? category.name_zh : category.name_en) : item.category}
+              {category ? pick(lang, category.name_zh, category.name_en) : item.category}
             </span>
             {item.disputed ? <span className="badge-disputed">{t(lang, 'disputed')}</span> : null}
           </div>
@@ -102,7 +102,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
           <figure className="drawer-figure">
             <img
               src={item.image.src}
-              alt={lang === 'zh' ? item.image.alt_zh : item.image.alt_en}
+              alt={pick(lang, item.image.alt_zh, item.image.alt_en)}
               loading="lazy"
               decoding="async"
             />
@@ -113,7 +113,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
                   {item.image.source_url ? (
                     <a href={item.image.source_url} target="_blank" rel="noreferrer">
                       {[item.image.credit, item.image.license].filter(Boolean).join(' · ') ||
-                        (lang === 'zh' ? '来源' : 'Source')}
+                        t(lang, 'photoSource')}
                     </a>
                   ) : (
                     [item.image.credit, item.image.license].filter(Boolean).join(' · ')
@@ -124,7 +124,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
           </figure>
         ) : null}
 
-        <p className="drawer-lede">{lang === 'zh' ? item.summary_zh : item.summary_en}</p>
+        <p className="drawer-lede">{pick(lang, item.summary_zh, item.summary_en)}</p>
 
         <section className="drawer-section">
           <h3>{t(lang, 'milestones')}</h3>
@@ -146,7 +146,9 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
                     ) : null}
                     {key === pKey ? <span className="ms-primary">{t(lang, 'primaryYear')}</span> : null}
                   </div>
-                  {mark?.ref ? <div className="ms-ref">{mark.ref}</div> : null}
+                  {mark && pick(lang, mark.ref_zh, mark.ref) ? (
+                    <div className="ms-ref">{pick(lang, mark.ref_zh, mark.ref)}</div>
+                  ) : null}
                 </div>
               </li>
             ))}
@@ -161,7 +163,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
                 <span className="place-mark" aria-hidden="true" />
                 <div className="place-body">
                   <div className="place-name">
-                    {lang === 'zh' ? loc.place_label_zh : loc.place_label_en}
+                    {pick(lang, loc.place_label_zh, loc.place_label_en)}
                   </div>
                   <div className="place-meta">
                     <span className="place-kind">{t(lang, `kind_${loc.kind}` as MessageKey)}</span>
@@ -203,7 +205,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
         </section>
 
         <footer className="drawer-foot num">
-          {lang === 'zh' ? '更新于' : 'Updated'} {item.updated}
+          {tf(lang, 'updated', { date: item.updated })}
         </footer>
       </div>
     </aside>

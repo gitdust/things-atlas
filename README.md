@@ -46,7 +46,7 @@ One file per item: `data/items/{id}.json`. Field names follow the Spec:
 
 **`primary_year` is not stored.** Build derives it (`src/lib/primaryYear.ts`): if the item sets `primary` and that mark is non-null, use it; otherwise the first non-null of `invention → patent → mass_production → popularization`. Item-level `confidence` is one of `exact|year|decade|century|disputed`.
 
-Optional `image` (local path under `public/images/` preferred) is shown in the item drawer; credits live in `public/images/CREDITS.md`.
+Optional `image` (local path under `public/images/` preferred) is shown in the item drawer; credits live in `public/images/CREDITS.md`. Year-mark `ref` / `ref_zh` and `notes` / `notes_en` keep the drawer fully bilingual.
 
 Schema: `data/schema/item.schema.json`. Teaching copies: `data/examples/`.
 

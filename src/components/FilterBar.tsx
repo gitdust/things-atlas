@@ -1,6 +1,6 @@
 import type { CategoryId, CategoryMeta } from '@/lib/types';
 import { CATEGORY_COLORS } from '@/lib/theme';
-import { t, type Lang } from '@/lib/i18n';
+import { pick, t, tf, type Lang } from '@/lib/i18n';
 
 type Props = {
   lang: Lang;
@@ -55,7 +55,7 @@ export function FilterBar({
                 onClick={() => onToggleCategory(c.id)}
               >
                 <span className="chip-dot" aria-hidden="true" />
-                {lang === 'zh' ? c.name_zh : c.name_en}
+                {pick(lang, c.name_zh, c.name_en)}
                 {n > 0 ? <span className="chip-count num">{n}</span> : null}
               </button>
             );
@@ -75,10 +75,7 @@ export function FilterBar({
           <span>{t(lang, 'showDisputed')}</span>
         </label>
         <span className="count num" aria-live="polite">
-          <strong>{visibleCount}</strong>
-          <span className="count-sep">/</span>
-          {totalCount}
-          <span className="count-label"> {t(lang, 'shown')}</span>
+          {tf(lang, 'countShown', { n: visibleCount, total: totalCount })}
         </span>
       </div>
     </div>

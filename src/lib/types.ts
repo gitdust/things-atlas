@@ -7,7 +7,10 @@ export type YearPrecision = 'exact' | 'year' | 'decade' | 'century';
 export type YearMark = {
   year: number;
   precision: YearPrecision;
+  /** English note (UI language EN). */
   ref?: string;
+  /** Chinese note (UI language ZH). */
+  ref_zh?: string;
 } | null;
 
 export type CategoryId =
@@ -93,6 +96,7 @@ export type AtlasItem = {
   sources: ItemSource[];
   disputed: boolean;
   notes?: string;
+  notes_en?: string;
   image?: ItemImage;
   summary_zh: string;
   summary_en: string;

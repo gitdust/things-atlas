@@ -9,13 +9,13 @@
     {
       "id": "apparel_accessory",
       "name_zh": "服饰配件",
-      "name_en": "Apparel accessory",
+      "name_en": "Apparel",
       "color": "#ec4899"
     },
     {
       "id": "hand_tool",
       "name_zh": "手持工具",
-      "name_en": "Hand tool",
+      "name_en": "Hand tools",
       "color": "#f59e0b"
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "digital",
       "name_zh": "数码配件",
-      "name_en": "Digital accessory",
+      "name_en": "Digital",
       "color": "#06b6d4"
     },
     {

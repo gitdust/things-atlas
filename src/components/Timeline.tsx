@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { AtlasItem } from '@/lib/types';
 import { CATEGORY_COLORS } from '@/lib/theme';
 import { YEAR_KEYS } from '@/lib/primaryYear';
-import { t, type Lang } from '@/lib/i18n';
+import { pick, t, type Lang } from '@/lib/i18n';
 
 type Props = {
   lang: Lang;
@@ -130,7 +130,7 @@ export function Timeline({
           type="button"
           className="play-btn"
           aria-label={playing ? t(lang, 'pause') : t(lang, 'play')}
-          title={`${playing ? t(lang, 'pause') : t(lang, 'play')} (Space)`}
+          title={playing ? t(lang, 'pauseHint') : t(lang, 'playHint')}
           onClick={() => setPlaying((p) => !p)}
         >
           {playing ? (
@@ -145,9 +145,7 @@ export function Timeline({
           )}
         </button>
         <div className="tl-year">
-          <span className="tl-year-label">
-            {lang === 'zh' ? '截至' : 'Up to'}
-          </span>
+          <span className="tl-year-label">{t(lang, 'upTo')}</span>
           <span className="tl-year-num num">{year}</span>
         </div>
       </div>
@@ -206,11 +204,11 @@ export function Timeline({
                   bottom: `${level * 15}px`,
                   ['--c' as string]: CATEGORY_COLORS[item.category],
                 }}
-                title={`${lang === 'zh' ? item.name_zh : item.name_en} · ${item.primary_year}`}
+                title={`${pick(lang, item.name_zh, item.name_en)} · ${item.primary_year}`}
                 onClick={() => onSelect(item.id)}
               >
                 <span className="tl-dot-label">
-                  {lang === 'zh' ? item.name_zh : item.name_en}
+                  {pick(lang, item.name_zh, item.name_en)}
                 </span>
               </button>
             );

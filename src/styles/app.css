@@ -446,14 +446,6 @@ button {
   border-left: 1px solid var(--rule);
   white-space: nowrap;
 }
-.count strong {
-  color: var(--ink);
-  font-weight: 600;
-}
-.count-sep {
-  margin: 0 2px;
-  color: var(--muted);
-}
 
 
 /* ---------------------------------------------------------------- timeline */

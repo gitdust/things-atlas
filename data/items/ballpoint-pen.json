@@ -7,22 +7,26 @@
     "invention": {
       "year": 1938,
       "precision": "year",
-      "ref": "László Bíró, Hungarian priority 1938-04-25"
+      "ref": "László Bíró; Hungarian priority 25 Apr 1938",
+      "ref_zh": "拉斯洛·比罗；匈牙利优先权日 1938 年 4 月 25 日"
     },
     "patent": {
       "year": 1939,
       "precision": "exact",
-      "ref": "GB 498,997 and FR 839,929"
+      "ref": "GB 498,997 and FR 839,929",
+      "ref_zh": "英国专利 GB 498,997 与法国专利 FR 839,929"
     },
     "mass_production": {
       "year": 1945,
       "precision": "exact",
-      "ref": "Reynolds Rocket sold at Gimbels, New York"
+      "ref": "Reynolds Rocket sold at Gimbels, New York",
+      "ref_zh": "雷诺兹 Rocket 在纽约金贝尔百货开售"
     },
     "popularization": {
       "year": 1950,
       "precision": "decade",
-      "ref": "Bic Cristal"
+      "ref": "Bic Cristal",
+      "ref_zh": "Bic Cristal 普及"
     }
   },
   "locations": [
@@ -64,7 +68,7 @@
     {
       "lat": 42.218,
       "lng": -70.941,
-      "place_label_zh": "美国马萨诸塞韦茅斯（劳德）",
+      "place_label_zh": "美国马萨诸塞州韦茅斯（劳德）",
       "place_label_en": "Weymouth, Massachusetts, USA (Loud)",
       "kind": "contested",
       "confidence": "city",
@@ -112,8 +116,8 @@
   ],
   "disputed": true,
   "notes": "两种起源说法并存：一说是约翰·劳德（John J. Loud）1888 年的美国专利 US 392,046，但他的滚珠笔只能在皮革等粗糙表面做标记，从未量产；另一说是拉斯洛·比罗（László Bíró）1938 年在布达佩斯的设计（匈牙利优先权 1938-04-25），1939 年获英法专利，1943 年在布宜诺斯艾利斯申请美国专利，才是可日常书写的实用圆珠笔。流传的「1931 年原型」一说没有找到一手出处，未采用。",
-  "summary_zh": "实用圆珠笔通常归功于比罗（1938 年），但劳德 1888 年已有滚珠笔专利，故标为争议；1945 年纽约量产，1950 年代 Bic 普及。",
-  "summary_en": "Practical ballpoints are credited to Bíró (1938), but Loud patented a ball-tip marker in 1888, so it is disputed; mass-produced in New York 1945, popularized by Bic in the 1950s.",
+  "summary_zh": "实用圆珠笔多归于比罗（1938 年），但劳德早在 1888 年就有滚珠笔专利，故标为争议；1945 年纽约量产，1950 年代由 Bic 普及。",
+  "summary_en": "Practical ballpoints are usually credited to Bíró (1938), but Loud patented a ball-tip marker in 1888, so the entry is disputed. Mass-produced in New York in 1945; popularized by Bic in the 1950s.",
   "tags": [
     "pen",
     "office",
@@ -123,10 +127,11 @@
   "updated": "2026-11-01",
   "image": {
     "src": "/images/ballpoint-pen.jpg",
-    "alt_zh": "圆珠笔尖在纸上书写的微距",
-    "alt_en": "Macro of a ballpoint tip writing on paper",
+    "alt_zh": "圆珠笔尖在纸上书写的微距照片",
+    "alt_en": "Macro photo of a ballpoint tip writing on paper",
     "credit": "Daniel Schwen",
     "license": "CC BY-SA 2.5",
     "source_url": "https://commons.wikimedia.org/wiki/File:Macro_Biro_writing2.jpg"
-  }
+  },
+  "notes_en": "Two origin stories compete. John J. Loud’s US 392,046 (1888) described a ball-tip pen that only marked rough surfaces such as leather and was never mass-produced. László Bíró’s 1938 Budapest design (Hungarian priority 25 April 1938), patented in Britain and France in 1939 and in the US from Buenos Aires in 1943, became the practical everyday ballpoint. A claimed 1931 prototype has no primary source and is not used here."
 }

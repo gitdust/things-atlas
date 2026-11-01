@@ -7,18 +7,21 @@
     "invention": {
       "year": 1892,
       "precision": "year",
-      "ref": "Gem clip by Cushman & Denison"
+      "ref": "Gem clip by Cushman & Denison",
+      "ref_zh": "Cushman & Denison 推出 Gem 型回形针"
     },
     "patent": null,
     "mass_production": {
       "year": 1899,
       "precision": "exact",
-      "ref": "Middlebrook clip-making machine, US 636,272"
+      "ref": "Middlebrook clip-making machine, US 636,272",
+      "ref_zh": "Middlebrook 回形针制造机，美国专利 US 636,272"
     },
     "popularization": {
       "year": 1900,
       "precision": "year",
-      "ref": "Gem clip widely sold (Early Office Museum)"
+      "ref": "Gem clip widely sold (Early Office Museum)",
+      "ref_zh": "Gem 型广泛销售（Early Office Museum）"
     }
   },
   "locations": [
@@ -33,7 +36,7 @@
     {
       "lat": 41.558,
       "lng": -73.052,
-      "place_label_zh": "美国康涅狄格沃特伯里",
+      "place_label_zh": "美国康涅狄格州沃特伯里",
       "place_label_en": "Waterbury, Connecticut, USA",
       "kind": "production",
       "confidence": "city"
@@ -50,7 +53,7 @@
     {
       "lat": 41.398,
       "lng": -79.831,
-      "place_label_zh": "美国宾夕法尼亚富兰克林（费伊）",
+      "place_label_zh": "美国宾夕法尼亚州富兰克林（费伊）",
       "place_label_en": "Franklin, Pennsylvania, USA (Fay)",
       "kind": "contested",
       "confidence": "city",
@@ -86,8 +89,8 @@
   ],
   "disputed": true,
   "notes": "回形针起源有三种说法：一是挪威说，认为瓦勒（Johan Vaaler）发明，实为公众误传——他的美国专利 US 675,761（1901）设计从未投产；二是英国 1870 年代说，被 Early Office Museum 反驳；三是美国说，1892 年纽约 Cushman & Denison 推出 Gem 型，本条目采用此说。Gem 型从未申请专利，故 patent 为空。更早的费伊（Fay）美国专利 US 64,088（1867-04-23 授权）也是一种纸夹，标为 contested。",
-  "summary_zh": "Gem 型回形针 1892 年由纽约 Cushman & Denison 推出，从未申请专利；挪威瓦勒发明说是常见误传。",
-  "summary_en": "The Gem-type clip was introduced by Cushman & Denison in New York in 1892 and never patented; the Norwegian Vaaler origin story is a popular myth.",
+  "summary_zh": "Gem 型回形针由纽约 Cushman & Denison 于 1892 年推出，从未申请专利；挪威瓦勒发明说是常见误传。",
+  "summary_en": "The Gem-type clip was introduced by Cushman & Denison in New York in 1892 and was never patented. The Norwegian Vaaler origin story is a popular myth.",
   "tags": [
     "office",
     "wire",
@@ -101,5 +104,6 @@
     "credit": "Dietmar Rabich",
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:B%C3%BCroklammern_--_2021_--_6481.jpg"
-  }
+  },
+  "notes_en": "Three origin claims circulate. The Norwegian story credits Johan Vaaler, but his US 675,761 (1901) design was never manufactured — a popular misconception. A British 1870s claim is disputed by the Early Office Museum. This entry follows the US account: Cushman & Denison’s Gem clip in New York, 1892. The Gem was never patented, so patent is null. Fay’s earlier US 64,088 (1867, Franklin, PA) is marked contested."
 }

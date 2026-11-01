@@ -159,7 +159,7 @@ export default function App() {
         <div className="top-controls">
           <Segmented<Lang>
             size="sm"
-            ariaLabel="Language"
+            ariaLabel={t(lang, 'language')}
             value={lang}
             onChange={setLang}
             options={[
@@ -210,7 +210,7 @@ export default function App() {
           onSelect={setSelectedId}
         />
         <div className="footer-row">
-          <ul className="legend" aria-label="Legend">
+          <ul className="legend" aria-label={t(lang, 'legend')}>
             <li>
               <span className="lg-dot" />
               {t(lang, 'legendPlace')}
@@ -221,7 +221,7 @@ export default function App() {
             </li>
             <li>
               <span className="lg-arc" />
-              {lang === 'zh' ? '同一条目的地点连线' : 'Places of one entry'}
+              {t(lang, 'legendArc')}
             </li>
           </ul>
           <p className="footer-note">{t(lang, 'footer')}</p>

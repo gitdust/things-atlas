@@ -9,7 +9,7 @@ import type { FeatureCollection, LineString, Point } from 'geojson';
 import { CATEGORY_COLORS, INK, MAP_STYLE, PAPER, localizeBasemap, tuneBasemap } from '@/lib/theme';
 import { itemBounds, type ArcProps, type ItemFeatureProps } from '@/lib/geo';
 import type { AtlasItem } from '@/lib/types';
-import { t, type Lang, type MessageKey } from '@/lib/i18n';
+import { pick, t, type Lang, type MessageKey } from '@/lib/i18n';
 
 type Props = {
   lang: Lang;
@@ -79,9 +79,9 @@ function applySelection(map: MlMap, selectedId: string | null) {
 }
 
 function tooltipHtml(p: ItemFeatureProps, lang: Lang) {
-  const name = lang === 'zh' ? p.name_zh : p.name_en;
-  const alt = lang === 'zh' ? p.name_en : p.name_zh;
-  const place = lang === 'zh' ? p.place_label_zh : p.place_label_en;
+  const name = pick(lang, p.name_zh, p.name_en);
+  const alt = pick(lang === 'zh' ? 'en' : 'zh', p.name_zh, p.name_en);
+  const place = pick(lang, p.place_label_zh, p.place_label_en);
   const kind = t(lang, `kind_${p.kind}` as MessageKey);
   const year = p.year_override ?? p.primary_year;
   const esc = (s: string) =>
@@ -280,5 +280,5 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) 
     else map.once('load', run);
   }, [selectedId, selectedItem]);
 
-  return <div ref={containerRef} className="map-root" aria-label="Map" />;
+  return <div ref={containerRef} className="map-root" aria-label={t(lang, 'map')} />;
 }

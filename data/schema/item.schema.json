@@ -68,7 +68,8 @@
       "items": { "$ref": "#/$defs/source" }
     },
     "disputed": { "type": "boolean" },
-    "notes": { "type": "string" },
+    "notes": { "type": "string", "description": "Chinese editorial notes (required when disputed)." },
+    "notes_en": { "type": "string", "description": "English editorial notes." },
     "image": {
       "description": "Optional illustrative photo shown in the item drawer. Prefer a local path under /images/.",
       "type": "object",
@@ -111,7 +112,8 @@
           "type": "string",
           "enum": ["exact", "year", "decade", "century"]
         },
-        "ref": { "type": "string" }
+        "ref": { "type": "string", "description": "English note for this year mark (shown when UI is EN)." },
+        "ref_zh": { "type": "string", "description": "Chinese note for this year mark (shown when UI is ZH)." }
       }
     },
     "location": {
