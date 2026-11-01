@@ -28,11 +28,11 @@ npm run new-item -- my-object
 | Layer | Choice |
 | --- | --- |
 | App | Vite 6 + React 18 + TypeScript |
-| Map | MapLibre GL JS + demotiles style (`https://demotiles.maplibre.org/style.json`) |
+| Map | MapLibre GL JS + OpenFreeMap Positron vector tiles (`https://tiles.openfreemap.org/styles/positron`), re-inked at runtime in `src/lib/theme.ts` |
 | Data | `data/items/*.json` in git |
 | CI | GitHub Actions `validate.yml` |
 
-Basemap is a **free MapLibre demo style** (no token). Replace later with OpenFreeMap / MapTiler and keep attribution in the footer.
+Basemap is **OpenFreeMap** (free, no API key; © OpenMapTiles / OpenStreetMap — keep the attribution). `tuneBasemap()` recolors it to the warm atlas-paper palette and `localizeBasemap()` switches place labels between 中文 and English. Fonts: Source Serif 4 + Noto Serif SC (display), Inter + Noto Sans SC (UI), via Google Fonts.
 
 ## Data model (locked)
 

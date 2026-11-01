@@ -1,5 +1,6 @@
 import type { YearMode } from '@/lib/types';
 import { t, type Lang } from '@/lib/i18n';
+import { Segmented } from './Segmented';
 
 type Props = {
   lang: Lang;
@@ -9,21 +10,14 @@ type Props = {
 
 export function YearModeToggle({ lang, mode, onChange }: Props) {
   return (
-    <div className="segmented" role="group" aria-label="Year mode">
-      <button
-        type="button"
-        className={mode === 'cumulative' ? 'active' : ''}
-        onClick={() => onChange('cumulative')}
-      >
-        {t(lang, 'cumulative')}
-      </button>
-      <button
-        type="button"
-        className={mode === 'snapshot' ? 'active' : ''}
-        onClick={() => onChange('snapshot')}
-      >
-        {t(lang, 'snapshot')}
-      </button>
-    </div>
+    <Segmented<YearMode>
+      ariaLabel={t(lang, 'yearMode')}
+      value={mode}
+      onChange={onChange}
+      options={[
+        { value: 'cumulative', label: t(lang, 'cumulative') },
+        { value: 'snapshot', label: t(lang, 'snapshot') },
+      ]}
+    />
   );
 }
