@@ -21,7 +21,7 @@ type Segment = {
 
 /** Breakpoints used when the data reaches back before 1800. */
 const ERA_SEGMENTS: Segment[] = [
-  { from: -Infinity, at: 0, minor: 250, major: 1000, step: 25 },
+  { from: -Infinity, at: 0, minor: 500, major: 1000, step: 25 },
   { from: 0, at: 0.08, minor: 100, major: 500, step: 10 },
   { from: 1500, at: 0.2, minor: 10, major: 100, step: 3 },
   { from: 1800, at: 0.3, minor: 1, major: 10, step: 1 },

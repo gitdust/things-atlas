@@ -603,7 +603,7 @@ button {
   left: 0;
   right: 0;
   top: calc(var(--track-y) + 4px);
-  height: 36px;
+  height: 40px;
   pointer-events: none;
   overflow: visible;
 }
@@ -632,6 +632,9 @@ button {
   white-space: nowrap;
   color: var(--ink-3);
   letter-spacing: 0.02em;
+}
+.tick em.alt {
+  top: 24px;
 }
 
 .tl-thumb {
