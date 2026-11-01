@@ -219,12 +219,10 @@ button {
 .brand-tagline {
   margin: 4px 0 0;
   font-size: var(--fs-xs);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   color: var(--ink-3);
-  text-transform: uppercase;
 }
 .app[lang='zh-Hans'] .brand-tagline {
-  text-transform: none;
   letter-spacing: 0.12em;
 }
 

@@ -66,7 +66,7 @@ const dict = {
   en: {
     title: 'Things Atlas',
     subtitle: 'Atlas of everyday things',
-    tagline: 'Invented, patented, manufactured, and spread',
+    tagline: 'Invention, patent, manufacture, and popularization',
 
     year: 'Year',
     categories: 'Categories',
