@@ -165,6 +165,9 @@ export function Timeline({
     else if (e.key === 'ArrowRight') set(year + scale.stepAt(year));
   };
 
+  const yearPct = pct(year);
+  const thumbEdge = yearPct < 8 ? ' edge-l' : yearPct > 92 ? ' edge-r' : '';
+
   return (
     <div className={`timeline${dragging ? ' is-dragging' : ''}`}>
       <div className="tl-readout">
@@ -176,7 +179,6 @@ export function Timeline({
 
       <div
         className="tl-scrub"
-        ref={trackRef}
         role="slider"
         tabIndex={0}
         aria-label={t(lang, 'year')}
@@ -197,70 +199,79 @@ export function Timeline({
         onPointerUp={() => setDragging(false)}
         onPointerCancel={() => setDragging(false)}
       >
-        <div className="tl-hist" aria-hidden="true">
-          {[...density.counts.entries()].map(([y, c]) => {
-            if (y < min || y > max) return null;
-            const lit = y <= year;
-            return (
-              <span
-                key={y}
-                className={lit ? 'bar lit' : 'bar'}
-                style={{ left: `${pct(y)}%`, height: `${14 + (c / density.peak) * 56}%` }}
-              />
-            );
-          })}
-        </div>
+        {/*
+          Inset rail: min/max sit inset from the scrub edges so dots, ticks,
+          labels, and pills at the ends are not clipped. trackRef lives here so
+          drag mapping uses the same inset range as left%.
+        */}
+        <div className="tl-rail" ref={trackRef}>
+          <div className="tl-hist" aria-hidden="true">
+            {[...density.counts.entries()].map(([y, c]) => {
+              if (y < min || y > max) return null;
+              const lit = y <= year;
+              return (
+                <span
+                  key={y}
+                  className={lit ? 'bar lit' : 'bar'}
+                  style={{ left: `${pct(y)}%`, height: `${14 + (c / density.peak) * 56}%` }}
+                />
+              );
+            })}
+          </div>
 
-        <div className="tl-swarm">
-          {swarm.map(({ item, level }) => {
-            const visible = visibleIds.has(item.id);
-            const sel = item.id === selectedId;
-            return (
-              <button
-                key={item.id}
-                type="button"
-                className={`tl-dot${visible ? ' on' : ''}${sel ? ' sel' : ''}${
-                  item.disputed ? ' disputed' : ''
-                }`}
-                style={{
-                  left: `${pct(item.primary_year)}%`,
-                  bottom: `${level * 15}px`,
-                  ['--c' as string]: categoryColor[item.category],
-                }}
-                title={`${pick(lang, item.name_zh, item.name_en)} · ${formatYear(lang, item.primary_year)}`}
-                onClick={() => onSelect(item.id)}
-              >
-                <span className="tl-dot-label">{pick(lang, item.name_zh, item.name_en)}</span>
-              </button>
-            );
-          })}
-        </div>
+          <div className="tl-swarm">
+            {swarm.map(({ item, level }) => {
+              const visible = visibleIds.has(item.id);
+              const sel = item.id === selectedId;
+              const x = pct(item.primary_year);
+              const edge = x < 8 ? ' edge-l' : x > 92 ? ' edge-r' : '';
+              return (
+                <button
+                  key={item.id}
+                  type="button"
+                  className={`tl-dot${visible ? ' on' : ''}${sel ? ' sel' : ''}${
+                    item.disputed ? ' disputed' : ''
+                  }${edge}`}
+                  style={{
+                    left: `${x}%`,
+                    bottom: `${level * 15}px`,
+                    ['--c' as string]: categoryColor[item.category],
+                  }}
+                  title={`${pick(lang, item.name_zh, item.name_en)} · ${formatYear(lang, item.primary_year)}`}
+                  onClick={() => onSelect(item.id)}
+                >
+                  <span className="tl-dot-label">{pick(lang, item.name_zh, item.name_en)}</span>
+                </button>
+              );
+            })}
+          </div>
 
-        <div className="tl-track" aria-hidden="true">
-          <div className="tl-fill" style={{ width: `${pct(year)}%` }} />
-        </div>
+          <div className="tl-track" aria-hidden="true">
+            <div className="tl-fill" style={{ width: `${yearPct}%` }} />
+          </div>
 
-        <div className="tl-ticks" aria-hidden="true">
-          {ticks.map(({ y, major, mid }) => {
-            const label = major ? labeledYears.get(y) : undefined;
-            return (
-              <span
-                key={y}
-                className={major ? 'tick major' : mid ? 'tick mid' : 'tick'}
-                style={{ left: `${pct(y)}%` }}
-              >
-                {label ? (
-                  <em className={label.row ? 'num alt' : 'num'}>{label.text}</em>
-                ) : null}
-              </span>
-            );
-          })}
-        </div>
+          <div className="tl-ticks" aria-hidden="true">
+            {ticks.map(({ y, major, mid }) => {
+              const label = major ? labeledYears.get(y) : undefined;
+              return (
+                <span
+                  key={y}
+                  className={major ? 'tick major' : mid ? 'tick mid' : 'tick'}
+                  style={{ left: `${pct(y)}%` }}
+                >
+                  {label ? (
+                    <em className={label.row ? 'num alt' : 'num'}>{label.text}</em>
+                  ) : null}
+                </span>
+              );
+            })}
+          </div>
 
-        <div className="tl-thumb" style={{ left: `${pct(year)}%` }} aria-hidden="true">
-          <span className="tl-thumb-flag num">{formatYear(lang, year, true)}</span>
-          <span className="tl-thumb-line" />
-          <span className="tl-thumb-knob" />
+          <div className={`tl-thumb${thumbEdge}`} style={{ left: `${yearPct}%` }} aria-hidden="true">
+            <span className="tl-thumb-flag num">{formatYear(lang, year, true)}</span>
+            <span className="tl-thumb-line" />
+            <span className="tl-thumb-knob" />
+          </div>
         </div>
       </div>
     </div>

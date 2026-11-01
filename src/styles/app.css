@@ -481,7 +481,17 @@ button {
   user-select: none;
   outline: none;
   --track-y: 64px;
-  overflow-x: clip; /* thumb flag at 0%/100% stays inside the scrubber */
+  /* Room for half a tick label / selected dot past the rail ends. */
+  --tl-inset: var(--s-8);
+  overflow-x: clip;
+}
+/* Usable year axis — min at left inset, max at right inset. */
+.tl-rail {
+  position: absolute;
+  left: var(--tl-inset);
+  right: var(--tl-inset);
+  top: 0;
+  bottom: 0;
 }
 .tl-scrub:focus-visible .tl-thumb-knob {
   box-shadow: var(--shadow-knob-focus);
@@ -577,6 +587,24 @@ button {
   opacity: 1;
   transform: translate(-50%, 0);
 }
+/* Keep end-of-rail pills inside the scrubber (inset gutter). */
+.tl-dot.edge-l .tl-dot-label {
+  left: 0;
+  transform: translate(0, 4px);
+}
+.tl-dot.edge-l:hover .tl-dot-label,
+.tl-dot.edge-l.sel .tl-dot-label {
+  transform: translate(0, 0);
+}
+.tl-dot.edge-r .tl-dot-label {
+  left: auto;
+  right: 0;
+  transform: translate(0, 4px);
+}
+.tl-dot.edge-r:hover .tl-dot-label,
+.tl-dot.edge-r.sel .tl-dot-label {
+  transform: translate(0, 0);
+}
 
 .tl-track {
   position: absolute;
@@ -660,6 +688,12 @@ button {
   line-height: 1.2;
   white-space: nowrap;
   box-shadow: var(--shadow-flag);
+}
+.tl-thumb.edge-l .tl-thumb-flag {
+  transform: translateX(0);
+}
+.tl-thumb.edge-r .tl-thumb-flag {
+  transform: translateX(-100%);
 }
 .tl-thumb-line {
   position: absolute;
@@ -1304,6 +1338,7 @@ button {
     height: 100px;
     margin: 0 var(--s-2);
     --track-y: 54px;
+    --tl-inset: var(--s-6);
   }
   .tl-thumb-flag {
     display: none;
