@@ -37,7 +37,14 @@ export default function App({ url }: { url?: UrlLike }) {
   const initial = useMemo(() => readUrlState(url ?? window.location), [url]);
 
   const [lang, setLang] = useState<Lang>(initial.lang);
-  const [year, setYear] = useState(initial.year ?? index.year_range.data_max);
+  const [year, setYear] = useState(() => {
+    const y = initial.year ?? index.year_range.data_max;
+    if (!initial.id) return y;
+    const item = findItem(index.items, initial.id);
+    // Deep link / ?id= must land with the entry visible on the cumulative timeline.
+    if (item && item.primary_year > y) return Math.min(index.year_range.max, item.primary_year);
+    return y;
+  });
   const [selectedCategories, setSelectedCategories] = useState<CategoryId[]>(initial.categories);
   const [showDisputed, setShowDisputed] = useState(true);
   const [selectedId, setSelectedId] = useState<string | null>(initial.id);
@@ -104,6 +111,20 @@ export default function App({ url }: { url?: UrlLike }) {
   const clearCategories = useCallback(() => setSelectedCategories([]), []);
   const closeDrawer = useCallback(() => setSelectedId(null), []);
 
+  /** Open an entry and scrub the timeline forward so cumulative filter includes it. */
+  const selectItem = useCallback(
+    (id: string | null) => {
+      setSelectedId(id);
+      if (!id) return;
+      const item = findItem(index.items, id);
+      if (!item) return;
+      setYear((y) =>
+        item.primary_year > y ? Math.min(index.year_range.max, item.primary_year) : y,
+      );
+    },
+    [index.items, index.year_range.max],
+  );
+
   const arcs = useMemo(() => itemsToArcs(visible), [visible]);
   const visibleIds = useMemo(() => new Set(visible.map((i) => i.id)), [visible]);
 
@@ -139,7 +160,7 @@ export default function App({ url }: { url?: UrlLike }) {
             geojson={geojson}
             arcs={arcs}
             selectedItem={selectedItem}
-            onSelect={setSelectedId}
+            onSelect={selectItem}
           />
         </Suspense>
         <div className="scrim scrim-top" aria-hidden="true" />
@@ -216,7 +237,7 @@ export default function App({ url }: { url?: UrlLike }) {
           visibleIds={visibleIds}
           selectedId={selectedId}
           onChange={setYear}
-          onSelect={setSelectedId}
+          onSelect={selectItem}
         />
         <div className="footer-row">
           <ul className="legend" aria-label={t(lang, 'legend')}>

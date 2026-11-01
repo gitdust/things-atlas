@@ -153,7 +153,6 @@
   --shadow-knob: 0 2px 6px rgba(var(--black-rgb), 0.22);
   --shadow-knob-focus: 0 0 0 4px var(--focus-halo), 0 2px 6px rgba(var(--black-rgb), 0.25);
   --shadow-flag: 0 2px 6px -2px rgba(var(--black-rgb), 0.4);
-  --shadow-play: 0 2px 6px -1px rgba(var(--ink-rgb), 0.35);
   --shadow-vignette: inset 0 0 160px rgba(var(--umber-rgb), 0.14);
 
   /* --------------------------------------------------------------- z-index */

@@ -437,7 +437,7 @@ button {
 
 .timeline {
   display: grid;
-  grid-template-columns: 172px 1fr;
+  grid-template-columns: minmax(7rem, auto) 1fr;
   align-items: stretch;
   gap: var(--s-4);
 }
@@ -448,33 +448,6 @@ button {
   gap: var(--s-3);
   padding-right: var(--s-4);
   border-right: 1px solid var(--rule);
-}
-.play-btn {
-  width: 42px;
-  height: 42px;
-  flex: none;
-  border-radius: var(--r-round);
-  border: 0;
-  background: var(--ink);
-  display: grid;
-  place-items: center;
-  cursor: pointer;
-  box-shadow: var(--shadow-play);
-  transition:
-    transform var(--dur) var(--ease),
-    background var(--dur) var(--ease);
-}
-.play-btn:hover {
-  transform: scale(1.06);
-  background: var(--black);
-}
-.play-btn:active {
-  transform: scale(0.97);
-}
-.play-btn svg {
-  width: 16px;
-  height: 16px;
-  fill: var(--paper);
 }
 .tl-year {
   display: flex;
@@ -494,17 +467,21 @@ button {
   font-weight: var(--fw-medium);
   letter-spacing: -0.02em;
   font-variation-settings: 'opsz' 60;
+  white-space: nowrap;
+  line-height: 1;
 }
 
 .tl-scrub {
   position: relative;
-  height: 96px;
+  /* track + tick marks + BCE/AD labels — must clear .footer-row below */
+  height: 112px;
   margin: 0 var(--s-3);
   cursor: ew-resize;
   touch-action: none;
   user-select: none;
   outline: none;
   --track-y: 64px;
+  overflow-x: clip; /* thumb flag at 0%/100% stays inside the scrubber */
 }
 .tl-scrub:focus-visible .tl-thumb-knob {
   box-shadow: var(--shadow-knob-focus);
@@ -626,8 +603,9 @@ button {
   left: 0;
   right: 0;
   top: calc(var(--track-y) + 4px);
-  height: 26px;
+  height: 36px;
   pointer-events: none;
+  overflow: visible;
 }
 .tick {
   position: absolute;
@@ -650,6 +628,8 @@ button {
   transform: translateX(-50%);
   font-style: normal;
   font-size: var(--fs-xs);
+  line-height: 1.1;
+  white-space: nowrap;
   color: var(--ink-3);
   letter-spacing: 0.02em;
 }
@@ -674,6 +654,8 @@ button {
   font-size: var(--fs-ui-sm);
   font-weight: var(--fw-semibold);
   letter-spacing: 0.02em;
+  line-height: 1.2;
+  white-space: nowrap;
   box-shadow: var(--shadow-flag);
 }
 .tl-thumb-line {
@@ -707,9 +689,11 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: var(--s-4);
-  margin-top: var(--s-2);
-  padding-top: var(--s-2);
+  margin-top: var(--s-3);
+  padding-top: var(--s-3);
   border-top: 1px solid var(--rule);
+  position: relative;
+  z-index: 1;
 }
 .legend {
   display: flex;
@@ -1305,10 +1289,6 @@ button {
     border-right: 0;
     padding-right: 0;
   }
-  .play-btn {
-    width: 36px;
-    height: 36px;
-  }
   .tl-year {
     flex-direction: row;
     align-items: baseline;
@@ -1318,7 +1298,7 @@ button {
     font-size: var(--fs-year-mobile);
   }
   .tl-scrub {
-    height: 84px;
+    height: 100px;
     margin: 0 var(--s-2);
     --track-y: 54px;
   }

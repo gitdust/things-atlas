@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useMemo, useRef, useState } from 'react';
 import type { AtlasItem } from '@/lib/types';
 import { categoryColor } from '@/lib/tokens';
 import { YEAR_KEYS } from '@/lib/primaryYear';
@@ -17,8 +17,6 @@ type Props = {
   onSelect: (id: string) => void;
 };
 
-const STEP_MS = 90;
-
 export function Timeline({
   lang,
   year,
@@ -33,7 +31,6 @@ export function Timeline({
   const scale = useMemo(() => makeTimeScale(min, max), [min, max]);
   const pct = scale.pct;
   const trackRef = useRef<HTMLDivElement | null>(null);
-  const [playing, setPlaying] = useState(false);
   const [dragging, setDragging] = useState(false);
   const yearRef = useRef(year);
   yearRef.current = year;
@@ -81,22 +78,6 @@ export function Timeline({
     [scale],
   );
 
-  // play / pause
-  useEffect(() => {
-    if (!playing) return;
-    if (yearRef.current >= max) onChange(min);
-    const timer = window.setInterval(() => {
-      const next = yearRef.current + scale.stepAt(yearRef.current);
-      if (next > max) {
-        setPlaying(false);
-        return;
-      }
-      onChange(next);
-    }, STEP_MS);
-    return () => window.clearInterval(timer);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [playing, min, max, scale]);
-
   const onKeyDown = (e: React.KeyboardEvent) => {
     const set = (y: number) => {
       e.preventDefault();
@@ -106,10 +87,8 @@ export function Timeline({
     else if (e.key === 'End') set(max);
     else if (e.key === 'PageUp') set(year + 10 * scale.stepAt(year));
     else if (e.key === 'PageDown') set(year - 10 * scale.stepAt(year - 1));
-    else if (e.key === ' ' || e.key === 'Enter') {
-      e.preventDefault();
-      setPlaying((p) => !p);
-    }
+    else if (e.key === 'ArrowLeft') set(year - scale.stepAt(year - 1));
+    else if (e.key === 'ArrowRight') set(year + scale.stepAt(year));
   };
 
   const decadeLabel = (y: number) => {
@@ -120,24 +99,6 @@ export function Timeline({
   return (
     <div className={`timeline${dragging ? ' is-dragging' : ''}`}>
       <div className="tl-readout">
-        <button
-          type="button"
-          className="play-btn"
-          aria-label={playing ? t(lang, 'pause') : t(lang, 'play')}
-          title={playing ? t(lang, 'pauseHint') : t(lang, 'playHint')}
-          onClick={() => setPlaying((p) => !p)}
-        >
-          {playing ? (
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <rect x="4" y="3" width="2.6" height="10" rx="0.6" />
-              <rect x="9.4" y="3" width="2.6" height="10" rx="0.6" />
-            </svg>
-          ) : (
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M5 3.2v9.6a.6.6 0 0 0 .9.5l7.6-4.8a.6.6 0 0 0 0-1L5.9 2.7a.6.6 0 0 0-.9.5z" />
-            </svg>
-          )}
-        </button>
         <div className="tl-year">
           <span className="tl-year-label">{t(lang, 'upTo')}</span>
           <span className="tl-year-num num">{formatYear(lang, year, true)}</span>
@@ -159,7 +120,6 @@ export function Timeline({
           if ((e.target as HTMLElement).closest('.tl-dot')) return;
           (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
           setDragging(true);
-          setPlaying(false);
           onChange(yearFromClientX(e.clientX));
         }}
         onPointerMove={(e) => {

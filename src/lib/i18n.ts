@@ -15,10 +15,6 @@ const dict = {
     language: '语言',
     map: '地图',
     legend: '图例',
-    play: '播放',
-    pause: '暂停',
-    playHint: '播放（空格键）',
-    pauseHint: '暂停（空格键）',
     upTo: '截至',
     countShown: '{n} / {total} 件可见',
 
@@ -73,10 +69,6 @@ const dict = {
     language: 'Language',
     map: 'Map',
     legend: 'Legend',
-    play: 'Play',
-    pause: 'Pause',
-    playHint: 'Play (Space)',
-    pauseHint: 'Pause (Space)',
     upTo: 'Up to',
     countShown: '{n} of {total} shown',
 

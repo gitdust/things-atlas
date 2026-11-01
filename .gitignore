@@ -13,3 +13,6 @@ src/generated/*
 # local package-manager noise
 pnpm-lock.yaml
 pnpm-workspace.yaml
+
+.atlas-*.bundle
+.*.bundle

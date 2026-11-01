@@ -15,7 +15,7 @@ type Segment = {
   minor: number;
   /** Labelled tick spacing (years) inside the segment. */
   major: number;
-  /** Years per play step inside the segment. */
+  /** Years per keyboard/scrub step inside the segment. */
   step: number;
 };
 
@@ -36,7 +36,7 @@ export type TimeScale = {
   yearAt: (f: number) => number;
   /** Tick marks: `major` ticks carry a label. */
   ticks: { y: number; major: boolean; mid: boolean }[];
-  /** Years to advance per play step at year `y`. */
+  /** Years to advance per step at year `y`. */
   stepAt: (y: number) => number;
 };
 
@@ -91,7 +91,7 @@ export function makeTimeScale(min: number, max: number): TimeScale {
     for (const b of bounds) if (c >= b.at) s = b;
     const share = Math.max(1e-9, s.atEnd - s.at);
     const y = s.from + ((c - s.at) / share) * (s.to - s.from);
-    // Snap to the segment's play step so ancient eras land on round years.
+    // Snap to the segment step so ancient eras land on round years.
     const snapped = Math.round(y / s.step) * s.step;
     return Math.min(max, Math.max(min, snapped));
   };
