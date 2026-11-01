@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react';
-import type { AtlasItem, CategoryMeta, YearKey, YearMark } from '@/lib/types';
+import type { AtlasItem, CategoryMeta, ItemImage, YearKey, YearMark } from '@/lib/types';
 import { YEAR_KEYS } from '@/lib/primaryYear';
-import { CATEGORY_COLORS } from '@/lib/theme';
+import { categoryColor } from '@/lib/tokens';
+import { IMAGE_SIZES, variantSrcSet } from '@/lib/images';
 import { pick, t, tf, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
 
 type Props = {
@@ -9,6 +10,8 @@ type Props = {
   item: AtlasItem | null;
   entryNo: number | null;
   category: CategoryMeta | null;
+  /** The entry opened by the landing URL: its photo is likely the LCP element, so don't lazy-load it. */
+  eagerImage?: boolean;
   onClose: () => void;
 };
 
@@ -31,7 +34,38 @@ function fmtCoord(lat: number, lng: number) {
   return `${Math.abs(lat).toFixed(2)}°${ns} ${Math.abs(lng).toFixed(2)}°${ew}`;
 }
 
-export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
+/** <picture> with AVIF/WebP variants from scripts/build-images.ts, JPEG fallback. */
+function ResponsiveImage({ image, alt, eager }: { image: ItemImage; alt: string; eager: boolean }) {
+  const widths = image.widths?.length ? image.widths : null;
+  return (
+    <picture>
+      {widths ? (
+        <source
+          type="image/avif"
+          srcSet={variantSrcSet(image.src, widths, 'avif')}
+          sizes={IMAGE_SIZES}
+        />
+      ) : null}
+      {widths ? (
+        <source
+          type="image/webp"
+          srcSet={variantSrcSet(image.src, widths, 'webp')}
+          sizes={IMAGE_SIZES}
+        />
+      ) : null}
+      <img
+        src={image.src}
+        alt={alt}
+        width={image.width}
+        height={image.height}
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+      />
+    </picture>
+  );
+}
+
+export function ItemDrawer({ lang, item, entryNo, category, eagerImage = false, onClose }: Props) {
   const bodyRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -49,23 +83,20 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
 
   if (!item) return null;
 
-  const color = CATEGORY_COLORS[item.category];
+  const color = categoryColor[item.category];
   const pKey = primaryKeyOf(item);
-  const milestones = YEAR_KEYS.map((key) => ({ key, mark: item.years[key] as YearMark }))
-    .sort((a, b) => {
+  const milestones = YEAR_KEYS.map((key) => ({ key, mark: item.years[key] as YearMark })).sort(
+    (a, b) => {
       if (!a.mark) return 1;
       if (!b.mark) return -1;
       return a.mark.year - b.mark.year;
-    });
+    },
+  );
   const title = pick(lang, item.name_zh, item.name_en);
   const alt = pick(lang === 'zh' ? 'en' : 'zh', item.name_zh, item.name_en);
 
   return (
-    <aside
-      className="drawer"
-      aria-label={title}
-      style={{ ['--item-color' as string]: color }}
-    >
+    <aside className="drawer" aria-label={title} style={{ ['--item-color' as string]: color }}>
       <div className="drawer-scroll" ref={bodyRef}>
         <header className="drawer-head">
           <div className="drawer-kicker">
@@ -79,7 +110,12 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
             </span>
             {item.disputed ? <span className="badge-disputed">{t(lang, 'disputed')}</span> : null}
           </div>
-          <button type="button" className="close-btn" onClick={onClose} aria-label={t(lang, 'close')}>
+          <button
+            type="button"
+            className="close-btn"
+            onClick={onClose}
+            aria-label={t(lang, 'close')}
+          >
             <svg viewBox="0 0 16 16" aria-hidden="true">
               <path d="M4 4l8 8M12 4l-8 8" />
             </svg>
@@ -97,14 +133,12 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
           </small>
         </div>
 
-        
         {item.image ? (
           <figure className="drawer-figure">
-            <img
-              src={item.image.src}
+            <ResponsiveImage
+              image={item.image}
               alt={pick(lang, item.image.alt_zh, item.image.alt_en)}
-              loading="lazy"
-              decoding="async"
+              eager={eagerImage}
             />
             <figcaption>
               <span>{t(lang, 'photoCredit')}</span>
@@ -134,7 +168,9 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
                 key={key}
                 className={`${mark ? '' : 'is-null'}${key === pKey ? ' is-primary' : ''}`}
               >
-                <span className="ms-year num">{mark ? formatYear(lang, mark.year, true) : '—'}</span>
+                <span className="ms-year num">
+                  {mark ? formatYear(lang, mark.year, true) : '—'}
+                </span>
                 <span className="ms-node" aria-hidden="true" />
                 <div className="ms-body">
                   <div className="ms-label">
@@ -144,7 +180,9 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
                         {t(lang, `precision_${mark.precision}` as MessageKey)}
                       </span>
                     ) : null}
-                    {key === pKey ? <span className="ms-primary">{t(lang, 'primaryYear')}</span> : null}
+                    {key === pKey ? (
+                      <span className="ms-primary">{t(lang, 'primaryYear')}</span>
+                    ) : null}
                   </div>
                   {mark && pick(lang, mark.ref_zh, mark.ref) ? (
                     <div className="ms-ref">{pick(lang, mark.ref_zh, mark.ref)}</div>
@@ -204,9 +242,7 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
           </ol>
         </section>
 
-        <footer className="drawer-foot num">
-          {tf(lang, 'updated', { date: item.updated })}
-        </footer>
+        <footer className="drawer-foot num">{tf(lang, 'updated', { date: item.updated })}</footer>
       </div>
     </aside>
   );

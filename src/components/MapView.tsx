@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import 'maplibre-gl/dist/maplibre-gl.css';
 import maplibregl, {
   type ExpressionSpecification,
   type GeoJSONSource,
@@ -6,12 +7,14 @@ import maplibregl, {
   type MapGeoJSONFeature,
 } from 'maplibre-gl';
 import type { FeatureCollection, LineString, Point } from 'geojson';
-import { CATEGORY_COLORS, INK, MAP_STYLE, PAPER, localizeBasemap, tuneBasemap } from '@/lib/theme';
+import { MAP_STYLE, localizeBasemap, tuneBasemap } from '@/lib/theme';
+import { categoryColor, color, mq } from '@/lib/tokens';
+import '@/styles/map.css';
 import { itemBounds, type ArcProps, type ItemFeatureProps } from '@/lib/geo';
 import type { AtlasItem } from '@/lib/types';
 import { pick, t, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
 
-type Props = {
+export type MapViewProps = {
   lang: Lang;
   geojson: FeatureCollection<Point, ItemFeatureProps>;
   arcs: FeatureCollection<LineString, ArcProps>;
@@ -19,29 +22,21 @@ type Props = {
   onSelect: (id: string) => void;
 };
 
-const categoryColor: ExpressionSpecification = [
+/** ['match', category, 'stationery', '#…', …, fallback] built from the design tokens. */
+const categoryColorExpr = [
   'match',
   ['get', 'category'],
-  'stationery',
-  CATEGORY_COLORS.stationery,
-  'apparel_accessory',
-  CATEGORY_COLORS.apparel_accessory,
-  'hand_tool',
-  CATEGORY_COLORS.hand_tool,
-  'home',
-  CATEGORY_COLORS.home,
-  'personal_care',
-  CATEGORY_COLORS.personal_care,
-  'digital',
-  CATEGORY_COLORS.digital,
-  CATEGORY_COLORS.kitchen,
-];
+  ...Object.entries(categoryColor)
+    .filter(([id]) => id !== 'kitchen')
+    .flat(),
+  categoryColor.kitchen,
+] as unknown as ExpressionSpecification;
 
 const isContested: ExpressionSpecification = ['==', ['get', 'kind'], 'contested'];
 const isHover: ExpressionSpecification = ['boolean', ['feature-state', 'hover'], false];
 
 function isMobile() {
-  return window.matchMedia('(max-width: 760px)').matches;
+  return window.matchMedia(mq.mobile).matches;
 }
 
 function mapPadding(drawerOpen: boolean) {
@@ -60,16 +55,21 @@ function applySelection(map: MlMap, selectedId: string | null) {
 
   map.setPaintProperty('items-halo', 'circle-opacity', dim(0.32, 0.06, 0.22));
   map.setPaintProperty('items-halo', 'circle-radius', [
-    'interpolate', ['linear'], ['zoom'],
-    1, has ? ['case', isSel, 20, 11] : 13,
-    6, has ? ['case', isSel, 30, 16] : 20,
+    'interpolate',
+    ['linear'],
+    ['zoom'],
+    1,
+    has ? ['case', isSel, 20, 11] : 13,
+    6,
+    has ? ['case', isSel, 30, 16] : 20,
   ]);
   map.setPaintProperty('items-ring', 'circle-stroke-opacity', has ? ['case', isSel, 0.9, 0] : 0);
   map.setPaintProperty('items-dot', 'circle-opacity', dim(1, 0.35, 1));
   map.setPaintProperty('items-dot', 'circle-stroke-opacity', dim(1, 0.4, 1));
   map.setPaintProperty('items-dot', 'circle-radius', [
     'case',
-    isHover, 8,
+    isHover,
+    8,
     has ? ['case', isSel, 7, 4.5] : 5.5,
   ]);
   for (const id of ['arcs-solid', 'arcs-dashed']) {
@@ -88,13 +88,13 @@ function tooltipHtml(p: ItemFeatureProps, lang: Lang) {
     s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
   return `
     <div class="tip-kicker"><span class="tip-dot" style="--c:${
-      CATEGORY_COLORS[p.category as keyof typeof CATEGORY_COLORS] ?? INK
+      categoryColor[p.category as keyof typeof categoryColor] ?? color.ink
     }"></span>${esc(kind)} · <span class="num">${esc(formatYear(lang, year))}</span></div>
     <div class="tip-title">${esc(name)} <span class="tip-alt">${esc(alt)}</span></div>
     <div class="tip-place">${esc(place)}</div>`;
 }
 
-export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) {
+export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MlMap | null>(null);
   const readyRef = useRef(false);
@@ -147,7 +147,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) 
         source: 'arcs',
         filter: ['!', ['get', 'contested']],
         layout: { 'line-cap': 'round', 'line-join': 'round' },
-        paint: { 'line-color': categoryColor, 'line-width': 1, 'line-opacity': 0.32 },
+        paint: { 'line-color': categoryColorExpr, 'line-width': 1, 'line-opacity': 0.32 },
       });
       map.addLayer({
         id: 'arcs-dashed',
@@ -156,7 +156,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) 
         filter: ['get', 'contested'],
         layout: { 'line-cap': 'round', 'line-join': 'round' },
         paint: {
-          'line-color': categoryColor,
+          'line-color': categoryColorExpr,
           'line-width': 1,
           'line-opacity': 0.32,
           'line-dasharray': [1.5, 2.5],
@@ -167,7 +167,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) 
         type: 'circle',
         source: 'items',
         paint: {
-          'circle-color': categoryColor,
+          'circle-color': categoryColorExpr,
           'circle-radius': 13,
           'circle-blur': 0.9,
           'circle-opacity': 0.16,
@@ -179,9 +179,9 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) 
         source: 'items',
         paint: {
           'circle-radius': 12,
-          'circle-color': 'rgba(0,0,0,0)',
+          'circle-color': 'transparent',
           'circle-stroke-width': 1,
-          'circle-stroke-color': INK,
+          'circle-stroke-color': color.ink,
           'circle-stroke-opacity': 0,
         },
       });
@@ -191,8 +191,8 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) 
         source: 'items',
         paint: {
           'circle-radius': 5.5,
-          'circle-color': ['case', isContested, PAPER, categoryColor],
-          'circle-stroke-color': ['case', isContested, categoryColor, PAPER],
+          'circle-color': ['case', isContested, color.paper, categoryColorExpr],
+          'circle-stroke-color': ['case', isContested, categoryColorExpr, color.paper],
           'circle-stroke-width': ['case', isContested, 1.8, 1.6],
         },
       });
@@ -225,7 +225,8 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) 
         map.setFeatureState({ source: 'items', id: hoverId }, { hover: false });
       }
       hoverId = f.id;
-      if (hoverId !== undefined) map.setFeatureState({ source: 'items', id: hoverId }, { hover: true });
+      if (hoverId !== undefined)
+        map.setFeatureState({ source: 'items', id: hoverId }, { hover: true });
       const coords = (f.geometry as Point).coordinates as [number, number];
       popup
         .setLngLat(coords)
@@ -234,7 +235,8 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: Props) 
     });
     map.on('mouseleave', 'items-dot', () => {
       map.getCanvas().style.cursor = '';
-      if (hoverId !== undefined) map.setFeatureState({ source: 'items', id: hoverId }, { hover: false });
+      if (hoverId !== undefined)
+        map.setFeatureState({ source: 'items', id: hoverId }, { hover: false });
       hoverId = undefined;
       popup.remove();
     });

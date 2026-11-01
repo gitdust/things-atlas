@@ -15,8 +15,9 @@ By opening a PR you agree to license your code under MIT and your item JSON unde
 2. Scaffold: `npm run new-item -- your-slug`
 3. Fill `years` (at least one mark; the map's `primary_year` defaults to `invention`, falling back to `patent → mass_production → popularization` — set optional `primary` to pick another mark), `locations` (≥1), `sources` (≥1 and **not brand-only**).
 4. If `disputed: true`, write Chinese `notes` ≥ 40 characters covering both sides, and add `notes_en` for the English UI.
-5. Run `npm run validate` and `npm run dev` to eyeball pins + drawer.
-6. Open a PR with a one-line summary, year-rationale, and whether it is disputed.
+5. If you add a photo under `public/images/`, run `npm run images` (AVIF/WebP variants + sizes) and credit it in `public/images/CREDITS.md`.
+6. Run `npm run validate` and `npm run dev` to eyeball pins + drawer. If validate warns about characters missing from the CJK font subset, run `npm run fonts` and commit the result.
+7. Open a PR with a one-line summary, year-rationale, and whether it is disputed.
 
 ## Examples
 

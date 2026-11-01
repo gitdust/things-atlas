@@ -1,0 +1,18 @@
+# Cache policy (Cloudflare Pages / Netlify `_headers` format; mirror it in
+# your CDN or server config if you host elsewhere).
+
+# Vite output: content-hashed file names, safe to cache forever.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Optimised photos: names are stable but content changes only via `npm run images`.
+/images/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/generated/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+# HTML, sitemap, manifest: always revalidate so new builds show up at once.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

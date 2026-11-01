@@ -1,0 +1,490 @@
+{
+  "adhesive-bandage.jpg": {
+    "width": 1200,
+    "height": 729,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "alarm-clock.jpg": {
+    "width": 944,
+    "height": 1200,
+    "widths": [
+      480,
+      944
+    ]
+  },
+  "ballpoint-pen.jpg": {
+    "width": 1200,
+    "height": 846,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "bar-soap.jpg": {
+    "width": 1131,
+    "height": 972,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "belt-buckle.jpg": {
+    "width": 1200,
+    "height": 801,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "binder-clip.jpg": {
+    "width": 1200,
+    "height": 1061,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "bobby-pin.jpg": {
+    "width": 800,
+    "height": 259,
+    "widths": [
+      480,
+      800
+    ]
+  },
+  "bottle-opener.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "button.jpg": {
+    "width": 1200,
+    "height": 795,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "can-opener.jpg": {
+    "width": 1200,
+    "height": 640,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "chopsticks.jpg": {
+    "width": 682,
+    "height": 527,
+    "widths": [
+      480,
+      682
+    ]
+  },
+  "coat-hanger.jpg": {
+    "width": 1160,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "computer-mouse.jpg": {
+    "width": 800,
+    "height": 701,
+    "widths": [
+      480,
+      800
+    ]
+  },
+  "corkscrew.jpg": {
+    "width": 1200,
+    "height": 985,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "correction-fluid.jpg": {
+    "width": 1200,
+    "height": 858,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "cotton-swab.jpg": {
+    "width": 640,
+    "height": 480,
+    "widths": [
+      480,
+      640
+    ]
+  },
+  "door-knob.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "eraser.jpg": {
+    "width": 1200,
+    "height": 600,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "ethernet-cable.jpg": {
+    "width": 1200,
+    "height": 701,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "flashlight.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "fountain-pen.jpg": {
+    "width": 1200,
+    "height": 880,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "frying-pan.jpg": {
+    "width": 1200,
+    "height": 775,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "hammer.jpg": {
+    "width": 1200,
+    "height": 544,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "hdmi-cable.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "headphones.jpg": {
+    "width": 981,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "highlighter.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "hook-and-eye.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "jeans-rivet.jpg": {
+    "width": 1163,
+    "height": 872,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "keyboard.jpg": {
+    "width": 1200,
+    "height": 800,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "light-bulb.jpg": {
+    "width": 1200,
+    "height": 800,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "light-switch.jpg": {
+    "width": 900,
+    "height": 1200,
+    "widths": [
+      480,
+      900
+    ]
+  },
+  "match.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "measuring-tape.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "mechanical-pencil.jpg": {
+    "width": 1200,
+    "height": 600,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "microwave-oven.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "nail-clipper.jpg": {
+    "width": 1200,
+    "height": 498,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "padlock.jpg": {
+    "width": 800,
+    "height": 600,
+    "widths": [
+      480,
+      800
+    ]
+  },
+  "paperclip.jpg": {
+    "width": 1200,
+    "height": 799,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "pencil.jpg": {
+    "width": 600,
+    "height": 400,
+    "widths": [
+      480,
+      600
+    ]
+  },
+  "pliers.jpg": {
+    "width": 1200,
+    "height": 653,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "push-pin.jpg": {
+    "width": 937,
+    "height": 911,
+    "widths": [
+      480,
+      937
+    ]
+  },
+  "rubber-band.jpg": {
+    "width": 1007,
+    "height": 910,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "safety-pin.jpg": {
+    "width": 1200,
+    "height": 877,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "safety-razor.jpg": {
+    "width": 1200,
+    "height": 732,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "scissors.jpg": {
+    "width": 1200,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "screwdriver.jpg": {
+    "width": 1200,
+    "height": 430,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "sd-card.jpg": {
+    "width": 1200,
+    "height": 792,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "shampoo.jpg": {
+    "width": 800,
+    "height": 1200,
+    "widths": [
+      480,
+      800
+    ]
+  },
+  "shoelace.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "snap-fastener.jpg": {
+    "width": 968,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "stapler.jpg": {
+    "width": 1200,
+    "height": 779,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "sticky-note.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "table-fork.jpg": {
+    "width": 1200,
+    "height": 1064,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "thermos.jpg": {
+    "width": 999,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "toilet-paper.jpg": {
+    "width": 861,
+    "height": 1200,
+    "widths": [
+      480,
+      861
+    ]
+  },
+  "toothbrush.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "toothpaste-tube.jpg": {
+    "width": 1200,
+    "height": 803,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "transparent-tape.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "usb-flash-drive.jpg": {
+    "width": 1200,
+    "height": 698,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "velcro.jpg": {
+    "width": 1200,
+    "height": 801,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "zipper.jpg": {
+    "width": 894,
+    "height": 1200,
+    "widths": [
+      480,
+      894
+    ]
+  }
+}

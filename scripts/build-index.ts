@@ -1,11 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import {
-  derivePrimaryYear,
-  PRIMARY_YEAR_PRIORITY,
-  type YearKey,
-} from '../src/lib/primaryYear';
+import { derivePrimaryYear, PRIMARY_YEAR_PRIORITY, type YearKey } from '../src/lib/primaryYear';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -43,7 +39,13 @@ type Item = {
   summary_en: string;
   tags?: string[];
   updated: string;
+  image?: { src: string; width?: number; height?: number; widths?: number[] };
 };
+
+/** Intrinsic sizes + responsive widths written by scripts/build-images.ts. */
+const imageManifestPath = path.join(root, 'data', 'images.json');
+const imageManifest: Record<string, { width: number; height: number; widths: number[] }> =
+  fs.existsSync(imageManifestPath) ? JSON.parse(fs.readFileSync(imageManifestPath, 'utf8')) : {};
 
 fs.mkdirSync(outDir, { recursive: true });
 
@@ -56,14 +58,20 @@ const items: Array<Item & { primary_year: number }> = [];
 const features: GeoJSON.Feature[] = [];
 
 for (const file of files) {
-  const data = JSON.parse(
-    fs.readFileSync(path.join(itemsDir, file), 'utf8'),
-  ) as Item;
+  const data = JSON.parse(fs.readFileSync(path.join(itemsDir, file), 'utf8')) as Item;
   const primary = derivePrimaryYear(data.years, data.primary);
   if (primary == null) {
     throw new Error(`${file}: cannot derive primary_year`);
   }
   const indexed = { ...data, primary_year: primary };
+  if (data.image?.src.startsWith('/images/')) {
+    const dims = imageManifest[data.image.src.slice('/images/'.length)];
+    if (dims) indexed.image = { ...data.image, ...dims };
+    else
+      console.warn(
+        `⚠ ${data.id}: no optimised variants for ${data.image.src} — run \`npm run images\``,
+      );
+  }
   items.push(indexed);
 
   data.locations.forEach((loc, index) => {
@@ -115,26 +123,13 @@ const geojson: GeoJSON.FeatureCollection = {
   features,
 };
 
-fs.writeFileSync(
-  path.join(outDir, 'items-index.json'),
-  JSON.stringify(index, null, 2) + '\n',
-);
-fs.writeFileSync(
-  path.join(outDir, 'items.geojson'),
-  JSON.stringify(geojson, null, 2) + '\n',
-);
+fs.writeFileSync(path.join(outDir, 'items-index.json'), JSON.stringify(index, null, 2) + '\n');
+fs.writeFileSync(path.join(outDir, 'items.geojson'), JSON.stringify(geojson, null, 2) + '\n');
 
-// Also mirror into src for typed import during MVP (<200 items)
+// Also mirror the index into src for a typed, bundled import (<200 items).
 const srcGen = path.join(root, 'src', 'generated');
 fs.mkdirSync(srcGen, { recursive: true });
-fs.writeFileSync(
-  path.join(srcGen, 'items-index.json'),
-  JSON.stringify(index, null, 2) + '\n',
-);
-fs.writeFileSync(
-  path.join(srcGen, 'items.geojson'),
-  JSON.stringify(geojson, null, 2) + '\n',
-);
+fs.writeFileSync(path.join(srcGen, 'items-index.json'), JSON.stringify(index) + '\n');
 
 console.log(
   `Built index: ${items.length} items, ${features.length} features → public/generated/ & src/generated/`,

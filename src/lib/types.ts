@@ -22,35 +22,13 @@ export type CategoryId =
   | 'digital'
   | 'kitchen';
 
-export type LocationKind =
-  | 'invention'
-  | 'patent'
-  | 'production'
-  | 'popularization'
-  | 'contested';
+export type LocationKind = 'invention' | 'patent' | 'production' | 'popularization' | 'contested';
 
-export type PlaceConfidence =
-  | 'exact'
-  | 'city'
-  | 'region'
-  | 'country'
-  | 'approximate';
+export type PlaceConfidence = 'exact' | 'city' | 'region' | 'country' | 'approximate';
 
-export type ItemConfidence =
-  | 'exact'
-  | 'year'
-  | 'decade'
-  | 'century'
-  | 'disputed';
+export type ItemConfidence = 'exact' | 'year' | 'decade' | 'century' | 'disputed';
 
-export type SourceType =
-  | 'patent'
-  | 'museum'
-  | 'wiki'
-  | 'book'
-  | 'news'
-  | 'brand'
-  | 'other';
+export type SourceType = 'patent' | 'museum' | 'wiki' | 'book' | 'news' | 'brand' | 'other';
 
 export type ItemLocation = {
   lat: number;
@@ -76,6 +54,10 @@ export type ItemImage = {
   credit?: string;
   license?: string;
   source_url?: string;
+  /** Build-time (data/images.json): intrinsic size + available responsive widths. */
+  width?: number;
+  height?: number;
+  widths?: number[];
 };
 
 export type AtlasItem = {
