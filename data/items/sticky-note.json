@@ -75,6 +75,18 @@
   "notes": "胶水由西尔弗于 1968 年发现，1972 年获专利；1974 年弗赖想到用它做书签，才有便利贴的构想。1978 年在博伊西试销，1980-04-06 全美上市，1981 年进入加拿大和欧洲。艾姆伦（Amron）曾声称自己 1973 年发明，双方和解后他再次起诉，被法院驳回。",
   "summary_zh": "1968 年发现胶水、1974 年弗赖构想书签用途、1980 年全美上市——发明年与普及年明显分离。",
   "summary_en": "Adhesive found in 1968, Fry's bookmark idea in 1974, US nationwide launch in 1980 — invention and popularization years diverge.",
-  "tags": ["office", "adhesive", "pocket-desk"],
-  "updated": "2026-11-01"
+  "tags": [
+    "office",
+    "adhesive",
+    "pocket-desk"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/sticky-note.jpg",
+    "alt_zh": "一张贴在白色背景上的黄色便利贴",
+    "alt_en": "A yellow sticky note on a white background",
+    "credit": "Pixloom",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sticky_Note_on_a_white_background.jpg"
+  }
 }

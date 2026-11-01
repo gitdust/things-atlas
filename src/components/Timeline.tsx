@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import type { AtlasItem, YearMode } from '@/lib/types';
+import type { AtlasItem } from '@/lib/types';
 import { CATEGORY_COLORS } from '@/lib/theme';
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { t, type Lang } from '@/lib/i18n';
@@ -9,7 +9,6 @@ type Props = {
   year: number;
   min: number;
   max: number;
-  mode: YearMode;
   items: AtlasItem[];
   visibleIds: Set<string>;
   selectedId: string | null;
@@ -24,7 +23,6 @@ export function Timeline({
   year,
   min,
   max,
-  mode,
   items,
   visibleIds,
   selectedId,
@@ -126,7 +124,7 @@ export function Timeline({
   const decadeLabel = (y: number) => (y % 50 === 0 ? String(y) : `’${String(y).slice(2)}`);
 
   return (
-    <div className={`timeline mode-${mode}${dragging ? ' is-dragging' : ''}`}>
+    <div className={`timeline${dragging ? ' is-dragging' : ''}`}>
       <div className="tl-readout">
         <button
           type="button"
@@ -148,13 +146,7 @@ export function Timeline({
         </button>
         <div className="tl-year">
           <span className="tl-year-label">
-            {mode === 'cumulative'
-              ? lang === 'zh'
-                ? '截至'
-                : 'Up to'
-              : lang === 'zh'
-                ? '仅当年'
-                : 'In'}
+            {lang === 'zh' ? '截至' : 'Up to'}
           </span>
           <span className="tl-year-num num">{year}</span>
         </div>
@@ -187,7 +179,7 @@ export function Timeline({
         <div className="tl-hist" aria-hidden="true">
           {[...density.counts.entries()].map(([y, c]) => {
             if (y < min || y > max) return null;
-            const lit = mode === 'cumulative' ? y <= year : y === year;
+            const lit = y <= year;
             return (
               <span
                 key={y}
@@ -228,7 +220,7 @@ export function Timeline({
         <div className="tl-track" aria-hidden="true">
           <div
             className="tl-fill"
-            style={{ width: mode === 'cumulative' ? `${pct(year)}%` : '0%' }}
+            style={{ width: `${pct(year)}%` }}
           />
         </div>
 

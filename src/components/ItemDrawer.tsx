@@ -97,6 +97,33 @@ export function ItemDrawer({ lang, item, entryNo, category, onClose }: Props) {
           </small>
         </div>
 
+        
+        {item.image ? (
+          <figure className="drawer-figure">
+            <img
+              src={item.image.src}
+              alt={lang === 'zh' ? item.image.alt_zh : item.image.alt_en}
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>
+              <span>{t(lang, 'photoCredit')}</span>
+              {item.image.credit || item.image.license || item.image.source_url ? (
+                <span className="fig-credit">
+                  {item.image.source_url ? (
+                    <a href={item.image.source_url} target="_blank" rel="noreferrer">
+                      {[item.image.credit, item.image.license].filter(Boolean).join(' · ') ||
+                        (lang === 'zh' ? '来源' : 'Source')}
+                    </a>
+                  ) : (
+                    [item.image.credit, item.image.license].filter(Boolean).join(' · ')
+                  )}
+                </span>
+              ) : null}
+            </figcaption>
+          </figure>
+        ) : null}
+
         <p className="drawer-lede">{lang === 'zh' ? item.summary_zh : item.summary_en}</p>
 
         <section className="drawer-section">

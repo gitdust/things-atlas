@@ -66,6 +66,15 @@ export type ItemSource = {
   accessed: string;
 };
 
+export type ItemImage = {
+  src: string;
+  alt_zh: string;
+  alt_en: string;
+  credit?: string;
+  license?: string;
+  source_url?: string;
+};
+
 export type AtlasItem = {
   id: string;
   name_zh: string;
@@ -84,6 +93,7 @@ export type AtlasItem = {
   sources: ItemSource[];
   disputed: boolean;
   notes?: string;
+  image?: ItemImage;
   summary_zh: string;
   summary_en: string;
   tags?: string[];
@@ -91,8 +101,6 @@ export type AtlasItem = {
   /** Derived at build time — not stored in source JSON */
   primary_year: number;
 };
-
-export type YearMode = 'cumulative' | 'snapshot';
 
 export type ItemsIndex = {
   generated_at: string;

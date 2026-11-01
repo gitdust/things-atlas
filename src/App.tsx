@@ -3,23 +3,20 @@ import { MapView } from '@/components/MapView';
 import { Timeline } from '@/components/Timeline';
 import { FilterBar } from '@/components/FilterBar';
 import { ItemDrawer } from '@/components/ItemDrawer';
-import { YearModeToggle } from '@/components/YearModeToggle';
 import { findItem, loadCategories, loadItemsIndex } from '@/lib/loadItems';
 import { filterItems } from '@/lib/yearFilter';
 import { itemsToArcs, itemsToGeoJSON } from '@/lib/geo';
 import { Segmented } from '@/components/Segmented';
-import type { CategoryId, YearMode } from '@/lib/types';
+import type { CategoryId } from '@/lib/types';
 import { t, type Lang } from '@/lib/i18n';
 
 function readUrlState() {
   const params = new URLSearchParams(window.location.search);
   const y = params.get('y');
-  const mode = params.get('mode');
   const cat = params.get('cat');
   const id = params.get('id');
   return {
     year: y ? Number(y) : null,
-    mode: mode === 'snapshot' ? ('snapshot' as const) : ('cumulative' as const),
     categories: cat
       ? (cat.split(',').filter(Boolean) as CategoryId[])
       : ([] as CategoryId[]),
@@ -33,7 +30,6 @@ export default function App() {
   const initial = useMemo(() => readUrlState(), []);
 
   const [lang, setLang] = useState<Lang>('zh');
-  const [mode, setMode] = useState<YearMode>(initial.mode);
   const [year, setYear] = useState(
     initial.year ?? index.year_range.data_max,
   );
@@ -47,11 +43,10 @@ export default function App() {
     () =>
       filterItems(index.items, {
         selectedYear: year,
-        mode,
         categories: selectedCategories,
         showDisputed,
       }),
-    [index.items, year, mode, selectedCategories, showDisputed],
+    [index.items, year, selectedCategories, showDisputed],
   );
 
   const geojson = useMemo(() => itemsToGeoJSON(visible), [visible]);
@@ -63,7 +58,6 @@ export default function App() {
   useEffect(() => {
     const params = new URLSearchParams();
     params.set('y', String(year));
-    params.set('mode', mode);
     if (selectedCategories.length)
       params.set('cat', selectedCategories.join(','));
     if (selectedId) params.set('id', selectedId);
@@ -71,7 +65,7 @@ export default function App() {
     if (next !== window.location.search) {
       window.history.replaceState(null, '', next);
     }
-  }, [year, mode, selectedCategories, selectedId]);
+  }, [year, selectedCategories, selectedId]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -108,14 +102,13 @@ export default function App() {
   const counts = useMemo(() => {
     const pool = filterItems(index.items, {
       selectedYear: year,
-      mode,
       categories: [],
       showDisputed,
     });
     const out: Partial<Record<CategoryId, number>> = {};
     for (const i of pool) out[i.category] = (out[i.category] ?? 0) + 1;
     return out;
-  }, [index.items, year, mode, showDisputed]);
+  }, [index.items, year, showDisputed]);
 
   const entryNo = useMemo(() => {
     if (!selectedId) return null;
@@ -129,7 +122,10 @@ export default function App() {
   );
 
   return (
-    <div className={`app${selectedItem ? ' has-drawer' : ''}`} lang={lang === 'zh' ? 'zh-Hans' : 'en'}>
+    <div
+      className={`app${selectedItem ? ' has-drawer' : ''}`}
+      lang={lang === 'zh' ? 'zh-Hans' : 'en'}
+    >
       <main className="stage">
         <MapView
           lang={lang}
@@ -161,7 +157,6 @@ export default function App() {
         </div>
 
         <div className="top-controls">
-          <YearModeToggle lang={lang} mode={mode} onChange={setMode} />
           <Segmented<Lang>
             size="sm"
             ariaLabel="Language"
@@ -185,7 +180,6 @@ export default function App() {
         totalCount={index.count}
         onToggleCategory={(id) => {
           if (selectedCategories.length === 0 && id) {
-            // from "all" → single category
             setSelectedCategories([id]);
             return;
           }
@@ -194,12 +188,6 @@ export default function App() {
         onClearCategories={clearCategories}
         onShowDisputed={setShowDisputed}
       />
-
-      {visible.length === 0 ? (
-        <div className="empty-hint" role="status">
-          {t(lang, 'empty')}
-        </div>
-      ) : null}
 
       <ItemDrawer
         lang={lang}
@@ -215,7 +203,6 @@ export default function App() {
           year={year}
           min={index.year_range.min}
           max={index.year_range.max}
-          mode={mode}
           items={index.items}
           visibleIds={visibleIds}
           selectedId={selectedId}

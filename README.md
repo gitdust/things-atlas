@@ -42,20 +42,21 @@ One file per item: `data/items/{id}.json`. Field names follow the Spec:
 - `years.{invention,patent,mass_production,popularization}` → `YearMark | null`
 - `locations[]` (≥1) with bilingual place labels, `kind`, `confidence`, optional `year_override`
 - `confidence`, `sources[]`, `disputed`, `summary_zh` / `summary_en`, `updated`
-- optional `primary` (`invention|patent|mass_production|popularization`), `notes`, `tags`
+- optional `primary` (`invention|patent|mass_production|popularization`), `image`, `notes`, `tags`
 
 **`primary_year` is not stored.** Build derives it (`src/lib/primaryYear.ts`): if the item sets `primary` and that mark is non-null, use it; otherwise the first non-null of `invention → patent → mass_production → popularization`. Item-level `confidence` is one of `exact|year|decade|century|disputed`.
+
+Optional `image` (local path under `public/images/` preferred) is shown in the item drawer; credits live in `public/images/CREDITS.md`.
 
 Schema: `data/schema/item.schema.json`. Teaching copies: `data/examples/`.
 
 ## UI shell
 
 - Full-viewport MapLibre map with GeoJSON pins (one feature per location)
-- Timeline scrubber filtered by derived `primary_year`
-- Toggle: **cumulative** (`≤ year`) vs **snapshot** (`=== year`)
+- Timeline scrubber filtered by derived `primary_year` — always **cumulative** (`≤ year`)
 - Category chips + disputed visibility
 - Item drawer with four year rows, places, sources
-- URL sync: `?y=&mode=&cat=&id=`
+- URL sync: `?y=&cat=&id=`
 
 ## Scripts
 

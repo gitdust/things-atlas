@@ -90,6 +90,18 @@
   "notes": "桑德贝克改进型拉链 1913 年首次上市，1917 年获美国专利 US 1,219,881。公司迁往宾夕法尼亚米德维尔的具体年份尚未核实，1913 年时可能仍在新泽西霍博肯（40.744, -74.032）。芝加哥（贾德森 1893 年 US 504,038）与马萨诸塞剑桥（豪 1851 年 US 8,540）为更早的相关专利，标为 contested。",
   "summary_zh": "桑德贝克改进型拉链 1913 年上市、1917 年获专利，1930 年代在服饰中普及；更早有豪与贾德森的相关专利。",
   "summary_en": "Sundback's improved zipper was first marketed in 1913 and patented in 1917, spreading through apparel in the 1930s; Howe and Judson held earlier related patents.",
-  "tags": ["fastener", "apparel", "pocket-desk"],
-  "updated": "2026-11-01"
+  "tags": [
+    "fastener",
+    "apparel",
+    "pocket-desk"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/zipper.jpg",
+    "alt_zh": "金属拉链齿与拉头的特写",
+    "alt_en": "Close-up of a metal zipper chain and slider",
+    "credit": "David Ring",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zipper_by_David_Ring.jpg"
+  }
 }

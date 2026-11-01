@@ -455,22 +455,6 @@ button {
   color: var(--muted);
 }
 
-.empty-hint {
-  position: absolute;
-  z-index: 4;
-  left: 50%;
-  top: 46%;
-  transform: translate(-50%, -50%);
-  padding: 10px 18px;
-  border-radius: var(--r-pill);
-  background: var(--glass-strong);
-  backdrop-filter: var(--blur);
-  border: 1px solid var(--rule);
-  box-shadow: var(--shadow-2);
-  font-family: var(--font-serif);
-  font-style: italic;
-  color: var(--ink-3);
-}
 
 /* ---------------------------------------------------------------- timeline */
 
@@ -762,11 +746,6 @@ button {
   transform: scale(1.12);
 }
 
-.mode-snapshot .tl-thumb-line {
-  opacity: 1;
-  width: 2px;
-  left: -1px;
-}
 
 .footer-row {
   display: flex;
@@ -983,6 +962,48 @@ button {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-3);
+}
+
+.drawer-figure {
+  margin: var(--s-5) 0 0;
+  border-radius: var(--r-md);
+  overflow: hidden;
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  box-shadow: var(--shadow-1);
+}
+.drawer-figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+  background: var(--paper-3);
+}
+.drawer-figure figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s-3);
+  padding: 7px 12px 8px;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-top: 1px solid var(--rule);
+}
+.drawer-figure .fig-credit {
+  text-transform: none;
+  letter-spacing: 0;
+  text-align: right;
+}
+.drawer-figure a {
+  color: var(--ink-3);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule-strong);
+}
+.drawer-figure a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 
 .drawer-lede {

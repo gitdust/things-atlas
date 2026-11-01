@@ -114,6 +114,19 @@
   "notes": "两种起源说法并存：一说是约翰·劳德（John J. Loud）1888 年的美国专利 US 392,046，但他的滚珠笔只能在皮革等粗糙表面做标记，从未量产；另一说是拉斯洛·比罗（László Bíró）1938 年在布达佩斯的设计（匈牙利优先权 1938-04-25），1939 年获英法专利，1943 年在布宜诺斯艾利斯申请美国专利，才是可日常书写的实用圆珠笔。流传的「1931 年原型」一说没有找到一手出处，未采用。",
   "summary_zh": "实用圆珠笔通常归功于比罗（1938 年），但劳德 1888 年已有滚珠笔专利，故标为争议；1945 年纽约量产，1950 年代 Bic 普及。",
   "summary_en": "Practical ballpoints are credited to Bíró (1938), but Loud patented a ball-tip marker in 1888, so it is disputed; mass-produced in New York 1945, popularized by Bic in the 1950s.",
-  "tags": ["pen", "office", "pocket-desk", "disputed"],
-  "updated": "2026-11-01"
+  "tags": [
+    "pen",
+    "office",
+    "pocket-desk",
+    "disputed"
+  ],
+  "updated": "2026-11-01",
+  "image": {
+    "src": "/images/ballpoint-pen.jpg",
+    "alt_zh": "圆珠笔尖在纸上书写的微距",
+    "alt_en": "Macro of a ballpoint tip writing on paper",
+    "credit": "Daniel Schwen",
+    "license": "CC BY-SA 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Macro_Biro_writing2.jpg"
+  }
 }
