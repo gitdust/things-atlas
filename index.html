@@ -3,22 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--seo:start-->
+    <title>Things Atlas · 日常之物图志</title>
     <meta
       name="description"
       content="Things Atlas / 日常之物图志 — pin everyday objects on a world map by invention, patent, mass production, and popularization years."
     />
-    <title>Things Atlas · 日常之物图志</title>
+    <!--seo:end-->
     <meta name="theme-color" content="#efe9dd" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap"
-    />
+    <meta name="color-scheme" content="light" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <!-- map tiles, style, glyphs and sprites all come from OpenFreeMap -->
     <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
+    <link rel="dns-prefetch" href="https://tiles.openfreemap.org" />
+    <!--preload:fonts-->
+    <script>
+      // Prerendered HTML reflects the default view (zh, latest year, all
+      // categories). If the URL asks for something else, hide it until the
+      // app renders the requested state (see main.tsx / App.tsx).
+      (function (q) {
+        if (q.replace(/(^|&)y=__DATA_MAX__(?=&|$)/, '').replace(/^&+|&+$/g, '')) {
+          document.documentElement.className += ' ssr-stale';
+        }
+      })(location.search.slice(1));
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"><!--app-html--></div>
+    <!--noscript-->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

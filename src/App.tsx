@@ -1,41 +1,44 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
-import { MapView } from '@/components/MapView';
+import {
+  Suspense,
+  lazy,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+  type ComponentType,
+} from 'react';
+import type { MapViewProps } from '@/components/MapView';
 import { Timeline } from '@/components/Timeline';
 import { FilterBar } from '@/components/FilterBar';
 import { ItemDrawer } from '@/components/ItemDrawer';
+import { MapShell } from '@/components/MapShell';
 import { findItem, loadCategories, loadItemsIndex } from '@/lib/loadItems';
 import { filterItems } from '@/lib/yearFilter';
 import { itemsToArcs, itemsToGeoJSON } from '@/lib/geo';
 import { Segmented } from '@/components/Segmented';
 import type { CategoryId } from '@/lib/types';
 import { t, type Lang } from '@/lib/i18n';
+import { HTML_LANG, applyDocumentMeta, itemPath } from '@/lib/seo';
+import { readUrlState, type UrlLike } from '@/lib/urlState';
 
-function readUrlState() {
-  const params = new URLSearchParams(window.location.search);
-  const y = params.get('y');
-  const cat = params.get('cat');
-  const id = params.get('id');
-  return {
-    year: y ? Number(y) : null,
-    categories: cat
-      ? (cat.split(',').filter(Boolean) as CategoryId[])
-      : ([] as CategoryId[]),
-    id,
-  };
-}
+/**
+ * MapLibre (~800 kB) is code-split: the shell paints immediately with an
+ * empty paper-coloured map area and the map chunk streams in after. During
+ * build-time prerendering (no window) the shell is rendered directly.
+ */
+const MapView: ComponentType<MapViewProps> =
+  typeof window === 'undefined'
+    ? ({ lang }) => <MapShell lang={lang} />
+    : lazy(() => import('@/components/MapView').then((m) => ({ default: m.MapView })));
 
-export default function App() {
+export default function App({ url }: { url?: UrlLike }) {
   const index = useMemo(() => loadItemsIndex(), []);
   const categories = useMemo(() => loadCategories(), []);
-  const initial = useMemo(() => readUrlState(), []);
+  const initial = useMemo(() => readUrlState(url ?? window.location), [url]);
 
-  const [lang, setLang] = useState<Lang>('zh');
-  const [year, setYear] = useState(
-    initial.year ?? index.year_range.data_max,
-  );
-  const [selectedCategories, setSelectedCategories] = useState<CategoryId[]>(
-    initial.categories,
-  );
+  const [lang, setLang] = useState<Lang>(initial.lang);
+  const [year, setYear] = useState(initial.year ?? index.year_range.data_max);
+  const [selectedCategories, setSelectedCategories] = useState<CategoryId[]>(initial.categories);
   const [showDisputed, setShowDisputed] = useState(true);
   const [selectedId, setSelectedId] = useState<string | null>(initial.id);
 
@@ -50,35 +53,41 @@ export default function App() {
   );
 
   const geojson = useMemo(() => itemsToGeoJSON(visible), [visible]);
-  const selectedItem = useMemo(
-    () => findItem(index.items, selectedId),
-    [index.items, selectedId],
-  );
+  const selectedItem = useMemo(() => findItem(index.items, selectedId), [index.items, selectedId]);
 
+  // URL sync: the selected entry lives in the path (a prerendered, shareable
+  // page per entry); year / categories / language in the query.
   useEffect(() => {
     const params = new URLSearchParams();
     params.set('y', String(year));
-    if (selectedCategories.length)
-      params.set('cat', selectedCategories.join(','));
-    if (selectedId) params.set('id', selectedId);
-    const next = `?${params.toString()}`;
-    if (next !== window.location.search) {
+    if (selectedCategories.length) params.set('cat', selectedCategories.join(','));
+    if (lang === 'en') params.set('lang', 'en');
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+    const next = `${base}${itemPath(selectedId && selectedItem ? selectedId : null)}?${params}`;
+    if (next !== window.location.pathname + window.location.search) {
       window.history.replaceState(null, '', next);
     }
-  }, [year, selectedCategories, selectedId]);
+  }, [year, selectedCategories, selectedId, selectedItem, lang]);
+
+  // <html lang>, <title>, description, canonical and social tags follow the UI.
+  useEffect(() => {
+    applyDocumentMeta(lang, selectedItem, index.count);
+  }, [lang, selectedItem, index.count]);
+
+  // Prerendered markup is hidden when the URL asks for a different state
+  // than the one baked into the HTML (see index.html); reveal once rendered.
+  useEffect(() => {
+    document.documentElement.classList.remove('ssr-stale');
+  }, []);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
-        setYear((y) =>
-          Math.max(index.year_range.min, y - (e.shiftKey ? 10 : 1)),
-        );
+        setYear((y) => Math.max(index.year_range.min, y - (e.shiftKey ? 10 : 1)));
       } else if (e.key === 'ArrowRight') {
         e.preventDefault();
-        setYear((y) =>
-          Math.min(index.year_range.max, y + (e.shiftKey ? 10 : 1)),
-        );
+        setYear((y) => Math.min(index.year_range.max, y + (e.shiftKey ? 10 : 1)));
       }
     };
     window.addEventListener('keydown', onKey);
@@ -122,18 +131,17 @@ export default function App() {
   );
 
   return (
-    <div
-      className={`app${selectedItem ? ' has-drawer' : ''}`}
-      lang={lang === 'zh' ? 'zh-Hans' : 'en'}
-    >
+    <div className={`app${selectedItem ? ' has-drawer' : ''}`} lang={HTML_LANG[lang]}>
       <main className="stage">
-        <MapView
-          lang={lang}
-          geojson={geojson}
-          arcs={arcs}
-          selectedItem={selectedItem}
-          onSelect={setSelectedId}
-        />
+        <Suspense fallback={<MapShell lang={lang} />}>
+          <MapView
+            lang={lang}
+            geojson={geojson}
+            arcs={arcs}
+            selectedItem={selectedItem}
+            onSelect={setSelectedId}
+          />
+        </Suspense>
         <div className="scrim scrim-top" aria-hidden="true" />
         <div className="scrim scrim-bottom" aria-hidden="true" />
       </main>
@@ -194,6 +202,7 @@ export default function App() {
         item={selectedItem}
         entryNo={entryNo}
         category={selectedCategory}
+        eagerImage={selectedId === initial.id}
         onClose={closeDrawer}
       />
 

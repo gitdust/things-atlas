@@ -1,0 +1,17 @@
+{
+  "name": "Things Atlas · 日常之物图志",
+  "short_name": "Things Atlas",
+  "description": "日常之物的发明、专利、量产与普及 — where and when everyday objects were invented.",
+  "lang": "zh-Hans",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#efe9dd",
+  "theme_color": "#efe9dd",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

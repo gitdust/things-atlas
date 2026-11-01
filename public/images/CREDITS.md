@@ -67,3 +67,8 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `microwave-oven.jpg` | [Panasonic NN-SD69LS 20220410](https://commons.wikimedia.org/wiki/File:Panasonic_NN-SD69LS_20220410.jpg) | CC BY-SA 4.0 | Mrbeastmodeallday |
 
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
+
+## Derived files
+
+- `opt/*.avif`, `opt/*.webp` are resized re-encodings of the files above (`npm run images`); each keeps its source's license and attribution.
+- `/og-image.jpg` (social preview, 1200×630) is a collage of `zipper.jpg`, `light-bulb.jpg`, `pencil.jpg`, `paperclip.jpg`, `toothbrush.jpg`, `scissors.jpg`, `safety-pin.jpg`, `alarm-clock.jpg` and `computer-mouse.jpg`, credited above. Because several are CC BY-SA, the collage is shared under CC BY-SA 4.0.
