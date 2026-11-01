@@ -1,0 +1,65 @@
+{
+  "id": "paperclip",
+  "name_zh": "回形针",
+  "name_en": "Paperclip",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1899,
+      "precision": "year",
+      "ref": "Gem-type clip popularization era"
+    },
+    "patent": {
+      "year": 1899,
+      "precision": "year",
+      "ref": "Johan Vaaler patent often cited; Gem design unpatented in common telling"
+    },
+    "mass_production": {
+      "year": 1900,
+      "precision": "decade"
+    },
+    "popularization": {
+      "year": 1910,
+      "precision": "decade"
+    }
+  },
+  "locations": [
+    {
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "place_label_zh": "挪威奥斯陆",
+      "place_label_en": "Oslo, Norway",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "place_label_zh": "英国伦敦（Gem 型常见叙事）",
+      "place_label_en": "London, UK (Gem-type common narrative)",
+      "kind": "production",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "decade",
+  "sources": [
+    {
+      "title": "Paper clip — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paper_clip",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Early fastener patents overview",
+      "url": "https://en.wikipedia.org/wiki/Paper_clip#History",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "Gem paperclip design is often treated as unpatented British stationery manufacture; Vaaler patents are frequently over-credited in popular culture.",
+  "summary_zh": "Gem 型回形针在世纪之交普及；挪威专利叙事与英伦量产叙事常被并列提及。",
+  "summary_en": "Gem-type clips spread around 1900; Norwegian patent lore and British manufacture narratives are often told together.",
+  "tags": ["office", "wire", "pocket-desk"],
+  "updated": "2026-11-01"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "zipper",
+  "name_zh": "拉链",
+  "name_en": "Zipper",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1913,
+      "precision": "year",
+      "ref": "Gideon Sundback modern interlocking design"
+    },
+    "patent": {
+      "year": 1917,
+      "precision": "exact",
+      "ref": "US Patent 1,219,881"
+    },
+    "mass_production": {
+      "year": 1925,
+      "precision": "decade"
+    },
+    "popularization": {
+      "year": 1930,
+      "precision": "decade"
+    }
+  },
+  "locations": [
+    {
+      "lat": 40.744,
+      "lng": -74.0324,
+      "place_label_zh": "美国新泽西霍博肯",
+      "place_label_en": "Hoboken, New Jersey, USA",
+      "kind": "invention",
+      "confidence": "city",
+      "year_override": 1913
+    },
+    {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "place_label_zh": "美国伊利诺伊芝加哥",
+      "place_label_en": "Chicago, Illinois, USA",
+      "kind": "patent",
+      "confidence": "city",
+      "year_override": 1893
+    },
+    {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "place_label_zh": "美国纽约",
+      "place_label_en": "New York, USA",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US Patent 1,219,881 — Separable Fastener (Sundback)",
+      "url": "https://patents.google.com/patent/US1219881A",
+      "type": "patent",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Zipper — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zipper",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "Earlier Judson clasp-locker (1893 Chicago) and Howe sewing-machine related patents precede Sundback; modern continuous zipper tooth design is usually dated to 1913 Hoboken work.",
+  "summary_zh": "现代齿链拉链由桑德贝克在霍博肯定型，1917 年获专利，后在服饰与箱包普及。",
+  "summary_en": "Modern interlocking zipper teeth were refined by Gideon Sundback in Hoboken; patented 1917 and later mass-adopted in apparel.",
+  "tags": ["fastener", "apparel", "pocket-desk"],
+  "updated": "2026-11-01"
+}

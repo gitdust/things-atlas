@@ -1,0 +1,23 @@
+name: deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  stub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Deploy stub
+        run: |
+          echo "Wire this job to Cloudflare Pages or peaceiris/actions-gh-pages."
+          echo "Artifact ready under dist/"
+          ls -la dist | head

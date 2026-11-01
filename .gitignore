@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+public/generated/*
+!public/generated/.gitkeep
+src/generated/*
+!src/generated/.gitkeep

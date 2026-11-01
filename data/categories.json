@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "stationery",
+      "name_zh": "文具",
+      "name_en": "Stationery",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "apparel_accessory",
+      "name_zh": "服饰配件",
+      "name_en": "Apparel accessory",
+      "color": "#ec4899"
+    },
+    {
+      "id": "hand_tool",
+      "name_zh": "手持工具",
+      "name_en": "Hand tool",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "home",
+      "name_zh": "家居",
+      "name_en": "Home",
+      "color": "#10b981"
+    },
+    {
+      "id": "personal_care",
+      "name_zh": "个护",
+      "name_en": "Personal care",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "digital",
+      "name_zh": "数码配件",
+      "name_en": "Digital accessory",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "kitchen",
+      "name_zh": "厨具（预留）",
+      "name_en": "Kitchen (reserved)",
+      "color": "#64748b"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "sticky-note",
+  "name_zh": "便利贴",
+  "name_en": "Sticky note",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1968,
+      "precision": "year",
+      "ref": "Spencer Silver acrylate adhesive at 3M"
+    },
+    "patent": {
+      "year": 1970,
+      "precision": "year",
+      "ref": "US Patent related to microspheres adhesive"
+    },
+    "mass_production": {
+      "year": 1977,
+      "precision": "exact",
+      "ref": "Post-it test markets"
+    },
+    "popularization": {
+      "year": 1980,
+      "precision": "exact",
+      "ref": "US national launch"
+    }
+  },
+  "locations": [
+    {
+      "lat": 44.9537,
+      "lng": -93.09,
+      "place_label_zh": "美国明尼苏达圣保罗（3M）",
+      "place_label_en": "St. Paul, Minnesota, USA (3M)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "exact",
+  "sources": [
+    {
+      "title": "History of Post-it Notes — 3M",
+      "url": "https://www.3m.com/3M/en_US/post-it-notes/contact-us/about-us/",
+      "type": "brand",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "Post-it Note — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Post-it_Note",
+      "type": "wiki",
+      "accessed": "2026-11-01"
+    },
+    {
+      "title": "MoMA collection note on Post-it",
+      "url": "https://www.moma.org/",
+      "type": "museum",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "disputed": false,
+  "notes": "Adhesive invented 1968; bookmark/use case and national rollout came later — classic invention vs popularization split.",
+  "summary_zh": "1968 年胶水、1977 年试销、1980 年全国发售——发明年与普及年明显分离。",
+  "summary_en": "Adhesive in 1968, test markets in 1977, US national launch in 1980 — invention and popularization years diverge.",
+  "tags": ["office", "adhesive", "pocket-desk"],
+  "updated": "2026-11-01"
+}
