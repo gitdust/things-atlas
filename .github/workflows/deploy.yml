@@ -20,6 +20,7 @@ jobs:
       - run: npm run build
         env:
           SITE_URL: https://things-atlas.com
+          GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
       - name: Publish to Cloudflare Worker
         uses: cloudflare/wrangler-action@v3
         with:
