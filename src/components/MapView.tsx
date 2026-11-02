@@ -16,6 +16,7 @@ import { pick, t, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
 
 export type MapViewProps = {
   lang: Lang;
+  panelOpen: boolean;
   geojson: FeatureCollection<Point, ItemFeatureProps>;
   arcs: FeatureCollection<LineString, ArcProps>;
   selectedItem: AtlasItem | null;
@@ -50,7 +51,7 @@ function mapPadding(drawerOpen: boolean) {
   }
   const panelWidth =
     parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--drawer-w')) || 460;
-  return { top: 100, left: 48, right: panelWidth + 48, bottom: 230 };
+  return { top: 100, left: 48, right: drawerOpen ? panelWidth + 48 : 48, bottom: 230 };
 }
 
 function applySelection(map: MlMap, selectedId: string | null) {
@@ -101,7 +102,7 @@ function tooltipHtml(p: ItemFeatureProps, lang: Lang) {
     <div class="tip-place">${esc(place)}</div>`;
 }
 
-export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: MapViewProps) {
+export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MlMap | null>(null);
   const readyRef = useRef(false);
@@ -109,8 +110,8 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: MapView
   onSelectRef.current = onSelect;
   const langRef = useRef(lang);
   langRef.current = lang;
-  const latest = useRef({ geojson, arcs, selectedId: selectedItem?.id ?? null });
-  latest.current = { geojson, arcs, selectedId: selectedItem?.id ?? null };
+  const latest = useRef({ geojson, arcs, selectedId: selectedItem?.id ?? null, panelOpen });
+  latest.current = { geojson, arcs, selectedId: selectedItem?.id ?? null, panelOpen };
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -206,6 +207,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: MapView
 
       readyRef.current = true;
       applySelection(map, selectedId);
+      if (!selectedId) map.easeTo({ padding: mapPadding(latest.current.panelOpen), duration: 300 });
       if (!selectedId && g.features.length > 0) {
         const lngs = g.features.map((f) => f.geometry.coordinates[0]);
         const lats = g.features.map((f) => f.geometry.coordinates[1]);
@@ -214,7 +216,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: MapView
             [Math.min(...lngs), Math.min(...lats)],
             [Math.max(...lngs), Math.max(...lats)],
           ],
-          { padding: mapPadding(true), maxZoom: 3.2, duration: 0 },
+          { padding: mapPadding(latest.current.panelOpen), maxZoom: 3.2, duration: 0 },
         );
       }
     });
@@ -275,10 +277,11 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: MapView
     if (!map) return;
     const run = () => {
       applySelection(map, selectedId);
+      if (!selectedItem) map.easeTo({ padding: mapPadding(panelOpen), duration: 300 });
       if (selectedItem) {
         const b = itemBounds(selectedItem);
         map.fitBounds(b, {
-          padding: mapPadding(true),
+          padding: mapPadding(panelOpen),
           maxZoom: 4.2,
           duration: 1600,
           essential: true,
@@ -287,7 +290,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: MapView
     };
     if (readyRef.current) run();
     else map.once('load', run);
-  }, [selectedId, selectedItem]);
+  }, [selectedId, selectedItem, panelOpen]);
 
   return <div ref={containerRef} className="map-root" aria-label={t(lang, 'map')} />;
 }

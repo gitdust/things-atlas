@@ -45,6 +45,7 @@ export default function App({ url }: { url?: UrlLike }) {
     return y;
   });
   const [panelOpen, setPanelOpen] = useState(true);
+  const [showDisputed, setShowDisputed] = useState(true);
   const [selectedId, setSelectedId] = useState<string | null>(initial.id);
 
   const visible = useMemo(
@@ -52,9 +53,9 @@ export default function App({ url }: { url?: UrlLike }) {
       filterItems(index.items, {
         selectedYear: year,
         categories: [],
-        showDisputed: true,
+        showDisputed,
       }),
-    [index.items, year],
+    [index.items, year, showDisputed],
   );
 
   const geojson = useMemo(() => itemsToGeoJSON(visible), [visible]);
@@ -111,7 +112,10 @@ export default function App({ url }: { url?: UrlLike }) {
       setSelectedId(id);
       setPanelOpen(true);
       const item = findItem(index.items, id);
-      if (item) setYear(item.primary_year);
+      if (item) {
+        setYear(item.primary_year);
+        if (item.disputed) setShowDisputed(true);
+      }
     },
     [index.items],
   );
@@ -131,13 +135,14 @@ export default function App({ url }: { url?: UrlLike }) {
   );
 
   return (
-    <div className={`app has-drawer${panelOpen ? '' : ' panel-collapsed'}`} lang={HTML_LANG[lang]}>
+    <div className={`app${panelOpen ? ' has-drawer' : ' panel-collapsed'}`} lang={HTML_LANG[lang]}>
       <main className="stage">
         <Suspense fallback={<MapShell lang={lang} />}>
           <MapView
             lang={lang}
             geojson={geojson}
             arcs={arcs}
+            panelOpen={panelOpen}
             selectedItem={selectedItem}
             onSelect={selectItem}
           />
@@ -202,6 +207,7 @@ export default function App({ url }: { url?: UrlLike }) {
         type="button"
         className="panel-toggle"
         aria-expanded={panelOpen}
+        aria-controls="entry-panel"
         onClick={() => setPanelOpen(!panelOpen)}
       >
         {panelOpen
@@ -212,9 +218,18 @@ export default function App({ url }: { url?: UrlLike }) {
             ? `浏览 ${index.count} 个条目`
             : `Browse ${index.count} entries`}
       </button>
-      <div className="entry-panel">
+      <div className="entry-panel" id="entry-panel">
         <div hidden={!!selectedItem}>
-          <ItemCatalog lang={lang} items={index.items} onSelect={selectItem} />
+          <ItemCatalog
+            lang={lang}
+            items={index.items}
+            showDisputed={showDisputed}
+            onShowDisputed={(value) => {
+              setShowDisputed(value);
+              if (!value && selectedItem?.disputed) setSelectedId(null);
+            }}
+            onSelect={selectItem}
+          />
         </div>
         <ItemDrawer
           lang={lang}
@@ -232,7 +247,7 @@ export default function App({ url }: { url?: UrlLike }) {
           year={year}
           min={index.year_range.min}
           max={index.year_range.max}
-          items={index.items}
+          items={showDisputed ? index.items : index.items.filter((item) => !item.disputed)}
           visibleIds={visibleIds}
           selectedId={selectedId}
           onChange={setYear}

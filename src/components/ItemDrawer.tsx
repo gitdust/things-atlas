@@ -1,3 +1,4 @@
+import { DisputeIcon } from './DisputeIcon';
 import { useEffect, useRef } from 'react';
 import type { AtlasItem, CategoryMeta, ItemImage, YearKey, YearMark } from '@/lib/types';
 import { YEAR_KEYS } from '@/lib/primaryYear';
@@ -108,7 +109,12 @@ export function ItemDrawer({ lang, item, entryNo, category, eagerImage = false, 
               <span className="chip-dot" />
               {category ? pick(lang, category.name_zh, category.name_en) : item.category}
             </span>
-            {item.disputed ? <span className="badge-disputed">{t(lang, 'disputed')}</span> : null}
+            {item.disputed ? (
+              <span className="badge-disputed">
+                <DisputeIcon label={t(lang, 'disputed')} />
+                {t(lang, 'disputed')}
+              </span>
+            ) : null}
           </div>
           <button
             type="button"
@@ -241,7 +247,6 @@ export function ItemDrawer({ lang, item, entryNo, category, eagerImage = false, 
             ))}
           </ol>
         </section>
-
       </div>
     </aside>
   );

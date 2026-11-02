@@ -1,9 +1,16 @@
+import { DisputeIcon } from './DisputeIcon';
 import { useMemo, useState } from 'react';
 import type { AtlasItem } from '@/lib/types';
 import { formatYear, pick, t, type Lang } from '@/lib/i18n';
 
-type Props = { lang: Lang; items: AtlasItem[]; onSelect: (id: string) => void };
-export function ItemCatalog({ lang, items, onSelect }: Props) {
+type Props = {
+  lang: Lang;
+  items: AtlasItem[];
+  showDisputed: boolean;
+  onShowDisputed: (value: boolean) => void;
+  onSelect: (id: string) => void;
+};
+export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelect }: Props) {
   const [query, setQuery] = useState('');
   const groups = useMemo(() => {
     const term = query.trim().normalize('NFKC').toLocaleLowerCase();
@@ -11,6 +18,7 @@ export function ItemCatalog({ lang, items, onSelect }: Props) {
     [...items]
       .sort((a, b) => a.primary_year - b.primary_year || a.id.localeCompare(b.id))
       .forEach((item) => {
+        if (!showDisputed && item.disputed) return;
         if (
           term &&
           ![item.name_zh, item.name_en, item.id].some((n) =>
@@ -32,30 +40,41 @@ export function ItemCatalog({ lang, items, onSelect }: Props) {
         result.set(label, [...(result.get(label) ?? []), item]);
       });
     return [...result];
-  }, [items, query, lang]);
+  }, [items, query, lang, showDisputed]);
   const issue = new URL('https://github.com/gitdust/things-atlas/issues/new');
   issue.searchParams.set('title', `add: ${query.trim()}`);
   return (
     <aside className="drawer catalog" aria-label={lang === 'zh' ? '条目目录' : 'Entry catalogue'}>
       <header className="catalog-head">
         <h2>{lang === 'zh' ? '日常之物' : 'Everyday things'}</h2>
-        <p>
-          {lang === 'zh'
-            ? `按年代浏览全部 ${items.length} 个条目`
-            : `Browse all ${items.length} entries by date`}
-        </p>
-        <input
-          type="search"
-          aria-label={t(lang, 'search')}
-          placeholder={t(lang, 'searchPlaceholder')}
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
-        <p aria-live="polite">
-          {lang === 'zh'
-            ? `${groups.reduce((n, [, rows]) => n + rows.length, 0)} 个条目`
-            : `${groups.reduce((n, [, rows]) => n + rows.length, 0)} entries`}
-        </p>
+        <div className="catalog-search">
+          <input
+            type="search"
+            aria-label={t(lang, 'search')}
+            placeholder={t(lang, 'searchPlaceholder')}
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          />
+          <span
+            className="catalog-search-count num"
+            aria-live="polite"
+            aria-label={lang === 'zh' ? '匹配数 / 总数' : 'Matches / total'}
+          >
+            {groups.reduce((n, [, rows]) => n + rows.length, 0)} / {items.length}
+          </span>
+        </div>
+        <label className="switch catalog-dispute-switch">
+          <input
+            type="checkbox"
+            checked={showDisputed}
+            onChange={(e) => onShowDisputed(e.target.checked)}
+          />
+          <span className="switch-track" aria-hidden="true">
+            <span className="switch-knob" />
+          </span>
+          <DisputeIcon label={t(lang, 'disputed')} />
+          <span>{t(lang, 'showDisputed')}</span>
+        </label>
       </header>
       <div className="catalog-scroll">
         {groups.map(([label, rows]) => (
@@ -68,9 +87,7 @@ export function ItemCatalog({ lang, items, onSelect }: Props) {
                     <span className="catalog-year num">{formatYear(lang, item.primary_year)}</span>
                     <span>
                       {pick(lang, item.name_zh, item.name_en)}
-                      {item.disputed ? (
-                        <small>{lang === 'zh' ? ' · 有争议' : ' · Disputed'}</small>
-                      ) : null}
+                      {item.disputed ? <DisputeIcon label={t(lang, 'disputed')} /> : null}
                     </span>
                   </button>
                 </li>

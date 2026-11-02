@@ -1609,3 +1609,61 @@ button {
     padding: 0 20px 28px;
   }
 }
+
+.catalog-search {
+  display: flex;
+  align-items: center;
+  margin: var(--s-4) 0;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+  background: var(--glass);
+}
+.catalog-search input {
+  min-width: 0;
+  flex: 1;
+  border: 0;
+  background: transparent;
+}
+.catalog-search-count {
+  flex-shrink: 0;
+  padding-right: var(--s-3);
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+.catalog-dispute-switch {
+  margin-top: var(--s-1);
+}
+.dispute-icon {
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+.catalog-group .dispute-icon {
+  margin-left: var(--s-2);
+  color: var(--muted);
+}
+.badge-disputed::before {
+  display: none;
+}
+.panel-collapsed .entry-panel {
+  display: none;
+}
+@media (width > 760px) {
+  .panel-toggle {
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: calc(var(--drawer-w) + var(--s-5));
+    z-index: var(--z-drawer);
+    padding: var(--s-2) var(--s-3);
+    color: var(--ink);
+    background: var(--surface-drawer);
+    border: 1px solid var(--rule);
+    border-radius: var(--r-lg);
+    cursor: pointer;
+  }
+  .panel-collapsed .panel-toggle {
+    right: var(--edge);
+  }
+}
