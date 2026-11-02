@@ -66,6 +66,11 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `corkscrew.jpg` | [Corkscrews December 2014-1](https://commons.wikimedia.org/wiki/File:Corkscrews_December_2014-1.jpg) | CC BY-SA 4.0 | Alvesgaspar |
 | `microwave-oven.jpg` | [Panasonic NN-SD69LS 20220410](https://commons.wikimedia.org/wiki/File:Panasonic_NN-SD69LS_20220410.jpg) | CC BY-SA 4.0 | Mrbeastmodeallday |
 
+| `paper.jpg` | [Traditional paper making Goang Xing Paper Mill Taiwan 01](https://commons.wikimedia.org/wiki/File:Traditional_paper_making_Goang_Xing_Paper_Mill_Taiwan_01.jpg) | CC BY-SA 4.0 | Perrine Aguiar |
+| `printing.jpg` | [Beijing.Musee imprimerie.caracteres mobiles.Bisheng](https://commons.wikimedia.org/wiki/File:Beijing.Musee_imprimerie.caracteres_mobiles.Bisheng.jpg) | CC BY-SA 4.0 | Popolon |
+| `gunpowder.jpg` | [Blackpowder & Measure](https://commons.wikimedia.org/wiki/File:Blackpowder_%26_Measure.JPG) | CC BY-SA 3.0 | Lord Mountbatten |
+| `compass.jpg` | [Magnetic compass - school laboratory](https://commons.wikimedia.org/wiki/File:Magnetic_compass_-_school_laboratory.jpg) | CC BY-SA 4.0 | Kvr.lohith |
+
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 
 ## Derived files

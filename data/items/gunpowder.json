@@ -1,0 +1,88 @@
+{
+  "id": "gunpowder",
+  "name_zh": "火药",
+  "name_en": "Gunpowder",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 850,
+      "precision": "century",
+      "ref": "Tang/Five Dynasties Daoist alchemical texts warn that saltpetre–sulfur–charcoal mixes can ignite (e.g. Zhenyuan miaodao yaolüe)",
+      "ref_zh": "唐至五代炼丹文献已警示硝石、硫黄、木炭混合物可燃（如《真元妙道要略》）"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1044,
+      "precision": "year",
+      "ref": "Wujing Zongyao (Kaifeng) records the earliest surviving written gunpowder formulas for military use",
+      "ref_zh": "开封《武经总要》（1044）载现存最早火药配方，用于军器"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 34.797,
+      "lng": 114.307,
+      "place_label_zh": "中国河南开封（北宋《武经总要》）",
+      "place_label_en": "Kaifeng, Henan, China (Northern Song Wujing Zongyao)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1044
+    },
+    {
+      "lat": 34.27,
+      "lng": 108.95,
+      "place_label_zh": "中国陕西西安一带（唐长安炼丹传统）",
+      "place_label_en": "Xi’an area, Shaanxi, China (Tang Chang’an alchemical tradition)",
+      "kind": "invention",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Gunpowder — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/technology/gunpowder",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Wujing Zongyao — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wujing_Zongyao",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Song Dynasty Gunpowder — Asia for Educators (Columbia)",
+      "url": "https://afe.easia.columbia.edu/songdynasty-module/tech-gunpowder.html",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Gunpowder — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gunpowder",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "火药由中国炼丹术传统中硝石、硫黄与炭的组合演化而来，约九世纪已有可燃/爆炸混合物的记载；精确「发明年」难以钉死。现存最早写明配比的军用配方见于北宋官修《武经总要》（1044，开封）。本条发明年取九世纪量级，量产年取 1044，并标争议。",
+  "notes_en": "Gunpowder grew out of Chinese alchemical experiments with saltpetre, sulfur and charcoal; ninth-century texts already warn that such mixes can burn or explode, but no single invention year is secure. The earliest surviving written military formulas appear in the Northern Song Wujing Zongyao (1044, Kaifeng). This entry uses a ninth-century invention mark and 1044 for recorded formulas, flagged as disputed.",
+  "summary_zh": "中国唐宋之际发明火药：约九世纪炼丹术已有记载，1044 年《武经总要》留下最早配方。精确发明年有争议。",
+  "summary_en": "Gunpowder was developed in Tang–Song China: alchemical mentions by the 9th century, with the earliest surviving formulas in the 1044 Wujing Zongyao. The exact invention year remains disputed.",
+  "tags": [
+    "fire",
+    "china",
+    "four-great-inventions",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/gunpowder.jpg",
+    "alt_zh": "黑火药颗粒与量器",
+    "alt_en": "Black powder granules with a powder measure",
+    "credit": "Lord Mountbatten",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Blackpowder_%26_Measure.JPG"
+  }
+}

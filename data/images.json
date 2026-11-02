@@ -95,6 +95,14 @@
       960
     ]
   },
+  "compass.jpg": {
+    "width": 965,
+    "height": 795,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "computer-mouse.jpg": {
     "width": 800,
     "height": 701,
@@ -170,6 +178,14 @@
   "frying-pan.jpg": {
     "width": 1200,
     "height": 775,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "gunpowder.jpg": {
+    "width": 2048,
+    "height": 1536,
     "widths": [
       480,
       960
@@ -295,6 +311,14 @@
       800
     ]
   },
+  "paper.jpg": {
+    "width": 5091,
+    "height": 3394,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "paperclip.jpg": {
     "width": 1200,
     "height": 799,
@@ -314,6 +338,14 @@
   "pliers.jpg": {
     "width": 1200,
     "height": 653,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "printing.jpg": {
+    "width": 3272,
+    "height": 4940,
     "widths": [
       480,
       960

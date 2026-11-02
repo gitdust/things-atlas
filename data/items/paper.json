@@ -1,0 +1,88 @@
+{
+  "id": "paper",
+  "name_zh": "纸",
+  "name_en": "Paper",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 105,
+      "precision": "year",
+      "ref": "Cai Lun presents improved papermaking to Emperor He of Eastern Han (Hou Hanshu)",
+      "ref_zh": "蔡伦向汉和帝献改良造纸法（《后汉书》）"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 300,
+      "precision": "century",
+      "ref": "Paper in widespread use as a writing medium across China by the 3rd–4th centuries",
+      "ref_zh": "约三四世纪纸在中国已广泛用作书写材料"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.62,
+      "lng": 112.454,
+      "place_label_zh": "中国河南洛阳（东汉宫廷）",
+      "place_label_en": "Luoyang, Henan, China (Eastern Han court)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 26.422,
+      "lng": 112.859,
+      "place_label_zh": "中国湖南耒阳（蔡伦故里）",
+      "place_label_en": "Leiyang, Hunan, China (Cai Lun’s hometown)",
+      "kind": "contested",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Cai Lun — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Cai-Lun",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Papermaking — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/technology/papermaking",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Cai Lun — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cai_Lun",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Dong Guan Han Ji: Cai Lun — Chinese Text Project",
+      "url": "https://ctext.org/dong-guan-han-ji/cai-lun",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "传统说法以东汉宦官蔡伦于公元 105 年向汉和帝进献树皮、麻头、破布、渔网造纸，史称「蔡侯纸」。但考古显示西汉已有麻纸残片（如甘肃放马滩等地），说明纸的起源更早；学界多认为蔡伦是关键工艺改良者与推广者，而非绝对的「唯一发明人」。",
+  "notes_en": "Tradition credits Eastern Han court official Cai Lun with presenting bark-, hemp-, rag- and fishing-net paper to Emperor He in 105 CE (“Marquis Cai’s paper”). Archaeology has found hemp-paper fragments from the Western Han (for example at Fangmatan, Gansu), so papermaking began earlier; most historians treat Cai Lun as the key improver and standardizer rather than the sole first inventor.",
+  "summary_zh": "东汉蔡伦于公元 105 年改良并推广造纸；考古显示西汉已有更早麻纸，故标为争议。日常书写、包装用纸由此普及。",
+  "summary_en": "Cai Lun improved papermaking at the Eastern Han court in 105 CE. Earlier Western Han paper finds make the “first inventor” claim disputed; everyday writing paper spread from China afterward.",
+  "tags": [
+    "stationery",
+    "writing",
+    "china",
+    "four-great-inventions",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/paper.jpg",
+    "alt_zh": "台湾广兴纸寮传统手工抄纸",
+    "alt_en": "Traditional handmade papermaking at Goang Xing Paper Mill, Taiwan",
+    "credit": "Perrine Aguiar",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Traditional_paper_making_Goang_Xing_Paper_Mill_Taiwan_01.jpg"
+  }
+}

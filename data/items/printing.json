@@ -1,0 +1,89 @@
+{
+  "id": "printing",
+  "name_zh": "印刷术",
+  "name_en": "Printing",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1045,
+      "precision": "decade",
+      "ref": "Bi Sheng’s clay movable type in the Qingli era (1041–1048), recorded by Shen Kuo in Dream Pool Essays",
+      "ref_zh": "毕昇在庆历年间（1041–1048）发明胶泥活字，沈括《梦溪笔谈》记载"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 868,
+      "precision": "year",
+      "ref": "Dated Diamond Sutra woodblock scroll from Dunhuang — earliest complete surviving printed book",
+      "ref_zh": "敦煌出土咸通九年（868）《金刚经》雕版卷子，现存最早完整印刷书籍"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 30.274,
+      "lng": 120.155,
+      "place_label_zh": "中国浙江杭州（沈括记载毕昇活字）",
+      "place_label_en": "Hangzhou, Zhejiang, China (Shen Kuo’s record of Bi Sheng)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 40.142,
+      "lng": 94.662,
+      "place_label_zh": "中国甘肃敦煌（唐代雕版《金刚经》）",
+      "place_label_en": "Dunhuang, Gansu, China (Tang woodblock Diamond Sutra)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 868
+    }
+  ],
+  "confidence": "decade",
+  "sources": [
+    {
+      "title": "Bi Sheng — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bi_Sheng",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "The Invention of Woodblock Printing in the Tang and Song Dynasties — Asian Art Museum",
+      "url": "https://education.asianart.org/resources/the-invention-of-woodblock-printing-in-the-tang-and-song-dynasties/",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Printing — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/topic/printing-publishing",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Four Great Inventions of China — PRC Embassy overview",
+      "url": "https://ag.china-embassy.gov.cn/eng/zgyabjw/202302/t20230210_11023529.htm",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "中国印刷先有唐代雕版（约七世纪成熟，敦煌 868 年《金刚经》为存世最早完整印本），北宋布衣毕昇再于庆历年间发明胶泥活字。因汉字字数庞大，雕版在中国长期仍占主流；本条以四大发明常举的毕昇活字为年表主年，雕版记入普及年与地点。",
+  "notes_en": "Woodblock printing matured in Tang China (the 868 CE Dunhuang Diamond Sutra is the earliest complete dated printed book). Bi Sheng then invented clay movable type in the Qingli era (1041–1048). Because Chinese needs thousands of characters, woodblock remained dominant for centuries; this entry takes Bi Sheng’s movable type as the atlas primary year (as in many “Four Great Inventions” lists) and records Tang woodblock under popularization.",
+  "summary_zh": "北宋毕昇约 1045 年发明胶泥活字；此前唐代雕版已普及（敦煌 868 年《金刚经》）。本条以活字为年表主年。",
+  "summary_en": "Bi Sheng invented clay movable type around 1045 CE in Northern Song China. Tang woodblock printing came earlier (Dunhuang Diamond Sutra, 868). This entry’s primary year is Bi Sheng’s movable type.",
+  "tags": [
+    "stationery",
+    "books",
+    "china",
+    "four-great-inventions"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/printing.jpg",
+    "alt_zh": "北京中国印刷博物馆展出的毕昇泥活字",
+    "alt_en": "Bi Sheng clay movable type on display at the China Printing Museum, Beijing",
+    "credit": "Popolon",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beijing.Musee_imprimerie.caracteres_mobiles.Bisheng.jpg"
+  }
+}
