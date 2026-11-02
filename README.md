@@ -37,7 +37,7 @@ npm run new-item -- my-object
 | App | Vite 6 + React 18 + TypeScript |
 | Map | MapLibre GL JS + **OpenFreeMap** Positron (`https://tiles.openfreemap.org/styles/positron`; free, no API key; © OpenMapTiles / OpenStreetMap — attribution comes from MapLibre’s control). Recoloured and language-localised in `src/lib/theme.ts`. |
 | Data | `data/items/*.json` in git |
-| CI | GitHub Actions `validate.yml` |
+| CI | GitHub Actions `validate.yml` on every push; `deploy.yml` publishes `dist/` to Cloudflare Pages only on `master` |
 
 Fonts: Source Serif 4 + Noto Serif SC (display), Inter + Noto Sans SC (UI), all self-hosted — Latin faces from `@fontsource-variable/*`, CJK faces as subsets built by `npm run fonts` (only the characters the site uses, split into a small first-view file and an entry-text file).
 
@@ -52,6 +52,11 @@ All colours, type sizes, spacing, radii, shadows, z-index layers, durations and 
 - Photos are served as responsive AVIF/WebP (`public/images/opt/`, built by `npm run images`) with intrinsic sizes.
 - `public/_headers` sets long-lived caching for hashed `/assets/*` (Cloudflare Pages / Netlify format).
 - `?lang=en` selects English; the selected entry lives in the path (`/item/zipper/`), the year and categories in the query (`?y=&cat=`). Old `?id=` links still work.
+
+
+## Deploy
+
+Production is Cloudflare Pages project `things-atlas`, published only when `master` is pushed. Set repository Actions variable `SITE_URL` (public origin, no trailing slash) and secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`. Point the site hostname at that Pages project with a CNAME; do not point it at the mainland server.
 
 ## Data model (locked)
 
