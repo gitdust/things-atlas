@@ -1,6 +1,6 @@
 name: deploy
 
-# Production only. Other branches stay on validate.yml and are not published.
+# Production only. Pull requests and master pushes use validate.yml.
 on:
   push:
     branches: [main]
@@ -17,6 +17,7 @@ jobs:
           node-version: "20"
           cache: npm
       - run: npm ci
+      - run: npm run lint
       - run: npm run build
         env:
           SITE_URL: https://things-atlas.com
