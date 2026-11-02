@@ -1,0 +1,62 @@
+{
+  "id": "hair-dryer",
+  "name_zh": "吹风机",
+  "name_en": "Hair dryer",
+  "category": "personal_care",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1911,
+      "precision": "year",
+      "ref": "Gabriel Kazanjian receives US 994,259 for a hand-manipulated hair drier, filed in 1908; its fan is manually driven",
+      "ref_zh": "加布里埃尔·卡赞坚的手持式干发装置获 US 994,259 专利；1908 年申请，风扇由手动机构驱动"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "place_label_zh": "美国芝加哥（专利所列卡赞坚居住地）",
+      "place_label_en": "Chicago, USA (Kazanjian residence named in patent)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US994259A — Hair-drier, Gabriel M. Kazanjian",
+      "url": "https://patents.google.com/patent/US994259A/en",
+      "type": "patent",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Halliwell hair dryer, electric, c.1920 — Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co49306/halliwell-hair-dryer-electric-c1920-hair-dryer",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "1911 年指一项具体改良专利的授权，不是所有干发装置或现代电动吹风机的首次发明。该专利的风扇由手动机构驱动；约 1920 年馆藏电吹风的制造地点未据此推定。",
+  "notes_en": "1911 marks a specific improvement patent, not the first drying apparatus or modern motor-driven dryer. Its fan was manually driven; no manufacture location is inferred for the circa-1920 museum object.",
+  "summary_zh": "1911 年卡赞坚获手持式干发装置专利，将加热器与手动风扇结合。科学博物馆另藏约 1920 年的电吹风，呈现干发器具走向电气化的过程。",
+  "summary_en": "Kazanjian patented a hand-manipulated hair drier in 1911, pairing a heater with a manual fan. A circa-1920 electric Halliwell dryer in the Science Museum documents later electrification.",
+  "tags": [
+    "hair",
+    "grooming",
+    "electric"
+  ],
+  "updated": "2026-11-02",
+  "primary": "patent",
+  "image": {
+    "src": "/images/hair-dryer.jpg",
+    "alt_zh": "一只手持式吹风机",
+    "alt_en": "A handheld hair dryer",
+    "credit": "Magnus Manske",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hair_dryer.jpg"
+  }
+}

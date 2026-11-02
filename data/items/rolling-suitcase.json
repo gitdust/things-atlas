@@ -1,0 +1,65 @@
+{
+  "id": "rolling-suitcase",
+  "name_zh": "拉杆箱",
+  "name_en": "Rolling suitcase",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1987,
+      "precision": "year",
+      "ref": "Robert Plath develops the upright two-wheel Rollaboard with a collapsible handle in Florida",
+      "ref_zh": "Robert Plath 在佛罗里达州制作两轮、可伸缩拉杆的直立式 Rollaboard"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 26.3683,
+      "lng": -80.1289,
+      "place_label_zh": "美国佛罗里达州博卡拉顿（Plath 的 Rollaboard）",
+      "place_label_en": "Boca Raton, Florida, USA (Plath’s Rollaboard)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Roll Aboard! — Smithsonian Lemelson Center",
+      "url": "https://invention.si.edu/invention-stories/roll-aboard",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "The history of rolling luggage — Travelpro",
+      "url": "https://travelpro.com/blogs/the-travelpro-blog/the-history-of-rolling-luggage",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Unpacking the Baggage — Hagley Museum",
+      "url": "https://www.hagley.org/librarynews/unpacking-baggage-behind-americas-slow-acceptance-wheeled-suitcase",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条以现代直立式伸缩拉杆箱为范围。更早已有带轮行李设计，Sadow 的1972年专利采用脚轮与拖带；1987年是Plath式改良的节点，不代表所有带轮行李的最早发明。",
+  "notes_en": "This entry follows the modern upright case with a collapsible handle. Earlier wheeled luggage existed, including Sadow’s 1972 caster-and-strap patent; 1987 marks Plath’s design, not the first luggage on wheels.",
+  "summary_zh": "1987 年飞行员 Robert Plath 将双轮与可伸缩拉杆结合，制作直立拖行的 Rollaboard。这种适合机组人员的设计逐渐走入旅客日常。",
+  "summary_en": "In 1987 pilot Robert Plath combined two wheels and a collapsible handle in an upright Rollaboard, a design that spread from flight crews to travelers.",
+  "tags": [
+    "rolling-suitcase"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/rolling-suitcase.jpg",
+    "alt_zh": "拉杆箱实物",
+    "alt_en": "Rolling suitcase",
+    "credit": "JEXP",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Suitcase1.jpg"
+  }
+}

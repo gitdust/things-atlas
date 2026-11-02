@@ -1,0 +1,70 @@
+{
+  "id": "mop",
+  "name_zh": "拖把",
+  "name_en": "Mop",
+  "category": "home",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1837,
+      "precision": "year",
+      "ref": "Jacob Howe patented an improved removable mop-head holder, US241A; mops already existed",
+      "ref_zh": "雅各布·豪获得可拆装拖把头固定结构专利 US241A；拖把本身更早存在"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 42.2626,
+      "lng": -71.8023,
+      "place_label_zh": "美国马萨诸塞州伍斯特（豪的拖把头专利）",
+      "place_label_en": "Worcester, Massachusetts, USA (Howe mop-head patent)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "place_label_zh": "美国密歇根州底特律（斯图尔特1893年夹持结构改良）",
+      "place_label_en": "Detroit, Michigan, USA (Stewart clamp improvement, 1893)",
+      "kind": "patent",
+      "confidence": "city",
+      "year_override": 1893
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US241A — Construction of mop-heads and securing them upon handles",
+      "url": "https://patents.google.com/patent/US241A/en",
+      "type": "patent",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "US499402A — Mop, Thomas W. Stewart",
+      "url": "https://patents.google.com/patent/US499402A/en",
+      "type": "patent",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "拖把早于本条专利。1837年记录仅涉及拖把头安装结构；1893年记录涉及弹簧与杠杆夹持结构，不能据此认定某人为所有拖把的发明者。",
+  "notes_en": "Both patents concern improvements to an existing tool, not the first invention of the mop.",
+  "summary_zh": "拖把把吸水材料装在长柄上清洁地面。1837年豪为可拆装拖把头结构取得专利；1893年斯图尔特又改良了夹持机构。这些是改良节点，而非拖把的最早起源。",
+  "summary_en": "Mops attach absorbent material to a handle. Howe patented a removable head holder in 1837; Stewart improved the clamp in 1893. Both refined an older tool.",
+  "tags": [
+    "cleaning",
+    "laundry",
+    "handle"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/mop.jpg",
+    "alt_zh": "三种不同的拖把",
+    "alt_en": "Three different mops",
+    "credit": "Bjornwireen",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mop,_three_different_mop_handles.jpg"
+  }
+}

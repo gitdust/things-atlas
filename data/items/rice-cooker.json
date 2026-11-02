@@ -1,0 +1,76 @@
+{
+  "id": "rice-cooker",
+  "name_zh": "电饭煲",
+  "name_en": "Rice cooker",
+  "category": "kitchen",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": 1955,
+      "precision": "year",
+      "ref": "Toshiba launches the ER-4 automatic rice cooker; this marks automatic household models, not all electric rice-cooking devices",
+      "ref_zh": "东芝推出 ER-4 自动电饭煲；此节点指自动控温商品，不是所有电热煮饭器的起点"
+    },
+    "popularization": {
+      "year": 1971,
+      "precision": "year",
+      "ref": "A survey cited by Highlighting Japan records household ownership above 90% in Japan",
+      "ref_zh": "日本政府刊物所引调查显示，日本电饭煲家庭持有率超过九成"
+    }
+  },
+  "locations": [
+    {
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "place_label_zh": "日本（东芝及光伸社开发，以东京示意）",
+      "place_label_en": "Japan (Toshiba and Koshinsha development; Tokyo shown)",
+      "kind": "production",
+      "confidence": "country"
+    },
+    {
+      "lat": 36.2,
+      "lng": 138.25,
+      "place_label_zh": "日本（家庭普及，国家级示意）",
+      "place_label_en": "Japan (household adoption; country-level marker)",
+      "kind": "popularization",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "The Evolution of the Rice Cooker — Highlighting Japan",
+      "url": "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202011/202011_07_en.html",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "国産第1号の自動式電気釜 — 東芝ライフスタイル",
+      "url": "https://www.toshiba-lifestyle.com/jp/corporate/brand/first/",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条目以家用自动电饭煲的商品化为时间轴起点。电热煮饭器早于 1955 年存在，不能将该年当作所有电饭煲的首次发明年份。",
+  "notes_en": "The timeline starts with commercialization of automatic household rice cookers. Nonautomatic electric rice-cooking devices predate 1955.",
+  "summary_zh": "1955 年东芝推出自动电饭煲，将煮饭后的断电控制交给器具；这类产品随后进入日本家庭。它代表自动化的重要节点，早期非自动电热煮饭器则更早出现。",
+  "summary_en": "Toshiba launched its automatic rice cooker in 1955. Automatic shutoff reduced supervision, and such cookers spread through Japanese homes; nonautomatic electric rice cookers were earlier.",
+  "tags": [
+    "appliance",
+    "rice",
+    "cooking",
+    "japan"
+  ],
+  "updated": "2026-11-02",
+  "primary": "mass_production",
+  "image": {
+    "src": "/images/rice-cooker.jpg",
+    "alt_zh": "一台白色电饭煲",
+    "alt_en": "A white electric rice cooker",
+    "credit": "Taken by User:Aarchiba; detoured by Rama",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rice-cooker.jpg"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "electric-kettle",
+  "name_zh": "电热水壶",
+  "name_en": "Electric kettle",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1891,
+      "precision": "year",
+      "ref": "National MagLab dates an early Carpenter Electric Company kettle in Chicago to 1891",
+      "ref_zh": "美国国家强磁场实验室的历史资料记载，芝加哥 Carpenter 公司在此年推出早期电热水壶"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "place_label_zh": "美国芝加哥（Carpenter 早期电热水壶）",
+      "place_label_en": "Chicago, USA (early Carpenter electric kettle)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Kettle – 1891 — National MagLab, Magnet Academy",
+      "url": "https://maglabweb.magnet.fsu.edu/magnet-academy/history-of-electricity-magnetism/museum/kettle-1891/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Chrome kettle, 1914 — Museum of Technology",
+      "url": "https://www.museumoftechnology.org.uk/objects/_expand.php?key=91",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "早期电热水壶的首创归属存在不同记述：国家强磁场实验室记载 1891 年的 Carpenter，英国技术博物馆则记载同年的 Crompton。本条以 Carpenter 作为有来源的早期实例，不认定唯一首创者，也不将它等同于自动断电水壶。",
+  "notes_en": "Early priority accounts differ: National MagLab names Carpenter in 1891, while the Museum of Technology names Crompton in that year. Carpenter is an early documented example, not an exclusive inventor or an automatic-shutoff model.",
+  "summary_zh": "1891 年已有 Carpenter 公司的早期电热水壶，其加热器与水分隔，效率有限。后来的浸入式加热元件和自动断电设计，让烧水逐渐成为方便的家庭日常。",
+  "summary_en": "An early Carpenter electric kettle dates to 1891, with its heater separated from the water. Later immersed elements and automatic shutoff improved everyday boiling.",
+  "tags": [
+    "appliance",
+    "water",
+    "electric"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/electric-kettle.jpg",
+    "alt_zh": "一只黑色电热水壶",
+    "alt_en": "A black electric kettle",
+    "credit": "Jacek Halicki",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2023_Czajnik_elektryczny_Bosch_%281%29.jpg"
+  }
+}

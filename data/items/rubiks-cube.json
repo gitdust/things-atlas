@@ -1,0 +1,75 @@
+{
+  "id": "rubiks-cube",
+  "name_zh": "魔方",
+  "name_en": "Rubik’s Cube",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1974,
+      "precision": "year",
+      "ref": "Ernő Rubik develops his three-layer twisty puzzle in Budapest",
+      "ref_zh": "Ernő Rubik 在布达佩斯开发三阶旋转拼图"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1977,
+      "precision": "year",
+      "ref": "Launched on the Hungarian market as the Magic Cube",
+      "ref_zh": "以 Magic Cube 名称在匈牙利上市"
+    },
+    "popularization": {
+      "year": 1980,
+      "precision": "year",
+      "ref": "Renamed Rubik’s Cube and launched internationally",
+      "ref_zh": "更名 Rubik’s Cube 并面向国际市场推出"
+    }
+  },
+  "locations": [
+    {
+      "lat": 47.4979,
+      "lng": 19.0402,
+      "place_label_zh": "匈牙利布达佩斯（鲁比克的三阶魔方）",
+      "place_label_en": "Budapest, Hungary (Rubik’s three-layer cube)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Rubik’s Cube — ETH Zurich Library",
+      "url": "https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/rubiks-cube.html",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "History — Rubik’s",
+      "url": "https://rubiks.com/history",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Speedcubing history — World Cube Association",
+      "url": "https://www.worldcubeassociation.org/speedcubing-history",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条专指鲁比克的三阶机械旋转魔方，不涵盖更早的磁性二阶等其他旋转拼图。1975年为专利申请节点，不能与1977年授权日期混写。",
+  "notes_en": "This entry covers Rubik’s mechanical 3×3 cube, not earlier magnetic 2×2 puzzles. His 1975 patent application should not be confused with the 1977 grant.",
+  "summary_zh": "1974 年 Ernő Rubik 在布达佩斯制作可旋转的三阶立方拼图，1977 年在匈牙利上市，1980 年以 Rubik’s Cube 之名推向世界。",
+  "summary_en": "Ernő Rubik developed his twisty cube in Budapest in 1974. It reached Hungary’s market in 1977 and launched internationally as Rubik’s Cube in 1980.",
+  "tags": [
+    "rubiks-cube"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/rubiks-cube.jpg",
+    "alt_zh": "魔方实物",
+    "alt_en": "Rubik’s Cube",
+    "credit": "AndyHedges; edited by TheCoffee",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rubiks%20cube.jpg"
+  }
+}

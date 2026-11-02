@@ -1,0 +1,61 @@
+{
+  "id": "clothespin",
+  "name_zh": "衣夹",
+  "name_en": "Clothespin",
+  "category": "home",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1853,
+      "precision": "year",
+      "ref": "David M. Smith patented a two-arm spring clamp, US10163A; earlier one-piece pegs already existed",
+      "ref_zh": "戴维·史密斯获得双臂弹簧衣夹专利 US10163A；并非所有衣夹的起源"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 43.2984,
+      "lng": -72.4823,
+      "place_label_zh": "美国佛蒙特州斯普林菲尔德（史密斯弹簧衣夹专利）",
+      "place_label_en": "Springfield, Vermont, USA (Smith spring-clamp patent)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US10163A — Spring-clamp for clothes-lines",
+      "url": "https://patents.google.com/patent/US10163A/en",
+      "type": "patent",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Clothespin — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clothespin",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条以1853年弹簧衣夹专利为可核实节点，不将其视为衣夹整体的首次发明。",
+  "notes_en": "The dated milestone is a spring-clamp patent, not the origin of every form of clothes peg.",
+  "summary_zh": "衣夹把湿衣固定在晾衣绳上。1853 年，戴维·史密斯为双臂弹簧夹申请的专利获准，使夹取衣物更方便；此前已有不带弹簧的一体式木夹。",
+  "summary_en": "Clothespins secure laundry to a line. David M. Smith patented a two-arm spring clamp in 1853; one-piece wooden pegs preceded it.",
+  "tags": [
+    "laundry",
+    "spring",
+    "fastener"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/clothespin.jpg",
+    "alt_zh": "晾衣绳上的彩色塑料衣夹",
+    "alt_en": "Colored plastic clothespins on a line",
+    "credit": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Clothes_pegs_2016-05-25_02.jpg"
+  }
+}

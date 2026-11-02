@@ -1,0 +1,61 @@
+{
+  "id": "plastic-wrap",
+  "name_zh": "保鲜膜",
+  "name_en": "Plastic wrap",
+  "category": "kitchen",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1953,
+      "precision": "year",
+      "ref": "Saran Wrap was promoted to American households; this is not the first invention of plastic film",
+      "ref_zh": "Saran Wrap 在美国面向家庭推广；此节点不是塑料薄膜材料的首次发明"
+    }
+  },
+  "locations": [
+    {
+      "lat": 43.6156,
+      "lng": -84.2472,
+      "place_label_zh": "美国密歇根州米德兰（陶氏家用保鲜膜）",
+      "place_label_en": "Midland, Michigan, USA (Dow household cling film)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Saran Wrap Transparent Cling Wrap, circa 1954 — The Henry Ford",
+      "url": "https://www.thehenryford.org/collections/explore/artifact/507372",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "That Soft, Velvety Feel Tells You It Is Saran Wrap — Science History Institute, 1953",
+      "url": "https://digital.sciencehistory.org/works/r494vm45w",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条年代指家用商品推广节点，不将更早的聚合物发现、工业薄膜生产或局部试销混为同一年。配图为现代PVC膜示意，并非1953年的Saran原品。",
+  "notes_en": "The date marks household marketing, not polymer discovery. The image shows modern PVC film, not the original 1953 Saran product.",
+  "summary_zh": "保鲜膜是用于覆盖容器、包裹食物的薄塑料膜。1953年，Saran Wrap 已在美国向家庭推广；如今保鲜膜可由不同聚合物制成，不能都等同于早期产品材料。",
+  "summary_en": "Plastic wrap covers containers and wraps food. Saran Wrap reached American households in 1953; present-day cling films use several different polymers.",
+  "tags": [
+    "packaging",
+    "plastic",
+    "storage"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/plastic-wrap.jpg",
+    "alt_zh": "一卷透明PVC保鲜膜",
+    "alt_en": "A roll of transparent PVC film",
+    "credit": "Luccadomina",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pvc-Film.jpg"
+  }
+}

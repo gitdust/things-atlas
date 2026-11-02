@@ -1,0 +1,66 @@
+{
+  "id": "disposable-diaper",
+  "name_zh": "一次性纸尿裤",
+  "name_en": "Disposable diaper",
+  "category": "personal_care",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": 1961,
+      "precision": "year",
+      "ref": "Pampers market launch: a commercial milestone, not the earliest disposable nappy",
+      "ref_zh": "Pampers 上市，作为现代一次性纸尿裤商业化的里程碑，并非最早原型"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39.8,
+      "lng": -89.6,
+      "place_label_zh": "美国伊利诺伊州（1961年商业上市）",
+      "place_label_en": "Illinois, USA (1961 commercial launch)",
+      "kind": "production",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Victor Mills — The Chemical Engineer",
+      "url": "https://www.thechemicalengineer.com/features/cewctw-victor-mills-a-pampered-career/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "History of Pampers",
+      "url": "https://www.pampers.com/en-us/pampers-history",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Marion Donovan papers — Smithsonian Lemelson Center",
+      "url": "https://invention.si.edu/invention-stories/papers-illustrate-woman-inventors-life-and-work",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "一次性吸收垫、可重复使用的防水罩与现代一体式纸尿裤并非同一种形态。Donovan 的1951年专利涉及防水罩，不能直接当作现代纸尿裤发明年；本条以1961年上市为主年代，不指定唯一发明人。",
+  "notes_en": "Disposable inserts, reusable waterproof covers and modern all-in-one diapers are distinct. Donovan’s 1951 patents concern covers. The timeline uses the 1961 market launch, not a first-invention claim.",
+  "summary_zh": "一次性纸尿裤把吸收层与防漏结构结合，减少反复洗涤。早期纸垫与尿布罩经历多路发展；1961 年 Pampers 上市是现代产品商业化的重要节点。",
+  "summary_en": "Disposable diapers combine absorbency and leak protection. Earlier pads and covers had several origins; the 1961 Pampers launch marks a commercial milestone.",
+  "tags": [
+    "disposable-diaper"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/disposable-diaper.jpg",
+    "alt_zh": "一次性纸尿裤实物",
+    "alt_en": "Disposable diaper",
+    "credit": "Coop41",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Disposablediaper.JPG"
+  },
+  "primary": "mass_production"
+}

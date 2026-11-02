@@ -1,0 +1,61 @@
+{
+  "id": "vegetable-peeler",
+  "name_zh": "削皮器",
+  "name_en": "Vegetable peeler",
+  "category": "kitchen",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": 1947,
+      "precision": "year",
+      "ref": "Production of the Rex transverse-blade peeler began; other peeler designs predated it",
+      "ref_zh": "Rex 横刃削皮器开始生产；此前已有其他削皮器形式"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 47.377,
+      "lng": 8.55,
+      "place_label_zh": "瑞士苏黎世（Rex 削皮器设计与生产语境）",
+      "place_label_en": "Zurich, Switzerland (Rex peeler design and production context)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Rex peeler — Museum für Gestaltung Zürich / Switzerland Tourism",
+      "url": "https://www.myswitzerland.com/en-in/experiences/cities-culture/art-culture/art/rex-peeler/",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Peeler — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peeler",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "削皮器并非1947年才出现；本条记录Rex横刃型的生产节点，不把一种设计的商业化等同于整个物品的发明。",
+  "notes_en": "The 1947 milestone concerns Rex production, not the invention of all peelers.",
+  "summary_zh": "削皮器用带槽刀片薄薄削去果蔬外皮。它有直柄和横刃等多种形态；瑞士 Rex 横刃削皮器于1947年开始生产，是其中一种经典设计。",
+  "summary_en": "Slotted blades remove thin layers of peel. Peelers come in straight and transverse forms; the Swiss Rex model entered production in 1947.",
+  "tags": [
+    "kitchen",
+    "blade",
+    "switzerland"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/vegetable-peeler.jpg",
+    "alt_zh": "不同形态的削皮器",
+    "alt_en": "Different forms of vegetable peeler",
+    "credit": "Pengo",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Peeler_01_Pengo.jpg"
+  }
+}

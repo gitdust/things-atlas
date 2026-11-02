@@ -135,6 +135,14 @@
       682
     ]
   },
+  "clothespin.jpg": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "coat-hanger.jpg": {
     "width": 1160,
     "height": 1200,
@@ -183,9 +191,25 @@
       640
     ]
   },
+  "disposable-diaper.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "door-knob.jpg": {
     "width": 1200,
     "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "electric-kettle.jpg": {
+    "width": 1280,
+    "height": 1547,
     "widths": [
       480,
       960
@@ -202,6 +226,14 @@
   "ethernet-cable.jpg": {
     "width": 1200,
     "height": 701,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "eyeglasses.jpg": {
+    "width": 2054,
+    "height": 1496,
     "widths": [
       480,
       960
@@ -261,6 +293,14 @@
     "widths": [
       480,
       960
+    ]
+  },
+  "hair-dryer.jpg": {
+    "width": 512,
+    "height": 562,
+    "widths": [
+      480,
+      512
     ]
   },
   "hammer.jpg": {
@@ -423,6 +463,14 @@
       960
     ]
   },
+  "mop.jpg": {
+    "width": 1280,
+    "height": 1707,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "nail-clipper.jpg": {
     "width": 1200,
     "height": 498,
@@ -479,6 +527,13 @@
       800
     ]
   },
+  "plastic-wrap.jpg": {
+    "width": 472,
+    "height": 500,
+    "widths": [
+      472
+    ]
+  },
   "playing-cards.jpg": {
     "width": 1920,
     "height": 1123,
@@ -527,12 +582,35 @@
       960
     ]
   },
+  "rice-cooker.jpg": {
+    "width": 469,
+    "height": 492,
+    "widths": [
+      469
+    ]
+  },
+  "rolling-suitcase.jpg": {
+    "width": 1267,
+    "height": 1535,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "rubber-band.jpg": {
     "width": 1007,
     "height": 910,
     "widths": [
       480,
       960
+    ]
+  },
+  "rubiks-cube.jpg": {
+    "width": 544,
+    "height": 550,
+    "widths": [
+      480,
+      544
     ]
   },
   "safety-pin.jpg": {
@@ -758,6 +836,14 @@
       960
     ]
   },
+  "vegetable-peeler.jpg": {
+    "width": 1280,
+    "height": 994,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "velcro.jpg": {
     "width": 1200,
     "height": 801,
@@ -788,6 +874,14 @@
     "widths": [
       480,
       894
+    ]
+  },
+  "zippered-storage-bag.jpg": {
+    "width": 868,
+    "height": 476,
+    "widths": [
+      480,
+      868
     ]
   }
 }
