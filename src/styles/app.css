@@ -199,6 +199,26 @@ button {
   gap: var(--s-2);
 }
 
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--s-2);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-pill);
+  background: var(--glass);
+  color: var(--ink-3);
+  text-decoration: none;
+}
+.github-link svg {
+  width: var(--s-5);
+  height: var(--s-5);
+}
+.github-link:hover {
+  color: var(--ink);
+  border-color: var(--rule-strong);
+}
+
 /* --------------------------------------------------------------- segmented */
 
 .segmented {
