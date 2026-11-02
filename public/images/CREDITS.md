@@ -107,6 +107,12 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `tablet.jpg` | [IPad-WiFi-1stGen.jpg](https://commons.wikimedia.org/wiki/File:IPad-WiFi-1stGen.jpg) | Public domain | Evan-Amos |
 | `television.jpg` | [1990s Television Set.jpg](https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg) | CC BY 4.0 | ProtoKiwi |
 
+| `coca-cola.jpg` | [coca-cola](https://commons.wikimedia.org/wiki/File:Coca-cola_bottle.jpg) | CC BY-SA 4.0 | Oleg Yunakov |
+| `oreo.jpg` | [oreo](https://commons.wikimedia.org/wiki/File:Oreo-Two-Cookies.jpg) | Public domain | Evan-Amos |
+| `chewing-gum.jpg` | [chewing-gum](https://commons.wikimedia.org/wiki/File:Xylitol_chewing_gum_in_a_blue_bowl.jpg) | CC0 1.0 | Kotivalo |
+| `ketchup.jpg` | [ketchup](https://commons.wikimedia.org/wiki/File:Ketchup_example_2.jpg) | CC BY-SA 3.0 | Yohan euan o4; derivative work: Bobek |
+| `instant-coffee.jpg` | [instant-coffee](https://commons.wikimedia.org/wiki/File:Instant_coffee.jpg) | CC BY-SA 2.5 | Editor at Large |
+
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 
 ## Derived files

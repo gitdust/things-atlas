@@ -1,0 +1,77 @@
+{
+  "id": "chewing-gum",
+  "name_zh": "口香糖",
+  "name_en": "Chewing gum",
+  "category": "kitchen",
+  "primary": "mass_production",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1869,
+      "precision": "year",
+      "ref": "William F. Semple received US98304A for a rubber-based chewing-gum composition, not the origin of chewing plant resins",
+      "ref_zh": "威廉·森普尔获得橡胶基口香糖配方专利 US98304A；并非咀嚼植物树脂习俗的起源"
+    },
+    "mass_production": {
+      "year": 1848,
+      "precision": "year",
+      "ref": "State of Maine Pure Spruce Gum became commercially available; this marks manufactured gum rather than ancient resin chewing",
+      "ref_zh": "State of Maine Pure Spruce Gum 开始商业销售；此为商品化节点，而非古老树脂咀嚼习俗的起源"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 45.2538,
+      "lng": -69.4455,
+      "place_label_zh": "美国缅因州（1848年云杉树脂口香糖商品化，州级近似定位）",
+      "place_label_en": "Maine, USA (commercial spruce gum, 1848; state-level approximate location)",
+      "kind": "production",
+      "confidence": "region"
+    },
+    {
+      "lat": 40.3934,
+      "lng": -82.4857,
+      "place_label_zh": "美国俄亥俄州芒特弗农（森普尔配方专利，1869）",
+      "place_label_en": "Mount Vernon, Ohio, USA (Semple composition patent, 1869)",
+      "kind": "patent",
+      "confidence": "city",
+      "year_override": 1869
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Chewing Gum — Morrison County Historical Society",
+      "url": "https://morrisoncountyhistory.org/?page_id=4767",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "US98304A — Improved chewing-gum",
+      "url": "https://patents.google.com/patent/US98304A/en",
+      "type": "patent",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条记录商品化口香糖。咀嚼树脂的习俗远早于1848年；森普尔1869年专利涉及特定橡胶配方，不能据此认定其为全部口香糖的发明者。",
+  "notes_en": "The dates concern manufactured gum and a specific composition patent, not the ancient practice of chewing plant resins.",
+  "summary_zh": "口香糖由可咀嚼的胶基与调味成分制成。人类咀嚼植物树脂的习俗十分古老；1848年缅因州云杉树脂口香糖已作为商品出售，1869年森普尔又获得特定配方专利。",
+  "summary_en": "People chewed plant resins long before manufactured gum. Spruce gum was sold commercially in Maine in 1848; Semple patented a rubber-based composition in 1869.",
+  "tags": [
+    "food",
+    "confectionery",
+    "gum",
+    "resin"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/chewing-gum.jpg",
+    "alt_zh": "蓝色碗中的白色木糖醇口香糖",
+    "alt_en": "White xylitol chewing gum in a blue bowl",
+    "credit": "Kotivalo",
+    "license": "CC0 1.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Xylitol_chewing_gum_in_a_blue_bowl.jpg"
+  }
+}

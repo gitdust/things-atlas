@@ -1,0 +1,83 @@
+{
+  "id": "coca-cola",
+  "name_zh": "可口可乐",
+  "name_en": "Coca-Cola",
+  "category": "kitchen",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": 1899,
+      "precision": "year",
+      "ref": "A franchised bottling plant opened in Chattanooga under the 1899 contract, supporting larger-scale distribution; earlier bottling already existed",
+      "ref_zh": "1899年授权装瓶体系在查塔努加设厂，推动规模化分销；这不是最早的装瓶尝试"
+    },
+    "popularization": {
+      "year": 1886,
+      "precision": "year",
+      "ref": "Coca-Cola first went on sale at Jacobs’ Pharmacy in Atlanta; this marks the branded drink’s commercial debut, not the invention of cola as a category",
+      "ref_zh": "可口可乐在亚特兰大雅各布斯药房首次销售；此处记录品牌饮料上市，而非可乐类饮料的发明"
+    }
+  },
+  "locations": [
+    {
+      "lat": 33.749,
+      "lng": -84.388,
+      "place_label_zh": "美国佐治亚州亚特兰大（雅各布斯药房首次销售）",
+      "place_label_en": "Atlanta, Georgia, USA (first sales at Jacobs’ Pharmacy)",
+      "kind": "popularization",
+      "confidence": "city"
+    },
+    {
+      "lat": 35.0456,
+      "lng": -85.3097,
+      "place_label_zh": "美国田纳西州查塔努加（1899年授权装瓶）",
+      "place_label_en": "Chattanooga, Tennessee, USA (franchised bottling, 1899)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1899
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Coca-Cola — Atlanta in 50 Objects, Atlanta History Center",
+      "url": "https://www.atlantahistorycenter.com/exhibitions/atlanta-in-50-objects/coca-cola/",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Coca-Cola History — The Coca-Cola Company",
+      "url": "https://www.coca-colacompany.com/about-us/history",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "The Asa Candler Era — The Coca-Cola Company",
+      "url": "https://www.coca-colacompany.com/about-us/history/the-asa-candler-era",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条仅指可口可乐品牌饮料。1886年为首次销售，1899年为授权装瓶体系起步；未将商标或瓶型专利当作饮料专利。配图为现代玻璃瓶，并非1886年的包装。",
+  "summary_zh": "可口可乐于1886年在美国亚特兰大以汽水柜台饮料上市。1899年，查塔努加的授权装瓶业务推动其规模化分销。本条记录这一品牌产品，不能据此认定可乐类饮料始于1886年。",
+  "summary_en": "Coca-Cola debuted at an Atlanta soda fountain in 1886. Franchised bottling began in Chattanooga in 1899, expanding distribution. These dates concern the brand, not cola as a category.",
+  "tags": [
+    "beverage",
+    "cola",
+    "brand",
+    "bottling"
+  ],
+  "updated": "2026-11-02",
+  "primary": "popularization",
+  "notes_en": "This entry covers the Coca-Cola branded drink. The dates mark first sales and franchised bottling, not the origin of cola or a patent on the beverage. The photograph shows a modern bottle.",
+  "image": {
+    "src": "/images/coca-cola.jpg",
+    "alt_zh": "一只装有可口可乐的现代玻璃瓶",
+    "alt_en": "A modern glass bottle containing Coca-Cola",
+    "credit": "Oleg Yunakov",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Coca-cola_bottle.jpg"
+  }
+}

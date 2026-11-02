@@ -127,6 +127,14 @@
       960
     ]
   },
+  "chewing-gum.jpg": {
+    "width": 3461,
+    "height": 2641,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "chopsticks.jpg": {
     "width": 682,
     "height": 527,
@@ -146,6 +154,14 @@
   "coat-hanger.jpg": {
     "width": 1160,
     "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "coca-cola.jpg": {
+    "width": 3456,
+    "height": 5184,
     "widths": [
       480,
       960
@@ -351,9 +367,25 @@
       960
     ]
   },
+  "instant-coffee.jpg": {
+    "width": 3648,
+    "height": 2736,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "jeans-rivet.jpg": {
     "width": 1163,
     "height": 872,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "ketchup.jpg": {
+    "width": 2000,
+    "height": 1500,
     "widths": [
       480,
       960
@@ -482,6 +514,14 @@
   "noodles.jpg": {
     "width": 1920,
     "height": 1440,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "oreo.jpg": {
+    "width": 5750,
+    "height": 3500,
     "widths": [
       480,
       960

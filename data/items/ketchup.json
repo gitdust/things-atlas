@@ -1,0 +1,82 @@
+{
+  "id": "ketchup",
+  "name_zh": "番茄酱",
+  "name_en": "Tomato ketchup",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1812,
+      "precision": "year",
+      "ref": "James Mease published an early American tomato ketchup recipe; this is documentary evidence, not a proven first invention",
+      "ref_zh": "詹姆斯·米斯发表美国早期番茄酱配方；此为文献节点，并非已证实的首次发明"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1876,
+      "precision": "year",
+      "ref": "Heinz introduced its bottled tomato ketchup in the United States, a commercial milestone rather than the origin of tomato ketchup",
+      "ref_zh": "亨氏在美国推出瓶装番茄酱；这是商品化节点，不是番茄酱的起源"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "place_label_zh": "美国宾夕法尼亚州费城（米斯1812年配方记载）",
+      "place_label_en": "Philadelphia, Pennsylvania, USA (Mease recipe, 1812)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 39.8283,
+      "lng": -98.5795,
+      "place_label_zh": "美国（亨氏瓶装番茄酱上市，1876；国家级近似定位）",
+      "place_label_en": "United States (Heinz bottled ketchup launch, 1876; approximate national location)",
+      "kind": "production",
+      "confidence": "country",
+      "year_override": 1876
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "The Birth of Non-Alcoholic Ketchup — Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/arts-culture/the-birth-of-non-alcoholic-ketchup-104660832/",
+      "type": "news",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Heinz — Our Story",
+      "url": "https://www.heinz.com/our-story",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Heinz Tomato Ketchup Bottle, circa 1903 — The Henry Ford",
+      "url": "https://www.thehenryford.org/collections/explore/artifact/57461",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条指番茄制成的餐桌调味酱，不涵盖早期鱼露、蘑菇或核桃ketchup，也不等同浓缩番茄膏。1812年是早期配方记载，1876年仅为亨氏产品上市。",
+  "notes_en": "This entry covers tomato ketchup, not earlier fish, mushroom, or walnut sauces, nor tomato paste. 1812 is an early recipe record; 1876 is a Heinz product launch.",
+  "summary_zh": "番茄酱是以番茄为主体的餐桌调味酱，区别于早期鱼类或蘑菇制成的ketchup。1812年米斯留下早期配方记载；1876年亨氏推出瓶装产品，并非由该品牌首次发明番茄酱。",
+  "summary_en": "Tomato ketchup differs from earlier fish or mushroom sauces. Mease published an early recipe in 1812; Heinz launched bottled ketchup in 1876, rather than inventing the food type.",
+  "tags": [
+    "food",
+    "tomato",
+    "condiment",
+    "bottling"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/ketchup.jpg",
+    "alt_zh": "白色盘子上的红色番茄酱",
+    "alt_en": "Red tomato ketchup on a white plate",
+    "credit": "Yohan euan o4; derivative work: Bobek",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ketchup_example_2.jpg"
+  }
+}

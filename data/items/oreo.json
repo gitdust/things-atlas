@@ -1,0 +1,68 @@
+{
+  "id": "oreo",
+  "name_zh": "奥利奥",
+  "name_en": "Oreo",
+  "category": "kitchen",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": 1912,
+      "precision": "year",
+      "ref": "National Biscuit Company introduced and produced Oreo at its Chelsea bakery complex in New York; this is a branded product milestone, not the origin of sandwich cookies",
+      "ref_zh": "美国国家饼干公司在纽约切尔西工厂生产并推出奥利奥；这是品牌产品节点，不是夹心饼干的起源"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 40.7424,
+      "lng": -74.0061,
+      "place_label_zh": "美国纽约切尔西（国家饼干公司工厂，今切尔西市场）",
+      "place_label_en": "Chelsea, New York City, USA (National Biscuit Company bakeries, now Chelsea Market)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "The Factory That Oreos Built — Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/factory-oreos-built-180969121/",
+      "type": "news",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Oreo — Mondelēz International",
+      "url": "https://www.mondelezinternational.com/our-brands/oreo/index.html",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Uneeda Business History: the Nabisco Story — American Business History Center",
+      "url": "https://americanbusinesshistory.org/uneeda-business-history-the-nabisco-story/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条只记录奥利奥品牌巧克力夹心饼干，1912年为产品推出和生产节点。夹心饼干更早已有，Hydrox在1908年已推出；不能将奥利奥视为所有夹心饼干的首次发明。配图为现代产品。",
+  "summary_zh": "奥利奥是巧克力饼干夹白色甜馅的品牌产品，1912年由美国国家饼干公司在纽约切尔西生产并推出。夹心饼干在此之前已经存在；本条记录奥利奥的商品化历史，而非整个食品类型的起源。",
+  "summary_en": "Oreo chocolate sandwich cookies were introduced and produced by National Biscuit Company in New York’s Chelsea neighborhood in 1912. Sandwich cookies existed earlier; this is a brand history.",
+  "tags": [
+    "food",
+    "cookie",
+    "brand",
+    "chocolate"
+  ],
+  "updated": "2026-11-02",
+  "notes_en": "This entry covers Oreo branded chocolate sandwich cookies. The 1912 date marks their introduction and production, not the invention of sandwich cookies; Hydrox preceded them in 1908. The photo shows modern cookies.",
+  "image": {
+    "src": "/images/oreo.jpg",
+    "alt_zh": "两块夹白色甜馅的奥利奥巧克力饼干",
+    "alt_en": "Two Oreo chocolate sandwich cookies with white filling",
+    "credit": "Evan-Amos",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Oreo-Two-Cookies.jpg"
+  }
+}
