@@ -1485,3 +1485,127 @@ button {
     transition-duration: 1ms !important;
   }
 }
+
+/* The catalogue and detail drawer share one permanent desktop panel. */
+.entry-panel > [hidden] {
+  display: none;
+}
+.catalog {
+  display: flex;
+  flex-direction: column;
+}
+.catalog-head {
+  padding: var(--s-5);
+  border-bottom: 1px solid var(--rule);
+}
+.catalog-head h2 {
+  font-family: var(--font-serif);
+  margin: 0;
+}
+.catalog-head p {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+.catalog-head input {
+  width: 100%;
+  padding: var(--s-3);
+  background: var(--glass);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-lg);
+  color: var(--ink);
+}
+.catalog-scroll {
+  overflow-y: auto;
+  min-height: 0;
+  flex: 1;
+  padding: 0 var(--s-5) var(--s-5);
+}
+.catalog-group h3 {
+  position: sticky;
+  top: 0;
+  background: var(--surface-drawer);
+  padding: var(--s-3) 0;
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+.catalog-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.catalog-group button {
+  display: flex;
+  gap: var(--s-3);
+  text-align: left;
+  width: 100%;
+  padding: var(--s-3) 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+}
+.catalog-group button:hover {
+  background: var(--glass);
+}
+.catalog-year {
+  width: 6rem;
+  flex-shrink: 0;
+  color: var(--muted);
+}
+.catalog-group small {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+.mobile-year-status,
+.panel-toggle {
+  display: none;
+}
+@media (max-width: 760px) {
+  .bottombar {
+    display: none;
+  }
+  .mobile-year-status {
+    display: flex;
+    position: absolute;
+    top: 76px;
+    left: var(--edge);
+    gap: var(--s-2);
+    align-items: center;
+    background: var(--glass);
+    border-radius: var(--r-lg);
+    padding: var(--s-2) var(--s-3);
+    z-index: var(--z-chrome);
+    font-size: var(--fs-xs);
+  }
+  .mobile-year-status button {
+    color: var(--ink);
+    border: 0;
+    background: transparent;
+    text-decoration: underline;
+  }
+  .panel-toggle {
+    display: block;
+    position: absolute;
+    bottom: calc(74dvh + 8px);
+    right: var(--edge);
+    z-index: var(--z-drawer);
+    background: var(--surface-drawer);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: var(--r-lg);
+    padding: var(--s-2) var(--s-3);
+  }
+  .panel-collapsed .entry-panel {
+    display: none;
+  }
+  .panel-collapsed .panel-toggle {
+    bottom: 30px;
+  }
+  .catalog-head {
+    padding: 24px 20px 8px;
+  }
+  .catalog-scroll {
+    padding: 0 20px 28px;
+  }
+}

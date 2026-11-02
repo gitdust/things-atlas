@@ -9,16 +9,14 @@ import {
 } from 'react';
 import type { MapViewProps } from '@/components/MapView';
 import { Timeline } from '@/components/Timeline';
-import { FilterBar } from '@/components/FilterBar';
-import { ItemSearch } from '@/components/ItemSearch';
+import { ItemCatalog } from '@/components/ItemCatalog';
 import { ItemDrawer } from '@/components/ItemDrawer';
 import { MapShell } from '@/components/MapShell';
 import { findItem, loadCategories, loadItemsIndex } from '@/lib/loadItems';
 import { filterItems } from '@/lib/yearFilter';
 import { itemsToArcs, itemsToGeoJSON } from '@/lib/geo';
 import { Segmented } from '@/components/Segmented';
-import type { CategoryId } from '@/lib/types';
-import { t, type Lang } from '@/lib/i18n';
+import { t, formatYear, type Lang } from '@/lib/i18n';
 import { HTML_LANG, applyDocumentMeta, itemPath } from '@/lib/seo';
 import { readUrlState, type UrlLike } from '@/lib/urlState';
 
@@ -46,18 +44,17 @@ export default function App({ url }: { url?: UrlLike }) {
     if (item && item.primary_year > y) return Math.min(index.year_range.max, item.primary_year);
     return y;
   });
-  const [selectedCategories, setSelectedCategories] = useState<CategoryId[]>(initial.categories);
-  const [showDisputed, setShowDisputed] = useState(true);
+  const [panelOpen, setPanelOpen] = useState(true);
   const [selectedId, setSelectedId] = useState<string | null>(initial.id);
 
   const visible = useMemo(
     () =>
       filterItems(index.items, {
         selectedYear: year,
-        categories: selectedCategories,
-        showDisputed,
+        categories: [],
+        showDisputed: true,
       }),
-    [index.items, year, selectedCategories, showDisputed],
+    [index.items, year],
   );
 
   const geojson = useMemo(() => itemsToGeoJSON(visible), [visible]);
@@ -68,14 +65,13 @@ export default function App({ url }: { url?: UrlLike }) {
   useEffect(() => {
     const params = new URLSearchParams();
     params.set('y', String(year));
-    if (selectedCategories.length) params.set('cat', selectedCategories.join(','));
     if (lang === 'en') params.set('lang', 'en');
     const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const next = `${base}${itemPath(selectedId && selectedItem ? selectedId : null)}?${params}`;
     if (next !== window.location.pathname + window.location.search) {
       window.history.replaceState(null, '', next);
     }
-  }, [year, selectedCategories, selectedId, selectedItem, lang]);
+  }, [year, selectedId, selectedItem, lang]);
 
   // <html lang>, <title>, description, canonical and social tags follow the UI.
   useEffect(() => {
@@ -96,6 +92,7 @@ export default function App({ url }: { url?: UrlLike }) {
       ) {
         return;
       }
+      if (window.matchMedia('(max-width: 760px)').matches) return;
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
         setYear((y) => Math.max(index.year_range.min, y - (e.shiftKey ? 10 : 1)));
@@ -108,44 +105,19 @@ export default function App({ url }: { url?: UrlLike }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [index.year_range.min, index.year_range.max]);
 
-  const toggleCategory = useCallback((id: CategoryId) => {
-    setSelectedCategories((prev) => {
-      if (prev.includes(id)) return prev.filter((c) => c !== id);
-      return [...prev, id];
-    });
-  }, []);
-
-  const clearCategories = useCallback(() => setSelectedCategories([]), []);
   const closeDrawer = useCallback(() => setSelectedId(null), []);
-
-  /** Open an entry and scrub the timeline forward so cumulative filter includes it. */
   const selectItem = useCallback(
     (id: string | null) => {
       setSelectedId(id);
-      if (!id) return;
+      setPanelOpen(true);
       const item = findItem(index.items, id);
-      if (!item) return;
-      setYear((y) =>
-        item.primary_year > y ? Math.min(index.year_range.max, item.primary_year) : y,
-      );
+      if (item) setYear(item.primary_year);
     },
-    [index.items, index.year_range.max],
+    [index.items],
   );
 
   const arcs = useMemo(() => itemsToArcs(visible), [visible]);
   const visibleIds = useMemo(() => new Set(visible.map((i) => i.id)), [visible]);
-
-  /** Per-category counts at the current year (ignoring the category filter). */
-  const counts = useMemo(() => {
-    const pool = filterItems(index.items, {
-      selectedYear: year,
-      categories: [],
-      showDisputed,
-    });
-    const out: Partial<Record<CategoryId, number>> = {};
-    for (const i of pool) out[i.category] = (out[i.category] ?? 0) + 1;
-    return out;
-  }, [index.items, year, showDisputed]);
 
   const entryNo = useMemo(() => {
     if (!selectedId) return null;
@@ -159,7 +131,7 @@ export default function App({ url }: { url?: UrlLike }) {
   );
 
   return (
-    <div className={`app${selectedItem ? ' has-drawer' : ''}`} lang={HTML_LANG[lang]}>
+    <div className={`app has-drawer${panelOpen ? '' : ' panel-collapsed'}`} lang={HTML_LANG[lang]}>
       <main className="stage">
         <Suspense fallback={<MapShell lang={lang} />}>
           <MapView
@@ -218,44 +190,41 @@ export default function App({ url }: { url?: UrlLike }) {
         </div>
       </header>
 
-      <FilterBar
-        lang={lang}
-        categories={categories}
-        selected={selectedCategories}
-        counts={counts}
-        showDisputed={showDisputed}
-        visibleCount={visible.length}
-        totalCount={index.count}
-        onToggleCategory={(id) => {
-          if (selectedCategories.length === 0 && id) {
-            setSelectedCategories([id]);
-            return;
-          }
-          toggleCategory(id);
-        }}
-        onClearCategories={clearCategories}
-        onShowDisputed={setShowDisputed}
+      <div className="mobile-year-status">
+        <span>
+          {t(lang, 'upTo')} {formatYear(lang, year)}
+        </span>
+        <button type="button" onClick={() => setYear(index.year_range.data_max)}>
+          {lang === 'zh' ? '查看全部' : 'Show all'}
+        </button>
+      </div>
+      <button
+        type="button"
+        className="panel-toggle"
+        aria-expanded={panelOpen}
+        onClick={() => setPanelOpen(!panelOpen)}
       >
-        <ItemSearch
+        {panelOpen
+          ? lang === 'zh'
+            ? '收起面板'
+            : 'Collapse panel'
+          : lang === 'zh'
+            ? `浏览 ${index.count} 个条目`
+            : `Browse ${index.count} entries`}
+      </button>
+      <div className="entry-panel">
+        <div hidden={!!selectedItem}>
+          <ItemCatalog lang={lang} items={index.items} onSelect={selectItem} />
+        </div>
+        <ItemDrawer
           lang={lang}
-          items={index.items}
-          onSearch={closeDrawer}
-          onSelect={(id) => {
-            setSelectedCategories([]);
-            setShowDisputed(true);
-            selectItem(id);
-          }}
+          item={selectedItem}
+          entryNo={entryNo}
+          category={selectedCategory}
+          eagerImage={selectedId === initial.id}
+          onClose={closeDrawer}
         />
-      </FilterBar>
-
-      <ItemDrawer
-        lang={lang}
-        item={selectedItem}
-        entryNo={entryNo}
-        category={selectedCategory}
-        eagerImage={selectedId === initial.id}
-        onClose={closeDrawer}
-      />
+      </div>
 
       <footer className="bottombar">
         <Timeline

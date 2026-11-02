@@ -41,9 +41,16 @@ function isMobile() {
 
 function mapPadding(drawerOpen: boolean) {
   if (isMobile()) {
-    return { top: 140, left: 40, right: 40, bottom: drawerOpen ? window.innerHeight * 0.62 : 210 };
+    return {
+      top: 100,
+      left: 24,
+      right: 24,
+      bottom: drawerOpen ? Math.min(window.innerHeight * 0.74, window.innerHeight - 160) : 60,
+    };
   }
-  return { top: 170, left: 80, right: drawerOpen ? 560 : 80, bottom: 230 };
+  const panelWidth =
+    parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--drawer-w')) || 460;
+  return { top: 100, left: 48, right: panelWidth + 48, bottom: 230 };
 }
 
 function applySelection(map: MlMap, selectedId: string | null) {
@@ -207,7 +214,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect }: MapView
             [Math.min(...lngs), Math.min(...lats)],
             [Math.max(...lngs), Math.max(...lats)],
           ],
-          { padding: mapPadding(false), maxZoom: 3.2, duration: 0 },
+          { padding: mapPadding(true), maxZoom: 3.2, duration: 0 },
         );
       }
     });
