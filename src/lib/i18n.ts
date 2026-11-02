@@ -17,6 +17,12 @@ const dict = {
     legend: '图例',
     upTo: '截至',
     countShown: '{n} / {total} 件可见',
+    search: '搜索物品',
+    searchPlaceholder: '搜索物品名称…',
+    searchCount: '找到 {n} 件物品',
+    searchEmpty: '没有找到这个物品',
+    searchSuggestHint: '想添加它？只需提交物品名称，详细描述可选。',
+    searchSuggest: '在 GitHub Issue 中建议添加 ↗',
 
     // drawer sections
     sources: '来源',
@@ -54,8 +60,7 @@ const dict = {
     precision_decade: '约略到十年',
     precision_century: '约略到世纪',
 
-    footer:
-      '底图为现代国界，地点为近似定位 · 代码 MIT · 数据 CC BY 4.0',
+    footer: '底图为现代国界，地点为近似定位 · 代码 MIT · 数据 CC BY 4.0',
   },
   en: {
     title: 'Things Atlas',
@@ -71,6 +76,12 @@ const dict = {
     legend: 'Legend',
     upTo: 'Up to',
     countShown: '{n} of {total} shown',
+    search: 'Search objects',
+    searchPlaceholder: 'Search object names…',
+    searchCount: '{n} objects found',
+    searchEmpty: 'No matching objects',
+    searchSuggestHint: 'Want it added? Only the object name is required; details are optional.',
+    searchSuggest: 'Suggest an object on GitHub ↗',
 
     sources: 'Sources',
     locations: 'Places',
@@ -103,8 +114,7 @@ const dict = {
     precision_decade: 'approx. decade',
     precision_century: 'approx. century',
 
-    footer:
-      'Modern borders; places are approximate · Code MIT · Data CC BY 4.0',
+    footer: 'Modern borders; places are approximate · Code MIT · Data CC BY 4.0',
   },
 } as const;
 

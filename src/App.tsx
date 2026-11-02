@@ -10,6 +10,7 @@ import {
 import type { MapViewProps } from '@/components/MapView';
 import { Timeline } from '@/components/Timeline';
 import { FilterBar } from '@/components/FilterBar';
+import { ItemSearch } from '@/components/ItemSearch';
 import { ItemDrawer } from '@/components/ItemDrawer';
 import { MapShell } from '@/components/MapShell';
 import { findItem, loadCategories, loadItemsIndex } from '@/lib/loadItems';
@@ -89,6 +90,12 @@ export default function App({ url }: { url?: UrlLike }) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (
+        e.target instanceof HTMLElement &&
+        (e.target.closest('input, textarea, select') || e.target.isContentEditable)
+      ) {
+        return;
+      }
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
         setYear((y) => Math.max(index.year_range.min, y - (e.shiftKey ? 10 : 1)));
@@ -228,7 +235,18 @@ export default function App({ url }: { url?: UrlLike }) {
         }}
         onClearCategories={clearCategories}
         onShowDisputed={setShowDisputed}
-      />
+      >
+        <ItemSearch
+          lang={lang}
+          items={index.items}
+          onSearch={closeDrawer}
+          onSelect={(id) => {
+            setSelectedCategories([]);
+            setShowDisputed(true);
+            selectItem(id);
+          }}
+        />
+      </FilterBar>
 
       <ItemDrawer
         lang={lang}

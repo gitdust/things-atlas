@@ -1,8 +1,10 @@
 import type { CategoryId, CategoryMeta } from '@/lib/types';
+import type { ReactNode } from 'react';
 import { categoryColor } from '@/lib/tokens';
 import { pick, t, tf, type Lang } from '@/lib/i18n';
 
 type Props = {
+  children?: ReactNode;
   lang: Lang;
   categories: CategoryMeta[];
   selected: CategoryId[];
@@ -16,6 +18,7 @@ type Props = {
 };
 
 export function FilterBar({
+  children,
   lang,
   categories,
   selected,
@@ -78,6 +81,7 @@ export function FilterBar({
           {tf(lang, 'countShown', { n: visibleCount, total: totalCount })}
         </span>
       </div>
+      {children}
     </div>
   );
 }

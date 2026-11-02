@@ -282,6 +282,7 @@ button {
   left: var(--edge);
   right: var(--edge);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: var(--s-4);
@@ -293,6 +294,73 @@ button {
 }
 .has-drawer .filter-bar {
   right: calc(var(--drawer-w) + var(--edge) + var(--s-4));
+}
+
+.item-search-row {
+  flex-basis: 100%;
+  min-width: 0;
+}
+.item-search {
+  position: relative;
+  width: min(100%, 320px);
+}
+.item-search input {
+  width: 100%;
+  min-width: 0;
+  padding: var(--s-2) var(--s-3);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-pill);
+  background: var(--glass);
+  color: var(--ink);
+  font: inherit;
+  font-size: var(--fs-sm);
+}
+.item-search input::placeholder {
+  color: var(--ink-3);
+}
+.search-results {
+  position: absolute;
+  top: calc(100% + var(--s-2));
+  width: 100%;
+  max-height: min(45dvh, 360px);
+  overflow-y: auto;
+  padding: var(--s-3);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  box-shadow: var(--shadow-1);
+  font-size: var(--fs-sm);
+}
+.search-results p {
+  margin: 0 0 var(--s-2);
+  color: var(--ink-3);
+}
+.search-results ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.search-results button {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-1);
+  width: 100%;
+  padding: var(--s-2);
+  border: 0;
+  border-radius: var(--r-sm);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.search-results button:hover,
+.search-results button:focus-visible {
+  background: var(--paper-2);
+}
+.search-results small {
+  color: var(--ink-3);
+}
+.search-results a {
+  color: var(--accent);
 }
 
 .chips {
@@ -1257,6 +1325,7 @@ button {
   }
   .filter-bar {
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: flex-start;
   }
   .footer-note {
@@ -1332,6 +1401,11 @@ button {
   .filter-tail {
     align-self: flex-start;
     margin-left: var(--edge);
+  }
+  .item-search-row {
+    flex-basis: auto;
+    width: 100%;
+    padding: 0 var(--edge);
   }
 
   .bottombar {
