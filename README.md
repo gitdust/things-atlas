@@ -37,7 +37,7 @@ npm run new-item -- my-object
 | App | Vite 6 + React 18 + TypeScript |
 | Map | MapLibre GL JS + **OpenFreeMap** Positron (`https://tiles.openfreemap.org/styles/positron`; free, no API key; © OpenMapTiles / OpenStreetMap — attribution comes from MapLibre’s control). Recoloured and language-localised in `src/lib/theme.ts`. |
 | Data | `data/items/*.json` in git |
-| CI | GitHub Actions `validate.yml` on every push; `deploy.yml` publishes `dist/` to Cloudflare Pages only on `master` |
+| CI | GitHub Actions `validate.yml` on every push; `deploy.yml` publishes `dist/` to the Cloudflare Worker `things-atlas` only on `main` |
 
 Fonts: Source Serif 4 + Noto Serif SC (display), Inter + Noto Sans SC (UI), all self-hosted — Latin faces from `@fontsource-variable/*`, CJK faces as subsets built by `npm run fonts` (only the characters the site uses, split into a small first-view file and an entry-text file).
 
@@ -56,7 +56,7 @@ All colours, type sizes, spacing, radii, shadows, z-index layers, durations and 
 
 ## Deploy
 
-Production is Cloudflare Pages project `things-atlas`, published only when `master` is pushed. Set repository Actions variable `SITE_URL` (public origin, no trailing slash) and secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`. Point the site hostname at that Pages project with a CNAME; do not point it at the mainland server.
+Production is the Cloudflare Worker `things-atlas` (`wrangler.jsonc`), published only when `main` is pushed. The build uses `SITE_URL=https://things-atlas.com`. Repository secrets: `CLOUDFLARE_API_TOKEN` (Account → Workers Scripts → Edit) and `CLOUDFLARE_ACCOUNT_ID`.
 
 ## Data model (locked)
 

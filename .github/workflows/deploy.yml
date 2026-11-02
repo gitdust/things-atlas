@@ -3,7 +3,7 @@ name: deploy
 # Production only. Other branches stay on validate.yml and are not published.
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   deploy:
@@ -17,20 +17,12 @@ jobs:
           node-version: "20"
           cache: npm
       - run: npm ci
-      - name: Require SITE_URL
-        run: |
-          test -n "$SITE_URL" || {
-            echo "Set GitHub Actions variable SITE_URL to the public origin, e.g. https://atlas.example.com"
-            exit 1
-          }
-        env:
-          SITE_URL: ${{ vars.SITE_URL }}
       - run: npm run build
         env:
-          SITE_URL: ${{ vars.SITE_URL }}
-      - name: Publish to Cloudflare Pages
+          SITE_URL: https://things-atlas.com
+      - name: Publish to Cloudflare Worker
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=things-atlas --branch=master
+          command: deploy
