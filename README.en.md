@@ -2,7 +2,9 @@
 
 [中文](README.md) · [English](README.en.md)
 
-Things Atlas explores the invention, patenting, mass production, and popularization of everyday objects through a world map and an interactive timeline. Discover when and where familiar objects became part of daily life. The collection covers non-food everyday objects.
+Things Atlas explores the invention, patenting, mass production, and popularization of everyday objects through a world map and an interactive timeline. Discover when and where familiar objects became part of daily life. The collection includes everyday objects as well as foods and beverages that are widely integrated into daily life, such as tofu and tea.
+
+Foods and beverages may also include specific branded products with broad cultural reach. Entries must distinguish food types from branded products and document their origins, production, launch, or popularization using evidence. A brand's launch date is not the invention date of the entire food type.
 
 ## Features
 

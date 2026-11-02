@@ -10,8 +10,6 @@ const root = path.resolve(__dirname, '..');
 const itemsDir = path.join(root, 'data', 'items');
 const schemaPath = path.join(root, 'data', 'schema', 'item.schema.json');
 
-const FOOD_TAG_BLACKLIST = new Set(['food', 'cuisine', 'recipe', 'beverage', 'drink', 'meal']);
-
 type YearMark = { year: number; precision: string; ref?: string } | null;
 type Item = {
   id: string;
@@ -104,13 +102,6 @@ for (const file of files) {
     }
     if (!data.notes_en || !data.notes_en.trim()) {
       console.error(`✗ ${file}: disputed=true requires notes_en`);
-      failed = true;
-    }
-  }
-
-  for (const tag of data.tags ?? []) {
-    if (FOOD_TAG_BLACKLIST.has(tag.toLowerCase())) {
-      console.error(`✗ ${file}: forbidden food-related tag "${tag}"`);
       failed = true;
     }
   }

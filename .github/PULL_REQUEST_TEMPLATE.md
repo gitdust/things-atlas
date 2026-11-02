@@ -12,4 +12,4 @@
 - [ ] `npm run validate` passes locally
 - [ ] sources ≥1 and not brand-only
 - [ ] locations ≥1 with bilingual labels
-- [ ] not food / beverage
+- [ ] scope is clear (general object / food type / specific branded product)
