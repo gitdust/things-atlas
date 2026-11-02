@@ -1,0 +1,87 @@
+{
+  "id": "radio",
+  "name_zh": "收音机",
+  "name_en": "Radio",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1895,
+      "precision": "year",
+      "ref": "Marconi experiments with wireless signalling near Bologna",
+      "ref_zh": "马可尼在博洛尼亚附近开展无线电通信实验"
+    },
+    "patent": {
+      "year": 1897,
+      "precision": "year",
+      "ref": "British patent GB189612039A granted to Marconi",
+      "ref_zh": "马可尼获授英国专利 GB189612039A"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 1920,
+      "precision": "year",
+      "ref": "KDKA broadcasts election results in Pittsburgh",
+      "ref_zh": "匹兹堡 KDKA 广播总统选举结果"
+    }
+  },
+  "locations": [
+    {
+      "lat": 44.441,
+      "lng": 11.282,
+      "place_label_zh": "意大利博洛尼亚附近蓬泰基奥（马可尼）",
+      "place_label_en": "Pontecchio near Bologna, Italy (Marconi)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 40.44,
+      "lng": -79.996,
+      "place_label_zh": "美国匹兹堡（KDKA）",
+      "place_label_en": "Pittsburgh, USA (KDKA)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1920
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Guglielmo Marconi — Nobel Prize biography",
+      "url": "https://www.nobelprize.org/prizes/physics/1909/marconi/biographical/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "GB189612039A — Google Patents",
+      "url": "https://patents.google.com/patent/GB189612039A/en",
+      "type": "patent",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "November 1920 — Institute for Telecommunication Sciences",
+      "url": "https://its.ntia.gov/this-month-in-its-history/november-1920/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "summary_zh": "马可尼于 1895 年进行无线电通信实验，1897 年获专利；1920 年匹兹堡 KDKA 播报选举结果，标志着面向公众的广播兴起。无线电发明归属也涉及特斯拉和波波夫。",
+  "summary_en": "Marconi tested wireless signalling in 1895 and received a patent in 1897. KDKA’s 1920 election broadcast marked the rise of public radio; Tesla and Popov also figure in priority debates.",
+  "tags": [
+    "radio",
+    "broadcast",
+    "receiver"
+  ],
+  "updated": "2026-11-02",
+  "notes": "无线电并非由单人一次完成：马可尼推动了实用无线通信，特斯拉的相关电路与专利、波波夫的接收实验也构成优先权争议。这里将早期无线通信与家用广播接收区分，以 1920 年 KDKA 播报选举结果作为广播走向公众的节点，而非唯一的首次广播。",
+  "notes_en": "Radio developed through multiple contributions: Marconi advanced practical wireless communication, while Tesla’s circuits and patents and Popov’s receiving experiments complicate priority. The 1920 KDKA election broadcast marks public broadcasting, not an exclusive first broadcast.",
+  "primary": "popularization",
+  "image": {
+    "src": "/images/radio.jpg",
+    "alt_zh": "飞利浦 208U-05 电子管收音机",
+    "alt_en": "A Philips 208U-05 vacuum-tube radio receiver",
+    "credit": "Alex P. Kok",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vacuum_tube_radio_receiver_Philips_208U-05_IMG_7718.jpg"
+  }
+}

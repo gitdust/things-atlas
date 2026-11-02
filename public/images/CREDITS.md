@@ -98,6 +98,15 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `moka-pot.jpg` | [Bialetti Moka Express in action.jpg](https://commons.wikimedia.org/wiki/File:Bialetti_Moka_Express_in_action.jpg) | Public domain | Berteun Damman (That's I) |
 | `stirrup.jpg` | [Stirrup (AM 684341-1).jpg](https://commons.wikimedia.org/wiki/File:Stirrup_(AM_684341-1).jpg) | CC BY 4.0 | Fæ |
 
+| `smartwatch.jpg` | [Apple Watch Sport.jpg](https://commons.wikimedia.org/wiki/File:Apple_Watch_Sport.jpg) | CC BY 4.0 | thomersch |
+| `laptop.jpg` | [GRiD Compass 1101 (1).jpg](https://commons.wikimedia.org/wiki/File:GRiD_Compass_1101_(1).jpg) | CC BY-SA 4.0 | jmdo |
+| `personal-computer.jpg` | [Altair8800.JPG](https://commons.wikimedia.org/wiki/File:Altair8800.JPG) | Public domain | Spoilerhead at German Wikipedia |
+| `mobile-phone.jpg` | [Motorola DynaTAC.jpg](https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg) | CC BY-SA 3.0 | 2007Computex e21Forum-MartinCooper.jpg Rico Shen; derivative work: ויקיג'אנקי |
+| `camera.jpg` | [Kodak Brownie Model 2 E.jpg](https://commons.wikimedia.org/wiki/File:Kodak_Brownie_Model_2_E.jpg) | CC BY 2.0 | Marc Carlson from Tulsa, Oklahoma, USA |
+| `radio.jpg` | [Vacuum tube radio receiver Philips 208U-05 IMG 7718.jpg](https://commons.wikimedia.org/wiki/File:Vacuum_tube_radio_receiver_Philips_208U-05_IMG_7718.jpg) | CC BY-SA 4.0 | Alex P. Kok |
+| `tablet.jpg` | [IPad-WiFi-1stGen.jpg](https://commons.wikimedia.org/wiki/File:IPad-WiFi-1stGen.jpg) | Public domain | Evan-Amos |
+| `television.jpg` | [1990s Television Set.jpg](https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg) | CC BY 4.0 | ProtoKiwi |
+
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 
 ## Derived files

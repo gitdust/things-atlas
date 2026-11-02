@@ -1,0 +1,101 @@
+{
+  "id": "tablet",
+  "name_zh": "平板电脑",
+  "name_en": "Tablet",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1989,
+      "precision": "year",
+      "ref": "GRiDPad introduces an early commercial pen-operated tablet",
+      "ref_zh": "GRiDPad 推出早期商用笔操作平板电脑"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 2002,
+      "precision": "year",
+      "ref": "Manufacturers ship computers based on Microsoft’s Tablet PC specification",
+      "ref_zh": "厂商推出遵循微软 Tablet PC 规范的电脑"
+    },
+    "popularization": {
+      "year": 2010,
+      "precision": "year",
+      "ref": "Apple iPad brings touch-first tablets to a mass consumer audience",
+      "ref_zh": "苹果 iPad 推动以触控为主的平板电脑进入大众消费市场"
+    }
+  },
+  "locations": [
+    {
+      "lat": 37.548,
+      "lng": -121.989,
+      "place_label_zh": "美国加州弗里蒙特（GRiDPad）",
+      "place_label_en": "Fremont, California, USA (GRiDPad)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 47.674,
+      "lng": -122.122,
+      "place_label_zh": "美国华盛顿州雷德蒙德（微软 Tablet PC）",
+      "place_label_en": "Redmond, Washington, USA (Microsoft Tablet PC)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 2002
+    },
+    {
+      "lat": 37.323,
+      "lng": -122.032,
+      "place_label_zh": "美国加州库比蒂诺（苹果 iPad）",
+      "place_label_en": "Cupertino, California, USA (Apple iPad)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 2010
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "GRiDPad tablet computer — Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/mobile-computing/18/319/1727",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "The Pen is Mightier than the Keyboard? — Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/mobile-computing/18/319",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Tablet PC Launch — Microsoft",
+      "url": "https://news.microsoft.com/tag/tablet-pc-launch/",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Apple Launches iPad — Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "summary_zh": "平板电脑有漫长的笔计算先驱史：1989 年 GRiDPad 是早期商用代表，2002 年微软推动 Tablet PC 规范，2010 年 iPad 则将触控平板带入大众市场。",
+  "summary_en": "Tablets have a long pen-computing ancestry: the 1989 GRiDPad was an early commercial model, Microsoft promoted Tablet PCs in 2002, and the 2010 iPad brought touch tablets to a mass market.",
+  "tags": [
+    "electronics",
+    "computer"
+  ],
+  "updated": "2026-11-02",
+  "notes": "平板电脑并非由 iPad 单独发明，其祖先包括更早的笔输入设备、研究原型与便携计算构想。1989 年 GRiDPad 代表早期商用笔平板，2002 年微软 Tablet PC 是另一条重要路线；本条以 2010 年 iPad 的大众普及为主年份，不把商业成功等同于最早发明。",
+  "notes_en": "The iPad did not invent the tablet alone: earlier pen-input devices, research prototypes and portable-computing concepts form its ancestry. The 1989 GRiDPad represents early commercial pen tablets, while Microsoft’s 2002 Tablet PC was another important approach. This entry uses the iPad’s 2010 popularization as its primary year, rather than equating commercial success with first invention.",
+  "primary": "popularization",
+  "image": {
+    "src": "/images/tablet.jpg",
+    "alt_zh": "第一代苹果 iPad 平板电脑",
+    "alt_en": "A first-generation Apple iPad",
+    "credit": "Evan-Amos",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:IPad-WiFi-1stGen.jpg"
+  }
+}

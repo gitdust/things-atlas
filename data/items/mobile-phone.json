@@ -1,0 +1,79 @@
+{
+  "id": "mobile-phone",
+  "name_zh": "手机",
+  "name_en": "Mobile phone",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1973,
+      "precision": "year",
+      "ref": "Martin Cooper of Motorola makes a public handheld cellular call using a DynaTAC prototype in New York",
+      "ref_zh": "摩托罗拉马丁·库珀在纽约使用 DynaTAC 原型机公开拨打手持蜂窝电话"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1983,
+      "precision": "exact",
+      "ref": "DynaTAC 8000X becomes the first commercial handheld cellular phone",
+      "ref_zh": "DynaTAC 8000X 成为第一款商用手持蜂窝电话"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 40.757,
+      "lng": -73.981,
+      "place_label_zh": "美国纽约（原型机公开通话）",
+      "place_label_en": "New York City, USA (public prototype call)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 42.033,
+      "lng": -88.083,
+      "place_label_zh": "美国伊利诺伊州绍姆堡（摩托罗拉）",
+      "place_label_en": "Schaumburg, Illinois, USA (Motorola)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1983
+    }
+  ],
+  "confidence": "exact",
+  "sources": [
+    {
+      "title": "First commercially available mobile phone — Guinness World Records",
+      "url": "https://www.guinnessworldrecords.com/world-records/118343-first-commercially-available-mobile-phone",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Cell Phone Development — Motorola Heritage",
+      "url": "https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/cell-phone-development.html",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "DynaTAC — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DynaTAC",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1973 年摩托罗拉马丁·库珀在纽约用原型机打出首个公开手持蜂窝电话；1983 年 DynaTAC 8000X 成为第一款商用手持手机，俗称「砖头机」。",
+  "summary_en": "Motorola’s Martin Cooper made a public handheld cellular call in New York in 1973. In 1983 the DynaTAC 8000X became the first commercial handheld cellphone, nicknamed “the brick.”",
+  "tags": [
+    "electronics",
+    "communication"
+  ],
+  "updated": "2026-11-02",
+  "primary": "mass_production",
+  "image": {
+    "src": "/images/mobile-phone.jpg",
+    "alt_zh": "摩托罗拉 DynaTAC 手持手机",
+    "alt_en": "A Motorola DynaTAC handheld cellphone",
+    "credit": "2007Computex e21Forum-MartinCooper.jpg Rico Shen; derivative work: ויקיג'אנקי",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "camera",
+  "name_zh": "相机",
+  "name_en": "Camera",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1839,
+      "precision": "year",
+      "ref": "Daguerreotype process publicly announced in Paris",
+      "ref_zh": "达盖尔摄影法在巴黎公开"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1888,
+      "precision": "year",
+      "ref": "Kodak introduces its roll-film camera",
+      "ref_zh": "柯达推出卷片相机"
+    },
+    "popularization": {
+      "year": 1900,
+      "precision": "year",
+      "ref": "Affordable Kodak Brownie brings photography to a wider public",
+      "ref_zh": "低价柯达 Brownie 让摄影走向大众"
+    }
+  },
+  "locations": [
+    {
+      "lat": 48.856,
+      "lng": 2.352,
+      "place_label_zh": "法国巴黎（达盖尔摄影法）",
+      "place_label_en": "Paris, France (daguerreotype)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 43.161,
+      "lng": -77.611,
+      "place_label_zh": "美国罗切斯特（柯达 Brownie）",
+      "place_label_en": "Rochester, USA (Kodak Brownie)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1900
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Daguerre and the Invention of Photography — Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/pt/essays/daguerre-1787-1851-and-the-invention-of-photography",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "George Eastman House Technology Collection — ASME",
+      "url": "https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Who%20We%20Are/Engineering%20History/Landmarks/258-george-eastman-house-technology-collection.pdf",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Photography history — Kodak",
+      "url": "https://www.kodak.com/en/company/page/photography-history.",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1839 年达盖尔摄影法在巴黎公开；1888 年柯达推出卷片相机，1900 年低价 Brownie 进一步降低使用门槛，让日常摄影走向大众。",
+  "summary_en": "The daguerreotype was announced in Paris in 1839. Kodak’s 1888 roll-film camera and the affordable Brownie of 1900 brought everyday photography to a wider public.",
+  "tags": [
+    "photography",
+    "camera",
+    "film"
+  ],
+  "updated": "2026-11-02",
+  "primary": "popularization",
+  "image": {
+    "src": "/images/camera.jpg",
+    "alt_zh": "柯达 Brownie Model 2 E 胶片照相机",
+    "alt_en": "A Kodak Brownie Model 2 E still camera",
+    "credit": "Marc Carlson from Tulsa, Oklahoma, USA",
+    "license": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kodak_Brownie_Model_2_E.jpg"
+  }
+}

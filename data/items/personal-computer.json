@@ -1,0 +1,94 @@
+{
+  "id": "personal-computer",
+  "name_zh": "个人电脑",
+  "name_en": "Personal computer",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1975,
+      "precision": "year",
+      "ref": "The Altair 8800 kit sparks the personal-computer industry",
+      "ref_zh": "Altair 8800 套件点燃个人电脑产业"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1977,
+      "precision": "year",
+      "ref": "Apple II, Commodore PET and TRS-80 bring ready-to-use microcomputers to market",
+      "ref_zh": "Apple II、Commodore PET 与 TRS-80 推动成品微型电脑上市"
+    },
+    "popularization": {
+      "year": 1981,
+      "precision": "year",
+      "ref": "IBM introduces its PC, helping establish a mainstream industry standard",
+      "ref_zh": "IBM 推出 PC，推动个人电脑成为主流并形成产业标准"
+    }
+  },
+  "locations": [
+    {
+      "lat": 35.084,
+      "lng": -106.65,
+      "place_label_zh": "美国新墨西哥州阿尔伯克基（MITS）",
+      "place_label_en": "Albuquerque, New Mexico, USA (MITS)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 37.323,
+      "lng": -122.032,
+      "place_label_zh": "美国加州库比蒂诺（Apple II）",
+      "place_label_en": "Cupertino, California, USA (Apple II)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1977
+    },
+    {
+      "lat": 26.358,
+      "lng": -80.083,
+      "place_label_zh": "美国佛罗里达州博卡拉顿（IBM PC）",
+      "place_label_en": "Boca Raton, Florida, USA (IBM PC)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1981
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Computers — Timeline of Computer History",
+      "url": "https://www.computerhistory.org/timeline/computers/",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "What Was The First PC? — Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/story/297",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "The IBM PC — IBM History",
+      "url": "https://www.ibm.com/history/personal-computer",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "summary_zh": "1975 年 Altair 8800 点燃个人电脑热潮；1977 年 Apple II、PET 与 TRS-80 推动成品机市场，1981 年 IBM PC 确立重要标准。「第一台个人电脑」的归属仍有争议。",
+  "summary_en": "The 1975 Altair 8800 sparked the PC boom; the 1977 Apple II, PET and TRS-80 expanded the market, and the 1981 IBM PC set a major standard. Which machine came first remains contested.",
+  "tags": [
+    "electronics",
+    "computer"
+  ],
+  "updated": "2026-11-02",
+  "notes": "「个人电脑」可以按个人使用、价格可负担或微处理器架构等标准界定。1971 年 Kenbak-1 被计算机历史博物馆评选为第一台个人电脑，1973 年 Xerox Alto 则开创图形交互；本条以 1975 年 Altair 8800 引发产业热潮为代表节点，并非排除更早先驱。",
+  "notes_en": "The first PC depends on whether personal use, affordability or a microprocessor is required. The Computer History Museum selected the 1971 Kenbak-1; the 1973 Xerox Alto pioneered graphical interaction. This entry uses the industry-sparking 1975 Altair 8800 as its representative milestone, without excluding earlier pioneers.",
+  "image": {
+    "src": "/images/personal-computer.jpg",
+    "alt_zh": "Altair 8800 个人电脑",
+    "alt_en": "An Altair 8800 personal computer",
+    "credit": "Spoilerhead at German Wikipedia",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Altair8800.JPG"
+  }
+}

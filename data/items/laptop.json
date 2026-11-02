@@ -1,0 +1,75 @@
+{
+  "id": "laptop",
+  "name_zh": "笔记本电脑",
+  "name_en": "Laptop",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1982,
+      "precision": "year",
+      "ref": "GRiD Compass establishes an influential clamshell laptop design",
+      "ref_zh": "GRiD Compass 推出具有影响力的翻盖式笔记本设计"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 37.548,
+      "lng": -121.989,
+      "place_label_zh": "美国加州弗里蒙特（GRiD Systems）",
+      "place_label_en": "Fremont, California, USA (GRiD Systems)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 37.7,
+      "lng": -122.0,
+      "place_label_zh": "美国旧金山湾区（Osborne）",
+      "place_label_en": "San Francisco Bay Area, USA (Osborne)",
+      "kind": "contested",
+      "confidence": "region",
+      "year_override": 1981
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "GRiD Compass laptop — Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/artifact/317/1726",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Epson HX-20 Portable Computer — National Museum of American History",
+      "url": "https://www.americanhistory.si.edu/ne/collections/object/nmah_687330",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "HX-20 — Epson History",
+      "url": "https://corporate.epson/en/about/history/milestone-products/1982-7-hx20.html",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "summary_zh": "1982 年 GRiD Compass 采用翻盖式设计，成为早期笔记本电脑的重要代表；1981 年 Osborne 便携机与 Epson HX-20 等先驱也使「第一台笔记本」的定义存在争议。",
+  "summary_en": "The 1982 GRiD Compass was an influential clamshell laptop. Earlier portable machines such as the 1981 Osborne and Epson HX-20 complicate claims to the first laptop.",
+  "tags": [
+    "electronics",
+    "computer"
+  ],
+  "updated": "2026-11-02",
+  "notes": "笔记本的「第一」取决于是否要求翻盖结构、可在膝上使用或电池供电。1981 年 Osborne 1 是便携式电脑先驱，却更接近提箱式机器；Epson HX-20 以轻便与电池供电著称。此处选取 1982 年 GRiD Compass 的翻盖式形态，而非断言它是所有便携电脑的起点。",
+  "notes_en": "Priority depends on requiring a clamshell, use on the lap or battery operation. The 1981 Osborne 1 was a portable pioneer but a luggable machine; the Epson HX-20 offered compact battery-powered computing. This entry selects the 1982 GRiD Compass for its clamshell form, rather than treating it as the origin of every portable computer.",
+  "image": {
+    "src": "/images/laptop.jpg",
+    "alt_zh": "GRiD Compass 1101 翻盖式笔记本电脑",
+    "alt_en": "A GRiD Compass 1101 clamshell laptop",
+    "credit": "jmdo",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:GRiD_Compass_1101_(1).jpg"
+  }
+}

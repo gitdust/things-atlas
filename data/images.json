@@ -103,6 +103,14 @@
       960
     ]
   },
+  "camera.jpg": {
+    "width": 1690,
+    "height": 1731,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "can-opener.jpg": {
     "width": 1200,
     "height": 640,
@@ -327,6 +335,14 @@
       960
     ]
   },
+  "laptop.jpg": {
+    "width": 498,
+    "height": 430,
+    "widths": [
+      480,
+      498
+    ]
+  },
   "light-bulb.jpg": {
     "width": 1200,
     "height": 800,
@@ -381,6 +397,14 @@
     "widths": [
       480,
       960
+    ]
+  },
+  "mobile-phone.jpg": {
+    "width": 642,
+    "height": 792,
+    "widths": [
+      480,
+      642
     ]
   },
   "moka-pot.jpg": {
@@ -447,6 +471,14 @@
       600
     ]
   },
+  "personal-computer.jpg": {
+    "width": 800,
+    "height": 1180,
+    "widths": [
+      480,
+      800
+    ]
+  },
   "playing-cards.jpg": {
     "width": 1920,
     "height": 1123,
@@ -485,6 +517,14 @@
     "widths": [
       480,
       937
+    ]
+  },
+  "radio.jpg": {
+    "width": 5600,
+    "height": 3500,
+    "widths": [
+      480,
+      960
     ]
   },
   "rubber-band.jpg": {
@@ -559,6 +599,14 @@
       960
     ]
   },
+  "smartwatch.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "snap-fastener.jpg": {
     "width": 968,
     "height": 1200,
@@ -615,6 +663,14 @@
       960
     ]
   },
+  "tablet.jpg": {
+    "width": 2060,
+    "height": 2520,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "tava.jpg": {
     "width": 1920,
     "height": 2560,
@@ -637,6 +693,13 @@
     "widths": [
       480,
       960
+    ]
+  },
+  "television.jpg": {
+    "width": 409,
+    "height": 592,
+    "widths": [
+      409
     ]
   },
   "thermos.jpg": {

@@ -1,0 +1,116 @@
+{
+  "id": "television",
+  "name_zh": "电视机",
+  "name_en": "Television",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1926,
+      "precision": "year",
+      "ref": "John Logie Baird demonstrates mechanical television in London",
+      "ref_zh": "约翰·洛吉·贝尔德在伦敦演示机械电视"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1936,
+      "precision": "year",
+      "ref": "BBC launches regular high-definition television from Alexandra Palace",
+      "ref_zh": "BBC 从亚历山德拉宫开播定期高清电视服务"
+    },
+    "popularization": {
+      "year": 1939,
+      "precision": "year",
+      "ref": "RCA presents television at the New York World's Fair",
+      "ref_zh": "RCA 在纽约世界博览会推广电视"
+    }
+  },
+  "locations": [
+    {
+      "lat": 51.513,
+      "lng": -0.132,
+      "place_label_zh": "英国伦敦（贝尔德实验室）",
+      "place_label_en": "London, UK (Baird laboratory)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 37.8,
+      "lng": -122.403,
+      "place_label_zh": "美国旧金山（法恩斯沃思）",
+      "place_label_en": "San Francisco, USA (Farnsworth)",
+      "kind": "contested",
+      "confidence": "city",
+      "year_override": 1927
+    },
+    {
+      "lat": 51.594,
+      "lng": -0.13,
+      "place_label_zh": "英国伦敦亚历山德拉宫（BBC）",
+      "place_label_en": "Alexandra Palace, London, UK (BBC)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1936
+    },
+    {
+      "lat": 40.747,
+      "lng": -73.845,
+      "place_label_zh": "美国纽约法拉盛（世界博览会）",
+      "place_label_en": "Flushing, New York, USA (World’s Fair)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1939
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Baird experimental television receiver — Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co34789",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "BBC at Alexandra Palace",
+      "url": "https://www.alexandrapalace.com/our-history/bbc-at-the-palace/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "David Sarnoff at the 1939 World's Fair — Smithsonian",
+      "url": "https://siarchives.si.edu/collections/siris_arc_367593",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "RCA TRK-12 Television — Smithsonian",
+      "url": "https://www.si.edu/object/rca-trk-12-television%3Anmah_1096721",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Experimental Farnsworth image dissector — Smithsonian",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1288388",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "summary_zh": "1926 年贝尔德在伦敦演示机械电视；1936 年 BBC 从亚历山德拉宫开播定期电视服务，1939 年 RCA 借纽约世界博览会推广电视。机械与电子路线使「发明」归属存在争议。",
+  "summary_en": "Baird demonstrated mechanical TV in London in 1926; BBC service began in 1936 and RCA promoted TV at the 1939 New York fair. Mechanical and electronic systems complicate priority.",
+  "tags": [
+    "television",
+    "broadcast",
+    "display"
+  ],
+  "updated": "2026-11-02",
+  "notes": "贝尔德于 1926 年展示的是机械扫描电视；法恩斯沃思于 1927 年在旧金山实现电子电视图像，两者属于不同技术路线。这里以公开机械电视演示为发明节点，1936 年标记定期广播服务，1939 年标记展会推广，并不表示当时已普及到多数家庭。",
+  "notes_en": "Baird demonstrated mechanical scanning in 1926; Farnsworth transmitted an electronic image in San Francisco in 1927. Priority depends on the technology. The 1936 mark denotes regular broadcasting and 1939 fair promotion, not household saturation.",
+  "image": {
+    "src": "/images/television.jpg",
+    "alt_zh": "一台 1990 年代的 CRT 电视机",
+    "alt_en": "A 1990s CRT television set",
+    "credit": "ProtoKiwi",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg"
+  }
+}

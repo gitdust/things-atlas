@@ -1,0 +1,96 @@
+{
+  "id": "smartwatch",
+  "name_zh": "智能手表",
+  "name_en": "Smartwatch",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1984,
+      "precision": "year",
+      "ref": "Seiko RC-1000 Wrist Terminal connects to personal computers",
+      "ref_zh": "精工 RC-1000 腕上终端可连接个人电脑"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 2004,
+      "precision": "year",
+      "ref": "Microsoft SPOT-based watches reach consumers",
+      "ref_zh": "搭载微软 SPOT 的手表上市"
+    },
+    "popularization": {
+      "year": 2015,
+      "precision": "year",
+      "ref": "Apple Watch goes on sale",
+      "ref_zh": "Apple Watch 上市"
+    }
+  },
+  "locations": [
+    {
+      "lat": 35.681,
+      "lng": 139.767,
+      "place_label_zh": "日本东京（精工）",
+      "place_label_en": "Tokyo, Japan (Seiko)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 47.674,
+      "lng": -122.122,
+      "place_label_zh": "美国雷德蒙德（微软 SPOT）",
+      "place_label_en": "Redmond, USA (Microsoft SPOT)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 2004
+    },
+    {
+      "lat": 37.323,
+      "lng": -122.032,
+      "place_label_zh": "美国库比蒂诺（Apple Watch）",
+      "place_label_en": "Cupertino, USA (Apple Watch)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 2015
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Seiko RC-1000 Wrist Terminal — HCI Museum",
+      "url": "https://interfacemuseum.com/exhibits/seiko-rc1000/",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Smart Watches for MSN Direct Ship to Retail — Microsoft",
+      "url": "https://news.microsoft.com/source/2004/01/07/smart-watches-for-msn-direct-ship-to-retail/",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Apple Watch available April 24 — Apple",
+      "url": "https://www.apple.com/li/newsroom/2015/03/09Apple-Watch-Available-in-Nine-Countries-on-April-24/",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "summary_zh": "1984 年精工 RC-1000 可与个人电脑交换数据；2004 年微软 SPOT 手表上市，2015 年 Apple Watch 将智能手表进一步带入大众视野。「智能」的定义使起点存在争议。",
+  "summary_en": "Seiko’s 1984 RC-1000 connected to computers; Microsoft SPOT watches reached consumers in 2004. Apple Watch’s 2015 launch widened awareness, though definitions of a smartwatch vary.",
+  "tags": [
+    "watch",
+    "wearable",
+    "computer"
+  ],
+  "updated": "2026-11-02",
+  "notes": "智能手表没有统一的起点：计算器手表、腕上电脑与联网手表分别采用不同的「智能」标准。精工 RC-1000 代表可连接电脑的早期腕上终端，微软 SPOT 代表接收无线资讯的路线；2015 年 Apple Watch 是普及节点，不是这一类别的首次发明。",
+  "notes_en": "The starting point depends on whether calculator watches, wrist computers or networked watches count as smart. Seiko’s RC-1000 represents early computer connectivity and Microsoft SPOT wireless information; Apple Watch in 2015 marks popularization rather than invention.",
+  "primary": "popularization",
+  "image": {
+    "src": "/images/smartwatch.jpg",
+    "alt_zh": "2015 年款 Apple Watch Sport 智能手表",
+    "alt_en": "A 2015 Apple Watch Sport",
+    "credit": "thomersch",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Sport.jpg"
+  }
+}
