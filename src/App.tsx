@@ -208,15 +208,29 @@ export default function App({ url }: { url?: UrlLike }) {
         className="panel-toggle"
         aria-expanded={panelOpen}
         aria-controls="entry-panel"
+        aria-label={
+          panelOpen
+            ? lang === 'zh'
+              ? '收起面板'
+              : 'Collapse panel'
+            : lang === 'zh'
+              ? '展开条目列表'
+              : 'Expand catalogue'
+        }
+        title={
+          panelOpen
+            ? lang === 'zh'
+              ? '收起面板'
+              : 'Collapse panel'
+            : lang === 'zh'
+              ? '展开条目列表'
+              : 'Expand catalogue'
+        }
         onClick={() => setPanelOpen(!panelOpen)}
       >
-        {panelOpen
-          ? lang === 'zh'
-            ? '收起面板'
-            : 'Collapse panel'
-          : lang === 'zh'
-            ? `浏览 ${index.count} 个条目`
-            : `Browse ${index.count} entries`}
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d={panelOpen ? 'm9 6 6 6-6 6' : 'm15 6-6 6 6 6'} />
+        </svg>
       </button>
       <div className="entry-panel" id="entry-panel">
         <div hidden={!!selectedItem}>

@@ -1585,22 +1585,14 @@ button {
     text-decoration: underline;
   }
   .panel-toggle {
-    display: block;
-    position: absolute;
-    bottom: calc(74dvh + 8px);
-    right: var(--edge);
-    z-index: var(--z-drawer);
-    background: var(--surface-drawer);
-    color: var(--ink);
-    border: 1px solid var(--rule);
-    border-radius: var(--r-lg);
-    padding: var(--s-2) var(--s-3);
-  }
-  .panel-collapsed .entry-panel {
-    display: none;
+    top: 63dvh;
+    left: 0;
+    right: auto;
   }
   .panel-collapsed .panel-toggle {
-    bottom: 30px;
+    top: 50%;
+    left: auto;
+    right: var(--edge);
   }
   .catalog-head {
     padding: 24px 20px 8px;
@@ -1649,21 +1641,47 @@ button {
 .panel-collapsed .entry-panel {
   display: none;
 }
+.catalog-search:focus-within {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.catalog-search input:focus-visible {
+  outline: none;
+}
+.panel-toggle {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  width: 32px;
+  height: 48px;
+  padding: 0;
+  transform: translateY(-50%);
+  z-index: var(--z-drawer);
+  color: var(--ink);
+  background: var(--surface-drawer);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r-lg) 0 0 var(--r-lg);
+  box-shadow: var(--shadow-2);
+  cursor: pointer;
+}
+.panel-toggle:hover {
+  background: var(--paper-2);
+}
+.panel-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 @media (width > 760px) {
   .panel-toggle {
-    display: block;
-    position: absolute;
-    top: 100px;
-    right: calc(var(--drawer-w) + var(--s-5));
-    z-index: var(--z-drawer);
-    padding: var(--s-2) var(--s-3);
-    color: var(--ink);
-    background: var(--surface-drawer);
-    border: 1px solid var(--rule);
-    border-radius: var(--r-lg);
-    cursor: pointer;
+    top: 50%;
+    right: calc(var(--drawer-w) + var(--s-4));
   }
   .panel-collapsed .panel-toggle {
-    right: var(--edge);
+    right: 0;
   }
 }
