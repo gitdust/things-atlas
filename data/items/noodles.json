@@ -1,0 +1,73 @@
+{
+  "id": "noodles",
+  "name_zh": "面条",
+  "name_en": "Noodles",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": -2000,
+      "precision": "century",
+      "ref": "Noodles preserved at Lajia (Qijia culture), Qinghai, ~4000 years ago",
+      "ref_zh": "青海喇家遗址（齐家文化）出土约四千年前面条遗存"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1000,
+      "precision": "century",
+      "ref": "Wheat noodles become everyday fare across Song China",
+      "ref_zh": "宋代小麦面条成为日常主食之一"
+    }
+  },
+  "locations": [
+    {
+      "lat": 35.86,
+      "lng": 102.81,
+      "place_label_zh": "中国青海民和喇家遗址",
+      "place_label_en": "Lajia site, Minhe, Qinghai, China",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Millet noodles in Late Neolithic China — Nature",
+      "url": "https://www.nature.com/articles/437967a",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Lajia — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lajia",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Noodle — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Noodle",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "喇家面条的原料一度定为粟，后有实验质疑纯粟面团能否拉出该形态；遗址人骨同位素仍以粟为主。条目以考古年代为主，不单独标争议。",
+  "notes_en": "Lajia noodles were first identified as millet; later experiments question whether pure millet dough could form such strands, while isotopes still show a millet-heavy diet. This entry keeps the archaeological date without a formal dispute flag.",
+  "summary_zh": "青海喇家遗址出土约公元前2000年的面条遗存，是目前已知最早的实物；后世小麦面条在宋以后更为普及。",
+  "summary_en": "Noodles preserved at Lajia in Qinghai, about 2000 BCE, are the earliest known physical remains. Wheat noodles became everyday fare in China especially from the Song onward.",
+  "tags": [
+    "staple",
+    "china",
+    "wheat",
+    "millet"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/noodles.jpg",
+    "alt_zh": "一碗云南面条",
+    "alt_en": "A bowl of noodles in Yunnan",
+    "credit": "Matthieu Lelievre",
+    "license": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bowl_of_noodles,_Yunnan_-_30849911807.jpg"
+  }
+}

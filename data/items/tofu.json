@@ -1,0 +1,81 @@
+{
+  "id": "tofu",
+  "name_zh": "豆腐",
+  "name_en": "Tofu",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 965,
+      "precision": "year",
+      "ref": "Earliest clear written mention of doufu in Tao Gu’s Qingyi Lu (c. 965)",
+      "ref_zh": "陶穀《清异录》（约965）首次明确记载「豆腐」"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1100,
+      "precision": "century",
+      "ref": "Tofu appears widely in Song poetry and materia medica",
+      "ref_zh": "宋代诗文与本草中豆腐记载增多"
+    }
+  },
+  "locations": [
+    {
+      "lat": 32.0,
+      "lng": 117.0,
+      "place_label_zh": "中国淮河流域（传说淮南王刘安故地）",
+      "place_label_en": "Huai River region, China (legendary Liu An locale)",
+      "kind": "contested",
+      "confidence": "region"
+    },
+    {
+      "lat": 34.8,
+      "lng": 113.5,
+      "place_label_zh": "中国河南（打虎亭汉墓争议图像）",
+      "place_label_en": "Henan, China (debated Dahuting mural)",
+      "kind": "contested",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "History of Tofu — Soyinfo Center",
+      "url": "https://www.soyinfocenter.com/HSS/tofu1.php",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Tofu — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tofu",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "History of Tofu and Tofu Products — Soyinfo Center",
+      "url": "https://www.soyinfocenter.com/books/284",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "民间长期传说西汉淮南王刘安发明豆腐，但该说始见于宋代，汉唐文献并无「豆腐」记载。目前最早明确书证是五代末陶穀《清异录》。河南密县打虎亭汉墓画像一度被释为制豆腐，后多学者认为更像酿酒场景，故发明年代与发明人仍有争议。",
+  "notes_en": "Folk tradition credits Western Han prince Liu An, but that claim first appears in Song sources; Han–Tang texts lack the word doufu. The earliest clear written mention is Tao Gu’s Qingyi Lu (c. 965). A Dahuting Han mural once read as tofu-making is now often reinterpreted as brewing, so inventor and date remain disputed.",
+  "summary_zh": "豆腐起源于中国；五代《清异录》约965年首次明确记载。传说刘安发明缺乏早期书证，故标为争议。",
+  "summary_en": "Tofu originated in China. The earliest clear written mention is in the Qingyi Lu around 965. The popular Liu An invention story lacks early evidence, so the origin date is disputed.",
+  "tags": [
+    "soy",
+    "china",
+    "staple",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/tofu.jpg",
+    "alt_zh": "一块豆腐",
+    "alt_en": "A block of tofu",
+    "credit": "DryPot",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG"
+  }
+}

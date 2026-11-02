@@ -1,0 +1,86 @@
+{
+  "id": "abacus",
+  "name_zh": "算盘",
+  "name_en": "Abacus",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 190,
+      "precision": "year",
+      "ref": "Xu Yue’s Shushu Jiyi (~190 CE) describes an early bead-and-rod calculation device",
+      "ref_zh": "徐岳《数术记遗》（约190年）描述早期珠算工具"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1100,
+      "precision": "century",
+      "ref": "Song paintings and finds show the classic 2/5 suanpan in use",
+      "ref_zh": "宋代绘画与实物可见典型上二下五算盘"
+    },
+    "popularization": {
+      "year": 1600,
+      "precision": "century",
+      "ref": "Suanpan becomes the standard Chinese commercial calculator into the modern era",
+      "ref_zh": "算盘成为中国商业计算的标准工具直至近现代"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.27,
+      "lng": 108.95,
+      "place_label_zh": "中国（汉代珠算记载，地点不详）",
+      "place_label_en": "China (Han bead-calculation texts; place uncertain)",
+      "kind": "invention",
+      "confidence": "country"
+    },
+    {
+      "lat": 34.8,
+      "lng": 114.3,
+      "place_label_zh": "中国河南开封一带（清明上河图所见算盘语境）",
+      "place_label_en": "Kaifeng region, Henan, China (Along the River During the Qingming Festival context)",
+      "kind": "popularization",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Abacus — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/technology/abacus-calculating-device",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Suanpan — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suanpan",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Chinese Abacus — University of Queensland Physics Museum",
+      "url": "https://physicsmuseum.uq.edu.au/chinese-abacus",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "算筹更早；本条目指有梁有珠的算盘。汉代记载与宋以后定型算盘之间仍有形态演变。",
+  "notes_en": "Counting rods are older; this entry covers the beaded, framed suanpan. Form evolved between Han descriptions and the classic Song–later layout.",
+  "summary_zh": "中国算盘由早期珠算工具演化而来；约公元190年已有相关记载，宋代起上二下五的典型算盘广泛使用。",
+  "summary_en": "The Chinese suanpan evolved from earlier bead calculation devices described around 190 CE. The classic 2/5-bead frame is widely attested from the Song dynasty onward.",
+  "tags": [
+    "math",
+    "china",
+    "calculator",
+    "beads"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/abacus.jpg",
+    "alt_zh": "中国算盘",
+    "alt_en": "A Chinese suanpan abacus",
+    "credit": "Felix Winkelnkemper",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Suanpan_Abacus.jpg"
+  }
+}

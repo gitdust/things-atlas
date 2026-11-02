@@ -1,0 +1,84 @@
+{
+  "id": "porcelain",
+  "name_zh": "瓷器",
+  "name_en": "Porcelain",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 650,
+      "precision": "century",
+      "ref": "True hard-paste porcelain emerges in Tang China in the 7th century",
+      "ref_zh": "唐代七世纪中国出现真正的硬质瓷器"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1004,
+      "precision": "year",
+      "ref": "Jingdezhen renamed in the Jingde era and rises as the porcelain capital",
+      "ref_zh": "宋景德年间景德镇得名并崛起为瓷都"
+    },
+    "popularization": {
+      "year": 1300,
+      "precision": "century",
+      "ref": "Yuan–Ming blue-and-white porcelain enters global trade networks",
+      "ref_zh": "元明青花瓷进入全球贸易网络"
+    }
+  },
+  "locations": [
+    {
+      "lat": 29.295,
+      "lng": 117.203,
+      "place_label_zh": "中国江西景德镇",
+      "place_label_en": "Jingdezhen, Jiangxi, China",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 34.26,
+      "lng": 108.94,
+      "place_label_zh": "中国陕西西安一带（北方早期白瓷）",
+      "place_label_en": "Xi’an region, Shaanxi, China (northern early white ware)",
+      "kind": "invention",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Porcelain — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/art/porcelain",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Jingdezhen — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/place/Jingdezhen",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Porcelain — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Porcelain",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "真正硬质瓷器约于唐代七世纪在中国成熟；宋元以降景德镇成为瓷都，青花瓷经贸易传遍世界。",
+  "summary_en": "True hard-paste porcelain matured in Tang China in the 7th century. From the Song onward Jingdezhen became the porcelain capital; Yuan–Ming blue-and-white ware entered global trade.",
+  "tags": [
+    "ceramics",
+    "china",
+    "trade",
+    "household"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/porcelain.jpg",
+    "alt_zh": "明代青花瓷碗",
+    "alt_en": "Ming blue-and-white porcelain bowl",
+    "credit": "Gary Todd",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ming_Porcelain_Bowl_01.jpg"
+  }
+}

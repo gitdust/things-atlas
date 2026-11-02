@@ -1,0 +1,84 @@
+{
+  "id": "soy-sauce",
+  "name_zh": "酱油",
+  "name_en": "Soy sauce",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 40,
+      "precision": "year",
+      "ref": "Qingjiang, an early liquid soy-sauce ancestor, listed in Cui Shi’s Simin Yueling (40 CE)",
+      "ref_zh": "崔寔《四民月令》（公元40年）记载清酱，为酱油早期形态"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 544,
+      "precision": "year",
+      "ref": "Qimin Yaoshu gives the earliest detailed soy-sauce making description",
+      "ref_zh": "《齐民要术》（544）给出目前最早的制酱详述"
+    },
+    "popularization": {
+      "year": 1200,
+      "precision": "century",
+      "ref": "Term jiangyou becomes established in Song texts",
+      "ref_zh": "宋代文献中「酱油」名称逐渐定型"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.8,
+      "lng": 113.7,
+      "place_label_zh": "中国中原（汉代清酱记载语境）",
+      "place_label_en": "Central Plains, China (Han qingjiang context)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 36.65,
+      "lng": 117.12,
+      "place_label_zh": "中国山东（贾思勰《齐民要术》关联地）",
+      "place_label_en": "Shandong, China (associated with Qimin Yaoshu)",
+      "kind": "production",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Soy sauce — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Soy_sauce",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "History of Soy Sauce — Soyinfo Center",
+      "url": "https://www.soyinfocenter.com/pdf/153/Sauc.pdf",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Soy sauce — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/topic/soy-sauce",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "酱油由豆酱汁液演化而来；公元40年《四民月令》已见清酱，544年《齐民要术》详述制法，宋代「酱油」之名定型。",
+  "summary_en": "Soy sauce evolved from fermented soybean paste juices. Qingjiang appears in the Simin Yueling (40 CE); the Qimin Yaoshu (544) details making methods; the name jiangyou settles in Song texts.",
+  "tags": [
+    "condiment",
+    "soy",
+    "ferment",
+    "china"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/soy-sauce.jpg",
+    "alt_zh": "一碟酱油",
+    "alt_en": "A small dish of soy sauce",
+    "credit": "국립국어원",
+    "license": "CC BY-SA 2.0 kr",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Soy_sauce_2.jpg"
+  }
+}

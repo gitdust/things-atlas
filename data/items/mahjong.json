@@ -1,0 +1,81 @@
+{
+  "id": "mahjong",
+  "name_zh": "麻将",
+  "name_en": "Mahjong",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1880,
+      "precision": "decade",
+      "ref": "Mahjong tiles and rules take recognizable form in the 1870s–1880s, often linked to Ningbo",
+      "ref_zh": "麻将牌与规则约在十九世纪七八十年代定型，常与宁波关联"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1920,
+      "precision": "decade",
+      "ref": "Mahjong craze spreads across China and to the United States in the 1920s",
+      "ref_zh": "二十世纪二十年代麻将热传遍中国并风行美国"
+    }
+  },
+  "locations": [
+    {
+      "lat": 29.87,
+      "lng": 121.55,
+      "place_label_zh": "中国浙江宁波",
+      "place_label_en": "Ningbo, Zhejiang, China",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 26.07,
+      "lng": 119.3,
+      "place_label_zh": "中国福建福州（早期牌具记载之一）",
+      "place_label_en": "Fuzhou, Fujian, China (early tile-set attestations)",
+      "kind": "contested",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Mahjong — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mahjong",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "麻将起源考 — The Paper",
+      "url": "https://www.thepaper.cn/newsDetail_forward_2626049",
+      "type": "news",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Mahjong(g) Before Mahjong(g) — The Mahjong Tile Set",
+      "url": "https://www.themahjongtileset.co.uk/tile-set-history/mahjongg-before-mahjongg-part-2/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "麻将发明人传说众多（含郑和等），均缺乏实证。较稳妥的看法是十九世纪后期由马吊、纸牌等博戏在江浙闽沿海定型，宁波常被当作重要传播中心，但福州等地亦有早期牌具记载，精确发明人与年份仍有争议。",
+  "notes_en": "Many inventor legends (including Zheng He) lack evidence. A safer view is that mid–late nineteenth-century card and tile games along the Zhejiang–Fujian coast coalesced into mahjong; Ningbo is often named as a spread centre, but early sets are also attested elsewhere, so inventor and exact year remain disputed.",
+  "summary_zh": "麻将约于十九世纪后期在中国东南沿海定型，宁波常被视作重要中心；发明人传说很多，精确年份仍有争议。",
+  "summary_en": "Mahjong took recognizable form in late-nineteenth-century southeast China, often linked to Ningbo. Inventor legends are many; the exact year remains disputed.",
+  "tags": [
+    "game",
+    "tiles",
+    "china",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/mahjong.jpg",
+    "alt_zh": "麻将牌",
+    "alt_en": "Mahjong tiles",
+    "credit": "バーレンムール",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mahjong_Tiles_(2).jpg"
+  }
+}

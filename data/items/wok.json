@@ -1,0 +1,68 @@
+{
+  "id": "wok",
+  "name_zh": "炒锅",
+  "name_en": "Wok",
+  "category": "kitchen",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": 1100,
+      "precision": "century",
+      "ref": "Cast-iron woks become common household cookware in Song China",
+      "ref_zh": "宋代铸铁炒锅成为常见家用炊具"
+    },
+    "popularization": {
+      "year": 1500,
+      "precision": "century",
+      "ref": "Wok stir-frying techniques spread with Chinese diaspora cookery",
+      "ref_zh": "炒锅爆炒技法随华人移居向海外扩散"
+    }
+  },
+  "primary": "mass_production",
+  "locations": [
+    {
+      "lat": 30.25,
+      "lng": 120.15,
+      "place_label_zh": "中国江南（宋代炒锅普及区之一）",
+      "place_label_en": "Jiangnan, China (Song-era wok use)",
+      "kind": "production",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Wok — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wok",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "What Do We Really Know about the History of the Wok? — Rachel Laudan",
+      "url": "https://www.rachellaudan.com/2008/12/what-do-we-really-know-about-the-history-of-the-wok.html",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "炒锅精确发明年不详；新石器时代已有陶釜，铁器时代后才有铁锅。本条目以宋代铸铁炒锅普及为主年份，来源偏弱。",
+  "notes_en": "No precise invention year is known; clay cauldrons are far older, while iron woks become clear later. This entry uses Song-dynasty cast-iron household woks as the primary mark; sourcing is relatively thin.",
+  "summary_zh": "炒锅由中国圜底锅演化而来，精确发明年不详；宋代起铸铁炒锅在日常烹饪中普及，成为爆炒核心炊具。",
+  "summary_en": "The wok evolved from Chinese round-bottomed pots; no single invention year is known. Cast-iron household woks become common in the Song dynasty and anchor stir-fry cooking.",
+  "tags": [
+    "cookware",
+    "china",
+    "metal",
+    "stir-fry"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/wok.jpg",
+    "alt_zh": "中式炒锅",
+    "alt_en": "A Chinese wok",
+    "credit": "Susan Slater",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Frying_pan_(Chinese_wok).jpg"
+  }
+}

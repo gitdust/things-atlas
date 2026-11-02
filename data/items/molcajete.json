@@ -1,0 +1,79 @@
+{
+  "id": "molcajete",
+  "name_zh": "墨西哥石臼",
+  "name_en": "Molcajete",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": -1500,
+      "precision": "century",
+      "ref": "Basalt mortars used in Mesoamerica by the Early–Middle Formative (~1500 BCE)",
+      "ref_zh": "中美洲形成期早期至中期（约前1500）已使用玄武岩石臼"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1400,
+      "precision": "century",
+      "ref": "Aztec and other Postclassic kitchens use molcaxitl for chile sauces",
+      "ref_zh": "后古典期阿兹特克等厨房用molcaxitl研磨辣椒酱"
+    }
+  },
+  "locations": [
+    {
+      "lat": 19.7,
+      "lng": -101.2,
+      "place_label_zh": "墨西哥米却肯一带（早期石磨传统）",
+      "place_label_en": "Michoacán region, Mexico (early grinding-stone tradition)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 19.43,
+      "lng": -99.13,
+      "place_label_zh": "墨西哥谷地（阿兹特克使用语境）",
+      "place_label_en": "Valley of Mexico (Aztec use context)",
+      "kind": "popularization",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Molcajete — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Molcajete",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "molcaxitl — Nahuatl Dictionary",
+      "url": "https://nahuatl.wired-humanities.org/content/molcaxitl",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Present use and production of metates in Turícuaro — Ethnoarchaeology",
+      "url": "https://doi.org/10.1080/19442890.2023.2280379",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "molcajete是中美洲传统玄武岩石臼，约公元前1500年已有使用；纳瓦特尔语称molcaxitl，常与tejolote杵配套研磨酱料。",
+  "summary_en": "The molcajete is a Mesoamerican basalt mortar in use by about 1500 BCE. From Nahuatl molcaxitl, it is paired with a tejolote pestle to grind chile sauces and spices.",
+  "tags": [
+    "mortar",
+    "mexico",
+    "stone",
+    "sauce"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/molcajete.jpg",
+    "alt_zh": "墨西哥石臼 molcajete",
+    "alt_en": "A Mexican molcajete stone mortar",
+    "credit": "Tortillovsky",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Molcajete.jpg"
+  }
+}

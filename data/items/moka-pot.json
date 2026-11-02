@@ -1,0 +1,83 @@
+{
+  "id": "moka-pot",
+  "name_zh": "摩卡壶",
+  "name_en": "Moka pot",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1933,
+      "precision": "year",
+      "ref": "Alfonso Bialetti launches the Moka Express stove-top coffee maker in Italy (1933)",
+      "ref_zh": "阿方索·比亚莱蒂1933年在意大利推出摩卡壶"
+    },
+    "patent": {
+      "year": 1951,
+      "precision": "year",
+      "ref": "Related patent filings associated with Luigi De Ponti appear around 1950–51",
+      "ref_zh": "与路易吉·德庞蒂相关的专利约在1950–51年出现"
+    },
+    "mass_production": {
+      "year": 1933,
+      "precision": "year",
+      "ref": "Bialetti begins commercial production of the aluminium Moka Express",
+      "ref_zh": "比亚莱蒂开始商业生产铝制摩卡壶"
+    },
+    "popularization": {
+      "year": 1950,
+      "precision": "decade",
+      "ref": "Moka pots become everyday Italian household coffee makers after WWII",
+      "ref_zh": "二战后摩卡壶成为意大利家庭日常煮咖啡器具"
+    }
+  },
+  "locations": [
+    {
+      "lat": 45.81,
+      "lng": 8.56,
+      "place_label_zh": "意大利皮埃蒙特十字军镇一带（比亚莱蒂）",
+      "place_label_en": "Crusinallo / Omegna area, Piedmont, Italy (Bialetti)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Our History — Bialetti",
+      "url": "https://www.bialetti.com/us_en/our-history",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Moka pot — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moka_pot",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "An idea with a mustache — Bialetti",
+      "url": "https://www.bialetti.com/us_en/learn-and-brew/post/an-idea-with-a-mustache-do-you-know-who-invented-the-moka",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "公司史常写1933年发明，但早期专利署名情况较复杂，常见相关专利指向路易吉·德庞蒂而非阿方索本人；条目仍以1933年产品问世为主年份。",
+  "notes_en": "Company histories date the invention to 1933, but early patent attribution is messy and often points to Luigi De Ponti rather than Alfonso Bialetti himself; this entry still uses the 1933 product launch as the primary year.",
+  "summary_zh": "摩卡壶是意大利炉灶煮咖啡器，由阿方索·比亚莱蒂于1933年推出；二战后成为意式家庭煮咖啡的代表器具。",
+  "summary_en": "The moka pot is Italy’s stove-top coffee maker, launched by Alfonso Bialetti in 1933 and becoming an everyday Italian household fixture after World War II.",
+  "tags": [
+    "coffee",
+    "italy",
+    "aluminium",
+    "stove-top"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/moka-pot.jpg",
+    "alt_zh": "摩卡壶煮咖啡",
+    "alt_en": "A Bialetti moka pot brewing coffee",
+    "credit": "Berteun Damman (That's I)",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bialetti_Moka_Express_in_action.jpg"
+  }
+}

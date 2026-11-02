@@ -1,0 +1,83 @@
+{
+  "id": "four-treasures",
+  "name_zh": "笔墨纸砚",
+  "name_en": "Four Treasures of the Study",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 100,
+      "precision": "century",
+      "ref": "Han-period brush, pine-soot inkstick and inkstone form a scholarly writing toolkit (paper covered separately)",
+      "ref_zh": "汉代毛笔、松烟墨与砚台已组成书写工具组合（纸见独立条目）"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 986,
+      "precision": "year",
+      "ref": "Northern Song Wenfang sipu (986) treats the four treasures as a named set",
+      "ref_zh": "北宋《文房四谱》（986）将笔墨纸砚作为成套名物记述"
+    }
+  },
+  "primary": "popularization",
+  "locations": [
+    {
+      "lat": 34.27,
+      "lng": 108.95,
+      "place_label_zh": "中国陕西西安一带（汉代文房传统）",
+      "place_label_en": "Xi’an region, Shaanxi, China (Han scholarly toolkit context)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 30.25,
+      "lng": 120.15,
+      "place_label_zh": "中国江南（唐宋文房名品产地）",
+      "place_label_en": "Jiangnan, China (Tang–Song famed stationery producing region)",
+      "kind": "popularization",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Four Treasures of the Study — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Four_Treasures_of_the_Study",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Appreciating the Four Treasures of the Study — Chinese Social Sciences Net",
+      "url": "http://english.cssn.cn/skw_culture/CULTURE_Horizontal/202004/t20200413_5653767.shtml",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Inkstick — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Inkstick",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "「纸」在图鉴中已有独立条目（蔡伦叙事），本条目把笔墨纸砚作为文房成套工具，重点写墨与砚，并与纸条目交叉引用而不重复四大发明纸故事。",
+  "notes_en": "Paper already has its own atlas entry (Cai Lun narrative). This item treats brush, inkstick, paper and inkstone as one scholarly set, emphasizing inkstick and inkstone and cross-referencing paper without retelling the Four Great Inventions paper story.",
+  "summary_zh": "笔、墨、纸、砚合称文房四宝。汉代已有笔墨砚组合；北宋《文房四谱》（986）将其作为成套名物。纸的发明见「纸」条目。",
+  "summary_en": "Brush, inkstick, paper and inkstone form China’s Four Treasures of the Study. A Han toolkit is early; the Song Wenfang sipu (986) names the set. For papermaking see the separate Paper entry.",
+  "tags": [
+    "calligraphy",
+    "china",
+    "ink",
+    "brush",
+    "inkstone"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/four-treasures.jpg",
+    "alt_zh": "文房四宝：笔墨纸砚",
+    "alt_en": "Four Treasures of the Study: brush, ink, paper, inkstone",
+    "credit": "Gary Todd from Xinzheng, China",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Anhui_Four_Treasures_of_the_Study_(9974352754).jpg"
+  }
+}

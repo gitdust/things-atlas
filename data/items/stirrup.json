@@ -1,0 +1,81 @@
+{
+  "id": "stirrup",
+  "name_zh": "马镫",
+  "name_en": "Stirrup",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 302,
+      "precision": "year",
+      "ref": "Earliest firm Chinese evidence: tomb figurine with stirrup-like device, Changsha area (~302 CE)",
+      "ref_zh": "目前较坚实的中国证据：长沙一带约公元302年陶俑出现马镫状装置"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 400,
+      "precision": "century",
+      "ref": "Paired riding stirrups spread across East Asian and steppe cavalry cultures",
+      "ref_zh": "双马镫在东亚与草原骑兵文化中扩散"
+    }
+  },
+  "locations": [
+    {
+      "lat": 28.23,
+      "lng": 112.94,
+      "place_label_zh": "中国湖南长沙一带",
+      "place_label_en": "Changsha region, Hunan, China",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 48.0,
+      "lng": 91.0,
+      "place_label_zh": "蒙古阿尔泰一带（早期马具发现）",
+      "place_label_en": "Mongolian Altai region (early riding-gear finds)",
+      "kind": "contested",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Origins of saddles and riding technology in East Asia — Antiquity",
+      "url": "https://www.cambridge.org/core/journals/antiquity/article/origins-of-saddles-and-riding-technology-in-east-asia-discoveries-from-the-mongolian-altai/95BA971FD64B2A7544D4BEF6694A8E14",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Stirrup — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stirrup",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Further discussion on the origins of horse stirrups",
+      "url": "https://doi.org/10.1515/char-2023-0012",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "真正双马镫的起源长期存在「中国说」与「草原说」。中国长沙一带约公元302年的陶俑证据较早且常被引用；蒙古等地四至五世纪马具发现则显示东亚—草原可能共同发展。单侧上马镫与真正成对骑乘镫也需区分，故标为争议。",
+  "notes_en": "True paired stirrups are long disputed between China-centred and steppe-centred accounts. A Changsha-area figurine of about 302 CE is an early firm Chinese marker; Mongolian finds of the 4th–5th centuries suggest shared East Asian–steppe development. Single mounting loops also differ from paired riding stirrups.",
+  "summary_zh": "马镫约四世纪初出现于东亚；中国长沙一带约公元302年已有相关陶俑证据，与草原马具传统的先后关系仍有争议。",
+  "summary_en": "Stirrups appear in East Asia by the early 4th century. A Changsha-area figurine of about 302 CE is early Chinese evidence; priority versus steppe traditions remains disputed.",
+  "tags": [
+    "riding",
+    "horse",
+    "metal",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/stirrup.jpg",
+    "alt_zh": "一只金属马镫",
+    "alt_en": "A metal horse stirrup",
+    "credit": "Fæ",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stirrup_(AM_684341-1).jpg"
+  }
+}

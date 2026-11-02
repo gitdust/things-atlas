@@ -1,0 +1,81 @@
+{
+  "id": "hookah",
+  "name_zh": "水烟壶",
+  "name_en": "Hookah",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1580,
+      "precision": "decade",
+      "ref": "Waterpipes (qalyān/narghile) emerge in the Persian–Indian sphere after tobacco’s arrival",
+      "ref_zh": "烟草传入后，波斯–印度一带出现水烟袋（qalyān/narghile）"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1700,
+      "precision": "century",
+      "ref": "Hookah smoking spreads widely across West, South and Central Asia",
+      "ref_zh": "水烟在西亚、南亚与中亚广泛流行"
+    }
+  },
+  "locations": [
+    {
+      "lat": 32.66,
+      "lng": 51.67,
+      "place_label_zh": "伊朗伊斯法罕一带（波斯水烟传统）",
+      "place_label_en": "Isfahan region, Iran (Persian qalyān tradition)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 27.18,
+      "lng": 78.01,
+      "place_label_zh": "印度阿格拉一带（莫卧儿宫廷语境）",
+      "place_label_en": "Agra region, India (Mughal court context)",
+      "kind": "contested",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "ḠALYĀN — Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/galyan/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "TOBACCO — Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/tobacco/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Hookah — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hookah",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "水烟壶常被说成莫卧儿宫廷医师阿布·法特赫·吉拉尼在印度发明，但更可能是他把波斯式水烟引入印度；波斯方面在十六世纪中后期已有水烟证据。起源究竟偏波斯还是印度仍有争议，本条目取约1580年代为粗标。",
+  "notes_en": "A common story credits Mughal physician Abu’l-Fath Gilani in India, but he more likely introduced a Persian-style waterpipe there; Persian evidence already exists in the mid–late sixteenth century. Whether the origin leans Persian or Indian remains disputed; this entry uses a rough 1580s mark.",
+  "summary_zh": "水烟壶约于十六世纪末出现在波斯–印度文化圈；常被归于莫卧儿宫廷，但更可能源自波斯传统，起源地仍有争议。",
+  "summary_en": "The hookah emerged in the late-sixteenth-century Persian–Indian sphere. Often tied to the Mughal court, it more likely grew from Persian practice; exact origin remains disputed.",
+  "tags": [
+    "smoking",
+    "glass",
+    "persian",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/hookah.jpg",
+    "alt_zh": "水烟壶",
+    "alt_en": "A hookah water pipe",
+    "credit": "Wouter Hagens",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Waterpipe_A.jpg"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "bento-box",
+  "name_zh": "便当盒",
+  "name_en": "Bento box",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1570,
+      "precision": "decade",
+      "ref": "Dedicated lacquered bento boxes appear in Japan’s Azuchi–Momoyama period",
+      "ref_zh": "日本安土桃山时代出现专用漆器便当盒"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1603,
+      "precision": "year",
+      "ref": "Word bentō recorded in early Japanese–Portuguese dictionaries (1603–04)",
+      "ref_zh": "「便当」一词见于1603–04年日葡词典"
+    }
+  },
+  "locations": [
+    {
+      "lat": 35.01,
+      "lng": 135.77,
+      "place_label_zh": "日本京都一带（安土桃山文化圈）",
+      "place_label_en": "Kyoto region, Japan (Azuchi–Momoyama cultural sphere)",
+      "kind": "invention",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "decade",
+  "sources": [
+    {
+      "title": "Bento — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/topic/bento",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Bento — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bento",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "History of the Japanese bento — Taste of Japan / JETRO",
+      "url": "https://japan-food.jetro.go.jp/en/japanesecuisine/127.html",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "便当盒是日本发展出的分格携餐容器；安土桃山时代已有漆器便当盒，「便当」一词约在1603年见载。",
+  "summary_en": "The bento box is Japan’s compartmented portable meal container. Lacquered boxes appear in the Azuchi–Momoyama period; the word bentō is recorded around 1603.",
+  "tags": [
+    "container",
+    "japan",
+    "lacquer",
+    "portable"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/bento-box.jpg",
+    "alt_zh": "日式便当盒",
+    "alt_en": "A Japanese bento box",
+    "credit": "Novoklimov",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Handmade_bento_03.jpg"
+  }
+}

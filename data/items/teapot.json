@@ -1,0 +1,84 @@
+{
+  "id": "teapot",
+  "name_zh": "茶壶",
+  "name_en": "Teapot",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1533,
+      "precision": "year",
+      "ref": "Earliest securely dated zisha-related teapot from Wu Jing’s tomb, Nanjing (d. 1533)",
+      "ref_zh": "南京吴经墓出土目前最早可断代的紫砂相关茶壶（卒于1533）"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1600,
+      "precision": "century",
+      "ref": "Yixing zisha teapots flourish in late Ming literati tea culture",
+      "ref_zh": "晚明宜兴紫砂壶在文人茶事中兴盛"
+    },
+    "popularization": {
+      "year": 1700,
+      "precision": "century",
+      "ref": "Yixing and porcelain teapots exported widely to Europe",
+      "ref_zh": "十七十八世纪宜兴与瓷壶大量输往欧洲"
+    }
+  },
+  "locations": [
+    {
+      "lat": 31.36,
+      "lng": 119.82,
+      "place_label_zh": "中国江苏宜兴",
+      "place_label_en": "Yixing, Jiangsu, China",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 32.06,
+      "lng": 118.8,
+      "place_label_zh": "中国江苏南京（吴经墓）",
+      "place_label_en": "Nanjing, Jiangsu, China (Wu Jing tomb)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Teapot design through time — Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/teapots-through-time",
+      "type": "museum",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Yixing ware — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yixing_ware",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Teapot — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Teapot",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "随散茶冲泡法兴起，明代宜兴紫砂壶成为专用泡茶器；南京吴经墓（1533）出土目前最早可断代实物。",
+  "summary_en": "As leaf steeping replaced powdered tea, Ming Yixing zisha pots became purpose-made teapots. The earliest securely dated example is from Wu Jing’s Nanjing tomb (d. 1533).",
+  "tags": [
+    "cookware",
+    "tea-ware",
+    "clay",
+    "china"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/teapot.jpg",
+    "alt_zh": "宜兴紫砂壶",
+    "alt_en": "Yixing zisha clay teapot",
+    "credit": "NNU-11-Zaclee",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zisha_teapot_1.jpg"
+  }
+}

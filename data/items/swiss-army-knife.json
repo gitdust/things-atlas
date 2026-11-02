@@ -1,0 +1,82 @@
+{
+  "id": "swiss-army-knife",
+  "name_zh": "瑞士军刀",
+  "name_en": "Swiss Army knife",
+  "category": "hand_tool",
+  "years": {
+    "invention": {
+      "year": 1891,
+      "precision": "year",
+      "ref": "Karl Elsener begins producing the Swiss soldier’s knife in Ibach (1891)",
+      "ref_zh": "卡尔·埃尔森纳1891年在伊巴赫开始生产瑞士士兵刀"
+    },
+    "patent": {
+      "year": 1897,
+      "precision": "year",
+      "ref": "Elsener patents the Swiss Officer’s and Sports Knife with improved spring",
+      "ref_zh": "埃尔森纳为改进弹簧的瑞士军官刀取得专利（1897）"
+    },
+    "mass_production": {
+      "year": 1891,
+      "precision": "year",
+      "ref": "Series production for the Swiss Army begins",
+      "ref_zh": "开始为瑞士军队批量生产"
+    },
+    "popularization": {
+      "year": 1909,
+      "precision": "year",
+      "ref": "Victorinox cross-and-shield trademark registered; later global icon",
+      "ref_zh": "注册维氏十字盾标，日后成为全球图标"
+    }
+  },
+  "primary": "patent",
+  "locations": [
+    {
+      "lat": 47.0,
+      "lng": 8.65,
+      "place_label_zh": "瑞士施维茨州伊巴赫（维氏）",
+      "place_label_en": "Ibach, Schwyz, Switzerland (Victorinox)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "exact",
+  "sources": [
+    {
+      "title": "Our History — Victorinox",
+      "url": "https://www.victorinox.com/en/All-about-Victorinox/History/cms/history/",
+      "type": "brand",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Swiss Army knife — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Swiss_Army_knife",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Sackmesser jubilee — Swiss Federal Institute of Intellectual Property",
+      "url": "https://www.ige.ch/en/blog/blog-article/sackmesser-jubilaeum-seit-130-jahren-in-der-hosentasche",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "瑞士军刀由卡尔·埃尔森纳创制：1891年士兵刀投产，1897年军官刀专利奠定多工具弹簧结构，后以维氏品牌闻名。",
+  "summary_en": "Karl Elsener created the Swiss Army knife: soldier’s knives in 1891, then the 1897 Officer’s Knife patent that set the multi-tool spring design later famous as Victorinox.",
+  "tags": [
+    "multi-tool",
+    "switzerland",
+    "knife",
+    "pocket"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/swiss-army-knife.jpg",
+    "alt_zh": "打开的瑞士军刀",
+    "alt_en": "An open Swiss Army knife",
+    "credit": "Jonas Bergsten",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open_20050612_(cropped).jpg"
+  }
+}

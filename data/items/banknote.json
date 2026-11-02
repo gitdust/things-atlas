@@ -1,0 +1,78 @@
+{
+  "id": "banknote",
+  "name_zh": "纸币",
+  "name_en": "Banknote",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1024,
+      "precision": "year",
+      "ref": "Northern Song state issues official jiaozi paper money in Sichuan (1023–1024)",
+      "ref_zh": "北宋在四川官办交子务并发行官方交子（1023–1024）"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1260,
+      "precision": "decade",
+      "ref": "Yuan dynasty expands state paper currency (chao) empire-wide",
+      "ref_zh": "元朝在全国推行钞法"
+    },
+    "popularization": {
+      "year": 1368,
+      "precision": "year",
+      "ref": "Ming issues the famous Da Ming Baochao notes",
+      "ref_zh": "明朝发行大明宝钞"
+    }
+  },
+  "locations": [
+    {
+      "lat": 30.67,
+      "lng": 104.06,
+      "place_label_zh": "中国四川成都（交子发源地）",
+      "place_label_en": "Chengdu, Sichuan, China (jiaozi origin)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "The Rise and Demise of Paper Money in Imperial China — Hoover Institution",
+      "url": "https://www.hoover.org/research/rise-and-demise-paper-money-imperial-china",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Banknote — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Banknote",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Jiaozi (currency) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jiaozi_(currency)",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "四川民间私交子约在十世纪末已出现；本条目以1023–1024年官府接管并发行为主年份。",
+  "notes_en": "Private jiaozi notes circulated in Sichuan by the late 10th century; this entry uses the 1023–1024 state takeover and official issue as the primary mark.",
+  "summary_zh": "世界最早的纸币出现在中国：北宋四川交子在1023–1024年由官府发行，其后元明继续推行钞法。",
+  "summary_en": "The world’s earliest banknotes appear in China: Northern Song Sichuan jiaozi were officially issued in 1023–1024, with Yuan and Ming states later expanding paper currency.",
+  "tags": [
+    "money",
+    "paper",
+    "china",
+    "song"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/banknote.jpg",
+    "alt_zh": "明代大明宝钞纸币",
+    "alt_en": "Ming dynasty paper banknote",
+    "credit": "Carter, Thomas Francis, 1882-1925",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Banknote_Ming_Dynasty_CarterInventionPrintingChina_0126.jpg"
+  }
+}

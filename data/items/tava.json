@@ -1,0 +1,69 @@
+{
+  "id": "tava",
+  "name_zh": "印度烤盘",
+  "name_en": "Tava",
+  "category": "kitchen",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": -500,
+      "precision": "century",
+      "ref": "Flat metal griddles likely follow expanding Iron Age cookware in South Asia",
+      "ref_zh": "南亚铁器时代炊具扩展后出现金属平底烤盘"
+    },
+    "popularization": {
+      "year": 1000,
+      "precision": "century",
+      "ref": "Tawa/tava becomes everyday South Asian flatbread and dosa griddle",
+      "ref_zh": "tawa/tava成为南亚烙饼与多萨的日常烤盘"
+    }
+  },
+  "primary": "mass_production",
+  "locations": [
+    {
+      "lat": 28.61,
+      "lng": 77.21,
+      "place_label_zh": "印度次大陆北部（烙饼烤盘传统）",
+      "place_label_en": "Northern Indian subcontinent (flatbread griddle tradition)",
+      "kind": "production",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Tava — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tava",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Tawa | Utensils of Cooking — D’Source",
+      "url": "http://dsource.in/resource/kitchen-products/utensils-cooking/tawa",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "印度烤盘（tava/tawa）是日常平底烙锅，但几乎没有可核对的「发明年」。陶石平底加热面更早，金属烤盘随铁器工艺出现，具体世纪缺乏硬证据。本条目以铁器时代以后金属烤盘粗标，并明确标注争议与来源偏弱。",
+  "notes_en": "The Indian tava/tawa is an everyday flat griddle, but almost no checkable invention year exists. Clay or stone flat cooking surfaces are older; metal griddles likely follow ironworking, yet the century is poorly evidenced. This entry uses a rough post–Iron Age metal-griddle mark and flags weak sourcing.",
+  "summary_zh": "tava（tawa）是南亚平底烤盘，用于烙饼与多萨等；金属形制随铁器时代发展，精确发明年证据薄弱，故标争议。",
+  "summary_en": "The tava (tawa) is South Asia’s flat griddle for breads and dosa. Metal forms likely follow Iron Age cookware; a precise invention year is weakly evidenced and disputed.",
+  "tags": [
+    "cookware",
+    "india",
+    "metal",
+    "griddle",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/tava.jpg",
+    "alt_zh": "印度烤盘（tava）",
+    "alt_en": "An Indian tava / tawa griddle",
+    "credit": "Rajani Gairshail",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tawa(Griddle).jpg"
+  }
+}

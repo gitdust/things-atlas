@@ -1,0 +1,73 @@
+{
+  "id": "playing-cards",
+  "name_zh": "纸牌",
+  "name_en": "Playing cards",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1294,
+      "precision": "year",
+      "ref": "Earliest unambiguous record: gamblers arrested in Yuan China with nine printed cards (1294)",
+      "ref_zh": "目前最早明确记载：元至元三十一年（1294）查获印制纸牌"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1400,
+      "precision": "century",
+      "ref": "Ming money-suited and other card games widely attested",
+      "ref_zh": "明代钱币纹等纸牌游戏广泛流行"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.27,
+      "lng": 108.95,
+      "place_label_zh": "中国（元代印刷纸牌语境，地点不详）",
+      "place_label_en": "China (Yuan printed-card context; place uncertain)",
+      "kind": "invention",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Chinese playing cards — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chinese_playing_cards",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "The game of leaves — Bulletin of SOAS (Andrew Lo)",
+      "url": "https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/abs/game-of-leaves-an-inquiry-into-the-origin-of-chinese-playing-cards/FCDF32E1461700E7617AAD4AA1750D56",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "The Chinese Leaf Game — David Parlett",
+      "url": "https://www.parlettgames.uk/histocs/leafgame.html",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "唐代「叶子戏」常被当作纸牌起源，但有学者认为它更像骰子配书页的博戏，未必是纸牌。目前最早确凿的印刷纸牌记载是元至元三十一年（1294）。欧洲纸牌是否直接源自中国亦有争论，故起源细节标为争议。",
+  "notes_en": "Tang “leaf games” are often cited as card origins, but some scholars argue they were dice-and-book-page games rather than paper cards. The earliest unambiguous printed-card record is 1294 in Yuan China. Whether European packs descend directly from China is also debated.",
+  "summary_zh": "纸牌很可能起源于中国；唐代叶子戏是否即纸牌仍有争议。目前最早明确记载是1294年元代印刷纸牌案件。",
+  "summary_en": "Playing cards likely originated in China. Whether Tang “leaf games” were true cards is disputed; the earliest clear printed-card record is a 1294 Yuan case.",
+  "tags": [
+    "game",
+    "cards",
+    "china",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/playing-cards.jpg",
+    "alt_zh": "一副中国纸牌",
+    "alt_en": "A deck of Chinese playing cards",
+    "credit": "Benoît Prieur",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jeu_de_82_cartes_(Chine).jpg"
+  }
+}

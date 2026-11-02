@@ -71,6 +71,33 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `gunpowder.jpg` | [Blackpowder & Measure](https://commons.wikimedia.org/wiki/File:Blackpowder_%26_Measure.JPG) | CC BY-SA 3.0 | Lord Mountbatten |
 | `compass.jpg` | [Magnetic compass - school laboratory](https://commons.wikimedia.org/wiki/File:Magnetic_compass_-_school_laboratory.jpg) | CC BY-SA 4.0 | Kvr.lohith |
 
+| `porcelain.jpg` | [Ming Porcelain Bowl 01.jpg](https://commons.wikimedia.org/wiki/File:Ming_Porcelain_Bowl_01.jpg) | CC0 | Gary Todd |
+| `tea.jpg` | [Dried jakseol green tea leaves.jpg](https://commons.wikimedia.org/wiki/File:Dried_jakseol_green_tea_leaves.jpg) | CC BY 2.0 kr | 예향 |
+| `teapot.jpg` | [Zisha teapot 1.jpg](https://commons.wikimedia.org/wiki/File:Zisha_teapot_1.jpg) | CC BY-SA 3.0 | NNU-11-Zaclee |
+| `tofu.jpg` | [Japanese SilkyTofu (Kinugoshi Tofu).JPG](https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG) | CC BY-SA 3.0 | DryPot |
+| `soy-sauce.jpg` | [Soy sauce 2.jpg](https://commons.wikimedia.org/wiki/File:Soy_sauce_2.jpg) | CC BY-SA 2.0 kr | 국립국어원 |
+| `noodles.jpg` | [Bowl of noodles, Yunnan - 30849911807.jpg](https://commons.wikimedia.org/wiki/File:Bowl_of_noodles,_Yunnan_-_30849911807.jpg) | CC BY-SA 2.0 | Matthieu Lelievre |
+| `wok.jpg` | [Frying pan (Chinese wok).jpg](https://commons.wikimedia.org/wiki/File:Frying_pan_(Chinese_wok).jpg) | CC BY-SA 4.0 | Susan Slater |
+| `bamboo-steamer.jpg` | [Bamboo steamer-top oblique-fs PNr°0727.jpg](https://commons.wikimedia.org/wiki/File:Bamboo_steamer-top_oblique-fs_PNr%C2%B00727.jpg) | CC BY-SA 4.0 | D-Kuru |
+| `folding-umbrella.jpg` | [Folding umbrella 01.jpg](https://commons.wikimedia.org/wiki/File:Folding_umbrella_01.jpg) | CC BY-SA 4.0 | Kritzolina |
+| `banknote.jpg` | [Chinese Banknote Ming Dynasty CarterInventionPrintingChina 0126.jpg](https://commons.wikimedia.org/wiki/File:Chinese_Banknote_Ming_Dynasty_CarterInventionPrintingChina_0126.jpg) | CC BY-SA 4.0 | Carter, Thomas Francis, 1882-1925 |
+| `playing-cards.jpg` | [Jeu de 82 cartes (Chine).jpg](https://commons.wikimedia.org/wiki/File:Jeu_de_82_cartes_(Chine).jpg) | CC0 | Benoît Prieur |
+| `silk.jpg` | [Western Han Silk.jpg](https://commons.wikimedia.org/wiki/File:Western_Han_Silk.jpg) | CC0 | Gary Todd |
+| `abacus.jpg` | [Chinese Suanpan Abacus.jpg](https://commons.wikimedia.org/wiki/File:Chinese_Suanpan_Abacus.jpg) | CC BY-SA 4.0 | Felix Winkelnkemper |
+| `four-treasures.jpg` | [Anhui Four Treasures of the Study (9974352754).jpg](https://commons.wikimedia.org/wiki/File:Anhui_Four_Treasures_of_the_Study_(9974352754).jpg) | CC0 | Gary Todd from Xinzheng, China |
+| `mahjong.jpg` | [Mahjong Tiles (2).jpg](https://commons.wikimedia.org/wiki/File:Mahjong_Tiles_(2).jpg) | CC BY-SA 4.0 | バーレンムール |
+| `go.jpg` | [Go (13×13) -- 2021 -- 6741.jpg](https://commons.wikimedia.org/wiki/File:Go_(13%C3%9713)_--_2021_--_6741.jpg) | CC BY-SA 4.0 | Dietmar Rabich |
+| `kite.jpg` | [Dalian Liaoning China Flying-a-kite-01.jpg](https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Flying-a-kite-01.jpg) | CC BY-SA 3.0 | CEphoto, Uwe Aranas |
+| `wheelbarrow.jpg` | [Wheelbarrow in China - 01.jpg](https://commons.wikimedia.org/wiki/File:Wheelbarrow_in_China_-_01.jpg) | CC0 | Anna Frodesiak |
+| `bento-box.jpg` | [Handmade bento 03.jpg](https://commons.wikimedia.org/wiki/File:Handmade_bento_03.jpg) | CC BY 4.0 | Novoklimov |
+| `hookah.jpg` | [Waterpipe A.jpg](https://commons.wikimedia.org/wiki/File:Waterpipe_A.jpg) | CC BY-SA 3.0 | Wouter Hagens |
+| `cezve.jpg` | [Türk Kahvesi - Bakir Cezve.jpg](https://commons.wikimedia.org/wiki/File:T%C3%BCrk_Kahvesi_-_Bakir_Cezve.jpg) | CC BY-SA 3.0 | Eaeeae |
+| `molcajete.jpg` | [Molcajete.jpg](https://commons.wikimedia.org/wiki/File:Molcajete.jpg) | CC BY-SA 3.0 | Tortillovsky |
+| `tava.jpg` | [Tawa(Griddle).jpg](https://commons.wikimedia.org/wiki/File:Tawa(Griddle).jpg) | CC0 | Rajani Gairshail |
+| `swiss-army-knife.jpg` | [Swiss army knife open 20050612 (cropped).jpg](https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open_20050612_(cropped).jpg) | Public domain | Jonas Bergsten |
+| `moka-pot.jpg` | [Bialetti Moka Express in action.jpg](https://commons.wikimedia.org/wiki/File:Bialetti_Moka_Express_in_action.jpg) | Public domain | Berteun Damman (That's I) |
+| `stirrup.jpg` | [Stirrup (AM 684341-1).jpg](https://commons.wikimedia.org/wiki/File:Stirrup_(AM_684341-1).jpg) | CC BY 4.0 | Fæ |
+
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 
 ## Derived files

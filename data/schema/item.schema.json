@@ -107,7 +107,7 @@
       "additionalProperties": false,
       "required": ["year", "precision"],
       "properties": {
-        "year": { "type": "integer", "minimum": -3000, "maximum": 2100 },
+        "year": { "type": "integer", "minimum": -4000, "maximum": 2100 },
         "precision": {
           "type": "string",
           "enum": ["exact", "year", "decade", "century"]
@@ -148,7 +148,7 @@
         },
         "year_override": {
           "type": "integer",
-          "minimum": -3000,
+          "minimum": -4000,
           "maximum": 2100
         }
       }

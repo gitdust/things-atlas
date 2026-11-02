@@ -1,4 +1,12 @@
 {
+  "abacus.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "adhesive-bandage.jpg": {
     "width": 1200,
     "height": 729,
@@ -23,6 +31,22 @@
       960
     ]
   },
+  "bamboo-steamer.jpg": {
+    "width": 1920,
+    "height": 2004,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "banknote.jpg": {
+    "width": 1920,
+    "height": 2568,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "bar-soap.jpg": {
     "width": 1131,
     "height": 972,
@@ -34,6 +58,14 @@
   "belt-buckle.jpg": {
     "width": 1200,
     "height": 801,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "bento-box.jpg": {
+    "width": 1920,
+    "height": 1440,
     "widths": [
       480,
       960
@@ -74,6 +106,14 @@
   "can-opener.jpg": {
     "width": 1200,
     "height": 640,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "cezve.jpg": {
+    "width": 1920,
+    "height": 2224,
     "widths": [
       480,
       960
@@ -167,6 +207,14 @@
       960
     ]
   },
+  "folding-umbrella.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "fountain-pen.jpg": {
     "width": 1200,
     "height": 880,
@@ -175,9 +223,25 @@
       960
     ]
   },
+  "four-treasures.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "frying-pan.jpg": {
     "width": 1200,
     "height": 775,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "go.jpg": {
+    "width": 1920,
+    "height": 1440,
     "widths": [
       480,
       960
@@ -231,6 +295,14 @@
       960
     ]
   },
+  "hookah.jpg": {
+    "width": 1920,
+    "height": 2695,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "jeans-rivet.jpg": {
     "width": 1163,
     "height": 872,
@@ -242,6 +314,14 @@
   "keyboard.jpg": {
     "width": 1200,
     "height": 800,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "kite.jpg": {
+    "width": 1920,
+    "height": 3037,
     "widths": [
       480,
       960
@@ -261,6 +341,14 @@
     "widths": [
       480,
       900
+    ]
+  },
+  "mahjong.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "widths": [
+      480,
+      960
     ]
   },
   "match.jpg": {
@@ -295,9 +383,33 @@
       960
     ]
   },
+  "moka-pot.jpg": {
+    "width": 1610,
+    "height": 1973,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "molcajete.jpg": {
+    "width": 1920,
+    "height": 2560,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "nail-clipper.jpg": {
     "width": 1200,
     "height": 498,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "noodles.jpg": {
+    "width": 1920,
+    "height": 1440,
     "widths": [
       480,
       960
@@ -335,9 +447,25 @@
       600
     ]
   },
+  "playing-cards.jpg": {
+    "width": 1920,
+    "height": 1123,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "pliers.jpg": {
     "width": 1200,
     "height": 653,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "porcelain.jpg": {
+    "width": 1920,
+    "height": 1280,
     "widths": [
       480,
       960
@@ -423,9 +551,25 @@
       960
     ]
   },
+  "silk.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "snap-fastener.jpg": {
     "width": 968,
     "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "soy-sauce.jpg": {
+    "width": 1062,
+    "height": 889,
     "widths": [
       480,
       960
@@ -447,6 +591,22 @@
       960
     ]
   },
+  "stirrup.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "swiss-army-knife.jpg": {
+    "width": 1920,
+    "height": 1070,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "table-fork.jpg": {
     "width": 1200,
     "height": 1064,
@@ -455,9 +615,41 @@
       960
     ]
   },
+  "tava.jpg": {
+    "width": 1920,
+    "height": 2560,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "tea.jpg": {
+    "width": 945,
+    "height": 708,
+    "widths": [
+      480,
+      945
+    ]
+  },
+  "teapot.jpg": {
+    "width": 1920,
+    "height": 1440,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "thermos.jpg": {
     "width": 999,
     "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "tofu.jpg": {
+    "width": 1920,
+    "height": 1640,
     "widths": [
       480,
       960
@@ -506,6 +698,22 @@
   "velcro.jpg": {
     "width": 1200,
     "height": 801,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "wheelbarrow.jpg": {
+    "width": 1920,
+    "height": 1469,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "wok.jpg": {
+    "width": 1920,
+    "height": 1128,
     "widths": [
       480,
       960

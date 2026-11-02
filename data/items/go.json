@@ -1,0 +1,74 @@
+{
+  "id": "go",
+  "name_zh": "围棋",
+  "name_en": "Go",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": -1000,
+      "precision": "century",
+      "ref": "Go (weiqi) traditionally dated to ancient China in the 2nd–1st millennium BCE",
+      "ref_zh": "围棋传统上追溯至中国公元前二千纪至一千纪"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": -548,
+      "precision": "year",
+      "ref": "Earliest reliable textual reference in the Zuo Zhuan (event of 548 BCE)",
+      "ref_zh": "《左传》记载公元前548年事，为目前较早可靠书证"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.27,
+      "lng": 108.95,
+      "place_label_zh": "中国中原（早期围棋传统）",
+      "place_label_en": "Central Plains, China (early weiqi tradition)",
+      "kind": "invention",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Go — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/topic/go-game",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "History of Go — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_Go",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Go (game) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Go_(game)",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "传说尧舜为教子而发明围棋，年代过于久远且无实证。学界普遍认为围棋起源于中国上古，但具体世纪难以敲定；目前较早的可靠文献是《左传》中涉及弈棋的记载。本条目以约公元前一千年为发明粗标，并以书证年作普及参照。",
+  "notes_en": "Legends crediting Yao or Shun are unprovable. Scholars generally place weiqi’s origin in ancient China, but the exact century is unclear; an early firm textual anchor is the Zuo Zhuan. This entry uses a rough first-millennium BCE invention mark plus the textual reference year.",
+  "summary_zh": "围棋起源于中国上古，传说发明人不可考；约公元前一千年已可能存在，公元前548年《左传》提供较早书证。",
+  "summary_en": "Go (weiqi) originated in ancient China; legendary inventors are unprovable. It likely existed by the first millennium BCE, with an early textual anchor in 548 BCE.",
+  "tags": [
+    "game",
+    "board",
+    "china",
+    "weiqi",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/go.jpg",
+    "alt_zh": "围棋棋盘与黑白子",
+    "alt_en": "A Go board with black and white stones",
+    "credit": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Go_(13%C3%9713)_--_2021_--_6741.jpg"
+  }
+}

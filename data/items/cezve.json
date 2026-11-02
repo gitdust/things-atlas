@@ -1,0 +1,73 @@
+{
+  "id": "cezve",
+  "name_zh": "土耳其咖啡壶",
+  "name_en": "Cezve",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1555,
+      "precision": "decade",
+      "ref": "Coffeehouses and small long-handled pots appear in Ottoman Istanbul mid-16th century",
+      "ref_zh": "十六世纪中叶奥斯曼伊斯坦布尔出现咖啡馆与长柄小壶"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1750,
+      "precision": "century",
+      "ref": "Distinctive lidless cezve form associated with foam-rich Turkish coffee becomes common",
+      "ref_zh": "无盖cezve形制与带沫土耳其咖啡做法在十八世纪更常见"
+    }
+  },
+  "locations": [
+    {
+      "lat": 41.01,
+      "lng": 28.97,
+      "place_label_zh": "土耳其伊斯坦布尔",
+      "place_label_en": "Istanbul, Türkiye",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "decade",
+  "sources": [
+    {
+      "title": "Cezve — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cezve",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Turkish coffee — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Turkish_coffee",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Turkish Coffee Culture — Turkish Ministry of Culture (TEDA)",
+      "url": "https://teda.ktb.gov.tr/Eklenti/6594,turkishcoffeeculturepdf.pdf?0=",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "咖啡进入奥斯曼约在十六世纪中叶，但今日所见无盖cezve定型可能更晚；精确发明年来源偏弱，主年份取伊斯坦布尔咖啡馆兴起年代。",
+  "notes_en": "Coffee reaches the Ottomans in the mid-16th century, but today’s lidless cezve may solidify later; exact invention dating is thin, so the primary mark follows Istanbul coffeehouse emergence.",
+  "summary_zh": "cezve是煮土耳其咖啡的长柄小壶；约十六世纪中叶随伊斯坦布尔咖啡馆兴起，后世成为无盖铜壶的典型形制。",
+  "summary_en": "The cezve is the long-handled pot for Turkish coffee. It appears with mid-sixteenth-century Istanbul coffeehouses and later settles as the familiar lidless copper form.",
+  "tags": [
+    "cookware",
+    "coffee",
+    "ottoman",
+    "metal"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/cezve.jpg",
+    "alt_zh": "土耳其铜制咖啡壶（cezve）",
+    "alt_en": "A copper Turkish cezve coffee pot",
+    "credit": "Eaeeae",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:T%C3%BCrk_Kahvesi_-_Bakir_Cezve.jpg"
+  }
+}

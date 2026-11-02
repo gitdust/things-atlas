@@ -1,0 +1,75 @@
+{
+  "id": "bamboo-steamer",
+  "name_zh": "蒸笼",
+  "name_en": "Bamboo steamer",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 100,
+      "precision": "century",
+      "ref": "Eastern Han kitchen murals (e.g. Dahuting) show steamer baskets in use",
+      "ref_zh": "东汉打虎亭等庖厨画像可见蒸笼类器具"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1200,
+      "precision": "century",
+      "ref": "Stacked bamboo zhenglong become standard dim-sum and household steamers",
+      "ref_zh": "竹制叠层蒸笼成为点心与家用标准蒸具"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.53,
+      "lng": 113.38,
+      "place_label_zh": "中国河南密县打虎亭（东汉庖厨图像）",
+      "place_label_en": "Dahuting, Mixian, Henan, China (Eastern Han kitchen mural)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 23.13,
+      "lng": 113.26,
+      "place_label_zh": "中国广东（后世点心蒸笼传统中心）",
+      "place_label_en": "Guangdong, China (later dim-sum steamer tradition)",
+      "kind": "popularization",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Bamboo steamer — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bamboo_steamer",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Bamboo Steam: From Kitchenware to Cultural Icon — HKU MMEA",
+      "url": "https://mmea.hku.hk/bamboo-steam-from-kitchenware-to-cultural-icon/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": false,
+  "notes": "更早的陶甑可追溯到新石器时代；本条目专指竹编叠层蒸笼。韩信发明等传说缺乏实证，主年份取东汉图像证据。",
+  "notes_en": "Ceramic yan steamers are far older (Neolithic). This entry covers stacked bamboo zhenglong. Legends crediting Han Xin lack evidence; the primary mark follows Eastern Han mural evidence.",
+  "summary_zh": "竹制叠层蒸笼约在汉代厨房图像中可见；后世成为中式蒸点与家常蒸煮的标准器具。更早的陶甑另有渊源。",
+  "summary_en": "Stacked bamboo steamers appear in Han-period kitchen imagery and later become standard for Chinese steamed dishes. Older ceramic steamers are a separate lineage.",
+  "tags": [
+    "cookware",
+    "bamboo",
+    "china",
+    "steam"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/bamboo-steamer.jpg",
+    "alt_zh": "竹制蒸笼",
+    "alt_en": "A bamboo steamer basket",
+    "credit": "D-Kuru",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bamboo_steamer-top_oblique-fs_PNr%C2%B00727.jpg"
+  }
+}

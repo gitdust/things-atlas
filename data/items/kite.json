@@ -1,0 +1,81 @@
+{
+  "id": "kite",
+  "name_zh": "风筝",
+  "name_en": "Kite",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": -400,
+      "precision": "century",
+      "ref": "Mozi and Lu Ban traditions credit wooden/bamboo flying frames in the 5th century BCE",
+      "ref_zh": "墨子、鲁班传统记载公元前五世纪木竹飞鸢"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 900,
+      "precision": "century",
+      "ref": "Paper kites become popular recreations in Tang–Song China",
+      "ref_zh": "唐宋纸鸢成为流行娱乐"
+    }
+  },
+  "locations": [
+    {
+      "lat": 35.4,
+      "lng": 116.6,
+      "place_label_zh": "中国山东（鲁地，鲁班传说语境）",
+      "place_label_en": "Shandong, China (Lu region; Lu Ban legend context)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 36.65,
+      "lng": 117.0,
+      "place_label_zh": "中国山东潍坊（后世风筝名城）",
+      "place_label_en": "Weifang, Shandong, China (later kite centre)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Kite — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/technology/kite-aircraft",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "History of kites — American Kitefliers Association",
+      "url": "https://www.kite.org/about-kites/history-of-kites/",
+      "type": "other",
+      "accessed": "2026-11-02"
+    },
+    {
+      "title": "Kite — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kite",
+      "type": "wiki",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "disputed": true,
+  "notes": "墨子「木鸢」、鲁班「竹鹊」等记载常被引为风筝起源，但是否即后世纸面风筝仍有讨论；军事测距等故事也难以逐一坐实。可以确定的是风筝传统源于中国，约战国前后已有飞行框架记载，纸鸢在唐宋走向娱乐化。",
+  "notes_en": "Mozi’s wooden kite and Lu Ban’s bamboo “magpie” are often cited, but whether they equal later paper recreational kites is debated; military ranging stories are hard to verify case by case. The tradition is Chinese, with flying frames attested around the Warring States era and paper kites popular by Tang–Song times.",
+  "summary_zh": "风筝传统源于中国，战国前后已有木竹飞鸢记载；唐宋纸鸢成为娱乐。具体发明人与最早形态仍有争议。",
+  "summary_en": "Kites originated in China, with wooden or bamboo frames attested around the 5th century BCE and paper recreational kites popular by Tang–Song times. Exact inventor and earliest form remain disputed.",
+  "tags": [
+    "toy",
+    "bamboo",
+    "china",
+    "disputed"
+  ],
+  "updated": "2026-11-02",
+  "image": {
+    "src": "/images/kite.jpg",
+    "alt_zh": "大连海边放风筝",
+    "alt_en": "People flying a kite by the sea in Dalian, China",
+    "credit": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Flying-a-kite-01.jpg"
+  }
+}
