@@ -34,5 +34,23 @@
     "afterVersion": "0.1.0",
     "zh": "修复远距离地点连线越出地图顶部的问题，改善跨日界线连接及选中条目的完整取景。",
     "en": "Keep long-distance connections within the map and improve date-line connections and framing of selected entries."
+  },
+  {
+    "id": "release-seventeen-objects",
+    "afterVersion": "0.1.0",
+    "zh": "新增 17 件日常之物，包括可口可乐、番茄酱、奥利奥、眼镜、电饭煲、电热水壶和拉杆箱，并补充来源与图片。",
+    "en": "Add 17 everyday objects, including Coca-Cola, ketchup, Oreo, eyeglasses, the rice cooker, electric kettle, and rolling suitcase, with sources and images."
+  },
+  {
+    "id": "release-catalogue-browse",
+    "afterVersion": "0.1.0",
+    "zh": "右侧改为按时间浏览的完整目录，搜索、总数和争议开关集中在面板内；打开详情时隐藏目录，关闭后回到原位置。",
+    "en": "Browse the full collection chronologically in the side panel, with search, totals, and dispute controls there; hide the directory while details are open and restore it on close."
+  },
+  {
+    "id": "release-panel-layout",
+    "afterVersion": "0.1.0",
+    "zh": "目录可从边缘收起，详情标题随面板宽度缩放，时间轴与条目面板底部对齐，并简化容器边框。",
+    "en": "Collapse the directory from its edge, scale detail titles with the panel, align the timeline with the panel, and simplify container borders."
   }
 ]
