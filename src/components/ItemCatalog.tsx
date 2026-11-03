@@ -1,5 +1,5 @@
 import { DisputeIcon } from './DisputeIcon';
-import { useMemo, useState } from 'react';
+import { useId, useMemo, useState } from 'react';
 import type { AtlasItem } from '@/lib/types';
 import { formatYear, pick, t, type Lang } from '@/lib/i18n';
 
@@ -12,57 +12,78 @@ type Props = {
 };
 export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelect }: Props) {
   const [query, setQuery] = useState('');
-  const groups = useMemo(() => {
-    const term = query.trim().normalize('NFKC').toLocaleLowerCase();
+  const countId = useId();
+  const term = query.trim().normalize('NFKC').toLowerCase();
+  const catalog = useMemo(
+    () =>
+      [...items]
+        .sort((a, b) => a.primary_year - b.primary_year || a.id.localeCompare(b.id))
+        .map((item) => ({
+          item,
+          terms: [item.name_zh, item.name_en, item.id].map((name) =>
+            name.normalize('NFKC').toLowerCase(),
+          ),
+        })),
+    [items],
+  );
+  const { groups, matchCount } = useMemo(() => {
     const result = new Map<string, AtlasItem[]>();
-    [...items]
-      .sort((a, b) => a.primary_year - b.primary_year || a.id.localeCompare(b.id))
-      .forEach((item) => {
-        if (!showDisputed && item.disputed) return;
-        if (
-          term &&
-          ![item.name_zh, item.name_en, item.id].some((n) =>
-            n.normalize('NFKC').toLocaleLowerCase().includes(term),
-          )
-        )
-          return;
-        const y = item.primary_year;
-        const label =
-          y < 1
+    let matchCount = 0;
+    for (const { item, terms } of catalog) {
+      if ((!showDisputed && item.disputed) || (term && !terms.some((name) => name.includes(term))))
+        continue;
+      const year = item.primary_year;
+      const label =
+        year < 1
+          ? lang === 'zh'
+            ? '公元前'
+            : 'BCE'
+          : year < 1000
             ? lang === 'zh'
-              ? '公元前'
-              : 'BCE'
-            : y < 1000
-              ? lang === 'zh'
-                ? '公元 1–999 年'
-                : '1–999 CE'
-              : `${Math.floor(y / 100) * 100}–${Math.floor(y / 100) * 100 + 99}`;
-        result.set(label, [...(result.get(label) ?? []), item]);
-      });
-    return [...result];
-  }, [items, query, lang, showDisputed]);
+              ? '公元 1–999 年'
+              : '1–999 CE'
+            : `${Math.floor(year / 100) * 100}–${Math.floor(year / 100) * 100 + 99}`;
+      const group = result.get(label);
+      if (group) group.push(item);
+      else result.set(label, [item]);
+      matchCount++;
+    }
+    return { groups: [...result], matchCount };
+  }, [catalog, term, lang, showDisputed]);
   const issue = new URL('https://github.com/gitdust/things-atlas/issues/new');
   issue.searchParams.set('title', `add: ${query.trim()}`);
   return (
     <aside className="drawer catalog" aria-label={lang === 'zh' ? '条目目录' : 'Entry catalogue'}>
       <header className="catalog-head">
         <h2>{lang === 'zh' ? '日常之物' : 'Everyday things'}</h2>
-        <div className="catalog-search">
+        <form
+          className="catalog-search"
+          role="search"
+          aria-label={t(lang, 'search')}
+          onSubmit={(event) => event.preventDefault()}
+        >
           <input
             type="search"
             aria-label={t(lang, 'search')}
             placeholder={t(lang, 'searchPlaceholder')}
+            aria-describedby={countId}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
           <span
+            id={countId}
             className="catalog-search-count num"
+            role="status"
             aria-live="polite"
-            aria-label={lang === 'zh' ? '匹配数 / 总数' : 'Matches / total'}
+            aria-label={
+              lang === 'zh'
+                ? `${matchCount} 个匹配条目，共 ${items.length} 个条目`
+                : `${matchCount} matching entries out of ${items.length}`
+            }
           >
-            {groups.reduce((n, [, rows]) => n + rows.length, 0)} / {items.length}
+            {matchCount} / {items.length}
           </span>
-        </div>
+        </form>
         <label className="switch catalog-dispute-switch">
           <input
             type="checkbox"
@@ -83,7 +104,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
             <ul>
               {rows.map((item) => (
                 <li key={item.id}>
-                  <button type="button" onClick={() => onSelect(item.id)}>
+                  <button type="button" data-item-id={item.id} onClick={() => onSelect(item.id)}>
                     <span className="catalog-year num">{formatYear(lang, item.primary_year)}</span>
                     <span>
                       {pick(lang, item.name_zh, item.name_en)}

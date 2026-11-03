@@ -94,13 +94,9 @@ export function Timeline({
     return placed;
   }, [items, scale]);
 
+  const trackY = Math.max(96, ...swarm.map(({ level }) => level * 15 + 32));
   const ticks = scale.ticks;
 
-  /**
-   * Major ticks that get a visible label. The BCE band is only ~8% of the
-   * track, so a greedy left-to-right pass drops any label whose estimated
-   * bbox would overlap one already kept (works at 390px and 1440px).
-   */
   /** Visible major labels + optional stagger row when anchors collide. */
   const labeledYears = useMemo(() => {
     const width = trackWidth || 800;
@@ -144,6 +140,7 @@ export function Timeline({
       const el = trackRef.current;
       if (!el) return yearRef.current;
       const r = el.getBoundingClientRect();
+      if (r.width <= 0) return yearRef.current;
       const f = Math.min(1, Math.max(0, (clientX - r.left) / r.width));
       return scale.yearAt(f);
     },
@@ -171,19 +168,13 @@ export function Timeline({
       <div
         className="tl-scrub"
         style={{
-          ['--track-y' as string]: `${Math.max(96, ...swarm.map(({ level }) => level * 15 + 32))}px`,
-          height: Math.max(96, ...swarm.map(({ level }) => level * 15 + 32)) + 40,
+          ['--track-y' as string]: `${trackY}px`,
+          height: trackY + 40,
         }}
-        role="slider"
-        tabIndex={0}
-        aria-label={t(lang, 'year')}
-        aria-valuemin={min}
-        aria-valuemax={max}
-        aria-valuenow={year}
-        aria-valuetext={formatYear(lang, year)}
-        onKeyDown={onKeyDown}
         onPointerDown={(e) => {
-          if ((e.target as HTMLElement).closest('.tl-dot')) return;
+          if (!e.isPrimary || e.button !== 0 || (e.target as HTMLElement).closest('.tl-dot'))
+            return;
+          e.currentTarget.querySelector<HTMLElement>('.tl-slider')?.focus({ preventScroll: true });
           (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
           setDragging(true);
           onChange(yearFromClientX(e.clientX));
@@ -194,6 +185,17 @@ export function Timeline({
         onPointerUp={() => setDragging(false)}
         onPointerCancel={() => setDragging(false)}
       >
+        <div
+          className="tl-slider"
+          role="slider"
+          tabIndex={0}
+          aria-label={t(lang, 'year')}
+          aria-valuemin={min}
+          aria-valuemax={max}
+          aria-valuenow={year}
+          aria-valuetext={formatYear(lang, year)}
+          onKeyDown={onKeyDown}
+        />
         {/*
           Inset rail: min/max sit inset from the scrub edges so dots, ticks,
           labels, and pills at the ends are not clipped. trackRef lives here so

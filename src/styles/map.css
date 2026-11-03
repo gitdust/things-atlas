@@ -130,3 +130,17 @@
     padding-bottom: calc(2px + env(safe-area-inset-bottom, 0px));
   }
 }
+
+@media (max-width: 760px) {
+  .maplibregl-ctrl-bottom-right {
+    right: calc(var(--edge) - 10px);
+    bottom: calc(var(--attribution-h) + var(--s-4));
+    transition:
+      right var(--dur-bar) var(--ease),
+      bottom var(--dur-bar) var(--ease);
+  }
+  .has-drawer .maplibregl-ctrl-bottom-right {
+    right: calc(var(--edge) - 10px);
+    bottom: calc(var(--attribution-h) + var(--mobile-panel-h) + var(--s-4));
+  }
+}

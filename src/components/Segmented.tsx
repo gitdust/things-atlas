@@ -25,18 +25,34 @@ export function Segmented<T extends string>({
       className={`segmented seg-${size}`}
       role="radiogroup"
       aria-label={ariaLabel}
+      onKeyDown={(event) => {
+        let next: number;
+        if (event.key === 'ArrowRight' || event.key === 'ArrowDown')
+          next = (idx + 1) % options.length;
+        else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp')
+          next = (idx - 1 + options.length) % options.length;
+        else if (event.key === 'Home') next = 0;
+        else if (event.key === 'End') next = options.length - 1;
+        else return;
+        if (!options[next]) return;
+        event.preventDefault();
+        event.stopPropagation();
+        onChange(options[next].value);
+        event.currentTarget.querySelectorAll<HTMLButtonElement>('[role="radio"]')[next]?.focus();
+      }}
       style={{
         ['--seg-n' as string]: options.length,
         ['--seg-i' as string]: idx,
       }}
     >
       <span className="seg-indicator" aria-hidden="true" />
-      {options.map((o) => (
+      {options.map((o, i) => (
         <button
           key={o.value}
           type="button"
           role="radio"
           aria-checked={o.value === value}
+          tabIndex={i === idx ? 0 : -1}
           className={o.value === value ? 'active' : ''}
           onClick={() => onChange(o.value)}
         >

@@ -77,10 +77,16 @@ export function ItemDrawer({
   onClose,
 }: Props) {
   const bodyRef = useRef<HTMLDivElement | null>(null);
+  const titleRef = useRef<HTMLHeadingElement | null>(null);
+  const itemId = item?.id;
 
   useEffect(() => {
     bodyRef.current?.scrollTo({ top: 0 });
   }, [item?.id]);
+
+  useEffect(() => {
+    if (active && itemId) titleRef.current?.focus({ preventScroll: true });
+  }, [active, itemId]);
 
   useEffect(() => {
     if (!item || !active) return;
@@ -138,7 +144,9 @@ export function ItemDrawer({
           </button>
         </header>
 
-        <h2 className={`drawer-title lang-${lang}`}>{title}</h2>
+        <h2 ref={titleRef} tabIndex={-1} className={`drawer-title lang-${lang}`}>
+          {title}
+        </h2>
         <p className="drawer-alt">{alt}</p>
 
         <div className="drawer-primary">
