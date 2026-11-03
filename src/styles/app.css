@@ -964,7 +964,9 @@ button {
 .drawer-title {
   margin: 0;
   font-family: var(--font-serif);
-  font-size: var(--fs-display);
+  font-size: clamp(var(--fs-2xl), 10cqi, var(--fs-display));
+  overflow-wrap: anywhere;
+  text-wrap: balance;
   line-height: var(--lh-tight);
   font-weight: var(--fw-semibold);
   letter-spacing: -0.015em;
@@ -1435,9 +1437,6 @@ button {
   .drawer-scroll {
     padding: 24px 16px 16px;
   }
-  .drawer-title {
-    font-size: var(--fs-display-mobile);
-  }
   @keyframes sheet-in {
     from {
       transform: translateY(40px);
@@ -1637,6 +1636,7 @@ button {
 
 /* Keep one panel surface while its views and visibility change. */
 .entry-panel {
+  container-type: inline-size;
   position: absolute;
   z-index: var(--z-drawer);
   top: var(--s-4);
