@@ -85,6 +85,7 @@ export function ItemDrawer({
   useEffect(() => {
     if (!item || !active) return;
     const onKey = (e: KeyboardEvent) => {
+      if (document.querySelector('dialog[open]')) return;
       if (e.key === 'Escape') onClose();
     };
     window.addEventListener('keydown', onKey);

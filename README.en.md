@@ -14,6 +14,7 @@ Foods and beverages may also include specific branded products with broad cultur
 - **Search objects**: Search the full collection by Chinese or English name and open object details. If there are no matches, suggest an object through a GitHub Issue with the title prefilled as `add: {keyword}`.
 - **View object details**: Explore photos, summaries, key dates, related places, and reference sources.
 - **Explore disputed histories**: Identify disputed entries in the directory and view dispute notes and date precision in the details.
+- **Version updates**: See the current version beside the title. A green prompt announces a newer version; refresh through it to view that release’s changes. Historical change records remain in the repository.
 - **Switch languages**: Browse in Chinese or English.
 - **Share links**: Share an object's detail link with the selected year and language preserved.
 

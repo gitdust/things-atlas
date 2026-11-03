@@ -47,6 +47,10 @@
   --text-inverse-5: rgba(var(--paper-rgb), 0.6);
   --hist-bar: rgba(var(--ink-rgb), 0.08);
   --hist-bar-lit: rgba(var(--ink-rgb), 0.32);
+  --update-text: #24663b;
+  --update-surface: #e9f3e9;
+  --update-border: #9ebfa4;
+
   --focus-ring: var(--ink);
   --focus-halo: rgba(var(--ink-rgb), 0.15);
 

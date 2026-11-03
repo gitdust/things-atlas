@@ -10,6 +10,7 @@ import {
 import type { MapViewProps } from '@/components/MapView';
 import { Timeline } from '@/components/Timeline';
 import { ItemCatalog } from '@/components/ItemCatalog';
+import { VersionControl } from '@/components/VersionControl';
 import { ItemDrawer } from '@/components/ItemDrawer';
 import { MapShell } from '@/components/MapShell';
 import { findItem, loadCategories, loadItemsIndex } from '@/lib/loadItems';
@@ -91,6 +92,7 @@ export default function App({ url }: { url?: UrlLike }) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (document.querySelector('dialog[open]')) return;
       if (
         e.target instanceof HTMLElement &&
         (e.target.closest('input, textarea, select') || e.target.isContentEditable)
@@ -168,7 +170,10 @@ export default function App({ url }: { url?: UrlLike }) {
             <h1>
               <span className="brand-en">Things Atlas</span>
               <span className="brand-dot">·</span>
-              <span className="brand-zh">日常之物图志</span>
+              <span className="brand-zh-row">
+                <span className="brand-zh">日常之物图志</span>
+                <VersionControl lang={lang} />
+              </span>
             </h1>
             <p className="brand-tagline">{t(lang, 'tagline')}</p>
           </div>

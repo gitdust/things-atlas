@@ -41,3 +41,9 @@ See `data/examples/` (also mirrored under `data/items/`):
 - `disputed: true` requires Chinese `notes` ≥ 40 characters **and** a non-empty `notes_en`
 
 Do not invent a single “invention year” UI field — keep the four year marks.
+
+## Change records and releases
+
+Include a user-facing bilingual entry in `data/changes.json` with each content or functional commit. Use a unique `id`, the current package version as `afterVersion`, and Chinese `zh` / English `en` descriptions. Keep historical entries. See [AGENTS.md](AGENTS.md) for the repository workflow.
+
+A maintainer supplies the next numeric `major.minor.patch` version when publishing. After recording development changes under the old version, only `package.json` needs its version bumped in the release commit; do not create a Git tag. The build uses full Git history to find the previous version and emits only its pending changes into `version.json`. A source ZIP or shallow checkout cannot provide that history. Run `npm run test:updates` before submitting.

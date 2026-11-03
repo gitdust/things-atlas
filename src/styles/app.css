@@ -1763,3 +1763,76 @@ button {
 .bottombar {
   transition-duration: var(--dur-bar);
 }
+
+/* Version status sits beside the Chinese brand without changing its typography. */
+.brand-zh-row {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+}
+.version-control {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  flex-shrink: 0;
+  padding: 3px 6px;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-md);
+  background: transparent;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: var(--fs-3xs);
+  font-weight: var(--fw-medium);
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+.version-control.has-update {
+  color: var(--update-text);
+  background: var(--update-surface);
+  border-color: var(--update-border);
+  cursor: pointer;
+  transition: border-color var(--dur) var(--ease);
+}
+.version-control.has-update:hover {
+  border-color: var(--update-text);
+}
+.release-dialog {
+  position: fixed;
+  width: min(520px, calc(100vw - 32px));
+  max-height: 80dvh;
+  padding: var(--s-6);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r-lg);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow-2);
+}
+.release-dialog::backdrop {
+  background: rgba(var(--ink-rgb), 0.3);
+}
+.release-dialog-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--s-4);
+}
+.release-dialog-head h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+}
+.release-changes {
+  padding-left: var(--s-5);
+  margin-bottom: 0;
+}
+.release-changes li + li {
+  margin-top: var(--s-3);
+}
+@media (max-width: 760px) {
+  .brand-zh-row {
+    gap: var(--s-1);
+  }
+  .version-control.has-update span {
+    max-width: 4.5em;
+  }
+}

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Things Atlas / 日常之物图志 — world map + time scrubber for everyday objects",
+  "description": "Things Atlas / \u65e5\u5e38\u4e4b\u7269\u56fe\u5fd7 \u2014 world map + time scrubber for everyday objects",
   "scripts": {
     "dev": "npm run build:data && vite",
     "validate": "tsx scripts/validate-items.ts && tsx scripts/build-fonts.ts --check",
@@ -16,7 +16,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "build": "npm run validate && npm run build:data && npm run typecheck && vite build && tsx scripts/prerender.ts",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:updates": "node --import tsx --test scripts/release-notes.test.ts scripts/version-update.test.ts"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",
