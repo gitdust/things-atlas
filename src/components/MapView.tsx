@@ -52,7 +52,9 @@ function mapPadding(drawerOpen: boolean) {
       right: 24,
       bottom: drawerOpen
         ? (document.querySelector('.entry-panel')?.getBoundingClientRect().height ??
-            window.innerHeight * 0.48) + 32
+            window.innerHeight * 0.48) +
+          (document.getElementById('map-attribution')?.getBoundingClientRect().height ?? 0) +
+          32
         : 60,
     };
   }
@@ -137,13 +139,10 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
     });
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
-    map.addControl(new maplibregl.AttributionControl({ compact: true }));
+    map.addControl(new maplibregl.AttributionControl({ compact: false }));
     const attribution = containerRef.current.querySelector('.maplibregl-ctrl-attrib');
     const attributionSlot = document.getElementById('map-attribution');
     if (attribution && attributionSlot) {
-      attribution.classList.add('maplibregl-compact');
-      attribution.classList.remove('maplibregl-compact-show');
-      attribution.removeAttribute('open');
       attributionSlot.appendChild(attribution);
     }
 

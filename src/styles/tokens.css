@@ -184,6 +184,7 @@
 
   /* ---------------------------------------------------------------- layout */
   --edge: 24px;
+  --attribution-h: 20px;
   --mobile-panel-h: 48dvh;
   --drawer-w: 360px;
   --tl-h: 168px;

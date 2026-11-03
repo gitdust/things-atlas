@@ -101,37 +101,32 @@
   color: var(--text-inverse-2);
 }
 
-/* Keep the native source credits beside GitHub on every viewport. */
+/* Persistent source credits: no compact toggle or overlay. */
 .map-attribution-slot {
-  position: relative;
-  width: 36px;
-  height: 36px;
-  flex-shrink: 0;
-}
-.map-attribution-slot .maplibregl-ctrl-attrib.maplibregl-compact {
   position: absolute;
-  top: 0;
+  z-index: var(--z-chrome);
+  left: 0;
   right: 0;
+  bottom: 0;
+  height: var(--attribution-h);
+  padding: 2px var(--edge);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: var(--surface-attrib);
+}
+.map-attribution-slot .maplibregl-ctrl-attrib {
   margin: 0;
-  width: 36px;
-  min-height: 36px;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid var(--rule);
-  border-radius: var(--r-pill);
+  background: transparent !important;
+  text-align: right;
+  line-height: 14px;
 }
 .map-attribution-slot .maplibregl-ctrl-attrib-button {
-  width: 34px;
-  height: 34px;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: none;
 }
-.map-attribution-slot .maplibregl-ctrl-attrib.maplibregl-compact-show {
-  width: min(300px, calc(100vw - 120px));
-  max-height: 50dvh;
-  overflow: auto;
-  padding: 40px 12px 12px;
-  border-radius: var(--r-md);
-  background: var(--paper) !important;
-  box-shadow: var(--shadow-1);
+@media (max-width: 760px) {
+  .map-attribution-slot {
+    padding-bottom: calc(2px + env(safe-area-inset-bottom, 0px));
+  }
 }

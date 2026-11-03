@@ -507,7 +507,7 @@ button {
   z-index: var(--z-chrome);
   left: var(--edge);
   right: var(--edge);
-  bottom: var(--s-5);
+  bottom: calc(var(--attribution-h) + var(--s-2));
   padding: var(--s-2) var(--s-3) var(--s-2);
   border-radius: var(--r-lg);
   background: var(--glass);
@@ -1527,32 +1527,12 @@ button {
   color: var(--muted);
   font-size: var(--fs-xs);
 }
-.mobile-year-status,
 .panel-toggle {
   display: none;
 }
 @media (max-width: 760px) {
   .bottombar {
     display: none;
-  }
-  .mobile-year-status {
-    display: flex;
-    position: absolute;
-    top: 76px;
-    left: var(--edge);
-    gap: var(--s-2);
-    align-items: center;
-    background: var(--glass);
-    border-radius: var(--r-lg);
-    padding: var(--s-2) var(--s-3);
-    z-index: var(--z-chrome);
-    font-size: var(--fs-xs);
-  }
-  .mobile-year-status button {
-    color: var(--ink);
-    border: 0;
-    background: transparent;
-    text-decoration: underline;
   }
   .panel-toggle {
     top: 63dvh;
@@ -1661,7 +1641,7 @@ button {
   z-index: var(--z-drawer);
   top: var(--s-4);
   right: var(--s-4);
-  bottom: var(--s-4);
+  bottom: calc(var(--attribution-h) + var(--s-4));
   width: var(--drawer-w);
   border: 1px solid var(--rule);
   border-radius: var(--r-lg);
@@ -1749,7 +1729,7 @@ button {
     top: auto;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: var(--attribution-h);
     width: auto;
     height: var(--mobile-panel-h);
     border-radius: var(--r-sheet) var(--r-sheet) 0 0;
@@ -1839,7 +1819,7 @@ button {
 
 @media (max-width: 760px) {
   .panel-toggle {
-    top: calc(100dvh - var(--mobile-panel-h));
+    top: calc(100dvh - var(--mobile-panel-h) - var(--attribution-h));
     left: 50%;
     right: auto;
     width: 56px;
@@ -1852,12 +1832,18 @@ button {
     transform: rotate(90deg);
   }
   .panel-collapsed .panel-toggle {
-    top: calc(100dvh - env(safe-area-inset-bottom, 0px) - 12px);
+    top: calc(100dvh - var(--attribution-h) - 12px);
     left: 50%;
     right: auto;
     border-radius: var(--r-lg);
   }
   .panel-collapsed .panel-toggle svg {
     transform: rotate(-90deg);
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --attribution-h: calc(32px + env(safe-area-inset-bottom, 0px));
   }
 }

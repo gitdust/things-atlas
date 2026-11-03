@@ -40,5 +40,11 @@
     "afterVersion": "0.1.0",
     "zh": "将地图署名提示统一移至顶部GitHub图标旁，电脑和手机均可展开查看来源信息。",
     "en": "Move map attribution beside the GitHub icon in the header, with expandable source credits on desktop and mobile."
+  },
+  {
+    "id": "persistent-map-credits-and-remove-year-status",
+    "afterVersion": "0.1.0",
+    "zh": "地图来源信息改为页面底部常驻显示，无需点击展开；移除移动端重复的年份状态条。",
+    "en": "Keep map source credits permanently visible at the page bottom without an expandable popup, and remove the redundant mobile year status."
   }
 ]

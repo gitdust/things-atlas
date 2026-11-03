@@ -9,7 +9,7 @@ Foods and beverages may also include specific branded products with broad cultur
 ## Features
 
 - **Explore the map**: Discover places associated with invention, patents, mass production, and popularization. Lines connect locations linked to the same object.
-- **Browse the timeline**: On desktop, drag the timeline to see objects that had appeared by the selected year. Selecting a directory entry sets its primary year. On mobile, the timeline is hidden; browse the directory and use the map control to restore all years.
+- **Browse the timeline**: On desktop, drag the timeline to see objects that had appeared by the selected year. Selecting a directory entry sets its primary year. On mobile, the timeline is hidden; browse entries through the directory.
 - **Browse the directory**: Browse all entries grouped by date, independently of the map year. Close an entry’s details to restore your search and directory position.
 - **Search objects**: Search the full collection by Chinese or English name and open object details. If there are no matches, suggest an object through a GitHub Issue with the title prefilled as `add: {keyword}`.
 - **View object details**: Explore photos, summaries, key dates, related places, and reference sources.
