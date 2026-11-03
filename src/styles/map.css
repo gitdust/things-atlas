@@ -101,10 +101,37 @@
   color: var(--text-inverse-2);
 }
 
-@media (max-width: 760px) {
-  /* The zoom group is 34px wide; the compact attribution button is 24px.
-     Its extra 5px right margin aligns both controls on the same centre. */
-  .maplibregl-ctrl-attrib.maplibregl-compact {
-    margin-right: 15px;
-  }
+/* Keep the native source credits beside GitHub on every viewport. */
+.map-attribution-slot {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.map-attribution-slot .maplibregl-ctrl-attrib.maplibregl-compact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 36px;
+  min-height: 36px;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-pill);
+}
+.map-attribution-slot .maplibregl-ctrl-attrib-button {
+  width: 34px;
+  height: 34px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.map-attribution-slot .maplibregl-ctrl-attrib.maplibregl-compact-show {
+  width: min(300px, calc(100vw - 120px));
+  max-height: 50dvh;
+  overflow: auto;
+  padding: 40px 12px 12px;
+  border-radius: var(--r-md);
+  background: var(--paper) !important;
+  box-shadow: var(--shadow-1);
 }

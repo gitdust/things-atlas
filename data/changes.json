@@ -34,5 +34,11 @@
     "afterVersion": "0.1.0",
     "zh": "对齐移动端地图署名提示与缩放按钮，保留署名内容展开功能。",
     "en": "Align the mobile map attribution control with the zoom buttons while preserving expandable credits."
+  },
+  {
+    "id": "header-map-attribution",
+    "afterVersion": "0.1.0",
+    "zh": "将地图署名提示统一移至顶部GitHub图标旁，电脑和手机均可展开查看来源信息。",
+    "en": "Move map attribution beside the GitHub icon in the header, with expandable source credits on desktop and mobile."
   }
 ]

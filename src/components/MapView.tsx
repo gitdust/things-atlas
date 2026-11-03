@@ -132,11 +132,20 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
       maxZoom: 9,
       dragRotate: false,
       pitchWithRotate: false,
-      attributionControl: { compact: true },
+      attributionControl: false,
       fadeDuration: motionDuration(200),
     });
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
+    map.addControl(new maplibregl.AttributionControl({ compact: true }));
+    const attribution = containerRef.current.querySelector('.maplibregl-ctrl-attrib');
+    const attributionSlot = document.getElementById('map-attribution');
+    if (attribution && attributionSlot) {
+      attribution.classList.add('maplibregl-compact');
+      attribution.classList.remove('maplibregl-compact-show');
+      attribution.removeAttribute('open');
+      attributionSlot.appendChild(attribution);
+    }
 
     const popup = new maplibregl.Popup({
       closeButton: false,
