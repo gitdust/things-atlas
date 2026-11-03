@@ -100,3 +100,11 @@
   font-size: var(--fs-ui-sm);
   color: var(--text-inverse-2);
 }
+
+@media (max-width: 760px) {
+  /* The zoom group is 34px wide; the compact attribution button is 24px.
+     Its extra 5px right margin aligns both controls on the same centre. */
+  .maplibregl-ctrl-attrib.maplibregl-compact {
+    margin-right: 15px;
+  }
+}

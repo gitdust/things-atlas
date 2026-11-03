@@ -28,5 +28,11 @@
     "afterVersion": "0.1.0",
     "zh": "移动端条目面板改为约半屏，提供顶部向下收起按钮和把手下滑操作；进一步收紧时间轴内部留白。",
     "en": "Use a half-height mobile entry panel with a downward collapse button and swipe handle, and reduce internal timeline spacing."
+  },
+  {
+    "id": "mobile-map-attribution-alignment",
+    "afterVersion": "0.1.0",
+    "zh": "对齐移动端地图署名提示与缩放按钮，保留署名内容展开功能。",
+    "en": "Align the mobile map attribution control with the zoom buttons while preserving expandable credits."
   }
 ]
