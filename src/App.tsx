@@ -4,6 +4,7 @@ import {
   useCallback,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ComponentType,
 } from 'react';
@@ -46,6 +47,7 @@ export default function App({ url }: { url?: UrlLike }) {
     return y;
   });
   const [panelOpen, setPanelOpen] = useState(true);
+  const panelGesture = useRef({ startY: null as number | null, suppressClick: false });
   const [showDisputed, setShowDisputed] = useState(true);
   const [selectedId, setSelectedId] = useState<string | null>(initial.id);
   // Keep the last detail mounted so its exit can fade without timers or losing
@@ -236,7 +238,29 @@ export default function App({ url }: { url?: UrlLike }) {
               ? '展开条目列表'
               : 'Expand catalogue'
         }
-        onClick={() => setPanelOpen(!panelOpen)}
+        onPointerDown={(event) => {
+          if (!window.matchMedia('(max-width: 760px)').matches) return;
+          panelGesture.current = { startY: event.clientY, suppressClick: false };
+          event.currentTarget.setPointerCapture(event.pointerId);
+        }}
+        onPointerUp={(event) => {
+          const start = panelGesture.current.startY;
+          panelGesture.current.startY = null;
+          if (start !== null && event.clientY - start > 36 && panelOpen) {
+            panelGesture.current.suppressClick = true;
+            setPanelOpen(false);
+          }
+        }}
+        onPointerCancel={() => {
+          panelGesture.current = { startY: null, suppressClick: false };
+        }}
+        onClick={() => {
+          if (panelGesture.current.suppressClick) {
+            panelGesture.current.suppressClick = false;
+            return;
+          }
+          setPanelOpen((open) => !open);
+        }}
       >
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="m9 6 6 6-6 6" />

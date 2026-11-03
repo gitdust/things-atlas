@@ -50,7 +50,10 @@ function mapPadding(drawerOpen: boolean) {
       top: 100,
       left: 24,
       right: 24,
-      bottom: drawerOpen ? Math.min(window.innerHeight * 0.74, window.innerHeight - 160) : 60,
+      bottom: drawerOpen
+        ? (document.querySelector('.entry-panel')?.getBoundingClientRect().height ??
+            window.innerHeight * 0.48) + 32
+        : 60,
     };
   }
   const panelWidth =

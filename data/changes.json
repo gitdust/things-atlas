@@ -22,5 +22,11 @@
     "afterVersion": "0.1.0",
     "zh": "缩小桌面条目面板宽度并收紧面板与时间轴内边距，让较窄屏幕保留更多浏览空间。",
     "en": "Narrow the desktop entry panel and reduce panel and timeline padding to leave more room on smaller screens."
+  },
+  {
+    "id": "mobile-half-sheet-and-timeline-insets",
+    "afterVersion": "0.1.0",
+    "zh": "移动端条目面板改为约半屏，提供顶部向下收起按钮和把手下滑操作；进一步收紧时间轴内部留白。",
+    "en": "Use a half-height mobile entry panel with a downward collapse button and swipe handle, and reduce internal timeline spacing."
   }
 ]

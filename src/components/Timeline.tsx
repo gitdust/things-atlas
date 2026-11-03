@@ -172,7 +172,7 @@ export function Timeline({
         className="tl-scrub"
         style={{
           ['--track-y' as string]: `${Math.max(96, ...swarm.map(({ level }) => level * 15 + 32))}px`,
-          height: Math.max(96, ...swarm.map(({ level }) => level * 15 + 32)) + 48,
+          height: Math.max(96, ...swarm.map(({ level }) => level * 15 + 32)) + 40,
         }}
         role="slider"
         tabIndex={0}
