@@ -16,5 +16,11 @@
     "afterVersion": "0.1.0",
     "zh": "切回页面时自动检查更新，离线或检测失败时仍可继续浏览。",
     "en": "Check for updates when returning to the page without interrupting browsing when offline or a check fails."
+  },
+  {
+    "id": "compact-panel-and-timeline-spacing",
+    "afterVersion": "0.1.0",
+    "zh": "缩小桌面条目面板宽度并收紧面板与时间轴内边距，让较窄屏幕保留更多浏览空间。",
+    "en": "Narrow the desktop entry panel and reduce panel and timeline padding to leave more room on smaller screens."
   }
 ]

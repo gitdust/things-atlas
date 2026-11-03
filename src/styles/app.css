@@ -508,7 +508,7 @@ button {
   left: var(--edge);
   right: var(--edge);
   bottom: var(--s-5);
-  padding: var(--s-4) var(--s-5) var(--s-3);
+  padding: var(--s-2) var(--s-3) var(--s-2);
   border-radius: var(--r-lg);
   background: var(--glass);
   backdrop-filter: var(--blur);
@@ -880,7 +880,7 @@ button {
 .drawer-scroll {
   height: 100%;
   overflow-y: auto;
-  padding: var(--s-6) var(--s-8) var(--s-8);
+  padding: var(--s-4);
   scrollbar-width: thin;
   scrollbar-color: var(--rule-strong) transparent;
 }
@@ -1294,7 +1294,7 @@ button {
 
 @media (max-width: 1100px) {
   :root {
-    --drawer-w: 400px;
+    --drawer-w: 320px;
   }
   .filter-bar {
     flex-direction: column;
@@ -1433,7 +1433,7 @@ button {
     border-radius: 4px;
   }
   .drawer-scroll {
-    padding: 28px 20px 28px;
+    padding: 24px 16px 16px;
   }
   .drawer-title {
     font-size: var(--fs-display-mobile);
@@ -1465,7 +1465,7 @@ button {
   flex-direction: column;
 }
 .catalog-head {
-  padding: var(--s-5);
+  padding: var(--s-4);
   border-bottom: 1px solid var(--rule);
 }
 .catalog-head h2 {
@@ -1488,7 +1488,7 @@ button {
   overflow-y: auto;
   min-height: 0;
   flex: 1;
-  padding: 0 var(--s-5) var(--s-5);
+  padding: 0 var(--s-4) var(--s-4);
 }
 .catalog-group h3 {
   position: sticky;
@@ -1565,10 +1565,10 @@ button {
     right: var(--edge);
   }
   .catalog-head {
-    padding: 24px 20px 8px;
+    padding: 24px 16px 8px;
   }
   .catalog-scroll {
-    padding: 0 20px 28px;
+    padding: 0 16px 16px;
   }
 }
 
