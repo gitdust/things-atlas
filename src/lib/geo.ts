@@ -54,38 +54,42 @@ export type ArcProps = {
 const toRad = (d: number) => (d * Math.PI) / 180;
 const toDeg = (r: number) => (r * 180) / Math.PI;
 
-/** Great-circle interpolation between two [lng, lat] points. */
-function greatCircle(a: [number, number], b: [number, number], steps = 48): [number, number][] {
-  const [lng1, lat1] = [toRad(a[0]), toRad(a[1])];
-  const [lng2, lat2] = [toRad(b[0]), toRad(b[1])];
-  const d =
-    2 *
-    Math.asin(
-      Math.sqrt(
-        Math.sin((lat2 - lat1) / 2) ** 2 +
-          Math.cos(lat1) * Math.cos(lat2) * Math.sin((lng2 - lng1) / 2) ** 2,
-      ),
-    );
-  if (d === 0) return [a, b];
-  const out: [number, number][] = [];
-  let prevLng: number | null = null;
-  for (let i = 0; i <= steps; i++) {
-    const f = i / steps;
-    const A = Math.sin((1 - f) * d) / Math.sin(d);
-    const B = Math.sin(f * d) / Math.sin(d);
-    const x = A * Math.cos(lat1) * Math.cos(lng1) + B * Math.cos(lat2) * Math.cos(lng2);
-    const y = A * Math.cos(lat1) * Math.sin(lng1) + B * Math.cos(lat2) * Math.sin(lng2);
-    const z = A * Math.sin(lat1) + B * Math.sin(lat2);
-    let lng = toDeg(Math.atan2(y, x));
-    const lat = toDeg(Math.atan2(z, Math.sqrt(x * x + y * y)));
-    // keep the line continuous across the antimeridian
-    if (prevLng != null) {
-      while (lng - prevLng > 180) lng -= 360;
-      while (lng - prevLng < -180) lng += 360;
-    }
-    prevLng = lng;
-    out.push([lng, lat]);
+// The map uses Web Mercator; geographic poles cannot be projected to finite y.
+const MAX_MERCATOR_LAT = toDeg(Math.atan(Math.sinh(Math.PI)));
+const clampLat = (lat: number) => Math.max(-MAX_MERCATOR_LAT, Math.min(MAX_MERCATOR_LAT, lat));
+const mercatorY = (lat: number) =>
+  Math.max(
+    0,
+    Math.min(1, (1 - Math.log(Math.tan(Math.PI / 4 + toRad(clampLat(lat)) / 2)) / Math.PI) / 2),
+  );
+const latitudeAtY = (y: number) => toDeg(Math.atan(Math.sinh(Math.PI * (1 - 2 * y))));
+
+/**
+ * A shallow visual association, not a navigation route. Great-circle routes
+ * between China and North America can pass above 88°N and leave the Mercator
+ * map. Curve in projected space instead, keeping the shortest longitude span
+ * and bounding the bow so it cannot create a polar detour.
+ */
+function provenanceArc(a: [number, number], b: [number, number], steps = 48): [number, number][] {
+  let deltaLng = b[0] - a[0];
+  while (deltaLng > 180) deltaLng -= 360;
+  while (deltaLng < -180) deltaLng += 360;
+  const start: [number, number] = [a[0], clampLat(a[1])];
+  const end: [number, number] = [a[0] + deltaLng, clampLat(b[1])];
+  if (deltaLng === 0 && start[1] === end[1]) return [start, end];
+
+  const y1 = mercatorY(start[1]);
+  const y2 = mercatorY(end[1]);
+  const distance = Math.hypot(deltaLng / 360, y2 - y1);
+  // The quadratic's midpoint rises by at most 0.03 of the projected world.
+  const controlY = Math.max(0, (y1 + y2) / 2 - Math.min(distance * 0.18, 0.06));
+  const out: [number, number][] = [start];
+  for (let i = 1; i < steps; i++) {
+    const t = i / steps;
+    const y = (1 - t) ** 2 * y1 + 2 * (1 - t) * t * controlY + t ** 2 * y2;
+    out.push([a[0] + deltaLng * t, latitudeAtY(y)]);
   }
+  out.push(end);
   return out;
 }
 
@@ -108,7 +112,7 @@ export function itemsToArcs(items: AtlasItem[]): FeatureCollection<LineString, A
         type: 'Feature',
         geometry: {
           type: 'LineString',
-          coordinates: greatCircle([anchor.lng, anchor.lat], [loc.lng, loc.lat]),
+          coordinates: provenanceArc([anchor.lng, anchor.lat], [loc.lng, loc.lat]),
         },
         properties: {
           id: item.id,
@@ -121,10 +125,12 @@ export function itemsToArcs(items: AtlasItem[]): FeatureCollection<LineString, A
   return { type: 'FeatureCollection', features };
 }
 
-/** Bounds [[w,s],[e,n]] covering an item's places. */
+/** Bounds include the displayed arcs in their continuous longitude world. */
 export function itemBounds(item: AtlasItem): [[number, number], [number, number]] {
-  const lngs = item.locations.map((l) => l.lng);
-  const lats = item.locations.map((l) => l.lat);
+  const arcs = itemsToArcs([item]).features.flatMap((feature) => feature.geometry.coordinates);
+  const points = arcs.length ? arcs : item.locations.map((loc) => [loc.lng, clampLat(loc.lat)]);
+  const lngs = points.map(([lng]) => lng);
+  const lats = points.map(([, lat]) => lat);
   return [
     [Math.min(...lngs), Math.min(...lats)],
     [Math.max(...lngs), Math.max(...lats)],

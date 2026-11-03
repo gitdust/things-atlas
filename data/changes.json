@@ -46,5 +46,17 @@
     "afterVersion": "0.1.0",
     "zh": "地图来源信息改为页面底部常驻显示，无需点击展开；移除移动端重复的年份状态条。",
     "en": "Keep map source credits permanently visible at the page bottom without an expandable popup, and remove the redundant mobile year status."
+  },
+  {
+    "id": "transparent-centered-map-credits",
+    "afterVersion": "0.1.0",
+    "zh": "底部地图来源文字居中显示，并移除背景色。",
+    "en": "Center the persistent map credits and remove their background."
+  },
+  {
+    "id": "bounded-location-connection-arcs",
+    "afterVersion": "0.1.0",
+    "zh": "修复远距离地点关联线绕向极地、超出地图顶部的问题，保留跨日界线的连续连接。",
+    "en": "Keep long-distance location connections within the map instead of bending over the poles, while preserving continuity across the date line."
   }
 ]

@@ -20,6 +20,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run test:updates
+      - run: npm run test:geo
       - run: npm run lint
       - run: npm run build
         env:

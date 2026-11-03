@@ -112,14 +112,14 @@
   padding: 2px var(--edge);
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  background: var(--surface-attrib);
+  justify-content: center;
+  background: transparent;
 }
 .map-attribution-slot .maplibregl-ctrl-attrib {
   margin: 0;
   padding: 0;
   background: transparent !important;
-  text-align: right;
+  text-align: center;
   line-height: 14px;
 }
 .map-attribution-slot .maplibregl-ctrl-attrib-button {
