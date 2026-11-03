@@ -13,6 +13,7 @@ type Props = {
   category: CategoryMeta | null;
   /** The entry opened by the landing URL: its photo is likely the LCP element, so don't lazy-load it. */
   eagerImage?: boolean;
+  active?: boolean;
   onClose: () => void;
 };
 
@@ -66,7 +67,15 @@ function ResponsiveImage({ image, alt, eager }: { image: ItemImage; alt: string;
   );
 }
 
-export function ItemDrawer({ lang, item, entryNo, category, eagerImage = false, onClose }: Props) {
+export function ItemDrawer({
+  lang,
+  item,
+  entryNo,
+  category,
+  eagerImage = false,
+  active = true,
+  onClose,
+}: Props) {
   const bodyRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -74,13 +83,13 @@ export function ItemDrawer({ lang, item, entryNo, category, eagerImage = false, 
   }, [item?.id]);
 
   useEffect(() => {
-    if (!item) return;
+    if (!item || !active) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [item, onClose]);
+  }, [item, active, onClose]);
 
   if (!item) return null;
 

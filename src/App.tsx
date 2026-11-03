@@ -47,6 +47,9 @@ export default function App({ url }: { url?: UrlLike }) {
   const [panelOpen, setPanelOpen] = useState(true);
   const [showDisputed, setShowDisputed] = useState(true);
   const [selectedId, setSelectedId] = useState<string | null>(initial.id);
+  // Keep the last detail mounted so its exit can fade without timers or losing
+  // the catalogue's search and scroll state underneath it.
+  const [detailId, setDetailId] = useState<string | null>(initial.id);
 
   const visible = useMemo(
     () =>
@@ -60,6 +63,7 @@ export default function App({ url }: { url?: UrlLike }) {
 
   const geojson = useMemo(() => itemsToGeoJSON(visible), [visible]);
   const selectedItem = useMemo(() => findItem(index.items, selectedId), [index.items, selectedId]);
+  const detailItem = useMemo(() => findItem(index.items, detailId), [index.items, detailId]);
 
   // URL sync: the selected entry lives in the path (a prerendered, shareable
   // page per entry); year / categories / language in the query.
@@ -110,6 +114,7 @@ export default function App({ url }: { url?: UrlLike }) {
   const selectItem = useCallback(
     (id: string | null) => {
       setSelectedId(id);
+      if (id) setDetailId(id);
       setPanelOpen(true);
       const item = findItem(index.items, id);
       if (item) {
@@ -124,14 +129,14 @@ export default function App({ url }: { url?: UrlLike }) {
   const visibleIds = useMemo(() => new Set(visible.map((i) => i.id)), [visible]);
 
   const entryNo = useMemo(() => {
-    if (!selectedId) return null;
-    const i = index.items.findIndex((it) => it.id === selectedId);
+    if (!detailId) return null;
+    const i = index.items.findIndex((it) => it.id === detailId);
     return i >= 0 ? i + 1 : null;
-  }, [index.items, selectedId]);
+  }, [index.items, detailId]);
 
   const selectedCategory = useMemo(
-    () => categories.find((c) => c.id === selectedItem?.category) ?? null,
-    [categories, selectedItem],
+    () => categories.find((c) => c.id === detailItem?.category) ?? null,
+    [categories, detailItem],
   );
 
   return (
@@ -229,11 +234,20 @@ export default function App({ url }: { url?: UrlLike }) {
         onClick={() => setPanelOpen(!panelOpen)}
       >
         <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d={panelOpen ? 'm9 6 6 6-6 6' : 'm15 6-6 6 6 6'} />
+          <path d="m9 6 6 6-6 6" />
         </svg>
       </button>
-      <div className="entry-panel" id="entry-panel">
-        <div hidden={!!selectedItem}>
+      <div
+        className="entry-panel"
+        id="entry-panel"
+        aria-hidden={!panelOpen}
+        {...(!panelOpen ? { inert: '' } : {})}
+      >
+        <div
+          className={`panel-view catalog-view${selectedItem ? '' : ' is-active'}`}
+          aria-hidden={!!selectedItem}
+          {...(selectedItem ? { inert: '' } : {})}
+        >
           <ItemCatalog
             lang={lang}
             items={index.items}
@@ -245,14 +259,21 @@ export default function App({ url }: { url?: UrlLike }) {
             onSelect={selectItem}
           />
         </div>
-        <ItemDrawer
-          lang={lang}
-          item={selectedItem}
-          entryNo={entryNo}
-          category={selectedCategory}
-          eagerImage={selectedId === initial.id}
-          onClose={closeDrawer}
-        />
+        <div
+          className={`panel-view detail-view${selectedItem ? ' is-active' : ''}`}
+          aria-hidden={!selectedItem}
+          {...(!selectedItem ? { inert: '' } : {})}
+        >
+          <ItemDrawer
+            lang={lang}
+            item={detailItem}
+            active={panelOpen && !!selectedItem}
+            entryNo={entryNo}
+            category={selectedCategory}
+            eagerImage={detailId === initial.id}
+            onClose={closeDrawer}
+          />
+        </div>
       </div>
 
       <footer className="bottombar">

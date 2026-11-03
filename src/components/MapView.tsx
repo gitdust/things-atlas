@@ -40,6 +40,10 @@ function isMobile() {
   return window.matchMedia(mq.mobile).matches;
 }
 
+function motionDuration(duration: number) {
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : duration;
+}
+
 function mapPadding(drawerOpen: boolean) {
   if (isMobile()) {
     return {
@@ -126,7 +130,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
       dragRotate: false,
       pitchWithRotate: false,
       attributionControl: { compact: true },
-      fadeDuration: 200,
+      fadeDuration: motionDuration(200),
     });
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
@@ -207,7 +211,11 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
 
       readyRef.current = true;
       applySelection(map, selectedId);
-      if (!selectedId) map.easeTo({ padding: mapPadding(latest.current.panelOpen), duration: 300 });
+      if (!selectedId)
+        map.easeTo({
+          padding: mapPadding(latest.current.panelOpen),
+          duration: motionDuration(280),
+        });
       if (!selectedId && g.features.length > 0) {
         const lngs = g.features.map((f) => f.geometry.coordinates[0]);
         const lats = g.features.map((f) => f.geometry.coordinates[1]);
@@ -272,25 +280,52 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
   }, [lang]);
 
   const selectedId = selectedItem?.id ?? null;
+  const previousPanelOpen = useRef(panelOpen);
   useEffect(() => {
+    // A selection may also open the panel; its fitBounds already includes that space.
+    previousPanelOpen.current = latest.current.panelOpen;
     const map = mapRef.current;
     if (!map) return;
     const run = () => {
       applySelection(map, selectedId);
-      if (!selectedItem) map.easeTo({ padding: mapPadding(panelOpen), duration: 300 });
+      map.stop();
+      const padding = mapPadding(latest.current.panelOpen);
       if (selectedItem) {
-        const b = itemBounds(selectedItem);
-        map.fitBounds(b, {
-          padding: mapPadding(panelOpen),
+        map.fitBounds(itemBounds(selectedItem), {
+          padding,
           maxZoom: 4.2,
-          duration: 1600,
-          essential: true,
+          duration: motionDuration(1600),
         });
+      } else {
+        map.easeTo({ padding, duration: motionDuration(280) });
       }
     };
     if (readyRef.current) run();
     else map.once('load', run);
-  }, [selectedId, selectedItem, panelOpen]);
+    // Selection can change several times while the map style is loading.
+    // Remove superseded callbacks so only the current selection is framed.
+    return () => {
+      map.off('load', run);
+    };
+  }, [selectedId, selectedItem]);
+
+  useEffect(() => {
+    const changed = previousPanelOpen.current !== panelOpen;
+    previousPanelOpen.current = panelOpen;
+    const map = mapRef.current;
+    if (!changed || !map || !readyRef.current) return;
+    // Preserve the current zoom and framing when only panel space changes.
+    map.easeTo({ padding: mapPadding(panelOpen), duration: motionDuration(280) });
+  }, [panelOpen]);
+
+  useEffect(() => {
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const onChange = () => {
+      if (preference.matches) mapRef.current?.stop();
+    };
+    preference.addEventListener('change', onChange);
+    return () => preference.removeEventListener('change', onChange);
+  }, []);
 
   return <div ref={containerRef} className="map-root" aria-label={t(lang, 'map')} />;
 }
