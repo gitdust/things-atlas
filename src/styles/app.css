@@ -507,7 +507,7 @@ button {
   z-index: var(--z-chrome);
   left: var(--edge);
   right: var(--edge);
-  bottom: calc(var(--attribution-h) + var(--s-2));
+  bottom: calc(var(--attribution-h) + var(--s-4));
   padding: var(--s-2) var(--s-3) var(--s-2);
   border-radius: var(--r-lg);
   background: var(--glass);
