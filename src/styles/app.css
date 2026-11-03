@@ -523,38 +523,9 @@ button {
 
 .timeline {
   display: grid;
-  grid-template-columns: minmax(7rem, auto) 1fr;
+  grid-template-columns: minmax(0, 1fr);
   align-items: stretch;
   gap: var(--s-4);
-}
-
-.tl-readout {
-  display: flex;
-  align-items: center;
-  gap: var(--s-3);
-  padding-right: var(--s-4);
-  border-right: 1px solid var(--rule);
-}
-.tl-year {
-  display: flex;
-  flex-direction: column;
-  line-height: 1;
-}
-.tl-year-label {
-  font-size: var(--fs-xs);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: var(--s-1);
-}
-.tl-year-num {
-  font-family: var(--font-serif);
-  font-size: var(--fs-3xl);
-  font-weight: var(--fw-medium);
-  letter-spacing: -0.02em;
-  font-variation-settings: 'opsz' 60;
-  white-space: nowrap;
-  line-height: 1;
 }
 
 .tl-scrub {

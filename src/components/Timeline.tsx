@@ -114,9 +114,7 @@ export function Timeline({
     };
     // Same-row collision only — staggered labels may share an x-neighbour.
     const fitsRow = (kept: Cand[], c: Cand) =>
-      !kept.some(
-        (k) => k.row === c.row && Math.abs(c.px - k.px) < c.half + k.half + 6,
-      );
+      !kept.some((k) => k.row === c.row && Math.abs(c.px - k.px) < c.half + k.half + 6);
 
     // Anchors first (band start, year 0, last major). If year 0 collides on
     // row 0 with the BCE start in a narrow track, drop it to row 1 instead
@@ -170,15 +168,12 @@ export function Timeline({
 
   return (
     <div className={`timeline${dragging ? ' is-dragging' : ''}`}>
-      <div className="tl-readout">
-        <div className="tl-year">
-          <span className="tl-year-label">{t(lang, 'upTo')}</span>
-          <span className="tl-year-num num">{formatYear(lang, year, true)}</span>
-        </div>
-      </div>
-
       <div
         className="tl-scrub"
+        style={{
+          ['--track-y' as string]: `${Math.max(96, ...swarm.map(({ level }) => level * 15 + 32))}px`,
+          height: Math.max(96, ...swarm.map(({ level }) => level * 15 + 32)) + 48,
+        }}
         role="slider"
         tabIndex={0}
         aria-label={t(lang, 'year')}
@@ -259,15 +254,17 @@ export function Timeline({
                   className={major ? 'tick major' : mid ? 'tick mid' : 'tick'}
                   style={{ left: `${pct(y)}%` }}
                 >
-                  {label ? (
-                    <em className={label.row ? 'num alt' : 'num'}>{label.text}</em>
-                  ) : null}
+                  {label ? <em className={label.row ? 'num alt' : 'num'}>{label.text}</em> : null}
                 </span>
               );
             })}
           </div>
 
-          <div className={`tl-thumb${thumbEdge}`} style={{ left: `${yearPct}%` }} aria-hidden="true">
+          <div
+            className={`tl-thumb${thumbEdge}`}
+            style={{ left: `${yearPct}%` }}
+            aria-hidden="true"
+          >
             <span className="tl-thumb-flag num">{formatYear(lang, year, true)}</span>
             <span className="tl-thumb-line" />
             <span className="tl-thumb-knob" />
