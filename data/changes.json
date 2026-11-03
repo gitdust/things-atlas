@@ -1,62 +1,38 @@
 [
   {
-    "id": "version-status-and-refresh",
+    "id": "release-version-refresh",
     "afterVersion": "0.1.0",
-    "zh": "标题旁显示版本号，检测到新版时以绿色提示刷新。",
-    "en": "Show the version beside the title and a green refresh prompt when an update is available."
+    "zh": "标题旁显示版本号，发现新版时提示刷新；更新后展示本次版本内容，关闭后不再重复弹出。",
+    "en": "Show the current version and a refresh prompt for newer releases; display this release’s changes after updating without repeating dismissed notes."
   },
   {
-    "id": "release-notes-after-refresh",
+    "id": "release-panel-responsive",
     "afterVersion": "0.1.0",
-    "zh": "点击更新并刷新后展示本次版本的更新内容，历史记录继续保留。",
-    "en": "Show this release's changes after an update refresh while retaining historical change records."
+    "zh": "缩小桌面条目面板并收紧留白；手机面板采用约半屏高度，支持顶部按钮和向下拖动把手收起。",
+    "en": "Use a narrower desktop entry panel and tighter spacing; on mobile, use a half-height panel with a collapse button and downward swipe handle."
   },
   {
-    "id": "background-version-checks",
+    "id": "release-interaction-polish",
     "afterVersion": "0.1.0",
-    "zh": "切回页面时自动检查更新，离线或检测失败时仍可继续浏览。",
-    "en": "Check for updates when returning to the page without interrupting browsing when offline or a check fails."
+    "zh": "改善面板切换、搜索和列表的交互反馈，保留搜索与滚动位置，并支持减少动态效果。",
+    "en": "Smooth panel, search, and list interactions while preserving search and scroll position and respecting reduced-motion preferences."
   },
   {
-    "id": "compact-panel-and-timeline-spacing",
+    "id": "release-timeline-clarity",
     "afterVersion": "0.1.0",
-    "zh": "缩小桌面条目面板宽度并收紧面板与时间轴内边距，让较窄屏幕保留更多浏览空间。",
-    "en": "Narrow the desktop entry panel and reduce panel and timeline padding to leave more room on smaller screens."
+    "zh": "移除时间轴重复年份显示，增加条目圆点空间并收紧内部留白，改善年份跳转和键盘浏览反馈。",
+    "en": "Remove the duplicate year readout, give timeline markers more room, reduce unused spacing, and improve year jumps and keyboard feedback."
   },
   {
-    "id": "mobile-half-sheet-and-timeline-insets",
+    "id": "release-persistent-map-credits",
     "afterVersion": "0.1.0",
-    "zh": "移动端条目面板改为约半屏，提供顶部向下收起按钮和把手下滑操作；进一步收紧时间轴内部留白。",
-    "en": "Use a half-height mobile entry panel with a downward collapse button and swipe handle, and reduce internal timeline spacing."
+    "zh": "地图来源信息在页面底部透明居中常驻显示，无需展开，并移除移动端重复年份状态条。",
+    "en": "Keep map credits permanently visible and centered without a background or expandable popup, and remove the redundant mobile year status."
   },
   {
-    "id": "mobile-map-attribution-alignment",
+    "id": "release-map-connection-fix",
     "afterVersion": "0.1.0",
-    "zh": "对齐移动端地图署名提示与缩放按钮，保留署名内容展开功能。",
-    "en": "Align the mobile map attribution control with the zoom buttons while preserving expandable credits."
-  },
-  {
-    "id": "header-map-attribution",
-    "afterVersion": "0.1.0",
-    "zh": "将地图署名提示统一移至顶部GitHub图标旁，电脑和手机均可展开查看来源信息。",
-    "en": "Move map attribution beside the GitHub icon in the header, with expandable source credits on desktop and mobile."
-  },
-  {
-    "id": "persistent-map-credits-and-remove-year-status",
-    "afterVersion": "0.1.0",
-    "zh": "地图来源信息改为页面底部常驻显示，无需点击展开；移除移动端重复的年份状态条。",
-    "en": "Keep map source credits permanently visible at the page bottom without an expandable popup, and remove the redundant mobile year status."
-  },
-  {
-    "id": "transparent-centered-map-credits",
-    "afterVersion": "0.1.0",
-    "zh": "底部地图来源文字居中显示，并移除背景色。",
-    "en": "Center the persistent map credits and remove their background."
-  },
-  {
-    "id": "bounded-location-connection-arcs",
-    "afterVersion": "0.1.0",
-    "zh": "修复远距离地点关联线绕向极地、超出地图顶部的问题，保留跨日界线的连续连接。",
-    "en": "Keep long-distance location connections within the map instead of bending over the poles, while preserving continuity across the date line."
+    "zh": "修复远距离地点连线越出地图顶部的问题，改善跨日界线连接及选中条目的完整取景。",
+    "en": "Keep long-distance connections within the map and improve date-line connections and framing of selected entries."
   }
 ]
