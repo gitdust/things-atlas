@@ -1,7 +1,7 @@
 {
   "name": "things-atlas",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "description": "Things Atlas / 日常之物图志 — world map + time scrubber for everyday objects",
   "scripts": {
