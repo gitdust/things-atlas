@@ -58,7 +58,7 @@ export function itemMeta(lang: Lang, item: AtlasItem): PageMeta {
   };
 }
 
-export function pageMeta(lang: Lang, item: AtlasItem | null, count: number): PageMeta {
+function pageMeta(lang: Lang, item: AtlasItem | null, count: number): PageMeta {
   return item ? itemMeta(lang, item) : homeMeta(lang, count);
 }
 

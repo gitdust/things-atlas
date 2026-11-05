@@ -2,9 +2,9 @@ import type { Map as MlMap } from 'maplibre-gl';
 import { basemap } from './tokens';
 
 /** OpenFreeMap Positron — free vector tiles, no API key. */
-export const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
-
-const BASEMAP = basemap;
+export const MAP_STYLE = import.meta.env.DEV
+  ? `${import.meta.env.BASE_URL}map/positron.json`
+  : 'https://tiles.openfreemap.org/styles/positron';
 
 function setPaint(map: MlMap, id: string, prop: string, value: unknown) {
   if (!map.getLayer(id)) return;
@@ -29,22 +29,22 @@ export function tuneBasemap(map: MlMap) {
   const style = map.getStyle();
   for (const layer of style.layers ?? []) {
     const id = layer.id;
-    if (layer.type === 'background') setPaint(map, id, 'background-color', BASEMAP.background);
-    if (id === 'water') setPaint(map, id, 'fill-color', BASEMAP.water);
-    if (id === 'waterway') setPaint(map, id, 'line-color', BASEMAP.waterway);
-    if (id === 'park' || id === 'landcover_wood') setPaint(map, id, 'fill-color', BASEMAP.park);
-    if (id === 'landuse_residential') setPaint(map, id, 'fill-color', BASEMAP.residential);
+    if (layer.type === 'background') setPaint(map, id, 'background-color', basemap.background);
+    if (id === 'water') setPaint(map, id, 'fill-color', basemap.water);
+    if (id === 'waterway') setPaint(map, id, 'line-color', basemap.waterway);
+    if (id === 'park' || id === 'landcover_wood') setPaint(map, id, 'fill-color', basemap.park);
+    if (id === 'landuse_residential') setPaint(map, id, 'fill-color', basemap.residential);
     if (id.startsWith('landcover_ice') || id === 'landcover_glacier')
-      setPaint(map, id, 'fill-color', BASEMAP.ice);
+      setPaint(map, id, 'fill-color', basemap.ice);
     if (id === 'building') {
-      setPaint(map, id, 'fill-color', BASEMAP.building);
-      setPaint(map, id, 'fill-outline-color', BASEMAP.roadCasing);
+      setPaint(map, id, 'fill-color', basemap.building);
+      setPaint(map, id, 'fill-outline-color', basemap.roadCasing);
     }
     if (layer.type === 'line' && /highway|tunnel|railway|road|aeroway/.test(id)) {
-      setPaint(map, id, 'line-color', /casing/.test(id) ? BASEMAP.roadCasing : BASEMAP.road);
+      setPaint(map, id, 'line-color', /casing/.test(id) ? basemap.roadCasing : basemap.road);
     }
     if (id.startsWith('boundary')) {
-      setPaint(map, id, 'line-color', BASEMAP.boundary);
+      setPaint(map, id, 'line-color', basemap.boundary);
       if (id === 'boundary_2') setPaint(map, id, 'line-opacity', 0.55);
     }
     if (layer.type === 'symbol') {
@@ -54,9 +54,9 @@ export function tuneBasemap(map: MlMap) {
         map,
         id,
         'text-color',
-        isWater ? BASEMAP.waterLabel : isCountry ? BASEMAP.labelStrong : BASEMAP.label,
+        isWater ? basemap.waterLabel : isCountry ? basemap.labelStrong : basemap.label,
       );
-      setPaint(map, id, 'text-halo-color', BASEMAP.halo);
+      setPaint(map, id, 'text-halo-color', basemap.halo);
       setPaint(map, id, 'text-halo-width', 1.2);
       setPaint(map, id, 'text-halo-blur', 0.4);
       if (isCountry) {

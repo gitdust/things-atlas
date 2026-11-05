@@ -27,7 +27,6 @@
   --ink-2: #3f382f;
   --ink-3: #6b6254;
   --muted: #8a8070;
-  --black: #000;
   --white: #fff;
   --accent: #b5462e; /* cinnabar */
 
@@ -40,9 +39,7 @@
   --surface-note: rgba(var(--paper-2-rgb), 0.55);
   --surface-attrib: rgba(var(--paper-rgb), 0.7);
   --surface-inverse: rgba(var(--ink-rgb), 0.92); /* map tooltip */
-  --text-inverse: var(--paper);
   --text-inverse-2: rgba(var(--paper-rgb), 0.8);
-  --text-inverse-3: rgba(var(--paper-rgb), 0.7);
   --text-inverse-4: rgba(var(--paper-rgb), 0.65);
   --text-inverse-5: rgba(var(--paper-rgb), 0.6);
   --hist-bar: rgba(var(--ink-rgb), 0.08);
@@ -81,7 +78,6 @@
 
   /* glass */
   --glass: rgba(var(--glass-rgb), 0.76);
-  --glass-strong: rgba(var(--glass-rgb), 0.92);
   --glass-border: rgba(var(--white-rgb), 0.65);
   --blur: saturate(1.4) blur(16px);
   --blur-tip: blur(8px);
@@ -105,7 +101,6 @@
   --fs-lg: 16px;
   --fs-xl: 20px;
   --fs-2xl: 28px;
-  --fs-3xl: 44px;
   /* display / component sizes */
   --fs-ui-sm: 12px;
   --fs-tip-alt: 13px;
@@ -114,8 +109,6 @@
   --fs-lede: 17px;
   --fs-brand-zh: 19px;
   --fs-brand: 26px;
-  --fs-year-mobile: 30px;
-  --fs-display-mobile: 36px;
   --fs-display: 46px;
 
   --fw-regular: 400;
@@ -150,7 +143,6 @@
   --shadow-2:
     0 1px 1px rgba(var(--ink-rgb), 0.04), 0 8px 24px -6px rgba(var(--ink-rgb), 0.16),
     0 24px 48px -24px rgba(var(--ink-rgb), 0.18);
-  --shadow-3: 0 2px 4px rgba(var(--ink-rgb), 0.05), 0 24px 64px -16px rgba(var(--ink-rgb), 0.28);
   --shadow-indicator:
     0 1px 2px rgba(var(--black-rgb), 0.2), 0 4px 10px -4px rgba(var(--black-rgb), 0.35);
   --shadow-knob-sm: 0 1px 2px rgba(var(--black-rgb), 0.25);
@@ -164,7 +156,6 @@
   --z-hover: 2;
   --z-thumb: 3;
   --z-scrim: 1;
-  --z-filter: 4;
   --z-chrome: 5;
   --z-drawer: 6;
 

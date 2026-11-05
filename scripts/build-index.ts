@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { derivePrimaryYear, PRIMARY_YEAR_PRIORITY, type YearKey } from '../src/lib/primaryYear';
+import { derivePrimaryYear, YEAR_KEYS, type YearKey } from '../src/lib/primaryYear';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -114,7 +114,7 @@ const index = {
     data_min: minYear,
     data_max: maxYear,
   },
-  primary_year_priority: [...PRIMARY_YEAR_PRIORITY],
+  primary_year_priority: [...YEAR_KEYS],
   items,
 };
 

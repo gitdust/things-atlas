@@ -8,18 +8,12 @@ const dict = {
 
     // chrome
     year: '年份',
-    categories: '分类',
-    allCategories: '全部',
-    showDisputed: '显示争议条目',
     close: '关闭',
     language: '语言',
     map: '地图',
     legend: '图例',
-    upTo: '截至',
-    countShown: '{n} / {total} 件可见',
     search: '搜索物品',
     searchPlaceholder: '搜索物品名称…',
-    searchCount: '找到 {n} 件物品',
     searchEmpty: '没有找到这个物品',
     searchSuggestHint: '想添加它？只需提交物品名称，详细描述可选。',
     searchSuggest: '在 GitHub Issue 中建议添加 ↗',
@@ -27,11 +21,9 @@ const dict = {
     // drawer sections
     sources: '来源',
     locations: '地点',
-    years: '年份',
     notes: '争议说明',
     milestones: '年表',
     entry: '条目',
-    photoCredit: '图注',
     photoSource: '来源',
     primaryYear: '主年份',
     disputed: '有争议',
@@ -67,29 +59,21 @@ const dict = {
     tagline: 'Invention, patent, manufacture, and popularization',
 
     year: 'Year',
-    categories: 'Categories',
-    allCategories: 'All',
-    showDisputed: 'Show disputed',
     close: 'Close',
     language: 'Language',
     map: 'Map',
     legend: 'Legend',
-    upTo: 'Up to',
-    countShown: '{n} of {total} shown',
     search: 'Search objects',
     searchPlaceholder: 'Search object names…',
-    searchCount: '{n} objects found',
     searchEmpty: 'No matching objects',
     searchSuggestHint: 'Want it added? Only the object name is required; details are optional.',
     searchSuggest: 'Suggest an object on GitHub ↗',
 
     sources: 'Sources',
     locations: 'Places',
-    years: 'Years',
     notes: 'Disputed note',
     milestones: 'Timeline',
     entry: 'Entry',
-    photoCredit: 'Photo',
     photoSource: 'Source',
     primaryYear: 'Primary year',
     disputed: 'Disputed',
@@ -132,14 +116,6 @@ export function pick(
 ): string {
   if (lang === 'zh') return (zh && zh.trim()) || en || '';
   return (en && en.trim()) || zh || '';
-}
-
-/** Fill `{n}` / `{total}` / `{date}` style templates. */
-export function tf(lang: Lang, key: MessageKey, vars: Record<string, string | number>): string {
-  return Object.entries(vars).reduce(
-    (s, [k, v]) => s.replaceAll(`{${k}}`, String(v)),
-    t(lang, key),
-  );
 }
 
 /**

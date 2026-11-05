@@ -19,10 +19,57 @@
     <!-- map tiles, style, glyphs and sprites all come from OpenFreeMap -->
     <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
     <link rel="dns-prefetch" href="https://tiles.openfreemap.org" />
+    <style>
+      #root[data-loading] > .app {
+        visibility: hidden;
+      }
+      .ssr-stale body #root {
+        visibility: visible;
+      }
+      .ssr-stale #root > .app {
+        visibility: hidden;
+      }
+      .initial-loading {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-content: center;
+        gap: 18px;
+        text-align: center;
+        background: #efe9dd;
+        color: #282722;
+        font:
+          14px Georgia,
+          'Songti SC',
+          serif;
+      }
+      @keyframes loading-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .initial-loading svg {
+        animation: loading-spin 3s linear infinite;
+        width: 48px;
+        height: 48px;
+        margin: auto;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1;
+      }
+      .initial-loading p {
+        margin: 0;
+        letter-spacing: 0.08em;
+      }
+      .initial-loading small {
+        opacity: 0.6;
+        letter-spacing: 0.04em;
+      }
+    </style>
     <!--preload:fonts-->
     <script>
-      // Prerendered HTML reflects the default view (zh, latest year, all
-      // categories). If the URL asks for something else, hide it until the
+      // Prerendered HTML reflects the default view (zh, latest year).
+      // If the URL asks for something else, hide it until the
       // app renders the requested state (see main.tsx / App.tsx).
       (function (q) {
         if (q.replace(/(^|&)y=__DATA_MAX__(?=&|$)/, '').replace(/^&+|&+$/g, '')) {
@@ -32,7 +79,29 @@
     </script>
   </head>
   <body>
-    <div id="root"><!--app-html--></div>
+    <div id="root" data-loading>
+      <!--loading:start-->
+      <div class="initial-loading" role="status" aria-live="polite">
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="17.5" />
+          <ellipse cx="20" cy="20" rx="7.5" ry="17.5" />
+          <path d="M2.5 20h35M5 11.5h30M5 28.5h30" />
+        </svg>
+        <p>日常之物图志 · Things Atlas</p>
+        <small>正在展开图志 · Loading the atlas…</small>
+      </div>
+      <!--loading:end--><!--app-html-->
+    </div>
+    <noscript
+      ><style>
+        #root[data-loading] > .app {
+          visibility: visible;
+        }
+        .initial-loading {
+          display: none;
+        }
+      </style></noscript
+    >
     <!--noscript-->
     <script type="module" src="/src/main.tsx"></script>
   </body>

@@ -1,4 +1,4 @@
-type Option<T extends string> = { value: T; label: string };
+type Option<T extends string> = { value: T; label: string; lang?: string };
 
 type Props<T extends string> = {
   value: T;
@@ -49,6 +49,7 @@ export function Segmented<T extends string>({
       {options.map((o, i) => (
         <button
           key={o.value}
+          lang={o.lang}
           type="button"
           role="radio"
           aria-checked={o.value === value}

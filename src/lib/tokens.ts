@@ -19,7 +19,7 @@ export const color = {
   accent: '#b5462e',
 } as const;
 
-/** Pigment-inspired category inks (UI + map). data/categories.json keeps legacy colours. */
+/** Pigment-inspired category inks (UI + map). */
 export const categoryColor: Record<CategoryId, string> = {
   stationery: '#2f5d8a', // prussian blue
   apparel_accessory: '#b5462e', // cinnabar

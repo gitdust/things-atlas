@@ -54,9 +54,8 @@
   "summary_zh": "1973 年梅特卡夫在施乐帕洛阿尔托研究中心构想并跑通以太网，最初用同轴电缆；后来改用今天常见的双绞线网线。",
   "summary_en": "Robert Metcalfe conceived Ethernet at Xerox PARC in 1973 and it first ran that November over coaxial cable; later versions moved to today's twisted-pair cables.",
   "tags": [
-    "network",
-    "cable",
-    "connector"
+    "computing",
+    "media"
   ],
   "updated": "2026-11-01",
   "image": {

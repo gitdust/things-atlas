@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 
-export type ChangeRecord = {
+type ChangeRecord = {
   id: string;
   afterVersion: string;
   zh: string;
@@ -78,7 +78,7 @@ export function findPreviousVersion(version: string, history: Iterable<string>):
   return null;
 }
 
-export function readPreviousVersion(root: string, version: string): string | null {
+function readPreviousVersion(root: string, version: string): string | null {
   const git = (args: string[]) =>
     execFileSync('git', args, {
       cwd: root,

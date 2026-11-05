@@ -51,9 +51,10 @@ const template = {
   ],
   disputed: false,
   notes: '',
+  notes_en: '',
   summary_zh: '',
   summary_en: '',
-  tags: [],
+  tags: ['office'],
   updated: today,
 };
 

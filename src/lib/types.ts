@@ -105,5 +105,4 @@ export type CategoryMeta = {
   id: CategoryId;
   name_zh: string;
   name_en: string;
-  color: string;
 };

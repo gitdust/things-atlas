@@ -1,6 +1,6 @@
 name: deploy
 
-# Production only. Pull requests and master pushes use validate.yml.
+# Production only. Pull requests and main pushes use validate.yml.
 on:
   push:
     branches: [main]

@@ -71,6 +71,7 @@ function collectCoreChars(): Set<string> {
   const chars = new Set<string>();
   walk(path.join(root, 'src'), /\.tsx?$/, (p) => addChars(chars, fs.readFileSync(p, 'utf8')));
   addChars(chars, fs.readFileSync(path.join(root, 'data', 'categories.json'), 'utf8'));
+  addChars(chars, fs.readFileSync(path.join(root, 'data', 'tags.json'), 'utf8'));
   walk(path.join(root, 'data', 'items'), /\.json$/, (p) =>
     addChars(chars, (JSON.parse(fs.readFileSync(p, 'utf8')) as { name_zh: string }).name_zh),
   );

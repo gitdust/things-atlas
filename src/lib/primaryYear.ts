@@ -8,9 +8,6 @@ export const YEAR_KEYS = ['invention', 'patent', 'mass_production', 'popularizat
 
 export type YearKey = (typeof YEAR_KEYS)[number];
 
-/** Default fallback order when `primary` is unset (or points to a null mark). */
-export const PRIMARY_YEAR_PRIORITY: readonly YearKey[] = YEAR_KEYS;
-
 type MarkLike = { year: number } | null | undefined;
 
 export function derivePrimaryYear(
@@ -21,7 +18,7 @@ export function derivePrimaryYear(
     const chosen = years[primary];
     if (chosen && typeof chosen.year === 'number') return chosen.year;
   }
-  for (const key of PRIMARY_YEAR_PRIORITY) {
+  for (const key of YEAR_KEYS) {
     const mark = years[key];
     if (mark && typeof mark.year === 'number') return mark.year;
   }

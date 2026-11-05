@@ -14,5 +14,9 @@ src/generated/*
 pnpm-lock.yaml
 pnpm-workspace.yaml
 
+# tooling and editor
+.codegraph
+.vscode
+
 .atlas-*.bundle
 .*.bundle

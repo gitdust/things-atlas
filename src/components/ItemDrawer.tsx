@@ -1,5 +1,6 @@
+import { itemPath } from '@/lib/seo';
 import { DisputeIcon } from './DisputeIcon';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { AtlasItem, CategoryMeta, ItemImage, YearKey, YearMark } from '@/lib/types';
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { categoryColor } from '@/lib/tokens';
@@ -79,6 +80,8 @@ export function ItemDrawer({
   const bodyRef = useRef<HTMLDivElement | null>(null);
   const titleRef = useRef<HTMLHeadingElement | null>(null);
   const itemId = item?.id;
+  const [shareStatus, setShareStatus] = useState('');
+  useEffect(() => setShareStatus(''), [itemId, lang]);
 
   useEffect(() => {
     bodyRef.current?.scrollTo({ top: 0 });
@@ -132,22 +135,63 @@ export function ItemDrawer({
               </span>
             ) : null}
           </div>
-          <button
-            type="button"
-            className="close-btn"
-            onClick={onClose}
-            aria-label={t(lang, 'close')}
-          >
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M4 4l8 8M12 4l-8 8" />
-            </svg>
-          </button>
+          <div className="drawer-actions">
+            <button
+              type="button"
+              className="close-btn share-btn"
+              aria-label={lang === 'zh' ? '分享条目' : 'Share entry'}
+              title={lang === 'zh' ? '分享条目' : 'Share entry'}
+              onClick={async () => {
+                const url = new URL(
+                  `${import.meta.env.BASE_URL.replace(/\/$/, '')}${itemPath(item.id)}`,
+                  window.location.origin,
+                );
+                if (lang === 'en') url.searchParams.set('lang', 'en');
+                setShareStatus('');
+                try {
+                  if (navigator.share) {
+                    await navigator.share({ title, url: url.href });
+                  } else {
+                    await navigator.clipboard.writeText(url.href);
+                    setShareStatus(lang === 'zh' ? '链接已复制' : 'Link copied');
+                  }
+                } catch (error) {
+                  if (error instanceof Error && error.name === 'AbortError') return;
+                  setShareStatus(
+                    lang === 'zh'
+                      ? '分享失败，请复制地址栏链接'
+                      : 'Unable to share. Copy the address bar link.',
+                  );
+                }
+              }}
+            >
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <circle cx="12" cy="4" r="2" />
+                <circle cx="4" cy="8" r="2" />
+                <circle cx="12" cy="12" r="2" />
+                <path d="M5.8 7.1l4.4-2.2M5.8 8.9l4.4 2.2" />
+              </svg>
+            </button>
+            <button
+              type="button"
+              className="close-btn"
+              onClick={onClose}
+              aria-label={t(lang, 'close')}
+            >
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M4 4l8 8M12 4l-8 8" />
+              </svg>
+            </button>
+          </div>
         </header>
 
         <h2 ref={titleRef} tabIndex={-1} className={`drawer-title lang-${lang}`}>
           {title}
         </h2>
         <p className="drawer-alt">{alt}</p>
+        <span className="share-status" role="status">
+          {shareStatus}
+        </span>
 
         <div className="drawer-primary">
           <span className="num">{formatYear(lang, item.primary_year)}</span>
@@ -165,7 +209,6 @@ export function ItemDrawer({
               eager={eagerImage}
             />
             <figcaption>
-              <span>{t(lang, 'photoCredit')}</span>
               {item.image.credit || item.image.license || item.image.source_url ? (
                 <span className="fig-credit">
                   {item.image.source_url ? (

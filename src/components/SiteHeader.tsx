@@ -46,8 +46,8 @@ export function SiteHeader({ lang, onLangChange }: Props) {
           value={lang}
           onChange={onLangChange}
           options={[
-            { value: 'zh', label: '中' },
-            { value: 'en', label: 'EN' },
+            { value: 'zh', label: '中', lang: 'zh-Hans' },
+            { value: 'en', label: 'EN', lang: 'en' },
           ]}
         />
       </div>

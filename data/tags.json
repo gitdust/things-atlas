@@ -1,0 +1,104 @@
+{
+  "tags": [
+    {
+      "id": "office",
+      "name_zh": "办公",
+      "name_en": "Office"
+    },
+    {
+      "id": "writing",
+      "name_zh": "书写与记录",
+      "name_en": "Writing & recording"
+    },
+    {
+      "id": "fastening",
+      "name_zh": "连接与固定",
+      "name_en": "Fastening"
+    },
+    {
+      "id": "food-drink",
+      "name_zh": "食品饮品",
+      "name_en": "Food & drink"
+    },
+    {
+      "id": "cooking",
+      "name_zh": "烹饪",
+      "name_en": "Cooking"
+    },
+    {
+      "id": "dining",
+      "name_zh": "餐饮器具",
+      "name_en": "Dining utensils"
+    },
+    {
+      "id": "storage",
+      "name_zh": "收纳与包装",
+      "name_en": "Storage & packaging"
+    },
+    {
+      "id": "cleaning",
+      "name_zh": "清洁与卫生",
+      "name_en": "Cleaning & hygiene"
+    },
+    {
+      "id": "grooming",
+      "name_zh": "个人护理",
+      "name_en": "Personal grooming"
+    },
+    {
+      "id": "clothing",
+      "name_zh": "穿戴",
+      "name_en": "Clothing & wearables"
+    },
+    {
+      "id": "travel",
+      "name_zh": "出行与户外",
+      "name_en": "Travel & outdoors"
+    },
+    {
+      "id": "repair",
+      "name_zh": "制作与维修",
+      "name_en": "Making & repair"
+    },
+    {
+      "id": "materials",
+      "name_zh": "材料",
+      "name_en": "Materials"
+    },
+    {
+      "id": "electric",
+      "name_zh": "电气与照明",
+      "name_en": "Electricity & lighting"
+    },
+    {
+      "id": "computing",
+      "name_zh": "计算与信息",
+      "name_en": "Computing & information"
+    },
+    {
+      "id": "media",
+      "name_zh": "影音与通信",
+      "name_en": "Media & communication"
+    },
+    {
+      "id": "leisure",
+      "name_zh": "游戏与休闲",
+      "name_en": "Games & leisure"
+    },
+    {
+      "id": "household",
+      "name_zh": "居家生活",
+      "name_en": "Household life"
+    },
+    {
+      "id": "health",
+      "name_zh": "健康与防护",
+      "name_en": "Health & protection"
+    },
+    {
+      "id": "trade",
+      "name_zh": "贸易与交换",
+      "name_en": "Trade & exchange"
+    }
+  ]
+}

@@ -8,6 +8,7 @@ import '@fontsource-variable/source-serif-4/opsz-italic.css';
 import './styles/fonts.css';
 import './styles/tokens.css';
 import './styles/app.css';
+import './styles/language-fonts.css';
 
 const container = document.getElementById('root')!;
 const app = (
@@ -17,11 +18,16 @@ const app = (
 );
 
 // Build-time prerendered markup is hydrated when the URL matches the state it
-// was rendered for; otherwise (e.g. ?lang=en, ?cat=…) index.html has flagged
+// was rendered for; otherwise (e.g. ?lang=en, ?y=…) index.html has flagged
 // it `ssr-stale` and we render fresh.
-const prerendered = container.firstElementChild !== null;
+const prerendered = container.querySelector('.app') !== null;
 const stale = document.documentElement.classList.contains('ssr-stale');
+// Remove the static loading sibling before hydrating the preserved SSR tree.
+container.querySelector('.initial-loading')?.remove();
+container.removeAttribute('data-loading');
 if (prerendered && !stale) {
+  // Discard template whitespace and loading comments around the SSR element.
+  container.replaceChildren(container.querySelector('.app')!);
   hydrateRoot(container, app);
 } else {
   createRoot(container).render(app);

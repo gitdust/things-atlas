@@ -26,15 +26,15 @@ Things Atlas 通过世界地图与时间轴，展示日常物品的发明、专�
 
 如果有希望添加的物品，请在 [Issues](https://github.com/gitdust/things-atlas/issues/new) 中提交，**只需提供物品名称**，详细描述和参考资料均为可选。
 
-### 会编程：Fork 后提交 PR
+### 会编程：新建分支并提交 PR
 
-欢迎 [Fork 本仓库](https://github.com/gitdust/things-atlas/fork)，克隆自己的 Fork 并创建分支，按照 [条目添加流程](CONTRIBUTING.md#add-an-item) 补充条目，再向本仓库提交 Pull Request。该流程包含资料核实、中英文字段、图片授权、数据生成和验证要求，也可以直接交给 AI agent 执行。
+只需克隆仓库后直接新建 `feature/{item name}` 分支，按照 [条目添加流程](CONTRIBUTING.md#add-an-item) 补充条目，再提交 Pull Request。该流程包含资料核实、中英文字段、图片授权、数据生成和验证要求，也可以直接交给 AI agent 执行。
 
 在克隆后的仓库中，把下面的任务交给 AI agent（替换物品名称）：
 
 ```text
 请先阅读仓库的 CONTRIBUTING.md，严格按照其中的 Add an item 流程，
-为「物品名称」新增条目。先检查是否重复，再联网核实历史资料，补齐中英文、
+新建 feature/{item name} 分支并为「物品名称」新增条目。先检查是否重复，再联网核实历史资料，补齐中英文、
 年代、地点、来源及授权图片；生成所需图片版本、索引和字体，完成适用验证。
 不要编造起源、年代、地点或图片许可。只修改本条目及必要的生成文件，
 完成后说明改动、验证结果和未验证项，并整理 PR 描述供我检查。

@@ -52,5 +52,29 @@
     "afterVersion": "0.1.0",
     "zh": "目录可从边缘收起，详情标题随面板宽度缩放，时间轴与条目面板底部对齐，并简化容器边框。",
     "en": "Collapse the directory from its edge, scale detail titles with the panel, align the timeline with the panel, and simplify container borders."
+  },
+  {
+    "id": "release-nine-objects",
+    "afterVersion": "0.2.0",
+    "zh": "新增 9 件日常之物，包括空调、铝箔纸、自行车、电风扇、电熨斗、冰箱、垃圾袋、吸尘器和洗衣机，并补充考证来源与图片。",
+    "en": "Add 9 everyday objects, including the air conditioner, aluminum foil, bicycle, electric fan, electric iron, refrigerator, trash bag, vacuum cleaner, and washing machine, with sourced histories and images."
+  },
+  {
+    "id": "release-tag-system",
+    "afterVersion": "0.2.0",
+    "zh": "引入 20 项主题标签分类并覆盖全部条目，支持单行横向平滑滑动筛选与边界渐变指示。",
+    "en": "Introduce 20 topic tags across all entries, with a single-line horizontally scrollable filter strip and edge fade indicators."
+  },
+  {
+    "id": "release-drawer-sharing",
+    "afterVersion": "0.2.0",
+    "zh": "条目面板新增原生分享与链接复制功能，底部优化图片来源排版，并改进中英文语言切换字体显示。",
+    "en": "Add native sharing and link copying to entry details, refine photo source styling, and improve typography across language switches."
+  },
+  {
+    "id": "release-loading-transition",
+    "afterVersion": "0.2.0",
+    "zh": "优化首屏展开动画与预渲染过渡体验，无缝衔接地图与目录内容呈现。",
+    "en": "Refine the initial loading animation and prerendered transition for a smoother atlas reveal."
   }
 ]

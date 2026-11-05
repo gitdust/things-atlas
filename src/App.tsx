@@ -62,7 +62,6 @@ export default function App({ url }: { url?: UrlLike }) {
     () =>
       filterItems(index.items, {
         selectedYear: year,
-        categories: [],
         showDisputed,
       }),
     [index.items, year, showDisputed],

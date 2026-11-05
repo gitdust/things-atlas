@@ -37,6 +37,11 @@ if (files.length === 0) {
   process.exit(1);
 }
 
+const tagIds = new Set<string>(
+  JSON.parse(fs.readFileSync(path.join(root, 'data', 'tags.json'), 'utf8')).tags.map(
+    (tag: { id: string }) => tag.id,
+  ),
+);
 const ids = new Set<string>();
 let failed = false;
 
@@ -54,6 +59,14 @@ for (const file of files) {
     continue;
   }
 
+  if (
+    !data.tags?.length ||
+    new Set(data.tags).size !== data.tags.length ||
+    data.tags.some((tag) => !tagIds.has(tag))
+  ) {
+    console.error(`✗ ${file}: missing, duplicate or unknown tags`);
+    failed = true;
+  }
   const ok = validate(data);
   if (!ok) {
     console.error(`✗ ${file}: schema errors`);

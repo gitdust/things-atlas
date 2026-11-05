@@ -1,0 +1,16 @@
+/* Language-specific typography, including the two language selector labels. */
+:lang(zh) {
+  --font-sans: 'Noto Sans SC Subset', 'Noto Sans SC', 'Inter Variable', 'PingFang SC', sans-serif;
+  --font-serif:
+    'Noto Serif SC Subset', 'Noto Serif SC', 'Source Serif 4 Variable', 'Songti SC', serif;
+}
+
+:lang(en) {
+  --font-sans: 'Inter Variable', 'Inter', 'Noto Sans SC Subset', sans-serif;
+  --font-serif: 'Source Serif 4 Variable', 'Source Serif 4', 'Noto Serif SC Subset', Georgia, serif;
+}
+
+.top-controls .segmented button:lang(zh),
+.top-controls .segmented button:lang(en) {
+  font-family: var(--font-sans);
+}

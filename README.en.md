@@ -26,20 +26,21 @@ The basemap uses modern political borders. Historical locations are approximate.
 
 If you would like an object added, please submit an [Issue](https://github.com/gitdust/things-atlas/issues/new). **Only the object's name is required**; a detailed description and references are optional.
 
-### Contribute an entry: Fork and open a PR
+### Contribute an entry: Create a branch and open a PR
 
-[Fork this repository](https://github.com/gitdust/things-atlas/fork), clone your fork, create a branch, and follow the [item contribution workflow](CONTRIBUTING.md#add-an-item). Then open a Pull Request against this repository. The workflow covers research, bilingual fields, image licensing, generated assets, and validation; you can also hand it directly to an AI agent.
+Just clone this repository and create a `feature/{item name}` branch directly. Follow the [item contribution workflow](CONTRIBUTING.md#add-an-item) to add the entry, then open a Pull Request. The workflow covers research, bilingual fields, image licensing, generated assets, and validation; you can also hand it directly to an AI agent.
 
 In your cloned repository, give your AI agent this task, replacing the object name:
 
 ```text
-Read CONTRIBUTING.md first and follow its Add an item workflow to add
-"OBJECT NAME". Check for duplicates, verify historical sources online,
-and complete bilingual text, dates, locations, references, and licensed images.
-Generate the required image variants, indexes, and fonts, and run applicable checks.
-Do not invent origins, dates, locations, or image licenses. Change only this entry
-and necessary generated files. Report changes, checks, and anything unverified,
-and prepare a PR description for my review.
+Read CONTRIBUTING.md first and follow its Add an item workflow to create
+a feature/{item name} branch and add "OBJECT NAME". Check for duplicates,
+verify historical sources online, and complete bilingual text, dates,
+locations, references, and licensed images. Generate the required image
+variants, indexes, and fonts, and run applicable checks. Do not invent origins,
+dates, locations, or image licenses. Change only this entry and necessary
+generated files. Report changes, checks, and anything unverified, and prepare
+a PR description for my review.
 ```
 
 Before submitting, review the agent's facts, references, and image licenses yourself. Explain your date choices and any disputes in the PR.

@@ -3,44 +3,37 @@
     {
       "id": "stationery",
       "name_zh": "文具",
-      "name_en": "Stationery",
-      "color": "#3b82f6"
+      "name_en": "Stationery"
     },
     {
       "id": "apparel_accessory",
       "name_zh": "服饰配件",
-      "name_en": "Apparel",
-      "color": "#ec4899"
+      "name_en": "Apparel"
     },
     {
       "id": "hand_tool",
       "name_zh": "手持工具",
-      "name_en": "Hand tools",
-      "color": "#f59e0b"
+      "name_en": "Hand tools"
     },
     {
       "id": "home",
       "name_zh": "家居",
-      "name_en": "Home",
-      "color": "#10b981"
+      "name_en": "Home"
     },
     {
       "id": "personal_care",
       "name_zh": "个护",
-      "name_en": "Personal care",
-      "color": "#8b5cf6"
+      "name_en": "Personal care"
     },
     {
       "id": "digital",
       "name_zh": "数码配件",
-      "name_en": "Digital",
-      "color": "#06b6d4"
+      "name_en": "Digital"
     },
     {
       "id": "kitchen",
       "name_zh": "厨具",
-      "name_en": "Kitchen",
-      "color": "#64748b"
+      "name_en": "Kitchen"
     }
   ]
 }
