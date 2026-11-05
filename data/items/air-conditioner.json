@@ -1,0 +1,80 @@
+{
+  "id": "air-conditioner",
+  "name_zh": "空调",
+  "name_en": "Air conditioner",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1902,
+      "precision": "year",
+      "ref": "Willis Carrier designed the first modern electrical air conditioning system for a Brooklyn printing plant",
+      "ref_zh": "威利斯·开利为布鲁克林印刷厂设计首台现代电力空气调节系统"
+    },
+    "patent": {
+      "year": 1906,
+      "precision": "year",
+      "ref": "US Patent 808,897 granted to Willis Carrier for Apparatus for Treating Air",
+      "ref_zh": "开利获得空气处理设备美国专利808,897号"
+    },
+    "mass_production": {
+      "year": 1931,
+      "precision": "year",
+      "ref": "H.H. Schultz and J.Q. Sherman developed the first individual room window air conditioning unit",
+      "ref_zh": "舒尔茨与谢尔曼推出首款可安装在窗台的独立窗式空调机组"
+    },
+    "popularization": {
+      "year": 1953,
+      "precision": "year",
+      "ref": "Post-war residential air conditioner sales exceeded one million units annually in the US",
+      "ref_zh": "二战后家用空调在美国年销量突破百万台，进入大众普及阶段"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 40.6782,
+      "lng": -73.9442,
+      "place_label_zh": "美国纽约布鲁克林（萨克特-威廉姆斯印刷厂）",
+      "place_label_en": "Brooklyn, New York, USA (Sackett & Wilhelms printing plant)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US Patent 808,897: Apparatus for Treating Air",
+      "url": "https://patents.google.com/patent/US808897A/en",
+      "type": "patent",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Willis Carrier, Father of Modern Air Conditioning — Library of Congress",
+      "url": "https://www.loc.gov/item/today-in-history/july-17/",
+      "type": "museum",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Air conditioning — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Air_conditioning",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "空调通过制冷循环调节室内温度与湿度。1902年威利斯·开利发明现代电力温湿度调节系统，20世纪中叶小型化窗机与分体机走入千家万户，重塑了现代城市生活与建筑方式。",
+  "summary_en": "The air conditioner controls indoor temperature and humidity. Willis Carrier designed the modern system in 1902, and mid-20th-century residential units reshaped modern buildings and comfort.",
+  "tags": [
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/air-conditioner.jpg",
+    "alt_zh": "安装在室内的分体式空调室内机",
+    "alt_en": "An indoor unit of a split air conditioner",
+    "credit": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:DAIKIN_AIR_CONDITIONER_INDOOR_UNIT.jpg"
+  }
+}

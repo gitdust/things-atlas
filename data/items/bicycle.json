@@ -1,0 +1,88 @@
+{
+  "id": "bicycle",
+  "name_zh": "自行车",
+  "name_en": "Bicycle",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1817,
+      "precision": "year",
+      "ref": "Karl Drais invented the steerable two-wheeled Laufmaschine (draisine) in Mannheim",
+      "ref_zh": "卡尔·德莱斯在曼海姆发明双轮木马滑行车（奔跑机）"
+    },
+    "patent": {
+      "year": 1818,
+      "precision": "year",
+      "ref": "Karl Drais received a grand-ducal privilege and French patent for his velocipede",
+      "ref_zh": "德莱斯获得巴登特许及法国两轮滑行车专利"
+    },
+    "mass_production": {
+      "year": 1885,
+      "precision": "year",
+      "ref": "John Kemp Starley produced the Rover Safety Bicycle with chain drive to the rear wheel in Coventry",
+      "ref_zh": "约翰·肯普·斯塔利在考文垂生产罗孚安全自行车，确立后轮链条驱动标准"
+    },
+    "popularization": {
+      "year": 1888,
+      "precision": "year",
+      "ref": "John Boyd Dunlop patented the pneumatic tire, sparking the 1890s global bicycle craze",
+      "ref_zh": "邓禄普充气轮胎投入使用并引发1890年代全球自行车普及狂潮"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 49.4875,
+      "lng": 8.466,
+      "place_label_zh": "德国巴登曼海姆（德莱斯滑行车）",
+      "place_label_en": "Mannheim, Baden, Germany (Drais Laufmaschine)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 52.4068,
+      "lng": -1.5197,
+      "place_label_zh": "英国考文垂（斯塔利罗孚安全自行车）",
+      "place_label_en": "Coventry, UK (Starley Rover safety bicycle)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Bicycle — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/technology/bicycle",
+      "type": "other",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Rover Safety Bicycle, 1885 — Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co25531/rover-safety-bicycle-1885-safety-bicycles",
+      "type": "museum",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bicycle — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "自行车是人力驱动的双轮轻便代步工具。1817年德莱斯发明双轮滑跑车，1885年斯塔利罗孚安全自行车确立链传动菱形车架，充气轮胎的加入使其成为全球最普及的个人交通工具。",
+  "summary_en": "The bicycle is a human-powered two-wheeled vehicle. Originating with Karl Drais's 1817 balance bicycle, J.K. Starley's 1885 Rover safety bicycle and pneumatic tires made it a worldwide daily vehicle.",
+  "tags": [
+    "travel",
+    "leisure"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/bicycle.jpg",
+    "alt_zh": "一辆停在胡同里的经典飞鸽自行车",
+    "alt_en": "A classic Flying Pigeon bicycle parked in a hutong",
+    "credit": "齐健",
+    "license": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Left_side_of_Flying_Pigeon.jpg"
+  }
+}

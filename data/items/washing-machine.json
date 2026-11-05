@@ -1,0 +1,76 @@
+{
+  "id": "washing-machine",
+  "name_zh": "洗衣机",
+  "name_en": "Washing machine",
+  "category": "home",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1910,
+      "precision": "year",
+      "ref": "Alva J. Fisher received US patent 966,677 for an electric washing machine",
+      "ref_zh": "阿尔瓦·J·费希尔获得电动洗衣机美国专利966,677号"
+    },
+    "mass_production": {
+      "year": 1908,
+      "precision": "year",
+      "ref": "Hurley Machine Company began commercial sales of the Thor electric washing machine",
+      "ref_zh": "赫利机器公司开始批量商业销售 Thor 电动洗衣机"
+    },
+    "popularization": {
+      "year": 1937,
+      "precision": "year",
+      "ref": "Bendix Home Appliances introduced the first automatic front-loading washing machine",
+      "ref_zh": "本迪克斯推出首款全自动滚筒家用洗衣机"
+    }
+  },
+  "primary": "mass_production",
+  "locations": [
+    {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "place_label_zh": "美国伊利诺伊州芝加哥（赫利机器公司 / Thor）",
+      "place_label_en": "Chicago, Illinois, USA (Hurley Machine Co. / Thor)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US Patent 966,677: Drive mechanism for washing machines",
+      "url": "https://patents.google.com/patent/US966677A/en",
+      "type": "patent",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Thor Washing Machine, 1908 — Chicago History Museum",
+      "url": "https://www.chicagohistory.org/",
+      "type": "museum",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Washing machine — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Washing_machine",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "洗衣机是利用机械动力清洗衣物的家用电器。20世纪初电动洗衣机在芝加哥投产销售，1930年代出现全自动滚筒机型，彻底改变了家庭日常家务劳动。",
+  "summary_en": "The washing machine mechanizes laundry using electric power. Commercial electric machines emerged in Chicago in the 1900s, followed by automatic models that transformed domestic labor.",
+  "tags": [
+    "cleaning",
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/washing-machine.jpg",
+    "alt_zh": "一台滚筒式全自动洗衣机",
+    "alt_en": "A front-loading washing machine",
+    "credit": "Gb.select",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Front_loader_Washing_machine.jpg"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "aluminum-foil",
+  "name_zh": "铝箔",
+  "name_en": "Aluminum foil",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1910,
+      "precision": "year",
+      "ref": "Robert Victor Neher patented the continuous rolling process for aluminum foil in Switzerland",
+      "ref_zh": "罗伯特·维克多·内埃在瑞士获得铝箔连续延压工艺专利"
+    },
+    "patent": {
+      "year": 1910,
+      "precision": "year",
+      "ref": "Swiss Patent 49,634 granted to Robert Victor Neher for aluminum foil rolling",
+      "ref_zh": "内埃获得瑞士铝箔延压专利第49,634号"
+    },
+    "mass_production": {
+      "year": 1911,
+      "precision": "year",
+      "ref": "Neher opened a rolling mill in Kreuzlingen; Toblerone began wrapping chocolate bars in foil",
+      "ref_zh": "内埃在克罗伊茨林根设厂投产，三角巧克力率先采用铝箔包装"
+    },
+    "popularization": {
+      "year": 1947,
+      "precision": "year",
+      "ref": "Reynolds Metals introduced Reynolds Wrap in the US, popularizing household aluminum foil",
+      "ref_zh": "雷诺兹金属在美国推出 Reynolds Wrap 铝箔卷，迅速普及为厨房日用品"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 47.65,
+      "lng": 9.1778,
+      "place_label_zh": "瑞士图尔高州克罗伊茨林根（内埃连续延压铝箔厂）",
+      "place_label_en": "Kreuzlingen, Thurgau, Switzerland (Neher aluminum foil rolling mill)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 37.5407,
+      "lng": -77.436,
+      "place_label_zh": "美国弗吉尼亚州里士满（雷诺兹家用铝箔卷）",
+      "place_label_en": "Richmond, Virginia, USA (Reynolds Wrap household foil)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "The Story of Aluminum Foil — The Aluminum Association",
+      "url": "https://www.aluminum.org/aluminum-foil",
+      "type": "other",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Aluminium foil — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aluminium_foil",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "铝箔是由高纯度铝压延制成的轻薄金属箔。1910年内埃在瑞士发明连续压延法并用于巧克力防潮包装，1947年雷诺兹推出家用箔卷，如今广泛用于食品烘烤、储鲜与日用遮蔽。",
+  "summary_en": "Aluminum foil is prepared in thin metal sheets. Patented in Switzerland in 1910 by Robert Victor Neher, Reynolds Metals introduced household rolls in 1947, making it a kitchen and packaging staple.",
+  "tags": [
+    "materials",
+    "storage",
+    "cooking"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/aluminum-foil.jpg",
+    "alt_zh": "一卷展开的厨房用铝箔纸",
+    "alt_en": "A roll of kitchen aluminium foil unrolled",
+    "credit": "Pippi",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aluminium_foil.jpg"
+  }
+}

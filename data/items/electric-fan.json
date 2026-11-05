@@ -1,0 +1,74 @@
+{
+  "id": "electric-fan",
+  "name_zh": "电风扇",
+  "name_en": "Electric fan",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1882,
+      "precision": "year",
+      "ref": "Schuyler Skaats Wheeler invented the two-bladed electric desk fan in New York",
+      "ref_zh": "斯凯勒·斯卡茨·惠勒在纽约发明双叶电动台扇"
+    },
+    "patent": {
+      "year": 1882,
+      "precision": "year",
+      "ref": "Wheeler developed electric desk fans manufactured by Crocker & Curtis Electric Motor Co.",
+      "ref_zh": "惠勒设计的电动风扇由克罗克-柯蒂斯电机公司转化并投产"
+    },
+    "mass_production": {
+      "year": 1886,
+      "precision": "year",
+      "ref": "Crocker & Curtis Electric Motor Company produced electric fans commercially",
+      "ref_zh": "克罗克-柯蒂斯电机公司在纽约实现电风扇商业化批量生产"
+    },
+    "popularization": {
+      "year": 1910,
+      "precision": "year",
+      "ref": "Oscillating and guarded brass/steel fans were widely adopted in offices and households",
+      "ref_zh": "带防护罩和摇头功能的电风扇在欧美家庭与办公室广泛普及"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "place_label_zh": "美国纽约（惠勒双叶电动台扇）",
+      "place_label_en": "New York City, New York, USA (Wheeler electric desk fan)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Schuyler Wheeler Biography and Electric Fan — Edison Tech Center",
+      "url": "https://edisontechcenter.org/electricfan.html",
+      "type": "other",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Mechanical fan — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mechanical_fan",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "电风扇利用电动机驱动叶片旋转加速空气流动以实现散热降温。1882年惠勒发明电动台扇，随着防护网罩与自动摇头机构的完善，成为夏季最普惠简便的居家用具。",
+  "summary_en": "The electric fan circulates air using an electric motor. Invented by Schuyler Wheeler in 1882, the addition of oscillating mechanisms and protective cages made it a staple domestic cooling device.",
+  "tags": [
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/electric-fan.jpg",
+    "alt_zh": "一台家用电风扇",
+    "alt_en": "A household electric fan",
+    "credit": "Garonzi Stefania",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Electric_fan.jpg"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "vacuum-cleaner",
+  "name_zh": "吸尘器",
+  "name_en": "Vacuum cleaner",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1901,
+      "precision": "year",
+      "ref": "Hubert Cecil Booth patented the Puffing Billy large motorized suction cleaner in London",
+      "ref_zh": "休伯特·塞西尔·布斯在伦敦获得 Puffing Billy 动力抽吸清洁器专利"
+    },
+    "patent": {
+      "year": 1908,
+      "precision": "year",
+      "ref": "James Murray Spangler patented the portable electric suction sweeper (US Patent 889,823)",
+      "ref_zh": "詹姆斯·斯潘格勒获得轻便电动真空清扫机美国专利889,823号"
+    },
+    "mass_production": {
+      "year": 1908,
+      "precision": "year",
+      "ref": "William H. Hoover bought Spangler's patent and began manufacturing Hoover upright cleaners",
+      "ref_zh": "威廉·胡佛购入斯潘格勒专利并在俄亥俄州建立 Hoover 直立吸尘器生产线"
+    },
+    "popularization": {
+      "year": 1921,
+      "precision": "year",
+      "ref": "Electrolux introduced the Model V cylinder vacuum cleaner with skids for easy home movement",
+      "ref_zh": "伊莱克斯推出带滑轨的 Model V 卧式机型，开创现代家用卧式吸尘器形态"
+    }
+  },
+  "primary": "patent",
+  "locations": [
+    {
+      "lat": 40.7989,
+      "lng": -81.3784,
+      "place_label_zh": "美国俄亥俄州坎顿（胡佛吸尘器投产）",
+      "place_label_en": "Canton, Ohio, USA (Hoover vacuum production)",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "place_label_zh": "英国伦敦（布斯真空抽吸清洁设备）",
+      "place_label_en": "London, UK (Booth suction cleaner)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US Patent 889,823: Carpet Sweeper and Cleaner",
+      "url": "https://patents.google.com/patent/US889823A/en",
+      "type": "patent",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "The Origin of the Vacuum Cleaner — Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co60171/puffing-billy-vacuum-cleaner",
+      "type": "museum",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Vacuum cleaner — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vacuum_cleaner",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "吸尘器利用电机产生负压气流吸入粉尘杂物。20世纪初布斯发明动力抽吸系统后，斯潘格勒与胡佛将之改造成轻便家用机型，成为现代家庭地面清洁的基本工具。",
+  "summary_en": "The vacuum cleaner uses suction to remove dust and debris. Following Booth's 1901 powered cleaner, Spangler and Hoover developed portable electric models that became standard home appliances.",
+  "tags": [
+    "cleaning",
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/vacuum-cleaner.jpg",
+    "alt_zh": "一台家用卧式吸尘器及其软管与吸头",
+    "alt_en": "A household canister vacuum cleaner with hose and nozzle",
+    "credit": "Che",
+    "license": "CC BY-SA 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vacuum_cleaner.jpg"
+  }
+}

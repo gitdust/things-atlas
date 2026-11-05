@@ -113,6 +113,16 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `ketchup.jpg` | [ketchup](https://commons.wikimedia.org/wiki/File:Ketchup_example_2.jpg) | CC BY-SA 3.0 | Yohan euan o4; derivative work: Bobek |
 | `instant-coffee.jpg` | [instant-coffee](https://commons.wikimedia.org/wiki/File:Instant_coffee.jpg) | CC BY-SA 2.5 | Editor at Large |
 
+| `washing-machine.jpg` | [Front loader Washing machine.jpg](https://commons.wikimedia.org/wiki/File:Front_loader_Washing_machine.jpg) | CC BY-SA 4.0 | Gb.select |
+| `refrigerator.jpg` | [A Samsung Refrigerator.jpg](https://commons.wikimedia.org/wiki/File:A_Samsung_Refrigerator.jpg) | CC BY-SA 4.0 | Kskhh |
+| `air-conditioner.jpg` | [DAIKIN AIR CONDITIONER INDOOR UNIT.jpg](https://commons.wikimedia.org/wiki/File:DAIKIN_AIR_CONDITIONER_INDOOR_UNIT.jpg) | CC BY-SA 4.0 | Dinkun Chen |
+| `vacuum-cleaner.jpg` | [Vacuum cleaner.jpg](https://commons.wikimedia.org/wiki/File:Vacuum_cleaner.jpg) | CC BY-SA 2.5 | Che |
+| `electric-fan.jpg` | [Electric fan.jpg](https://commons.wikimedia.org/wiki/File:Electric_fan.jpg) | CC BY-SA 4.0 | Garonzi Stefania |
+| `electric-iron.jpg` | [Teal and white electric steam iron - side view.jpg](https://commons.wikimedia.org/wiki/File:Teal_and_white_electric_steam_iron_-_side_view.jpg) | CC BY-SA 3.0 | Sokolikmawwer0 |
+| `bicycle.jpg` | [Left side of Flying Pigeon.jpg](https://commons.wikimedia.org/wiki/File:Left_side_of_Flying_Pigeon.jpg) | CC BY 2.0 | 齐健 |
+| `aluminum-foil.jpg` | [Aluminium foil.jpg](https://commons.wikimedia.org/wiki/File:Aluminium_foil.jpg) | CC BY-SA 3.0 | Pippi |
+| `trash-bag.jpg` | [A typical black bin bag from the UK 20060811.jpg](https://commons.wikimedia.org/wiki/File:A_typical_black_bin_bag_from_the_UK_20060811.jpg) | Public domain | Yuyudevil |
+
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 
 ## Derived files

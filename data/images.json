@@ -15,12 +15,28 @@
       960
     ]
   },
+  "air-conditioner.jpg": {
+    "width": 1280,
+    "height": 530,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "alarm-clock.jpg": {
     "width": 944,
     "height": 1200,
     "widths": [
       480,
       944
+    ]
+  },
+  "aluminum-foil.jpg": {
+    "width": 840,
+    "height": 630,
+    "widths": [
+      480,
+      840
     ]
   },
   "ballpoint-pen.jpg": {
@@ -66,6 +82,14 @@
   "bento-box.jpg": {
     "width": 1920,
     "height": 1440,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "bicycle.jpg": {
+    "width": 1280,
+    "height": 853,
     "widths": [
       480,
       960
@@ -218,6 +242,22 @@
   "door-knob.jpg": {
     "width": 1200,
     "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "electric-fan.jpg": {
+    "width": 1052,
+    "height": 1052,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "electric-iron.jpg": {
+    "width": 1280,
+    "height": 754,
     "widths": [
       480,
       960
@@ -622,6 +662,14 @@
       960
     ]
   },
+  "refrigerator.jpg": {
+    "width": 1280,
+    "height": 2431,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "rice-cooker.jpg": {
     "width": 469,
     "height": 492,
@@ -868,9 +916,25 @@
       960
     ]
   },
+  "trash-bag.jpg": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "usb-flash-drive.jpg": {
     "width": 1200,
     "height": 698,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "vacuum-cleaner.jpg": {
+    "width": 1280,
+    "height": 2387,
     "widths": [
       480,
       960
@@ -887,6 +951,14 @@
   "velcro.jpg": {
     "width": 1200,
     "height": 801,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "washing-machine.jpg": {
+    "width": 1280,
+    "height": 1527,
     "widths": [
       480,
       960

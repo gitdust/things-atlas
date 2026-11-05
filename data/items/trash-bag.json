@@ -1,0 +1,70 @@
+{
+  "id": "trash-bag",
+  "name_zh": "垃圾袋",
+  "name_en": "Trash bag",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1950,
+      "precision": "year",
+      "ref": "Harry Wasylyk and Larry Hansen created the first green polyethylene garbage bag in Winnipeg",
+      "ref_zh": "哈里·瓦西里克与拉里·汉森在温尼伯制成首批绿色聚乙烯垃圾袋"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1950,
+      "precision": "year",
+      "ref": "Wasylyk produced bags from his kitchen and sold them to Winnipeg General Hospital",
+      "ref_zh": "瓦西里克批量生产聚乙烯垃圾袋并向温尼伯综合医院等机构商业供应"
+    },
+    "popularization": {
+      "year": 1969,
+      "precision": "year",
+      "ref": "Union Carbide introduced Glad trash bags for home consumer use",
+      "ref_zh": "联合碳化物公司推出 Glad（佳能）家用垃圾袋，进入大众消费市场"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 49.8951,
+      "lng": -97.1384,
+      "place_label_zh": "加拿大曼尼托巴省温尼伯（瓦西里克聚乙烯垃圾袋）",
+      "place_label_en": "Winnipeg, Manitoba, Canada (Wasylyk polyethylene garbage bag)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Harry Wasylyk: The Green Garbage Bag — Canadian Science and Technology Museum",
+      "url": "https://ingeniumcanada.org/",
+      "type": "museum",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Bin bag — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bin_bag",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "垃圾袋是用塑料薄膜制成的废弃物收纳用具。1950年瓦西里克在温尼伯利用聚乙烯制造防漏垃圾袋供应医院，1960年代末家用卷装垃圾袋问世，极大地改善了公共与家庭环卫条件。",
+  "summary_en": "The trash bag is a disposable plastic bag for waste. Invented by Harry Wasylyk in Winnipeg in 1950 using polyethylene, rolls of household bags popularized in the late 1960s to modernize sanitation.",
+  "tags": [
+    "cleaning",
+    "storage",
+    "household"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/trash-bag.jpg",
+    "alt_zh": "一个装有废弃物的黑色塑料垃圾袋",
+    "alt_en": "A black plastic garbage bag filled with waste",
+    "credit": "Yuyudevil",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_typical_black_bin_bag_from_the_UK_20060811.jpg"
+  }
+}

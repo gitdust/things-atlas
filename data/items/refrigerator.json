@@ -1,0 +1,83 @@
+{
+  "id": "refrigerator",
+  "name_zh": "冰箱",
+  "name_en": "Refrigerator",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1834,
+      "precision": "year",
+      "ref": "Jacob Perkins built the first working vapor-compression refrigeration system in London",
+      "ref_zh": "雅各布·珀金斯在伦敦建造首个蒸气压缩式制冷循环装置"
+    },
+    "patent": {
+      "year": 1834,
+      "precision": "year",
+      "ref": "British patent 6662 granted to Jacob Perkins for ice making and cooling fluids",
+      "ref_zh": "珀金斯获得英国第6662号制冷与造冰专利"
+    },
+    "mass_production": {
+      "year": 1913,
+      "precision": "year",
+      "ref": "Fred W. Wolf Jr. introduced the DOMELRE (Domestic Electric Refrigerator) in Chicago",
+      "ref_zh": "沃尔夫在芝加哥推出首个一体化家用电机组 DOMELRE"
+    },
+    "popularization": {
+      "year": 1927,
+      "precision": "year",
+      "ref": "General Electric introduced the Monitor-Top refrigerator, popularizing hermetic home refrigeration",
+      "ref_zh": "通用电气推出顶部密封压缩机 Monitor-Top 冰箱，推动家用普及"
+    }
+  },
+  "primary": "popularization",
+  "locations": [
+    {
+      "lat": 42.8142,
+      "lng": -73.9396,
+      "place_label_zh": "美国纽约州斯克内克塔迪（通用电气 Monitor-Top 冰箱）",
+      "place_label_en": "Schenectady, New York, USA (GE Monitor-Top refrigerator)",
+      "kind": "popularization",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "place_label_zh": "英国伦敦（珀金斯蒸气压缩制冷机）",
+      "place_label_en": "London, UK (Perkins vapor-compression machine)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "General Electric Monitor Top Refrigerator, 1927 — National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/nmah_1419782",
+      "type": "museum",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Refrigerator — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Refrigerator",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "冰箱通过人工制冷保持低温以储藏食品。19世纪确立蒸气压缩循环后，20世纪初走向家庭化，通用电气1927年推出的密闭压缩机机型带动了现代家用冰箱的普及。",
+  "summary_en": "The refrigerator preserves food by artificial cooling. Following 19th-century vapor-compression systems, General Electric's 1927 Monitor-Top popularized sealed home refrigeration.",
+  "tags": [
+    "storage",
+    "electric",
+    "food-drink"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/refrigerator.jpg",
+    "alt_zh": "一台现代白色家用双门电冰箱",
+    "alt_en": "A modern white household refrigerator",
+    "credit": "Kskhh",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_Samsung_Refrigerator.jpg"
+  }
+}

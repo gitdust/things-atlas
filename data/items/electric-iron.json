@@ -1,0 +1,83 @@
+{
+  "id": "electric-iron",
+  "name_zh": "电熨斗",
+  "name_en": "Electric iron",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1882,
+      "precision": "year",
+      "ref": "Henry W. Seely invented the electric flatiron in New York City",
+      "ref_zh": "亨利·W·西利在纽约发明内置碳弧加热的电平熨斗"
+    },
+    "patent": {
+      "year": 1882,
+      "precision": "year",
+      "ref": "US Patent 259,054 granted to Henry W. Seely for an Electric Flatiron",
+      "ref_zh": "西利获得电平熨斗美国专利259,054号"
+    },
+    "mass_production": {
+      "year": 1905,
+      "precision": "year",
+      "ref": "Earl Richardson introduced the lightweight Hotpoint iron with heated tip in Ontario, California",
+      "ref_zh": "厄尔·理查森在加州推出前端集中发热的轻便 Hotpoint 电熨斗"
+    },
+    "popularization": {
+      "year": 1926,
+      "precision": "year",
+      "ref": "Eldec Co. introduced the first commercial electric steam iron, easing fabric care",
+      "ref_zh": "Eldec 公司推出首款商用电蒸汽熨斗，蒸汽功能迅速普及于家用熨烫"
+    }
+  },
+  "primary": "patent",
+  "locations": [
+    {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "place_label_zh": "美国纽约（西利电平熨斗专利）",
+      "place_label_en": "New York City, New York, USA (Seely electric flatiron patent)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 34.0633,
+      "lng": -117.6509,
+      "place_label_zh": "美国加利福尼亚州安大略（理查森 Hotpoint 电熨斗）",
+      "place_label_en": "Ontario, California, USA (Richardson Hotpoint iron)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US Patent 259,054: Electric Flatiron",
+      "url": "https://patents.google.com/patent/US259054A/en",
+      "type": "patent",
+      "accessed": "2026-11-05"
+    },
+    {
+      "title": "Clothes iron — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clothes_iron",
+      "type": "wiki",
+      "accessed": "2026-11-05"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "电熨斗通过电热元件加热底板并配合压力与蒸汽平整织物。1882年西利发明电平熨斗，告别了传统炭火加热；20世纪温控与蒸汽功能的加入使其成为衣物打理的必备品。",
+  "summary_en": "The electric iron uses heated resistance elements to press clothes. Patented by Henry Seely in 1882, it replaced charcoal-heated irons and later integrated thermostats and steam for fabric care.",
+  "tags": [
+    "clothing",
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-05",
+  "image": {
+    "src": "/images/electric-iron.jpg",
+    "alt_zh": "一台现代家用电蒸汽熨斗侧视图",
+    "alt_en": "Side view of a modern household electric steam iron",
+    "credit": "Sokolikmawwer0",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Teal_and_white_electric_steam_iron_-_side_view.jpg"
+  }
+}
