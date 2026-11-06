@@ -1712,3 +1712,54 @@ button {
 .share-status:empty {
   display: none;
 }
+
+/* Shared with the lazy map placeholder so loading feedback paints immediately. */
+.map-status {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  background: var(--paper-map);
+  pointer-events: none;
+}
+.map-status-content {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+  padding: var(--s-3) var(--s-4);
+  color: var(--ink-2);
+  font-size: var(--fs-ui-sm);
+  pointer-events: auto;
+}
+.map-status-content button {
+  border: 0;
+  border-bottom: 1px solid var(--rule-strong);
+  padding: 2px 0;
+  background: transparent;
+  cursor: pointer;
+}
+.map-spinner {
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid var(--rule);
+  border-top-color: var(--ink-2);
+  border-radius: 50%;
+  animation: map-spin 0.9s linear infinite;
+}
+.map-status.is-compact {
+  inset: 90px auto auto var(--edge);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-pill);
+  background: var(--glass);
+}
+@keyframes map-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .map-spinner {
+    animation: none;
+  }
+}

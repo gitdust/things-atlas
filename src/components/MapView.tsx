@@ -1,5 +1,6 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import { MapStatus } from './MapShell';
 import maplibregl, {
   type ExpressionSpecification,
   type GeoJSONSource,
@@ -135,6 +136,9 @@ export function MapView({
   panelOpen,
   visibleIds,
 }: MapViewProps) {
+  const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
+  const [firstPaint, setFirstPaint] = useState(false);
+  const [attempt, setAttempt] = useState(0);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MlMap | null>(null);
   const readyRef = useRef(false);
@@ -154,18 +158,43 @@ export function MapView({
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
-    const map = new maplibregl.Map({
-      container: containerRef.current,
-      style: MAP_STYLE,
-      center: [-30, 32],
-      zoom: isMobile() ? 0.6 : 1.7,
-      minZoom: 0.5,
-      maxZoom: 9,
-      dragRotate: false,
-      pitchWithRotate: false,
-      attributionControl: false,
-      fadeDuration: motionDuration(200),
+    setStatus('loading');
+    setFirstPaint(false);
+    let map: MlMap;
+    try {
+      map = new maplibregl.Map({
+        container: containerRef.current,
+        style: MAP_STYLE,
+        center: [-30, 32],
+        zoom: isMobile() ? 0.6 : 1.7,
+        minZoom: 0.5,
+        maxZoom: 9,
+        dragRotate: false,
+        pitchWithRotate: false,
+        attributionControl: false,
+        fadeDuration: motionDuration(200),
+      });
+    } catch {
+      setStatus('error');
+      return;
+    }
+    let timeout: ReturnType<typeof setTimeout>;
+    const markLoading = () => {
+      setStatus((current) => (current === 'error' ? current : 'loading'));
+      clearTimeout(timeout);
+      timeout = setTimeout(() => setStatus('error'), 20000);
+    };
+    map.on('dataloading', markLoading);
+    map.on('idle', () => {
+      clearTimeout(timeout);
+      setFirstPaint(true);
+      setStatus((current) => (current === 'error' ? current : 'ready'));
     });
+    map.on('error', () => {
+      clearTimeout(timeout);
+      setStatus('error');
+    });
+    markLoading();
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.AttributionControl({ compact: false }));
     const attribution = containerRef.current.querySelector('.maplibregl-ctrl-attrib');
@@ -299,12 +328,14 @@ export function MapView({
 
     mapRef.current = map;
     return () => {
+      clearTimeout(timeout);
+      attribution?.remove();
       popup.remove();
       map.remove();
       mapRef.current = null;
       readyRef.current = false;
     };
-  }, []);
+  }, [attempt]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -351,7 +382,7 @@ export function MapView({
     return () => {
       map.off('load', run);
     };
-  }, [selectedId, selectedItem]);
+  }, [selectedId, selectedItem, attempt]);
 
   useEffect(() => {
     const changed = previousPanelOpen.current !== panelOpen;
@@ -371,5 +402,17 @@ export function MapView({
     return () => preference.removeEventListener('change', onChange);
   }, []);
 
-  return <div ref={containerRef} className="map-root" aria-label={t(lang, 'map')} />;
+  return (
+    <>
+      <div ref={containerRef} className="map-root" aria-label={t(lang, 'map')} />
+      {status !== 'ready' && (
+        <MapStatus
+          lang={lang}
+          failed={status === 'error'}
+          compact={firstPaint}
+          onRetry={() => setAttempt((value) => value + 1)}
+        />
+      )}
+    </>
+  );
 }

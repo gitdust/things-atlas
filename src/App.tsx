@@ -1,20 +1,10 @@
-import {
-  Suspense,
-  lazy,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  type ComponentType,
-} from 'react';
-import type { MapViewProps } from '@/components/MapView';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Timeline } from '@/components/Timeline';
 import { ItemCatalog } from '@/components/ItemCatalog';
 import { SiteHeader } from '@/components/SiteHeader';
 import { PanelToggle } from '@/components/PanelToggle';
 import { ItemDrawer } from '@/components/ItemDrawer';
-import { MapShell } from '@/components/MapShell';
+import { MapBoundary } from '@/components/MapBoundary';
 import { findItem, loadCategories, loadItemsIndex } from '@/lib/loadItems';
 import { filterItems } from '@/lib/yearFilter';
 import { itemsToArcs, itemsToGeoJSON } from '@/lib/geo';
@@ -22,16 +12,6 @@ import { t, type Lang } from '@/lib/i18n';
 import { HTML_LANG, applyDocumentMeta, itemPath } from '@/lib/seo';
 import { readUrlState, type UrlLike } from '@/lib/urlState';
 import { mq } from '@/lib/tokens';
-
-/**
- * MapLibre (~800 kB) is code-split: the shell paints immediately with an
- * empty paper-coloured map area and the map chunk streams in after. During
- * build-time prerendering (no window) the shell is rendered directly.
- */
-const MapView: ComponentType<MapViewProps> =
-  typeof window === 'undefined'
-    ? ({ lang }) => <MapShell lang={lang} />
-    : lazy(() => import('@/components/MapView').then((m) => ({ default: m.MapView })));
 
 export default function App({ url }: { url?: UrlLike }) {
   const index = useMemo(() => loadItemsIndex(), []);
@@ -183,17 +163,15 @@ export default function App({ url }: { url?: UrlLike }) {
   return (
     <div className={`app${panelOpen ? ' has-drawer' : ' panel-collapsed'}`} lang={HTML_LANG[lang]}>
       <main className="stage">
-        <Suspense fallback={<MapShell lang={lang} />}>
-          <MapView
-            lang={lang}
-            geojson={geojson}
-            arcs={arcs}
-            visibleIds={visibleIds}
-            panelOpen={panelOpen}
-            selectedItem={selectedItem}
-            onSelect={selectItem}
-          />
-        </Suspense>
+        <MapBoundary
+          lang={lang}
+          geojson={geojson}
+          arcs={arcs}
+          visibleIds={visibleIds}
+          panelOpen={panelOpen}
+          selectedItem={selectedItem}
+          onSelect={selectItem}
+        />
         <div className="scrim scrim-top" aria-hidden="true" />
         <div className="scrim scrim-bottom" aria-hidden="true" />
       </main>
