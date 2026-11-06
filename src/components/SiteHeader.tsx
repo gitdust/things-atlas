@@ -2,9 +2,9 @@ import { Segmented } from './Segmented';
 import { VersionControl } from './VersionControl';
 import { t, type Lang } from '@/lib/i18n';
 
-type Props = { lang: Lang; onLangChange: (lang: Lang) => void };
+type Props = { lang: Lang; onLangChange: (lang: Lang) => void; onHelp: () => void };
 
-export function SiteHeader({ lang, onLangChange }: Props) {
+export function SiteHeader({ lang, onLangChange, onHelp }: Props) {
   return (
     <header className="topbar">
       <div className="brand">
@@ -28,6 +28,15 @@ export function SiteHeader({ lang, onLangChange }: Props) {
       </div>
 
       <div className="top-controls">
+        <button
+          type="button"
+          className="guide-help"
+          onClick={onHelp}
+          aria-label={lang === 'zh' ? '使用指南' : 'Site guide'}
+          title={lang === 'zh' ? '使用指南' : 'Site guide'}
+        >
+          ?
+        </button>
         <a
           className="github-link"
           href="https://github.com/gitdust/things-atlas"

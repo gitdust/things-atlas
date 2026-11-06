@@ -9,6 +9,7 @@ import './styles/fonts.css';
 import './styles/tokens.css';
 import './styles/app.css';
 import './styles/language-fonts.css';
+import './styles/guide.css';
 
 const container = document.getElementById('root')!;
 const app = (

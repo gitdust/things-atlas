@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { Guide } from '@/components/Guide';
 import { Timeline } from '@/components/Timeline';
 import { ItemCatalog } from '@/components/ItemCatalog';
 import { SiteHeader } from '@/components/SiteHeader';
@@ -18,6 +19,7 @@ export default function App({ url }: { url?: UrlLike }) {
   const categories = useMemo(() => loadCategories(), []);
   const initial = useMemo(() => readUrlState(url ?? window.location), [url]);
 
+  const [guideRequest, setGuideRequest] = useState(0);
   const [lang, setLang] = useState<Lang>(initial.lang);
   const [year, setYear] = useState(() =>
     Math.max(
@@ -27,6 +29,7 @@ export default function App({ url }: { url?: UrlLike }) {
   );
   const [exploring, setExploring] = useState(initial.year != null);
   const [panelOpen, setPanelOpen] = useState(true);
+  const openGuidePanel = useCallback(() => setPanelOpen(true), []);
   const panelToggleRef = useRef<HTMLButtonElement>(null);
   const catalogViewRef = useRef<HTMLDivElement>(null);
   const catalogFocusRef = useRef<HTMLElement | null>(null);
@@ -83,7 +86,7 @@ export default function App({ url }: { url?: UrlLike }) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
-      if (document.querySelector('dialog[open]')) return;
+      if (document.querySelector('dialog[open], .guide-card')) return;
       if (
         e.target instanceof HTMLElement &&
         (e.target.closest(
@@ -176,7 +179,18 @@ export default function App({ url }: { url?: UrlLike }) {
         <div className="scrim scrim-bottom" aria-hidden="true" />
       </main>
 
-      <SiteHeader lang={lang} onLangChange={setLang} />
+      <SiteHeader
+        lang={lang}
+        onLangChange={setLang}
+        onHelp={() => setGuideRequest((value) => value + 1)}
+      />
+      <Guide
+        lang={lang}
+        request={guideRequest}
+        selectedId={selectedId}
+        panelOpen={panelOpen}
+        onOpenPanel={openGuidePanel}
+      />
 
       <PanelToggle
         ref={panelToggleRef}
