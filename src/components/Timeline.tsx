@@ -172,7 +172,7 @@ export function Timeline({
     <div className={`timeline${exploring ? ' is-exploring' : ''}${dragging ? ' is-dragging' : ''}`}>
       <div className="tl-header">
         <div
-          className="segmented seg-sm tl-modes"
+          className="tl-modes"
           role="group"
           aria-label={lang === 'zh' ? '时间轴模式' : 'Timeline mode'}
         >
@@ -182,7 +182,7 @@ export function Timeline({
             aria-pressed={!exploring}
             onClick={() => onExploringChange(false)}
           >
-            {lang === 'zh' ? '全部' : 'All'}
+            {lang === 'zh' ? '全部年代' : 'All ages'}
           </button>
           <button
             type="button"
@@ -193,25 +193,28 @@ export function Timeline({
             {lang === 'zh' ? '按年代探索' : 'Explore by year'}
           </button>
         </div>
-        <p className="tl-status">
-          {exploring
-            ? lang === 'zh'
-              ? `截至${formatYear(lang, year)} · 已出现 ${visibleIds.size} / 共 ${items.length} 项`
-              : `By ${formatYear(lang, year)} · ${visibleIds.size} / ${items.length} items`
-            : lang === 'zh'
-              ? `全部年代 · ${items.length} 项`
-              : `All ages · ${items.length} items`}
-        </p>
-      </div>
-      {selectedItem && (
-        <p className="tl-selection">
-          {pick(lang, selectedItem.name_zh, selectedItem.name_en)} ·{' '}
-          {formatYear(lang, selectedItem.primary_year)}
-          {exploring && selectedItem.primary_year > year && (
-            <span> · {lang === 'zh' ? '晚于当前探索年份' : 'Later than the explored year'}</span>
+        <p className="tl-status" aria-live="polite">
+          {selectedItem ? (
+            <>
+              {pick(lang, selectedItem.name_zh, selectedItem.name_en)} ·{' '}
+              {formatYear(lang, selectedItem.primary_year)}
+              {exploring && selectedItem.primary_year > year && (
+                <span> · {lang === 'zh' ? '晚于当前年份' : 'Later than current year'}</span>
+              )}
+            </>
+          ) : exploring ? (
+            lang === 'zh' ? (
+              `已出现 ${visibleIds.size} / ${items.length} 项`
+            ) : (
+              `${visibleIds.size} / ${items.length} items`
+            )
+          ) : lang === 'zh' ? (
+            `${items.length} 项`
+          ) : (
+            `${items.length} items`
           )}
         </p>
-      )}
+      </div>
       <div
         className="tl-scrub"
         style={{

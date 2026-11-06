@@ -359,24 +359,50 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: var(--s-1) var(--s-3);
+  gap: var(--s-3);
+  min-height: 32px;
+  padding: 0 var(--s-1);
 }
 .tl-modes {
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
+  gap: var(--s-4);
 }
-.tl-status,
-.tl-selection {
-  margin: 0;
+.tl-modes button {
+  position: relative;
+  padding: 7px 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   font-size: var(--fs-xs);
-  color: var(--ink-2);
+  color: var(--ink-3);
+  cursor: pointer;
 }
-.tl-selection {
+.tl-modes button:hover,
+.tl-modes button.active {
+  color: var(--ink);
+}
+.tl-modes button.active::after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  border-radius: var(--r-pill);
+  background: var(--accent);
+}
+.tl-status {
+  min-width: 0;
+  margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: var(--fs-xs);
+  color: var(--ink-3);
 }
-.tl-selection span {
+.tl-status span {
   color: var(--accent);
 }
 .timeline:not(.is-exploring) .tl-scrub {
