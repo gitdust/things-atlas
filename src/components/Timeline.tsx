@@ -8,6 +8,8 @@ import { makeTimeScale } from '@/lib/timeScale';
 type Props = {
   lang: Lang;
   year: number;
+  exploring: boolean;
+  onExploringChange: (exploring: boolean) => void;
   min: number;
   max: number;
   items: AtlasItem[];
@@ -38,6 +40,8 @@ function tickLabel(lang: Lang, y: number): string {
 export function Timeline({
   lang,
   year,
+  exploring,
+  onExploringChange,
   min,
   max,
   items,
@@ -160,11 +164,54 @@ export function Timeline({
     else if (e.key === 'ArrowRight') set(year + scale.stepAt(year));
   };
 
+  const selectedItem = items.find((item) => item.id === selectedId);
   const yearPct = pct(year);
   const thumbEdge = yearPct < 8 ? ' edge-l' : yearPct > 92 ? ' edge-r' : '';
 
   return (
-    <div className={`timeline${dragging ? ' is-dragging' : ''}`}>
+    <div className={`timeline${exploring ? ' is-exploring' : ''}${dragging ? ' is-dragging' : ''}`}>
+      <div className="tl-header">
+        <div
+          className="segmented seg-sm tl-modes"
+          role="group"
+          aria-label={lang === 'zh' ? '时间轴模式' : 'Timeline mode'}
+        >
+          <button
+            type="button"
+            className={!exploring ? 'active' : ''}
+            aria-pressed={!exploring}
+            onClick={() => onExploringChange(false)}
+          >
+            {lang === 'zh' ? '全部' : 'All'}
+          </button>
+          <button
+            type="button"
+            className={exploring ? 'active' : ''}
+            aria-pressed={exploring}
+            onClick={() => onExploringChange(true)}
+          >
+            {lang === 'zh' ? '按年代探索' : 'Explore by year'}
+          </button>
+        </div>
+        <p className="tl-status">
+          {exploring
+            ? lang === 'zh'
+              ? `截至${formatYear(lang, year)} · 已出现 ${visibleIds.size} / 共 ${items.length} 项`
+              : `By ${formatYear(lang, year)} · ${visibleIds.size} / ${items.length} items`
+            : lang === 'zh'
+              ? `全部年代 · ${items.length} 项`
+              : `All ages · ${items.length} items`}
+        </p>
+      </div>
+      {selectedItem && (
+        <p className="tl-selection">
+          {pick(lang, selectedItem.name_zh, selectedItem.name_en)} ·{' '}
+          {formatYear(lang, selectedItem.primary_year)}
+          {exploring && selectedItem.primary_year > year && (
+            <span> · {lang === 'zh' ? '晚于当前探索年份' : 'Later than the explored year'}</span>
+          )}
+        </p>
+      )}
       <div
         className="tl-scrub"
         style={{
@@ -172,7 +219,12 @@ export function Timeline({
           height: trackY + 40,
         }}
         onPointerDown={(e) => {
-          if (!e.isPrimary || e.button !== 0 || (e.target as HTMLElement).closest('.tl-dot'))
+          if (
+            !exploring ||
+            !e.isPrimary ||
+            e.button !== 0 ||
+            (e.target as HTMLElement).closest('.tl-dot')
+          )
             return;
           e.currentTarget.querySelector<HTMLElement>('.tl-slider')?.focus({ preventScroll: true });
           (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
@@ -180,22 +232,24 @@ export function Timeline({
           onChange(yearFromClientX(e.clientX));
         }}
         onPointerMove={(e) => {
-          if (dragging) onChange(yearFromClientX(e.clientX));
+          if (exploring && dragging) onChange(yearFromClientX(e.clientX));
         }}
         onPointerUp={() => setDragging(false)}
         onPointerCancel={() => setDragging(false)}
       >
-        <div
-          className="tl-slider"
-          role="slider"
-          tabIndex={0}
-          aria-label={t(lang, 'year')}
-          aria-valuemin={min}
-          aria-valuemax={max}
-          aria-valuenow={year}
-          aria-valuetext={formatYear(lang, year)}
-          onKeyDown={onKeyDown}
-        />
+        {exploring && (
+          <div
+            className="tl-slider"
+            role="slider"
+            tabIndex={0}
+            aria-label={t(lang, 'year')}
+            aria-valuemin={min}
+            aria-valuemax={max}
+            aria-valuenow={year}
+            aria-valuetext={formatYear(lang, year)}
+            onKeyDown={onKeyDown}
+          />
+        )}
         {/*
           Inset rail: min/max sit inset from the scrub edges so dots, ticks,
           labels, and pills at the ends are not clipped. trackRef lives here so
@@ -205,7 +259,7 @@ export function Timeline({
           <div className="tl-hist" aria-hidden="true">
             {[...density.counts.entries()].map(([y, c]) => {
               if (y < min || y > max) return null;
-              const lit = y <= year;
+              const lit = !exploring || y <= year;
               return (
                 <span
                   key={y}
@@ -218,7 +272,7 @@ export function Timeline({
 
           <div className="tl-swarm">
             {swarm.map(({ item, level }) => {
-              const visible = visibleIds.has(item.id);
+              const visible = !exploring || visibleIds.has(item.id);
               const sel = item.id === selectedId;
               const x = pct(item.primary_year);
               const edge = x < 8 ? ' edge-l' : x > 92 ? ' edge-r' : '';
@@ -237,14 +291,16 @@ export function Timeline({
                   title={`${pick(lang, item.name_zh, item.name_en)} · ${formatYear(lang, item.primary_year)}`}
                   onClick={() => onSelect(item.id)}
                 >
-                  <span className="tl-dot-label">{pick(lang, item.name_zh, item.name_en)}</span>
+                  <span className="tl-dot-label">
+                    {pick(lang, item.name_zh, item.name_en)} · {formatYear(lang, item.primary_year)}
+                  </span>
                 </button>
               );
             })}
           </div>
 
           <div className="tl-track" aria-hidden="true">
-            <div className="tl-fill" style={{ width: `${yearPct}%` }} />
+            <div className="tl-fill" style={{ width: `${exploring ? yearPct : 100}%` }} />
           </div>
 
           <div className="tl-ticks" aria-hidden="true">
@@ -262,15 +318,17 @@ export function Timeline({
             })}
           </div>
 
-          <div
-            className={`tl-thumb${thumbEdge}`}
-            style={{ left: `${yearPct}%` }}
-            aria-hidden="true"
-          >
-            <span className="tl-thumb-flag num">{formatYear(lang, year, true)}</span>
-            <span className="tl-thumb-line" />
-            <span className="tl-thumb-knob" />
-          </div>
+          {exploring && (
+            <div
+              className={`tl-thumb${thumbEdge}`}
+              style={{ left: `${yearPct}%` }}
+              aria-hidden="true"
+            >
+              <span className="tl-thumb-flag num">{formatYear(lang, year, true)}</span>
+              <span className="tl-thumb-line" />
+              <span className="tl-thumb-knob" />
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -352,7 +352,36 @@ button {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: stretch;
-  gap: var(--s-4);
+  gap: var(--s-1);
+}
+
+.tl-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-3);
+}
+.tl-modes {
+  flex-shrink: 0;
+}
+.tl-status,
+.tl-selection {
+  margin: 0;
+  font-size: var(--fs-xs);
+  color: var(--ink-2);
+}
+.tl-selection {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tl-selection span {
+  color: var(--accent);
+}
+.timeline:not(.is-exploring) .tl-scrub {
+  cursor: default;
+  touch-action: auto;
 }
 
 .tl-scrub {

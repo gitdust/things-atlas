@@ -39,14 +39,13 @@ export default function App({ url }: { url?: UrlLike }) {
   const initial = useMemo(() => readUrlState(url ?? window.location), [url]);
 
   const [lang, setLang] = useState<Lang>(initial.lang);
-  const [year, setYear] = useState(() => {
-    const y = initial.year ?? index.year_range.data_max;
-    if (!initial.id) return y;
-    const item = findItem(index.items, initial.id);
-    // Deep link / ?id= must land with the entry visible on the cumulative timeline.
-    if (item && item.primary_year > y) return Math.min(index.year_range.max, item.primary_year);
-    return y;
-  });
+  const [year, setYear] = useState(() =>
+    Math.max(
+      index.year_range.min,
+      Math.min(index.year_range.max, initial.year ?? index.year_range.data_max),
+    ),
+  );
+  const [exploring, setExploring] = useState(initial.year != null);
   const [panelOpen, setPanelOpen] = useState(true);
   const panelToggleRef = useRef<HTMLButtonElement>(null);
   const catalogViewRef = useRef<HTMLDivElement>(null);
@@ -58,16 +57,21 @@ export default function App({ url }: { url?: UrlLike }) {
   // the catalogue's search and scroll state underneath it.
   const [detailId, setDetailId] = useState<string | null>(initial.id);
 
+  const timelineItems = useMemo(
+    () => (showDisputed ? index.items : index.items.filter((item) => !item.disputed)),
+    [index.items, showDisputed],
+  );
+
   const visible = useMemo(
     () =>
       filterItems(index.items, {
-        selectedYear: year,
+        selectedYear: exploring ? year : index.year_range.max,
         showDisputed,
       }),
-    [index.items, year, showDisputed],
+    [index.items, index.year_range.max, year, exploring, showDisputed],
   );
 
-  const geojson = useMemo(() => itemsToGeoJSON(visible), [visible]);
+  const geojson = useMemo(() => itemsToGeoJSON(timelineItems), [timelineItems]);
   const selectedItem = useMemo(() => findItem(index.items, selectedId), [index.items, selectedId]);
   const detailItem = useMemo(() => findItem(index.items, detailId), [index.items, detailId]);
 
@@ -75,14 +79,15 @@ export default function App({ url }: { url?: UrlLike }) {
   // page per entry); year and language live in the query.
   useEffect(() => {
     const params = new URLSearchParams();
-    params.set('y', String(year));
+    if (exploring) params.set('y', String(year));
     if (lang === 'en') params.set('lang', 'en');
     const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-    const next = `${base}${itemPath(selectedId && selectedItem ? selectedId : null)}?${params}`;
+    const query = params.toString();
+    const next = `${base}${itemPath(selectedId && selectedItem ? selectedId : null)}${query ? `?${query}` : ''}`;
     if (next !== window.location.pathname + window.location.search) {
       window.history.replaceState(null, '', next);
     }
-  }, [year, selectedId, selectedItem, lang]);
+  }, [year, exploring, selectedId, selectedItem, lang]);
 
   // <html lang>, <title>, description, canonical and social tags follow the UI.
   useEffect(() => {
@@ -108,7 +113,7 @@ export default function App({ url }: { url?: UrlLike }) {
       ) {
         return;
       }
-      if (window.matchMedia(mq.mobile).matches) return;
+      if (!exploring || window.matchMedia(mq.mobile).matches) return;
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
         setYear((y) => Math.max(index.year_range.min, y - (e.shiftKey ? 10 : 1)));
@@ -119,7 +124,7 @@ export default function App({ url }: { url?: UrlLike }) {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [index.year_range.min, index.year_range.max]);
+  }, [exploring, index.year_range.min, index.year_range.max]);
 
   const closeDrawer = useCallback(() => setSelectedId(null), []);
   const changePanelOpen = useCallback((open: boolean) => {
@@ -155,19 +160,13 @@ export default function App({ url }: { url?: UrlLike }) {
       setPanelOpen(true);
       const item = findItem(index.items, id);
       if (item) {
-        setYear(item.primary_year);
         if (item.disputed) setShowDisputed(true);
       }
     },
     [index.items],
   );
 
-  const timelineItems = useMemo(
-    () => (showDisputed ? index.items : index.items.filter((item) => !item.disputed)),
-    [index.items, showDisputed],
-  );
-
-  const arcs = useMemo(() => itemsToArcs(visible), [visible]);
+  const arcs = useMemo(() => itemsToArcs(timelineItems), [timelineItems]);
   const visibleIds = useMemo(() => new Set(visible.map((i) => i.id)), [visible]);
 
   const entryNo = useMemo(() => {
@@ -189,6 +188,7 @@ export default function App({ url }: { url?: UrlLike }) {
             lang={lang}
             geojson={geojson}
             arcs={arcs}
+            visibleIds={visibleIds}
             panelOpen={panelOpen}
             selectedItem={selectedItem}
             onSelect={selectItem}
@@ -252,6 +252,8 @@ export default function App({ url }: { url?: UrlLike }) {
         <Timeline
           lang={lang}
           year={year}
+          exploring={exploring}
+          onExploringChange={setExploring}
           min={index.year_range.min}
           max={index.year_range.max}
           items={timelineItems}

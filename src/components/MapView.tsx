@@ -20,6 +20,7 @@ export type MapViewProps = {
   geojson: FeatureCollection<Point, ItemFeatureProps>;
   arcs: FeatureCollection<LineString, ArcProps>;
   selectedItem: AtlasItem | null;
+  visibleIds: Set<string>;
   onSelect: (id: string) => void;
 };
 
@@ -60,15 +61,29 @@ function mapPadding(drawerOpen: boolean) {
   }
   const panelWidth =
     parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--drawer-w')) || 360;
-  return { top: 100, left: 48, right: drawerOpen ? panelWidth + 48 : 48, bottom: 230 };
+  const timelineHeight =
+    document.querySelector('.bottombar')?.getBoundingClientRect().height ?? 180;
+  return {
+    top: 100,
+    left: 48,
+    right: drawerOpen ? panelWidth + 48 : 48,
+    bottom: timelineHeight + 50,
+  };
 }
 
-function applySelection(map: MlMap, selectedId: string | null) {
+function applySelection(map: MlMap, selectedId: string | null, visibleIds: Set<string>) {
   const sel = selectedId ?? '';
   const has = selectedId != null;
   const isSel: ExpressionSpecification = ['==', ['get', 'id'], sel];
-  const dim = (on: number, off: number, base: number): ExpressionSpecification =>
-    has ? ['case', isSel, on, off] : ['literal', base];
+  const inEra: ExpressionSpecification = ['in', ['get', 'id'], ['literal', [...visibleIds]]];
+  const dim = (on: number, off: number, base: number): ExpressionSpecification => [
+    'case',
+    isSel,
+    on,
+    inEra,
+    has ? off : base,
+    base * 0.25,
+  ];
 
   map.setPaintProperty('items-halo', 'circle-opacity', dim(0.32, 0.06, 0.22));
   map.setPaintProperty('items-halo', 'circle-radius', [
@@ -111,7 +126,15 @@ function tooltipHtml(p: ItemFeatureProps, lang: Lang) {
     <div class="tip-place">${esc(place)}</div>`;
 }
 
-export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen }: MapViewProps) {
+export function MapView({
+  lang,
+  geojson,
+  arcs,
+  selectedItem,
+  onSelect,
+  panelOpen,
+  visibleIds,
+}: MapViewProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MlMap | null>(null);
   const readyRef = useRef(false);
@@ -119,8 +142,14 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
   onSelectRef.current = onSelect;
   const langRef = useRef(lang);
   langRef.current = lang;
-  const latest = useRef({ geojson, arcs, selectedId: selectedItem?.id ?? null, panelOpen });
-  latest.current = { geojson, arcs, selectedId: selectedItem?.id ?? null, panelOpen };
+  const latest = useRef({
+    geojson,
+    arcs,
+    selectedId: selectedItem?.id ?? null,
+    panelOpen,
+    visibleIds,
+  });
+  latest.current = { geojson, arcs, selectedId: selectedItem?.id ?? null, panelOpen, visibleIds };
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -220,7 +249,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
       });
 
       readyRef.current = true;
-      applySelection(map, selectedId);
+      applySelection(map, selectedId, latest.current.visibleIds);
       if (!selectedId)
         map.easeTo({
           padding: mapPadding(latest.current.panelOpen),
@@ -289,6 +318,11 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
     if (map && readyRef.current) localizeBasemap(map, lang);
   }, [lang]);
 
+  useEffect(() => {
+    const map = mapRef.current;
+    if (map && readyRef.current) applySelection(map, latest.current.selectedId, visibleIds);
+  }, [visibleIds]);
+
   const selectedId = selectedItem?.id ?? null;
   const previousPanelOpen = useRef(panelOpen);
   useEffect(() => {
@@ -297,7 +331,7 @@ export function MapView({ lang, geojson, arcs, selectedItem, onSelect, panelOpen
     const map = mapRef.current;
     if (!map) return;
     const run = () => {
-      applySelection(map, selectedId);
+      applySelection(map, selectedId, latest.current.visibleIds);
       map.stop();
       const padding = mapPadding(latest.current.panelOpen);
       if (selectedItem) {
