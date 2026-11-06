@@ -76,5 +76,29 @@
     "afterVersion": "0.2.0",
     "zh": "优化首屏展开动画与预渲染过渡体验，无缝衔接地图与目录内容呈现。",
     "en": "Refine the initial loading animation and prerendered transition for a smoother atlas reveal."
+  },
+  {
+    "id": "release-timeline-exploration",
+    "afterVersion": "0.3.0",
+    "zh": "时间轴默认展示全部年代；查看条目不再改变探索年份。新增按年代探索，较晚条目弱化显示且仍可点击，并收紧时间轴切换与状态布局。",
+    "en": "Show all ages by default and keep the explored year unchanged when opening entries. Explore by year with later objects faded but still clickable, using compact timeline controls and status text."
+  },
+  {
+    "id": "release-map-loading-recovery",
+    "afterVersion": "0.3.0",
+    "zh": "地图首次加载显示等待提示，后续瓦片加载使用角落提示；加载失败或超时可重试，目录仍可继续使用。",
+    "en": "Show initial map loading feedback and a compact indicator for later tile loads. Retry failed or timed-out loads while keeping the catalogue usable."
+  },
+  {
+    "id": "release-first-visit-guide",
+    "afterVersion": "0.3.0",
+    "zh": "新增首次访问导览，桌面三步、手机两步，介绍地图与目录操作及桌面时间轴；支持跳过、Esc退出，并可通过顶部问号重新打开。",
+    "en": "Add a first-visit guide with three desktop steps and two mobile steps covering the map, catalogue, and desktop timeline. Skip or exit with Esc, and reopen it from the header help button."
+  },
+  {
+    "id": "release-six-household-objects",
+    "afterVersion": "0.3.0",
+    "zh": "新增镜子、梳子、扫帚、勺子、蜡烛和抽水马桶，条目总数增至131项，补齐中英文资料、来源与配图，时间轴延伸至约公元前6000年。",
+    "en": "Add the mirror, comb, broom, spoon, candle, and flush toilet, bringing the collection to 131 entries with bilingual histories, sources, and images. Extend the timeline to around 6000 BCE."
   }
 ]
