@@ -119,6 +119,13 @@
       960
     ]
   },
+  "broom.jpg": {
+    "width": 265,
+    "height": 761,
+    "widths": [
+      265
+    ]
+  },
   "button.jpg": {
     "width": 1200,
     "height": 795,
@@ -138,6 +145,14 @@
   "can-opener.jpg": {
     "width": 1200,
     "height": 640,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "candle.jpg": {
+    "width": 960,
+    "height": 1445,
     "widths": [
       480,
       960
@@ -186,6 +201,14 @@
   "coca-cola.jpg": {
     "width": 3456,
     "height": 5184,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "comb.jpg": {
+    "width": 960,
+    "height": 640,
     "widths": [
       480,
       960
@@ -298,6 +321,14 @@
   "flashlight.jpg": {
     "width": 1200,
     "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "flush-toilet.jpg": {
+    "width": 960,
+    "height": 1280,
     "widths": [
       480,
       960
@@ -509,6 +540,14 @@
     "widths": [
       480,
       960
+    ]
+  },
+  "mirror.jpg": {
+    "width": 734,
+    "height": 1026,
+    "widths": [
+      480,
+      734
     ]
   },
   "mobile-phone.jpg": {
@@ -784,6 +823,14 @@
   "soy-sauce.jpg": {
     "width": 1062,
     "height": 889,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "spoon.jpg": {
+    "width": 960,
+    "height": 2124,
     "widths": [
       480,
       960

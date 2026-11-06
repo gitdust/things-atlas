@@ -1,0 +1,74 @@
+{
+  "id": "broom",
+  "name_zh": "扫帚",
+  "name_en": "Broom",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": -1300,
+      "precision": "century",
+      "ref": "Representative date within the 1539–1077 BCE dating of a surviving broom from Deir el-Medina; not an invention date",
+      "ref_zh": "代尔麦地那出土扫帚定年为前1539—前1077年；取约前1300年为展示点，并非发明年份"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1797,
+      "precision": "year",
+      "ref": "Levi Dickinson’s broomcorn brooms at Hadley became a milestone in a regional American broom-making industry",
+      "ref_zh": "哈德利的利维·迪金森制作高粱穗扫帚，成为美国当地制帚业的发展节点"
+    }
+  },
+  "locations": [
+    {
+      "lat": 25.728,
+      "lng": 32.601,
+      "place_label_zh": "埃及代尔麦地那（新王国时期出土实物）",
+      "place_label_en": "Deir el-Medina, Egypt (surviving New Kingdom broom)",
+      "kind": "invention",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 42.3418,
+      "lng": -72.5884,
+      "place_label_zh": "美国马萨诸塞州哈德利（1797年高粱穗扫帚产业节点）",
+      "place_label_en": "Hadley, Massachusetts, USA (broomcorn industry milestone, 1797)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1797
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Broom, Suppl. 7671 — Museo Egizio",
+      "url": "https://collezioni.museoegizio.it/en-GB/material/S_7671",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Broom Pounder — Pocumtuck Valley Memorial Association, American Centuries",
+      "url": "https://americancenturies.org/collection/1903-09-02/",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "disputed": true,
+  "notes": "扫帚由植物材料扎束而成，全球最早制作时间和地点未确定。都灵埃及博物馆的代尔麦地那实物定年为前1539—前1077年，时间轴取约前1300年作为范围内代表点。此出土地不是已证实的发明地；1797年的美国记录涉及高粱穗扫帚和当地产业，并非所有扫帚的首次发明。",
+  "notes_en": "The first date and place of broom-making are unknown. Museo Egizio dates its Deir el-Medina broom to 1539–1077 BCE; 1300 BCE is a representative point within that range. The findspot is not a proven birthplace. The 1797 Hadley record concerns broomcorn brooms and a regional industry, not the first broom.",
+  "summary_zh": "把枝条或植物纤维扎成一束，就能扫去地面的尘土。埃及新王国时期已留下扫帚实物；1797年哈德利的高粱穗扫帚推动了美国当地制帚业的发展。",
+  "summary_en": "Bundled plant fibres sweep away dirt. A broom survives from Egypt’s New Kingdom; broomcorn brooms made in Hadley in 1797 helped launch a regional American industry.",
+  "tags": [
+    "cleaning",
+    "household"
+  ],
+  "updated": "2026-11-06",
+  "image": {
+    "src": "/images/broom.jpg",
+    "alt_zh": "带木柄的枝条扫帚",
+    "alt_en": "A twig broom with a wooden handle",
+    "credit": "Thomas Schmidt (Schmidti)",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Broom.jpg"
+  }
+}

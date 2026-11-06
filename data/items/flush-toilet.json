@@ -1,0 +1,74 @@
+{
+  "id": "flush-toilet",
+  "name_zh": "抽水马桶",
+  "name_en": "Flush toilet",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1596,
+      "precision": "year",
+      "ref": "John Harington published a wash-down water closet with a valve, a documented precursor to the modern flush toilet",
+      "ref_zh": "约翰·哈林顿发表带冲洗系统和阀门的水厕设计，是现代抽水马桶的有据可查的前身"
+    },
+    "patent": {
+      "year": 1775,
+      "precision": "year",
+      "ref": "Alexander Cumming received British patent 1105 for a water closet incorporating a water-sealed trap",
+      "ref_zh": "亚历山大·卡明取得英国第1105号水厕专利，利用弯管存水隔绝臭气"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 51.3811,
+      "lng": -2.359,
+      "place_label_zh": "英国巴斯一带（哈林顿早期水厕，位置示意）",
+      "place_label_en": "Bath area, England (Harington water closet; approximate)",
+      "kind": "invention",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 54.0,
+      "lng": -2.0,
+      "place_label_zh": "英国（卡明水封水厕专利，国家示意）",
+      "place_label_en": "United Kingdom (Cumming water-seal patent; country-level pin)",
+      "kind": "patent",
+      "confidence": "country",
+      "year_override": 1775
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "A flushing story — Science Museum",
+      "url": "https://blog.sciencemuseum.org.uk/a-flushing-story/",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Innovations in toilet design — The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-topic/business-finance-and-innovation/toilet-design/",
+      "type": "other",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "disputed": false,
+  "notes": "1596年对应哈林顿公开设计的现代水厕前身，不代表人类第一次以水排污；更早的厕所与排水系统已有考古记录。卡明1775年的贡献是水封弯管等结构的专利改良。现代抽水马桶由多人持续改进，不能把哈林顿、卡明或克拉珀称为所有水冲厕所的唯一发明者。",
+  "notes_en": "The 1596 mark records Harington’s published precursor to the modern water closet, not the first use of water to dispose of waste. Earlier sanitation systems existed. Cumming’s 1775 patent improved the water seal and other details. Modern flush toilets developed through many contributions, with no sole inventor.",
+  "summary_zh": "1596年，哈林顿公开了带冲洗系统和阀门的水厕设计。1775年，卡明为带水封弯管的改良结构取得英国专利，以存水阻隔臭气，成为现代抽水马桶发展的重要节点。",
+  "summary_en": "Harington published a flushing water-closet design in 1596. Cumming’s 1775 British patent added a water-sealed trap to block odours, a major step toward the modern flush toilet.",
+  "tags": [
+    "cleaning",
+    "household"
+  ],
+  "updated": "2026-11-06",
+  "image": {
+    "src": "/images/flush-toilet.jpg",
+    "alt_zh": "打开盖子的白色抽水马桶",
+    "alt_en": "A white flush toilet with its lid open",
+    "credit": "Kantikkantemirgonov",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flush_toilet.jpg"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "spoon",
+  "name_zh": "勺子",
+  "name_en": "Spoon",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": -5800,
+      "precision": "century",
+      "ref": "Bone spoons from Grad-Starčevo, Serbia, date to 5800–5450 BCE; studied wear marks include matches to human milk teeth",
+      "ref_zh": "塞尔维亚格拉德—斯塔尔切沃遗址骨勺断代为前5800—前5450年；研究发现部分磨痕与人类乳牙吻合"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 44.81,
+      "lng": 20.7,
+      "place_label_zh": "塞尔维亚斯塔尔切沃（史前骨勺出土地，位置示意）",
+      "place_label_en": "Starčevo, Serbia (prehistoric bone spoon findspot; approximate)",
+      "kind": "invention",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 29.53,
+      "lng": 31.21,
+      "place_label_zh": "埃及塔尔罕（早期象牙勺出土地，位置示意）",
+      "place_label_en": "Tarkhan, Egypt (early ivory spoon findspot; approximate)",
+      "kind": "invention",
+      "confidence": "approximate",
+      "year_override": -3100
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Bone spoons for prehistoric babies — Stefanović et al., PLOS ONE (2019)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6922321/",
+      "type": "other",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Spoon, 12.187.30 — The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/570826",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "disputed": false,
+  "notes": "勺子没有可确认的单一发明者或发源地，且存在早于本条所选遗址的零星记录。时间轴采用格拉德—斯塔尔切沃遗址前5800—前5450年断代范围的起点，不代表精确发明年份。2019年研究将部分骨勺磨痕与实验获得的乳牙痕迹比较，支持婴幼儿喂食用途。地图点为出土地一带的示意。埃及象牙勺的馆藏断代为前3100—前2649年。",
+  "notes_en": "Spoons have no established single inventor or birthplace, and isolated earlier finds exist. The timeline uses the start of the Grad-Starčevo site’s 5800–5450 BCE date range, not an exact invention date. A 2019 study compared wear with experimental milk-tooth marks, supporting infant feeding. Pins approximate findspots. The Egyptian ivory spoon dates to ca. 3100–2649 BCE.",
+  "summary_zh": "勺子在史前已经出现，起源难以归于一地。塞尔维亚前5800—前5450年的骨勺上，发现了与婴幼儿乳牙吻合的痕迹；埃及也留下了约前3100—前2649年的象牙勺实物。",
+  "summary_en": "Prehistoric spoons have no single known birthplace. Serbian bone spoons from 5800–5450 BCE bear marks matching milk teeth; an Egyptian ivory spoon dates to ca. 3100–2649 BCE.",
+  "tags": [
+    "dining"
+  ],
+  "updated": "2026-11-06",
+  "image": {
+    "src": "/images/spoon.jpg",
+    "alt_zh": "一把金属勺子",
+    "alt_en": "A metal spoon",
+    "credit": "DIVYALAKSHWIN",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Spoon.jpg"
+  }
+}

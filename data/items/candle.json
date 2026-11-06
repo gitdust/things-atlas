@@ -1,0 +1,89 @@
+{
+  "id": "candle",
+  "name_zh": "蜡烛",
+  "name_en": "Candle",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": -500,
+      "precision": "century",
+      "ref": "Conventional date for Roman dipped candles in Smith College’s teaching collection; the wider origin of wicked candles is uncertain",
+      "ref_zh": "史密斯学院教学资料以约前500年标示罗马浸制蜡烛；有芯蜡烛的整体起源仍不确定"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1200,
+      "precision": "century",
+      "ref": "Candle-making became a guild craft in England and France during the 13th century",
+      "ref_zh": "13世纪，英格兰与法国的制烛业已成为行会手艺"
+    }
+  },
+  "locations": [
+    {
+      "lat": 41.9,
+      "lng": 12.5,
+      "place_label_zh": "意大利（罗马浸制蜡烛传统，以罗马示意）",
+      "place_label_en": "Italy (Roman dipped-candle tradition; Rome shown)",
+      "kind": "contested",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 52,
+      "lng": -1.5,
+      "place_label_zh": "英格兰（13世纪制烛行会）",
+      "place_label_en": "England (candle-making guild craft, 13th century)",
+      "kind": "popularization",
+      "confidence": "country",
+      "year_override": 1200
+    },
+    {
+      "lat": 46.6,
+      "lng": 2.2,
+      "place_label_zh": "法国（13世纪制烛行会）",
+      "place_label_en": "France (candle-making guild craft, 13th century)",
+      "kind": "popularization",
+      "confidence": "country",
+      "year_override": 1200
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Candles, Roman, 500 BCE — Smith College Museum of Ancient Inventions",
+      "url": "https://www.smith.edu/bigbad/historyscitech/museum/ancient_inventions/candles2.html",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "The illuminating history of lighting — English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/history-of-lighting/",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Candle making — Heritage Crafts",
+      "url": "https://heritagecrafts.org.uk/craft/candle-making/",
+      "type": "other",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "disputed": true,
+  "notes": "有芯蜡烛、盛油容器和浸脂灯草的边界会影响起源叙述。史密斯学院教学资料把罗马浸制蜡烛标为约前500年，英国遗产机构也以推测措辞归于罗马人；本条采用这一传统性年代作为展示点，不认定罗马是全球唯一发明地，也不把更早的灯草直接等同于蜡烛。13世纪的行会节点不是首次普及的精确年份。",
+  "notes_en": "Accounts differ in how they distinguish wicked candles from oil lamps and fat-soaked rushlights. Smith College labels Roman dipped candles around 500 BCE, while English Heritage presents the Roman attribution cautiously. This conventional date is a display point, not proof of a single global birthplace. The guild milestone represents the 13th century rather than an exact first year of adoption.",
+  "summary_zh": "蜡烛把可燃脂或蜡包在灯芯周围，成为可携带的光源。罗马浸制烛是一条早期传统；到13世纪，英格兰和法国的制烛业已形成行会手艺。",
+  "summary_en": "Candles surround a wick with solid fat or wax. Roman dipping is an early tradition; by the 13th century candle-making was a guild craft in England and France.",
+  "tags": [
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-06",
+  "image": {
+    "src": "/images/candle.jpg",
+    "alt_zh": "黑暗中燃烧的蜡烛",
+    "alt_en": "A candle burning in the dark",
+    "credit": "User:Paolostefano1412",
+    "license": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Candle.jpg"
+  }
+}

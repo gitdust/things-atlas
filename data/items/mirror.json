@@ -1,0 +1,75 @@
+{
+  "id": "mirror",
+  "name_zh": "镜子",
+  "name_en": "Mirror",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": -6000,
+      "precision": "century",
+      "ref": "Polished obsidian mirrors are attested in Neolithic Anatolia around 6000 BCE; this is an archaeological benchmark, not an invention date",
+      "ref_zh": "约公元前6000年安纳托利亚已有磨光黑曜石镜；这是考古见证年代，并非确定的发明年份"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 37.6664,
+      "lng": 32.8261,
+      "place_label_zh": "土耳其加泰土丘（新石器时代黑曜石镜）",
+      "place_label_en": "Çatalhöyük, Türkiye (Neolithic obsidian mirrors)",
+      "kind": "invention",
+      "confidence": "approximate"
+    },
+    {
+      "lat": 26.1846,
+      "lng": 31.9193,
+      "place_label_zh": "埃及阿拜多斯（约前1800—1600年的青铜镜实物）",
+      "place_label_en": "Abydos, Egypt (bronze mirror dated ca. 1800–1600 BCE)",
+      "kind": "production",
+      "confidence": "approximate",
+      "year_override": -1700
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Mirrors — Pitt Rivers Museum, University of Oxford",
+      "url": "https://bodyarts.prm.ox.ac.uk/index.php/temporary-body-arts/mirrors.html",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Çatalhöyük 2004 Archive Report — obsidian mirror",
+      "url": "https://www.catalhoyuk.com/archive_reports/2004/ar04_27.html",
+      "type": "other",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Mirror E9211, Abydos, 1800–1600 BCE — Penn Museum",
+      "url": "https://collections.penn.museum/collections/object/150642",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "disputed": false,
+  "notes": "人造镜并无可确认的单一发明者。约前6000年是博物馆对早期黑曜石镜的概括年代，加泰土丘地点代表考古发现，不是已证实的唯一发源地。阿拜多斯节点仅示意前1800—1600年青铜镜的实物记录，以前1700年作为区间中点，不表示青铜镜当时才出现，也不表示两地存在直接传播路线。",
+  "notes_en": "No single inventor is established. The ca. 6000 BCE benchmark summarizes early obsidian mirrors; Çatalhöyük marks an archaeological findspot, not a proven exclusive birthplace. The Abydos marker uses 1700 BCE as the midpoint of a surviving bronze mirror’s 1800–1600 BCE range, not the first bronze mirror or evidence of direct transmission.",
+  "summary_zh": "镜子先于玻璃镜存在。约公元前6000年，安纳托利亚已有磨光黑曜石镜；埃及也留下了青铜镜实物。早期地点记录的是考古见证，无法据此确定唯一发明者。",
+  "summary_en": "Mirrors predate glass mirrors: polished obsidian examples survive from Neolithic Anatolia around 6000 BCE, and bronze examples from Egypt. These finds do not establish a single inventor.",
+  "tags": [
+    "grooming",
+    "household"
+  ],
+  "updated": "2026-11-06",
+  "image": {
+    "src": "/images/mirror.jpg",
+    "alt_zh": "带装饰框与手柄的镜子插图",
+    "alt_en": "Illustration of a hand mirror with a decorated frame",
+    "credit": "David Ring",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hand_mirror.jpg"
+  }
+}

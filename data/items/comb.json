@@ -1,0 +1,65 @@
+{
+  "id": "comb",
+  "name_zh": "梳子",
+  "name_en": "Comb",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": -4000,
+      "precision": "century",
+      "ref": "An Egyptian bone comb in Cambridge is dated to ca. 4000–3500 BCE; the timeline uses the start of this range as an early surviving example",
+      "ref_zh": "剑桥馆藏埃及骨梳约为公元前4000—3500年；时间轴取区间起点，表示早期实物见证"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 26.0,
+      "lng": 30.0,
+      "place_label_zh": "埃及（前王朝时期骨梳，具体出土地不详）",
+      "place_label_en": "Egypt (Predynastic bone comb; precise findspot unrecorded)",
+      "kind": "invention",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Bone comb Z 17754 A, Naqada I, 4000–3500 BC — Museum of Archaeology and Anthropology, Cambridge",
+      "url": "https://collections.maa.cam.ac.uk/objects/414828/",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Origins of the Afro Comb: 6,000 years of culture, politics and identity — University of Cambridge",
+      "url": "https://www.cam.ac.uk/research/news/origins-of-the-afro-comb-6000-years-of-culture-politics-and-identity",
+      "type": "other",
+      "accessed": "2026-11-06"
+    },
+    {
+      "title": "Hair Comb Decorated with Rows of Wild Animals, ca. 3200–3100 BCE — The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544067",
+      "type": "museum",
+      "accessed": "2026-11-06"
+    }
+  ],
+  "disputed": false,
+  "notes": "梳子没有已确认的单一发明者。本条以前4000—3500年的埃及骨梳作为可核实的早期实物见证，并不宣称它是世界上最早的梳子。时间轴采用该区间起点，地图按馆藏记录只定位到埃及。前3200—3100年的埃及象牙梳还显示了装饰和仪式用途。",
+  "notes_en": "No single inventor is established. The Egyptian bone comb dated to 4000–3500 BCE is a verifiable early surviving example, not a claim to the world’s first comb. The timeline uses the range’s beginning and the map locates only the documented country. A later Egyptian ivory comb dated to 3200–3100 BCE also shows decorative and ceremonial functions.",
+  "summary_zh": "梳子用排列的齿整理头发。埃及留下约公元前4000—3500年的骨梳，后来的象牙梳还刻有动物图案，兼具装饰和仪式用途。现存实物不足以确定梳子的唯一发源地。",
+  "summary_en": "Combs arrange hair with rows of teeth. Egyptian bone examples date to 4000–3500 BCE; later carved ivory combs also had decorative and ceremonial roles. A single birthplace remains unproven.",
+  "tags": [
+    "grooming"
+  ],
+  "updated": "2026-11-06",
+  "image": {
+    "src": "/images/comb.jpg",
+    "alt_zh": "一把黑色塑料梳子",
+    "alt_en": "A black plastic comb",
+    "credit": "Crisco 1492",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plastic_comb,_2015-06-07.jpg"
+  }
+}
