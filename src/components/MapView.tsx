@@ -83,18 +83,22 @@ function applySelection(map: MlMap, selectedId: string | null, visibleIds: Set<s
     on,
     inEra,
     has ? off : base,
-    base * 0.25,
+    base * 0.22,
   ];
 
-  map.setPaintProperty('items-halo', 'circle-opacity', dim(0.32, 0.06, 0.22));
+  if (map.getLayer('items-halo-active')) {
+    map.setFilter('items-halo-active', ['==', ['get', 'id'], sel]);
+  }
+
+  map.setPaintProperty('items-halo', 'circle-opacity', dim(0.18, 0.025, 0.06));
   map.setPaintProperty('items-halo', 'circle-radius', [
     'interpolate',
     ['linear'],
     ['zoom'],
     1,
-    has ? ['case', isSel, 20, 11] : 13,
+    has ? ['case', isSel, 20, 10] : 11,
     6,
-    has ? ['case', isSel, 30, 16] : 20,
+    has ? ['case', isSel, 30, 15] : 17,
   ]);
   map.setPaintProperty('items-ring', 'circle-stroke-opacity', has ? ['case', isSel, 0.9, 0] : 0);
   map.setPaintProperty('items-dot', 'circle-opacity', dim(1, 0.35, 1));
@@ -248,9 +252,35 @@ export function MapView({
         source: 'items',
         paint: {
           'circle-color': categoryColorExpr,
-          'circle-radius': 13,
+          'circle-radius': 11,
           'circle-blur': 0.9,
-          'circle-opacity': 0.16,
+          'circle-opacity': 0.08,
+        },
+      });
+      map.addLayer({
+        id: 'items-halo-active',
+        type: 'circle',
+        source: 'items',
+        filter: ['==', ['get', 'id'], latest.current.selectedId ?? ''],
+        paint: {
+          'circle-color': categoryColorExpr,
+          'circle-radius': 13,
+          'circle-blur': 0.85,
+          'circle-opacity': 0.12,
+        },
+      });
+      map.addLayer({
+        id: 'items-halo-new',
+        type: 'circle',
+        source: 'items',
+        paint: {
+          'circle-color': categoryColorExpr,
+          'circle-radius': 12,
+          'circle-blur': 0.85,
+          'circle-opacity': 0,
+          ...({
+            'circle-opacity-transition': { duration: 0 },
+          } as Record<string, unknown>),
         },
       });
       map.addLayer({
@@ -401,6 +431,58 @@ export function MapView({
     preference.addEventListener('change', onChange);
     return () => preference.removeEventListener('change', onChange);
   }, []);
+
+  // Retain activation times across rapid scrubbing without flashing on first load.
+  const previousVisibleIds = useRef(visibleIds);
+  const activatedAt = useRef(new Map<string, number>());
+  useEffect(() => {
+    const now = performance.now();
+    for (const id of visibleIds) {
+      if (!previousVisibleIds.current.has(id)) activatedAt.current.set(id, now);
+    }
+    for (const id of activatedAt.current.keys()) {
+      if (!visibleIds.has(id)) activatedAt.current.delete(id);
+    }
+    previousVisibleIds.current = visibleIds;
+    const map = mapRef.current;
+    if (!map || !readyRef.current) return;
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let frame = 0;
+    const tick = (time: number) => {
+      if (!map.getLayer('items-halo-new')) return;
+      const reduced = preference.matches;
+      const pulses: (string | number | unknown[])[] = ['match', ['get', 'id']];
+      for (const [id, start] of activatedAt.current) {
+        const progress = (time - start) / 650;
+        if (progress >= 1 || reduced) activatedAt.current.delete(id);
+        else pulses.push(id, Math.sin(Math.PI * progress) * (selectedId ? 0.1 : 0.22));
+      }
+      const opacity = pulses.length > 2 ? [...pulses, 0] : 0;
+      map.setPaintProperty('items-halo-new', 'circle-opacity', opacity);
+      const phase = reduced ? 0 : (Math.sin((time * Math.PI * 2) / 3600) + 1) / 2;
+      map.setPaintProperty('items-halo-active', 'circle-opacity', 0.09 + phase * 0.05);
+      map.setPaintProperty('items-halo-active', 'circle-radius', [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        1,
+        12 + phase,
+        6,
+        18 + phase * 2,
+      ]);
+      if (!reduced && (selectedId || activatedAt.current.size)) frame = requestAnimationFrame(tick);
+    };
+    const updateMotion = () => {
+      cancelAnimationFrame(frame);
+      tick(performance.now());
+    };
+    updateMotion();
+    preference.addEventListener('change', updateMotion);
+    return () => {
+      cancelAnimationFrame(frame);
+      preference.removeEventListener('change', updateMotion);
+    };
+  }, [status, visibleIds, selectedId]);
 
   return (
     <>

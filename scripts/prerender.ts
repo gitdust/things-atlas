@@ -18,9 +18,10 @@ import { fileURLToPath } from 'node:url';
 import { StrictMode, createElement } from 'react';
 import { renderToString } from 'react-dom/server';
 import App from '../src/App';
-import { loadCategories, loadItemsIndex } from '../src/lib/loadItems';
+import { loadItemsIndex } from '../src/lib/loadItems';
 import { IMAGE_SIZES, variantSrcSet } from '../src/lib/images';
 import {
+  HTML_LANG,
   OG_LOCALE,
   absoluteUrl,
   homeMeta,
@@ -35,7 +36,7 @@ import {
   SITE_URL as CONFIG_SITE_URL,
   TWITTER_SITE,
 } from '../src/config/site';
-import { formatYear } from '../src/lib/i18n';
+import { formatYear, pick, type Lang } from '../src/lib/i18n';
 import type { AtlasItem } from '../src/lib/types';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -43,8 +44,6 @@ const dist = path.join(root, 'dist');
 const ORIGIN = (process.env.SITE_URL || CONFIG_SITE_URL).replace(/\/+$/, '');
 
 const index = loadItemsIndex();
-const categories = loadCategories();
-const catName = new Map(categories.map((c) => [c.id, c]));
 const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
 
 const esc = (s: string) =>
@@ -85,22 +84,22 @@ function imageFor(item: AtlasItem | null) {
 
 const TERM_SET_ID = `${ORIGIN}/#entries`;
 
-function definedTerm(item: AtlasItem) {
+function definedTerm(item: AtlasItem, lang: Lang) {
   return {
     '@type': 'DefinedTerm',
-    '@id': `${url(itemPath(item.id))}#term`,
-    name: item.name_zh,
-    alternateName: item.name_en,
+    '@id': `${url(itemPath(item.id), lang)}#term`,
+    name: pick(lang, item.name_zh, item.name_en),
+    alternateName: pick(lang === 'zh' ? 'en' : 'zh', item.name_zh, item.name_en),
     termCode: item.id,
-    description: `${formatYear('en', item.primary_year)} — ${item.summary_en}`,
-    url: url(itemPath(item.id)),
+    description: `${formatYear(lang, item.primary_year)} — ${pick(lang, item.summary_zh, item.summary_en)}`,
+    url: url(itemPath(item.id), lang),
     ...(item.image?.src ? { image: ORIGIN + item.image.src } : {}),
     inDefinedTermSet: TERM_SET_ID,
   };
 }
 
-function homeLd() {
-  const zh = homeMeta('zh', index.count);
+function homeLd(lang: Lang) {
+  const meta = homeMeta(lang, index.count);
   return [
     {
       '@context': 'https://schema.org',
@@ -108,9 +107,9 @@ function homeLd() {
       '@id': `${ORIGIN}/#website`,
       name: SITE_NAME,
       alternateName: SITE_NAME_ZH,
-      url: url('/'),
-      description: zh.description,
-      inLanguage: ['zh-Hans', 'en'],
+      url: url('/', lang),
+      description: meta.description,
+      inLanguage: HTML_LANG[lang],
       image: ORIGIN + OG_IMAGE.path,
     },
     {
@@ -118,7 +117,7 @@ function homeLd() {
       '@type': 'DefinedTermSet',
       '@id': TERM_SET_ID,
       name: `${SITE_NAME_ZH} · ${SITE_NAME}`,
-      url: url('/'),
+      url: url('/', lang),
     },
     {
       '@context': 'https://schema.org',
@@ -129,22 +128,27 @@ function homeLd() {
       itemListElement: index.items.map((item, i) => ({
         '@type': 'ListItem',
         position: i + 1,
-        url: url(itemPath(item.id)),
-        item: definedTerm(item),
+        url: url(itemPath(item.id), lang),
+        item: definedTerm(item, lang),
       })),
     },
   ];
 }
 
-function itemLd(item: AtlasItem) {
+function itemLd(item: AtlasItem, lang: Lang) {
   return [
-    { '@context': 'https://schema.org', ...definedTerm(item), inLanguage: ['zh-Hans', 'en'] },
+    { '@context': 'https://schema.org', ...definedTerm(item, lang), inLanguage: HTML_LANG[lang] },
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: SITE_NAME, item: url('/') },
-        { '@type': 'ListItem', position: 2, name: item.name_zh, item: url(itemPath(item.id)) },
+        { '@type': 'ListItem', position: 1, name: SITE_NAME, item: url('/', lang) },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: pick(lang, item.name_zh, item.name_en),
+          item: url(itemPath(item.id), lang),
+        },
       ],
     },
   ];
@@ -160,23 +164,23 @@ function imagePreload(item: AtlasItem | null) {
   )}" imagesizes="${esc(IMAGE_SIZES)}" fetchpriority="high" />`;
 }
 
-function headTags(meta: PageMeta, item: AtlasItem | null, ld: unknown) {
-  const canonical = url(meta.path);
+function headTags(meta: PageMeta, item: AtlasItem | null, ld: unknown, lang: Lang) {
+  const canonical = url(meta.path, lang);
   const img = imageFor(item);
   const tags = [
     `<title>${esc(meta.title)}</title>`,
     `<meta name="description" content="${esc(meta.description)}" />`,
     `<link rel="canonical" href="${esc(canonical)}" />`,
-    `<link rel="alternate" hreflang="zh-Hans" href="${esc(canonical)}" />`,
+    `<link rel="alternate" hreflang="zh-Hans" href="${esc(url(meta.path))}" />`,
     `<link rel="alternate" hreflang="en" href="${esc(url(meta.path, 'en'))}" />`,
-    `<link rel="alternate" hreflang="x-default" href="${esc(canonical)}" />`,
+    `<link rel="alternate" hreflang="x-default" href="${esc(url(meta.path))}" />`,
     `<meta property="og:type" content="${item ? 'article' : 'website'}" />`,
     `<meta property="og:site_name" content="${esc(`${SITE_NAME} · ${SITE_NAME_ZH}`)}" />`,
     `<meta property="og:title" content="${esc(meta.title)}" />`,
     `<meta property="og:description" content="${esc(meta.description)}" />`,
     `<meta property="og:url" content="${esc(canonical)}" />`,
-    `<meta property="og:locale" content="${OG_LOCALE.zh}" />`,
-    `<meta property="og:locale:alternate" content="${OG_LOCALE.en}" />`,
+    `<meta property="og:locale" content="${OG_LOCALE[lang]}" />`,
+    `<meta property="og:locale:alternate" content="${OG_LOCALE[lang === 'zh' ? 'en' : 'zh']}" />`,
     `<meta property="og:image" content="${esc(img.url)}" />`,
     img.width ? `<meta property="og:image:width" content="${img.width}" />` : '',
     img.height ? `<meta property="og:image:height" content="${img.height}" />` : '',
@@ -193,42 +197,43 @@ function headTags(meta: PageMeta, item: AtlasItem | null, ld: unknown) {
 }
 
 /* -------------------------------------------------------------- noscript */
-const catalogue = (() => {
+function catalogue(lang: Lang) {
   const rows = index.items
     .map((item) => {
-      const c = catName.get(item.category);
-      const yZh = formatYear('zh', item.primary_year);
-      const yEn = formatYear('en', item.primary_year);
-      const year = yZh === yEn ? yZh : `${yZh} / ${yEn}`;
-      const cat = c ? ` · ${esc(c.name_zh)} / ${esc(c.name_en)}` : '';
-      return `<li><a href="${itemPath(item.id)}">${esc(item.name_zh)} · ${esc(item.name_en)}</a> — ${esc(year)}${cat}</li>`;
+      const href = `${itemPath(item.id)}${lang === 'en' ? '?lang=en' : ''}`;
+      return `<li><a href="${href}">${esc(pick(lang, item.name_zh, item.name_en))}</a> — ${esc(formatYear(lang, item.primary_year))}</li>`;
     })
     .join('');
-  const zh = homeMeta('zh', index.count);
-  const en = homeMeta('en', index.count);
-  return `<noscript><div class="noscript-catalog"><h1><a href="/">${SITE_NAME} · ${SITE_NAME_ZH}</a></h1><p>${esc(
-    zh.description,
-  )}</p><p lang="en">${esc(en.description)}</p><p>需要启用 JavaScript 才能使用交互地图。 · Enable JavaScript for the interactive map.</p><ol>${rows}</ol></div></noscript>`;
-})();
+  return `<noscript><nav class="noscript-catalog" aria-label="${lang === 'zh' ? '条目目录' : 'Entry catalogue'}"><p>${lang === 'zh' ? '需要启用 JavaScript 才能使用交互地图。' : 'Enable JavaScript for the interactive map.'}</p><ol>${rows}</ol></nav></noscript>`;
+}
 
 /* ---------------------------------------------------------------- render */
-function renderPage(item: AtlasItem | null) {
-  const meta = item ? itemMeta('zh', item) : homeMeta('zh', index.count);
+function renderPage(item: AtlasItem | null, lang: Lang) {
+  const meta = item ? itemMeta(lang, item) : homeMeta(lang, index.count);
   const pathname = itemPath(item?.id ?? null);
   const appHtml = renderToString(
-    createElement(StrictMode, null, createElement(App, { url: { pathname, search: '' } })),
+    createElement(
+      StrictMode,
+      null,
+      createElement(App, { url: { pathname, search: lang === 'en' ? '?lang=en' : '' } }),
+    ),
   );
-  const ld = item ? itemLd(item) : homeLd();
+  const ld = item ? itemLd(item, lang) : homeLd(lang);
   const html = template
-    .replace(/<!--seo:start-->[\s\S]*?<!--seo:end-->/, headTags(meta, item, ld))
+    .replace(/<!--seo:start-->[\s\S]*?<!--seo:end-->/, headTags(meta, item, ld, lang))
     .replace('<!--preload:fonts-->', fontPreloads)
+    .replace('<html lang="zh-Hans">', `<html lang="${HTML_LANG[lang]}">`)
+    .replace('__SSR_LANG__', lang)
     .replace('__DATA_MAX__', String(index.year_range.data_max))
     .replace('<!--app-html-->', appHtml)
-    .replace('<!--noscript-->', catalogue);
+    .replace('<!--noscript-->', catalogue(lang));
   for (const marker of ['<!--seo:start-->', '<!--app-html-->', '<!--noscript-->', '__DATA_MAX__']) {
     if (html.includes(marker)) throw new Error(`prerender: unreplaced marker ${marker}`);
   }
-  const out = item ? path.join(dist, 'item', item.id, 'index.html') : path.join(dist, 'index.html');
+  const languageRoot = lang === 'en' ? path.join(dist, 'en') : dist;
+  const out = item
+    ? path.join(languageRoot, 'item', item.id, 'index.html')
+    : path.join(languageRoot, 'index.html');
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, html);
 }
@@ -238,8 +243,33 @@ if (!template.includes('<!--app-html-->')) {
     'prerender: dist/index.html has already been prerendered — run `vite build` first',
   );
 }
-renderPage(null);
-for (const item of index.items) renderPage(item);
+for (const lang of ['zh', 'en'] as const) {
+  renderPage(null, lang);
+  for (const item of index.items) renderPage(item, lang);
+}
+
+/* -------------------------------------------------------------- 404 page */
+const suggestions = index.items.map((item) => ({
+  path: itemPath(item.id),
+  name: item.name_zh,
+  year: formatYear('zh', item.primary_year),
+  summary: item.summary_zh || item.summary_en,
+}));
+const fallback = suggestions[0];
+const fallbackCard = fallback
+  ? `<a class="card" id="suggested-item" href="${esc(fallback.path)}">
+      <span class="year" id="item-year">${esc(fallback.year)}</span>
+      <h2 id="item-name">${esc(fallback.name)}</h2>
+      <p id="item-summary">${esc(fallback.summary)}</p>
+      <span class="explore">在地图上探索 →</span>
+    </a>`
+  : '<p>返回主页，开启新的探索。</p>';
+const notFoundHtml = fs
+  .readFileSync(path.join(root, 'scripts/404.html'), 'utf8')
+  .replace('/*tokens*/', () => fs.readFileSync(path.join(root, 'src/styles/tokens.css'), 'utf8'))
+  .replace('<!--card-->', () => fallbackCard)
+  .replace('/*items*/', () => JSON.stringify(suggestions).replace(/</g, '\\u003c'));
+fs.writeFileSync(path.join(dist, '404.html'), notFoundHtml);
 
 /* --------------------------------------------------- sitemap + robots */
 const lastmod = (d: string) => d.slice(0, 10);
@@ -248,8 +278,8 @@ const newest =
     .map((i) => i.updated)
     .sort()
     .at(-1) ?? new Date().toISOString();
-const entry = (p: string, mod: string, priority: string) => `  <url>
-    <loc>${esc(url(p))}</loc>
+const entry = (p: string, mod: string, priority: string, lang: Lang) => `  <url>
+    <loc>${esc(url(p, lang))}</loc>
     <lastmod>${lastmod(mod)}</lastmod>
     <priority>${priority}</priority>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="${esc(url(p))}"/>
@@ -258,7 +288,7 @@ const entry = (p: string, mod: string, priority: string) => `  <url>
   </url>`;
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${[entry('/', newest, '1.0'), ...index.items.map((i) => entry(itemPath(i.id), i.updated, '0.7'))].join('\n')}
+${(['zh', 'en'] as const).flatMap((lang) => [entry('/', newest, '1.0', lang), ...index.items.map((i) => entry(itemPath(i.id), i.updated, '0.7', lang))]).join('\n')}
 </urlset>
 `;
 fs.writeFileSync(path.join(dist, 'sitemap.xml'), sitemap);

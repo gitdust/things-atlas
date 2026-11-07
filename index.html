@@ -68,14 +68,19 @@
     </style>
     <!--preload:fonts-->
     <script>
-      // Prerendered HTML reflects the default view (zh, latest year).
-      // If the URL asks for something else, hide it until the
-      // app renders the requested state (see main.tsx / App.tsx).
-      (function (q) {
-        if (q.replace(/(^|&)y=__DATA_MAX__(?=&|$)/, '').replace(/^&+|&+$/g, '')) {
-          document.documentElement.className += ' ssr-stale';
+      // Only hydrate markup that matches the requested language and year.
+      (function () {
+        const params = new URLSearchParams(location.search);
+        const lang = params.get('lang') === 'en' ? 'en' : 'zh';
+        const year = params.get('y');
+        if (
+          lang !== '__SSR_LANG__' ||
+          (year !== null && year !== '__DATA_MAX__') ||
+          params.has('id')
+        ) {
+          document.documentElement.classList.add('ssr-stale');
         }
-      })(location.search.slice(1));
+      })();
     </script>
   </head>
   <body>

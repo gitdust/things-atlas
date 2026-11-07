@@ -2,9 +2,15 @@ import { Segmented } from './Segmented';
 import { VersionControl } from './VersionControl';
 import { t, type Lang } from '@/lib/i18n';
 
-type Props = { lang: Lang; onLangChange: (lang: Lang) => void; onHelp: () => void };
+type Props = {
+  hasSelectedItem?: boolean;
+  lang: Lang;
+  onLangChange: (lang: Lang) => void;
+  onHelp: () => void;
+};
 
-export function SiteHeader({ lang, onLangChange, onHelp }: Props) {
+export function SiteHeader({ lang, onLangChange, onHelp, hasSelectedItem = false }: Props) {
+  const BrandHeading = hasSelectedItem ? 'div' : 'h1';
   return (
     <header className="topbar">
       <div className="brand">
@@ -15,14 +21,14 @@ export function SiteHeader({ lang, onLangChange, onHelp }: Props) {
           <circle className="brand-pin" cx="26.5" cy="14" r="3.2" />
         </svg>
         <div className="brand-text">
-          <h1>
+          <BrandHeading className="brand-heading">
             <span className="brand-en">Things Atlas</span>
             <span className="brand-dot">·</span>
             <span className="brand-zh-row">
               <span className="brand-zh">日常之物图志</span>
               <VersionControl lang={lang} />
             </span>
-          </h1>
+          </BrandHeading>
           <p className="brand-tagline">{t(lang, 'tagline')}</p>
         </div>
       </div>

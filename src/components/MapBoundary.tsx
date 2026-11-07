@@ -10,9 +10,16 @@ function createMapView(): ComponentType<MapViewProps> {
 
 export class MapBoundary extends Component<
   MapViewProps,
-  { failed: boolean; MapView: ComponentType<MapViewProps> }
+  { failed: boolean; MapView: ComponentType<MapViewProps> | null }
 > {
-  state = { failed: false, MapView: createMapView() };
+  state: { failed: boolean; MapView: ComponentType<MapViewProps> | null } = {
+    failed: false,
+    MapView: null,
+  };
+
+  componentDidMount() {
+    this.setState({ MapView: createMapView() });
+  }
 
   static getDerivedStateFromError() {
     return { failed: true };
@@ -28,6 +35,7 @@ export class MapBoundary extends Component<
       return <MapShell lang={this.props.lang} failed onRetry={this.retry} />;
     }
     const MapView = this.state.MapView;
+    if (!MapView) return <MapShell lang={this.props.lang} />;
     return (
       <Suspense fallback={<MapShell lang={this.props.lang} />}>
         <MapView {...this.props} />

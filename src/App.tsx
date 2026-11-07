@@ -27,7 +27,6 @@ export default function App({ url }: { url?: UrlLike }) {
       Math.min(index.year_range.max, initial.year ?? index.year_range.data_max),
     ),
   );
-  const [exploring, setExploring] = useState(initial.year != null);
   const [panelOpen, setPanelOpen] = useState(true);
   const openGuidePanel = useCallback(() => setPanelOpen(true), []);
   const panelToggleRef = useRef<HTMLButtonElement>(null);
@@ -48,10 +47,10 @@ export default function App({ url }: { url?: UrlLike }) {
   const visible = useMemo(
     () =>
       filterItems(index.items, {
-        selectedYear: exploring ? year : index.year_range.max,
+        selectedYear: year,
         showDisputed,
       }),
-    [index.items, index.year_range.max, year, exploring, showDisputed],
+    [index.items, year, showDisputed],
   );
 
   const geojson = useMemo(() => itemsToGeoJSON(timelineItems), [timelineItems]);
@@ -62,7 +61,7 @@ export default function App({ url }: { url?: UrlLike }) {
   // page per entry); year and language live in the query.
   useEffect(() => {
     const params = new URLSearchParams();
-    if (exploring) params.set('y', String(year));
+    if (year !== index.year_range.data_max) params.set('y', String(year));
     if (lang === 'en') params.set('lang', 'en');
     const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const query = params.toString();
@@ -70,7 +69,7 @@ export default function App({ url }: { url?: UrlLike }) {
     if (next !== window.location.pathname + window.location.search) {
       window.history.replaceState(null, '', next);
     }
-  }, [year, exploring, selectedId, selectedItem, lang]);
+  }, [year, selectedId, selectedItem, lang, index.year_range.data_max]);
 
   // <html lang>, <title>, description, canonical and social tags follow the UI.
   useEffect(() => {
@@ -96,7 +95,7 @@ export default function App({ url }: { url?: UrlLike }) {
       ) {
         return;
       }
-      if (!exploring || window.matchMedia(mq.mobile).matches) return;
+      if (window.matchMedia(mq.mobile).matches) return;
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
         setYear((y) => Math.max(index.year_range.min, y - (e.shiftKey ? 10 : 1)));
@@ -107,7 +106,7 @@ export default function App({ url }: { url?: UrlLike }) {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [exploring, index.year_range.min, index.year_range.max]);
+  }, [index.year_range.min, index.year_range.max]);
 
   const closeDrawer = useCallback(() => setSelectedId(null), []);
   const changePanelOpen = useCallback((open: boolean) => {
@@ -144,6 +143,7 @@ export default function App({ url }: { url?: UrlLike }) {
       const item = findItem(index.items, id);
       if (item) {
         if (item.disputed) setShowDisputed(true);
+        setYear(item.primary_year);
       }
     },
     [index.items],
@@ -152,11 +152,16 @@ export default function App({ url }: { url?: UrlLike }) {
   const arcs = useMemo(() => itemsToArcs(timelineItems), [timelineItems]);
   const visibleIds = useMemo(() => new Set(visible.map((i) => i.id)), [visible]);
 
-  const entryNo = useMemo(() => {
-    if (!detailId) return null;
-    const i = index.items.findIndex((it) => it.id === detailId);
-    return i >= 0 ? i + 1 : null;
-  }, [index.items, detailId]);
+  const { prevItem, nextItem, entryNo } = useMemo(() => {
+    if (!detailId) return { prevItem: null, nextItem: null, entryNo: null };
+    const i = timelineItems.findIndex((it) => it.id === detailId);
+    if (i < 0) return { prevItem: null, nextItem: null, entryNo: null };
+    return {
+      prevItem: i > 0 ? timelineItems[i - 1] : null,
+      nextItem: i < timelineItems.length - 1 ? timelineItems[i + 1] : null,
+      entryNo: i + 1,
+    };
+  }, [timelineItems, detailId]);
 
   const selectedCategory = useMemo(
     () => categories.find((c) => c.id === detailItem?.category) ?? null,
@@ -180,6 +185,7 @@ export default function App({ url }: { url?: UrlLike }) {
       </main>
 
       <SiteHeader
+        hasSelectedItem={Boolean(selectedItem)}
         lang={lang}
         onLangChange={setLang}
         onHelp={() => setGuideRequest((value) => value + 1)}
@@ -197,6 +203,7 @@ export default function App({ url }: { url?: UrlLike }) {
         lang={lang}
         open={panelOpen}
         onOpenChange={changePanelOpen}
+        count={index.items.length}
       />
       <div
         className="entry-panel"
@@ -232,8 +239,11 @@ export default function App({ url }: { url?: UrlLike }) {
             active={panelOpen && !!selectedItem}
             entryNo={entryNo}
             category={selectedCategory}
+            prevItem={prevItem}
+            nextItem={nextItem}
             eagerImage={detailId === initial.id}
             onClose={closeDrawer}
+            onNavigate={selectItem}
           />
         </div>
       </div>
@@ -244,8 +254,6 @@ export default function App({ url }: { url?: UrlLike }) {
         <Timeline
           lang={lang}
           year={year}
-          exploring={exploring}
-          onExploringChange={setExploring}
           min={index.year_range.min}
           max={index.year_range.max}
           items={timelineItems}

@@ -20,3 +20,6 @@ pnpm-workspace.yaml
 
 .atlas-*.bundle
 .*.bundle
+
+# local Cloudflare runtime state
+.wrangler/

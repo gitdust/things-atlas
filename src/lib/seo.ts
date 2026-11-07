@@ -4,7 +4,7 @@
  * and those that do see the same titles/descriptions.
  */
 import { SITE_NAME, SITE_NAME_ZH, SITE_URL } from '@/config/site';
-import { formatYear, type Lang } from './i18n';
+import { type Lang } from './i18n';
 import type { AtlasItem } from './types';
 
 export const HTML_LANG: Record<Lang, string> = { zh: 'zh-Hans', en: 'en' };
@@ -43,16 +43,15 @@ export function homeMeta(lang: Lang, count: number): PageMeta {
 }
 
 export function itemMeta(lang: Lang, item: AtlasItem): PageMeta {
-  const year = formatYear(lang, item.primary_year);
   if (lang === 'zh') {
     return {
-      title: `${item.name_zh}（${item.name_en}）· ${year} · ${SITE_NAME_ZH}`,
+      title: `${item.name_zh}的起源与历史 · ${SITE_NAME_ZH}`,
       description: clip(item.summary_zh || item.summary_en, 120),
       path: itemPath(item.id),
     };
   }
   return {
-    title: `${item.name_en} (${year}) · ${SITE_NAME}`,
+    title: `${item.name_en} — Origins and history | ${SITE_NAME}`,
     description: clip(item.summary_en || item.summary_zh),
     path: itemPath(item.id),
   };

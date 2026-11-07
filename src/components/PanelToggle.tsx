@@ -6,10 +6,11 @@ type Props = {
   lang: Lang;
   open: boolean;
   onOpenChange: (open: boolean) => void;
+  count?: number;
 };
 
 export const PanelToggle = forwardRef<HTMLButtonElement, Props>(function PanelToggle(
-  { lang, open, onOpenChange },
+  { lang, open, onOpenChange, count },
   ref,
 ) {
   const gesture = useRef({ pointerId: null as number | null, startY: 0, suppressClick: false });
@@ -48,7 +49,7 @@ export const PanelToggle = forwardRef<HTMLButtonElement, Props>(function PanelTo
     <button
       ref={ref}
       type="button"
-      className="panel-toggle"
+      className={`panel-toggle${open ? ' is-open' : ' is-collapsed'}`}
       aria-expanded={open}
       aria-controls="entry-panel"
       aria-label={label}
@@ -65,9 +66,23 @@ export const PanelToggle = forwardRef<HTMLButtonElement, Props>(function PanelTo
         onOpenChange(!open);
       }}
     >
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="m9 6 6 6-6 6" />
-      </svg>
+      <span className="panel-toggle-icon" aria-hidden="true">
+        {open ? (
+          <svg className="icon-chevron" viewBox="0 0 16 16">
+            <path d="M6 3.5 10.5 8 6 12.5" />
+          </svg>
+        ) : (
+          <svg className="icon-list" viewBox="0 0 16 16">
+            <path d="M2.5 4h11M2.5 8h11M2.5 12h7" />
+          </svg>
+        )}
+      </span>
+      <span className="panel-toggle-text">
+        <span className="panel-toggle-label">
+          {open ? (lang === 'zh' ? '收起' : 'Collapse') : lang === 'zh' ? '目录' : 'Catalogue'}
+        </span>
+        {!open && count != null && <span className="panel-toggle-count num">{count}</span>}
+      </span>
     </button>
   );
 });

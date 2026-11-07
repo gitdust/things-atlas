@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { AtlasItem } from '@/lib/types';
-import { categoryColor } from '@/lib/tokens';
+import { categoryColor, mq } from '@/lib/tokens';
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { formatYear, pick, t, type Lang } from '@/lib/i18n';
 import { makeTimeScale } from '@/lib/timeScale';
@@ -8,8 +8,6 @@ import { makeTimeScale } from '@/lib/timeScale';
 type Props = {
   lang: Lang;
   year: number;
-  exploring: boolean;
-  onExploringChange: (exploring: boolean) => void;
   min: number;
   max: number;
   items: AtlasItem[];
@@ -19,11 +17,14 @@ type Props = {
   onSelect: (id: string) => void;
 };
 
+const RULER_WIDTH_DESKTOP = 3600;
+const RULER_WIDTH_MOBILE = 2200;
+
 /** Approximate px width of a tick label at --fs-xs (no layout needed). */
 function estimateLabelWidth(text: string): number {
   let w = 0;
   for (const ch of text) w += ch.codePointAt(0)! > 0x7f ? 10 : 6.2;
-  return w + 8; // letter-spacing + gap to neighbour
+  return w + 8;
 }
 
 /** Short tick copy: round BCE millennia as 「前3千」/ 「−3k」; else formatYear short. */
@@ -40,8 +41,6 @@ function tickLabel(lang: Lang, y: number): string {
 export function Timeline({
   lang,
   year,
-  exploring,
-  onExploringChange,
   min,
   max,
   items,
@@ -52,16 +51,28 @@ export function Timeline({
 }: Props) {
   const scale = useMemo(() => makeTimeScale(min, max), [min, max]);
   const pct = scale.pct;
-  const trackRef = useRef<HTMLDivElement | null>(null);
-  const [trackWidth, setTrackWidth] = useState(0);
+  const scrubRef = useRef<HTMLDivElement | null>(null);
+  const [viewportWidth, setViewportWidth] = useState(0);
   const [dragging, setDragging] = useState(false);
+  const [dragOffset, setDragOffset] = useState<number | null>(null);
+
   const yearRef = useRef(year);
   yearRef.current = year;
 
+  const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
-    const el = trackRef.current;
+    const media = window.matchMedia(mq.mobile);
+    const update = () => setIsMobile(media.matches);
+    update();
+    media.addEventListener('change', update);
+    return () => media.removeEventListener('change', update);
+  }, []);
+  const rulerWidth = isMobile ? RULER_WIDTH_MOBILE : RULER_WIDTH_DESKTOP;
+
+  useEffect(() => {
+    const el = scrubRef.current;
     if (!el) return;
-    const measure = () => setTrackWidth(el.getBoundingClientRect().width);
+    const measure = () => setViewportWidth(el.getBoundingClientRect().width);
     measure();
     const ro = new ResizeObserver(measure);
     ro.observe(el);
@@ -85,7 +96,7 @@ export function Timeline({
     return { counts, peak };
   }, [items]);
 
-  /** Beeswarm: stack items whose dots would overlap on the (non-linear) axis. */
+  /** Beeswarm: stack items whose dots would overlap on the axis. */
   const swarm = useMemo(() => {
     const sorted = [...items].sort((a, b) => a.primary_year - b.primary_year);
     const placed: { item: AtlasItem; level: number; x: number }[] = [];
@@ -98,27 +109,23 @@ export function Timeline({
     return placed;
   }, [items, scale]);
 
-  const trackY = Math.max(96, ...swarm.map(({ level }) => level * 15 + 32));
+  const trackY = Math.max(96, ...swarm.map(({ level }) => level * 15 + 44));
   const ticks = scale.ticks;
 
-  /** Visible major labels + optional stagger row when anchors collide. */
+  /** Visible major labels along the full ruler width. */
   const labeledYears = useMemo(() => {
-    const width = trackWidth || 800;
-    type Cand = { y: number; x: number; text: string; half: number; px: number; row: 0 | 1 };
+    const width = rulerWidth;
+    type Cand = { y: number; text: string; half: number; px: number; row: 0 | 1 };
     const majors = ticks.filter((tick) => tick.major);
     const toCand = (y: number, row: 0 | 1 = 0): Cand => {
       const text = tickLabel(lang, y);
       const x = pct(y);
       const half = estimateLabelWidth(text) / 2;
-      return { y, x, text, half, px: (x / 100) * width, row };
+      return { y, text, half, px: (x / 100) * width, row };
     };
-    // Same-row collision only — staggered labels may share an x-neighbour.
     const fitsRow = (kept: Cand[], c: Cand) =>
       !kept.some((k) => k.row === c.row && Math.abs(c.px - k.px) < c.half + k.half + 6);
 
-    // Anchors first (band start, year 0, last major). If year 0 collides on
-    // row 0 with the BCE start in a narrow track, drop it to row 1 instead
-    // of hiding it.
     const firstY = majors[0]?.y;
     const lastY = majors[majors.length - 1]?.y;
     const anchorYs = [firstY, 0, lastY].filter(
@@ -137,18 +144,84 @@ export function Timeline({
     }
     kept.sort((a, b) => a.y - b.y);
     return new Map(kept.map((k) => [k.y, { text: k.text, row: k.row }]));
-  }, [ticks, lang, pct, trackWidth]);
+  }, [ticks, lang, pct, rulerWidth]);
 
-  const yearFromClientX = useCallback(
-    (clientX: number) => {
-      const el = trackRef.current;
-      if (!el) return yearRef.current;
-      const r = el.getBoundingClientRect();
-      if (r.width <= 0) return yearRef.current;
-      const f = Math.min(1, Math.max(0, (clientX - r.left) / r.width));
-      return scale.yearAt(f);
+  // Center position of the viewport
+  const center = (viewportWidth || 800) / 2;
+  // Boundaries for ruler translateX:
+  // When year = min, ruler start is at center (maxOffset = center)
+  // When year = max, ruler end is at center (minOffset = center - rulerWidth)
+  const maxOffset = center;
+  const minOffset = center - rulerWidth;
+
+  const standardOffset = center - (pct(year) / 100) * rulerWidth;
+  const currentOffset = dragOffset ?? standardOffset;
+
+  // Pointer drag handling
+  const dragStart = useRef({ startX: 0, startOffset: 0 });
+
+  const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (
+      !e.isPrimary ||
+      e.button !== 0 ||
+      (e.target as HTMLElement).closest('.tl-dot') ||
+      (e.target as HTMLElement).closest('.tl-reset-btn')
+    )
+      return;
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+    dragStart.current = { startX: e.clientX, startOffset: currentOffset };
+    setDragging(true);
+    setDragOffset(currentOffset);
+  };
+
+  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!dragging) return;
+    const delta = e.clientX - dragStart.current.startX;
+    const rawOffset = dragStart.current.startOffset + delta;
+
+    // Boundary damping
+    let nextOffset = rawOffset;
+    if (rawOffset > maxOffset) {
+      nextOffset = maxOffset + (rawOffset - maxOffset) * 0.22;
+    } else if (rawOffset < minOffset) {
+      nextOffset = minOffset + (rawOffset - minOffset) * 0.22;
+    }
+
+    setDragOffset(nextOffset);
+
+    // Map offset to year
+    const clampedOffset = Math.max(minOffset, Math.min(maxOffset, nextOffset));
+    const fraction = (maxOffset - clampedOffset) / rulerWidth;
+    const nextYear = scale.yearAt(fraction);
+    if (nextYear !== yearRef.current) {
+      onChange(nextYear);
+    }
+  };
+
+  const endDrag = () => {
+    setDragging(false);
+    setDragOffset(null);
+  };
+
+  // Wheel horizontal scrubbing
+  const onWheel = useCallback(
+    (e: React.WheelEvent) => {
+      const delta =
+        e.deltaMode === 1
+          ? (e.deltaY || e.deltaX) * 16
+          : Math.abs(e.deltaX) > Math.abs(e.deltaY)
+            ? e.deltaX
+            : e.deltaY;
+      if (Math.abs(delta) < 0.5) return;
+
+      const currentFraction = pct(yearRef.current) / 100;
+      const nextFraction = Math.max(0, Math.min(1, currentFraction + delta / rulerWidth));
+      const nextYear = scale.yearAt(nextFraction);
+      if (nextYear !== yearRef.current) {
+        onChange(nextYear);
+      }
     },
-    [scale],
+    [pct, rulerWidth, scale, onChange],
   );
 
   const onKeyDown = (e: React.KeyboardEvent) => {
@@ -164,105 +237,69 @@ export function Timeline({
     else if (e.key === 'ArrowRight') set(year + scale.stepAt(year));
   };
 
-  const selectedItem = items.find((item) => item.id === selectedId);
-  const yearPct = pct(year);
-  const thumbEdge = yearPct < 8 ? ' edge-l' : yearPct > 92 ? ' edge-r' : '';
-
   return (
-    <div className={`timeline${exploring ? ' is-exploring' : ''}${dragging ? ' is-dragging' : ''}`}>
-      <div className="tl-header">
-        <div
-          className="tl-modes"
-          role="group"
-          aria-label={lang === 'zh' ? '时间轴模式' : 'Timeline mode'}
-        >
-          <button
-            type="button"
-            className={!exploring ? 'active' : ''}
-            aria-pressed={!exploring}
-            onClick={() => onExploringChange(false)}
-          >
-            {lang === 'zh' ? '全部年代' : 'All ages'}
-          </button>
-          <button
-            type="button"
-            className={exploring ? 'active' : ''}
-            aria-pressed={exploring}
-            onClick={() => onExploringChange(true)}
-          >
-            {lang === 'zh' ? '按年代探索' : 'Explore by year'}
-          </button>
-        </div>
-        <p className="tl-status" aria-live="polite">
-          {selectedItem ? (
-            <>
-              {pick(lang, selectedItem.name_zh, selectedItem.name_en)} ·{' '}
-              {formatYear(lang, selectedItem.primary_year)}
-              {exploring && selectedItem.primary_year > year && (
-                <span> · {lang === 'zh' ? '晚于当前年份' : 'Later than current year'}</span>
-              )}
-            </>
-          ) : exploring ? (
-            lang === 'zh' ? (
-              `已出现 ${visibleIds.size} / ${items.length} 项`
-            ) : (
-              `${visibleIds.size} / ${items.length} items`
-            )
-          ) : lang === 'zh' ? (
-            `${items.length} 项`
-          ) : (
-            `${items.length} items`
-          )}
-        </p>
-      </div>
+    <div className={`timeline${dragging ? ' is-dragging' : ''}`}>
       <div
+        ref={scrubRef}
         className="tl-scrub"
         style={{
           ['--track-y' as string]: `${trackY}px`,
-          height: trackY + 40,
+          height: trackY + 70,
         }}
-        onPointerDown={(e) => {
-          if (
-            !exploring ||
-            !e.isPrimary ||
-            e.button !== 0 ||
-            (e.target as HTMLElement).closest('.tl-dot')
-          )
-            return;
-          e.currentTarget.querySelector<HTMLElement>('.tl-slider')?.focus({ preventScroll: true });
-          (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
-          setDragging(true);
-          onChange(yearFromClientX(e.clientX));
-        }}
-        onPointerMove={(e) => {
-          if (exploring && dragging) onChange(yearFromClientX(e.clientX));
-        }}
-        onPointerUp={() => setDragging(false)}
-        onPointerCancel={() => setDragging(false)}
+        onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
+        onPointerUp={endDrag}
+        onPointerCancel={endDrag}
+        onWheel={onWheel}
       >
-        {exploring && (
-          <div
-            className="tl-slider"
-            role="slider"
-            tabIndex={0}
-            aria-label={t(lang, 'year')}
-            aria-valuemin={min}
-            aria-valuemax={max}
-            aria-valuenow={year}
-            aria-valuetext={formatYear(lang, year)}
-            onKeyDown={onKeyDown}
-          />
-        )}
-        {/*
-          Inset rail: min/max sit inset from the scrub edges so dots, ticks,
-          labels, and pills at the ends are not clipped. trackRef lives here so
-          drag mapping uses the same inset range as left%.
-        */}
-        <div className="tl-rail" ref={trackRef}>
+        <div
+          className="tl-slider-accessible"
+          role="slider"
+          tabIndex={0}
+          aria-label={t(lang, 'year')}
+          aria-valuemin={min}
+          aria-valuemax={max}
+          aria-valuenow={year}
+          aria-valuetext={formatYear(lang, year)}
+          onKeyDown={onKeyDown}
+        />
+
+        {/* Fixed Center Cursor Indicator */}
+        <div className="tl-center-indicator">
+          <div className="tl-center-badge" aria-hidden="true">
+            <span className="tl-center-flag num">{formatYear(lang, year, true)}</span>
+          </div>
+          <div className={`tl-center-line${year < max ? ' with-reset' : ''}`} aria-hidden="true" />
+          <div className="tl-center-knob" aria-hidden="true" />
+          {year < max && (
+            <button
+              type="button"
+              className="tl-reset-btn"
+              onPointerDown={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                onChange(max);
+              }}
+              title={lang === 'zh' ? '滑至现代（全部激活）' : 'Jump to present (all active)'}
+            >
+              ↺ {lang === 'zh' ? '回到现代' : 'Present'}
+            </button>
+          )}
+        </div>
+
+        {/* Scrollable / Draggable Ruler Track */}
+        <div
+          className="tl-rail"
+          style={{
+            width: `${rulerWidth}px`,
+            transform: `translate3d(${currentOffset}px, 0, 0)`,
+          }}
+        >
+          {/* Density Histogram */}
           <div className="tl-hist" aria-hidden="true">
             {[...density.counts.entries()].map(([y, c]) => {
               if (y < min || y > max) return null;
-              const lit = !exploring || y <= year;
+              const lit = y <= year;
               return (
                 <span
                   key={y}
@@ -273,26 +310,29 @@ export function Timeline({
             })}
           </div>
 
+          {/* Beeswarm item dots */}
           <div className="tl-swarm">
             {swarm.map(({ item, level }) => {
-              const visible = !exploring || visibleIds.has(item.id);
+              const active = visibleIds.has(item.id);
               const sel = item.id === selectedId;
               const x = pct(item.primary_year);
-              const edge = x < 8 ? ' edge-l' : x > 92 ? ' edge-r' : '';
               return (
                 <button
                   key={item.id}
                   type="button"
-                  className={`tl-dot${visible ? ' on' : ''}${sel ? ' sel' : ''}${
+                  className={`tl-dot${active ? ' on' : ' muted'}${sel ? ' sel' : ''}${
                     item.disputed ? ' disputed' : ''
-                  }${edge}`}
+                  }`}
                   style={{
                     left: `${x}%`,
                     bottom: `${level * 15}px`,
                     ['--c' as string]: categoryColor[item.category],
                   }}
                   title={`${pick(lang, item.name_zh, item.name_en)} · ${formatYear(lang, item.primary_year)}`}
-                  onClick={() => onSelect(item.id)}
+                  onClick={() => {
+                    onSelect(item.id);
+                    onChange(item.primary_year);
+                  }}
                 >
                   <span className="tl-dot-label">
                     {pick(lang, item.name_zh, item.name_en)} · {formatYear(lang, item.primary_year)}
@@ -302,10 +342,12 @@ export function Timeline({
             })}
           </div>
 
+          {/* Baseline track and fill up to current year */}
           <div className="tl-track" aria-hidden="true">
-            <div className="tl-fill" style={{ width: `${exploring ? yearPct : 100}%` }} />
+            <div className="tl-fill" style={{ width: `${pct(year)}%` }} />
           </div>
 
+          {/* Ticks and Year Numbers */}
           <div className="tl-ticks" aria-hidden="true">
             {ticks.map(({ y, major, mid }) => {
               const label = major ? labeledYears.get(y) : undefined;
@@ -320,18 +362,6 @@ export function Timeline({
               );
             })}
           </div>
-
-          {exploring && (
-            <div
-              className={`tl-thumb${thumbEdge}`}
-              style={{ left: `${yearPct}%` }}
-              aria-hidden="true"
-            >
-              <span className="tl-thumb-flag num">{formatYear(lang, year, true)}</span>
-              <span className="tl-thumb-line" />
-              <span className="tl-thumb-knob" />
-            </div>
-          )}
         </div>
       </div>
     </div>

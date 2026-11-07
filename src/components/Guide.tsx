@@ -207,14 +207,14 @@ export function Guide({ lang, request, selectedId, panelOpen, onOpenPanel }: Pro
         selectedId
           ? '在详情中返回列表，再搜索名称或按分类浏览。'
           : '在目录中搜索名称，也可以按分类浏览。',
-        '切换「按年代探索」，拖动时间刻度。较晚的物件会变淡，仍然可以点击查看。',
+        '左右拖动时间轴，看日常之物在历史中被点亮。未激活的物件呈半透明，依然可以点击。',
       ]
     : [
         'Click a dot on the map to discover an object’s origins, story and sources.',
         selectedId
           ? 'Return to the list from the details, then search by name or browse categories.'
           : 'Search the catalogue by name, or browse its categories.',
-        'Choose “Explore by year” and drag the timeline. Later objects fade and remain clickable.',
+        'Drag the timeline horizontally to see objects light up across history. Inactive objects remain clickable.',
       ];
   return (
     <div className="guide-layer">

@@ -100,5 +100,35 @@
     "afterVersion": "0.3.0",
     "zh": "新增镜子、梳子、扫帚、勺子、蜡烛和抽水马桶，条目总数增至131项，补齐中英文资料、来源与配图，时间轴延伸至约公元前6000年。",
     "en": "Add the mirror, comb, broom, spoon, candle, and flush toilet, bringing the collection to 131 entries with bilingual histories, sources, and images. Extend the timeline to around 6000 BCE."
+  },
+  {
+    "id": "release-centered-ruler",
+    "afterVersion": "0.4.0",
+    "zh": "时间轴改为中央固定指针与横向标尺，支持拖动、滚轮、键盘和回到现代；选择条目时同步定位其年份。",
+    "en": "Explore time with a centered cursor and a horizontal ruler using dragging, scrolling, keyboard controls, and a return-to-present button. Selecting an entry moves the ruler to its year."
+  },
+  {
+    "id": "release-map-activation-motion",
+    "afterVersion": "0.4.0",
+    "zh": "地图按当前年份区分已出现与较晚条目，减弱背景光晕；新出现的条目短暂点亮，选中条目轻微呼吸，并适配减少动态效果设置。",
+    "en": "Distinguish earlier and later entries on the map with softer background halos. Newly activated entries briefly light up, selected entries gently breathe, and reduced-motion preferences are respected."
+  },
+  {
+    "id": "release-entry-navigation",
+    "afterVersion": "0.4.0",
+    "zh": "详情底部新增上一条、下一条导航卡片，支持键盘翻阅条目，并调整详情标题、返回按钮及操作区布局。",
+    "en": "Browse entries with previous and next navigation cards and keyboard controls, with refined detail headings, back buttons, and action layouts."
+  },
+  {
+    "id": "release-mobile-panel-toggle",
+    "afterVersion": "0.4.0",
+    "zh": "移动端面板按钮增加展开、收起文字和条目数量提示，收起后以底部按钮继续访问目录。",
+    "en": "Mobile panel controls show expand and collapse labels and entry counts, with a bottom button to reopen the catalogue."
+  },
+  {
+    "id": "release-localized-pages-not-found",
+    "afterVersion": "0.4.0",
+    "zh": "改善中英文页面首次加载及分享信息，新增包含随机条目推荐的404页面，可返回主页或继续探索条目。",
+    "en": "Improve initial loading and sharing metadata for Chinese and English pages. Add a 404 page with a random entry suggestion and links back to the atlas."
   }
 ]

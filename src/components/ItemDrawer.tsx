@@ -12,10 +12,13 @@ type Props = {
   item: AtlasItem | null;
   entryNo: number | null;
   category: CategoryMeta | null;
+  prevItem?: AtlasItem | null;
+  nextItem?: AtlasItem | null;
   /** The entry opened by the landing URL: its photo is likely the LCP element, so don't lazy-load it. */
   eagerImage?: boolean;
   active?: boolean;
   onClose: () => void;
+  onNavigate?: (id: string) => void;
 };
 
 function primaryKeyOf(item: AtlasItem): YearKey | null {
@@ -73,9 +76,12 @@ export function ItemDrawer({
   item,
   entryNo,
   category,
+  prevItem,
+  nextItem,
   eagerImage = false,
   active = true,
   onClose,
+  onNavigate,
 }: Props) {
   const bodyRef = useRef<HTMLDivElement | null>(null);
   const titleRef = useRef<HTMLHeadingElement | null>(null);
@@ -95,11 +101,23 @@ export function ItemDrawer({
     if (!item || !active) return;
     const onKey = (e: KeyboardEvent) => {
       if (document.querySelector('dialog[open]')) return;
-      if (e.key === 'Escape') onClose();
+      if (
+        e.target instanceof HTMLElement &&
+        (e.target.closest('input, textarea, select') || e.target.isContentEditable)
+      ) {
+        return;
+      }
+      if (e.key === 'Escape') {
+        onClose();
+      } else if (e.key === '[' || (e.key === 'ArrowLeft' && e.altKey)) {
+        if (prevItem) onNavigate?.(prevItem.id);
+      } else if (e.key === ']' || (e.key === 'ArrowRight' && e.altKey)) {
+        if (nextItem) onNavigate?.(nextItem.id);
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [item, active, onClose]);
+  }, [item, active, onClose, prevItem, nextItem, onNavigate]);
 
   if (!item) return null;
 
@@ -119,21 +137,35 @@ export function ItemDrawer({
     <aside className="drawer" aria-label={title} style={{ ['--item-color' as string]: color }}>
       <div className="drawer-scroll" ref={bodyRef}>
         <header className="drawer-head">
-          <div className="drawer-kicker">
-            <span className="kicker-no num">
-              {t(lang, 'entry')} {entryNo != null ? String(entryNo).padStart(3, '0') : ''}
-            </span>
-            <span className="kicker-sep" />
-            <span className="kicker-cat">
-              <span className="chip-dot" />
-              {category ? pick(lang, category.name_zh, category.name_en) : item.category}
-            </span>
-            {item.disputed ? (
-              <span className="badge-disputed">
-                <DisputeIcon label={t(lang, 'disputed')} />
-                {t(lang, 'disputed')}
+          <div className="drawer-head-left">
+            <button
+              id="close-btn"
+              type="button"
+              className="close-btn back-btn"
+              onClick={onClose}
+              aria-label={t(lang, 'back')}
+              title={t(lang, 'back')}
+            >
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M12.5 8H3.5M7 4.5 3.5 8 7 11.5" />
+              </svg>
+            </button>
+            <div className="drawer-kicker">
+              <span className="kicker-no num">
+                {t(lang, 'entry')} {entryNo != null ? String(entryNo).padStart(3, '0') : ''}
               </span>
-            ) : null}
+              <span className="kicker-sep" />
+              <span className="kicker-cat">
+                <span className="chip-dot" />
+                {category ? pick(lang, category.name_zh, category.name_en) : item.category}
+              </span>
+              {item.disputed ? (
+                <span className="badge-disputed">
+                  <DisputeIcon label={t(lang, 'disputed')} />
+                  {t(lang, 'disputed')}
+                </span>
+              ) : null}
+            </div>
           </div>
           <div className="drawer-actions">
             <button
@@ -172,22 +204,12 @@ export function ItemDrawer({
                 <path d="M5.8 7.1l4.4-2.2M5.8 8.9l4.4 2.2" />
               </svg>
             </button>
-            <button
-              type="button"
-              className="close-btn"
-              onClick={onClose}
-              aria-label={t(lang, 'close')}
-            >
-              <svg viewBox="0 0 16 16" aria-hidden="true">
-                <path d="M4 4l8 8M12 4l-8 8" />
-              </svg>
-            </button>
           </div>
         </header>
 
-        <h2 ref={titleRef} tabIndex={-1} className={`drawer-title lang-${lang}`}>
+        <h1 ref={titleRef} tabIndex={-1} className={`drawer-title lang-${lang}`}>
           {title}
-        </h2>
+        </h1>
         <p className="drawer-alt">{alt}</p>
         <span className="share-status" role="status">
           {shareStatus}
@@ -308,6 +330,43 @@ export function ItemDrawer({
             ))}
           </ol>
         </section>
+
+        <nav
+          className="drawer-footer-nav"
+          aria-label={lang === 'zh' ? '相邻条目' : 'Adjacent entries'}
+        >
+          {prevItem ? (
+            <button
+              type="button"
+              className="drawer-nav-card prev"
+              onClick={() => onNavigate?.(prevItem.id)}
+            >
+              <span className="nav-card-dir">← {lang === 'zh' ? '上一条' : 'Previous'}</span>
+              <strong className="nav-card-title">
+                {pick(lang, prevItem.name_zh, prevItem.name_en)}
+              </strong>
+              <span className="nav-card-year num">{formatYear(lang, prevItem.primary_year)}</span>
+            </button>
+          ) : (
+            <div className="drawer-nav-card-placeholder" />
+          )}
+
+          {nextItem ? (
+            <button
+              type="button"
+              className="drawer-nav-card next"
+              onClick={() => onNavigate?.(nextItem.id)}
+            >
+              <span className="nav-card-dir">{lang === 'zh' ? '下一条' : 'Next'} →</span>
+              <strong className="nav-card-title">
+                {pick(lang, nextItem.name_zh, nextItem.name_en)}
+              </strong>
+              <span className="nav-card-year num">{formatYear(lang, nextItem.primary_year)}</span>
+            </button>
+          ) : (
+            <div className="drawer-nav-card-placeholder" />
+          )}
+        </nav>
       </div>
     </aside>
   );

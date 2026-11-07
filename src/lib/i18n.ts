@@ -9,6 +9,7 @@ const dict = {
     // chrome
     year: '年份',
     close: '关闭',
+    back: '返回',
     language: '语言',
     map: '地图',
     legend: '图例',
@@ -60,6 +61,7 @@ const dict = {
 
     year: 'Year',
     close: 'Close',
+    back: 'Back',
     language: 'Language',
     map: 'Map',
     legend: 'Legend',

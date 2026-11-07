@@ -1,11 +1,5 @@
-/**
- * Site-wide constants for SEO (canonical URLs, Open Graph, sitemap, robots).
- *
- * ⚠️ SITE_URL is a PLACEHOLDER — set it to the real public origin before
- * deploying (no trailing slash). The prerender step also accepts an override:
- *   SITE_URL=https://atlas.example.org npm run build
- */
-export const SITE_URL = 'https://things-atlas.example.com';
+/** Public origin shared by static metadata and runtime navigation. */
+export const SITE_URL = 'https://things-atlas.com';
 
 export const SITE_NAME = 'Things Atlas';
 export const SITE_NAME_ZH = '日常之物图志';
