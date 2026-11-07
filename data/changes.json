@@ -130,5 +130,29 @@
     "afterVersion": "0.4.0",
     "zh": "改善中英文页面首次加载及分享信息，新增包含随机条目推荐的404页面，可返回主页或继续探索条目。",
     "en": "Improve initial loading and sharing metadata for Chinese and English pages. Add a 404 page with a random entry suggestion and links back to the atlas."
+  },
+  {
+    "id": "release-version-history",
+    "afterVersion": "0.5.0",
+    "zh": "点击标题旁的版本号即可查看更新记录，按版本切换历史内容；页面不再自动检测新版或弹出刷新提示。",
+    "en": "Open the release history from the version beside the title and switch versions with tabs. The page no longer checks for updates or shows a refresh prompt."
+  },
+  {
+    "id": "release-arc-direction",
+    "afterVersion": "0.5.0",
+    "zh": "选中有地点连线的条目时，光点按年份从较早地点流向较晚地点；同年或年份不明的连线保持静止，并遵循减少动态效果设置。",
+    "en": "When an entry has place connections, a pulse travels from the earlier place to the later one. Connections with the same or unknown year stay still, and reduced-motion preferences are respected."
+  },
+  {
+    "id": "release-disputed-icon",
+    "afterVersion": "0.5.0",
+    "zh": "条目详情的争议标记只保留图标，避免在分类行里换行。",
+    "en": "Show only the dispute icon in entry details so the category line no longer wraps."
+  },
+  {
+    "id": "release-timeline-ticks",
+    "afterVersion": "0.5.0",
+    "zh": "修复时间轴年份刻度挤在标尺上方、文字重叠的问题，年份重新显示在刻度下方。",
+    "en": "Fix timeline year labels crowding above the ruler and overlapping, placing them back beneath the ticks."
   }
 ]
