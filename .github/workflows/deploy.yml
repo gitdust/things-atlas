@@ -1,6 +1,6 @@
 name: deploy
 
-# Production only. Pull requests and main pushes use validate.yml.
+# Production deploy. Build already runs data, font, and type checks.
 on:
   push:
     branches: [main]
