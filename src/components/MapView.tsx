@@ -258,8 +258,6 @@ export function MapView({
           'circle-color': categoryColorExpr,
           'circle-radius': ['get', 'radius'],
           'circle-opacity': ['get', 'opacity'],
-          'circle-opacity-transition': { duration: 0 },
-          'circle-radius-transition': { duration: 0 },
         },
       });
       map.addLayer({
@@ -294,9 +292,6 @@ export function MapView({
           'circle-radius': 12,
           'circle-blur': 0.85,
           'circle-opacity': 0,
-          ...({
-            'circle-opacity-transition': { duration: 0 },
-          } as Record<string, unknown>),
         },
       });
       map.addLayer({

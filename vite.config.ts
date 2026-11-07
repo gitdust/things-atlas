@@ -1,23 +1,15 @@
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'node:path';
-import fs from 'node:fs';
-import { readReleaseHistory } from './scripts/release-notes';
+import { writeReleaseHistory } from './scripts/release-notes';
 
 export default defineConfig(({ command, mode }) => {
   const releaseRoot = path.resolve(__dirname);
-  const historyFile = path.join(releaseRoot, 'src/generated/release-history.json');
   const historyInputs = ['package.json', 'data/changes.json'].map((file) =>
     path.join(releaseRoot, file),
   );
-  const writeReleaseHistory = () => {
-    const content = JSON.stringify(readReleaseHistory(releaseRoot), null, 2) + '\n';
-    fs.mkdirSync(path.dirname(historyFile), { recursive: true });
-    if (!fs.existsSync(historyFile) || fs.readFileSync(historyFile, 'utf8') !== content) {
-      fs.writeFileSync(historyFile, content);
-    }
-  };
-  writeReleaseHistory();
+  const updateReleaseHistory = () => writeReleaseHistory(releaseRoot);
+  updateReleaseHistory();
   const measurementId = loadEnv(mode, process.cwd(), 'GA_').GA_MEASUREMENT_ID?.trim();
   if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) {
     throw new Error('GA_MEASUREMENT_ID must be a GA4 measurement ID (G-...).');
@@ -30,14 +22,14 @@ export default defineConfig(({ command, mode }) => {
         name: 'release-history',
         buildStart() {
           for (const file of historyInputs) this.addWatchFile(file);
-          writeReleaseHistory();
+          updateReleaseHistory();
         },
         watchChange(file) {
-          if (historyInputs.includes(file)) writeReleaseHistory();
+          if (historyInputs.includes(file)) updateReleaseHistory();
         },
         configureServer(server) {
           const updateHistory = (file: string) => {
-            if (historyInputs.includes(file)) writeReleaseHistory();
+            if (historyInputs.includes(file)) updateReleaseHistory();
           };
           server.watcher.add(historyInputs);
           server.watcher.on('change', updateHistory);

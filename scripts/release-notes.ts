@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 type ChangeRecord = {
   id: string;
@@ -130,4 +131,17 @@ export function readReleaseHistory(root: string): ReleaseManifest[] {
     fs.readFileSync(path.join(root, 'data/changes.json'), 'utf8'),
   );
   return createReleaseHistory(pkg.version, changes, readVersionHistory(root));
+}
+
+export function writeReleaseHistory(root: string): void {
+  const historyFile = path.join(root, 'src/generated/release-history.json');
+  const content = JSON.stringify(readReleaseHistory(root), null, 2) + '\n';
+  fs.mkdirSync(path.dirname(historyFile), { recursive: true });
+  if (!fs.existsSync(historyFile) || fs.readFileSync(historyFile, 'utf8') !== content) {
+    fs.writeFileSync(historyFile, content);
+  }
+}
+
+if (process.argv.includes('--write')) {
+  writeReleaseHistory(path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'));
 }
