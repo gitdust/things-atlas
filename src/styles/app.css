@@ -605,8 +605,50 @@ button {
   border-radius: var(--r-xs);
   background: var(--ink);
 }
-.is-dragging .tl-fill,
-.is-dragging .footer-row {
+.is-dragging .tl-fill {
+  transition: none;
+}
+
+.tl-ticks {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(var(--track-y) + 4px);
+  height: 40px;
+  pointer-events: none;
+  overflow: visible;
+}
+.tick {
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 3px;
+  background: var(--rule-strong);
+}
+.tick.mid {
+  height: 6px;
+}
+.tick.major {
+  height: 9px;
+  background: var(--ink-3);
+}
+.tick em {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  transform: translateX(-50%);
+  font-style: normal;
+  font-size: var(--fs-xs);
+  line-height: 1.1;
+  white-space: nowrap;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+}
+.tick em.alt {
+  top: 24px;
+}
+
+.footer-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
