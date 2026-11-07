@@ -160,9 +160,8 @@ export function ItemDrawer({
                 {category ? pick(lang, category.name_zh, category.name_en) : item.category}
               </span>
               {item.disputed ? (
-                <span className="badge-disputed">
+                <span className="badge-disputed" title={t(lang, 'disputed')}>
                   <DisputeIcon label={t(lang, 'disputed')} />
-                  {t(lang, 'disputed')}
                 </span>
               ) : null}
             </div>
