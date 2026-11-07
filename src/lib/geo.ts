@@ -1,4 +1,4 @@
-import type { AtlasItem } from './types';
+import type { AtlasItem, ItemLocation } from './types';
 import type { Feature, FeatureCollection, LineString, Point } from 'geojson';
 
 export type ItemFeatureProps = {
@@ -49,6 +49,9 @@ export type ArcProps = {
   id: string;
   category: string;
   contested: boolean;
+  direction: -1 | 0 | 1;
+  start_year: number;
+  end_year: number;
 };
 
 const toRad = (d: number) => (d * Math.PI) / 180;
@@ -93,6 +96,20 @@ function provenanceArc(a: [number, number], b: [number, number], steps = 48): [n
   return out;
 }
 
+/** Only explicit location years or dated milestone kinds establish direction. */
+function locationYear(item: AtlasItem, location: ItemLocation): number | null {
+  if (location.year_override != null) return location.year_override;
+  const key = {
+    invention: 'invention',
+    patent: 'patent',
+    production: 'mass_production',
+    popularization: 'popularization',
+    contested: null,
+  } as const;
+  const yearKey = key[location.kind];
+  return yearKey ? (item.years[yearKey]?.year ?? null) : null;
+}
+
 /**
  * Thin "provenance" arcs: from each item's anchor place (first invention
  * location, else the first location) to each of its other places.
@@ -106,8 +123,14 @@ export function itemsToArcs(items: AtlasItem[]): FeatureCollection<LineString, A
       item.locations.findIndex((l) => l.kind === 'invention'),
     );
     const anchor = item.locations[anchorIdx];
+    const anchorYear = locationYear(item, anchor);
     item.locations.forEach((loc, i) => {
       if (i === anchorIdx) return;
+      const targetYear = locationYear(item, loc);
+      const direction =
+        anchorYear == null || targetYear == null
+          ? 0
+          : (Math.sign(targetYear - anchorYear) as -1 | 0 | 1);
       features.push({
         type: 'Feature',
         geometry: {
@@ -118,6 +141,9 @@ export function itemsToArcs(items: AtlasItem[]): FeatureCollection<LineString, A
           id: item.id,
           category: item.category,
           contested: loc.kind === 'contested',
+          direction,
+          start_year: anchorYear ?? item.primary_year,
+          end_year: targetYear ?? item.primary_year,
         },
       });
     });

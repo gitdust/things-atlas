@@ -246,6 +246,22 @@ export function MapView({
           'line-dasharray': [1.5, 2.5],
         },
       });
+      map.addSource('arc-flow', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] },
+      });
+      map.addLayer({
+        id: 'arc-flow',
+        type: 'circle',
+        source: 'arc-flow',
+        paint: {
+          'circle-color': categoryColorExpr,
+          'circle-radius': ['get', 'radius'],
+          'circle-opacity': ['get', 'opacity'],
+          'circle-opacity-transition': { duration: 0 },
+          'circle-radius-transition': { duration: 0 },
+        },
+      });
       map.addLayer({
         id: 'items-halo',
         type: 'circle',
@@ -431,6 +447,81 @@ export function MapView({
     preference.addEventListener('change', onChange);
     return () => preference.removeEventListener('change', onChange);
   }, []);
+
+  // Play chronological groups on the selected entry's existing connections.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !readyRef.current) return;
+    const source = map.getSource('arc-flow') as GeoJSONSource | undefined;
+    if (!source) return;
+    const connections = arcs.features
+      .filter((arc) => arc.properties.id === selectedId && arc.properties.direction !== 0)
+      .sort(
+        (a, b) =>
+          Math.max(a.properties.start_year, a.properties.end_year) -
+          Math.max(b.properties.start_year, b.properties.end_year),
+      );
+    const years = [
+      ...new Set(
+        connections.map((arc) => Math.max(arc.properties.start_year, arc.properties.end_year)),
+      ),
+    ];
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let frame = 0;
+    let lastFrame = -Infinity;
+    let started = performance.now();
+    const clear = () => source.setData({ type: 'FeatureCollection', features: [] });
+    const tick = (now: number) => {
+      if (now - lastFrame >= 32 && !document.hidden) {
+        lastFrame = now;
+        const elapsed = (now - started) % (years.length * 1600 + 800);
+        const features: FeatureCollection<Point>['features'] = [];
+        for (const arc of connections) {
+          const group = years.indexOf(Math.max(arc.properties.start_year, arc.properties.end_year));
+          const progress = (elapsed - group * 1600) / 1600;
+          if (progress < 0 || progress > 1) continue;
+          const coordinates = arc.geometry.coordinates;
+          for (let tail = 0; tail < 5; tail++) {
+            const fraction = progress - tail * 0.025;
+            if (fraction < 0) continue;
+            const position =
+              (arc.properties.direction === 1 ? fraction : 1 - fraction) * (coordinates.length - 1);
+            const index = Math.min(coordinates.length - 2, Math.floor(position));
+            const mix = position - index;
+            const a = coordinates[index];
+            const b = coordinates[index + 1];
+            features.push({
+              type: 'Feature',
+              geometry: {
+                type: 'Point',
+                coordinates: [a[0] + (b[0] - a[0]) * mix, a[1] + (b[1] - a[1]) * mix],
+              },
+              properties: {
+                category: arc.properties.category,
+                radius: tail === 0 ? 3 : 2,
+                opacity: (1 - tail / 5) * (arc.properties.contested ? 0.55 : 0.9),
+              },
+            });
+          }
+        }
+        source.setData({ type: 'FeatureCollection', features });
+      }
+      frame = requestAnimationFrame(tick);
+    };
+    const updateMotion = () => {
+      cancelAnimationFrame(frame);
+      clear();
+      started = performance.now();
+      if (!preference.matches && connections.length) frame = requestAnimationFrame(tick);
+    };
+    updateMotion();
+    preference.addEventListener('change', updateMotion);
+    return () => {
+      cancelAnimationFrame(frame);
+      preference.removeEventListener('change', updateMotion);
+      if (map.getSource('arc-flow')) clear();
+    };
+  }, [arcs, selectedId, status]);
 
   // Retain activation times across rapid scrubbing without flashing on first load.
   const previousVisibleIds = useRef(visibleIds);

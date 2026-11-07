@@ -124,3 +124,91 @@ test('single-location bounds stay at the marker without inventing an arc', () =>
     [lng, lat],
   ]);
 });
+
+test('arc direction follows milestone years while preserving anchor geometry', () => {
+  const item: AtlasItem = {
+    ...toiletPaper,
+    primary_year: 1900,
+    years: {
+      invention: { year: 1900, precision: 'year' },
+      patent: { year: 1890, precision: 'year' },
+      mass_production: { year: 1910, precision: 'year' },
+      popularization: { year: 1920, precision: 'year' },
+    },
+    locations: ['invention', 'patent', 'production', 'popularization', 'contested'].map(
+      (kind, index) => ({
+        ...toiletPaper.locations[0],
+        kind: kind as AtlasItem['locations'][number]['kind'],
+        lng: 10 + index,
+      }),
+    ),
+  };
+  const features = itemsToArcs([item]).features;
+  assert.deepEqual(
+    features.map((feature) => feature.properties.direction),
+    [-1, 1, 1, 0],
+  );
+  assert.deepEqual(
+    features.map((feature) => feature.properties.start_year),
+    [1900, 1900, 1900, 1900],
+  );
+  assert.deepEqual(
+    features.map((feature) => feature.properties.end_year),
+    [1890, 1910, 1920, 1900],
+  );
+  features.forEach((feature, index) => {
+    assert.equal(feature.geometry.coordinates[0][0], 10);
+    assert.equal(feature.geometry.coordinates.at(-1)![0], 11 + index);
+  });
+});
+
+test('explicit overrides determine direction, including BCE, year zero, and dated disputes', () => {
+  const item: AtlasItem = {
+    ...toiletPaper,
+    primary_year: 100,
+    locations: [-100, 0, -200, -100].map((year_override, index) => ({
+      ...toiletPaper.locations[0],
+      kind: index === 0 ? 'invention' : 'contested',
+      year_override,
+    })),
+  };
+  const features = itemsToArcs([item]).features;
+  assert.deepEqual(
+    features.map((feature) => feature.properties.direction),
+    [1, -1, 0],
+  );
+  assert.deepEqual(
+    features.map((feature) => feature.properties.start_year),
+    [-100, -100, -100],
+  );
+  assert.deepEqual(
+    features.map((feature) => feature.properties.end_year),
+    [0, -200, -100],
+  );
+});
+
+test('missing milestone dates preserve primary-year metadata without inventing direction', () => {
+  const item: AtlasItem = {
+    ...toiletPaper,
+    primary_year: 1900,
+    years: {
+      invention: { year: 1900, precision: 'year' },
+      patent: null,
+      mass_production: null,
+      popularization: null,
+    },
+    locations: ['invention', 'patent', 'contested'].map((kind) => ({
+      ...toiletPaper.locations[0],
+      kind: kind as AtlasItem['locations'][number]['kind'],
+    })),
+  };
+  const features = itemsToArcs([item]).features;
+  assert.deepEqual(
+    features.map((feature) => feature.properties.direction),
+    [0, 0],
+  );
+  assert.deepEqual(
+    features.map((feature) => feature.properties.end_year),
+    [1900, 1900],
+  );
+});
