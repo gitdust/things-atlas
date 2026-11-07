@@ -1,12 +1,23 @@
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'node:path';
-import { readReleaseManifest } from './scripts/release-notes';
+import fs from 'node:fs';
+import { readReleaseHistory } from './scripts/release-notes';
 
 export default defineConfig(({ command, mode }) => {
   const releaseRoot = path.resolve(__dirname);
-  // Validate drafts too, so bad records cannot silently reach production.
-  readReleaseManifest(releaseRoot);
+  const historyFile = path.join(releaseRoot, 'src/generated/release-history.json');
+  const historyInputs = ['package.json', 'data/changes.json'].map((file) =>
+    path.join(releaseRoot, file),
+  );
+  const writeReleaseHistory = () => {
+    const content = JSON.stringify(readReleaseHistory(releaseRoot), null, 2) + '\n';
+    fs.mkdirSync(path.dirname(historyFile), { recursive: true });
+    if (!fs.existsSync(historyFile) || fs.readFileSync(historyFile, 'utf8') !== content) {
+      fs.writeFileSync(historyFile, content);
+    }
+  };
+  writeReleaseHistory();
   const measurementId = loadEnv(mode, process.cwd(), 'GA_').GA_MEASUREMENT_ID?.trim();
   if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) {
     throw new Error('GA_MEASUREMENT_ID must be a GA4 measurement ID (G-...).');
@@ -16,22 +27,21 @@ export default defineConfig(({ command, mode }) => {
     plugins: [
       react(),
       {
-        name: 'release-manifest',
-        configureServer(server) {
-          server.middlewares.use((req, res, next) => {
-            const pathname = new URL(req.url ?? '/', 'http://localhost').pathname;
-            if (pathname !== `${server.config.base}version.json`) return next();
-            res.setHeader('Content-Type', 'application/json; charset=utf-8');
-            res.setHeader('Cache-Control', 'no-store');
-            res.end(JSON.stringify(readReleaseManifest(releaseRoot)));
-          });
+        name: 'release-history',
+        buildStart() {
+          for (const file of historyInputs) this.addWatchFile(file);
+          writeReleaseHistory();
         },
-        generateBundle() {
-          this.emitFile({
-            type: 'asset',
-            fileName: 'version.json',
-            source: JSON.stringify(readReleaseManifest(releaseRoot)),
-          });
+        watchChange(file) {
+          if (historyInputs.includes(file)) writeReleaseHistory();
+        },
+        configureServer(server) {
+          const updateHistory = (file: string) => {
+            if (historyInputs.includes(file)) writeReleaseHistory();
+          };
+          server.watcher.add(historyInputs);
+          server.watcher.on('change', updateHistory);
+          server.httpServer?.once('close', () => server.watcher.off('change', updateHistory));
         },
       },
       {

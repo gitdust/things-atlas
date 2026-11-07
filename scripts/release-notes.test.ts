@@ -1,6 +1,11 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { compareVersions, createReleaseManifest, findPreviousVersion } from './release-notes.ts';
+import {
+  compareVersions,
+  createReleaseManifest,
+  createReleaseHistory,
+  findPreviousVersion,
+} from './release-notes.ts';
 
 const change = (id: string, afterVersion: string) => ({
   id,
@@ -91,4 +96,30 @@ test('previous package version ignores current-version commits and supports unco
 test('previous release boundaries must precede current version', () => {
   assert.throws(() => createReleaseManifest('0.2.0', [], '0.2.0'), /lower/);
   assert.throws(() => createReleaseManifest('0.2.0', [], '0.3.0'), /lower/);
+});
+
+test('history groups notes under their released versions in descending numeric order', () => {
+  const records = [change('first', '0.1.0'), change('second', '0.2.0'), change('draft', '0.10.0')];
+  const original = structuredClone(records);
+  const releases = createReleaseHistory('0.10.0', records, ['0.2.0', '0.2.0', '0.1.0']);
+  assert.deepEqual(
+    releases.map((entry) => [entry.version, entry.changes.map((note) => note.id)]),
+    [
+      ['0.10.0', ['second']],
+      ['0.2.0', ['first']],
+      ['0.1.0', []],
+    ],
+  );
+  assert.deepEqual(records, original);
+});
+
+test('history supports committed versions, uncommitted bumps, and empty initial releases', () => {
+  assert.deepEqual(createReleaseHistory('0.1.0', [], ['0.1.0']), [
+    { version: '0.1.0', changes: [] },
+  ]);
+  const records = [change('released', '0.1.0')];
+  assert.deepEqual(
+    createReleaseHistory('0.2.0', records, ['0.2.0', '0.1.0']),
+    createReleaseHistory('0.2.0', records, ['0.1.0']),
+  );
 });

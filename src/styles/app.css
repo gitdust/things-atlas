@@ -1534,16 +1534,36 @@ button {
   font-weight: var(--fw-medium);
   line-height: 1.4;
   letter-spacing: 0;
-}
-.version-control.has-update {
-  color: var(--update-text);
-  background: var(--update-surface);
-  border-color: var(--update-border);
   cursor: pointer;
-  transition: border-color var(--dur) var(--ease);
+  transition:
+    color var(--dur) var(--ease),
+    border-color var(--dur) var(--ease);
 }
-.version-control.has-update:hover {
-  border-color: var(--update-text);
+.version-control:hover {
+  color: var(--ink);
+  border-color: var(--rule-strong);
+}
+.release-tabs {
+  display: flex;
+  gap: var(--s-2);
+  overflow-x: auto;
+  margin-top: var(--s-5);
+  padding-bottom: var(--s-2);
+  border-bottom: 1px solid var(--rule);
+}
+.release-tabs button {
+  flex-shrink: 0;
+  padding: var(--s-2) var(--s-3);
+  border: 1px solid transparent;
+  border-radius: var(--r-tag);
+  background: transparent;
+  color: var(--ink-3);
+  cursor: pointer;
+}
+.release-tabs button[aria-selected='true'] {
+  color: var(--ink);
+  background: var(--paper-2);
+  border-color: var(--rule);
 }
 .release-dialog {
   position: fixed;
@@ -1707,9 +1727,6 @@ button {
   }
   .brand-zh-row {
     gap: var(--s-1);
-  }
-  .version-control.has-update span {
-    max-width: 4.5em;
   }
 }
 @media (prefers-reduced-motion: reduce) {

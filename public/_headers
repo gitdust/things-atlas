@@ -16,7 +16,3 @@
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-
-# Version checks must always reach the current deployment.
-/version.json
-  Cache-Control: no-store

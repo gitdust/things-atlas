@@ -78,7 +78,7 @@ export function findPreviousVersion(version: string, history: Iterable<string>):
   return null;
 }
 
-function readPreviousVersion(root: string, version: string): string | null {
+function readVersionHistory(root: string): string[] {
   const git = (args: string[]) =>
     execFileSync('git', args, {
       cwd: root,
@@ -95,7 +95,7 @@ function readPreviousVersion(root: string, version: string): string | null {
         yield JSON.parse(git(['show', `${commit}:package.json`])).version as string;
       }
     }
-    return findPreviousVersion(version, versions());
+    return [...versions()];
   } catch (error) {
     throw new Error(
       'Cannot read release history; build from a Git checkout with complete history',
@@ -106,10 +106,28 @@ function readPreviousVersion(root: string, version: string): string | null {
   }
 }
 
-export function readReleaseManifest(root: string): ReleaseManifest {
+/** Associate each development group with the next recorded package version. */
+export function createReleaseHistory(
+  version: string,
+  input: unknown,
+  history: Iterable<string>,
+): ReleaseManifest[] {
+  versionParts(version);
+  const versions = [...new Set([version, ...history])]
+    .filter((entry) => compareVersions(entry, version) <= 0)
+    .sort((a, b) => compareVersions(b, a));
+  // Validate current drafts before selecting historical release groups.
+  createReleaseManifest(version, input, findPreviousVersion(version, versions));
+  return versions.map((entry) => ({
+    version: entry,
+    changes: createReleaseManifest(version, input, findPreviousVersion(entry, versions)).changes,
+  }));
+}
+
+export function readReleaseHistory(root: string): ReleaseManifest[] {
   const pkg = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
   const changes: unknown = JSON.parse(
     fs.readFileSync(path.join(root, 'data/changes.json'), 'utf8'),
   );
-  return createReleaseManifest(pkg.version, changes, readPreviousVersion(root, pkg.version));
+  return createReleaseHistory(pkg.version, changes, readVersionHistory(root));
 }
