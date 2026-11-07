@@ -772,13 +772,7 @@ button {
   display: inline-flex;
   flex: none;
   align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-  border-radius: var(--r-pill);
-  background: var(--accent-soft);
   color: var(--accent);
-  border: 1px solid var(--accent-border);
 }
 .close-btn {
   width: 34px;
