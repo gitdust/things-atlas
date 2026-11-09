@@ -1,0 +1,68 @@
+{
+  "id": "kitchen-knife",
+  "name_zh": "菜刀",
+  "name_en": "Kitchen knife",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": -1200,
+      "precision": "century",
+      "ref": "Bronze cleavers and kitchen knives used in Shang Dynasty China (Anyang) and ancient Mediterranean kitchens",
+      "ref_zh": "殷墟等商代遗址出土青铜庖厨刀，地中海青铜时代厨房普遍出现专职切割肉类蔬菜的厨刃"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1731,
+      "precision": "year",
+      "ref": "Peter Henckels registers the Twin trademark with the Solingen Cutlers' Guild, Germany",
+      "ref_zh": "彼得·亨克斯在德国索林根刀具行会注册双立人标志，开启近代专业厨刀工业行会化量产"
+    },
+    "popularization": {
+      "year": 1945,
+      "precision": "decade",
+      "ref": "Post-war stainless steel technology and the Japanese Santoku knife standardize everyday home cookery globally",
+      "ref_zh": "战后不锈钢防锈淬火工艺普及，结合中西式切削习惯的三德刀与现代主厨刀进入全球万千家庭厨房"
+    }
+  },
+  "locations": [
+    {
+      "lat": 36.0986,
+      "lng": 114.3924,
+      "place_label_zh": "中国河南安阳（殷墟铜庖厨刀）",
+      "place_label_en": "Anyang, Henan, China (Yinxu bronze culinary knife)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 51.1719,
+      "lng": 7.0845,
+      "place_label_zh": "德国索林根",
+      "place_label_en": "Solingen, Germany",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Kitchen knife — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kitchen_knife",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Chinese chef's knife — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chinese_chef%27s_knife",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "从青铜时代各古文明厨房专用的切削铜刀，到 18 世纪索林根建立的工匠行会，再到现代不锈钢防锈工艺，菜刀历经数千年演化，始终是人类烹饪备料的核心工具。",
+  "summary_en": "Evolving from ancient Bronze Age culinary cleavers to 18th-century Solingen steel guilds and modern stainless alloys, the kitchen knife remains the fundamental cooking tool.",
+  "tags": [
+    "cooking",
+    "dining"
+  ],
+  "updated": "2026-11-09"
+}

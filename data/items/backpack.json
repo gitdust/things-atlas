@@ -1,0 +1,87 @@
+{
+  "id": "backpack",
+  "name_zh": "双肩背包",
+  "name_en": "Backpack",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": -3300,
+      "precision": "century",
+      "ref": "Ötzi the Iceman carries a hazel-rod U-frame backpack with wooden slats in the Ötztal Alps",
+      "ref_zh": "阿尔卑斯山冰人奥茨携带以弯曲榛木为 U 型外架、以落叶松横木支撑的背囊，为已知最早框架背包实物"
+    },
+    "patent": {
+      "year": 1908,
+      "precision": "year",
+      "ref": "Ole F. Bergan patents the ergonomic curved-metal external frame rucksack in Norway (Norwegian Patent 20547)",
+      "ref_zh": "挪威发明家贝尔甘取得贴合人体背部曲线的人体工学外架背包专利（挪威专利 No.20547）"
+    },
+    "mass_production": {
+      "year": 1938,
+      "precision": "year",
+      "ref": "Gerry Cunningham invents the zippered canvas backpack in Boulder, Colorado (Gerry Outdoors)",
+      "ref_zh": "科罗拉多州博尔德的坎宁安在帆布背包上首次引入拉链口袋并创立 Gerry Outdoors"
+    },
+    "popularization": {
+      "year": 1967,
+      "precision": "year",
+      "ref": "JanSport founded in Seattle, Washington, popularizing lightweight nylon daypacks in university bookstores",
+      "ref_zh": "西雅图创立的 JanSport 将轻量尼龙双肩包引入大学书店，成为全球学生每日随身标配"
+    }
+  },
+  "locations": [
+    {
+      "lat": 46.7794,
+      "lng": 10.8397,
+      "place_label_zh": "奥地利/意大利阿尔卑斯山豪斯拉布约赫（冰人奥茨）",
+      "place_label_en": "Hauslabjoch, Ötztal Alps, Austria/Italy (Ötzi)",
+      "kind": "invention",
+      "confidence": "region"
+    },
+    {
+      "lat": 59.2675,
+      "lng": 10.4076,
+      "place_label_zh": "挪威滕斯贝格（贝尔甘专利）",
+      "place_label_en": "Tønsberg, Norway (Ole F. Bergan)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "place_label_zh": "美国华盛顿州西雅图（JanSport）",
+      "place_label_en": "Seattle, Washington, USA (JanSport)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Backpack — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Backpack",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Ötzi's Equipment — South Tyrol Museum of Archaeology",
+      "url": "https://www.iceman.it/en/equipment/",
+      "type": "museum",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "A History of the Backpack — Outside Magazine",
+      "url": "https://www.outsideonline.com/outdoor-gear/gear-news/history-backpack/",
+      "type": "news",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "公元前 3300 年阿尔卑斯冰人奥茨携带以榛木弯成 U 形的背架构成了已知最早背包；1908 年挪威人体工学外架与 1967 年西雅图尼龙包使其蜕变为现代全球日常通勤与书包标配。",
+  "summary_en": "From Ötzi the Iceman's 3300 BCE hazel U-frame pack in the Alps to Ole Bergan's 1908 ergonomic frame in Norway and 1967 Seattle nylon daypacks, the backpack evolved into an everyday global staple.",
+  "tags": [
+    "travel",
+    "storage"
+  ],
+  "updated": "2026-11-09"
+}

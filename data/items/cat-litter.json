@@ -1,0 +1,60 @@
+{
+  "id": "cat-litter",
+  "name_zh": "猫砂",
+  "name_en": "Cat litter",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1947,
+      "precision": "year",
+      "ref": "Edward Lowe suggests granulated fuller's earth (bentonite clay) to neighbor Kay Draper in Cassopolis, Michigan",
+      "ref_zh": "密歇根州卡索波利斯的爱德华·洛向前来借沙子的邻居推荐吸湿吸油的漂白土（膨润土）颗粒作猫便砂"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1947,
+      "precision": "year",
+      "ref": "Lowe packages clay in 5-lb bags branded 'Kitty Litter', selling them from the trunk of his car",
+      "ref_zh": "爱德华·洛将袋装黏土命名为 Kitty Litter，从汽车后备箱和当地宠物店起步量产销售"
+    },
+    "popularization": {
+      "year": 1984,
+      "precision": "year",
+      "ref": "Thomas Nelson develops clumping cat litter from sodium bentonite clay in the United States",
+      "ref_zh": "生物化学家托马斯·纳尔逊研发出遇水结团的钠基膨润土猫砂，极大地简化了清理并普及至全球"
+    }
+  },
+  "locations": [
+    {
+      "lat": 41.9103,
+      "lng": -86.0094,
+      "place_label_zh": "美国密歇根州卡索波利斯",
+      "place_label_en": "Cassopolis, Michigan, USA",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Cat litter — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cat_litter",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "How Kitty Litter Changed the World — The Atlantic",
+      "url": "https://www.theatlantic.com/technology/archive/2014/10/how-kitty-litter-changed-the-world/381533/",
+      "type": "news",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1947 年前养猫只能用泥沙或炉渣。爱德华·洛将吸水膨润土装袋制成 Kitty Litter，彻底解决了室内异味，使家猫从农场捕鼠动物变成现代纯室内陪伴宠物。",
+  "summary_en": "Before 1947 indoor cats used sand or stove ashes. Edward Lowe packaged absorbent fuller's earth as 'Kitty Litter' in Michigan, transforming domestic cats into purely indoor companions worldwide.",
+  "tags": [
+    "household",
+    "cleaning"
+  ],
+  "updated": "2026-11-09"
+}

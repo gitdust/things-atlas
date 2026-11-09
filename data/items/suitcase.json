@@ -1,0 +1,110 @@
+{
+  "id": "suitcase",
+  "name_zh": "行李箱",
+  "name_en": "Suitcase",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1858,
+      "precision": "year",
+      "ref": "Louis Vuitton introduces the first flat-topped waterproof Trianon canvas trunk in Paris, designed for train and steamship stacking",
+      "ref_zh": "路易·威登在巴黎推出首款平顶防水特里亚农帆布旅行箱，可层叠堆放于火车与轮船货舱，开启现代便携箱包演进"
+    },
+    "patent": {
+      "year": 1970,
+      "precision": "exact",
+      "ref": "Bernard D. Sadow files US Patent 3,653,474 for rolling luggage with four casters and a flexible pulling strap in Fall River, MA",
+      "ref_zh": "伯纳德·萨多在马萨诸塞州福尔里弗申请带四个脚轮与拖拉皮带的四轮行李箱专利（US3653474）"
+    },
+    "mass_production": {
+      "year": 1898,
+      "precision": "year",
+      "ref": "Paul Morszeck founds RIMOWA in Cologne, pioneering lightweight luggage and later debuting grooved aluminum cases in 1937",
+      "ref_zh": "保罗·莫斯策克在德国科隆创立日默瓦（RIMOWA），开启轻量化旅行箱量产，后于 1937 年推出标志性铝镁合金箱"
+    },
+    "popularization": {
+      "year": 1987,
+      "precision": "year",
+      "ref": "Pilot Robert Plath invents the upright two-wheeled Rollaboard with a rigid telescoping handle (Travelpro), Florida",
+      "ref_zh": "民航飞行员罗伯特·普拉思在佛罗里达发明带双轮与伸缩拉杆的直立式 Rollaboard，创立 Travelpro 并普及为全球民航随身标准"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "place_label_zh": "法国巴黎（路易·威登平顶旅行箱）",
+      "place_label_en": "Paris, France (Louis Vuitton flat-topped trunk)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 50.9375,
+      "lng": 6.9603,
+      "place_label_zh": "德国科隆（日默瓦）",
+      "place_label_en": "Cologne, Germany (RIMOWA)",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 41.7015,
+      "lng": -71.155,
+      "place_label_zh": "美国马萨诸塞州福尔里弗（萨多脚轮箱专利）",
+      "place_label_en": "Fall River, Massachusetts, USA (Bernard Sadow)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 26.3683,
+      "lng": -80.1289,
+      "place_label_zh": "美国佛罗里达州博卡拉顿（普拉思 Rollaboard）",
+      "place_label_en": "Boca Raton, Florida, USA (Robert Plath)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Suitcase — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suitcase",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Roll Aboard! The History of Wheeled Luggage — Smithsonian Lemelson Center",
+      "url": "https://invention.si.edu/invention-stories/roll-aboard",
+      "type": "museum",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "US Patent 3,653,474: Rolling Luggage",
+      "url": "https://patents.google.com/patent/US3653474A/en",
+      "type": "patent",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "US Patent 4,995,487: Wheeled Suitcase and Handle",
+      "url": "https://patents.google.com/patent/US4995487A/en",
+      "type": "patent",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1858 年平顶旅行箱开启了现代铁路与轮船行李收纳；1970 年萨多加装脚轮，1987 年普拉思发明直立式伸缩拉杆箱，使其成为全球长途旅行与航空出行的随身标配。",
+  "summary_en": "Replacing bulky carriage trunks with 1858 flat-topped cases, Bernard Sadow added wheels in 1970 and pilot Robert Plath invented the upright telescoping Rollaboard in 1987 for modern global travelers.",
+  "tags": [
+    "storage",
+    "travel"
+  ],
+  "updated": "2026-11-09",
+  "image": {
+    "src": "/images/suitcase.jpg",
+    "alt_zh": "行李箱实物",
+    "alt_en": "A suitcase",
+    "credit": "JEXP",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Suitcase1.jpg"
+  }
+}

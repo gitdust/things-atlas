@@ -1,0 +1,87 @@
+{
+  "id": "sanitary-napkin",
+  "name_zh": "卫生巾",
+  "name_en": "Sanitary napkin",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1888,
+      "precision": "year",
+      "ref": "Southall's towels introduced in Birmingham, UK, as early commercial disposable pads",
+      "ref_zh": "英国伯明翰的索索尔公司推出早期商用一次性吸水卫生护垫"
+    },
+    "patent": {
+      "year": 1932,
+      "precision": "exact",
+      "ref": "Winifred C. Heitmeyer granted US Patent 1,863,333 for the multi-layer wood-pulp absorbent pad, assigned to Kimberly-Clark's Cellucotton subsidiary",
+      "ref_zh": "海特迈尔取得用于金佰利高洁丝的多层木浆纤维棉「吸收垫」发明专利（US1863333A）"
+    },
+    "mass_production": {
+      "year": 1920,
+      "precision": "year",
+      "ref": "Kimberly-Clark launches Kotex in Neenah, Wisconsin, repurposing wartime absorbent Cellucotton",
+      "ref_zh": "金佰利利用一战战地医院剩余的高吸收木浆纤维棉（Cellucotton）在威斯康星州推出高洁丝（Kotex）并量产"
+    },
+    "popularization": {
+      "year": 1969,
+      "precision": "year",
+      "ref": "Stayfree introduces self-adhesive strip sanitary pads, eliminating pins and belts worldwide",
+      "ref_zh": "强生旗下 Stayfree 推出背胶自粘式卫生巾，彻底淘汰了别针和经期安全带"
+    }
+  },
+  "locations": [
+    {
+      "lat": 52.4862,
+      "lng": -1.8904,
+      "place_label_zh": "英国伯明翰",
+      "place_label_en": "Birmingham, UK",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 44.1858,
+      "lng": -88.4626,
+      "place_label_zh": "美国威斯康星州尼纳（金佰利）",
+      "place_label_en": "Neenah, Wisconsin, USA (Kimberly-Clark)",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 40.4862,
+      "lng": -74.4518,
+      "place_label_zh": "美国新泽西州新不伦瑞克（强生）",
+      "place_label_en": "New Brunswick, New Jersey, USA (Johnson & Johnson)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US Patent 1,863,333: Absorbent Pad",
+      "url": "https://patents.google.com/patent/US1863333A/en",
+      "type": "patent",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Sanitary napkin — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sanitary_napkin",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "The Surprising Origins of Kotex Pads — Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/innovation/surprising-origins-cotex-pads-180964466/",
+      "type": "news",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "一战期间战地护士发现木浆吸水棉极其好用；1920 年金佰利推出高洁丝开启现代量产。1969 年背胶卫生巾的面世彻底改变了全球女性经期生活。",
+  "summary_en": "WWI nurses repurposed absorbent cellulose bandages for menstruation. Kimberly-Clark launched Kotex in 1920, and the 1969 adhesive strip transformed women's mobility worldwide.",
+  "tags": [
+    "health",
+    "grooming"
+  ],
+  "updated": "2026-11-09"
+}

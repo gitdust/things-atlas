@@ -12,11 +12,9 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `eraser.jpg` | [Office-pink-erasers](https://commons.wikimedia.org/wiki/File:Office-pink-erasers.jpg) | Public domain | Evan-Amos |
 | `stapler.jpg` | [2017 Zszywacz biurowy](https://commons.wikimedia.org/wiki/File:2017_Zszywacz_biurowy.jpg) | CC BY-SA 4.0 | Jacek Halicki |
 | `transparent-tape.jpg` | [Scotch tape](https://commons.wikimedia.org/wiki/File:Scotch_tape.jpg) | CC BY-SA 4.0 | Amin |
-| `highlighter.jpg` | [Highlighting pens](https://commons.wikimedia.org/wiki/File:Highlighting_pens.jpg) | CC BY-SA 4.0 | Gausanchennai |
 | `binder-clip.jpg` | [Sponka](https://commons.wikimedia.org/wiki/File:Sponka.jpg) | CC BY-SA 4.0 | Cal.on |
 | `push-pin.jpg` | [RedPushPin (cropped)](https://commons.wikimedia.org/wiki/File:RedPushPin_(cropped).jpg) | CC BY-SA 4.0 | Slashme |
 | `fountain-pen.jpg` | [Fountain pen writing (literacy)](https://commons.wikimedia.org/wiki/File:Fountain_pen_writing_(literacy).jpg) | CC BY-SA 4.0 | Petar Milošević |
-| `mechanical-pencil.jpg` | [Rotring 600 mechanical pencils](https://commons.wikimedia.org/wiki/File:Rotring_600_mechanical_pencils.jpg) | CC BY-SA 4.0 | Alex P. Kok |
 | `correction-fluid.jpg` | [Wite-Out and Shadow (3373550912)](https://commons.wikimedia.org/wiki/File:Wite-Out_and_Shadow_(3373550912).jpg) | CC BY 2.0 | J B from USA |
 | `safety-pin.jpg` | [Safety Pin](https://commons.wikimedia.org/wiki/File:Safety_Pin.jpg) | CC BY-SA 3.0 | Haragayato |
 | `button.jpg` | [Reserveknapper til Hans' uniform](https://commons.wikimedia.org/wiki/File:Reserveknapper_til_Hans%27_uniform.jpg) | Public domain | Europeana staff photographer |
@@ -79,7 +77,7 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `noodles.jpg` | [Bowl of noodles, Yunnan - 30849911807.jpg](https://commons.wikimedia.org/wiki/File:Bowl_of_noodles,_Yunnan_-_30849911807.jpg) | CC BY-SA 2.0 | Matthieu Lelievre |
 | `wok.jpg` | [Frying pan (Chinese wok).jpg](https://commons.wikimedia.org/wiki/File:Frying_pan_(Chinese_wok).jpg) | CC BY-SA 4.0 | Susan Slater |
 | `bamboo-steamer.jpg` | [Bamboo steamer-top oblique-fs PNr°0727.jpg](https://commons.wikimedia.org/wiki/File:Bamboo_steamer-top_oblique-fs_PNr%C2%B00727.jpg) | CC BY-SA 4.0 | D-Kuru |
-| `folding-umbrella.jpg` | [Folding umbrella 01.jpg](https://commons.wikimedia.org/wiki/File:Folding_umbrella_01.jpg) | CC BY-SA 4.0 | Kritzolina |
+| `umbrella.jpg` | [Folding umbrella 01.jpg](https://commons.wikimedia.org/wiki/File:Folding_umbrella_01.jpg) | CC BY-SA 4.0 | Kritzolina |
 | `banknote.jpg` | [Chinese Banknote Ming Dynasty CarterInventionPrintingChina 0126.jpg](https://commons.wikimedia.org/wiki/File:Chinese_Banknote_Ming_Dynasty_CarterInventionPrintingChina_0126.jpg) | CC BY-SA 4.0 | Carter, Thomas Francis, 1882-1925 |
 | `playing-cards.jpg` | [Jeu de 82 cartes (Chine).jpg](https://commons.wikimedia.org/wiki/File:Jeu_de_82_cartes_(Chine).jpg) | CC0 | Benoît Prieur |
 | `silk.jpg` | [Western Han Silk.jpg](https://commons.wikimedia.org/wiki/File:Western_Han_Silk.jpg) | CC0 | Gary Todd |
@@ -122,6 +120,7 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `bicycle.jpg` | [Left side of Flying Pigeon.jpg](https://commons.wikimedia.org/wiki/File:Left_side_of_Flying_Pigeon.jpg) | CC BY 2.0 | 齐健 |
 | `aluminum-foil.jpg` | [Aluminium foil.jpg](https://commons.wikimedia.org/wiki/File:Aluminium_foil.jpg) | CC BY-SA 3.0 | Pippi |
 | `trash-bag.jpg` | [A typical black bin bag from the UK 20060811.jpg](https://commons.wikimedia.org/wiki/File:A_typical_black_bin_bag_from_the_UK_20060811.jpg) | Public domain | Yuyudevil |
+| `suitcase.jpg` | [Suitcase1.jpg](https://commons.wikimedia.org/wiki/File:Suitcase1.jpg) | CC BY-SA 3.0 | JEXP |
 
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 

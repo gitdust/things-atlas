@@ -334,14 +334,6 @@
       960
     ]
   },
-  "folding-umbrella.jpg": {
-    "width": 1920,
-    "height": 1280,
-    "widths": [
-      480,
-      960
-    ]
-  },
   "fountain-pen.jpg": {
     "width": 1200,
     "height": 880,
@@ -409,14 +401,6 @@
   "headphones.jpg": {
     "width": 981,
     "height": 1200,
-    "widths": [
-      480,
-      960
-    ]
-  },
-  "highlighter.jpg": {
-    "width": 1200,
-    "height": 900,
     "widths": [
       480,
       960
@@ -521,14 +505,6 @@
   "measuring-tape.jpg": {
     "width": 1000,
     "height": 1000,
-    "widths": [
-      480,
-      960
-    ]
-  },
-  "mechanical-pencil.jpg": {
-    "width": 1200,
-    "height": 600,
     "widths": [
       480,
       960
@@ -716,14 +692,6 @@
       469
     ]
   },
-  "rolling-suitcase.jpg": {
-    "width": 1267,
-    "height": 1535,
-    "widths": [
-      480,
-      960
-    ]
-  },
   "rubber-band.jpg": {
     "width": 1007,
     "height": 910,
@@ -860,6 +828,14 @@
       960
     ]
   },
+  "suitcase.jpg": {
+    "width": 1267,
+    "height": 1535,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "swiss-army-knife.jpg": {
     "width": 1920,
     "height": 1070,
@@ -971,6 +947,14 @@
       960
     ]
   },
+  "umbrella.jpg": {
+    "width": 1920,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "usb-flash-drive.jpg": {
     "width": 1200,
     "height": 698,
@@ -1033,14 +1017,6 @@
     "widths": [
       480,
       894
-    ]
-  },
-  "zippered-storage-bag.jpg": {
-    "width": 868,
-    "height": 476,
-    "widths": [
-      480,
-      868
     ]
   }
 }

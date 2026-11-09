@@ -1,0 +1,74 @@
+{
+  "id": "bubble-wrap",
+  "name_zh": "气泡膜",
+  "name_en": "Bubble wrap",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1957,
+      "precision": "year",
+      "ref": "Alfred Fielding and Marc Chavannes seal air between two plastic shower curtains to make 3D wallpaper, Hawthorne, NJ",
+      "ref_zh": "工程师菲尔丁与沙瓦纳在新泽西州霍桑试图将两张塑料浴帘热压成立体壁纸，意外在其中封入密封气泡"
+    },
+    "patent": {
+      "year": 1959,
+      "precision": "year",
+      "ref": "Fielding and Chavannes file US Patent 3,142,599 for method of laminating cushioned packaging",
+      "ref_zh": "菲尔丁与沙瓦纳申请气泡缓冲减震材料制作专利（US3142599）"
+    },
+    "mass_production": {
+      "year": 1960,
+      "precision": "year",
+      "ref": "Sealed Air Corporation founded to manufacture Bubble Wrap as protective packaging",
+      "ref_zh": "希悦尔（Sealed Air）公司成立，将气泡薄膜正式作为保护性工业包装材料投入量产"
+    },
+    "popularization": {
+      "year": 1960,
+      "precision": "year",
+      "ref": "IBM adopts Bubble Wrap to protect the newly launched IBM 1401 computer during transit",
+      "ref_zh": "IBM 采购气泡膜用于保护运输中的 IBM 1401 晶体管计算机，促成其在全球物流与快递中风靡"
+    }
+  },
+  "locations": [
+    {
+      "lat": 40.9573,
+      "lng": -74.1543,
+      "place_label_zh": "美国新泽西州霍桑",
+      "place_label_en": "Hawthorne, New Jersey, USA",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 42.1009,
+      "lng": -76.0494,
+      "place_label_zh": "美国纽约州恩迪科特（IBM）",
+      "place_label_en": "Endicott, New York, USA (IBM)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Bubble Wrap — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bubble_Wrap",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "The Accidental Invention of Bubble Wrap — Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/innovation/accidental-invention-bubble-wrap-180971325/",
+      "type": "news",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1957 年两位工程师研发立体壁纸失败，却意外创造了密封气泡膜。1960 年 IBM 选用它运送精密计算机，使其迅速成为现代电商与包裹物流的减震标配。",
+  "summary_en": "Invented in 1957 as 3D wallpaper, sealed plastic bubbles found their calling in 1960 when IBM used them to pack computers, turning Bubble Wrap into an icon of global packaging.",
+  "tags": [
+    "storage",
+    "materials",
+    "household"
+  ],
+  "updated": "2026-11-09"
+}

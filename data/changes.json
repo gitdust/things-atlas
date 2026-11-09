@@ -154,5 +154,23 @@
     "afterVersion": "0.5.0",
     "zh": "修复时间轴年份刻度挤在标尺上方、文字重叠的问题，年份重新显示在刻度下方。",
     "en": "Fix timeline year labels crowding above the ruler and overlapping, placing them back beneath the ticks."
+  },
+  {
+    "id": "release-paradigm-entries-upgrade",
+    "afterVersion": "0.5.1",
+    "zh": "明确范式革命独立品类收录原则；将折叠伞升级为「伞」补齐古代源头，拉杆箱升级为「行李箱」，平底锅重构两河流域与爱琴海古代起点，并新增经典「手表」与「智能手表」独立并存。",
+    "en": "Establish category inclusion principles for independent paradigm-shifting objects. Upgrade to the overarching umbrella and suitcase, reconstruct the ancient origins of the frying pan, and document the classic wristwatch alongside the smartwatch."
+  },
+  {
+    "id": "release-fourteen-objects",
+    "afterVersion": "0.5.1",
+    "zh": "新增双肩背包、防晒霜、卫生巾、牙线、气泡膜、猫砂、电源插头与插座、烤面包机、T 恤、罐头、菜刀、美工刀、卷笔刀和马克笔，全站独立品类条目增至 143 项。",
+    "en": "Add 14 paradigm-defining objects including the backpack, sunscreen, sanitary napkin, dental floss, bubble wrap, cat litter, power plug and socket, toaster, T-shirt, tin can, kitchen knife, utility knife, pencil sharpener, and marker pen, expanding the atlas to 143 entries."
+  },
+  {
+    "id": "release-entry-bilingual-accuracy",
+    "afterVersion": "0.5.1",
+    "zh": "全面校订条目中英文历史考证与术语翻译，修正卫生巾专利归属与防晒霜早期化学防晒史，优化螺旋开瓶器等中文命名，并重构中文字体子集。",
+    "en": "Thoroughly review bilingual historical records and terminology, correcting patent attributions for sanitary pads and early chemical sunscreen origins, standardizing object names, and rebuilding font subsets."
   }
 ]

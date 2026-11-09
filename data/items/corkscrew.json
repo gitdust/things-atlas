@@ -1,6 +1,6 @@
 {
   "id": "corkscrew",
-  "name_zh": "开瓶螺旋",
+  "name_zh": "螺旋开瓶器",
   "name_en": "Corkscrew",
   "category": "kitchen",
   "years": {
@@ -8,13 +8,13 @@
       "year": 1681,
       "precision": "year",
       "ref": "Earliest known reference to a corkscrew, England",
-      "ref_zh": "英格兰出现关于开瓶螺旋的最早记载"
+      "ref_zh": "英格兰出现关于螺旋开瓶器的最早记载"
     },
     "patent": {
       "year": 1795,
       "precision": "year",
       "ref": "Rev. Samuel Henshall granted the first corkscrew patent, England",
-      "ref_zh": "亨歇尔牧师获首个开瓶螺旋专利"
+      "ref_zh": "亨歇尔牧师获首个螺旋开瓶器专利"
     },
     "mass_production": null,
     "popularization": null
@@ -39,7 +39,7 @@
     }
   ],
   "disputed": false,
-  "summary_zh": "开瓶螺旋可能源于清理枪管的枪螺；已知最早的记载出现在 1681 年的英格兰，1795 年亨歇尔牧师获得第一个开瓶螺旋专利。",
+  "summary_zh": "螺旋开瓶器可能源于清理枪管的枪螺；已知最早的记载出现在 1681 年的英格兰，1795 年亨歇尔牧师获得第一个螺旋开瓶器专利。",
   "summary_en": "The corkscrew probably derives from the gun worm; the earliest reference dates from 1681 in England, and Rev. Samuel Henshall received the first corkscrew patent in 1795.",
   "tags": [
     "dining"
@@ -47,7 +47,7 @@
   "updated": "2026-11-01",
   "image": {
     "src": "/images/corkscrew.jpg",
-    "alt_zh": "几种开瓶螺旋",
+    "alt_zh": "几种螺旋开瓶器",
     "alt_en": "Several corkscrews",
     "credit": "Alvesgaspar",
     "license": "CC BY-SA 4.0",

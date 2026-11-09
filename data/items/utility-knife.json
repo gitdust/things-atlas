@@ -1,0 +1,71 @@
+{
+  "id": "utility-knife",
+  "name_zh": "美工刀",
+  "name_en": "Utility knife",
+  "category": "hand_tool",
+  "years": {
+    "invention": {
+      "year": 1956,
+      "precision": "year",
+      "ref": "Yoshio Okada in Osaka invents the snap-off blade cutter, inspired by segmented chocolate bars and broken glass",
+      "ref_zh": "日本大阪的冈田良男受巧克力折条凹槽与碎玻璃边缘启发，发明世界上第一把折刃式美工刀"
+    },
+    "patent": {
+      "year": 1959,
+      "precision": "year",
+      "ref": "Yoshio Okada granted Japanese patent for the snap-off blade cutting knife",
+      "ref_zh": "冈田良男取得折刃式多节刀片切削工具的日本发明专利"
+    },
+    "mass_production": {
+      "year": 1956,
+      "precision": "year",
+      "ref": "Okada Kogyo (later OLFA Corporation) begins commercial manufacturing of the Model 1 snap-off cutter in Osaka",
+      "ref_zh": "冈田工业（后为爱利华 OLFA）在大阪正式量产 1 号折刃美工刀"
+    },
+    "popularization": {
+      "year": 1970,
+      "precision": "decade",
+      "ref": "OLFA standardizes 9mm and 18mm snap-off blades, exporting globally for crafts, drafting, and warehouse work",
+      "ref_zh": "OLFA 确立全球通用的 9 毫米与 18 毫米折刃刀片国际规格，让美工刀成为美工绘图、开箱与手工必备工具"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.6937,
+      "lng": 135.5023,
+      "place_label_zh": "日本大阪（冈田良男 / OLFA）",
+      "place_label_en": "Osaka, Japan (Yoshio Okada / OLFA)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Utility knife — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Utility_knife",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Birth of the Snap-off Blade — OLFA Corporation",
+      "url": "https://www.olfa.co.jp/en/history.html",
+      "type": "brand",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "The History of the Utility Knife — Core77",
+      "url": "https://www.core77.com/posts/26261/A-History-of-the-Snap-Off-Utility-Knife",
+      "type": "news",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1956 年日本 OLFA 创始人冈田良男受折断巧克力的凹槽与碎玻璃启发，发明了折刃式美工刀；随折随新的刀刃彻底解决了传统小刀磨刀的烦恼，成为全球通用工具。",
+  "summary_en": "In 1956 in Osaka, OLFA founder Yoshio Okada invented the snap-off blade utility knife inspired by break-apart chocolate bars, giving the world an instant, endlessly sharp edge for work and craft.",
+  "tags": [
+    "repair",
+    "office"
+  ],
+  "updated": "2026-11-09"
+}

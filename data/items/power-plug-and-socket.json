@@ -1,0 +1,73 @@
+{
+  "id": "power-plug-and-socket",
+  "name_zh": "电源插头与插座",
+  "name_en": "Power plug and socket",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1904,
+      "precision": "year",
+      "ref": "Harvey Hubbell patents the separable attachment plug and wall receptacle in Bridgeport, Connecticut",
+      "ref_zh": "哈维·哈贝尔在康涅狄格州布里奇波特取得可拆卸式电源插头与墙面插座专利（US774250）"
+    },
+    "patent": {
+      "year": 1904,
+      "precision": "year",
+      "ref": "US Patent 774,250 granted to Harvey Hubbell for 'Separable Attachment Plug'",
+      "ref_zh": "美国专利局授予哈贝尔“可分离式附着插头”发明专利"
+    },
+    "mass_production": {
+      "year": 1916,
+      "precision": "year",
+      "ref": "Hubbell and collaborating electrical manufacturers standardize parallel-blade plugs",
+      "ref_zh": "哈贝尔与多家电气制造商合作建立双平插平行脚电气接口量产标准"
+    },
+    "popularization": {
+      "year": 1926,
+      "precision": "year",
+      "ref": "Albert Büttner patents the Schuko grounded plug and socket system in Lauf an der Pegnitz, Germany",
+      "ref_zh": "阿尔伯特·比特纳在德国取得 Schuko 接地保护插头插座专利（DE377000），确立现代用电安全基准"
+    }
+  },
+  "locations": [
+    {
+      "lat": 41.1792,
+      "lng": -73.1894,
+      "place_label_zh": "美国康涅狄格州布里奇波特",
+      "place_label_en": "Bridgeport, Connecticut, USA",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 49.5108,
+      "lng": 11.2825,
+      "place_label_zh": "德国佩格尼茨河畔劳夫",
+      "place_label_en": "Lauf an der Pegnitz, Germany",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "AC power plugs and sockets — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Harvey Hubbell — National Inventors Hall of Fame",
+      "url": "https://www.invent.org/inductees/harvey-hubbell",
+      "type": "museum",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "在 1904 年哈贝尔发明可分离插头前，所有家用电器都必须拧进天花板的灯泡座取电。插头与插座的发明让电力真正安全走入千家万户的墙面。",
+  "summary_en": "Before Harvey Hubbell patented the separable plug in 1904, home appliances had to screw into ceiling light bulb sockets. His design safely routed electricity to walls and floors worldwide.",
+  "tags": [
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-09"
+}

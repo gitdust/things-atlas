@@ -1,0 +1,102 @@
+{
+  "id": "watch",
+  "name_zh": "手表",
+  "name_en": "Watch",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1868,
+      "precision": "year",
+      "ref": "Patek Philippe in Geneva crafts the first Swiss wristwatch for Countess Koscowicz of Hungary",
+      "ref_zh": "百达翡丽在日内瓦为匈牙利科斯科维奇伯爵夫人制造出已知首只瑞士机械腕表（钟表从怀中走向手腕）"
+    },
+    "patent": {
+      "year": 1904,
+      "precision": "year",
+      "ref": "Louis Cartier designs the Santos wristwatch in Paris for aviator Alberto Santos-Dumont, the first practical men's pilot watch",
+      "ref_zh": "路易·卡地亚在巴黎为飞行先驱杜蒙设计方形表圈皮革表带的“山度士”（Santos），开创现代实用男士腕表"
+    },
+    "mass_production": {
+      "year": 1914,
+      "precision": "year",
+      "ref": "World War I trench warfare prompts mass-produced 'trench watches' with wire lugs and luminous dials, supplanting pocket watches",
+      "ref_zh": "一战爆发催生配有防碎表镜与夜光指针的“战壕表”，士兵在西线泥泞中普及腕戴，彻底打破怀表传统"
+    },
+    "popularization": {
+      "year": 1969,
+      "precision": "exact",
+      "ref": "Seiko launches the Quartz Astron 35SQ in Tokyo, triggering the Quartz Revolution and universalizing precise timekeeping",
+      "ref_zh": "精工在东京推出世界上第一只石英腕表 Astron，引发全球“石英革命”，大幅降低成本并使其普及至大众"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 46.2044,
+      "lng": 6.1432,
+      "place_label_zh": "瑞士日内瓦（百达翡丽首只腕表）",
+      "place_label_en": "Geneva, Switzerland (Patek Philippe first wristwatch)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "place_label_zh": "法国巴黎（卡地亚山度士腕表）",
+      "place_label_en": "Paris, France (Cartier Santos)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "place_label_zh": "英国伦敦与一战西线战场（战壕表）",
+      "place_label_en": "London, UK / Western Front (WWI trench watches)",
+      "kind": "production",
+      "confidence": "region"
+    },
+    {
+      "lat": 35.681,
+      "lng": 139.767,
+      "place_label_zh": "日本东京（精工石英革命）",
+      "place_label_en": "Tokyo, Japan (Seiko Quartz Astron)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Wristwatch — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wristwatch",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "A History of the Wristwatch — Monochrome Watches",
+      "url": "https://monochrome-watches.com/",
+      "type": "news",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Wristwatches and World War I — National WWI Museum and Memorial",
+      "url": "https://www.theworldwar.org/",
+      "type": "museum",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "The Quartz Revolution — Seiko Museum Ginza",
+      "url": "https://museum.seiko.co.jp/en/",
+      "type": "museum",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1868 年百达翡丽制造首只腕表，1904 年卡地亚打造首款男士飞行腕表；一战战壕使腕上读时普及，其后历经石英革命与现代智能跃迁，成为全球手腕上的永恒标配。",
+  "summary_en": "From Patek Philippe's 1868 piece and Cartier's 1904 Santos to WWI trench watches and 1969 Seiko quartz precision, the wristwatch replaced pocket watches as humanity's essential wrist-worn companion.",
+  "tags": [
+    "clothing",
+    "materials"
+  ],
+  "updated": "2026-11-09"
+}

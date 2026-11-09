@@ -1,0 +1,73 @@
+{
+  "id": "pencil-sharpener",
+  "name_zh": "卷笔刀",
+  "name_en": "Pencil sharpener",
+  "category": "stationery",
+  "years": {
+    "invention": {
+      "year": 1828,
+      "precision": "year",
+      "ref": "Bernard Lassimonne, a French mathematician, patents the first mechanical pencil sharpener (French Patent 2444), Paris",
+      "ref_zh": "法国数学家拉西蒙在巴黎取得世界上第一个机械削铅笔刨具专利（法国专利 No.2444）"
+    },
+    "patent": {
+      "year": 1828,
+      "precision": "year",
+      "ref": "French Patent No. 2444 granted to Bernard Lassimonne for 'taille-crayon'",
+      "ref_zh": "法国专利局向拉西蒙颁发削铅笔器专利"
+    },
+    "mass_production": {
+      "year": 1847,
+      "precision": "year",
+      "ref": "Thierry des Estivaux invents the handheld prism sharpener with a conical hole and straight blade in Paris",
+      "ref_zh": "埃斯蒂沃在巴黎发明带有锥形导向孔和固定平刃的手持棱柱形卷笔刀，奠定现代小卷笔刀形态"
+    },
+    "popularization": {
+      "year": 1896,
+      "precision": "year",
+      "ref": "A.B. Dick Company releases the Planetary Pencil Sharpener, Chicago, leading to widespread rotary classroom sharpeners",
+      "ref_zh": "芝加哥 A.B. Dick 公司推出行星齿轮双滚刀手摇卷笔机，随后进入全球中小学教室与办公桌"
+    }
+  },
+  "locations": [
+    {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "place_label_zh": "法国巴黎",
+      "place_label_en": "Paris, France",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "place_label_zh": "美国伊利诺伊州芝加哥",
+      "place_label_en": "Chicago, Illinois, USA",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Pencil sharpener — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pencil_sharpener",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "History of Pencil Sharpeners — Early Office Museum",
+      "url": "https://www.officemuseum.com/pencil_sharpeners.htm",
+      "type": "museum",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1828 年法国数学家拉西蒙取得首个机械刨笔专利，1847 年埃斯蒂沃发明锥形孔手持卷笔刀；19 世纪末双滚刀手摇机面世，让削铅笔彻底告别手削小刀时代。",
+  "summary_en": "In 1828 Bernard Lassimonne patented the mechanical sharpener in Paris, and in 1847 Thierry des Estivaux created the handheld prism sharpener, later expanded into rotary classroom tools.",
+  "tags": [
+    "writing",
+    "office"
+  ],
+  "updated": "2026-11-09"
+}

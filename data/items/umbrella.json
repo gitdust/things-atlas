@@ -1,0 +1,111 @@
+{
+  "id": "umbrella",
+  "name_zh": "伞",
+  "name_en": "Umbrella",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": -210,
+      "precision": "century",
+      "ref": "Qin Shi Huang's Mausoleum Bronze Chariot No. 1 features a bronze umbrella with mechanical locking joints and tilt adjustments",
+      "ref_zh": "秦始皇陵一号铜车马出土大型青铜圆伞，装配有精密齿轮锁扣与多角度转动机构，为已知最早机械结构伞具实物"
+    },
+    "patent": {
+      "year": 1852,
+      "precision": "exact",
+      "ref": "Samuel Fox patents the lightweight U-shaped grooved steel rib ('Paragon' frame) in Sheffield, UK",
+      "ref_zh": "英国设菲尔德的塞缪尔·福克斯取得轻量槽形钢骨伞架专利（Paragon frame），奠定现代雨伞工业构架"
+    },
+    "mass_production": {
+      "year": 1786,
+      "precision": "decade",
+      "ref": "Jonas Hanway in London popularizes umbrellas for rain protection, prompting commercial workshops to scale production",
+      "ref_zh": "乔纳斯·汉威在伦敦推动雨伞作为日常防雨工具普及，促使英法工坊开始规模化量产"
+    },
+    "popularization": {
+      "year": 1928,
+      "precision": "exact",
+      "ref": "Hans Haupt in Germany patents the compact telescopic pocket umbrella (Knirps), popularizing folding rainwear worldwide",
+      "ref_zh": "汉斯·霍普特在德国取得袖珍伸缩折叠伞专利（Knirps），开创全球便携折叠伞普及时代"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 34.3841,
+      "lng": 109.2785,
+      "place_label_zh": "中国陕西临潼（秦始皇陵铜车马）",
+      "place_label_en": "Lintong, Shaanxi, China (Qin Bronze Chariot)",
+      "kind": "invention",
+      "confidence": "exact"
+    },
+    {
+      "lat": 53.4735,
+      "lng": -1.6033,
+      "place_label_zh": "英国设菲尔德斯托克斯布里奇（福克斯钢骨伞）",
+      "place_label_en": "Stocksbridge, Sheffield, UK (Samuel Fox)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "place_label_zh": "英国伦敦（汉威雨伞普及）",
+      "place_label_en": "London, UK (Jonas Hanway)",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.1712,
+      "lng": 7.0858,
+      "place_label_zh": "德国索林根（Knirps 折叠伞）",
+      "place_label_en": "Solingen, Germany (Knirps)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "century",
+  "sources": [
+    {
+      "title": "Umbrella — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "History of the umbrella — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_umbrella",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Samuel Fox & the Paragon Umbrella Frame — Great British Life",
+      "url": "https://www.greatbritishlife.co.uk/",
+      "type": "news",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "Knirps Heritage: The History of the Pocket Umbrella — Knirps",
+      "url": "https://knirps.com/en/history",
+      "type": "brand",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "从周代仪仗与秦陵铜车马精密的机械机关伞，到 1852 年英国福克斯发明轻量槽形钢骨，再到 1928 年德国伸缩折叠伞，伞历经数千年演变，成为全球遮阳避雨的随身必备。",
+  "summary_en": "From Qin chariot bronze umbrellas with mechanical joints to Samuel Fox's 1852 steel frame and 1928 Knirps pocket models, the umbrella evolved into an essential everyday shelter worldwide.",
+  "tags": [
+    "travel",
+    "health",
+    "materials"
+  ],
+  "updated": "2026-11-09",
+  "image": {
+    "src": "/images/umbrella.jpg",
+    "alt_zh": "撑开的雨伞实物",
+    "alt_en": "An opened umbrella",
+    "credit": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Folding_umbrella_01.jpg"
+  }
+}

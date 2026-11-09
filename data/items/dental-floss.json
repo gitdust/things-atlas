@@ -1,0 +1,73 @@
+{
+  "id": "dental-floss",
+  "name_zh": "牙线",
+  "name_en": "Dental floss",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1815,
+      "precision": "year",
+      "ref": "Dr. Levi Spear Parmly in New Orleans introduces silk thread for interdental cleaning",
+      "ref_zh": "新奥尔良牙医帕姆利主张用无蜡丝线清除牙缝污垢，开启现代牙线洁齿"
+    },
+    "patent": {
+      "year": 1898,
+      "precision": "year",
+      "ref": "Johnson & Johnson receives first US patent for dental floss made from leftover suture silk",
+      "ref_zh": "强生公司利用制造医用缝合线的蚕丝余料取得首个牙线专利（US608034）"
+    },
+    "mass_production": {
+      "year": 1882,
+      "precision": "year",
+      "ref": "Codman & Shurtleff begins commercial manufacturing of unwaxed silk floss, Massachusetts",
+      "ref_zh": "马萨诸塞州的科德曼与舒特利夫公司开始商业化生产无蜡丝质牙线"
+    },
+    "popularization": {
+      "year": 1940,
+      "precision": "decade",
+      "ref": "Dr. Charles C. Bass substitutes nylon for silk, dramatically increasing strength and everyday adoption",
+      "ref_zh": "巴斯医生用杜邦尼龙替代易断裂的天然蚕丝，推动尼龙牙线成为全球家庭日常必需品"
+    }
+  },
+  "locations": [
+    {
+      "lat": 29.9511,
+      "lng": -90.0715,
+      "place_label_zh": "美国路易斯安那州新奥尔良",
+      "place_label_en": "New Orleans, Louisiana, USA",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 40.4862,
+      "lng": -74.4518,
+      "place_label_zh": "美国新泽西州新不伦瑞克（强生）",
+      "place_label_en": "New Brunswick, New Jersey, USA (Johnson & Johnson)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Dental floss — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dental_floss",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "History of Dental Floss — Library of Congress",
+      "url": "https://www.loc.gov/everyday-mysteries/technology/item/who-invented-dental-floss-and-when-was-it-first-used/",
+      "type": "museum",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1815 年新奥尔良牙医帕姆利提出用丝线清洁牙缝。1898 年强生将外科缝合线余料制成商品牙线，二战后尼龙的发明让牙线彻底融入日常口腔护理。",
+  "summary_en": "In 1815 New Orleans dentist Levi Spear Parmly recommended silk thread for flossing. Johnson & Johnson patented it in 1898, and post-WWII nylon made dental floss an everyday bathroom staple.",
+  "tags": [
+    "health",
+    "grooming"
+  ],
+  "updated": "2026-11-09"
+}

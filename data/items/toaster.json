@@ -1,0 +1,82 @@
+{
+  "id": "toaster",
+  "name_zh": "烤面包机",
+  "name_en": "Toaster",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1893,
+      "precision": "year",
+      "ref": "Crompton & Company introduces the 'Eclipse' electric wire-rack toaster, Chelmsford, Essex, UK",
+      "ref_zh": "英国埃塞克斯郡切姆斯福德的克朗普顿公司推出名为“蚀”（Eclipse）的早期电热铁丝架烤面包器"
+    },
+    "patent": {
+      "year": 1909,
+      "precision": "year",
+      "ref": "Frank Shailor of General Electric patents the D-12 electric toaster (US Patent 950,058), Schenectady, NY",
+      "ref_zh": "通用电气的谢勒在纽约州斯克内克塔迪取得 D-12 电动烤面包机专利（US950058）"
+    },
+    "mass_production": {
+      "year": 1919,
+      "precision": "year",
+      "ref": "Charles Strite patents the pop-up toaster with spring and variable timer, Stillwater, Minnesota",
+      "ref_zh": "查尔斯·斯特莱特在明尼苏达州斯蒂尔沃特发明带发条定时器和弹簧弹跳装置的自动烤面包机（US1394450）"
+    },
+    "popularization": {
+      "year": 1926,
+      "precision": "year",
+      "ref": "Waters-Genter Company markets the modern domestic pop-up toaster as the 'Toastmaster' Model 1-A-1",
+      "ref_zh": "沃特斯-根特公司推出家用 Toastmaster 1-A-1 弹跳式烤面包机，让无需看守的烤吐司成为大众早餐标配"
+    }
+  },
+  "locations": [
+    {
+      "lat": 51.7356,
+      "lng": 0.4685,
+      "place_label_zh": "英国埃塞克斯郡切姆斯福德",
+      "place_label_en": "Chelmsford, Essex, UK",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 42.8142,
+      "lng": -73.9396,
+      "place_label_zh": "美国纽约州斯克内克塔迪（通用电气）",
+      "place_label_en": "Schenectady, New York, USA (General Electric)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 45.0561,
+      "lng": -92.8088,
+      "place_label_zh": "美国明尼苏达州斯蒂尔沃特",
+      "place_label_en": "Stillwater, Minnesota, USA",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Toaster — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Toaster",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "A History of the Toaster — Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/arts-culture/a-history-of-the-toaster-180962458/",
+      "type": "news",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1893 年英国出现早期电烤面包器；1919 年斯特莱特在明尼苏达发明弹跳式机制与定时器，Toastmaster 随后将双面自动烘烤推向千家万户的早餐餐桌。",
+  "summary_en": "From early 1893 British wire-rack heaters, Charles Strite's 1919 Minnesota invention added variable timers and pop-up springs, making the Toastmaster an enduring breakfast icon worldwide.",
+  "tags": [
+    "cooking",
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-09"
+}

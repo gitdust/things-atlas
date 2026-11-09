@@ -13,6 +13,23 @@ By opening a PR you agree to license your code under MIT and your item JSON unde
 
 This workflow is intended for both human contributors and AI agents. Maintainers review the resulting PR; contributors remain responsible for checking facts and licenses.
 
+### Scope principle: reject pure subsidiary variants, embrace paradigm-shifting independent categories (拒绝纯附庸变体，拥抱范式革命型独立品类)
+
+Things Atlas documents origins and spatial movements of objects that reshaped human everyday life. When proposing or reviewing items, adhere strictly to this boundary:
+
+- **Do NOT add pure subsidiary variants (纯附庸变体不独立建档)**: Do not create separate entries for items that share the same core working principle and merely scale dimensions, alter packaging, or add minor mechanical accessories. Mention them as milestones or notes within the parent entry:
+  - ❌ *Vehicular variants*: tricycles, unicycles, or folding bicycles derived from the bicycle.
+  - ❌ *Stationery variants*: mechanical pencils derived from the pencil; correction tape derived from correction fluid; scrunchies derived from the rubber band.
+  - ❌ *Packaging / brewing auxiliaries*: tea bags derived from tea; coffee filter paper derived from coffee; zippered storage bags (Ziploc) derived from plastic bags.
+- **DO add paradigm-shifting independent categories (范式革命型独立品类积极建档)**: Even within the same broad domain, items whose working principles underwent a radical, foundational leap, possess independent patent and industrial histories, and fundamentally reshaped daily human behavior MUST be documented as distinct entries:
+  - ✔️ **Ballpoint pen (`ballpoint-pen`)**: Replaced capillary liquid ink with precision ball bearings and high-viscosity paste ink.
+  - ✔️ **Utility knife (`utility-knife`)**: Replaced fixed-blade regrinding with snap-off pre-scored segmented blades.
+  - ✔️ **Safety razor (`safety-razor`)**: Replaced exposed straight razors with thin double-edge disposable blades in a protective guard.
+  - ✔️ **Rolling suitcase (`rolling-suitcase`)**: Upright dual-wheel and telescoping handle architecture that fundamentally transformed global travel logistics.
+  - ✔️ **Folding umbrella (`folding-umbrella`)**: Articulated kinematic linkage mechanism transforming rigid canopies into handheld compact gear.
+  - ✔️ **Tablet (`tablet`)**: Direct multi-touch capacitive glass interaction replacing indirect mouse/keyboard manipulation, unlocking ubiquitous deskless computing.
+  - ✔️ **Backpack (`backpack`)**: Independent framed burden-carrying lineage spanning from Ötzi's 3300 BCE alpine hazel frame to modern ergonomic nylon daypacks.
+
 1. Fork the repository on GitHub, clone your fork, and create a topic branch such as `git switch -c add/your-slug`. Install the existing dependencies with `npm ci` (Node.js 20, matching CI). Do not add dependencies just to create an entry.
 2. Check `data/items/` for duplicate names, aliases, or equivalent objects. The subject should still be in daily circulation, widely known, and in a category listed by `data/schema/item.schema.json`. Foods and beverages are welcome, including specific branded products with broad cultural reach. Define whether the entry covers a general object, food type, or specific product. A brand's launch is not the invention of the entire food type. Document a product launch in the milestone matching the evidence (production or popularization), explaining its meaning in the bilingual text; do not invent an invention date.
 3. Research sources online before writing. Prefer museums, historical institutions, original patents, and other primary records. At least one source must be non-brand. Open each cited page and confirm that it supports the recorded claim; do not fabricate dates, locations, citations, or access dates. Distinguish invention, improvements, patents, commercial production, and popularization. Leave unsupported milestones `null` and use approximate precision or dispute notes where appropriate.

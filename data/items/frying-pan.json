@@ -4,43 +4,56 @@
   "name_en": "Frying pan",
   "category": "kitchen",
   "years": {
-    "invention": null,
+    "invention": {
+      "year": -2000,
+      "precision": "century",
+      "ref": "Flat-bottomed metal and earthenware frying pans (teganon) attested in ancient Mesopotamia and Bronze Age Aegean Greece",
+      "ref_zh": "古代美索不达米亚与爱琴海青铜时代厨房普遍使用平底金属与陶制煎盘（teganon）烹饪切削肉菜"
+    },
     "patent": {
       "year": 1954,
-      "precision": "year",
-      "ref": "Marc Grégoire patents bonding Teflon to aluminium, France",
-      "ref_zh": "格雷瓜尔在法国获得把特氟龙黏合到铝上的专利"
+      "precision": "exact",
+      "ref": "Marc Grégoire patents a method for bonding PTFE (Teflon) to aluminum in France, inventing the modern non-stick pan",
+      "ref_zh": "马克·格雷瓜尔在法国取得将聚四氟乙烯（特氟龙）牢固黏合在铝锅表面的发明专利，开创现代不粘锅"
     },
     "mass_production": {
       "year": 1880,
       "precision": "century",
-      "ref": "Flat-bottomed cast-iron skillets arrive with cooking stoves, late 19th century",
-      "ref_zh": "19 世纪末随炉灶普及出现平底铸铁煎锅"
+      "ref": "Foundries like Griswold and Lodge mass-produce flat-bottomed cast-iron skillets for modern domestic cooking stoves",
+      "ref_zh": "格里斯沃尔德与洛奇等铸造厂随近代厨房炉灶普及，大规模量产双耳与长柄平底铸铁煎锅"
     },
     "popularization": {
       "year": 1956,
       "precision": "year",
-      "ref": "Grégoire founds Tefal to sell non-stick cookware",
-      "ref_zh": "格雷瓜尔创立特福（Tefal）销售不粘锅"
+      "ref": "Marc Grégoire founds Tefal in Sarcelles, France, popularizing non-stick cookware in households globally",
+      "ref_zh": "格雷瓜尔在法国萨塞勒创立特福（Tefal），将无需油脂的不粘平底锅推向全球千万家庭厨房"
     }
   },
-  "primary": "mass_production",
+  "primary": "invention",
   "locations": [
     {
-      "lat": 46.6,
-      "lng": 2.4,
-      "place_label_zh": "法国（特福）",
-      "place_label_en": "France (Tefal)",
-      "kind": "patent",
-      "confidence": "country"
+      "lat": 36.3514,
+      "lng": 25.4042,
+      "place_label_zh": "希腊圣托里尼阿克罗蒂里（爱琴青铜煎盘遗迹）",
+      "place_label_en": "Akrotiri, Santorini, Greece (Bronze Age frying pans)",
+      "kind": "invention",
+      "confidence": "region"
     },
     {
-      "lat": 32.536,
-      "lng": 44.421,
-      "place_label_zh": "美索不达米亚（铜锅）",
-      "place_label_en": "Mesopotamia (copper pans)",
-      "kind": "contested",
-      "confidence": "approximate"
+      "lat": 42.0628,
+      "lng": -80.0886,
+      "place_label_zh": "美国宾夕法尼亚州伊利（格里斯沃尔德铸铁锅）",
+      "place_label_en": "Erie, Pennsylvania, USA (Griswold cast iron)",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 48.9796,
+      "lng": 2.3815,
+      "place_label_zh": "法国萨塞勒（特福不粘锅）",
+      "place_label_en": "Sarcelles, France (Tefal non-stick)",
+      "kind": "patent",
+      "confidence": "city"
     }
   ],
   "confidence": "century",
@@ -49,17 +62,29 @@
       "title": "Frying pan — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Frying_pan",
       "type": "wiki",
-      "accessed": "2026-11-01"
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "A Brief History of the Cast Iron Skillet — Serious Eats",
+      "url": "https://www.seriouseats.com/history-cast-iron-cookware",
+      "type": "news",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "US Patent 2,944,924: Process of coating aluminum articles with polytetrafluoroethylene",
+      "url": "https://patents.google.com/patent/US2944924A/en",
+      "type": "patent",
+      "accessed": "2026-11-09"
     }
   ],
   "disputed": false,
-  "notes": "来源较弱：古代美索不达米亚铜锅没有具体年代，因此不设发明年；本条目以 19 世纪末平底铸铁煎锅为主年份。",
-  "summary_zh": "古代美索不达米亚已有铜制煎锅；19 世纪末炉灶普及带来平底铸铁煎锅；1954 年法国的格雷瓜尔发明不粘锅涂层工艺。",
-  "summary_en": "Copper frying pans were used in ancient Mesopotamia; flat cast-iron skillets came with cooking stoves in the late 19th century; in 1954 France's Marc Grégoire patented a non-stick coating.",
+  "summary_zh": "距今 4000 年前的两河与爱琴海文明已普遍使用平底煎盘；19 世纪末铸铁煎锅随现代炉灶普及，1954 年法国特福发明特氟龙不粘涂层，使平底锅成为跨越古今的厨房核心炊具。",
+  "summary_en": "From 4,000-year-old Mesopotamian and Greek bronze frying pans to 19th-century cast-iron skillets and 1954 Tefal non-stick coatings, the frying pan remains an enduring cooking staple across millennia.",
   "tags": [
-    "cooking"
+    "cooking",
+    "materials"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-09",
   "image": {
     "src": "/images/frying-pan.jpg",
     "alt_zh": "一只黑柄不粘平底锅",
@@ -67,6 +92,5 @@
     "credit": "User:Lcarsdata",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Frying_pan_with_black_handle.jpg"
-  },
-  "notes_en": "Weak sourcing: the ancient Mesopotamian copper pans have no specific date, so invention is left null and the late-19th-century flat cast-iron skillet is the primary year."
+  }
 }

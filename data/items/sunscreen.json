@@ -1,0 +1,81 @@
+{
+  "id": "sunscreen",
+  "name_zh": "防晒霜",
+  "name_en": "Sunscreen",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1935,
+      "precision": "year",
+      "ref": "Eugène Schueller introduces Ambre Solaire, the first commercial sunscreen with a UV filter, Paris",
+      "ref_zh": "欧莱雅创始人舒莱尔在巴黎推出第一款含紫外线滤光剂的商用防晒油 Ambre Solaire"
+    },
+    "patent": {
+      "year": 1933,
+      "precision": "year",
+      "ref": "IG Farben patents synthetic UV-absorbing filter compounds in Germany, launching the Delial sun-protection line",
+      "ref_zh": "德国法本公司取得合成紫外线吸收滤剂专利，并推出早期商业防晒产品 Delial"
+    },
+    "mass_production": {
+      "year": 1946,
+      "precision": "year",
+      "ref": "Franz Greiter develops 'Gletscher Crème' (Glacier Cream) after climbing Mount Piz Buin, Switzerland/Austria",
+      "ref_zh": "瑞士化学家格赖特在攀登皮兹布因峰被晒伤后研制冰川防晒霜（Piz Buin）并投入生产"
+    },
+    "popularization": {
+      "year": 1962,
+      "precision": "year",
+      "ref": "Franz Greiter introduces the Sun Protection Factor (SPF) rating, standardizing global suncare",
+      "ref_zh": "格赖特提出防晒指数（SPF）概念，推动防晒霜全球标准化与日常化"
+    }
+  },
+  "locations": [
+    {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "place_label_zh": "法国巴黎",
+      "place_label_en": "Paris, France",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 50.1109,
+      "lng": 8.6821,
+      "place_label_zh": "德国美因河畔法兰克福（德国法本公司）",
+      "place_label_en": "Frankfurt am Main, Germany (IG Farben)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 46.8453,
+      "lng": 10.1192,
+      "place_label_zh": "奥地利/瑞士皮兹布因峰",
+      "place_label_en": "Piz Buin, Austria/Switzerland",
+      "kind": "production",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Sunscreen — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sunscreen",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "A Brief History of Sunscreen — Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/history-sunscreen-180963871/",
+      "type": "news",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1930 年代德法研制出早期紫外线化学滤剂并推出商业防晒霜；二战军用防晒与 1962 年 SPF 指数的诞生，让防晒从沙滩度假跃升为全球日常护肤与健康基准。",
+  "summary_en": "In the 1930s European chemists patented synthetic UV filters. Post-war formulas and the 1962 SPF standard transformed sunscreen from beach novelty into an everyday global skincare essential.",
+  "tags": [
+    "health",
+    "grooming"
+  ],
+  "updated": "2026-11-09"
+}

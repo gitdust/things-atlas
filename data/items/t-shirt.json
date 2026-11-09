@@ -1,0 +1,75 @@
+{
+  "id": "t-shirt",
+  "name_zh": "T 恤",
+  "name_en": "T-shirt",
+  "category": "apparel_accessory",
+  "years": {
+    "invention": {
+      "year": 1904,
+      "precision": "year",
+      "ref": "Cooper Underwear Company advertises buttonless, elastic crew-neck 'bachelor undershirts', Kenosha, Wisconsin",
+      "ref_zh": "威斯康星州基诺沙的库珀内衣公司登报推广无需缝补扣子的单件式弹力圆领套头内衣"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1913,
+      "precision": "year",
+      "ref": "United States Navy issues crew-neck, short-sleeved white cotton jerseys as standard undergarments",
+      "ref_zh": "美国海军正式将短袖圆领纯棉汗衫列为水兵标准制服内衣，奠定 T 形剪裁规格"
+    },
+    "popularization": {
+      "year": 1951,
+      "precision": "year",
+      "ref": "Marlon Brando in 'A Streetcar Named Desire' popularizes the plain white T-shirt as standalone outer apparel",
+      "ref_zh": "马龙·白兰度在电影《欲望号街车》中身穿纯白短袖，彻底让 T 恤从隐蔽内衣跃升为全球大众日常外穿单品"
+    }
+  },
+  "locations": [
+    {
+      "lat": 42.5847,
+      "lng": -87.8212,
+      "place_label_zh": "美国威斯康星州基诺沙",
+      "place_label_en": "Kenosha, Wisconsin, USA",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "place_label_zh": "美国华盛顿特区（美国海军）",
+      "place_label_en": "Washington, D.C., USA (US Navy)",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "place_label_zh": "美国加利福尼亚州洛杉矶（好莱坞）",
+      "place_label_en": "Los Angeles, California, USA (Hollywood)",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "T-shirt — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/T-shirt",
+      "type": "wiki",
+      "accessed": "2026-11-09"
+    },
+    {
+      "title": "A Cultural History of the T-Shirt — BBC",
+      "url": "https://www.bbc.com/culture/article/20180202-the-t-shirt-a-rebel-with-a-cause",
+      "type": "news",
+      "accessed": "2026-11-09"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "20 世纪初从连体工装演变而来的圆领套头汗衫于 1913 年被美国海军配发为制服内衣；1951 年马龙·白兰度的银幕形象使其一举成为全球最通用的日常服饰。",
+  "summary_en": "Evolving from union suits, the crew-neck cotton jersey became US Navy standard issue in 1913. Marlon Brando's 1951 film appearance transformed the T-shirt into the world's most universal garment.",
+  "tags": [
+    "clothing"
+  ],
+  "updated": "2026-11-09"
+}
