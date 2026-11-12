@@ -36,8 +36,11 @@ export default function App({ url }: { url?: UrlLike }) {
   const [showDisputed, setShowDisputed] = useState(true);
   const [selectedId, setSelectedId] = useState<string | null>(initial.id);
   // Keep the last detail mounted so its exit can fade without timers or losing
-  // the catalogue's search and scroll state underneath it.
+  // the catalogue's search and scroll state underneath it. On entry landing
+  // pages, defer mounting the catalogue until the user returns to it so SSR
+  // HTML and initial DOM stay focused on the entry itself.
   const [detailId, setDetailId] = useState<string | null>(initial.id);
+  const [catalogMounted, setCatalogMounted] = useState(() => !findItem(index.items, initial.id));
 
   const timelineItems = useMemo(
     () => (showDisputed ? index.items : index.items.filter((item) => !item.disputed)),
@@ -108,7 +111,10 @@ export default function App({ url }: { url?: UrlLike }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [index.year_range.min, index.year_range.max]);
 
-  const closeDrawer = useCallback(() => setSelectedId(null), []);
+  const closeDrawer = useCallback(() => {
+    setCatalogMounted(true);
+    setSelectedId(null);
+  }, []);
   const changePanelOpen = useCallback((open: boolean) => {
     if (!open) panelToggleRef.current?.focus({ preventScroll: true });
     setPanelOpen(open);
@@ -168,6 +174,10 @@ export default function App({ url }: { url?: UrlLike }) {
     [categories, detailItem],
   );
 
+  useEffect(() => {
+    if (!selectedItem) setCatalogMounted(true);
+  }, [selectedItem]);
+
   return (
     <div className={`app${panelOpen ? ' has-drawer' : ' panel-collapsed'}`} lang={HTML_LANG[lang]}>
       <main className="stage">
@@ -217,16 +227,21 @@ export default function App({ url }: { url?: UrlLike }) {
           aria-hidden={!!selectedItem}
           {...(selectedItem ? { inert: '' } : {})}
         >
-          <ItemCatalog
-            lang={lang}
-            items={index.items}
-            showDisputed={showDisputed}
-            onShowDisputed={(value) => {
-              setShowDisputed(value);
-              if (!value && selectedItem?.disputed) setSelectedId(null);
-            }}
-            onSelect={selectItem}
-          />
+          {catalogMounted ? (
+            <ItemCatalog
+              lang={lang}
+              items={index.items}
+              showDisputed={showDisputed}
+              onShowDisputed={(value) => {
+                setShowDisputed(value);
+                if (!value && selectedItem?.disputed) {
+                  setCatalogMounted(true);
+                  setSelectedId(null);
+                }
+              }}
+              onSelect={selectItem}
+            />
+          ) : null}
         </div>
         <div
           className={`panel-view detail-view${selectedItem ? ' is-active' : ''}`}

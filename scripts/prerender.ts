@@ -226,7 +226,7 @@ function renderPage(item: AtlasItem | null, lang: Lang) {
     .replace('__SSR_LANG__', lang)
     .replace('__DATA_MAX__', String(index.year_range.data_max))
     .replace('<!--app-html-->', appHtml)
-    .replace('<!--noscript-->', catalogue(lang));
+    .replace('<!--noscript-->', item ? '' : catalogue(lang));
   for (const marker of ['<!--seo:start-->', '<!--app-html-->', '<!--noscript-->', '__DATA_MAX__']) {
     if (html.includes(marker)) throw new Error(`prerender: unreplaced marker ${marker}`);
   }
