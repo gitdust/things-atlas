@@ -121,6 +121,12 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `aluminum-foil.jpg` | [Aluminium foil.jpg](https://commons.wikimedia.org/wiki/File:Aluminium_foil.jpg) | CC BY-SA 3.0 | Pippi |
 | `trash-bag.jpg` | [A typical black bin bag from the UK 20060811.jpg](https://commons.wikimedia.org/wiki/File:A_typical_black_bin_bag_from_the_UK_20060811.jpg) | Public domain | Yuyudevil |
 | `suitcase.jpg` | [Suitcase1.jpg](https://commons.wikimedia.org/wiki/File:Suitcase1.jpg) | CC BY-SA 3.0 | JEXP |
+| `instant-noodles.jpg` | [Instant noodles.jpg](https://commons.wikimedia.org/wiki/File:Instant_noodles.jpg) | CC BY-SA 4.0 | Gaurav Dhwaj Khadka |
+| `face-mask.jpg` | [A surgical mask (2017).jpg](https://commons.wikimedia.org/wiki/File:A_surgical_mask_(2017).jpg) | CC0 | AlexChirkin |
+| `barcode.jpg` | [Barcode label.jpg](https://commons.wikimedia.org/wiki/File:Barcode_label.jpg) | CC BY-SA 4.0 | Aikzhobi |
+| `qr-code.jpg` | [QR-Code-Anwendung.jpg](https://commons.wikimedia.org/wiki/File:QR-Code-Anwendung.jpg) | CC BY-SA 3.0 | BangertNo |
+| `mosquito-coil.jpg` | [Mosquito coil.JPG](https://commons.wikimedia.org/wiki/File:Mosquito_coil.JPG) | CC BY-SA 3.0 | مانفی (Manfi) |
+| `xiangqi.jpg` | [Xiangqi1.JPG](https://commons.wikimedia.org/wiki/File:Xiangqi1.JPG) | CC BY-SA 3.0 | Trongphu |
 
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 

@@ -71,6 +71,14 @@
       960
     ]
   },
+  "barcode.jpg": {
+    "width": 800,
+    "height": 500,
+    "widths": [
+      480,
+      800
+    ]
+  },
   "belt-buckle.jpg": {
     "width": 1200,
     "height": 801,
@@ -318,6 +326,14 @@
       960
     ]
   },
+  "face-mask.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "flashlight.jpg": {
     "width": 1200,
     "height": 1200,
@@ -425,6 +441,14 @@
   "instant-coffee.jpg": {
     "width": 3648,
     "height": 2736,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "instant-noodles.jpg": {
+    "width": 1600,
+    "height": 1200,
     "widths": [
       480,
       960
@@ -558,6 +582,14 @@
       960
     ]
   },
+  "mosquito-coil.jpg": {
+    "width": 1600,
+    "height": 1275,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "nail-clipper.jpg": {
     "width": 1200,
     "height": 498,
@@ -667,6 +699,14 @@
     "widths": [
       480,
       937
+    ]
+  },
+  "qr-code.jpg": {
+    "width": 1600,
+    "height": 1066,
+    "widths": [
+      480,
+      960
     ]
   },
   "radio.jpg": {
@@ -1006,6 +1046,14 @@
   "wok.jpg": {
     "width": 1920,
     "height": 1128,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "xiangqi.jpg": {
+    "width": 1600,
+    "height": 1200,
     "widths": [
       480,
       960

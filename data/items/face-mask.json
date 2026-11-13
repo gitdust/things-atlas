@@ -1,0 +1,90 @@
+{
+  "id": "face-mask",
+  "name_zh": "口罩",
+  "name_en": "Face mask",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1897,
+      "precision": "year",
+      "ref": "Jan Mikulicz-Radecki in Breslau and Paul Berger in Paris independently introduce gauze face masks in operating rooms",
+      "ref_zh": "米库利奇与贝格尔分别在布雷斯劳和巴黎将纱布面罩引入手术室以阻断飞沫感染"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1911,
+      "precision": "year",
+      "ref": "Wu Lien-teh designs the multilayer gauze anti-plague mask during the Manchurian Plague, establishing mass production and distribution",
+      "ref_zh": "伍连德在东北大鼠疫中设计双层纱布防菌口罩并组织规模式量产与配发"
+    },
+    "popularization": {
+      "year": 1918,
+      "precision": "year",
+      "ref": "Worldwide civilian and public health adoption of face masks during the 1918 Influenza Pandemic",
+      "ref_zh": "1918 年大流感期间口罩作为公共卫生防护装备在全球民众中被广泛佩戴"
+    }
+  },
+  "locations": [
+    {
+      "lat": 51.1079,
+      "lng": 17.0385,
+      "place_label_zh": "德国布雷斯劳（现波兰弗罗茨瓦夫，米库利奇引入手术口罩）",
+      "place_label_en": "Breslau, Germany (now Wrocław, Poland; Mikulicz-Radecki introduces surgical masks)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "place_label_zh": "法国巴黎（贝格尔临床使用口罩）",
+      "place_label_en": "Paris, France (Berger operating-room masks)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 45.7569,
+      "lng": 126.6424,
+      "place_label_zh": "中国黑龙江哈尔滨（伍连德设计防鼠疫口罩并推广）",
+      "place_label_en": "Harbin, Heilongjiang, China (Wu Lien-teh designs epidemic plague mask)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1911
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Surgical mask — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Surgical_mask",
+      "type": "wiki",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wu Lien-teh — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wu_Lien-teh",
+      "type": "wiki",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "From the surgical mask to the respirator: A history of facial protection against infection",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7314229/",
+      "type": "other",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1897 年米库利奇与贝格尔将纱布口罩引入外科手术以防飞沫；1911 年伍连德设计双层防菌口罩抗击东北鼠疫，使之成为大众公共卫生防护的核心装备。",
+  "summary_en": "Introduced in 1897 by Mikulicz and Berger for surgical asepsis, gauze face masks were adapted by Dr. Wu Lien-teh in 1911 during the Manchurian plague into cheap, mass-produced protective coverings.",
+  "tags": [
+    "health"
+  ],
+  "updated": "2026-11-13",
+  "image": {
+    "src": "/images/face-mask.jpg",
+    "alt_zh": "浅蓝色医用一次性口罩",
+    "alt_en": "A light blue disposable medical face mask",
+    "credit": "AlexChirkin",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_surgical_mask_(2017).jpg"
+  }
+}

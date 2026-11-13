@@ -1,0 +1,88 @@
+{
+  "id": "barcode",
+  "name_zh": "条形码",
+  "name_en": "Barcode",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1948,
+      "precision": "year",
+      "ref": "Norman Joseph Woodland and Bernard Silver conceive the optical barcode system at Drexel University, Philadelphia",
+      "ref_zh": "伍德兰德与西尔弗在费城德雷塞尔大学构思基于莫尔斯电码原理的光学条码系统"
+    },
+    "patent": {
+      "year": 1952,
+      "precision": "year",
+      "ref": "US Patent US2612994A granted to Woodland and Silver for classifying apparatus and method",
+      "ref_zh": "伍德兰德与西尔弗取得分类装置与条码读取专利 US2612994A"
+    },
+    "mass_production": {
+      "year": 1974,
+      "precision": "year",
+      "ref": "First commercial UPC barcode scanned at Marsh Supermarket in Troy, Ohio on June 26, 1974",
+      "ref_zh": "1974 年 6 月 26 日俄亥俄州特洛伊市马什超市完成全球首次 UPC 条形码商业激光扫描"
+    },
+    "popularization": {
+      "year": 1980,
+      "precision": "decade",
+      "ref": "Universal Product Code (UPC) and EAN barcode standards achieve universal adoption in retail",
+      "ref_zh": "UPC 与 EAN 编码标准在国际零售与供应链物流中实现全球普及"
+    }
+  },
+  "locations": [
+    {
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "place_label_zh": "美国宾夕法尼亚州费城（德雷塞尔大学，发明条形码）",
+      "place_label_en": "Philadelphia, Pennsylvania, USA (Drexel University, barcode conceived)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 40.0395,
+      "lng": -84.2033,
+      "place_label_zh": "美国俄亥俄州特洛伊（马什超市首次商用激光扫描 UPC 条码）",
+      "place_label_en": "Troy, Ohio, USA (Marsh Supermarket, first commercial UPC scan)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1974
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "US2612994A — Classifying apparatus and method",
+      "url": "https://patents.google.com/patent/US2612994A/en",
+      "type": "patent",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "N. Joseph Woodland — National Inventors Hall of Fame",
+      "url": "https://www.invent.org/inductees/n-joseph-woodland",
+      "type": "museum",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Barcode — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Barcode",
+      "type": "wiki",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1948 年伍德兰德与西尔弗在费城构思光学条形码，1952 年获专利；1974 年俄亥俄州特洛伊超市完成首次商用扫描，彻底重塑了全球零售结算与仓储物流。",
+  "summary_en": "Conceived in 1948 by Woodland and Silver and patented in 1952, the barcode had its first commercial checkout scan in 1974 in Troy, Ohio, fundamentally transforming retail logistics worldwide.",
+  "tags": [
+    "computing",
+    "trade"
+  ],
+  "updated": "2026-11-13",
+  "image": {
+    "src": "/images/barcode.jpg",
+    "alt_zh": "印在白色标签上的标准条形码与数字",
+    "alt_en": "Standard barcode and numbers printed on a white label",
+    "credit": "Aikzhobi",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Barcode_label.jpg"
+  }
+}

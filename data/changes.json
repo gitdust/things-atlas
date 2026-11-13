@@ -172,5 +172,17 @@
     "afterVersion": "0.5.1",
     "zh": "全面校订条目中英文历史考证与术语翻译，修正卫生巾专利归属与防晒霜早期化学防晒史，优化螺旋开瓶器等中文命名，并重构中文字体子集。",
     "en": "Thoroughly review bilingual historical records and terminology, correcting patent attributions for sanitary pads and early chemical sunscreen origins, standardizing object names, and rebuilding font subsets."
+  },
+  {
+    "id": "release-six-objects",
+    "afterVersion": "0.6.0",
+    "zh": "新增方便面、口罩、条形码、二维码、蚊香和象棋 6 件改变人类日常生活的经典之物，收录条目总数增至 149 项，补齐中英文考证、地理坐标与配图。",
+    "en": "Add 6 transformative everyday objects including instant noodles, face mask, barcode, QR code, mosquito coil, and xiangqi, expanding the collection to 149 entries with bilingual histories, coordinates, and images."
+  },
+  {
+    "id": "release-canonical-redirects",
+    "afterVersion": "0.6.0",
+    "zh": "规范化条目预渲染页面的规范链接重定向，精简独立词条页面的目录冗余并提升加载性能。",
+    "en": "Normalize canonical redirects on entry pages, trim redundant catalogue duplication on standalone entry pages, and improve loading performance."
   }
 ]

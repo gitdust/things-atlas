@@ -1,0 +1,79 @@
+{
+  "id": "xiangqi",
+  "name_zh": "象棋",
+  "name_en": "Xiangqi",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 762,
+      "precision": "century",
+      "ref": "Tang dynasty literature (such as Niu Sengru's Xuan Guai Lu) records early recognizable tactical pieces (General, Horse, Chariot)",
+      "ref_zh": "唐代文献（如牛僧孺《玄怪录》）记载有车、马、将、士、卒等行棋战阵的早期象戏"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1100,
+      "precision": "century",
+      "ref": "Northern Song dynasty Kaifeng bronze pieces confirm modern layout with 32 pieces, central river, palaces, and cannons",
+      "ref_zh": "北宋开封崇宁年间出土铜棋子实物证实三十二子、九宫、楚河汉界与‘炮’的现代象棋形制完全定型"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.7972,
+      "lng": 114.3076,
+      "place_label_zh": "中国河南开封（北宋都城汴京，出土崇宁年间完整铜象棋子）",
+      "place_label_en": "Kaifeng, Henan, China (Song capital Bianjing, site of Chongning bronze chess pieces)",
+      "kind": "popularization",
+      "confidence": "city"
+    },
+    {
+      "lat": 34.3416,
+      "lng": 108.9398,
+      "place_label_zh": "中国陕西西安（唐长安，唐代文人记录早期象戏棋制）",
+      "place_label_en": "Xi'an, Shaanxi, China (Tang Chang'an, early literary records of military piece chess)",
+      "kind": "invention",
+      "confidence": "city",
+      "year_override": 762
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Xiangqi — Encyclopædia Britannica",
+      "url": "https://www.britannica.com/topic/xiangqi",
+      "type": "other",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Xiangqi — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Xiangqi",
+      "type": "wiki",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "开封出土北宋崇宁年间铜象棋 — 中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/",
+      "type": "museum",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "disputed": true,
+  "notes": "民间传说象棋由韩信在楚汉相争时发明，亦有战国《楚辞》或北周武王象戏之说，但早期记载多混杂六博或天文占卜博戏。学界一般认为唐代始见车马将卒等具象战阵棋制，至北宋崇宁年间（开封出土实物）增设‘炮’与楚河汉界，三十二子规制彻底定型。其早期源流与演变年代仍存学术争议。",
+  "notes_en": "Folklore credits Han Xin during the Chu–Han Contention (c. 203 BCE), while ancient texts like the Chu Ci and Northern Zhou records mention earlier games that were likely dice or divination games. Modern scholars trace recognizable military pieces to the Tang dynasty, with the full 32-piece game featuring cannons and the river definitively crystallizing in the Northern Song dynasty.",
+  "summary_zh": "中国象棋起源源流繁多，唐代出现早期具象行棋规制，至北宋定型为包含三十二子、九宫、楚河汉界与‘炮’的现代棋制并广泛普及。",
+  "summary_en": "Xiangqi (Chinese chess) evolved over centuries; early tactical piece games emerged in the Tang dynasty, and the 32-piece rules with cannons and a river crystallized during the Northern Song.",
+  "tags": [
+    "leisure"
+  ],
+  "updated": "2026-11-13",
+  "image": {
+    "src": "/images/xiangqi.jpg",
+    "alt_zh": "摆放整齐的中国象棋棋盘与红黑木质棋子",
+    "alt_en": "A neatly arranged Chinese chess board with red and black wooden pieces",
+    "credit": "Trongphu",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Xiangqi1.JPG"
+  }
+}

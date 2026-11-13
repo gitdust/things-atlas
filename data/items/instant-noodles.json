@@ -1,0 +1,78 @@
+{
+  "id": "instant-noodles",
+  "name_zh": "方便面",
+  "name_en": "Instant noodles",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": 1958,
+      "precision": "year",
+      "ref": "Momofuku Ando perfected flash-fried instant ramen in a backyard shed in Ikeda, Osaka",
+      "ref_zh": "安藤百福在大阪府池田市自家后院小屋发明瞬间油热干燥法，研制出方便面"
+    },
+    "patent": {
+      "year": 1962,
+      "precision": "year",
+      "ref": "Japanese manufacturing patent granted to Momofuku Ando (Nissin)",
+      "ref_zh": "安藤百福（日清食品）取得即食拉面制造工艺专利"
+    },
+    "mass_production": {
+      "year": 1958,
+      "precision": "year",
+      "ref": "Nissin Food Products launched Chikin Ramen in Japan on August 25, 1958",
+      "ref_zh": "日清食品于 1958 年 8 月 25 日正式发售‘鸡汤拉面’（Chikin Ramen）"
+    },
+    "popularization": {
+      "year": 1971,
+      "precision": "year",
+      "ref": "Nissin launched Cup Noodles, transforming instant noodles into a global portable staple",
+      "ref_zh": "日清推出容器装‘杯面’（Cup Noodles），推动方便面走向全球普及"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.8217,
+      "lng": 135.4285,
+      "place_label_zh": "日本大阪府池田市（安藤百福发明鸡汤拉面）",
+      "place_label_en": "Ikeda, Osaka, Japan (Momofuku Ando invents Chikin Ramen)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Cup Noodles Museum Osaka Ikeda — The Birth of Chicken Ramen",
+      "url": "https://www.cupnoodles-museum.jp/en/osaka_ikeda/about/",
+      "type": "museum",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Instant noodles — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Instant_noodles",
+      "type": "wiki",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Momofuku Ando — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Momofuku_Ando",
+      "type": "wiki",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1958 年安藤百福在日本池田发明油炸脱水拉面，开水冲泡即可食用；1971 年杯面的问世推动其成为风靡全球的便携日常速食。",
+  "summary_en": "Invented in 1958 by Momofuku Ando in Ikeda, Japan, flash-fried instant noodles rehydrate rapidly in boiling water. The 1971 launch of Cup Noodles turned it into a global dietary staple.",
+  "tags": [
+    "food-drink"
+  ],
+  "updated": "2026-11-13",
+  "image": {
+    "src": "/images/instant-noodles.jpg",
+    "alt_zh": "一碗煮好的方便面配蔬菜与鸡蛋",
+    "alt_en": "A bowl of prepared instant noodles with vegetables and an egg",
+    "credit": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Instant_noodles.jpg"
+  }
+}

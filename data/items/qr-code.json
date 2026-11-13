@@ -1,0 +1,80 @@
+{
+  "id": "qr-code",
+  "name_zh": "二维码",
+  "name_en": "QR code",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1994,
+      "precision": "year",
+      "ref": "Masahiro Hara and his team at Denso Wave invent the Quick Response (QR) matrix barcode in Kariya, Japan",
+      "ref_zh": "原昌宏带领日本电装（Denso Wave）团队在爱知县刈谷市发明快速响应矩阵式二维码"
+    },
+    "patent": {
+      "year": 1999,
+      "precision": "year",
+      "ref": "Japanese patent JP2938338B2 registered; Denso committed to waive patent rights, establishing it as an open standard",
+      "ref_zh": "日本专利 JP2938338B2 获得授权；电装宣布免费开放专利使用，确立开放标准"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 2000,
+      "precision": "year",
+      "ref": "Approved as international standard ISO/IEC 18004, later surging globally via smartphones and mobile payments",
+      "ref_zh": "获批成为 ISO/IEC 18004 国际标准，后随智能手机与移动支付在全球爆发式普及"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.9893,
+      "lng": 137.0034,
+      "place_label_zh": "日本爱知县刈谷市（日本电装 / Denso Wave）",
+      "place_label_en": "Kariya, Aichi, Japan (Denso / Denso Wave)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "History of QR Code — DENSO WAVE",
+      "url": "https://www.qrcode.com/en/history/",
+      "type": "brand",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "JP2938338B2 — Two-dimensional code",
+      "url": "https://patents.google.com/patent/JP2938338B2/ja",
+      "type": "patent",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Masahiro Hara, Motoaki Watabe, Tadao Nojiri, Takayuki Nagaya, Yuji Uchiyama (QR code) — European Inventor Award",
+      "url": "https://www.epo.org/en/news-events/european-inventor-award/meet-the-finalists/masahiro-hara",
+      "type": "other",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "QR code — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/QR_code",
+      "type": "wiki",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1994 年日本电装公司的原昌宏发明三角定位的高密度矩阵式二维码；因电装放弃行使专利费，该技术成为全球开放标准并重塑了移动支付与信息交互。",
+  "summary_en": "Invented in 1994 by Masahiro Hara at Denso Wave, the 2D QR code enabled omnidirectional high-speed scanning. Denso's waiver of patent fees fostered its global ubiquity in payments and connectivity.",
+  "tags": [
+    "computing",
+    "trade"
+  ],
+  "updated": "2026-11-13",
+  "image": {
+    "src": "/images/qr-code.jpg",
+    "alt_zh": "使用智能手机扫描海报上的二维码",
+    "alt_en": "Scanning a QR code on a poster using a smartphone",
+    "credit": "BangertNo",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:QR-Code-Anwendung.jpg"
+  }
+}

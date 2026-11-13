@@ -1,0 +1,88 @@
+{
+  "id": "mosquito-coil",
+  "name_zh": "蚊香",
+  "name_en": "Mosquito coil",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1895,
+      "precision": "year",
+      "ref": "Yuki Ueyama conceives curling pyrethrum incense into a spiral to sustain overnight smoldering for 7–8 hours",
+      "ref_zh": "上山ゆき（上山英一郎之妻）构想将除虫菊线香盘成螺旋状，实现长达七至八小时的整夜持续阴燃"
+    },
+    "patent": {
+      "year": 1900,
+      "precision": "year",
+      "ref": "Eiichiro Ueyama files Japanese patent application for the spiral mosquito coil",
+      "ref_zh": "上山英一郎在日本递交涡卷形蚊香专利申请"
+    },
+    "mass_production": {
+      "year": 1902,
+      "precision": "year",
+      "ref": "Commercial sales and factory production of spiral mosquito coils begin under the Kincho brand",
+      "ref_zh": "金鸟（大日本除虫菊）在日本正式量产销售涡卷型蚊香"
+    },
+    "popularization": {
+      "year": 1957,
+      "precision": "year",
+      "ref": "Automated punch-press manufacturing allows mass export and universal household use across tropical regions",
+      "ref_zh": "全自动冲压成型技术问世，双盘蚊香成为全球亚热带与热带地区家庭夏夜驱蚊必备品"
+    }
+  },
+  "locations": [
+    {
+      "lat": 34.0833,
+      "lng": 135.1333,
+      "place_label_zh": "日本和歌山县有田市（上山英一郎研制除虫菊线香与涡卷蚊香）",
+      "place_label_en": "Arida, Wakayama, Japan (Eiichiro Ueyama develops pyrethrum mosquito coil)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 34.6937,
+      "lng": 135.5023,
+      "place_label_zh": "日本大阪市（金鸟 / 大日本除虫菊量产发售）",
+      "place_label_en": "Osaka, Japan (Kincho mass production and commercial launch)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1902
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "History of KINCHO — Dainihon Jochugiku Co., Ltd.",
+      "url": "https://www.kincho.co.jp/en/corporate/history.html",
+      "type": "brand",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Mosquito coil — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mosquito_coil",
+      "type": "wiki",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Good Design Long Life Design Award — Kincho Mosquito Coil",
+      "url": "https://www.g-mark.org/award/describe/40580",
+      "type": "other",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1895 年日本上山夫妇将除虫菊线香创制为螺旋盘香，实现长达七八小时的夜间持续阴燃驱蚊；1902 年金鸟正式上市，成为风靡全球的经典夏季防蚊用品。",
+  "summary_en": "Invented in 1895 when Yuki Ueyama wound pyrethrum incense into a spiral to burn all night, the mosquito coil launched commercially in 1902 by Kincho, becoming an enduring global summer staple.",
+  "tags": [
+    "household",
+    "health"
+  ],
+  "updated": "2026-11-13",
+  "image": {
+    "src": "/images/mosquito-coil.jpg",
+    "alt_zh": "正在点燃阴燃并冒着微烟的螺旋形蚊香",
+    "alt_en": "A burning spiral mosquito coil smoldering with a thin plume of smoke",
+    "credit": "مانفی (Manfi)",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mosquito_coil.JPG"
+  }
+}
