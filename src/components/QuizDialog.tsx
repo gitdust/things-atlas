@@ -139,7 +139,9 @@ export default function QuizDialog({
           aria-label={t(lang, 'close')}
           onClick={() => close()}
         >
-          ×
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="m4 4 8 8M12 4l-8 8" />
+          </svg>
         </button>
       </header>
       <div className="quiz-result-slot" aria-live="polite" aria-atomic="true">

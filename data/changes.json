@@ -214,5 +214,17 @@
     "afterVersion": "0.7.0",
     "zh": "校订全站英文表述，并改进地图加载反馈与分享窗口的交互。",
     "en": "Revise the site’s English wording and refine map loading feedback and the share dialog."
+  },
+  {
+    "id": "release-fixed-drawer-toolbar",
+    "afterVersion": "1.0.0",
+    "zh": "条目头部固定在抽屉顶部并收紧高度，滚动时仍可返回和分享；为两个按钮增加配色与悬停反馈。",
+    "en": "Keep a compact entry toolbar fixed at the top of the drawer so Back and Share remain available while scrolling, with distinct button colors and hover feedback."
+  },
+  {
+    "id": "release-quiz-visual-polish",
+    "afterVersion": "1.0.0",
+    "zh": "修正测验窗口关闭图标的居中位置并增加配色，移除物品图片的背景色。",
+    "en": "Center and color the quiz close icon, and remove the background color behind object images."
   }
 ]

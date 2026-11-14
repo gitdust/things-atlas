@@ -717,6 +717,9 @@ button {
 
 .drawer {
   --item-color: var(--ink);
+  --drawer-head-height: 60px;
+  /* Keep the fixed toolbar anchored to this drawer, including on mobile. */
+  transform: translateZ(0);
   position: absolute;
   inset: 0;
   width: 100%;
@@ -736,17 +739,24 @@ button {
 .drawer-scroll {
   height: 100%;
   overflow-y: auto;
-  padding: var(--s-4);
+  padding: calc(var(--drawer-head-height) + var(--s-3)) var(--s-4) var(--s-4);
   scrollbar-width: thin;
   scrollbar-color: var(--rule-strong) transparent;
 }
 
 .drawer-head {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 2;
+  height: var(--drawer-head-height);
+  padding: 0 var(--s-4);
+  border-top: 4px solid var(--item-color);
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--s-3);
-  margin-bottom: var(--s-5);
 }
 .drawer-head-left {
   display: flex;
@@ -811,6 +821,28 @@ button {
   stroke-width: 1.6;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.drawer-head .back-btn {
+  color: var(--ink-2);
+  background: var(--paper-2);
+  border-color: var(--rule-strong);
+}
+.drawer-head .back-btn:hover {
+  background: var(--paper-3);
+}
+.drawer-head .share-btn {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: var(--accent-border);
+}
+.drawer-head .share-btn:hover {
+  color: var(--white);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.drawer-head .close-btn svg {
+  stroke: currentColor;
 }
 
 .drawer-title {
