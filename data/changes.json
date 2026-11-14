@@ -184,5 +184,35 @@
     "afterVersion": "0.6.0",
     "zh": "规范化条目预渲染页面的规范链接重定向，精简独立词条页面的目录冗余并提升加载性能。",
     "en": "Normalize canonical redirects on entry pages, trim redundant catalogue duplication on standalone entry pages, and improve loading performance."
+  },
+  {
+    "id": "release-five-objects",
+    "afterVersion": "0.7.0",
+    "zh": "新增蓝牙、硬币、跑步机、打火机和隐形眼镜 5 件日常之物，收录条目增至 154 项，补齐中英文考证、地点与配图。",
+    "en": "Add Bluetooth, the coin, the treadmill, the lighter, and the contact lens, bringing the atlas to 154 entries with bilingual histories, places, and images."
+  },
+  {
+    "id": "release-item-sharing",
+    "afterVersion": "0.7.0",
+    "zh": "条目可生成中英文分享海报，包含地点地图、年表与二维码，并支持下载和复制图片。",
+    "en": "Generate Chinese and English share posters for each entry, with a place map, timeline, and QR code, plus download and copy actions."
+  },
+  {
+    "id": "release-earlier-quiz",
+    "afterVersion": "0.7.0",
+    "zh": "时间轴新增“猜哪个更早”，按最早已知使用年份比较两件物品，答对后有庆祝效果，并可查看依据。",
+    "en": "Add a “which came first” quiz from the timeline, comparing two objects by their earliest known use, with a celebration and the supporting evidence."
+  },
+  {
+    "id": "release-spanish-japanese",
+    "afterVersion": "0.7.0",
+    "zh": "新增西班牙语和日语，右上角改为语言菜单；首次访问按浏览器语言打开，手动选择会被记住。条目名称和摘要提供日语，界面文案提供西语和日语。",
+    "en": "Add Spanish and Japanese, replace the language toggle with a menu, open the first visit in the browser language, and remember a manual choice. Entry names and summaries are available in Japanese, and interface copy is available in both languages."
+  },
+  {
+    "id": "release-english-and-map-polish",
+    "afterVersion": "0.7.0",
+    "zh": "校订全站英文表述，并改进地图加载反馈与分享窗口的交互。",
+    "en": "Revise the site’s English wording and refine map loading feedback and the share dialog."
   }
 ]
