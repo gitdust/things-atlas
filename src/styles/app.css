@@ -283,59 +283,6 @@ button {
   font-weight: var(--fw-medium);
 }
 
-/* --------------------------------------------------------------- segmented */
-
-.segmented {
-  --seg-pad: 3px;
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(var(--seg-n), 1fr);
-  padding: var(--seg-pad);
-  border-radius: var(--r-pill);
-  background: var(--glass);
-  backdrop-filter: var(--blur);
-  -webkit-backdrop-filter: var(--blur);
-  border: 1px solid var(--rule);
-  box-shadow: var(--shadow-1);
-}
-.seg-indicator {
-  position: absolute;
-  top: var(--seg-pad);
-  bottom: var(--seg-pad);
-  left: var(--seg-pad);
-  width: calc((100% - 2 * var(--seg-pad)) / var(--seg-n));
-  transform: translateX(calc(100% * var(--seg-i)));
-  border-radius: var(--r-pill);
-  background: var(--ink);
-  box-shadow: var(--shadow-indicator);
-  transition: transform var(--dur-slide) var(--ease);
-}
-.segmented button {
-  position: relative;
-  z-index: var(--z-raised);
-  border: 0;
-  background: transparent;
-  padding: 7px 16px;
-  min-width: 72px;
-  border-radius: var(--r-pill);
-  font-size: var(--fs-sm);
-  font-weight: var(--fw-medium);
-  letter-spacing: 0.02em;
-  color: var(--ink-3);
-  cursor: pointer;
-  transition: color var(--dur) var(--ease);
-  white-space: nowrap;
-}
-.segmented button:hover {
-  color: var(--ink);
-}
-.segmented button.active {
-  color: var(--paper);
-}
-.seg-sm button {
-  min-width: 40px;
-  padding: 7px 10px;
-}
 .chip-dot {
   width: 8px;
   height: 8px;
@@ -1700,14 +1647,6 @@ button {
   }
   .top-controls {
     gap: 6px;
-  }
-  .segmented button {
-    min-width: 0;
-    padding: 6px 11px;
-  }
-  .seg-sm button {
-    min-width: 0;
-    padding: 6px 9px;
   }
 
   .drawer::before {
