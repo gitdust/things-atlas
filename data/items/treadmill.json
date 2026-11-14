@@ -1,0 +1,83 @@
+{
+  "id": "treadmill",
+  "name_zh": "跑步机",
+  "name_en": "Treadmill",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1952,
+      "precision": "year",
+      "ref": "Dr. Robert Bruce and Wayne Quinton invent the motorized medical treadmill at the University of Washington for cardiac stress testing",
+      "ref_zh": "罗伯特·布鲁斯博士与韦恩·昆顿在华盛顿大学发明首台用于心脏负荷检测的电动医用跑步机"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1968,
+      "precision": "year",
+      "ref": "William Edward Staub invents and mass-produces the PaceMaster 600, the first home fitness treadmill",
+      "ref_zh": "威廉·斯陶布研制并量产 PaceMaster 600，开创家用健身跑步机产业"
+    },
+    "popularization": {
+      "year": 1975,
+      "precision": "decade",
+      "ref": "Global running boom and fitness center expansion establish motorized treadmills as universal exercise equipment",
+      "ref_zh": "有氧慢跑热潮与健身房普及使电动跑步机成为全球家庭与运动场馆的标配器械"
+    }
+  },
+  "locations": [
+    {
+      "lat": 47.6553,
+      "lng": -122.3035,
+      "place_label_zh": "美国华盛顿州西雅图（华盛顿大学，布鲁斯与昆顿发明医用电动跑步机）",
+      "place_label_en": "Seattle, Washington, USA (University of Washington; Bruce & Quinton invent motorized medical treadmill)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 40.8584,
+      "lng": -74.1638,
+      "place_label_zh": "美国新泽西州克利夫顿（斯陶布研制 PaceMaster 家用跑步机）",
+      "place_label_en": "Clifton, New Jersey, USA (William Staub builds PaceMaster home treadmill)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1968
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Treadmill — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treadmill",
+      "type": "wiki",
+      "accessed": "2026-11-14"
+    },
+    {
+      "title": "The Evolution of the Treadmill — Polar Global",
+      "url": "https://www.polar.com/blog/evolution-of-the-treadmill/",
+      "type": "other",
+      "accessed": "2026-11-14"
+    },
+    {
+      "title": "William Staub, 96, Dies; Made Treadmill for the Home — The New York Times",
+      "url": "https://www.nytimes.com/2012/07/29/business/william-staub-developer-of-first-home-treadmill-dies-at-96.html",
+      "type": "news",
+      "accessed": "2026-11-14"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1952 年布鲁斯在西雅图发明电动心肺诊断跑步机；1968 年斯陶布推出首台家用跑步机，将室外长跑转化为不受时空气候限制的室内有氧运动。",
+  "summary_en": "Invented in 1952 by Dr. Robert Bruce in Seattle for cardiac testing and commercialized for homes in 1968 by William Staub, the motorized treadmill revolutionized indoor cardiovascular fitness.",
+  "tags": [
+    "health",
+    "household"
+  ],
+  "updated": "2026-11-14",
+  "image": {
+    "src": "/images/treadmill.jpg",
+    "alt_zh": "健身房中运行的现代电动跑步机",
+    "alt_en": "A modern motorized exercise treadmill in motion",
+    "credit": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Exercise_Treadmill_Convey_Motion.jpg"
+  }
+}

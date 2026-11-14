@@ -127,6 +127,11 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `qr-code.jpg` | [QR-Code-Anwendung.jpg](https://commons.wikimedia.org/wiki/File:QR-Code-Anwendung.jpg) | CC BY-SA 3.0 | BangertNo |
 | `mosquito-coil.jpg` | [Mosquito coil.JPG](https://commons.wikimedia.org/wiki/File:Mosquito_coil.JPG) | CC BY-SA 3.0 | مانفی (Manfi) |
 | `xiangqi.jpg` | [Xiangqi1.JPG](https://commons.wikimedia.org/wiki/File:Xiangqi1.JPG) | CC BY-SA 3.0 | Trongphu |
+| `bluetooth.jpg` | [USB Bluetooth adapter.jpg](https://commons.wikimedia.org/wiki/File:USB_Bluetooth_adapter.jpg) | CC BY-SA 4.0 | EEIM |
+| `coin.jpg` | [Electrum Gold Coin from Lydia, 650 BC - Bank of England Museum - Joy of Museums.jpg](https://commons.wikimedia.org/wiki/File:Electrum_Gold_Coin_from_Lydia%2C_650_BC_-_Bank_of_England_Museum_-_Joy_of_Museums.jpg) | CC BY-SA 4.0 | Joyofmuseums |
+| `treadmill.jpg` | [Exercise Treadmill Convey Motion.jpg](https://commons.wikimedia.org/wiki/File:Exercise_Treadmill_Convey_Motion.jpg) | CC BY 4.0 | Larry D. Moore |
+| `lighter.jpg` | [Hand holding burning lighter.jpg](https://commons.wikimedia.org/wiki/File:Hand_holding_burning_lighter.jpg) | CC BY-SA 4.0 | Santeri Viinamäki |
+| `contact-lens.jpg` | [Contact Lens.jpg](https://commons.wikimedia.org/wiki/File:Contact_Lens.jpg) | CC BY-SA 4.0 | Peter Clarke |
 
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 

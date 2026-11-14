@@ -1,0 +1,97 @@
+{
+  "id": "contact-lens",
+  "name_zh": "隐形眼镜",
+  "name_en": "Contact lens",
+  "category": "personal_care",
+  "years": {
+    "invention": {
+      "year": 1888,
+      "precision": "year",
+      "ref": "Adolf Fick in Zurich and Eugène Kalt in Paris independently fabricate the first wearable blown-glass scleral contact lenses",
+      "ref_zh": "阿道夫·菲克在苏黎世与欧仁·卡尔特在巴黎分别吹制出贴合巩膜的首批玻璃隐形眼镜"
+    },
+    "patent": {
+      "year": 1948,
+      "precision": "year",
+      "ref": "Kevin Tuohy files US patent (US2510438A) for corneal plastic (PMMA) contact lenses in California",
+      "ref_zh": "凯文·托希在加利福尼亚取得首款仅覆盖角膜的塑料（PMMA）隐形眼镜专利"
+    },
+    "mass_production": {
+      "year": 1961,
+      "precision": "year",
+      "ref": "Otto Wichterle invents soft hydrogel (pHEMA) lenses in Prague using a homemade centrifuge apparatus",
+      "ref_zh": "捷克化学家奥托·威特勒在布拉格利用自制旋铸机发明水凝胶（pHEMA）软性隐形眼镜"
+    },
+    "popularization": {
+      "year": 1971,
+      "precision": "year",
+      "ref": "Bausch & Lomb gains FDA approval and launches the SofLens, turning soft contact lenses into a global consumer product",
+      "ref_zh": "博士伦（Bausch & Lomb）推出首款获 FDA 批准的软性隐形眼镜 SofLens，掀起全球普及热潮"
+    }
+  },
+  "locations": [
+    {
+      "lat": 47.3769,
+      "lng": 8.5417,
+      "place_label_zh": "瑞士苏黎世（菲克制作首副矫正视力的玻璃隐形眼镜）",
+      "place_label_en": "Zurich, Switzerland (Adolf Fick fits first corrective glass contact lenses)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 50.0755,
+      "lng": 14.4378,
+      "place_label_zh": "捷克布拉格（威特勒发明水凝胶软性隐形眼镜）",
+      "place_label_en": "Prague, Czech Republic (Otto Wichterle invents soft hydrogel lenses)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1961
+    },
+    {
+      "lat": 43.1566,
+      "lng": -77.6088,
+      "place_label_zh": "美国纽约州罗切斯特（博士伦量产 SofLens 软镜）",
+      "place_label_en": "Rochester, New York, USA (Bausch & Lomb commercializes SofLens)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1971
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Contact lens — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Contact_lens",
+      "type": "wiki",
+      "accessed": "2026-11-14"
+    },
+    {
+      "title": "Otto Wichterle — National Inventors Hall of Fame",
+      "url": "https://www.invent.org/inductees/otto-wichterle",
+      "type": "museum",
+      "accessed": "2026-11-14"
+    },
+    {
+      "title": "Milestones in the history of contact lenses — Contact Lenses UK",
+      "url": "https://www.contactlenses.co.uk/education/history-of-contact-lenses",
+      "type": "other",
+      "accessed": "2026-11-14"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1888 年菲克与卡尔特首创玻璃巩膜接触镜；1961 年威特勒在布拉格发明透水亲水的水凝胶软镜，摆脱了外置镜框对人类面部视觉矫正的束缚。",
+  "summary_en": "Pioneered in 1888 with blown-glass scleral lenses and revolutionized in 1961 by Otto Wichterle's soft hydrogel material, contact lenses freed millions from external spectacle frames.",
+  "tags": [
+    "health",
+    "clothing"
+  ],
+  "updated": "2026-11-14",
+  "image": {
+    "src": "/images/contact-lens.jpg",
+    "alt_zh": "指尖托起的一枚透明水润软性隐形眼镜",
+    "alt_en": "A clear soft contact lens resting on a fingertip",
+    "credit": "Peter Clarke",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Contact_Lens.jpg"
+  }
+}

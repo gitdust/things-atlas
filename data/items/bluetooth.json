@@ -1,0 +1,74 @@
+{
+  "id": "bluetooth",
+  "name_zh": "蓝牙",
+  "name_en": "Bluetooth",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1994,
+      "precision": "year",
+      "ref": "Jaap Haartsen and Sven Mattisson at Ericsson in Lund begin developing short-range radio frequency-hopping links",
+      "ref_zh": "哈尔特森与马蒂森在瑞典隆德爱立信实验室启动短距离跳频无线通信研发"
+    },
+    "patent": {
+      "year": 1997,
+      "precision": "year",
+      "ref": "Ericsson files foundational patent application for frequency-hopping piconet radio communication (US6590928B1)",
+      "ref_zh": "爱立信提交基础跳频微网无线电通信专利申请（US6590928B1）"
+    },
+    "mass_production": null,
+    "popularization": {
+      "year": 1998,
+      "precision": "year",
+      "ref": "Bluetooth Special Interest Group (SIG) formed by Ericsson, Intel, IBM, Nokia, and Toshiba",
+      "ref_zh": "爱立信、英特尔、IBM、诺基亚和东芝联合成立蓝牙特别兴趣小组（SIG）"
+    }
+  },
+  "locations": [
+    {
+      "lat": 55.7047,
+      "lng": 13.191,
+      "place_label_zh": "瑞典隆德（爱立信移动通信研发中心）",
+      "place_label_en": "Lund, Sweden (Ericsson Mobile Communications R&D)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Jaap Haartsen — National Inventors Hall of Fame",
+      "url": "https://www.invent.org/inductees/jaap-c-haartsen",
+      "type": "museum",
+      "accessed": "2026-11-14"
+    },
+    {
+      "title": "Bluetooth — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bluetooth",
+      "type": "wiki",
+      "accessed": "2026-11-14"
+    },
+    {
+      "title": "The history of Bluetooth — Ericsson",
+      "url": "https://www.ericsson.com/en/about-us/history/products/other-products/bluetooth",
+      "type": "brand",
+      "accessed": "2026-11-14"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1994 年爱立信工程师在瑞典隆德发明蓝牙短距无线通信，以跳频技术摆脱线缆束缚；1998 年成立行业联盟，成为全球移动设备的标准无线连接。",
+  "summary_en": "Invented in 1994 by Jaap Haartsen and Sven Mattisson at Ericsson in Lund, Sweden, Bluetooth replaces cables with low-power radio, becoming a universal global wireless standard.",
+  "tags": [
+    "computing",
+    "media"
+  ],
+  "updated": "2026-11-14",
+  "image": {
+    "src": "/images/bluetooth.jpg",
+    "alt_zh": "带有蓝牙标志的 USB 蓝牙无线适配器",
+    "alt_en": "A USB Bluetooth wireless adapter bearing the Bluetooth rune logo",
+    "credit": "EEIM",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:USB_Bluetooth_adapter.jpg"
+  }
+}

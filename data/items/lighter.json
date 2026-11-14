@@ -1,0 +1,96 @@
+{
+  "id": "lighter",
+  "name_zh": "打火机",
+  "name_en": "Lighter",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1823,
+      "precision": "year",
+      "ref": "Johann Wolfgang Döbereiner invents the first chemical lighter (Döbereiner's lamp) in Jena using platinum catalysis on hydrogen",
+      "ref_zh": "化学家德贝莱纳在耶拿发明利用铂海绵催化氢气燃烧的德贝莱纳灯（最早的化学打火机）"
+    },
+    "patent": {
+      "year": 1903,
+      "precision": "year",
+      "ref": "Carl Auer von Welsbach patents ferrocerium in Austria, providing the modern artificial flint for friction spark lighters",
+      "ref_zh": "奥尔·冯·韦尔斯巴赫在奥地利取得人造铈铁合金（打火石）专利，使轻便机械火石打火机成为可能"
+    },
+    "mass_production": {
+      "year": 1932,
+      "precision": "year",
+      "ref": "George G. Blaisdell founds Zippo in Bradford, Pennsylvania, creating the classic windproof chimney flint lighter",
+      "ref_zh": "布莱斯德尔在美国宾州布拉德福德创办之宝（Zippo），研制出经典防风烟囱式煤油打火机"
+    },
+    "popularization": {
+      "year": 1973,
+      "precision": "year",
+      "ref": "Société Bic introduces the disposable plastic pocket butane lighter in France, triggering global mass adoption",
+      "ref_zh": "比克（BIC）在法国推出一次性塑料丁烷打火机，推动轻便打火机走向全球廉价普及"
+    }
+  },
+  "locations": [
+    {
+      "lat": 50.9271,
+      "lng": 11.5892,
+      "place_label_zh": "德国图林根耶拿（德贝莱纳发明催化打火机）",
+      "place_label_en": "Jena, Thuringia, Germany (Döbereiner invents catalytic lighter)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 41.9559,
+      "lng": -78.6439,
+      "place_label_zh": "美国宾夕法尼亚州布拉德福德（Zippo 之宝防风打火机）",
+      "place_label_en": "Bradford, Pennsylvania, USA (Zippo windproof lighter)",
+      "kind": "production",
+      "confidence": "city",
+      "year_override": 1932
+    },
+    {
+      "lat": 48.9038,
+      "lng": 2.306,
+      "place_label_zh": "法国克利希（比克 BIC 一次性丁烷打火机）",
+      "place_label_en": "Clichy, France (Société Bic disposable butane lighter)",
+      "kind": "popularization",
+      "confidence": "city",
+      "year_override": 1973
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Lighter — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lighter",
+      "type": "wiki",
+      "accessed": "2026-11-14"
+    },
+    {
+      "title": "Döbereiner's lamp — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/D%C3%B6bereiner%27s_lamp",
+      "type": "wiki",
+      "accessed": "2026-11-14"
+    },
+    {
+      "title": "The History of the Lighter — Icon Magazine",
+      "url": "https://www.iconeye.com/design/icons/the-history-of-the-lighter",
+      "type": "other",
+      "accessed": "2026-11-14"
+    }
+  ],
+  "disputed": false,
+  "summary_zh": "1823 年德贝莱纳研制出最早的催化打火机；1903 年韦尔斯巴赫发明铈铁打火石奠定现代点火机械，70 年代比克推出一次性丁烷打火机使其普及全球。",
+  "summary_en": "Originating in 1823 with Döbereiner's catalytic lamp and revolutionized in 1903 by Welsbach's ferrocerium flint, lighters became cheap, ubiquitous household items with BIC's 1973 disposable model.",
+  "tags": [
+    "household"
+  ],
+  "updated": "2026-11-14",
+  "image": {
+    "src": "/images/lighter.jpg",
+    "alt_zh": "点燃并燃烧着明亮火焰的手持一次性打火机",
+    "alt_en": "Hand holding an ignited disposable lighter with a bright flame",
+    "credit": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hand_holding_burning_lighter.jpg"
+  }
+}

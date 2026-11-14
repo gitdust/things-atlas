@@ -111,6 +111,14 @@
       960
     ]
   },
+  "bluetooth.jpg": {
+    "width": 1600,
+    "height": 746,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "bobby-pin.jpg": {
     "width": 800,
     "height": 259,
@@ -214,6 +222,14 @@
       960
     ]
   },
+  "coin.jpg": {
+    "width": 1600,
+    "height": 905,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "comb.jpg": {
     "width": 960,
     "height": 640,
@@ -236,6 +252,14 @@
     "widths": [
       480,
       800
+    ]
+  },
+  "contact-lens.jpg": {
+    "width": 1600,
+    "height": 974,
+    "widths": [
+      480,
+      960
     ]
   },
   "corkscrew.jpg": {
@@ -508,6 +532,14 @@
     "widths": [
       480,
       900
+    ]
+  },
+  "lighter.jpg": {
+    "width": 1600,
+    "height": 1200,
+    "widths": [
+      480,
+      960
     ]
   },
   "mahjong.jpg": {
@@ -982,6 +1014,14 @@
   "trash-bag.jpg": {
     "width": 1280,
     "height": 960,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "treadmill.jpg": {
+    "width": 1600,
+    "height": 1066,
     "widths": [
       480,
       960
