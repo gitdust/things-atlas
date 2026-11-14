@@ -14,7 +14,7 @@
     "patent": {
       "year": 1948,
       "precision": "year",
-      "ref": "Kevin Tuohy files US patent (US2510438A) for corneal plastic (PMMA) contact lenses in California",
+      "ref": "Kevin Tuohy receives a patent in California for the first plastic (PMMA) contact lenses covering only the cornea",
       "ref_zh": "凯文·托希在加利福尼亚取得首款仅覆盖角膜的塑料（PMMA）隐形眼镜专利"
     },
     "mass_production": {
@@ -81,8 +81,8 @@
   ],
   "disputed": false,
   "summary_zh": "1888 年菲克与卡尔特首创玻璃巩膜接触镜；1961 年威特勒在布拉格发明透水亲水的水凝胶软镜，摆脱了外置镜框对人类面部视觉矫正的束缚。",
-  "summary_en": "Pioneered in 1888 with blown-glass scleral lenses and revolutionized in 1961 by Otto Wichterle's soft hydrogel material, contact lenses freed millions from external spectacle frames.",
-  "summary_ja": "1888年の吹きガラス製強膜レンズに始まり、1961年の Otto Wichterle による軟らかいハイドロゲルで大きく変わった。眼鏡の枠から多くの人を解放した。",
+  "summary_en": "Fick and Kalt pioneered glass scleral lenses in 1888. In Prague in 1961, Wichterle invented soft, water-permeable hydrogel lenses, freeing vision correction from external frames.",
+  "summary_ja": "1888年に Fick と Kalt がガラス製の強膜コンタクトレンズを初めて作った。1961年には Wichterle がプラハで、水を通す親水性ハイドロゲルのソフトレンズを発明し、外付けのフレームに頼らず視力を矯正できるようになった。",
   "tags": [
     "health",
     "clothing"

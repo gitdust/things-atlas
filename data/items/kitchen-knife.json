@@ -8,20 +8,20 @@
     "invention": {
       "year": -1200,
       "precision": "century",
-      "ref": "Bronze cleavers and kitchen knives used in Shang Dynasty China (Anyang) and ancient Mediterranean kitchens",
+      "ref": "Bronze culinary knives are excavated at Shang sites such as Yinxu; Bronze Age Mediterranean kitchens widely use blades specifically for cutting meat and vegetables",
       "ref_zh": "殷墟等商代遗址出土青铜庖厨刀，地中海青铜时代厨房普遍出现专职切割肉类蔬菜的厨刃"
     },
     "patent": null,
     "mass_production": {
       "year": 1731,
       "precision": "year",
-      "ref": "Peter Henckels registers the Twin trademark with the Solingen Cutlers' Guild, Germany",
+      "ref": "Peter Henckels registers the Twin trademark with the Solingen Cutlers’ Guild in Germany, marking the start of guild-organized industrial mass production of professional kitchen knives",
       "ref_zh": "彼得·亨克斯在德国索林根刀具行会注册双立人标志，开启近代专业厨刀工业行会化量产"
     },
     "popularization": {
       "year": 1945,
       "precision": "decade",
-      "ref": "Post-war stainless steel technology and the Japanese Santoku knife standardize everyday home cookery globally",
+      "ref": "Post-war stainless-steel rustproofing and hardening spread; Santoku knives combining Chinese and Western cutting practices and modern chef’s knives enter households worldwide",
       "ref_zh": "战后不锈钢防锈淬火工艺普及，结合中西式切削习惯的三德刀与现代主厨刀进入全球万千家庭厨房"
     }
   },
@@ -60,8 +60,8 @@
   ],
   "disputed": false,
   "summary_zh": "从青铜时代各古文明厨房专用的切削铜刀，到 18 世纪索林根建立的工匠行会，再到现代不锈钢防锈工艺，菜刀历经数千年演化，始终是人类烹饪备料的核心工具。",
-  "summary_en": "Evolving from ancient Bronze Age culinary cleavers to 18th-century Solingen steel guilds and modern stainless alloys, the kitchen knife remains the fundamental cooking tool.",
-  "summary_ja": "青銅器時代の料理用刃物から、18世紀ゾーリンゲンの鉄ギルド、現代のステンレス合金へと発展し、包丁は調理の基本的な道具であり続けている。",
+  "summary_en": "From Bronze Age kitchen blades through 18th-century Solingen craft guilds to modern rust-resistant stainless steel, kitchen knives have evolved for millennia as core food-preparation tools.",
+  "summary_ja": "青銅器時代の調理用刃物から、18世紀のゾーリンゲンの刃物職人組合、現代のステンレス製刃物へと、包丁は数千年にわたって発展し、調理の基本的な道具であり続けている。",
   "tags": [
     "cooking",
     "dining"

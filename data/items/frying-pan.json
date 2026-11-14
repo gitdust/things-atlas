@@ -8,8 +8,8 @@
     "invention": {
       "year": -2000,
       "precision": "century",
-      "ref": "Flat-bottomed metal and earthenware frying pans (teganon) attested in ancient Mesopotamia and Bronze Age Aegean Greece",
-      "ref_zh": "古代美索不达米亚与爱琴海青铜时代厨房普遍使用平底金属与陶制煎盘（teganon）烹饪切削肉菜"
+      "ref": "Ancient Mesopotamian and Bronze Age Aegean kitchens widely use flat-bottomed metal and earthenware frying pans (teganon) to cook cut meat and vegetables",
+      "ref_zh": "古代美索不达米亚与爱琴海青铜时代厨房普遍使用平底金属与陶制煎盘（teganon）烹饪切好的肉类和蔬菜"
     },
     "patent": {
       "year": 1954,
@@ -20,13 +20,13 @@
     "mass_production": {
       "year": 1880,
       "precision": "century",
-      "ref": "Foundries like Griswold and Lodge mass-produce flat-bottomed cast-iron skillets for modern domestic cooking stoves",
+      "ref": "As modern kitchen stoves spread, foundries such as Griswold and Lodge mass-produce flat-bottomed cast-iron skillets with paired side handles or long handles",
       "ref_zh": "格里斯沃尔德与洛奇等铸造厂随近代厨房炉灶普及，大规模量产双耳与长柄平底铸铁煎锅"
     },
     "popularization": {
       "year": 1956,
       "precision": "year",
-      "ref": "Marc Grégoire founds Tefal in Sarcelles, France, popularizing non-stick cookware in households globally",
+      "ref": "Marc Grégoire founds Tefal in Sarcelles, France, bringing non-stick frying pans that need no cooking fat to millions of households worldwide",
       "ref_zh": "格雷瓜尔在法国萨塞勒创立特福（Tefal），将无需油脂的不粘平底锅推向全球千万家庭厨房"
     }
   },
@@ -80,8 +80,8 @@
   ],
   "disputed": false,
   "summary_zh": "距今 4000 年前的两河与爱琴海文明已普遍使用平底煎盘；19 世纪末铸铁煎锅随现代炉灶普及，1954 年法国特福发明特氟龙不粘涂层，使平底锅成为跨越古今的厨房核心炊具。",
-  "summary_en": "From 4,000-year-old Mesopotamian and Greek bronze frying pans to 19th-century cast-iron skillets and 1954 Tefal non-stick coatings, the frying pan remains an enduring cooking staple across millennia.",
-  "summary_ja": "4000年前のメソポタミアとギリシャの青銅製から、19世紀の鋳鉄スキレット、1954年のテファルの焦げ付き防止まで、フライパンは長く調理の定番であり続けている。",
+  "summary_en": "Pans were common in Mesopotamia and the Aegean 4,000 years ago. Cast-iron pans spread with modern stoves in the late 1800s; French Tefal’s 1954 Teflon coating renewed this enduring kitchen staple.",
+  "summary_ja": "4000年前のメソポタミアとエーゲ海文明では平底の煎り鍋が広く使われた。19世紀末には近代的な調理用コンロとともに鋳鉄製の鍋が普及し、1954年にはフランスのテファルがテフロンの焦げ付き防止コーティングを発明した。フライパンは古代から現代まで調理の中心的な道具であり続けている。",
   "tags": [
     "cooking",
     "materials"

@@ -55,8 +55,8 @@
   "disputed": false,
   "notes": "火柴头不再含易燃物、改由火柴盒侧面的红磷擦纸点燃的「安全火柴」，由瑞典人帕施 1844 年提出（专利用于擦面）；伦德斯特伦兄弟在延雪平量产，1855 年在巴黎世博会展出。更早的中国硫磺松木条据元代《南村辍耕录》（1366）记载，577 年已有人使用。",
   "summary_zh": "1826 年斯托克顿药剂师约翰·沃克发明摩擦火柴；今天常用的安全火柴把红磷放到火柴盒侧面，由瑞典人发展并在延雪平量产。",
-  "summary_en": "Stockton chemist John Walker invented the friction match in 1826. Today's safety match moves red phosphorus to the box's striker, an idea developed and mass-produced in Sweden.",
-  "summary_ja": "ストックトンの化学者 John Walker が1826年に摩擦マッチを発明した。今日の安全マッチは赤リンを箱の側面に移したもので、スウェーデンで発展し量産された。",
+  "summary_en": "Stockton pharmacist John Walker invented friction matches in 1826. Modern safety matches put red phosphorus on the box’s side; developed in Sweden, they were mass-produced in Jönköping.",
+  "summary_ja": "ストックトンの薬剤師 John Walker が1826年に摩擦マッチを発明した。現在よく使われる安全マッチは赤リンを箱の側面に置く方式で、スウェーデンで開発され、ヨンショーピングで量産された。",
   "tags": [
     "household"
   ],
@@ -69,5 +69,5 @@
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Friction_d%27une_allumette.jpg"
   },
-  "notes_en": "The safety match puts red phosphorus on the box's striker instead of in the head; Swede Gustaf Erik Pasch proposed it in 1844 and patented the striking surface. The Lundström brothers mass-produced it in Jönköping and showed it at the 1855 Paris Exhibition. Chinese sulfur-impregnated pine sticks are said, in a 1366 text, to have been used as early as 577."
+  "notes_en": "Safety matches, whose heads no longer contain the readily ignitable substance and are lit using the red-phosphorus striking surface on the box, were proposed by Swede Gustaf Erik Pasch in 1844 (the patent covered the striking surface). The Lundström brothers mass-produced them in Jönköping and exhibited them in Paris in 1855. The 1366 Chinese text Nancun Chuogeng Lu records sulfur-treated pine sticks in use as early as 577."
 }

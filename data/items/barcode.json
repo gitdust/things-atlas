@@ -8,7 +8,7 @@
     "invention": {
       "year": 1948,
       "precision": "year",
-      "ref": "Norman Joseph Woodland and Bernard Silver conceive the optical barcode system at Drexel University, Philadelphia",
+      "ref": "Woodland and Silver conceive an optical barcode system based on Morse code at Drexel University in Philadelphia",
       "ref_zh": "伍德兰德与西尔弗在费城德雷塞尔大学构思基于莫尔斯电码原理的光学条码系统"
     },
     "patent": {
@@ -26,7 +26,7 @@
     "popularization": {
       "year": 1980,
       "precision": "decade",
-      "ref": "Universal Product Code (UPC) and EAN barcode standards achieve universal adoption in retail",
+      "ref": "UPC and EAN barcode standards become widely adopted in international retail and supply-chain logistics",
       "ref_zh": "UPC 与 EAN 编码标准在国际零售与供应链物流中实现全球普及"
     }
   },
@@ -72,8 +72,8 @@
   ],
   "disputed": false,
   "summary_zh": "1948 年伍德兰德与西尔弗在费城构思光学条形码，1952 年获专利；1974 年俄亥俄州特洛伊超市完成首次商用扫描，彻底重塑了全球零售结算与仓储物流。",
-  "summary_en": "Conceived in 1948 by Woodland and Silver and patented in 1952, the barcode had its first commercial checkout scan in 1974 in Troy, Ohio, fundamentally transforming retail logistics worldwide.",
-  "summary_ja": "1948年に Woodland と Silver が着想し、1952年に特許を得た。1974年、オハイオ州トロイで初めて店頭スキャンされ、小売物流を根本から変えた。",
+  "summary_en": "Woodland and Silver conceived optical barcodes in Philadelphia in 1948 and gained a patent in 1952. The first retail scan in Troy, Ohio, in 1974 transformed checkout and warehouse logistics.",
+  "summary_ja": "1948年、Woodland と Silver がフィラデルフィアで光学式バーコードを着想し、1952年に特許を取得した。1974年、オハイオ州トロイのスーパーで初の商用スキャンが行われ、世界の小売決済や倉庫物流を根本から変えた。",
   "tags": [
     "computing",
     "trade"

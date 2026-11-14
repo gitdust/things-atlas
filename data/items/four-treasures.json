@@ -16,7 +16,7 @@
     "popularization": {
       "year": 986,
       "precision": "year",
-      "ref": "Northern Song Wenfang sipu (986) treats the four treasures as a named set",
+      "ref": "Northern Song Wenfang sipu (986) describes the four treasures as a named set",
       "ref_zh": "北宋《文房四谱》（986）将笔墨纸砚作为成套名物记述"
     }
   },
@@ -34,7 +34,7 @@
       "lat": 30.25,
       "lng": 120.15,
       "place_label_zh": "中国江南（唐宋文房名品产地）",
-      "place_label_en": "Jiangnan, China (Tang–Song famed stationery producing region)",
+      "place_label_en": "Jiangnan, China (region famed for stationery production in the Tang–Song period)",
       "kind": "popularization",
       "confidence": "region"
     }
@@ -64,8 +64,8 @@
   "notes": "「纸」在图鉴中已有独立条目（蔡伦叙事），本条目把笔墨纸砚作为文房成套工具，重点写墨与砚，并与纸条目交叉引用而不重复四大发明纸故事。",
   "notes_en": "Paper already has its own atlas entry (Cai Lun narrative). This item treats brush, inkstick, paper and inkstone as one scholarly set, emphasizing inkstick and inkstone and cross-referencing paper without retelling the Four Great Inventions paper story.",
   "summary_zh": "笔、墨、纸、砚合称文房四宝。汉代已有笔墨砚组合；北宋《文房四谱》（986）将其作为成套名物。纸的发明见「纸」条目。",
-  "summary_en": "Brush, inkstick, paper, and inkstone form China’s Four Treasures of the Study. Han scholarly sets are early examples; the Song Wenfang sipu (986) named the set. See Paper for papermaking.",
-  "summary_ja": "筆・墨・紙・硯が中国の文房四宝をなす。漢の学者の一式が早い例で、宋の『文房四譜』（986年）がこの組を名付けた。製紙は「紙」を参照。",
+  "summary_en": "Brush, ink, paper and inkstone are the Four Treasures of the Study. Han sets had brush, ink and inkstone; the Northern Song Wenfang sipu (986) described the four as a set. See Paper for its invention.",
+  "summary_ja": "筆・墨・紙・硯は、中国で文房四宝と総称される。漢代にはすでに筆・墨・硯の組み合わせがあり、北宋の『文房四譜』（986年）は四宝を一式として記述した。製紙については「紙」を参照。",
   "tags": [
     "writing"
   ],

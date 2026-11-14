@@ -2,7 +2,7 @@
   "id": "wheelbarrow",
   "name_zh": "独轮车",
   "name_en": "Wheelbarrow",
-  "name_ja": "一輪車",
+  "name_ja": "一輪手押し車",
   "category": "hand_tool",
   "years": {
     "invention": {
@@ -33,7 +33,7 @@
       "lat": 36.62,
       "lng": 109.36,
       "place_label_zh": "中国陕西汉中一带（诸葛亮北伐补给语境）",
-      "place_label_en": "Hanzhong region, Shaanxi, China (Zhuge Liang supply context)",
+      "place_label_en": "Hanzhong region, Shaanxi, China (Zhuge Liang’s northern-expedition supply context)",
       "kind": "contested",
       "confidence": "region"
     }
@@ -61,10 +61,10 @@
   ],
   "disputed": true,
   "notes": "中国独轮车的图像证据早于诸葛亮；约公元二世纪初四川一带已有记载。诸葛亮「木牛流马」常被说成独轮车，但也有学者复原为四轮车，故不应把发明权简单归于诸葛亮。欧洲独轮车出现更晚，与中国谱系关系另有讨论。",
-  "notes_en": "Chinese one-wheeled barrows are depicted by the early 2nd century CE in Sichuan, before Zhuge Liang. His “wooden ox / gliding horse” is often called a wheelbarrow, but some reconstructions make it four-wheeled, so he should not be treated as sole inventor. European wheelbarrows appear later.",
-  "summary_zh": "中国独轮车约公元 118 年已见于四川墓葬图像；诸葛亮「木牛流马」是否即独轮手推车仍有争议，不应简单视为唯一发明人。",
-  "summary_en": "Chinese wheelbarrows appeared in Sichuan imagery by about 118 CE. Whether Zhuge Liang’s “wooden ox” was a wheelbarrow remains disputed; he should not be treated as the sole inventor.",
-  "summary_ja": "中国の一輪車は118年頃までに四川の図像に現れる。諸葛亮の「木牛」が一輪車だったかは争われ、彼を唯一の発明者とみなすべきではない。",
+  "notes_en": "Chinese wheelbarrow imagery predates Zhuge Liang; records from Sichuan date to the early 2nd century CE. His “wooden ox and gliding horse” are often described as wheelbarrows, but some scholars reconstruct them as four-wheeled vehicles, so invention should not simply be credited to him. European wheelbarrows appeared later; their relationship to the Chinese lineage is a separate debate.",
+  "summary_zh": "中国独轮车约公元 118 年已见于四川墓葬图像；诸葛亮「木牛流马」是否即独轮手推车仍有争议，不应简单将诸葛亮视为唯一发明人。",
+  "summary_en": "Wheelbarrows appear in Sichuan tomb imagery around 118 CE. Whether Zhuge Liang’s “wooden ox and gliding horse” were wheelbarrows remains disputed; he should not be seen as sole inventor.",
+  "summary_ja": "中国の一輪手押し車は118年頃に四川の墓葬図像にすでに現れる。諸葛亮の「木牛流馬」が一輪手押し車だったかどうかは議論があり、彼を唯一の発明者とみなすべきではない。",
   "tags": [
     "travel"
   ],

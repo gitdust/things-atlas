@@ -21,7 +21,7 @@
     "popularization": {
       "year": 1920,
       "precision": "year",
-      "ref": "KDKA broadcasts election results in Pittsburgh",
+      "ref": "KDKA broadcasts presidential election results in Pittsburgh",
       "ref_zh": "匹兹堡 KDKA 广播总统选举结果"
     }
   },
@@ -67,14 +67,14 @@
   ],
   "disputed": true,
   "summary_zh": "马可尼于 1895 年进行无线电通信实验，1897 年获专利；1920 年匹兹堡 KDKA 播报选举结果，标志着面向公众的广播兴起。无线电发明归属也涉及特斯拉和波波夫。",
-  "summary_en": "Marconi tested wireless signalling in 1895 and received a patent in 1897. KDKA’s 1920 election broadcast marked the rise of public radio; Tesla and Popov also figure in priority debates.",
-  "summary_ja": "マルコーニは1895年に無線信号を試し、1897年に特許を得た。KDKAの1920年の選挙放送が公共ラジオの広がりを示す。優先権の議論にはテスラとポポフも登場する。",
+  "summary_en": "Marconi tested wireless communication in 1895 and gained a patent in 1897. KDKA’s 1920 election broadcast in Pittsburgh marked public radio’s rise; invention claims also involve Tesla and Popov.",
+  "summary_ja": "マルコーニは1895年に無線通信の実験を行い、1897年に特許を取得した。1920年のピッツバーグのKDKAによる選挙結果の放送は、公衆向け放送の興隆を示す節目となった。発明者をめぐる議論にはテスラとポポフも関わっている。",
   "tags": [
     "media"
   ],
   "updated": "2026-11-02",
   "notes": "无线电并非由单人一次完成：马可尼推动了实用无线通信，特斯拉的相关电路与专利、波波夫的接收实验也构成优先权争议。这里将早期无线通信与家用广播接收区分，以 1920 年 KDKA 播报选举结果作为广播走向公众的节点，而非唯一的首次广播。",
-  "notes_en": "Radio developed through multiple contributions: Marconi advanced practical wireless communication, while Tesla’s circuits and patents and Popov’s receiving experiments complicate priority. The 1920 KDKA election broadcast marks public broadcasting, not an exclusive first broadcast.",
+  "notes_en": "Radio did not emerge from one person’s work: Marconi advanced practical wireless communication, while Tesla’s circuits and patents and Popov’s reception experiments also underlie priority disputes. This entry distinguishes early wireless communication from home broadcast reception, using KDKA’s 1920 election-results broadcast as a milestone in public broadcasting, not the sole first broadcast.",
   "primary": "popularization",
   "image": {
     "src": "/images/radio.jpg",

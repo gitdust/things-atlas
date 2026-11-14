@@ -14,19 +14,19 @@
     "patent": {
       "year": 1810,
       "precision": "year",
-      "ref": "Peter Durand receives British Patent No. 3372 for preserving food in vessels of glass, pottery, tin or other metals",
+      "ref": "Peter Durand receives food-preservation patent No. 3372 for tin cans, signed by Britain’s King George III",
       "ref_zh": "彼得·杜兰德取得英国国王乔治三世签署的铁皮罐头食品保藏发明专利（No.3372）"
     },
     "mass_production": {
       "year": 1813,
       "precision": "year",
-      "ref": "Bryan Donkin and John Hall open the first commercial canning factory in Bermondsey, London, supplying the Royal Navy",
+      "ref": "Donkin and Hall establish the first commercial cannery in Bermondsey, London, supplying tin-canned meat to the Royal Navy on a large scale",
       "ref_zh": "唐金与霍尔在伦敦伯蒙西建立世界首家商业罐头工坊，向英国皇家海军大规模供应马口铁肉类罐头"
     },
     "popularization": {
       "year": 1856,
       "precision": "year",
-      "ref": "Gail Borden patents canned condensed milk, while wars and railway expansion spread canned food to civilian homes",
+      "ref": "Gail Borden invents canned condensed milk; military food purchases in the Crimean and American Civil Wars help spread canned food to homes worldwide",
       "ref_zh": "盖尔·博登发明炼乳罐头，加之克里米亚战争与美国内战军粮采购，推动罐头食品走进全球普通家庭"
     }
   },
@@ -35,7 +35,7 @@
       "lat": 48.7308,
       "lng": 2.2714,
       "place_label_zh": "法国马西（阿佩尔工坊）",
-      "place_label_en": "Massy, France (Nicolas Appert)",
+      "place_label_en": "Massy, France (Appert’s workshop)",
       "kind": "invention",
       "confidence": "city"
     },
@@ -65,8 +65,8 @@
   ],
   "disputed": false,
   "summary_zh": "1810 年法国阿佩尔确立密封加热灭菌原理，英国杜兰德取得马口铁罐头专利；1813 年唐金在伦敦建立首座罐头工坊供应皇家海军，奠定现代食品保藏与储备基础。",
-  "summary_en": "In 1810 Nicolas Appert perfected heat sterilization and Peter Durand patented the tinplate canister. Bryan Donkin built the first commercial canning factory in 1813, revolutionizing food preservation.",
-  "summary_ja": "1810年、ニコラ・アペールが加熱殺菌を完成させ、ピーター・デュランがブリキ缶を特許化した。ブライアン・ドンキンは1813年に最初の商業缶詰工場を建て、食品保存を大きく変えた。",
+  "summary_en": "In 1810, France’s Appert established sealed heat sterilization and Britain’s Durand patented tin cans. Donkin’s first London cannery supplied the Royal Navy in 1813, advancing food preservation.",
+  "summary_ja": "1810年、フランスのアペールが密封して加熱殺菌する原理を確立し、英国のデュランがブリキ缶による食品保存の特許を取得した。1813年、ドンキンがロンドンで最初の缶詰工場を設けて王立海軍に供給し、現代の食品保存と備蓄の基礎を築いた。",
   "tags": [
     "food-drink",
     "storage",

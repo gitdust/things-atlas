@@ -91,8 +91,8 @@
   "disputed": true,
   "notes": "回形针起源有三种说法：一是挪威说，认为瓦勒（Johan Vaaler）发明，实为公众误传——他的美国专利 US 675,761（1901）设计从未投产；二是英国 1870 年代说，被 Early Office Museum 反驳；三是美国说，1892 年纽约 Cushman & Denison 推出 Gem 型，本条目采用此说。Gem 型从未申请专利，故 patent 为空。更早的费伊（Fay）美国专利 US 64,088（1867-04-23 授权）也是一种纸夹，标为 contested。",
   "summary_zh": "Gem 型回形针由纽约 Cushman & Denison 于 1892 年推出，从未申请专利；挪威瓦勒发明说是常见误传。",
-  "summary_en": "The Gem-type clip was introduced by Cushman & Denison in New York in 1892 and was never patented. The Norwegian Vaaler origin story is a popular myth.",
-  "summary_ja": "Gem 型クリップは1892年、ニューヨークの Cushman & Denison が導入し、特許は取られなかった。ノルウェーのヴァーラー起源説は広く知られた俗説である。",
+  "summary_en": "Cushman & Denison introduced the Gem clip in New York in 1892; no patent was ever filed for it. The story that Norway’s Vaaler invented it is a common misconception.",
+  "summary_ja": "ゼム型クリップは1892年、ニューヨークの Cushman & Denison が発売したが、特許は申請されなかった。ノルウェーのヴァーラーが発明したという説は、よくある誤解である。",
   "tags": [
     "office",
     "fastening"
@@ -106,5 +106,5 @@
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:B%C3%BCroklammern_--_2021_--_6481.jpg"
   },
-  "notes_en": "Three origin claims circulate. The Norwegian story credits Johan Vaaler, but his US 675,761 (1901) design was never manufactured — a popular misconception. A British 1870s claim is disputed by the Early Office Museum. This entry follows the US account: Cushman & Denison’s Gem clip in New York, 1892. The Gem was never patented, so patent is null. Fay’s earlier US 64,088 (1867, Franklin, PA) is marked contested."
+  "notes_en": "Three origin claims circulate. The Norwegian claim credits Johan Vaaler, but this is a popular misconception: his US 675,761 (1901) design never entered production. The Early Office Museum refutes the British 1870s claim. This entry adopts the US account: Cushman & Denison introduced the Gem clip in New York in 1892. No patent was filed for the Gem, so patent is null. Fay’s earlier paper clip, US 64,088 (granted 1867-04-23), is marked contested."
 }

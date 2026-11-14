@@ -20,13 +20,13 @@
     "mass_production": {
       "year": 1898,
       "precision": "year",
-      "ref": "Paul Morszeck founds RIMOWA in Cologne, pioneering lightweight luggage and later debuting grooved aluminum cases in 1937",
+      "ref": "Paul Morszeck founds RIMOWA in Cologne, beginning mass production of lightweight luggage; its signature aluminium-magnesium alloy cases follow in 1937",
       "ref_zh": "保罗·莫斯策克在德国科隆创立日默瓦（RIMOWA），开启轻量化旅行箱量产，后于 1937 年推出标志性铝镁合金箱"
     },
     "popularization": {
       "year": 1987,
       "precision": "year",
-      "ref": "Pilot Robert Plath invents the upright two-wheeled Rollaboard with a rigid telescoping handle (Travelpro), Florida",
+      "ref": "Pilot Robert Plath invents the upright, two-wheeled Rollaboard with a telescoping handle in Florida, founds Travelpro and makes it a global carry-on standard",
       "ref_zh": "民航飞行员罗伯特·普拉思在佛罗里达发明带双轮与伸缩拉杆的直立式 Rollaboard，创立 Travelpro 并普及为全球民航随身标准"
     }
   },
@@ -52,7 +52,7 @@
       "lat": 41.7015,
       "lng": -71.155,
       "place_label_zh": "美国马萨诸塞州福尔里弗（萨多脚轮箱专利）",
-      "place_label_en": "Fall River, Massachusetts, USA (Bernard Sadow)",
+      "place_label_en": "Fall River, Massachusetts, USA (Sadow’s wheeled-luggage patent)",
       "kind": "patent",
       "confidence": "city"
     },
@@ -60,7 +60,7 @@
       "lat": 26.3683,
       "lng": -80.1289,
       "place_label_zh": "美国佛罗里达州博卡拉顿（普拉思 Rollaboard）",
-      "place_label_en": "Boca Raton, Florida, USA (Robert Plath)",
+      "place_label_en": "Boca Raton, Florida, USA (Plath’s Rollaboard)",
       "kind": "popularization",
       "confidence": "city"
     }
@@ -94,8 +94,8 @@
   ],
   "disputed": false,
   "summary_zh": "1858 年平顶旅行箱开启了现代铁路与轮船行李收纳；1970 年萨多加装脚轮，1987 年普拉思发明直立式伸缩拉杆箱，使其成为全球长途旅行与航空出行的随身标配。",
-  "summary_en": "From Louis Vuitton's 1858 flat-topped trunks to Bernard Sadow adding wheels in 1970 and Robert Plath inventing the upright Rollaboard in 1987, the suitcase evolved to serve modern global travel.",
-  "summary_ja": "ルイ・ヴィトンの1858年の平らな蓋のトランクから、1970年に Bernard Sadow が車輪を付け、1987年に Robert Plath が立てて引くローラボードを発明するまで、旅行のための箱は変化した。",
+  "summary_en": "Flat-topped trunks served rail and steamship luggage in 1858. Sadow added casters in 1970; Plath’s upright telescopic-handle case in 1987 made luggage a long-haul and air-travel staple.",
+  "summary_ja": "1858年の平らな蓋の旅行箱は、鉄道や蒸気船での現代的な荷物収納の始まりとなった。1970年に Sadow がキャスターを加え、1987年に Plath が直立式の伸縮ハンドル付きケースを発明し、長距離旅行や航空旅行の定番となった。",
   "tags": [
     "storage",
     "travel"

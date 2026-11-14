@@ -14,19 +14,19 @@
     "patent": {
       "year": 1932,
       "precision": "exact",
-      "ref": "Winifred C. Heitmeyer granted US Patent 1,863,333 for the multi-layer wood-pulp absorbent pad, assigned to Kimberly-Clark's Cellucotton subsidiary",
+      "ref": "Heitmeyer receives patent US1863333A for a multilayer wood-pulp absorbent pad used in Kimberly-Clark’s Kotex",
       "ref_zh": "海特迈尔取得用于金佰利高洁丝的多层木浆纤维棉「吸收垫」发明专利（US1863333A）"
     },
     "mass_production": {
       "year": 1920,
       "precision": "year",
-      "ref": "Kimberly-Clark launches Kotex in Neenah, Wisconsin, repurposing wartime absorbent Cellucotton",
+      "ref": "Kimberly-Clark uses surplus high-absorbency Cellucotton from WWI field hospitals to launch and mass-produce Kotex in Wisconsin",
       "ref_zh": "金佰利利用一战战地医院剩余的高吸收木浆纤维棉（Cellucotton）在威斯康星州推出高洁丝（Kotex）并量产"
     },
     "popularization": {
       "year": 1969,
       "precision": "year",
-      "ref": "Stayfree introduces self-adhesive strip sanitary pads, eliminating pins and belts worldwide",
+      "ref": "Johnson & Johnson’s Stayfree introduces self-adhesive sanitary pads, replacing pins and menstrual belts",
       "ref_zh": "强生旗下 Stayfree 推出背胶自粘式卫生巾，彻底淘汰了别针和经期安全带"
     }
   },
@@ -79,8 +79,8 @@
   ],
   "disputed": false,
   "summary_zh": "一战期间战地护士发现木浆吸水棉极其好用；1920 年金佰利推出高洁丝开启现代量产。1969 年背胶卫生巾的面世彻底改变了全球女性经期生活。",
-  "summary_en": "WWI nurses repurposed absorbent cellulose bandages for menstruation. Kimberly-Clark launched Kotex in 1920, and the 1969 adhesive strip transformed women's mobility worldwide.",
-  "summary_ja": "第一次世界大戦の看護師が吸収性のセルロース包帯を月経に転用した。キンバリー・クラークは1920年にコテックスを発売し、1969年の粘着テープが女性の移動を大きく変えた。",
+  "summary_en": "WWI nurses found wood-pulp absorbents useful. Kotex’s 1920 launch began modern mass production; self-adhesive pads in 1969 transformed menstrual care worldwide.",
+  "summary_ja": "第一次世界大戦中、従軍看護師たちは木材パルプ製吸収材の使いやすさに気づいた。キンバリー・クラークは1920年にコテックスを発売し、現代的な量産を始めた。1969年の粘着式ナプキンの登場は、世界の女性の月経中の生活を大きく変えた。",
   "tags": [
     "health",
     "grooming"

@@ -15,7 +15,7 @@
     "mass_production": {
       "year": 544,
       "precision": "year",
-      "ref": "Qimin Yaoshu gives the earliest detailed soy-sauce making description",
+      "ref": "The Qimin Yaoshu (544) provides the earliest known detailed account of making fermented paste",
       "ref_zh": "《齐民要术》（544）给出目前最早的制酱详述"
     },
     "popularization": {
@@ -38,7 +38,7 @@
       "lat": 36.65,
       "lng": 117.12,
       "place_label_zh": "中国山东（贾思勰《齐民要术》关联地）",
-      "place_label_en": "Shandong, China (associated with Qimin Yaoshu)",
+      "place_label_en": "Shandong, China (associated with Jia Sixie’s Qimin Yaoshu)",
       "kind": "production",
       "confidence": "region"
     }
@@ -66,8 +66,8 @@
   ],
   "disputed": false,
   "summary_zh": "酱油由豆酱汁液演化而来；公元40年《四民月令》已见清酱，544年《齐民要术》详述制法，宋代「酱油」之名定型。",
-  "summary_en": "Soy sauce evolved from fermented soybean seasonings. Qingjiang appeared in the Simin Yueling (40 CE), the Qimin Yaoshu (544) detailed production, and the name jiangyou settled in Song texts.",
-  "summary_ja": "しょうゆは発酵大豆の調味料から発展した。清醤は『四民月令』（40年）に現れ、『斉民要術』（544年）が製法を詳述し、名称「醤油」は宋の文献で定着した。",
+  "summary_en": "Soy sauce evolved from soybean-paste liquid. The Simin Yueling (40 CE) mentions qingjiang; the Qimin Yaoshu (544) details production. The name jiangyou was established in the Song dynasty.",
+  "summary_ja": "しょうゆは大豆の発酵ペーストから出る液体をもとに発展した。『四民月令』（40年）には清醤が記され、『斉民要術』（544年）が製法を詳述し、「醤油」の名は宋代に定着した。",
   "tags": [
     "food-drink"
   ],

@@ -79,8 +79,8 @@
   "disputed": false,
   "notes": "胶水由西尔弗于 1968 年发现，1972 年获专利；1974 年弗赖想到用它做书签，才有便利贴的构想。1978 年在博伊西试销，1980-04-06 全美上市，1981 年进入加拿大和欧洲。艾姆伦（Amron）曾声称自己 1973 年发明，双方和解后他再次起诉，被法院驳回。",
   "summary_zh": "1968 年发现胶水，1974 年弗赖想到用它做书签，1980 年全美上市——发明与普及相差十多年。",
-  "summary_en": "The adhesive was discovered in 1968; Fry’s bookmark idea came in 1974; the US national launch followed in 1980 — invention and popularization are years apart.",
-  "summary_ja": "粘着剤は1968年に見つかり、Fry のしおりの着想は1974年、米国での全国発売は1980年である。発明と普及は別の年である。",
+  "summary_en": "The adhesive was discovered in 1968; Fry thought of using it for bookmarks in 1974; the US launch came in 1980—over a decade separated invention and popularization.",
+  "summary_ja": "粘着剤は1968年に発見され、Fry がしおりへの応用を思いついたのは1974年、米国で全国発売されたのは1980年である。発明から普及までには十年以上の隔たりがある。",
   "tags": [
     "office",
     "fastening"
@@ -94,5 +94,5 @@
     "license": "CC BY-SA 2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Sticky_Notes_in_different_colors.jpg"
   },
-  "notes_en": "Spencer Silver discovered the adhesive in 1968 and patented it in 1972. Art Fry’s bookmark idea in 1974 made the sticky note a product. After a 1978 test market in Boise, it launched nationwide on 6 April 1980 and reached Canada and Europe in 1981. Alan Amron claimed a 1973 invention; after a settlement, a later suit was dismissed."
+  "notes_en": "Spencer Silver discovered the adhesive in 1968 and obtained a patent in 1972. Art Fry thought of using it for bookmarks in 1974, giving rise to the sticky-note idea. After a 1978 trial sale in Boise, it launched nationwide on 6 April 1980 and reached Canada and Europe in 1981. Amron claimed he invented it in 1973; after a settlement, he sued again, but the court dismissed the suit."
 }

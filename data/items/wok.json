@@ -26,7 +26,7 @@
       "lat": 30.25,
       "lng": 120.15,
       "place_label_zh": "中国江南（宋代炒锅普及区之一）",
-      "place_label_en": "Jiangnan, China (Song-era wok use)",
+      "place_label_en": "Jiangnan, China (one region where woks spread in the Song dynasty)",
       "kind": "production",
       "confidence": "region"
     }
@@ -48,10 +48,10 @@
   ],
   "disputed": false,
   "notes": "炒锅精确发明年不详；新石器时代已有陶釜，铁器时代后才有铁锅。本条目以宋代铸铁炒锅普及为主年份，来源偏弱。",
-  "notes_en": "No precise invention year is known; clay cauldrons are far older, while iron woks become clear later. This entry uses Song-dynasty cast-iron household woks as the primary mark; sourcing is relatively thin.",
+  "notes_en": "The precise invention year is unknown; pottery cauldrons existed in the Neolithic, and iron woks appeared after the advent of the Iron Age. This entry uses the spread of cast-iron woks in the Song dynasty as the primary milestone; sourcing is weak.",
   "summary_zh": "炒锅由中国圜底锅演化而来，精确发明年不详；宋代起铸铁炒锅在日常烹饪中普及，成为爆炒核心炊具。",
   "summary_en": "The wok evolved from Chinese round-bottomed pots; no single invention year is known. Cast-iron household woks became common in the Song dynasty and anchored stir-fry cooking.",
-  "summary_ja": "中華鍋は中国の丸底の鍋から発展し、単一の発明年は知られていない。鋳鉄の家庭用は宋に一般的になり、炒め料理の中心になった。",
+  "summary_ja": "中華鍋は中国の丸底の鍋から発展したが、正確な発明年は知られていない。鋳鉄製の家庭用中華鍋は宋代に一般的になり、炒め料理の中心的な調理器具となった。",
   "tags": [
     "cooking"
   ],

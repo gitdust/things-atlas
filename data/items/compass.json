@@ -8,7 +8,7 @@
     "invention": {
       "year": 1088,
       "precision": "year",
-      "ref": "Shen Kuo’s Dream Pool Essays describes magnetizing a needle with lodestone and suspending it to find south",
+      "ref": "Shen Kuo’s Dream Pool Essays describes how to magnetize a needle with lodestone and suspend it to find south",
       "ref_zh": "沈括《梦溪笔谈》记述以磁石磨针尖、悬丝定南"
     },
     "patent": null,
@@ -70,8 +70,8 @@
   "notes": "更早的司南（天然磁石勺）多用于汉以前的占卜与风水，并非航海仪器。本条年表主年取沈括 1088 年对磁针的明确实验记述，并以 1119 年朱彧《萍洲可谈》的广州海运记载为航海普及标志。",
   "notes_en": "Earlier lodestone “south-pointing spoons” (sinan) were used mainly for geomancy and divination, not seafaring. This entry’s primary year is Shen Kuo’s 1088 description of a magnetized needle; Zhu Yu’s 1119 Pingzhou Ketan records sailors at Guangzhou steering by the needle in cloudy weather.",
   "summary_zh": "中国宋代将磁针用于指向：沈括约 1088 年详记磁针，朱彧 1119 年记广州海船阴天用指南针。",
-  "summary_en": "Song-dynasty China turned the magnetic needle into a practical compass: Shen Kuo described it around 1088, and Zhu Yu recorded its use at sea out of Guangzhou by 1119.",
-  "summary_ja": "宋の中国は磁針を実用の羅針盤にした。沈括が1088年頃に記し、朱彧は1119年までに広州を出る船での使用を記録した。",
+  "summary_en": "Song China used magnetic needles for direction: Shen Kuo described them in detail around 1088, and Zhu Yu recorded Guangzhou ships using compasses in cloudy weather in 1119.",
+  "summary_ja": "宋代の中国では磁針で方角を知るようになった。沈括が1088年頃に磁針を詳しく記し、朱彧は1119年、広州の船が曇天時に羅針盤を使うことを記録した。",
   "tags": [
     "travel"
   ],
@@ -79,7 +79,7 @@
   "image": {
     "src": "/images/compass.jpg",
     "alt_zh": "实验室用磁针指南针",
-    "alt_en": "A magnetic needle compass in a school laboratory",
+    "alt_en": "A magnetic needle compass for laboratory use",
     "credit": "Kvr.lohith",
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Magnetic_compass_-_school_laboratory.jpg"

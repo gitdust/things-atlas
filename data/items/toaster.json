@@ -20,13 +20,13 @@
     "mass_production": {
       "year": 1919,
       "precision": "year",
-      "ref": "Charles Strite patents the pop-up toaster with spring and variable timer, Stillwater, Minnesota",
+      "ref": "Charles Strite invents an automatic toaster with a clockwork timer and spring-loaded pop-up mechanism in Stillwater, Minnesota (US1394450)",
       "ref_zh": "查尔斯·斯特莱特在明尼苏达州斯蒂尔沃特发明带发条定时器和弹簧弹跳装置的自动烤面包机（US1394450）"
     },
     "popularization": {
       "year": 1926,
       "precision": "year",
-      "ref": "Waters-Genter Company markets the modern domestic pop-up toaster as the 'Toastmaster' Model 1-A-1",
+      "ref": "Waters-Genter markets the domestic Toastmaster Model 1-A-1 pop-up toaster, making unattended toast a breakfast staple",
       "ref_zh": "沃特斯-根特公司推出家用 Toastmaster 1-A-1 弹跳式烤面包机，让无需看守的烤吐司成为大众早餐标配"
     }
   },
@@ -73,8 +73,8 @@
   ],
   "disputed": false,
   "summary_zh": "1893 年英国出现早期电烤面包器；1919 年斯特莱特在明尼苏达发明弹跳式机制与定时器，Toastmaster 随后将双面自动烘烤推向千家万户的早餐餐桌。",
-  "summary_en": "Evolving from 1893 British wire-rack electric heaters, the modern toaster took shape in 1919 when Charles Strite added a variable timer and pop-up springs, leading to the iconic Toastmaster.",
-  "summary_ja": "1893年の英国の針金架の電熱器から発展し、1919年に Charles Strite が可変タイマーと飛び出しばねを加えて現代の形になった。これが象徴的なトーストマスターへつながった。",
+  "summary_en": "Early electric toasters appeared in Britain in 1893. Strite invented a pop-up mechanism and timer in Minnesota in 1919; Toastmaster later brought automatic two-sided toasting to homes.",
+  "summary_ja": "1893年に英国で初期の電気トースターが登場した。1919年、Strite がミネソタでポップアップ機構とタイマーを発明し、その後Toastmasterが両面自動焼きを家庭の朝食に広めた。",
   "tags": [
     "cooking",
     "electric",

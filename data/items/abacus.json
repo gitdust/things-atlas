@@ -38,7 +38,7 @@
       "lat": 34.8,
       "lng": 114.3,
       "place_label_zh": "中国河南开封一带（清明上河图所见算盘语境）",
-      "place_label_en": "Kaifeng region, Henan, China (Along the River During the Qingming Festival context)",
+      "place_label_en": "Kaifeng region, Henan, China (abacus depicted in Along the River During the Qingming Festival)",
       "kind": "popularization",
       "confidence": "region"
     }
@@ -66,10 +66,10 @@
   ],
   "disputed": false,
   "notes": "算筹更早；本条目指有梁有珠的算盘。汉代记载与宋以后定型算盘之间仍有形态演变。",
-  "notes_en": "Counting rods are older; this entry covers the beaded, framed suanpan. Form evolved between Han descriptions and the classic Song–later layout.",
+  "notes_en": "Counting rods are older; this entry covers the beaded, framed suanpan. Its form evolved between the Han-era descriptions and the classic layout used from the Song dynasty onward.",
   "summary_zh": "中国算盘由早期珠算工具演化而来；约公元190年已有相关记载，宋代起上二下五的典型算盘广泛使用。",
-  "summary_en": "The Chinese suanpan evolved from earlier bead calculation devices described around 190 CE. The classic 2/5-bead frame is widely attested from the Song dynasty onward.",
-  "summary_ja": "中国の算盤は、190年頃に記された珠を使う計算具から発展した。上下2珠・5珠の形は宋以降広く確認される。",
+  "summary_en": "The Chinese suanpan evolved from bead-counting tools recorded around 190 CE. Its classic form, with two beads above and five below, was widely used from the Song dynasty onward.",
+  "summary_ja": "中国のそろばんは、190年頃の記録に見られる初期の珠算具から発展した。上段に2珠、下段に5珠を備えた典型的な形は、宋代以降広く使われた。",
   "tags": [
     "office",
     "computing"

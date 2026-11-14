@@ -16,7 +16,7 @@
     "popularization": {
       "year": -548,
       "precision": "year",
-      "ref": "Earliest reliable textual reference in the Zuo Zhuan (event of 548 BCE)",
+      "ref": "The Zuo Zhuan records an event in 548 BCE, providing early reliable written evidence",
       "ref_zh": "《左传》记载公元前548年事，为目前较早可靠书证"
     }
   },
@@ -53,10 +53,10 @@
   ],
   "disputed": true,
   "notes": "传说尧舜为教子而发明围棋，年代过于久远且无实证。学界普遍认为围棋起源于中国上古，但具体世纪难以敲定；目前较早的可靠文献是《左传》中涉及弈棋的记载。本条目以约公元前一千年为发明粗标，并以书证年作普及参照。",
-  "notes_en": "Legends crediting Yao or Shun are unprovable. Scholars generally place weiqi’s origin in ancient China, but the exact century is unclear; an early firm textual anchor is the Zuo Zhuan. This entry uses a rough first-millennium BCE invention mark plus the textual reference year.",
+  "notes_en": "Legends say Yao or Shun invented Go to teach their sons, but the remote dates lack evidence. Scholars generally place its origin in ancient China, though the century is unclear; the Zuo Zhuan contains an early reliable reference to play. This entry uses about 1000 BCE as a rough invention date and the written-evidence year as a popularization reference.",
   "summary_zh": "围棋起源于中国上古，传说发明人不可考；约公元前一千年已可能存在，公元前548年《左传》提供较早书证。",
-  "summary_en": "Go (weiqi) originated in ancient China; legendary inventors are unprovable. It likely existed by the first millennium BCE, with an early textual anchor in 548 BCE.",
-  "summary_ja": "囲碁は古代中国に起源がある。伝説上の発明者は証明できない。紀元前1千年紀には存在したと考えられ、早い文献上の手がかりは紀元前548年である。",
+  "summary_en": "Go originated in ancient China; its legendary inventors cannot be verified. It may have existed around 1000 BCE; the Zuo Zhuan records an event in 548 BCE as early written evidence.",
+  "summary_ja": "囲碁は古代中国に起源があるが、伝説上の発明者については確かめられない。紀元前1000年頃には存在した可能性があり、『左伝』の紀元前548年の出来事に関する記述が初期の文献上の証拠となっている。",
   "tags": [
     "leisure"
   ],

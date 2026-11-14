@@ -51,10 +51,10 @@
   ],
   "disputed": false,
   "notes": "拖把早于本条专利。1837年记录仅涉及拖把头安装结构；1893年记录涉及弹簧与杠杆夹持结构，不能据此认定某人为所有拖把的发明者。",
-  "notes_en": "Both patents concern improvements to an existing tool, not the first invention of the mop.",
+  "notes_en": "Mops predate these patents. The 1837 record concerns only the mop-head mounting structure, and the 1893 record concerns a spring-and-lever clamp. Neither establishes an inventor of all mops.",
   "summary_zh": "拖把把吸水材料装在长柄上清洁地面。1837年豪为可拆装拖把头结构取得专利；1893年斯图尔特又改良了夹持机构。这些是改良节点，而非拖把的最早起源。",
-  "summary_en": "Mops attach absorbent material to a handle. Howe patented a removable head holder in 1837; Stewart improved the clamp in 1893. Both refined an older tool.",
-  "summary_ja": "モップは柄に吸水素材を付ける。Howe は1837年に着脱できるヘッド受けを特許化し、Stewart は1893年に留め具を改良した。どちらも古い道具の改良である。",
+  "summary_en": "Mops clean floors with absorbent material on a long handle. Howe patented a removable head holder in 1837; Stewart improved the clamp in 1893. These were improvements, not the mop’s earliest origin.",
+  "summary_ja": "モップは、柄に取り付けた吸水性の素材で床を掃除する道具である。Howe は1837年に着脱式ヘッドの固定構造の特許を取得し、Stewart は1893年に留め具を改良した。いずれも、すでに存在していた道具の改良である。",
   "tags": [
     "cleaning",
     "household"

@@ -8,7 +8,7 @@
     "invention": {
       "year": 1024,
       "precision": "year",
-      "ref": "Northern Song state issues official jiaozi paper money in Sichuan (1023–1024)",
+      "ref": "The Northern Song government establishes a jiaozi office in Sichuan and issues official jiaozi paper money (1023–1024)",
       "ref_zh": "北宋在四川官办交子务并发行官方交子（1023–1024）"
     },
     "patent": null,
@@ -61,7 +61,7 @@
   "notes_en": "Private jiaozi notes circulated in Sichuan by the late 10th century; this entry uses the 1023–1024 state takeover and official issue as the primary mark.",
   "summary_zh": "世界最早的纸币出现在中国：北宋四川交子在1023–1024年由官府发行，其后元明继续推行钞法。",
   "summary_en": "The world’s earliest banknotes appeared in China: Northern Song Sichuan jiaozi were officially issued in 1023–1024, with Yuan and Ming states later expanding paper currency.",
-  "summary_ja": "世界最古の紙幣は中国に現れた。北宋の四川で交子が1023–1024年に官発され、元と明が後に紙の通貨を広げた。",
+  "summary_ja": "世界最古の紙幣は中国に現れた。北宋の四川では1023–1024年に交子が官府によって発行され、後に元と明も紙幣の流通を広げた。",
   "tags": [
     "trade"
   ],
@@ -69,7 +69,7 @@
   "image": {
     "src": "/images/banknote.jpg",
     "alt_zh": "明代大明宝钞纸币",
-    "alt_en": "Ming dynasty paper banknote",
+    "alt_en": "A Ming dynasty Da Ming Baochao banknote",
     "credit": "Carter, Thomas Francis, 1882-1925",
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Banknote_Ming_Dynasty_CarterInventionPrintingChina_0126.jpg"

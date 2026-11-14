@@ -15,13 +15,13 @@
     "mass_production": {
       "year": 1947,
       "precision": "year",
-      "ref": "Lowe packages clay in 5-lb bags branded 'Kitty Litter', selling them from the trunk of his car",
+      "ref": "Lowe brands bagged clay Kitty Litter, beginning production and sales from his car trunk and local pet shops",
       "ref_zh": "爱德华·洛将袋装黏土命名为 Kitty Litter，从汽车后备箱和当地宠物店起步量产销售"
     },
     "popularization": {
       "year": 1984,
       "precision": "year",
-      "ref": "Thomas Nelson develops clumping cat litter from sodium bentonite clay in the United States",
+      "ref": "Biochemist Thomas Nelson develops clumping sodium-bentonite cat litter, greatly simplifying cleanup and helping it spread worldwide",
       "ref_zh": "生物化学家托马斯·纳尔逊研发出遇水结团的钠基膨润土猫砂，极大地简化了清理并普及至全球"
     }
   },
@@ -52,8 +52,8 @@
   ],
   "disputed": false,
   "summary_zh": "1947 年前养猫只能用泥沙或炉渣。爱德华·洛将吸水膨润土装袋制成 Kitty Litter，彻底解决了室内异味，使家猫从农场捕鼠动物变成现代纯室内陪伴宠物。",
-  "summary_en": "Before 1947 indoor cats used sand or stove ashes. Edward Lowe packaged absorbent fuller's earth as 'Kitty Litter' in Michigan, transforming domestic cats into purely indoor companions worldwide.",
-  "summary_ja": "1947年より前、室内の猫には砂やかまどの灰が使われた。Edward Lowe はミシガンで吸水性のフラー土を「Kitty Litter」として売り、猫を完全な室内動物へ変えた。",
+  "summary_en": "Before 1947, cats used sand or ashes. Edward Lowe bagged absorbent bentonite as Kitty Litter, eliminating indoor odors and turning farm mousers into fully indoor companion pets.",
+  "summary_ja": "1947年以前、猫のトイレには砂や炉の灰しか使えなかった。Edward Lowe は吸水性のあるベントナイトを袋詰めして Kitty Litter とし、室内の臭いを解消した。これにより猫は、農場でネズミを捕る動物から完全室内飼育の伴侶動物へと変わった。",
   "tags": [
     "household",
     "cleaning"

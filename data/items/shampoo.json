@@ -15,7 +15,7 @@
     "mass_production": {
       "year": 1927,
       "precision": "year",
-      "ref": "Hans Schwarzkopf improves liquid shampoo for mass production, Berlin",
+      "ref": "Schwarzkopf improves liquid shampoo and begins mass production in Berlin",
       "ref_zh": "施华蔻在柏林改进液体洗发水并量产"
     },
     "popularization": {
@@ -64,8 +64,8 @@
   "disputed": false,
   "notes": "马哈茂德最初在英国推广的是印度式头部按摩（shampooing），不是洗发液；他 1821 年在布莱顿开设浴室。",
   "summary_zh": "「洗发」一词经印度旅行家迪恩·马哈茂德 1814 年传入英国；1900 年劳施在瑞士研制出液体洗发皂，1927 年施华蔻在柏林实现量产。",
-  "summary_en": "Sake Dean Mahomed brought \"shampooing\" (head massage) to Britain in 1814; Rausch made the first liquid hair soap in Switzerland in 1900, and Schwarzkopf mass-produced it in Berlin in 1927.",
-  "summary_ja": "Sake Dean Mahomed は1814年、「シャンプー」（頭のマッサージ）を英国へ伝えた。Rausch は1900年にスイスで最初の液体ヘアソープを作り、シュワルツコフが1927年にベルリンで量産した。",
+  "summary_en": "Indian traveller Dean Mahomed brought “shampooing” to Britain in 1814. Rausch developed liquid hair soap in Switzerland in 1900; Schwarzkopf mass-produced it in Berlin in 1927.",
+  "summary_ja": "インドの旅行家ディーン・マハメッドを通じ、1814年に「シャンプー」という語が英国に伝わった。1900年に Rausch がスイスで液体洗髪石けんを開発し、1927年にシュワルツコフがベルリンで量産した。",
   "tags": [
     "cleaning",
     "grooming"

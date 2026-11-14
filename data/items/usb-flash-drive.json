@@ -70,8 +70,8 @@
   "disputed": true,
   "notes": "发明权争议很大：M-Systems 的 Ban、Moran、Ogdan 1999 年 4 月申请，常被视为发明者；朗科 1999 年 11 月申请、2002 年获中国专利，曾与 M-Systems、Trek 2000 发生专利纠纷；IBM 工程师 Shmueli 也在 1999 年提交过发明披露。",
   "summary_zh": "1999 年以色列 M-Systems 与深圳朗科先后申请 USB 闪存盘专利，新加坡 Trek 2000 于 2000 年底最先发售，三方都自称发明者。",
-  "summary_en": "In 1999 Israel's M-Systems and Shenzhen's Netac both filed USB flash-drive patents; Singapore's Trek 2000 sold the first one in late 2000, and all three claim the invention.",
-  "summary_ja": "1999年、イスラエルのM-Systemsと深圳の朗科がともにUSBメモリの特許を申請した。シンガポールのTrek 2000が2000年末に最初の製品を売り、三者とも発明を主張している。",
+  "summary_en": "Israel’s M-Systems and Shenzhen’s Netac filed USB flash-drive patent applications in succession in 1999. Singapore’s Trek 2000 first sold them in late 2000; all three claim invention.",
+  "summary_ja": "1999年、イスラエルのM-Systemsと深圳の朗科が相次いでUSBメモリの特許を出願した。シンガポールのTrek 2000が2000年末に最初に発売し、三者とも発明者を自称している。",
   "tags": [
     "computing"
   ],
@@ -84,5 +84,5 @@
     "license": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg"
   },
-  "notes_en": "Heavily disputed. M-Systems' Ban, Moran and Ogdan filed in April 1999 and are often called the inventors; Netac filed in November 1999 and won a Chinese patent in 2002, contested by M-Systems and Trek 2000; IBM engineer Shimon Shmueli also filed an invention disclosure in 1999."
+  "notes_en": "Invention is heavily disputed. M-Systems’ Ban, Moran and Ogdan filed in April 1999 and are often regarded as inventors; Netac filed in November 1999, obtained a Chinese patent in 2002 and had patent disputes with M-Systems and Trek 2000. IBM engineer Shmueli also submitted an invention disclosure in 1999."
 }

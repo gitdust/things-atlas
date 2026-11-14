@@ -8,20 +8,20 @@
     "invention": {
       "year": 1952,
       "precision": "year",
-      "ref": "Dr. Robert Bruce and Wayne Quinton invent the motorized medical treadmill at the University of Washington for cardiac stress testing",
+      "ref": "Dr. Robert Bruce and Wayne Quinton invent the first motorized medical treadmill for cardiac stress testing at the University of Washington",
       "ref_zh": "罗伯特·布鲁斯博士与韦恩·昆顿在华盛顿大学发明首台用于心脏负荷检测的电动医用跑步机"
     },
     "patent": null,
     "mass_production": {
       "year": 1968,
       "precision": "year",
-      "ref": "William Edward Staub invents and mass-produces the PaceMaster 600, the first home fitness treadmill",
+      "ref": "William Staub develops and mass-produces the PaceMaster 600, pioneering the home fitness treadmill industry",
       "ref_zh": "威廉·斯陶布研制并量产 PaceMaster 600，开创家用健身跑步机产业"
     },
     "popularization": {
       "year": 1975,
       "precision": "decade",
-      "ref": "Global running boom and fitness center expansion establish motorized treadmills as universal exercise equipment",
+      "ref": "The aerobic jogging boom and spread of gyms make motorized treadmills standard equipment in homes and sports facilities worldwide",
       "ref_zh": "有氧慢跑热潮与健身房普及使电动跑步机成为全球家庭与运动场馆的标配器械"
     }
   },
@@ -67,8 +67,8 @@
   ],
   "disputed": false,
   "summary_zh": "1952 年布鲁斯在西雅图发明电动心肺诊断跑步机；1968 年斯陶布推出首台家用跑步机，将室外长跑转化为不受时空气候限制的室内有氧运动。",
-  "summary_en": "Invented in 1952 by Dr. Robert Bruce in Seattle for cardiac testing and commercialized for homes in 1968 by William Staub, the motorized treadmill revolutionized indoor cardiovascular fitness.",
-  "summary_ja": "1952年、シアトルの Robert Bruce 医師が心臓検査のため発明し、1968年に William Staub が家庭向けに商品化した。電動トレッドミルは室内の有酸素運動を大きく変えた。",
+  "summary_en": "Bruce invented the motorized diagnostic treadmill in Seattle in 1952; Staub launched the first home model in 1968, bringing running indoors without constraints of time, place or weather.",
+  "summary_ja": "1952年、Bruce がシアトルで電動の心肺診断用トレッドミルを発明した。1968年には Staub が初の家庭用モデルを発売し、屋外での長距離走を、時間や場所、天候に左右されない室内の有酸素運動へと変えた。",
   "tags": [
     "health",
     "household"

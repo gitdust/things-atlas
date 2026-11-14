@@ -59,8 +59,8 @@
   ],
   "disputed": false,
   "summary_zh": "洗衣机是利用机械动力清洗衣物的家用电器。20 世纪初电动洗衣机在芝加哥投产销售，1930 年代出现全自动滚筒机型，彻底改变了家庭日常家务劳动。",
-  "summary_en": "The washing machine mechanizes laundry using electric power. Commercial electric machines emerged in Chicago in the 1900s, followed by 1930s automatic models that transformed domestic labor.",
-  "summary_ja": "洗濯機は電力で洗濯を機械化する。商業用の電気式は1900年代のシカゴに現れ、1930年代の自動式が家事を変えた。",
+  "summary_en": "Washing machines mechanically clean clothes. Electric models entered production and sale in Chicago in the early 1900s; fully automatic drum machines in the 1930s transformed household chores.",
+  "summary_ja": "洗濯機は機械の力で衣類を洗う家電である。20世紀初頭、シカゴで電動洗濯機の生産と販売が始まり、1930年代に全自動ドラム式が登場して、家庭の日々の家事労働を大きく変えた。",
   "tags": [
     "cleaning",
     "electric",
@@ -70,7 +70,7 @@
   "image": {
     "src": "/images/washing-machine.jpg",
     "alt_zh": "一台滚筒式全自动洗衣机",
-    "alt_en": "A front-loading washing machine",
+    "alt_en": "A fully automatic drum-type washing machine",
     "credit": "Gb.select",
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Front_loader_Washing_machine.jpg"

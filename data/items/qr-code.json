@@ -14,7 +14,7 @@
     "patent": {
       "year": 1999,
       "precision": "year",
-      "ref": "Japanese patent JP2938338B2 registered; Denso committed to waive patent rights, establishing it as an open standard",
+      "ref": "Japanese patent JP2938338B2 granted; Denso announces royalty-free use of the patent, establishing an open standard",
       "ref_zh": "日本专利 JP2938338B2 获得授权；电装宣布免费开放专利使用，确立开放标准"
     },
     "mass_production": null,
@@ -63,9 +63,9 @@
     }
   ],
   "disputed": false,
-  "summary_zh": "1994 年日本电装公司的原昌宏发明三角定位的高密度矩阵式二维码；因电装放弃行使专利费，该技术成为全球开放标准并重塑了移动支付与信息交互。",
-  "summary_en": "Invented in 1994 by Masahiro Hara at Denso Wave, the 2D QR code enabled omnidirectional high-speed scanning. Denso's waiver of patent fees fostered its global ubiquity in payments and connectivity.",
-  "summary_ja": "1994年、デンソーウェーブの原昌宏が発明した。二次元のQRコードは全方位から高速に読める。デンソーが特許料を放棄したことが、決済や接続での世界的普及を促した。",
+  "summary_zh": "1994 年，日本电装公司的原昌宏发明了带三个定位图案的高密度矩阵式二维码；电装不收取专利使用费，推动该技术成为全球开放标准，并重塑了移动支付与信息交互。",
+  "summary_en": "Denso’s Masahiro Hara invented the dense matrix QR code with three locator patterns in 1994. Royalty-free use helped make it a global open standard, reshaping mobile payments and information exchange.",
+  "summary_ja": "1994年、日本のデンソーの原昌宏が、三つの位置検出パターンを持つ高密度のマトリックス型QRコードを発明した。デンソーが特許使用料を徴収しなかったことが世界的なオープン標準化を後押しし、モバイル決済や情報のやり取りを大きく変えた。",
   "tags": [
     "computing",
     "trade"

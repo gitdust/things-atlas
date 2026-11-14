@@ -8,7 +8,7 @@
     "invention": {
       "year": 1957,
       "precision": "year",
-      "ref": "Alfred Fielding and Marc Chavannes seal air between two plastic shower curtains to make 3D wallpaper, Hawthorne, NJ",
+      "ref": "Engineers Fielding and Chavannes try heat-sealing two plastic shower curtains into 3D wallpaper in Hawthorne, New Jersey, accidentally trapping sealed air bubbles",
       "ref_zh": "工程师菲尔丁与沙瓦纳在新泽西州霍桑试图将两张塑料浴帘热压成立体壁纸，意外在其中封入密封气泡"
     },
     "patent": {
@@ -65,8 +65,8 @@
   ],
   "disputed": false,
   "summary_zh": "1957 年两位工程师研发立体壁纸失败，却意外创造了密封气泡膜。1960 年 IBM 选用它运送精密计算机，使其迅速成为现代电商与包裹物流的减震标配。",
-  "summary_en": "Invented in 1957 as 3D wallpaper, sealed plastic bubbles found their calling in 1960 when IBM used them to pack computers, turning Bubble Wrap into an icon of global packaging.",
-  "summary_ja": "1957年に立体壁紙として発明された密閉プラスチック気泡は、1960年にIBMがコンピュータの梱包に使い、Bubble Wrap として包装の象徴になった。",
+  "summary_en": "A failed 1957 attempt at 3D wallpaper accidentally created bubble wrap. IBM used it to ship computers in 1960, helping make it standard cushioning for modern e-commerce and parcel delivery.",
+  "summary_ja": "1957年、二人の技術者が立体壁紙の開発に失敗したが、偶然、気泡を密封したシートを生み出した。1960年にIBMが精密なコンピュータの輸送に採用し、現代の電子商取引や小包配送で使われる緩衝材の定番へと広まった。",
   "tags": [
     "storage",
     "materials",

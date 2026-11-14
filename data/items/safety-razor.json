@@ -56,8 +56,8 @@
   "disputed": false,
   "notes": "约 1762 年法国刀匠佩雷已给直剃刀加装护罩；吉列 1901 年提交专利申请，1904 年获批。",
   "summary_zh": "1880 年布鲁克林的坎普夫兄弟首次以「安全剃须刀」之名申请专利；1904 年吉列的一次性双刃刀片让它真正普及。",
-  "summary_en": "The Kampfe brothers of Brooklyn first used the term in an 1880 safety-razor patent; King Gillette's disposable double-edge blade, patented in 1904, made it widespread.",
-  "summary_ja": "ブルックリンの Kampfe 兄弟が1880年の特許でこの語を最初に使った。King Gillette の使い捨て両刃は1904年に特許化され、広く普及した。",
+  "summary_en": "In 1880, Brooklyn’s Kampfe brothers first filed a patent under the name “safety razor”; Gillette’s disposable double-edge blade brought widespread use in 1904.",
+  "summary_ja": "ブルックリンの Kampfe 兄弟は1880年、初めて「安全かみそり」の名で特許を出願した。1904年の Gillette の使い捨て両刃の替え刃によって、本格的な普及が進んだ。",
   "tags": [
     "grooming"
   ],
@@ -70,5 +70,5 @@
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Parker-76R_Safety_Razor.jpg"
   },
-  "notes_en": "French cutler Jean-Jacques Perret added a guard to a straight razor around 1762; Gillette applied in 1901 and was granted in 1904."
+  "notes_en": "French cutler Jean-Jacques Perret added a guard to a straight razor around 1762; Gillette applied for a patent in 1901 and was granted one in 1904."
 }

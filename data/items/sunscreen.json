@@ -8,7 +8,7 @@
     "invention": {
       "year": 1935,
       "precision": "year",
-      "ref": "Eugène Schueller introduces Ambre Solaire, the first commercial sunscreen with a UV filter, Paris",
+      "ref": "L’Oréal founder Eugène Schueller launches Ambre Solaire in Paris, the first commercial sunscreen oil with a UV filter",
       "ref_zh": "欧莱雅创始人舒莱尔在巴黎推出第一款含紫外线滤光剂的商用防晒油 Ambre Solaire"
     },
     "patent": {
@@ -20,7 +20,7 @@
     "mass_production": {
       "year": 1946,
       "precision": "year",
-      "ref": "Franz Greiter develops 'Gletscher Crème' (Glacier Cream) after climbing Mount Piz Buin, Switzerland/Austria",
+      "ref": "Swiss chemist Franz Greiter develops and produces Glacier Cream (Piz Buin) after being sunburned while climbing Piz Buin",
       "ref_zh": "瑞士化学家格赖特在攀登皮兹布因峰被晒伤后研制冰川防晒霜（Piz Buin）并投入生产"
     },
     "popularization": {
@@ -73,8 +73,8 @@
   ],
   "disputed": false,
   "summary_zh": "1930 年代德法研制出早期紫外线化学滤剂并推出商业防晒霜；二战军用防晒与 1962 年 SPF 指数的诞生，让防晒从沙滩度假跃升为全球日常护肤与健康基准。",
-  "summary_en": "In the 1930s European chemists patented synthetic UV filters. Post-war formulas and the 1962 SPF standard transformed sunscreen from a beach novelty into an everyday global skincare essential.",
-  "summary_ja": "1930年代、ヨーロッパの化学者が合成紫外線フィルターを特許化した。戦後の処方と1962年のSPF基準が、浜辺の目新しさから日常のスキンケアへ変えた。",
+  "summary_en": "Germany and France developed UV filters and commercial sunscreen in the 1930s. WWII military use and the 1962 SPF index made sunscreen a global daily skincare and health standard.",
+  "summary_ja": "1930年代、ドイツとフランスで初期の化学紫外線フィルターが開発され、市販の日焼け止めが登場した。第二次世界大戦での軍用日焼け止めと1962年のSPF指数の誕生により、海辺の休暇用品から、世界の日常的なスキンケアと健康の基準へと発展した。",
   "tags": [
     "health",
     "grooming"

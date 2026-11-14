@@ -8,7 +8,7 @@
     "invention": {
       "year": 302,
       "precision": "year",
-      "ref": "Earliest firm Chinese evidence: tomb figurine with stirrup-like device, Changsha area (~302 CE)",
+      "ref": "Relatively firm Chinese evidence: a figurine from the Changsha area has a stirrup-like device, c. 302 CE",
       "ref_zh": "目前较坚实的中国证据：长沙一带约公元302年陶俑出现马镫状装置"
     },
     "patent": null,
@@ -61,10 +61,10 @@
   ],
   "disputed": true,
   "notes": "真正双马镫的起源长期存在「中国说」与「草原说」。中国长沙一带约公元302年的陶俑证据较早且常被引用；蒙古等地四至五世纪马具发现则显示东亚—草原可能共同发展。单侧上马镫与真正成对骑乘镫也需区分，故标为争议。",
-  "notes_en": "True paired stirrups are long disputed between China-centred and steppe-centred accounts. A Changsha-area figurine of about 302 CE is an early firm Chinese marker; Mongolian finds of the 4th–5th centuries suggest shared East Asian–steppe development. Single mounting loops also differ from paired riding stirrups.",
+  "notes_en": "The origins of true paired stirrups have long been disputed between Chinese and steppe accounts. A Changsha-area figurine from about 302 CE is early and often-cited evidence; 4th–5th-century finds in Mongolia and elsewhere suggest possible shared East Asian–steppe development. Single mounting stirrups must be distinguished from paired riding stirrups, so this entry is marked disputed.",
   "summary_zh": "马镫约四世纪初出现于东亚；中国长沙一带约公元302年已有相关陶俑证据，与草原马具传统的先后关系仍有争议。",
   "summary_en": "Stirrups appeared in East Asia by the early 4th century. A Changsha-area figurine of about 302 CE is early Chinese evidence; priority versus steppe traditions remains disputed.",
-  "summary_ja": "あぶみは4世紀初頭までに東アジアに現れた。長沙周辺の紀元302年頃の俑が中国の早い証拠である。草原の伝統との先後は争われている。",
+  "summary_ja": "あぶみは4世紀初頭までに東アジアに現れた。長沙周辺の紀元302年頃の俑は、中国における初期の証拠である。草原地帯の馬具文化との先後関係については議論がある。",
   "tags": [
     "travel"
   ],

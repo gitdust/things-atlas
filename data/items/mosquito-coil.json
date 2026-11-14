@@ -8,7 +8,7 @@
     "invention": {
       "year": 1895,
       "precision": "year",
-      "ref": "Yuki Ueyama conceives curling pyrethrum incense into a spiral to sustain overnight smoldering for 7–8 hours",
+      "ref": "Yuki Ueyama, Eiichiro Ueyama’s wife, conceives curling pyrethrum incense into a spiral to sustain overnight smoldering for 7–8 hours",
       "ref_zh": "上山ゆき（上山英一郎之妻）构想将除虫菊线香盘成螺旋状，实现长达七至八小时的整夜持续阴燃"
     },
     "patent": {
@@ -26,7 +26,7 @@
     "popularization": {
       "year": 1957,
       "precision": "year",
-      "ref": "Automated punch-press manufacturing allows mass export and universal household use across tropical regions",
+      "ref": "Automated punch-press molding makes paired mosquito coils a summer-night household staple across tropical and subtropical regions worldwide",
       "ref_zh": "全自动冲压成型技术问世，双盘蚊香成为全球亚热带与热带地区家庭夏夜驱蚊必备品"
     }
   },
@@ -35,7 +35,7 @@
       "lat": 34.0833,
       "lng": 135.1333,
       "place_label_zh": "日本和歌山县有田市（上山英一郎研制除虫菊线香与涡卷蚊香）",
-      "place_label_en": "Arida, Wakayama, Japan (Eiichiro Ueyama develops pyrethrum mosquito coil)",
+      "place_label_en": "Arida, Wakayama, Japan (Eiichiro Ueyama develops pyrethrum incense and spiral mosquito coils)",
       "kind": "invention",
       "confidence": "city"
     },
@@ -43,7 +43,7 @@
       "lat": 34.6937,
       "lng": 135.5023,
       "place_label_zh": "日本大阪市（金鸟 / 大日本除虫菊量产发售）",
-      "place_label_en": "Osaka, Japan (Kincho mass production and commercial launch)",
+      "place_label_en": "Osaka, Japan (Kincho / Dainihon Jochugiku mass production and commercial launch)",
       "kind": "production",
       "confidence": "city",
       "year_override": 1902
@@ -72,8 +72,8 @@
   ],
   "disputed": false,
   "summary_zh": "1895 年日本上山夫妇将除虫菊线香创制为螺旋盘香，实现长达七八小时的夜间持续阴燃驱蚊；1902 年金鸟正式上市，成为风靡全球的经典夏季防蚊用品。",
-  "summary_en": "Invented in 1895 when Yuki Ueyama wound pyrethrum incense into a spiral to burn overnight, the mosquito coil was launched commercially by Kincho in 1902, becoming an enduring global summer staple.",
-  "summary_ja": "1895年、上山英一郎が除虫菊の線香を渦巻きにして一晩燃やせるようにした。金鳥が1902年に商品化し、世界の夏の定番になった。",
+  "summary_en": "In 1895, the Ueyamas in Japan made spiral pyrethrum incense that smoldered for 7–8 hours to repel mosquitoes overnight. Kincho launched it in 1902; it became a classic summer repellent worldwide.",
+  "summary_ja": "1895年、日本の上山夫妻が除虫菊の線香を渦巻き状にし、夜間に7〜8時間くすぶり続けて蚊をよける蚊取り線香を作った。1902年に金鳥が発売し、世界で夏の定番の防蚊用品となった。",
   "tags": [
     "household",
     "health"
@@ -81,7 +81,7 @@
   "updated": "2026-11-13",
   "image": {
     "src": "/images/mosquito-coil.jpg",
-    "alt_zh": "正在点燃阴燃并冒着微烟的螺旋形蚊香",
+    "alt_zh": "正在阴燃并冒着微烟的螺旋形蚊香",
     "alt_en": "A burning spiral mosquito coil smoldering with a thin plume of smoke",
     "credit": "مانفی (Manfi)",
     "license": "CC BY-SA 3.0",

@@ -20,13 +20,13 @@
     "mass_production": {
       "year": 1916,
       "precision": "year",
-      "ref": "Hubbell and collaborating electrical manufacturers standardize parallel-blade plugs",
+      "ref": "Hubbell and several electrical manufacturers establish mass-production standards for parallel flat-blade electrical connectors",
       "ref_zh": "哈贝尔与多家电气制造商合作建立双平插平行脚电气接口量产标准"
     },
     "popularization": {
       "year": 1926,
       "precision": "year",
-      "ref": "Albert Büttner patents the Schuko grounded plug and socket system in Lauf an der Pegnitz, Germany",
+      "ref": "Albert Büttner obtains a German patent for the Schuko grounded plug-and-socket system (DE377000), setting a benchmark for modern electrical safety",
       "ref_zh": "阿尔伯特·比特纳在德国取得 Schuko 接地保护插头插座专利（DE377000），确立现代用电安全基准"
     }
   },
@@ -65,8 +65,8 @@
   ],
   "disputed": false,
   "summary_zh": "在 1904 年哈贝尔发明可分离插头前，所有家用电器都必须拧进天花板的灯泡座取电。插头与插座的发明让电力真正安全走入千家万户的墙面。",
-  "summary_en": "Before Harvey Hubbell patented the separable plug in 1904, home appliances had to screw into ceiling light bulb sockets. His design safely routed electricity to walls and floors worldwide.",
-  "summary_ja": "Harvey Hubbell が1904年に分離式プラグを特許化する前、家電は天井の電球ソケットにねじ込む必要があった。彼の設計は電気を壁や床へ安全に引き出した。",
+  "summary_en": "Before Hubbell invented the separable plug in 1904, all home appliances had to screw into ceiling bulb sockets. Plugs and sockets brought safe electrical access to household walls.",
+  "summary_ja": "Hubbell が1904年に分離式プラグを発明する前、すべての家電は天井の電球ソケットにねじ込んで電力を得る必要があった。プラグとコンセントの発明により、家庭の壁から安全に電力を利用できるようになった。",
   "tags": [
     "electric",
     "household"

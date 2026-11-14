@@ -20,13 +20,13 @@
     "mass_production": {
       "year": 1908,
       "precision": "year",
-      "ref": "William H. Hoover bought Spangler's patent and began manufacturing Hoover upright cleaners",
+      "ref": "William Hoover buys Spangler’s patent and establishes a Hoover upright vacuum cleaner production line in Ohio",
       "ref_zh": "威廉·胡佛购入斯潘格勒专利并在俄亥俄州建立 Hoover 直立吸尘器生产线"
     },
     "popularization": {
       "year": 1921,
       "precision": "year",
-      "ref": "Electrolux introduced the Model V cylinder vacuum cleaner with skids for easy home movement",
+      "ref": "Electrolux introduces the Model V cylinder vacuum with skids, pioneering the modern household cylinder vacuum form",
       "ref_zh": "伊莱克斯推出带滑轨的 Model V 卧式机型，开创现代家用卧式吸尘器形态"
     }
   },
@@ -72,8 +72,8 @@
   ],
   "disputed": false,
   "summary_zh": "吸尘器利用电机产生负压气流吸入粉尘杂物。1901 年布斯发明动力抽吸系统后，斯潘格勒与胡佛将之改造成轻便家用机型，成为现代家庭地面清洁的基本工具。",
-  "summary_en": "The vacuum cleaner uses suction to remove dust and debris. Following Booth's 1901 powered cleaner, Spangler and Hoover developed portable electric models that became standard home appliances.",
-  "summary_ja": "掃除機は吸引力でほこりやごみを取り除く。Booth の1901年の動力掃除機に続き、Spangler と Hoover が持ち運べる電動機を作り、家庭の標準的な家電にした。",
+  "summary_en": "Vacuum cleaners use motor-driven suction to collect dust and debris. After Booth’s 1901 powered system, Spangler and Hoover developed portable home models, now basic floor-cleaning tools.",
+  "summary_ja": "掃除機はモーターで負圧の気流を生み、ほこりやごみを吸い込む。1901年に Booth が動力式吸引システムを発明した後、Spangler と Hoover が軽量な家庭用機種に改良し、現代の家庭で床を掃除する基本的な道具となった。",
   "tags": [
     "cleaning",
     "electric",

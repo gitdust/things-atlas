@@ -8,7 +8,7 @@
     "invention": {
       "year": 1882,
       "precision": "year",
-      "ref": "Henry W. Seely invented the electric flatiron in New York City",
+      "ref": "Henry W. Seely invents an electric flatiron with built-in carbon-arc heating in New York City",
       "ref_zh": "亨利·W·西利在纽约发明内置碳弧加热的电平熨斗"
     },
     "patent": {
@@ -26,7 +26,7 @@
     "popularization": {
       "year": 1926,
       "precision": "year",
-      "ref": "Eldec Co. introduced the first commercial electric steam iron, easing fabric care",
+      "ref": "Eldec introduces the first commercial electric steam iron; steam soon becomes widely used for household ironing",
       "ref_zh": "Eldec 公司推出首款商用电蒸汽熨斗，蒸汽功能迅速普及于家用熨烫"
     }
   },
@@ -66,8 +66,8 @@
   ],
   "disputed": false,
   "summary_zh": "电熨斗通过电热元件加热底板并配合压力与蒸汽平整织物。1882年西利发明电平熨斗，告别了传统炭火加热；20世纪温控与蒸汽功能的加入使其成为衣物打理的必备品。",
-  "summary_en": "The electric iron uses heated resistance elements to press clothes. Patented by Henry Seely in 1882, it replaced charcoal-heated irons and later integrated thermostats and steam for fabric care.",
-  "summary_ja": "電気アイロンは抵抗体の熱で衣服を押す。1882年に Henry Seely が特許を得て、炭火アイロンに取って代わり、後に温度調節とスチームを備えた。",
+  "summary_en": "Electric irons use heated soleplates, pressure and steam to smooth fabric. Seely’s 1882 iron replaced charcoal heating; 20th-century thermostats and steam made it a clothing-care essential.",
+  "summary_ja": "電気アイロンは電熱で底面を温め、圧力や蒸気を加えて布のしわを伸ばす。Seely が1882年に電気式を発明し、従来の炭火加熱に代わった。20世紀に温度調節やスチームが加わり、衣類の手入れに欠かせないものとなった。",
   "tags": [
     "clothing",
     "electric",

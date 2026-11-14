@@ -9,7 +9,7 @@
     "patent": {
       "year": 1911,
       "precision": "year",
-      "ref": "Gabriel Kazanjian receives US 994,259 for a hand-manipulated hair drier, filed in 1908; its fan is manually driven",
+      "ref": "Gabriel Kazanjian receives US 994,259 for a handheld hair-drying device, filed in 1908; its fan is manually driven",
       "ref_zh": "加布里埃尔·卡赞坚的手持式干发装置获 US 994,259 专利；1908 年申请，风扇由手动机构驱动"
     },
     "mass_production": null,
@@ -42,10 +42,10 @@
   ],
   "disputed": false,
   "notes": "1911 年指一项具体改良专利的授权，不是所有干发装置或现代电动吹风机的首次发明。该专利的风扇由手动机构驱动；约 1920 年馆藏电吹风的制造地点未据此推定。",
-  "notes_en": "1911 marks a specific improvement patent, not the first drying apparatus or modern motor-driven dryer. Its fan was manually driven; no manufacture location is inferred for the circa-1920 museum object.",
+  "notes_en": "1911 marks a specific improvement patent, not the first hair-drying apparatus or modern motor-driven dryer. Its fan was manually driven; no manufacturing location is inferred for the circa-1920 museum object.",
   "summary_zh": "1911 年卡赞坚获手持式干发装置专利，将加热器与手动风扇结合。科学博物馆另藏约 1920 年的电吹风，呈现干发器具走向电气化的过程。",
-  "summary_en": "Kazanjian patented a hand-manipulated hair drier in 1911, pairing a heater with a manual fan. A circa-1920 electric Halliwell dryer in the Science Museum documents later electrification.",
-  "summary_ja": "Kazanjian は1911年、ヒーターと手動ファンを組んだ手持ちのドライヤーを特許化した。サイエンス・ミュージアム所蔵の1920年頃の電動 Halliwell は、その後の電化を示す。",
+  "summary_en": "Kazanjian patented a handheld hair dryer combining a heater and manual fan in 1911. A circa-1920 electric dryer in the Science Museum shows the shift toward electric hair-drying devices.",
+  "summary_ja": "Kazanjian は1911年、ヒーターと手動ファンを組み合わせた手持ち式ドライヤーの特許を取得した。サイエンス・ミュージアム所蔵の1920年頃の電動ドライヤーは、干髪器具が電動化していく過程を示している。",
   "tags": [
     "grooming",
     "electric"

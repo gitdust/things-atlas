@@ -8,7 +8,7 @@
     "invention": {
       "year": 1294,
       "precision": "year",
-      "ref": "Earliest unambiguous record: gamblers arrested in Yuan China with nine printed cards (1294)",
+      "ref": "Earliest clear record: printed playing cards seized in Yuan China in 1294",
       "ref_zh": "目前最早明确记载：元至元三十一年（1294）查获印制纸牌"
     },
     "patent": null,
@@ -56,7 +56,7 @@
   "notes_en": "Tang “leaf games” are often cited as card origins, but some scholars argue they were dice-and-book-page games rather than paper cards. The earliest unambiguous printed-card record is 1294 in Yuan China. Whether European packs descend directly from China is also debated.",
   "summary_zh": "纸牌很可能起源于中国；唐代叶子戏是否即纸牌仍有争议。目前最早明确记载是1294年元代印刷纸牌案件。",
   "summary_en": "Playing cards likely originated in China. Whether Tang “leaf games” were true cards is disputed; the earliest clear printed-card record is a 1294 Yuan case.",
-  "summary_ja": "トランプは中国に起源がある可能性が高い。唐の「葉子戯」が本当の札だったかは争われ、印刷された札の明確な最古の記録は1294年の元代の事件である。",
+  "summary_ja": "紙の札を使うゲームは中国に起源がある可能性が高い。唐の「葉子戯」が紙の札を使ったものだったかには異論があり、印刷された札の明確な最古の記録は1294年の元代の事件である。",
   "tags": [
     "leisure"
   ],

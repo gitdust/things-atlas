@@ -8,15 +8,15 @@
     "invention": {
       "year": 1897,
       "precision": "year",
-      "ref": "Jan Mikulicz-Radecki in Breslau and Paul Berger in Paris independently introduce gauze face masks in operating rooms",
+      "ref": "Mikulicz in Breslau and Berger in Paris introduce gauze face masks into operating rooms to block droplet infection",
       "ref_zh": "米库利奇与贝格尔分别在布雷斯劳和巴黎将纱布面罩引入手术室以阻断飞沫感染"
     },
     "patent": null,
     "mass_production": {
       "year": 1911,
       "precision": "year",
-      "ref": "Wu Lien-teh designs the multilayer gauze anti-plague mask during the Manchurian Plague, establishing mass production and distribution",
-      "ref_zh": "伍连德在东北大鼠疫中设计双层纱布防菌口罩并组织规模式量产与配发"
+      "ref": "Wu Lien-teh designs a double-layer gauze antibacterial mask during the Manchurian plague and organizes mass production and distribution",
+      "ref_zh": "伍连德在东北大鼠疫中设计双层纱布防菌口罩并组织规模化量产与配发"
     },
     "popularization": {
       "year": 1918,
@@ -75,8 +75,8 @@
   ],
   "disputed": false,
   "summary_zh": "1897 年米库利奇与贝格尔将纱布口罩引入外科手术以防飞沫；1911 年伍连德设计双层防菌口罩抗击东北鼠疫，使之成为大众公共卫生防护的核心装备。",
-  "summary_en": "Introduced in 1897 by Mikulicz and Berger for surgical asepsis, gauze face masks were adapted by Dr. Wu Lien-teh in 1911 during the Manchurian plague into cheap, mass-produced protective coverings.",
-  "summary_ja": "1897年、Mikulicz と Berger が外科の無菌のためガーゼのマスクを導入した。1911年、満州ペストの際に伍連徳が安価で量産できる防護覆いに改めた。",
+  "summary_en": "Mikulicz and Berger introduced gauze surgical masks against droplets in 1897. Wu Lien-teh’s 1911 double-layer anti-plague mask in Manchuria made masks central to public-health protection.",
+  "summary_ja": "1897年、Mikulicz と Berger が飛沫を防ぐためにガーゼのマスクを外科手術に導入した。1911年には伍連徳が中国東北部のペストに対抗して二重の防菌マスクを設計し、一般の人々の公衆衛生上の防護を担う重要な装備となった。",
   "tags": [
     "health"
   ],

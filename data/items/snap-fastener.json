@@ -16,7 +16,7 @@
     "popularization": {
       "year": 1903,
       "precision": "year",
-      "ref": "Prym produces press fasteners",
+      "ref": "Prym begins producing snap fasteners",
       "ref_zh": "普瑞姆（Prym）开始生产按扣"
     }
   },
@@ -60,8 +60,8 @@
   "disputed": true,
   "notes": "发明者存在争议：德国鲍尔 1885 年专利最早，但也有人认为是丹麦的桑德斯；1886 年法国格勒诺布尔的 Raymond 也推出了按扣。德国、丹麦的具体城市未核实，只标到国家。",
   "summary_zh": "1885 年德国人赫里伯特·鲍尔为男裤用的弹簧扣申请专利，这是现代按扣的雏形；也有人归功于丹麦的贝特尔·桑德斯。",
-  "summary_en": "German inventor Heribert Bauer patented a spring fastener for men's trousers in 1885, creating the modern snap; some credit Denmark's Bertel Sanders.",
-  "summary_ja": "ドイツの発明家 Heribert Bauer は1885年、男性用ズボンのばね式留め具を特許化し、現代のスナップを作った。デンマークの Bertel Sanders に帰す説もある。",
+  "summary_en": "German Heribert Bauer applied for a patent on a trouser spring fastener in 1885, a precursor of the modern snap; some credit Denmark’s Bertel Sanders.",
+  "summary_ja": "ドイツ人 Heribert Bauer は1885年、男性用ズボンのばね式留め具の特許を出願した。これが現代のスナップボタンの原型となったが、デンマークの Bertel Sanders を発明者とする説もある。",
   "tags": [
     "fastening",
     "clothing"
@@ -75,5 +75,5 @@
     "license": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Druckknopf.jpg"
   },
-  "notes_en": "Disputed: Bauer's 1885 German patent is earliest, but some credit Denmark's Bertel Sanders, and Raymond of Grenoble introduced a snap in 1886. Cities for Bauer and Sanders are unverified, so they are country-level."
+  "notes_en": "Disputed: Bauer's 1885 German patent is the earliest, but some credit Denmark's Bertel Sanders, and Raymond of Grenoble introduced a snap in 1886. Cities for Bauer and Sanders are unverified, so locations are marked only at the country level."
 }

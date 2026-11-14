@@ -8,7 +8,7 @@
     "invention": {
       "year": -500,
       "precision": "century",
-      "ref": "Conventional date for Roman dipped candles in Smith College’s teaching collection; the wider origin of wicked candles is uncertain",
+      "ref": "Smith College teaching material dates Roman dipped candles to about 500 BCE; the wider origin of candles with wicks remains uncertain",
       "ref_zh": "史密斯学院教学资料以约前500年标示罗马浸制蜡烛；有芯蜡烛的整体起源仍不确定"
     },
     "patent": null,
@@ -71,10 +71,10 @@
   ],
   "disputed": true,
   "notes": "有芯蜡烛、盛油容器和浸脂灯草的边界会影响起源叙述。史密斯学院教学资料把罗马浸制蜡烛标为约前500年，英国遗产机构也以推测措辞归于罗马人；本条采用这一传统性年代作为展示点，不认定罗马是全球唯一发明地，也不把更早的灯草直接等同于蜡烛。13世纪的行会节点不是首次普及的精确年份。",
-  "notes_en": "Accounts differ in how they distinguish wicked candles from oil lamps and fat-soaked rushlights. Smith College labels Roman dipped candles around 500 BCE, while English Heritage presents the Roman attribution cautiously. This conventional date is a display point, not proof of a single global birthplace. The guild milestone represents the 13th century rather than an exact first year of adoption.",
+  "notes_en": "The boundaries between candles with wicks, oil-filled vessels and fat-soaked rushlights affect origin accounts. Smith College teaching material dates Roman dipped candles to around 500 BCE; English Heritage also cautiously attributes them to the Romans. This entry uses that conventional date as a display point, not a claim that Rome was the sole global birthplace or that earlier rushlights were candles. The 13th-century guild milestone is not an exact year of first widespread adoption.",
   "summary_zh": "蜡烛把可燃脂或蜡包在灯芯周围，成为可携带的光源。罗马浸制烛是一条早期传统；到13世纪，英格兰和法国的制烛业已形成行会手艺。",
   "summary_en": "Candles surround a wick with solid fat or wax. Roman dipping is an early tradition; by the 13th century candle-making was a guild craft in England and France.",
-  "summary_ja": "ろうそくは芯を固形の脂や蝋で包む。ローマの浸し作りは早い伝統で、13世紀にはイングランドとフランスでギルドの技になっていた。",
+  "summary_ja": "ろうそくは、芯を固形の脂や蝋で包んだものである。ローマでは早くから浸し掛けによる製法が使われ、13世紀にはイングランドとフランスで、ろうそく作りがギルドの手工業として営まれていた。",
   "tags": [
     "electric",
     "household"

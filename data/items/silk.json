@@ -8,7 +8,7 @@
     "invention": {
       "year": -3500,
       "precision": "century",
-      "ref": "Earliest surviving silk textiles from Qingtai/Wanggou, Henan, ~5300–5500 years ago",
+      "ref": "Silk textiles over five millennia old excavated at Qingtai, Wanggou and other sites in Henan",
       "ref_zh": "河南青台/汪沟等地出土约五千多年前丝绸织物"
     },
     "patent": null,
@@ -61,10 +61,10 @@
   ],
   "disputed": true,
   "notes": "贾湖遗址土壤中检出约8500年前丝蛋白，但并非完整织物；学界对是否等于养蚕织绸仍有分歧。目前较公认的早期实物织物多出自河南青台等地约五千多年前遗存。本条目以织物遗存为主年份，并对更早生化证据保持争议标注。",
-  "notes_en": "Jiahu soil yields ~8500-year-old silk fibroin, but not intact cloth; whether that equals sericulture is debated. Better-accepted early textiles come from Henan sites such as Qingtai around 3500 BCE. This entry prioritizes textile remains and flags the older biomolecular claim as disputed.",
+  "notes_en": "Silk protein dating back about 8500 years has been detected in soil at Jiahu, but not intact textiles; whether it demonstrates sericulture and silk weaving remains debated. More widely accepted early textiles mostly come from remains over five millennia old at Henan sites such as Qingtai. This entry uses textile remains for its primary year and flags the older biochemical evidence as disputed.",
   "summary_zh": "中国很早掌握养蚕织绸；河南等地约公元前3500年已有丝绸织物。更早的贾湖丝蛋白证据是否等于织绸仍有争议。",
-  "summary_en": "China developed sericulture early; surviving silk textiles from Henan date to about 3500 BCE. Older Jiahu silk-protein traces are debated as evidence of true weaving.",
-  "summary_ja": "中国は早くから養蚕を発展させた。河南省に残る絹織物は紀元前3500年頃にさかのぼる。それより古い賈湖の絹タンパク質の痕跡が、本当の織物の証拠かは議論されている。",
+  "summary_en": "China mastered sericulture and silk weaving early; Henan textiles date to about 3500 BCE. Whether older Jiahu silk-protein traces prove weaving remains disputed.",
+  "summary_ja": "中国では早くから養蚕と絹織りの技術が発達し、河南省などでは紀元前3500年頃の絹織物が確認されている。それより古い賈湖の絹タンパク質の痕跡が、絹織りの証拠となるかどうかは議論されている。",
   "tags": [
     "clothing",
     "materials",

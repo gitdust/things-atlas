@@ -21,7 +21,7 @@
     "popularization": {
       "year": -221,
       "precision": "year",
-      "ref": "Qin Dynasty standardizes Chinese currency with circular Ban Liang coins featuring a square hole",
+      "ref": "Qin Shi Huang unifies China and introduces round Ban Liang coins with square holes, establishing a standard that influences East Asia for two millennia",
       "ref_zh": "秦始皇统一中国并颁行秦半两，确立圆形方孔钱规制，深刻影响东亚两千年"
     }
   },
@@ -30,7 +30,7 @@
       "lat": 38.4883,
       "lng": 28.0403,
       "place_label_zh": "土耳其萨尔特（古吕底亚首都萨第斯，西方最早琥珀金币）",
-      "place_label_en": "Sardis, Lydia, modern Turkey (earliest stamped electrum coins)",
+      "place_label_en": "Sart, Turkey (ancient Sardis, capital of Lydia; earliest Western electrum coins)",
       "kind": "invention",
       "confidence": "city"
     },
@@ -67,17 +67,17 @@
   ],
   "disputed": true,
   "notes": "作为国家信用与标准重量保证的金属铸币起源于多中心演化：公元前七至六世纪，小亚细亚吕底亚首创官印冲压琥珀金币，奠定西方打制金银币传统；同期中国中原由贝币演化出空首布等浇铸青铜币，开创东方方孔钱体系。两者工艺与源流独立，具体起源时序与首创权在学界历来并称并存。",
-  "notes_en": "Standardized metal coinage originated independently in multiple ancient centers: in the 7th–6th century BCE, Lydia in Asia Minor created stamped electrum coins that founded the Western struck-coin tradition, while the Central Plains of China developed cast-bronze spade money, founding the East Asian tradition. Their independent chronologies and distinct metallurgy form a widely acknowledged historical divergence.",
+  "notes_en": "State-backed metal coinage of standardized weight developed in multiple centers. In the 7th–6th centuries BCE, Lydia in Asia Minor pioneered officially stamped electrum coins, establishing the Western tradition of struck gold and silver coinage. At the same time, China’s Central Plains developed cast-bronze coins such as hollow-handled spade money from shell currency, beginning the East Asian tradition of square-holed coins. Their techniques and origins were independent; scholarship discusses both traditions when considering chronology and priority.",
   "summary_zh": "约公元前七至六世纪，吕底亚王国首创官印打制琥珀金币，中国中原独立铸造青铜布币；硬币为贸易确立了标准化国家信用与交换尺度。",
-  "summary_en": "Emerging in the 7th–6th centuries BCE via Lydian stamped electrum in Anatolia and bronze spade money in ancient China, coins established standardized state-certified currency for human trade.",
-  "summary_ja": "紀元前7–6世紀、アナトリアのリディアで打刻されたエレクトラムと、古代中国の青銅の布銭を通じて生まれ、国家が保証する標準的な交換手段になった。",
+  "summary_en": "Around the 7th–6th centuries BCE, Lydia pioneered officially stamped electrum coins, while China’s Central Plains independently cast bronze spade money, establishing state-backed standards for trade.",
+  "summary_ja": "紀元前7–6世紀頃、リディア王国が公的な刻印のあるエレクトラム貨を打ち出し、中国の中原では独立して青銅製の布銭が鋳造された。硬貨は、国家の信用に支えられた標準的な価値尺度を交易にもたらした。",
   "tags": [
     "trade"
   ],
   "updated": "2026-11-14",
   "image": {
     "src": "/images/coin.jpg",
-    "alt_zh": "大英博物馆藏公元前约650年吕底亚王国琥珀金铸币",
+    "alt_zh": "英格兰银行博物馆藏公元前约650年吕底亚王国琥珀金铸币",
     "alt_en": "An electrum gold coin from Lydia, circa 650 BCE, in the Bank of England Museum",
     "credit": "Joyofmuseums",
     "license": "CC BY-SA 4.0",

@@ -8,7 +8,7 @@
     "invention": {
       "year": 1815,
       "precision": "year",
-      "ref": "Dr. Levi Spear Parmly in New Orleans introduces silk thread for interdental cleaning",
+      "ref": "New Orleans dentist Levi Spear Parmly advocates unwaxed silk thread to remove debris between teeth, beginning modern flossing",
       "ref_zh": "新奥尔良牙医帕姆利主张用无蜡丝线清除牙缝污垢，开启现代牙线洁齿"
     },
     "patent": {
@@ -26,7 +26,7 @@
     "popularization": {
       "year": 1940,
       "precision": "decade",
-      "ref": "Dr. Charles C. Bass substitutes nylon for silk, dramatically increasing strength and everyday adoption",
+      "ref": "Dr. Bass replaces fragile natural silk with DuPont nylon, helping nylon floss become an everyday household essential worldwide",
       "ref_zh": "巴斯医生用杜邦尼龙替代易断裂的天然蚕丝，推动尼龙牙线成为全球家庭日常必需品"
     }
   },
@@ -65,8 +65,8 @@
   ],
   "disputed": false,
   "summary_zh": "1815 年新奥尔良牙医帕姆利提出用丝线清洁牙缝。1898 年强生将外科缝合线余料制成商品牙线，二战后尼龙的发明让牙线彻底融入日常口腔护理。",
-  "summary_en": "In 1815 New Orleans dentist Levi Spear Parmly recommended silk thread for flossing. Johnson & Johnson patented it in 1898, and post-WWII nylon made dental floss an everyday bathroom staple.",
-  "summary_ja": "1815年、ニューオーリンズの歯科医 Levi Spear Parmly が絹糸での清掃を勧めた。Johnson & Johnson は1898年に特許を得て、第二次世界大戦後のナイロンが日常の浴室用品にした。",
+  "summary_en": "In 1815, New Orleans dentist Parmly proposed silk for interdental cleaning. In 1898, Johnson & Johnson sold floss from leftover suture silk; postwar nylon made flossing routine oral care.",
+  "summary_ja": "1815年、ニューオーリンズの歯科医 Parmly が、絹糸で歯間を清掃することを提案した。1898年、Johnson & Johnson が外科用縫合糸の余りを使って商品としてのデンタルフロスを作り、第二次世界大戦後に登場したナイロンが、日常の口腔ケアへの定着を促した。",
   "tags": [
     "health",
     "grooming"

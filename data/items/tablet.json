@@ -8,7 +8,7 @@
     "invention": {
       "year": 1989,
       "precision": "year",
-      "ref": "GRiDPad introduces an early commercial pen-operated tablet",
+      "ref": "GRiDPad is introduced as an early commercial pen-operated tablet",
       "ref_zh": "GRiDPad 推出早期商用笔操作平板电脑"
     },
     "patent": null,
@@ -82,15 +82,15 @@
   ],
   "disputed": true,
   "summary_zh": "平板电脑有漫长的笔计算先驱史：1989 年 GRiDPad 是早期商用代表，2002 年微软推动 Tablet PC 规范，2010 年 iPad 则将触控平板带入大众市场。",
-  "summary_en": "Tablets have a long pen-computing ancestry: the 1989 GRiDPad was an early commercial model, Microsoft promoted Tablet PCs in 2002, and the 2010 iPad brought touch tablets to a mass market.",
-  "summary_ja": "タブレットにはペン入力の長い前史がある。1989年のGRiDPadは早い市販機で、マイクロソフトは2002年にタブレットPCを推進し、2010年のiPadがタッチ式を大衆市場へ広げた。",
+  "summary_en": "Tablets have a long pen-computing ancestry: GRiDPad was an early commercial model in 1989; Microsoft promoted Tablet PC specs in 2002, and iPad brought touch tablets to the mass market in 2010.",
+  "summary_ja": "タブレットにはペン入力機器の長い前史がある。1989年のGRiDPadは初期の市販モデルであり、マイクロソフトは2002年にTablet PCの仕様を推進した。2010年のiPadは、タッチ操作のタブレットを大衆市場へ広めた。",
   "tags": [
     "computing",
     "media"
   ],
   "updated": "2026-11-02",
   "notes": "平板电脑并非由 iPad 单独发明，其祖先包括更早的笔输入设备、研究原型与便携计算构想。1989 年 GRiDPad 代表早期商用笔平板，2002 年微软 Tablet PC 是另一条重要路线；本条以 2010 年 iPad 的大众普及为主年份，不把商业成功等同于最早发明。",
-  "notes_en": "The iPad did not invent the tablet alone: earlier pen-input devices, research prototypes and portable-computing concepts form its ancestry. The 1989 GRiDPad represents early commercial pen tablets, while Microsoft’s 2002 Tablet PC was another important approach. This entry uses the iPad’s 2010 popularization as its primary year, rather than equating commercial success with first invention.",
+  "notes_en": "The iPad was not the first tablet: earlier pen-input devices, research prototypes and portable-computing concepts form its ancestry. The 1989 GRiDPad represents early commercial pen tablets, while Microsoft’s 2002 Tablet PC was another important approach. This entry uses the iPad’s 2010 popularization as its primary year, rather than equating commercial success with first invention.",
   "primary": "popularization",
   "image": {
     "src": "/images/tablet.jpg",

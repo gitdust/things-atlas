@@ -97,14 +97,14 @@
   ],
   "disputed": true,
   "summary_zh": "1926 年贝尔德在伦敦演示机械电视；1936 年 BBC 从亚历山德拉宫开播定期电视服务，1939 年 RCA 借纽约世界博览会推广电视。机械与电子路线使「发明」归属存在争议。",
-  "summary_en": "Baird demonstrated mechanical TV in London in 1926; BBC service began in 1936 and RCA promoted TV at the 1939 New York fair. Mechanical and electronic systems complicate priority.",
-  "summary_ja": "ベアードは1926年にロンドンで機械式テレビを公開した。BBCの放送は1936年に始まり、RCAは1939年のニューヨーク万博でテレビを宣伝した。機械式と電子式が優先権を複雑にする。",
+  "summary_en": "Baird showed mechanical TV in London in 1926; BBC began regular TV at Alexandra Palace in 1936; RCA promoted it at the 1939 New York fair. Mechanical and electronic paths leave invention disputed.",
+  "summary_ja": "ベアードは1926年にロンドンで機械式テレビを実演した。BBCは1936年にアレクサンドラ・パレスから定期テレビ放送を始め、RCAは1939年のニューヨーク万博でテレビを宣伝した。機械式と電子式という異なる技術のため、発明者については議論がある。",
   "tags": [
     "media"
   ],
   "updated": "2026-11-02",
   "notes": "贝尔德于 1926 年展示的是机械扫描电视；法恩斯沃思于 1927 年在旧金山实现电子电视图像，两者属于不同技术路线。这里以公开机械电视演示为发明节点，1936 年标记定期广播服务，1939 年标记展会推广，并不表示当时已普及到多数家庭。",
-  "notes_en": "Baird demonstrated mechanical scanning in 1926; Farnsworth transmitted an electronic image in San Francisco in 1927. Priority depends on the technology. The 1936 mark denotes regular broadcasting and 1939 fair promotion, not household saturation.",
+  "notes_en": "Baird demonstrated mechanically scanned television in 1926; Farnsworth produced electronic television images in San Francisco in 1927. These are different technical approaches. This entry uses the public mechanical-TV demonstration as the invention milestone, 1936 for regular broadcasting and 1939 for fair promotion; these do not mean TV had reached most households.",
   "image": {
     "src": "/images/television.jpg",
     "alt_zh": "一台 1990 年代的 CRT 电视机",

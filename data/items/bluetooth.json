@@ -58,8 +58,8 @@
   ],
   "disputed": false,
   "summary_zh": "1994 年爱立信工程师在瑞典隆德发明蓝牙短距无线通信，以跳频技术摆脱线缆束缚；1998 年成立行业联盟，成为全球移动设备的标准无线连接。",
-  "summary_en": "Invented in 1994 by Jaap Haartsen and Sven Mattisson at Ericsson in Lund, Sweden, Bluetooth replaced cables with short-range radio, becoming a universal wireless standard.",
-  "summary_ja": "1994年、スウェーデンのルンドにあるエリクソンで Jaap Haartsen と Sven Mattisson が発明した。近距離無線でケーブルを置き換え、汎用の無線規格になった。",
+  "summary_en": "Ericsson engineers invented Bluetooth in Lund, Sweden, in 1994, using short-range frequency-hopping radio to replace cables. A 1998 industry alliance helped make it a global mobile-device standard.",
+  "summary_ja": "1994年、スウェーデンのルンドでエリクソンの技術者が近距離無線通信の Bluetooth を発明し、周波数ホッピング技術によってケーブルを不要にした。1998年に業界団体が設立され、世界のモバイル機器で標準的な無線接続となった。",
   "tags": [
     "computing",
     "media"

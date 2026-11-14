@@ -42,8 +42,8 @@
   "disputed": true,
   "notes": "年份有分歧：维基百科写作 1880 年，其他资料常写 1892 年，因此精度只标到十年。牙膏本身比软管古老得多。",
   "summary_zh": "19 世纪 80 至 90 年代，康涅狄格州牙医华盛顿·谢菲尔德把牙膏装进可挤压的金属软管；1896 年高露洁跟进。",
-  "summary_en": "In the 1880s–90s, Connecticut dentist Washington Sheffield put toothpaste into a collapsible tube; Colgate followed in 1896.",
-  "summary_ja": "1880–90年代、コネチカットの歯科医 Washington Sheffield が歯磨き粉を押し出し式のチューブに入れた。コルゲートは1896年に続いた。",
+  "summary_en": "In the 1880s–90s, Connecticut dentist Washington Sheffield put toothpaste into squeezable metal tubes; Colgate followed in 1896.",
+  "summary_ja": "1880–90年代、コネチカットの歯科医 Washington Sheffield が歯磨き粉を押し出せる金属製チューブに入れた。コルゲートは1896年に続いた。",
   "tags": [
     "storage",
     "cleaning",
@@ -53,7 +53,7 @@
   "image": {
     "src": "/images/toothpaste-tube.jpg",
     "alt_zh": "浴室柜里的两支儿童牙膏",
-    "alt_en": "Two toothpaste tubes in a bathroom cabinet",
+    "alt_en": "Two tubes of children’s toothpaste in a bathroom cabinet",
     "credit": "Thomas Angermann",
     "license": "CC BY-SA 2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Zendium_toothpaste_tubes.jpg"

@@ -8,7 +8,7 @@
     "invention": {
       "year": 1952,
       "precision": "year",
-      "ref": "Sidney Rosenthal in Richmond Hill, New York invents the 'Magic Marker', a wool-felt wick pen writing on all surfaces",
+      "ref": "Sidney Rosenthal in Richmond Hill, New York invents the Magic Marker with a felt capillary-wick tip, able to write on nearly all surfaces, including paper, metal and glass",
       "ref_zh": "纽约里士满山的西德尼·罗森塔尔发明毛毡毛细吸管笔头 Magic Marker，可在纸张、金属与玻璃等几乎所有材质表面书写"
     },
     "patent": {
@@ -26,7 +26,7 @@
     "popularization": {
       "year": 1962,
       "precision": "year",
-      "ref": "Yukio Horie of Tokyo Stationery Company (Pentel) invents the modern acrylic fiber-tip Sign Pen, Tokyo, Japan",
+      "ref": "Yukio Horie of Tokyo Stationery Company (Pentel) invents the modern synthetic acrylic-fiber-tip Sign Pen, which rapidly spreads to offices and studios worldwide",
       "ref_zh": "日本东京文具公司（派通 Pentel）的堀江幸夫发明现代合成腈纶纤维笔尖签名笔（Sign Pen），迅速风靡全球办公室与画室"
     }
   },
@@ -65,8 +65,8 @@
   ],
   "disputed": false,
   "summary_zh": "1952 年纽约罗森塔尔发明毛毡头 Magic Marker；1962 年日本东京文具的堀江幸夫研制出现代合成纤维签名笔（Pentel），随后荧光笔与白板笔风靡全球。",
-  "summary_en": "In 1952 Sidney Rosenthal developed the felt-tip Magic Marker in New York. Yukio Horie's 1962 acrylic fiber-tip Sign Pen in Tokyo popularized the modern marker for office and art worldwide.",
-  "summary_ja": "1952年、Sidney Rosenthal がニューヨークでフェルト芯の Magic Marker を開発した。堀江幸夫の1962年のアクリル繊維芯サインペンが、事務と画材の現代的なマーカーを広めた。",
+  "summary_en": "Rosenthal invented the felt-tip Magic Marker in New York in 1952; Yukio Horie at Tokyo Stationery developed Pentel’s synthetic-fiber Sign Pen in 1962. Highlighters and whiteboard markers later spread.",
+  "summary_ja": "1952年、ニューヨークで Rosenthal がフェルト芯の Magic Marker を発明した。1962年には東京文具（Pentel）の堀江幸夫が合成繊維芯のサインペンを開発し、その後、蛍光ペンやホワイトボード用マーカーが世界に広まった。",
   "tags": [
     "writing",
     "office"

@@ -14,7 +14,7 @@
     "patent": {
       "year": 1790,
       "precision": "year",
-      "ref": "Harvey Kennedy patents the aglet-tipped shoelace in the UK",
+      "ref": "Harvey Kennedy applies for a UK patent for metal-tipped shoelaces",
       "ref_zh": "肯尼迪在英国为带金属头的鞋带申请专利"
     },
     "mass_production": null,
@@ -50,8 +50,8 @@
   "disputed": true,
   "notes": "更早的「鞋带」见于亚美尼亚 Areni-1 皮鞋（约前 3500 年）和冰人奥茨的鞋（约前 3300 年），早于本站年份范围；本条目以伦敦博物馆记录的 12 世纪鞋带作为现代意义鞋带的起点。",
   "summary_zh": "12 世纪的中世纪鞋已用鞋带穿过鞋眼系紧；1790 年哈维·肯尼迪在英国为两端带硬头的鞋带申请了专利。",
-  "summary_en": "Medieval shoes from the 12th century were already laced through eyelets; in 1790 Harvey Kennedy patented aglet-tipped shoelaces in the UK.",
-  "summary_ja": "12世紀の中世の靴は、すでに鳩目へひもを通していた。1790年、Harvey Kennedy が英国でアグレット付きの靴ひもを特許化した。",
+  "summary_en": "Medieval shoes were already tied with laces through eyelets in the 12th century; Harvey Kennedy applied for a UK patent for hard-tipped shoelaces in 1790.",
+  "summary_ja": "12世紀の中世の靴では、すでに靴ひもを靴の穴に通して締めていた。1790年、Harvey Kennedy が英国で両端に硬い覆いの付いた靴ひもの特許を出願した。",
   "tags": [
     "fastening",
     "clothing"
@@ -65,5 +65,5 @@
     "license": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Shoelaces_20050719_001.jpg"
   },
-  "notes_en": "Earlier laces appear on the Areni-1 shoe (c. 3500 BCE) and Ötzi's shoes (c. 3300 BCE), both before this atlas's year range. This entry starts with 12th-century laced shoes documented by the Museum of London."
+  "notes_en": "Earlier laces are found on the Areni-1 leather shoe in Armenia (c. 3500 BCE) and Ötzi’s shoes (c. 3300 BCE), before this atlas’s year range. This entry uses 12th-century laced shoes documented by the Museum of London as the starting point for shoelaces in the modern sense."
 }

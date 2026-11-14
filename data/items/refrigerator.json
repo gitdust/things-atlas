@@ -20,13 +20,13 @@
     "mass_production": {
       "year": 1913,
       "precision": "year",
-      "ref": "Fred W. Wolf Jr. introduced the DOMELRE (Domestic Electric Refrigerator) in Chicago",
+      "ref": "Wolf introduces DOMELRE, the first integrated domestic electric refrigeration unit, in Chicago",
       "ref_zh": "沃尔夫在芝加哥推出首个一体化家用电机组 DOMELRE"
     },
     "popularization": {
       "year": 1927,
       "precision": "year",
-      "ref": "General Electric introduced the Monitor-Top refrigerator, popularizing hermetic home refrigeration",
+      "ref": "General Electric introduces the Monitor-Top refrigerator with a top-mounted sealed compressor, promoting household adoption",
       "ref_zh": "通用电气推出顶部密封压缩机 Monitor-Top 冰箱，推动家用普及"
     }
   },
@@ -66,8 +66,8 @@
   ],
   "disputed": false,
   "summary_zh": "冰箱通过人工制冷保持低温以储藏食品。19世纪确立蒸气压缩循环后，20世纪初走向家庭化，通用电气1927年推出的密闭压缩机机型带动了现代家用冰箱的普及。",
-  "summary_en": "The refrigerator preserves food by artificial cooling. Following 19th-century vapor-compression systems, General Electric's 1927 Monitor-Top popularized sealed home refrigeration.",
-  "summary_ja": "冷蔵庫は人工的な冷却で食品を保存する。19世紀の蒸気圧縮方式に続き、ゼネラル・エレクトリックの1927年のモニタートップが密閉型の家庭用冷蔵を広めた。",
+  "summary_en": "Refrigerators keep food cold through artificial cooling. Vapor compression emerged in the 1800s; home use began in the early 1900s. GE’s sealed-compressor model of 1927 boosted domestic adoption.",
+  "summary_ja": "冷蔵庫は人工的な冷却で低温を保ち、食品を保存する。19世紀に蒸気圧縮サイクルが確立し、20世紀初頭には家庭向けに発展した。1927年にゼネラル・エレクトリックが発売した密閉型圧縮機を備えたモデルが、現代の家庭用冷蔵庫の普及を促した。",
   "tags": [
     "storage",
     "electric",
@@ -77,7 +77,7 @@
   "image": {
     "src": "/images/refrigerator.jpg",
     "alt_zh": "一台现代白色家用双门电冰箱",
-    "alt_en": "A modern white household refrigerator",
+    "alt_en": "A modern white two-door household refrigerator",
     "credit": "Kskhh",
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:A_Samsung_Refrigerator.jpg"

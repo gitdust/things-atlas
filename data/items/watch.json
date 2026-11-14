@@ -8,25 +8,25 @@
     "invention": {
       "year": 1868,
       "precision": "year",
-      "ref": "Patek Philippe in Geneva crafts the first Swiss wristwatch for Countess Koscowicz of Hungary",
+      "ref": "Patek Philippe in Geneva makes the earliest known Swiss mechanical wristwatch for Hungary’s Countess Koscowicz, moving timekeeping from pocket to wrist",
       "ref_zh": "百达翡丽在日内瓦为匈牙利科斯科维奇伯爵夫人制造出已知首只瑞士机械腕表（钟表从怀中走向手腕）"
     },
     "patent": {
       "year": 1904,
       "precision": "year",
-      "ref": "Louis Cartier designs the Santos wristwatch in Paris for aviator Alberto Santos-Dumont, the first practical men's pilot watch",
+      "ref": "Louis Cartier designs the square-bezel, leather-strapped Santos in Paris for aviation pioneer Santos-Dumont, pioneering the modern practical men’s wristwatch",
       "ref_zh": "路易·卡地亚在巴黎为飞行先驱杜蒙设计方形表圈皮革表带的“山度士”（Santos），开创现代实用男士腕表"
     },
     "mass_production": {
       "year": 1914,
       "precision": "year",
-      "ref": "World War I trench warfare prompts mass-produced 'trench watches' with wire lugs and luminous dials, supplanting pocket watches",
+      "ref": "WWI prompts trench watches with shatter-resistant crystals and luminous hands; soldiers on the muddy Western Front popularize wristwear, breaking with pocket-watch tradition",
       "ref_zh": "一战爆发催生配有防碎表镜与夜光指针的“战壕表”，士兵在西线泥泞中普及腕戴，彻底打破怀表传统"
     },
     "popularization": {
       "year": 1969,
       "precision": "exact",
-      "ref": "Seiko launches the Quartz Astron 35SQ in Tokyo, triggering the Quartz Revolution and universalizing precise timekeeping",
+      "ref": "Seiko launches the world’s first quartz wristwatch, Astron, in Tokyo, triggering the Quartz Revolution, reducing costs and bringing watches to the masses",
       "ref_zh": "精工在东京推出世界上第一只石英腕表 Astron，引发全球“石英革命”，大幅降低成本并使其普及至大众"
     }
   },
@@ -60,7 +60,7 @@
       "lat": 35.681,
       "lng": 139.767,
       "place_label_zh": "日本东京（精工石英革命）",
-      "place_label_en": "Tokyo, Japan (Seiko Quartz Astron)",
+      "place_label_en": "Tokyo, Japan (Seiko’s Quartz Revolution)",
       "kind": "popularization",
       "confidence": "city"
     }
@@ -94,8 +94,8 @@
   ],
   "disputed": false,
   "summary_zh": "1868 年百达翡丽制造首只腕表，1904 年卡地亚打造首款男士飞行腕表；一战战壕使腕上读时普及，其后历经石英革命与现代智能跃迁，成为全球手腕上的永恒标配。",
-  "summary_en": "From Patek Philippe's 1868 piece and Cartier's 1904 Santos to WWI trench watches and 1969 Seiko quartz precision, the wristwatch replaced pocket watches as humanity's essential wrist-worn companion.",
-  "summary_ja": "パテック フィリップの1868年の作品とカルティエの1904年のサントスから、第一次世界大戦のトレンチウォッチ、1969年のセイコーのクォーツ精度まで、腕時計は懐中時計に代わる手首の道具になった。",
+  "summary_en": "Patek Philippe’s first wristwatch came in 1868, Cartier’s first men’s pilot watch in 1904. WWI trenches spread wrist timekeeping; quartz and smart technology made watches a global staple.",
+  "summary_ja": "1868年にパテック フィリップが最初の腕時計を、1904年にカルティエが最初の男性用飛行腕時計を製作した。第一次世界大戦の塹壕で腕の時計を見る習慣が普及し、その後のクォーツ革命やスマート化を経て、世界の手首の定番となった。",
   "tags": [
     "clothing",
     "materials"

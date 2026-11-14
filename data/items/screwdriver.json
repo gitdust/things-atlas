@@ -20,7 +20,7 @@
       "lat": 47.82,
       "lng": 9.79,
       "place_label_zh": "德国沃尔夫埃格（《家书》收藏地）",
-      "place_label_en": "Wolfegg, Germany (Housebook)",
+      "place_label_en": "Wolfegg, Germany (where the Housebook is kept)",
       "kind": "invention",
       "confidence": "region"
     }
@@ -37,7 +37,7 @@
   "disputed": false,
   "notes": "具体发明地点在德国还是法国并不确定，这里标在《家书》收藏地沃尔夫埃格，精度为地区。",
   "summary_zh": "螺丝刀大约在 15 世纪末的德国或法国出现，最早的记录见于 1475–1490 年间的《沃尔夫埃格城堡家书》。",
-  "summary_en": "The screwdriver probably arose in late-15th-century Germany or France; its first record is the Housebook of Wolfegg Castle, written 1475–1490.",
+  "summary_en": "The screwdriver probably arose in late-15th-century Germany or France; its first record is in the Housebook of Wolfegg Castle, written between 1475 and 1490.",
   "summary_ja": "ドライバーは15世紀末のドイツかフランスで生まれたと考えられる。最初の記録は、1475–1490年に書かれたヴォルフェック城のハウスブックである。",
   "tags": [
     "repair"
@@ -51,5 +51,5 @@
     "license": "CC BY 2.5",
     "source_url": "https://commons.wikimedia.org/wiki/File:Screw_Driver_display.jpg"
   },
-  "notes_en": "Whether it began in Germany or France is uncertain; the pin marks Wolfegg, where the Housebook is kept, at region precision."
+  "notes_en": "Whether it originated in Germany or France is uncertain; the pin marks Wolfegg, where the Housebook is kept, with regional precision."
 }

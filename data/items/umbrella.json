@@ -8,7 +8,7 @@
     "invention": {
       "year": -210,
       "precision": "century",
-      "ref": "Qin Shi Huang's Mausoleum Bronze Chariot No. 1 features a bronze umbrella with mechanical locking joints and tilt adjustments",
+      "ref": "Bronze Chariot No. 1 from Qin Shi Huang’s mausoleum has a large round bronze umbrella with precise gear locks and multi-angle pivots, the earliest known surviving mechanically structured umbrella",
       "ref_zh": "秦始皇陵一号铜车马出土大型青铜圆伞，装配有精密齿轮锁扣与多角度转动机构，为已知最早机械结构伞具实物"
     },
     "patent": {
@@ -20,13 +20,13 @@
     "mass_production": {
       "year": 1786,
       "precision": "decade",
-      "ref": "Jonas Hanway in London popularizes umbrellas for rain protection, prompting commercial workshops to scale production",
+      "ref": "Jonas Hanway popularizes umbrellas for everyday rain protection in London, prompting workshops in Britain and France to scale up production",
       "ref_zh": "乔纳斯·汉威在伦敦推动雨伞作为日常防雨工具普及，促使英法工坊开始规模化量产"
     },
     "popularization": {
       "year": 1928,
       "precision": "exact",
-      "ref": "Hans Haupt in Germany patents the compact telescopic pocket umbrella (Knirps), popularizing folding rainwear worldwide",
+      "ref": "Hans Haupt in Germany patents the compact telescopic pocket umbrella (Knirps), popularizing folding umbrellas worldwide",
       "ref_zh": "汉斯·霍普特在德国取得袖珍伸缩折叠伞专利（Knirps），开创全球便携折叠伞普及时代"
     }
   },
@@ -94,8 +94,8 @@
   ],
   "disputed": false,
   "summary_zh": "从周代仪仗与秦陵铜车马精密的机械机关伞，到 1852 年英国福克斯发明轻量槽形钢骨，再到 1928 年德国伸缩折叠伞，伞历经数千年演变，成为全球遮阳避雨的随身必备。",
-  "summary_en": "From Qin chariot bronze umbrellas with mechanical joints to Samuel Fox's 1852 steel frame and 1928 Knirps pocket models, the umbrella evolved into an essential everyday shelter worldwide.",
-  "summary_ja": "機械関節のある秦の車の青銅の傘から、1852年の Samuel Fox の鋼骨、1928年のクニルプスの折りたたみまで、傘は日常の雨よけへ発展した。",
+  "summary_en": "Umbrellas evolved from Zhou ceremonial and Qin chariot canopies to Fox’s light grooved steel ribs in Britain in 1852 and German folding models in 1928, becoming everyday sun and rain protection.",
+  "summary_ja": "周代の儀礼用の傘や秦の銅車馬の精巧な機械式の傘から、1852年に英国の Fox が発明した軽量の溝付き鋼製骨、1928年のドイツの伸縮式折りたたみ傘へと、数千年かけて進化し、世界で日よけと雨よけの必需品となった。",
   "tags": [
     "travel",
     "health",

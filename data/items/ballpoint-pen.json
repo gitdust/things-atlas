@@ -26,7 +26,7 @@
     "popularization": {
       "year": 1950,
       "precision": "decade",
-      "ref": "Bic Cristal",
+      "ref": "Bic Cristal becomes widely used",
       "ref_zh": "Bic Cristal 普及"
     }
   },
@@ -118,8 +118,8 @@
   "disputed": true,
   "notes": "两种起源说法并存：一说是约翰·劳德（John J. Loud）1888 年的美国专利 US 392,046，但他的滚珠笔只能在皮革等粗糙表面做标记，从未量产；另一说是拉斯洛·比罗（László Bíró）1938 年在布达佩斯的设计（匈牙利优先权 1938-04-25），1939 年获英法专利，1943 年在布宜诺斯艾利斯申请美国专利，才是可日常书写的实用圆珠笔。流传的「1931 年原型」一说没有找到一手出处，未采用。",
   "summary_zh": "实用圆珠笔多归于比罗（1938 年），但劳德早在 1888 年就有滚珠笔专利，故标为争议；1945 年纽约量产，1950 年代由 Bic 普及。",
-  "summary_en": "Practical ballpoints are credited to Bíró (1938), though Loud patented a marker in 1888. Mass-produced in New York in 1945, the ballpoint was popularized worldwide by Bic in the 1950s.",
-  "summary_ja": "実用的なボールペンは Bíró（1938年）に帰されるが、Loud は1888年にマーカーを特許化した。1945年にニューヨークで量産され、1950年代に Bic が世界へ広めた。",
+  "summary_en": "Practical ballpoints are credited to Bíró (1938), but Loud’s 1888 ball-tip patent makes the origin disputed. New York mass production began in 1945; Bic popularized them in the 1950s.",
+  "summary_ja": "実用的なボールペンは一般に Bíró（1938年）の発明とされるが、Loud が1888年にすでにボール式のペンの特許を取得していたため、起源には異説がある。1945年にニューヨークで量産され、1950年代に Bic が普及させた。",
   "tags": [
     "office",
     "writing"
@@ -133,5 +133,5 @@
     "license": "CC BY-SA 2.5",
     "source_url": "https://commons.wikimedia.org/wiki/File:Macro_Biro_writing2.jpg"
   },
-  "notes_en": "Two origin stories compete. John J. Loud’s US 392,046 (1888) described a ball-tip pen that only marked rough surfaces such as leather and was never mass-produced. László Bíró’s 1938 Budapest design (Hungarian priority 25 April 1938), patented in Britain and France in 1939 and in the US from Buenos Aires in 1943, became the practical everyday ballpoint. A claimed 1931 prototype has no primary source and is not used here."
+  "notes_en": "Two origin accounts coexist. John J. Loud’s US 392,046 (1888) describes a ball-tip pen that could only mark rough surfaces such as leather and was never mass-produced. László Bíró’s 1938 Budapest design (Hungarian priority 25 April 1938), patented in Britain and France in 1939 and submitted for a US patent from Buenos Aires in 1943, was the practical everyday ballpoint. No primary source was found for the claimed 1931 prototype, so it is not used here."
 }

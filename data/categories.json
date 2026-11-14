@@ -10,7 +10,7 @@
     {
       "id": "apparel_accessory",
       "name_zh": "服饰配件",
-      "name_en": "Apparel",
+      "name_en": "Clothing & accessories",
       "name_es": "Ropa y accesorios",
       "name_ja": "服飾小物"
     },
@@ -19,7 +19,7 @@
       "name_zh": "手持工具",
       "name_en": "Hand tools",
       "name_es": "Herramientas de mano",
-      "name_ja": "手持ち道具"
+      "name_ja": "手工具"
     },
     {
       "id": "home",
@@ -33,7 +33,7 @@
       "name_zh": "个护",
       "name_en": "Personal care",
       "name_es": "Cuidado personal",
-      "name_ja": "身だしなみ"
+      "name_ja": "パーソナルケア"
     },
     {
       "id": "digital",

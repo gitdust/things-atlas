@@ -26,7 +26,7 @@
     "popularization": {
       "year": 1888,
       "precision": "year",
-      "ref": "John Boyd Dunlop patented the pneumatic tire, sparking the 1890s global bicycle craze",
+      "ref": "Dunlop’s pneumatic tires enter use, sparking the global bicycle boom of the 1890s",
       "ref_zh": "邓禄普充气轮胎投入使用并引发1890年代全球自行车普及狂潮"
     }
   },
@@ -72,8 +72,8 @@
   ],
   "disputed": false,
   "summary_zh": "自行车是人力驱动的双轮轻便代步工具。1817年德莱斯发明双轮滑跑车，1885年斯塔利罗孚安全自行车确立链传动菱形车架，充气轮胎的加入使其成为全球最普及的个人交通工具。",
-  "summary_en": "The bicycle is a human-powered two-wheeled vehicle. Evolving from Drais's 1817 balance bicycle to Starley's 1885 Rover and pneumatic tires, it became an everyday worldwide vehicle.",
-  "summary_ja": "自転車は人力の二輪車である。1817年のドライスの二輪車から、1885年のスターリーのローバーと空気入りタイヤへと発展し、世界の日常の乗り物になった。",
+  "summary_en": "From Drais’s 1817 two-wheel runner to Starley’s 1885 chain-driven diamond-frame Rover, the human-powered bicycle gained pneumatic tires and became the world’s most widespread personal transport.",
+  "summary_ja": "自転車は人力で走る軽便な二輪の移動手段である。1817年にドライスが二輪の足蹴り式車両を発明し、1885年にはスターリーのローバー安全自転車がチェーン駆動とダイヤモンド形フレームを確立した。空気入りタイヤが加わり、世界で最も普及した個人の移動手段になった。",
   "tags": [
     "travel",
     "leisure"

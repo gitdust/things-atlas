@@ -69,10 +69,10 @@
   ],
   "disputed": false,
   "notes": "中国印刷先有唐代雕版（约七世纪成熟，敦煌 868 年《金刚经》为存世最早完整印本），北宋布衣毕昇再于庆历年间发明胶泥活字。因汉字字数庞大，雕版在中国长期仍占主流；本条以四大发明常举的毕昇活字为年表主年，雕版记入普及年与地点。",
-  "notes_en": "Woodblock printing matured in Tang China (the 868 CE Dunhuang Diamond Sutra is the earliest complete dated printed book). Bi Sheng then invented clay movable type in the Qingli era (1041–1048). Because Chinese needs thousands of characters, woodblock remained dominant for centuries; this entry takes Bi Sheng’s movable type as the atlas primary year (as in many “Four Great Inventions” lists) and records Tang woodblock under popularization.",
+  "notes_en": "Woodblock printing matured in Tang China (the 868 CE Dunhuang Diamond Sutra is the earliest complete dated printed book). Bi Sheng then invented clay movable type in the Qingli era (1041–1048). Because Chinese uses thousands of characters, woodblock printing remained dominant for centuries; this entry uses the year of Bi Sheng’s movable type as its primary year (as in many “Four Great Inventions” lists) and records Tang woodblock printing under popularization.",
   "summary_zh": "北宋毕昇约 1045 年发明胶泥活字；此前唐代雕版已普及（敦煌 868 年《金刚经》）。本条以活字为年表主年。",
-  "summary_en": "Bi Sheng invented clay movable type around 1045 CE in Northern Song China. Tang woodblock printing came earlier (Dunhuang Diamond Sutra, 868). This entry’s primary year is Bi Sheng’s movable type.",
-  "summary_ja": "畢昇は北宋で1045年頃、膠泥の活字を発明した。唐の木版印刷はそれ以前にあり、敦煌の『金剛経』（868年）が残る。この項目の代表年は畢昇の活字である。",
+  "summary_en": "Bi Sheng invented clay movable type around 1045 in Northern Song China. Tang woodblock printing was already widespread (Dunhuang Diamond Sutra, 868). Movable type supplies this entry’s primary year.",
+  "summary_ja": "北宋の畢昇は1045年頃、粘土製の活字を発明した。それ以前に唐の木版印刷はすでに普及しており、敦煌の『金剛経』（868年）が残る。この項目では活字の発明年を年表の代表年としている。",
   "tags": [
     "office",
     "writing"

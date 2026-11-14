@@ -20,13 +20,13 @@
     "mass_production": {
       "year": 1886,
       "precision": "year",
-      "ref": "Crocker & Curtis Electric Motor Company produced electric fans commercially",
+      "ref": "Crocker & Curtis Electric Motor Company begins commercial mass production of electric fans in New York",
       "ref_zh": "克罗克-柯蒂斯电机公司在纽约实现电风扇商业化批量生产"
     },
     "popularization": {
       "year": 1910,
       "precision": "year",
-      "ref": "Oscillating and guarded brass/steel fans were widely adopted in offices and households",
+      "ref": "Fans with guards and oscillating mechanisms become widespread in European and American homes and offices",
       "ref_zh": "带防护罩和摇头功能的电风扇在欧美家庭与办公室广泛普及"
     }
   },
@@ -58,8 +58,8 @@
   ],
   "disputed": false,
   "summary_zh": "电风扇利用电动机驱动叶片旋转加速空气流动以实现散热降温。1882年惠勒发明电动台扇，随着防护网罩与自动摇头机构的完善，成为夏季最普惠简便的居家用具。",
-  "summary_en": "The electric fan circulates air using an electric motor. Invented by Schuyler Wheeler in 1882, desk fans added oscillating mechanisms and protective cages to become a staple domestic cooling device.",
-  "summary_ja": "扇風機は電動機で空気を送る。1882年に Schuyler Wheeler が発明し、首振り機構と保護網を備えた卓上扇が家庭の冷房器具になった。",
+  "summary_en": "Electric fans use motor-driven blades to move cooling air. Wheeler invented the desk fan in 1882; guards and oscillation later made it an affordable, simple household cooling staple.",
+  "summary_ja": "扇風機は電動機で羽根を回して空気を送る。1882年に Schuyler Wheeler が卓上扇風機を発明し、後に首振り機構や保護網が加わって、家庭で涼をとるための定番の道具になった。",
   "tags": [
     "electric",
     "household"
