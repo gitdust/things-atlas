@@ -182,23 +182,34 @@ export function MapView({
       setStatus('error');
       return;
     }
-    let timeout: ReturnType<typeof setTimeout>;
-    const markLoading = () => {
-      setStatus((current) => (current === 'error' ? current : 'loading'));
-      clearTimeout(timeout);
-      timeout = setTimeout(() => setStatus('error'), 20000);
-    };
-    map.on('dataloading', markLoading);
-    map.on('idle', () => {
+    const failedSources = new Set<string>();
+    const timeout = setTimeout(() => setStatus('error'), 20000);
+    const markReady = () => {
+      if (failedSources.size) return;
       clearTimeout(timeout);
       setFirstPaint(true);
-      setStatus((current) => (current === 'error' ? current : 'ready'));
+      setStatus('ready');
+    };
+    // `idle` also waits for camera motion and our animated GeoJSON sources.
+    // Initial readiness must use `load`, before those animations start.
+    map.on('load', markReady);
+    map.on('idle', markReady);
+    map.on('sourcedata', (event) => {
+      if (event.sourceDataType === 'metadata' && failedSources.delete(event.sourceId)) {
+        if (readyRef.current) markReady();
+      }
     });
-    map.on('error', () => {
-      clearTimeout(timeout);
-      setStatus('error');
+    map.on('error', (event) => {
+      console.warn('Map resource failed to load', event.error);
+      // One failed tile or glyph does not make the entire map unusable.
+      // A failed source's TileJSON, however, prevents that basemap loading.
+      if ('sourceId' in event && typeof event.sourceId === 'string' && !('tile' in event)) {
+        failedSources.add(event.sourceId);
+        setStatus('error');
+      } else if (!map.getStyle()) {
+        setStatus('error');
+      }
     });
-    markLoading();
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.AttributionControl({ compact: false }));
     const attribution = containerRef.current.querySelector('.maplibregl-ctrl-attrib');

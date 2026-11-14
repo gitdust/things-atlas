@@ -34,7 +34,7 @@ export function homeMeta(lang: Lang, count: number): PageMeta {
   }
   return {
     title: `${SITE_NAME} — A world map of when and where everyday objects began`,
-    description: `Explore when and where ${count} everyday objects — the pencil, toothbrush, zipper, light bulb and more — were invented, patented, mass-produced and popularised, on an interactive world map and timeline. Every entry is sourced.`,
+    description: `Explore when and where ${count} everyday objects — the pencil, toothbrush, zipper, light bulb and more — were invented, patented, mass-produced and popularized, on an interactive world map and timeline. Every entry is sourced.`,
     path: '/',
   };
 }

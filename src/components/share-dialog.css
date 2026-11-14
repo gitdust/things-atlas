@@ -19,26 +19,16 @@
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  margin-bottom: 12px;
 }
 .share-head h2 {
   margin: 0;
   font-size: 1.25rem;
 }
-.share-languages,
-.share-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.share-languages {
-  margin: 12px 0;
-}
-.share-languages button,
 .share-actions button,
-.share-preview button,
-.share-system summary {
+.share-preview button {
   padding: 6px 10px;
-  min-height: 34px;
+  min-height: 44px;
   border: 1px solid var(--rule);
   border-radius: 5px;
   background: transparent;
@@ -46,10 +36,24 @@
   font: inherit;
   cursor: pointer;
 }
-.share-languages button[aria-pressed='true'],
-.share-actions > button:first-child {
+.share-actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.share-actions .share-primary {
   border-color: var(--accent);
   color: var(--accent);
+  min-width: 96px;
+}
+.share-download,
+.share-head .close-btn {
+  min-width: 44px;
+  min-height: 44px;
+}
+.share-download {
+  display: grid;
+  place-items: center;
 }
 .share-actions button:disabled {
   opacity: 0.55;
@@ -74,33 +78,6 @@
 }
 .share-preview [role='status'] {
   padding: 8px;
-}
-.share-system {
-  position: relative;
-}
-.share-system > div {
-  display: flex;
-  gap: 6px;
-  padding-top: 6px;
-}
-.share-original a {
-  color: var(--accent);
-}
-.share-original {
-  font-size: 0.8rem;
-  display: flex;
-  gap: 8px;
-  margin-top: 8px;
-}
-.share-link {
-  width: 100%;
-  margin-top: 10px;
-  padding: 7px 8px;
-  font: inherit;
-  background: transparent;
-  color: inherit;
-  border: 1px solid var(--rule);
-  border-radius: 5px;
 }
 .share-feedback {
   min-height: 1.25em;

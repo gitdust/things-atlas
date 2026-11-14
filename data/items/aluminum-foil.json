@@ -65,7 +65,7 @@
   ],
   "disputed": false,
   "summary_zh": "铝箔是由高纯度铝压延制成的轻薄金属箔。1910年内埃在瑞士发明连续压延法并用于巧克力防潮包装，1947年雷诺兹推出家用箔卷，如今广泛用于食品烘烤、储鲜与日用遮蔽。",
-  "summary_en": "Aluminum foil is prepared in thin metal sheets. Patented in Switzerland in 1910 by Robert Victor Neher, Reynolds Metals introduced household rolls in 1947, making it a kitchen and packaging staple.",
+  "summary_en": "Rolled into thin metal sheets, aluminum foil was patented by Neher in Switzerland in 1910; Reynolds Metals introduced household rolls in 1947, making it a kitchen and packaging staple.",
   "tags": [
     "materials",
     "storage",
@@ -75,7 +75,7 @@
   "image": {
     "src": "/images/aluminum-foil.jpg",
     "alt_zh": "一卷展开的厨房用铝箔纸",
-    "alt_en": "A roll of kitchen aluminium foil unrolled",
+    "alt_en": "An unrolled sheet of kitchen aluminum foil",
     "credit": "Pippi",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Aluminium_foil.jpg"

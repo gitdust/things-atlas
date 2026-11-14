@@ -2,51 +2,36 @@ import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { type Lang, t } from '@/lib/i18n';
 import { shareImages } from '@/lib/seo';
-import { SHARE_LANGUAGES, shareUrl } from '@/lib/share';
+import { shareUrl } from '@/lib/share';
 import type { AtlasItem } from '@/lib/types';
 import './share-dialog.css';
 
 type Props = { item: AtlasItem; lang: Lang; onClose: () => void };
-type Poster = { url: string; file: File };
 
 const strings = {
   zh: {
     title: '分享条目',
-    language: '分享语言',
-    link: '条目链接',
-    copy: '复制链接',
-    copied: '链接已复制',
-    copyError: '复制失败，请手动复制已选中的链接。',
-    save: '保存图片',
+    share: '分享',
+    shareError: '分享失败，请重试。',
+    copied: '当前浏览器不支持系统分享，已复制条目链接。',
+    download: '下载海报',
     downloading: '已开始下载',
     loading: '海报加载中…',
     unavailable: '海报暂时无法加载。请重试或刷新页面。',
     retry: '重试',
-    system: '系统分享',
-    shareLink: '分享链接',
-    shareImage: '分享图片',
-    shareError: '系统分享失败。请重试，或使用复制链接与保存图片。',
-    original: '打开原图',
     longPress: '打开原图后可长按保存。',
   },
   en: {
     title: 'Share entry',
-    language: 'Share language',
-    link: 'Entry link',
-    copy: 'Copy link',
-    copied: 'Link copied',
-    copyError: 'Copy failed. Copy the selected link manually.',
-    save: 'Save image',
+    share: 'Share',
+    shareError: 'Sharing failed. Try again.',
+    copied: 'System sharing is unavailable. Entry link copied.',
+    download: 'Download poster',
     downloading: 'Download started',
     loading: 'Loading poster…',
     unavailable: 'The poster could not load. Try again or refresh the page.',
     retry: 'Retry',
-    system: 'System share',
-    shareLink: 'Share link',
-    shareImage: 'Share image',
-    shareError: 'System sharing failed. Try again, copy the link or save the image.',
-    original: 'Open original',
-    longPress: 'Open the original and press and hold to save.',
+    longPress: 'Press and hold the opened image to save.',
   },
 } as const;
 
@@ -57,30 +42,25 @@ function track(event: string, itemId: string, lang: Lang, action: string, result
   analytics.gtag?.('event', event, { item_id: itemId, lang, action, result });
 }
 
-function ShareOptions({
-  item,
-  lang,
-  initialLang,
-  sharePending,
-}: {
-  item: AtlasItem;
-  lang: Lang;
-  initialLang: Lang;
-  sharePending: { current: boolean };
-}) {
-  const msg = strings[initialLang];
-  const [poster, setPoster] = useState<Poster | null>(null);
+function ShareOptions({ item, lang }: Pick<Props, 'item' | 'lang'>) {
+  const msg = strings[lang];
+  const [poster, setPoster] = useState<string | null>(null);
   const [failed, setFailed] = useState(false);
   const [attempt, setAttempt] = useState(0);
   const [status, setStatus] = useState('');
   const [sharing, setSharing] = useState(false);
-  const linkInput = useRef<HTMLInputElement>(null);
+  const sharePending = useRef(false);
   const download = useRef<HTMLAnchorElement>(null);
   const image = shareImages[item.id]?.[lang]?.poster;
+  const imageUrl = image && import.meta.env.BASE_URL.replace(/\/$/, '') + image.path;
   const url = shareUrl(item.id, lang);
+  const filename = `things-atlas-${item.id}-${lang}.png`;
+  const canDownload = 'download' in HTMLAnchorElement.prototype;
+
+  const nativeShare = window.isSecureContext && typeof navigator.share === 'function';
 
   useEffect(() => {
-    if (!image) return;
+    if (!image || !imageUrl) return;
     const controller = new AbortController();
     let objectUrl: string | undefined;
     let downloadedUntil = 0;
@@ -91,7 +71,7 @@ function ShareOptions({
     lease?.addEventListener('click', recordDownload);
     void (async () => {
       try {
-        const response = await fetch(import.meta.env.BASE_URL.replace(/\/$/, '') + image.path, {
+        const response = await fetch(imageUrl, {
           signal: controller.signal,
           cache: attempt ? 'reload' : 'default',
         });
@@ -105,8 +85,7 @@ function ShareOptions({
         preview.src = objectUrl;
         await preview.decode();
         if (controller.signal.aborted) return;
-        const file = new File([blob], `things-atlas-${item.id}-${lang}.png`, { type: image.mime });
-        setPoster({ url: objectUrl, file });
+        setPoster(objectUrl);
       } catch {
         if (!controller.signal.aborted) setFailed(true);
       }
@@ -120,49 +99,38 @@ function ShareOptions({
       if (delay > 0) window.setTimeout(() => URL.revokeObjectURL(release), delay);
       else URL.revokeObjectURL(release);
     };
-  }, [image, item.id, lang, attempt]);
+  }, [image, imageUrl, attempt]);
 
-  async function copy() {
-    try {
-      await navigator.clipboard.writeText(url);
-      setStatus(msg.copied);
-      track('share_copy_link', item.id, lang, 'link', 'success');
-    } catch {
-      linkInput.current?.focus();
-      linkInput.current?.select();
-      setStatus(msg.copyError);
-      track('share_copy_link', item.id, lang, 'link', 'error');
-    }
-  }
-
-  const nativeShare = window.isSecureContext && typeof navigator.share === 'function';
-  const canShareImage = nativeShare && !!poster && !!navigator.canShare?.({ files: [poster.file] });
-  const canDownload = 'download' in HTMLAnchorElement.prototype;
-
-  async function share(kind: 'link' | 'image') {
+  async function share() {
     if (sharePending.current) return;
-    if (kind === 'image' && (!poster || !navigator.canShare?.({ files: [poster.file] }))) return;
     sharePending.current = true;
     setSharing(true);
     setStatus('');
     let result = 'completed';
     try {
-      await navigator.share(
-        kind === 'image' && poster
-          ? { files: [poster.file] }
-          : {
-              title: item[`name_${lang}`],
-              text: item.share?.[lang].ogSummary ?? item[`summary_${lang}`],
-              url,
-            },
-      );
+      if (nativeShare) {
+        await navigator.share({
+          title: item[`name_${lang}`],
+          text: item.share?.[lang].ogSummary ?? item[`summary_${lang}`],
+          url,
+        });
+      } else {
+        await navigator.clipboard.writeText(url);
+        setStatus(msg.copied);
+      }
     } catch (error) {
       result = error instanceof Error && error.name === 'AbortError' ? 'cancelled' : 'error';
       if (result === 'error') setStatus(msg.shareError);
     } finally {
       sharePending.current = false;
       setSharing(false);
-      track('share_system_result', item.id, lang, kind, result);
+      track(
+        nativeShare ? 'share_system_result' : 'share_copy_link',
+        item.id,
+        lang,
+        'link',
+        !nativeShare && result === 'completed' ? 'success' : result,
+      );
     }
   }
 
@@ -170,7 +138,7 @@ function ShareOptions({
     <>
       <div className="share-preview" aria-busy={!!image && !poster && !failed}>
         {poster && image && (
-          <img src={poster.url} alt={image.alt} width={image.width} height={image.height} />
+          <img src={poster} alt={image.alt} width={image.width} height={image.height} />
         )}
         {!poster && <div role="status">{failed || !image ? msg.unavailable : msg.loading}</div>}
         {failed && (
@@ -186,60 +154,43 @@ function ShareOptions({
         )}
       </div>
       <div className="share-actions">
-        <button type="button" onClick={copy}>
-          {msg.copy}
+        <button type="button" className="share-primary" disabled={sharing} onClick={share}>
+          {msg.share}
         </button>
         <button
           type="button"
-          disabled={!poster || !canDownload}
+          className="share-download"
+          aria-label={msg.download}
+          title={msg.download}
+          disabled={!poster}
           onClick={() => {
-            if (!poster) return;
+            if (!poster || !imageUrl) return;
+            if (!canDownload) {
+              window.open(imageUrl, '_blank', 'noopener');
+              setStatus(msg.longPress);
+              return;
+            }
             download.current?.click();
             setStatus(msg.downloading);
             track('share_download', item.id, lang, 'image', 'started');
           }}
         >
-          {msg.save}
-        </button>
-        <a ref={download} href={poster?.url} download={poster?.file.name} hidden />
-        {nativeShare && (
-          <details className="share-system">
-            <summary>{msg.system}</summary>
-            <div>
-              <button type="button" disabled={sharing} onClick={() => share('link')}>
-                {msg.shareLink}
-              </button>
-              <button
-                type="button"
-                disabled={sharing || !canShareImage}
-                onClick={() => share('image')}
-              >
-                {msg.shareImage}
-              </button>
-            </div>
-          </details>
-        )}
-      </div>
-      {poster && image && (
-        <div className="share-original">
-          <a
-            href={import.meta.env.BASE_URL.replace(/\/$/, '') + image.path}
-            target="_blank"
-            rel="noreferrer"
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.75"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
           >
-            {msg.original}
-          </a>
-          {!canDownload && <span>{msg.longPress}</span>}
-        </div>
-      )}
-      <input
-        className="share-link"
-        readOnly
-        aria-label={msg.link}
-        value={url}
-        ref={linkInput}
-        onFocus={(event) => event.currentTarget.select()}
-      />
+            <path d="M12 3v12m-5-5 5 5 5-5M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4" />
+          </svg>
+        </button>
+        <a ref={download} href={poster ?? undefined} download={filename} hidden />
+      </div>
       <div className="share-feedback" role="status">
         {status}
       </div>
@@ -250,8 +201,6 @@ function ShareOptions({
 export default function ShareDialog({ item, lang, onClose }: Props) {
   const dialog = useRef<HTMLDialogElement>(null);
   const opened = useRef(false);
-  const sharePending = useRef(false);
-  const [shareLang, setShareLang] = useState(lang);
   const msg = strings[lang];
   useEffect(() => {
     const modal = dialog.current;
@@ -290,26 +239,7 @@ export default function ShareDialog({ item, lang, onClose }: Props) {
           ×
         </button>
       </header>
-      <div className="share-languages" role="group" aria-label={msg.language}>
-        {SHARE_LANGUAGES.map((locale) => (
-          <button
-            type="button"
-            key={locale}
-            aria-pressed={locale === shareLang}
-            lang={locale}
-            onClick={() => setShareLang(locale)}
-          >
-            {locale === 'zh' ? '中文' : 'EN'}
-          </button>
-        ))}
-      </div>
-      <ShareOptions
-        key={shareLang}
-        item={item}
-        lang={shareLang}
-        initialLang={lang}
-        sharePending={sharePending}
-      />
+      <ShareOptions key={`${item.id}:${lang}`} item={item} lang={lang} />
     </dialog>,
     document.body,
   );

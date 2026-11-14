@@ -57,7 +57,7 @@ const dict = {
   },
   en: {
     title: 'Things Atlas',
-    tagline: 'Invention, patent, manufacture, and popularization',
+    tagline: 'Invention, patent, mass production, and popularization',
 
     year: 'Year',
     close: 'Close',
@@ -73,7 +73,7 @@ const dict = {
 
     sources: 'Sources',
     locations: 'Places',
-    notes: 'Disputed note',
+    notes: 'Dispute note',
     milestones: 'Timeline',
     entry: 'Entry',
     photoSource: 'Source',

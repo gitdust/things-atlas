@@ -179,7 +179,7 @@ export default function QuizDialog({
                       {item.id === question.earlierId
                         ? zh
                           ? '✓ 更早使用'
-                          : '✓ Came earlier'
+                          : '✓ Earlier use'
                         : '\u00a0'}
                     </p>
                     <EarliestUseEvidence
@@ -202,9 +202,7 @@ export default function QuizDialog({
         )}
       </div>
       <footer className="quiz-footer">
-        <p id="quiz-rule">
-          {zh ? '按最早已知使用年份比较' : 'Compare the earliest known use dates.'}
-        </p>
+        <p id="quiz-rule">{zh ? '按最早已知使用年份比较' : 'Based on earliest known use year'}</p>
         <button type="button" className="quiz-dismiss" disabled={closing} onClick={() => close()}>
           {revealed
             ? zh
