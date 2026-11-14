@@ -1,46 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import type { Feature, FeatureCollection } from 'geojson';
+import type { AtlasItem } from '../src/lib/types';
 import { fileURLToPath } from 'node:url';
-import { derivePrimaryYear, YEAR_KEYS, type YearKey } from '../src/lib/primaryYear';
+import { derivePrimaryYear, YEAR_KEYS } from '../src/lib/primaryYear';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const itemsDir = path.join(root, 'data', 'items');
 const outDir = path.join(root, 'public', 'generated');
 
-type YearMark = { year: number; precision: string; ref?: string } | null;
-type Location = {
-  lat: number;
-  lng: number;
-  place_label_zh: string;
-  place_label_en: string;
-  kind: string;
-  confidence: string;
-  year_override?: number;
-};
-type Item = {
-  id: string;
-  name_zh: string;
-  name_en: string;
-  category: string;
-  years: {
-    invention: YearMark;
-    patent: YearMark;
-    mass_production: YearMark;
-    popularization: YearMark;
-  };
-  primary?: YearKey;
-  locations: Location[];
-  confidence: string;
-  sources: unknown[];
-  disputed: boolean;
-  notes?: string;
-  summary_zh: string;
-  summary_en: string;
-  tags?: string[];
-  updated: string;
-  image?: { src: string; width?: number; height?: number; widths?: number[] };
-};
+type Item = Omit<AtlasItem, 'primary_year'>;
 
 /** Intrinsic sizes + responsive widths written by scripts/build-images.ts. */
 const imageManifestPath = path.join(root, 'data', 'images.json');
@@ -55,7 +25,7 @@ const files = fs
   .sort();
 
 const items: Array<Item & { primary_year: number }> = [];
-const features: GeoJSON.Feature[] = [];
+const features: Feature[] = [];
 
 for (const file of files) {
   const data = JSON.parse(fs.readFileSync(path.join(itemsDir, file), 'utf8')) as Item;
@@ -118,7 +88,7 @@ const index = {
   items,
 };
 
-const geojson: GeoJSON.FeatureCollection = {
+const geojson: FeatureCollection = {
   type: 'FeatureCollection',
   features,
 };
@@ -130,6 +100,11 @@ fs.writeFileSync(path.join(outDir, 'items.geojson'), JSON.stringify(geojson, nul
 const srcGen = path.join(root, 'src', 'generated');
 fs.mkdirSync(srcGen, { recursive: true });
 fs.writeFileSync(path.join(srcGen, 'items-index.json'), JSON.stringify(index) + '\n');
+
+// The share build fills this index before Vite starts. Keep direct data builds
+// usable on a fresh checkout without overwriting a previously generated index.
+const shareManifest = path.join(srcGen, 'share-manifest.json');
+if (!fs.existsSync(shareManifest)) fs.writeFileSync(shareManifest, '{}\n');
 
 console.log(
   `Built index: ${items.length} items, ${features.length} features → public/generated/ & src/generated/`,

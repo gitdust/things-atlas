@@ -107,6 +107,7 @@ export function Guide({ lang, request, selectedId, panelOpen, onOpenPanel }: Pro
   useEffect(() => {
     if (phase < -1) return;
     const onKey = (event: KeyboardEvent) => {
+      if (document.querySelector('dialog[open]')) return;
       if (event.key === 'Escape') {
         event.preventDefault();
         event.stopImmediatePropagation();

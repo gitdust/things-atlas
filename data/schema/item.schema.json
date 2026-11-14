@@ -85,6 +85,22 @@
         "source_url": { "type": "string", "format": "uri" }
       }
     },
+    "share": {
+      "type": "object",
+      "required": [
+        "zh",
+        "en"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "zh": {
+          "$ref": "#/$defs/shareLocale"
+        },
+        "en": {
+          "$ref": "#/$defs/shareLocale"
+        }
+      }
+    },
     "summary_zh": { "type": "string", "minLength": 1, "maxLength": 160 },
     "summary_en": { "type": "string", "minLength": 1, "maxLength": 200 },
     "tags": {
@@ -99,6 +115,55 @@
     }
   },
   "$defs": {
+    "shareLocale": {
+      "type": "object",
+      "required": [
+        "summary",
+        "ogSummary"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ogSummary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "milestones": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "yearKey",
+              "label",
+              "text"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "yearKey": {
+                "enum": [
+                  "invention",
+                  "patent",
+                  "mass_production",
+                  "popularization"
+                ]
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
     "yearMarkOrNull": {
       "oneOf": [
         { "type": "null" },

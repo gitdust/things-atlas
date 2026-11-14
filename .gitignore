@@ -23,3 +23,5 @@ pnpm-workspace.yaml
 
 # local Cloudflare runtime state
 .wrangler/
+
+/public/share/

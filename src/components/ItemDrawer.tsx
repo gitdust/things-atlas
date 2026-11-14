@@ -1,11 +1,12 @@
-import { itemPath } from '@/lib/seo';
 import { DisputeIcon } from './DisputeIcon';
-import { useEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import type { AtlasItem, CategoryMeta, ItemImage, YearKey, YearMark } from '@/lib/types';
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { categoryColor } from '@/lib/tokens';
 import { IMAGE_SIZES, variantSrcSet } from '@/lib/images';
 import { pick, t, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
+
+const ShareDialog = lazy(() => import('./ShareDialog'));
 
 type Props = {
   lang: Lang;
@@ -86,8 +87,9 @@ export function ItemDrawer({
   const bodyRef = useRef<HTMLDivElement | null>(null);
   const titleRef = useRef<HTMLHeadingElement | null>(null);
   const itemId = item?.id;
-  const [shareStatus, setShareStatus] = useState('');
-  useEffect(() => setShareStatus(''), [itemId, lang]);
+  const [sharingItem, setSharingItem] = useState<string | null>(null);
+  const shareButton = useRef<HTMLButtonElement>(null);
+  useEffect(() => setSharingItem(null), [itemId, lang, active]);
 
   useEffect(() => {
     bodyRef.current?.scrollTo({ top: 0 });
@@ -172,29 +174,9 @@ export function ItemDrawer({
               className="close-btn share-btn"
               aria-label={lang === 'zh' ? '分享条目' : 'Share entry'}
               title={lang === 'zh' ? '分享条目' : 'Share entry'}
-              onClick={async () => {
-                const url = new URL(
-                  `${import.meta.env.BASE_URL.replace(/\/$/, '')}${itemPath(item.id)}`,
-                  window.location.origin,
-                );
-                if (lang === 'en') url.searchParams.set('lang', 'en');
-                setShareStatus('');
-                try {
-                  if (navigator.share) {
-                    await navigator.share({ title, url: url.href });
-                  } else {
-                    await navigator.clipboard.writeText(url.href);
-                    setShareStatus(lang === 'zh' ? '链接已复制' : 'Link copied');
-                  }
-                } catch (error) {
-                  if (error instanceof Error && error.name === 'AbortError') return;
-                  setShareStatus(
-                    lang === 'zh'
-                      ? '分享失败，请复制地址栏链接'
-                      : 'Unable to share. Copy the address bar link.',
-                  );
-                }
-              }}
+              ref={shareButton}
+              aria-haspopup="dialog"
+              onClick={() => setSharingItem(item.id)}
             >
               <svg viewBox="0 0 16 16" aria-hidden="true">
                 <circle cx="12" cy="4" r="2" />
@@ -210,9 +192,18 @@ export function ItemDrawer({
           {title}
         </h1>
         <p className="drawer-alt">{alt}</p>
-        <span className="share-status" role="status">
-          {shareStatus}
-        </span>
+        {active && sharingItem === item.id && (
+          <Suspense fallback={null}>
+            <ShareDialog
+              item={item}
+              lang={lang}
+              onClose={() => {
+                setSharingItem(null);
+                shareButton.current?.focus({ preventScroll: true });
+              }}
+            />
+          </Suspense>
+        )}
 
         <div className="drawer-primary">
           <span className="num">{formatYear(lang, item.primary_year)}</span>

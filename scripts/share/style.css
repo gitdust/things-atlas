@@ -1,0 +1,259 @@
+:root {
+  --paper: #f7f2e8;
+  --ink: #24221e;
+  --muted: #565149;
+  --accent: #873e2d;
+  --line: #c9bbaa;
+  --mat: #eee6d8;
+  --sans: 'Noto Sans SC Subset', 'Inter Variable', sans-serif;
+  --serif: 'Noto Serif SC Subset', 'Source Serif 4 Variable', serif;
+}
+
+html[lang='en'] {
+  --sans: 'Inter Variable', 'Noto Sans SC Subset', sans-serif;
+  --serif: 'Source Serif 4 Variable', 'Noto Serif SC Subset', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--sans);
+}
+h1,
+p,
+figure,
+ol {
+  margin: 0;
+}
+#card {
+  border-top: 10px solid var(--accent);
+  background: var(--paper);
+  overflow: hidden;
+}
+.brand {
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.075em;
+  font-size: 27px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 16px;
+}
+h1 {
+  font-family: var(--serif);
+  font-weight: 700;
+  line-height: 1.45;
+  font-size: 78px;
+  margin: 18px 0 0;
+  max-height: 170px;
+  overflow-wrap: anywhere;
+}
+.dispute {
+  color: var(--accent);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+.summary {
+  font-size: 34px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+.poster {
+  display: grid;
+  grid-template-rows: auto auto 1fr 225px;
+  gap: 18px;
+  padding: 34px 60px 32px;
+}
+.poster h1 {
+  font-size: 72px;
+  max-height: 166px;
+  margin-top: 10px;
+}
+.poster-map {
+  min-width: 0;
+  border: 1px solid var(--line);
+}
+.poster-map svg {
+  display: block;
+  width: 100%;
+  background: #e5ebe8;
+}
+.map-land {
+  fill: #f7f3ea;
+  stroke: #c4cdc1;
+  stroke-width: 1;
+  fill-rule: evenodd;
+}
+.map-arcs {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+.map-leader {
+  stroke: var(--accent);
+  stroke-width: 1.5;
+}
+.map-point,
+.map-label {
+  fill: var(--accent);
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+.map-pin.contested .map-label {
+  fill: #fff;
+  stroke: var(--accent);
+  stroke-dasharray: 3 2;
+}
+.map-pin text {
+  fill: #fff;
+  text-anchor: middle;
+  dominant-baseline: central;
+  font-size: 15px;
+  font-weight: 600;
+}
+.map-pin.contested text {
+  fill: var(--accent);
+}
+.poster-map figcaption {
+  padding: 8px 12px;
+  font-size: 18px;
+  line-height: 1.4;
+  max-height: 126px;
+  background: var(--mat);
+  overflow-wrap: anywhere;
+}
+.poster-map ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px 14px;
+}
+.map-legend {
+  margin-top: 4px;
+  color: var(--muted);
+}
+.poster-map b {
+  color: var(--accent);
+  margin-right: 4px;
+}
+.history {
+  align-self: start;
+  min-width: 0;
+}
+.history-lead {
+  display: grid;
+  gap: 20px;
+  align-items: start;
+}
+.poster.with-image .history-lead {
+  grid-template-columns: minmax(0, 1fr) 214px;
+}
+.poster .summary {
+  font-size: 31px;
+  max-height: 187px;
+}
+.poster-photo {
+  background: var(--mat);
+  height: 160px;
+}
+.poster-photo img,
+.og-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.poster ol {
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+}
+.poster ol li {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 16px;
+  border-top: 1px solid var(--line);
+  padding: 6px 0;
+  font-size: 22px;
+  line-height: 1.36;
+  max-height: 80px;
+  overflow-wrap: anywhere;
+}
+.poster ol li strong {
+  color: var(--accent);
+}
+.poster footer {
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  align-items: center;
+  gap: 32px;
+  padding-top: 14px;
+}
+.credits {
+  font-size: 19px;
+  line-height: 1.45;
+  color: var(--muted);
+  max-height: 207px;
+  overflow-wrap: anywhere;
+}
+.credits div + div {
+  margin-top: 4px;
+}
+.qr {
+  display: grid;
+  place-items: center;
+  background: white;
+  width: 200px;
+  height: 200px;
+}
+
+.og {
+  display: grid;
+  align-items: center;
+  padding: 43px 58px;
+}
+.og.with-image {
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 45px;
+}
+.og-copy {
+  max-width: 1000px;
+}
+.og h1 {
+  font-size: 70px;
+  max-height: 154px;
+}
+.og.with-image h1 {
+  font-size: 58px;
+  max-height: 135px;
+}
+.og .summary {
+  margin-top: 24px;
+  font-size: 34px;
+  max-height: 198px;
+}
+.og.with-image .summary {
+  font-size: 27px;
+  max-height: 240px;
+}
+.og-photo {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  height: 480px;
+  padding: 16px;
+  background: var(--mat);
+  gap: 10px;
+}
+.og-photo figcaption {
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--muted);
+  max-height: 45px;
+  overflow-wrap: anywhere;
+}

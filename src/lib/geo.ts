@@ -60,7 +60,7 @@ const toDeg = (r: number) => (r * 180) / Math.PI;
 // The map uses Web Mercator; geographic poles cannot be projected to finite y.
 const MAX_MERCATOR_LAT = toDeg(Math.atan(Math.sinh(Math.PI)));
 const clampLat = (lat: number) => Math.max(-MAX_MERCATOR_LAT, Math.min(MAX_MERCATOR_LAT, lat));
-const mercatorY = (lat: number) =>
+export const mercatorY = (lat: number) =>
   Math.max(
     0,
     Math.min(1, (1 - Math.log(Math.tan(Math.PI / 4 + toRad(clampLat(lat)) / 2)) / Math.PI) / 2),

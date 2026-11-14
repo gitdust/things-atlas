@@ -60,6 +60,16 @@ export type ItemImage = {
   widths?: number[];
 };
 
+export type ShareMilestone = { yearKey: YearKey; label: string; text: string };
+export type ShareEditorial = Record<
+  'zh' | 'en',
+  {
+    summary: string;
+    ogSummary: string;
+    milestones?: ShareMilestone[];
+  }
+>;
+
 export type AtlasItem = {
   id: string;
   name_zh: string;
@@ -80,6 +90,7 @@ export type AtlasItem = {
   notes?: string;
   notes_en?: string;
   image?: ItemImage;
+  share?: ShareEditorial;
   summary_zh: string;
   summary_en: string;
   tags?: string[];

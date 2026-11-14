@@ -1,0 +1,109 @@
+.share-dialog {
+  width: min(460px, calc(100vw - 24px));
+  position: fixed;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r-lg);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow-2);
+  max-height: calc(100dvh - 32px);
+  padding: 18px 22px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.share-dialog::backdrop {
+  background: rgba(var(--ink-rgb), 0.52);
+}
+.share-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.share-head h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.share-languages,
+.share-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.share-languages {
+  margin: 12px 0;
+}
+.share-languages button,
+.share-actions button,
+.share-preview button,
+.share-system summary {
+  padding: 6px 10px;
+  min-height: 34px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.share-languages button[aria-pressed='true'],
+.share-actions > button:first-child {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.share-actions button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.share-preview {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 8px;
+  margin-inline: auto;
+  margin-bottom: 14px;
+  width: min(100%, 270px, 38dvh);
+  aspect-ratio: 3 / 4;
+  border: 1px solid var(--rule);
+  text-align: center;
+}
+.share-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.share-preview [role='status'] {
+  padding: 8px;
+}
+.share-system {
+  position: relative;
+}
+.share-system > div {
+  display: flex;
+  gap: 6px;
+  padding-top: 6px;
+}
+.share-original a {
+  color: var(--accent);
+}
+.share-original {
+  font-size: 0.8rem;
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.share-link {
+  width: 100%;
+  margin-top: 10px;
+  padding: 7px 8px;
+  font: inherit;
+  background: transparent;
+  color: inherit;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+}
+.share-feedback {
+  min-height: 1.25em;
+  margin-top: 6px;
+  font-size: 0.8rem;
+}

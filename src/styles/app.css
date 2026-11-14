@@ -1841,14 +1841,6 @@ button {
   font-size: var(--fs-2xs);
   color: var(--muted);
 }
-.share-status {
-  display: block;
-  color: var(--ink-3);
-  font-size: var(--fs-xs);
-}
-.share-status:empty {
-  display: none;
-}
 
 /* Shared with the lazy map placeholder so loading feedback paints immediately. */
 .map-status {

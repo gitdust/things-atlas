@@ -27,6 +27,7 @@ import {
   homeMeta,
   itemMeta,
   itemPath,
+  socialImage,
   type PageMeta,
 } from '../src/lib/seo';
 import {
@@ -65,23 +66,6 @@ const fontPreloads = CRITICAL_FONTS.map((re) => assets.find((f) => re.test(f)))
 if (!fontPreloads) console.warn('prerender: no critical font files found to preload');
 
 /* ------------------------------------------------------------ structured */
-function imageFor(item: AtlasItem | null) {
-  if (item?.image?.src) {
-    return {
-      url: ORIGIN + item.image.src,
-      width: item.image.width,
-      height: item.image.height,
-      alt: item.image.alt_en,
-    };
-  }
-  return {
-    url: ORIGIN + OG_IMAGE.path,
-    width: OG_IMAGE.width,
-    height: OG_IMAGE.height,
-    alt: `${SITE_NAME} · ${SITE_NAME_ZH}`,
-  };
-}
-
 const TERM_SET_ID = `${ORIGIN}/#entries`;
 
 function definedTerm(item: AtlasItem, lang: Lang) {
@@ -166,7 +150,7 @@ function imagePreload(item: AtlasItem | null) {
 
 function headTags(meta: PageMeta, item: AtlasItem | null, ld: unknown, lang: Lang) {
   const canonical = url(meta.path, lang);
-  const img = imageFor(item);
+  const img = socialImage(lang, item, ORIGIN);
   const tags = [
     `<title>${esc(meta.title)}</title>`,
     `<meta name="description" content="${esc(meta.description)}" />`,
@@ -184,12 +168,14 @@ function headTags(meta: PageMeta, item: AtlasItem | null, ld: unknown, lang: Lan
     `<meta property="og:image" content="${esc(img.url)}" />`,
     img.width ? `<meta property="og:image:width" content="${img.width}" />` : '',
     img.height ? `<meta property="og:image:height" content="${img.height}" />` : '',
+    `<meta property="og:image:type" content="${img.mime}" />`,
     `<meta property="og:image:alt" content="${esc(img.alt)}" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
     TWITTER_SITE ? `<meta name="twitter:site" content="${esc(TWITTER_SITE)}" />` : '',
     `<meta name="twitter:title" content="${esc(meta.title)}" />`,
     `<meta name="twitter:description" content="${esc(meta.description)}" />`,
     `<meta name="twitter:image" content="${esc(img.url)}" />`,
+    `<meta name="twitter:image:alt" content="${esc(img.alt)}" />`,
     jsonLd(ld),
     imagePreload(item),
   ];

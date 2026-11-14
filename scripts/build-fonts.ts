@@ -63,6 +63,7 @@ function collectChars(): Set<string> {
   const read = (p: string) => addChars(chars, fs.readFileSync(p, 'utf8'));
   walk(path.join(root, 'src'), /\.(tsx?|json)$/, read);
   walk(path.join(root, 'data'), /\.json$/, read);
+  walk(path.join(root, 'scripts', 'share'), /\.tsx$/, read);
   return chars;
 }
 

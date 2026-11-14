@@ -3,24 +3,21 @@
  * and the runtime (App → applyDocumentMeta), so crawlers that don't run JS
  * and those that do see the same titles/descriptions.
  */
-import { SITE_NAME, SITE_NAME_ZH, SITE_URL } from '@/config/site';
+import { OG_IMAGE, SITE_NAME, SITE_NAME_ZH, SITE_URL } from '@/config/site';
 import { type Lang } from './i18n';
+import { absoluteUrl, itemPath } from './page-url';
 import type { AtlasItem } from './types';
+import type { ShareManifest } from './share';
+import manifest from '../generated/share-manifest.json';
+
+export { absoluteUrl, itemPath } from './page-url';
+
+export const shareImages: ShareManifest = manifest;
 
 export const HTML_LANG: Record<Lang, string> = { zh: 'zh-Hans', en: 'en' };
 export const OG_LOCALE: Record<Lang, string> = { zh: 'zh_CN', en: 'en_US' };
 
 export type PageMeta = { title: string; description: string; path: string };
-
-/** `/` for the atlas, `/item/<id>/` for an entry (prerendered at build time). */
-export function itemPath(id: string | null): string {
-  return id ? `/item/${encodeURIComponent(id)}/` : '/';
-}
-
-/** Absolute URL of a page in a language (`zh` is the default, so no param). */
-export function absoluteUrl(path: string, lang: Lang = 'zh', origin = SITE_URL): string {
-  return `${origin}${path}${lang === 'en' ? '?lang=en' : ''}`;
-}
 
 function clip(s: string, max = 160): string {
   const t = s.replace(/\s+/g, ' ').trim();
@@ -55,6 +52,16 @@ export function itemMeta(lang: Lang, item: AtlasItem): PageMeta {
     description: clip(item.summary_en || item.summary_zh),
     path: itemPath(item.id),
   };
+}
+
+export function socialImage(lang: Lang, item: AtlasItem | null, origin = SITE_URL) {
+  const image = item ? shareImages[item.id]?.[lang]?.og : undefined;
+  const selected = image ?? {
+    ...OG_IMAGE,
+    mime: 'image/jpeg',
+    alt: lang === 'zh' ? SITE_NAME_ZH : SITE_NAME,
+  };
+  return { ...selected, url: origin + selected.path };
 }
 
 function pageMeta(lang: Lang, item: AtlasItem | null, count: number): PageMeta {
@@ -107,4 +114,20 @@ export function applyDocumentMeta(lang: Lang, item: AtlasItem | null, count: num
     'content',
     meta.description,
   );
+  const image = socialImage(lang, item);
+  const socialTags = {
+    'og:image': image.url,
+    'og:image:width': String(image.width),
+    'og:image:height': String(image.height),
+    'og:image:type': image.mime,
+    'og:image:alt': image.alt,
+    'twitter:image': image.url,
+    'twitter:image:alt': image.alt,
+    'og:type': item ? 'article' : 'website',
+    'og:locale:alternate': OG_LOCALE[lang === 'zh' ? 'en' : 'zh'],
+  };
+  for (const [name, value] of Object.entries(socialTags)) {
+    const key = name.startsWith('twitter:') ? 'name' : 'property';
+    upsert(`meta[${key}="${name}"]`, metaEl(key, name), 'content', value);
+  }
 }
