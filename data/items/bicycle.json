@@ -2,6 +2,7 @@
   "id": "bicycle",
   "name_zh": "自行车",
   "name_en": "Bicycle",
+  "name_ja": "自転車",
   "category": "home",
   "years": {
     "invention": {
@@ -72,6 +73,7 @@
   "disputed": false,
   "summary_zh": "自行车是人力驱动的双轮轻便代步工具。1817年德莱斯发明双轮滑跑车，1885年斯塔利罗孚安全自行车确立链传动菱形车架，充气轮胎的加入使其成为全球最普及的个人交通工具。",
   "summary_en": "The bicycle is a human-powered two-wheeled vehicle. Evolving from Drais's 1817 balance bicycle to Starley's 1885 Rover and pneumatic tires, it became an everyday worldwide vehicle.",
+  "summary_ja": "自転車は人力の二輪車である。1817年のドライスの二輪車から、1885年のスターリーのローバーと空気入りタイヤへと発展し、世界の日常の乗り物になった。",
   "tags": [
     "travel",
     "leisure"

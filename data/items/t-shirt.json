@@ -2,6 +2,7 @@
   "id": "t-shirt",
   "name_zh": "T 恤",
   "name_en": "T-shirt",
+  "name_ja": "Tシャツ",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -68,6 +69,7 @@
   "disputed": false,
   "summary_zh": "20 世纪初从连体工装演变而来的圆领套头汗衫于 1913 年被美国海军配发为制服内衣；1951 年马龙·白兰度的银幕形象使其一举成为全球最通用的日常服饰。",
   "summary_en": "Evolving from union suits, the crew-neck cotton jersey became US Navy standard issue in 1913. Marlon Brando's 1951 film appearance transformed the T-shirt into the world's most universal garment.",
+  "summary_ja": "ユニオンスーツから発展した丸首の綿ジャージーは、1913年に米海軍の制式になった。マーロン・ブランドの1951年の映画出演が、世界で最も普遍的な衣服の一つへ変えた。",
   "tags": [
     "clothing"
   ],

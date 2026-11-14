@@ -31,7 +31,7 @@ function estimateLabelWidth(text: string): number {
 function tickLabel(lang: Lang, y: number): string {
   if (y < 0 && y % 1000 === 0) {
     const n = -y / 1000;
-    if (lang === 'zh') return `前${n}千`;
+    if (lang === 'zh' || lang === 'ja') return `前${n}千`;
     return `−${n}k`;
   }
   if (y < 1800) return formatYear(lang, y, true);
@@ -280,9 +280,9 @@ export function Timeline({
                 e.stopPropagation();
                 onChange(max);
               }}
-              title={lang === 'zh' ? '滑至现代（全部激活）' : 'Jump to present (all active)'}
+              title={t(lang, 'presentTitle')}
             >
-              ↺ {lang === 'zh' ? '回到现代' : 'Present'}
+              ↺ {t(lang, 'present')}
             </button>
           )}
         </div>
@@ -328,14 +328,14 @@ export function Timeline({
                     bottom: `${level * 15}px`,
                     ['--c' as string]: categoryColor[item.category],
                   }}
-                  title={`${pick(lang, item.name_zh, item.name_en)} · ${formatYear(lang, item.primary_year)}`}
+                  title={`${pick(lang, item.name_zh, item.name_en, { ja: item.name_ja })} · ${formatYear(lang, item.primary_year)}`}
                   onClick={() => {
                     onSelect(item.id);
                     onChange(item.primary_year);
                   }}
                 >
                   <span className="tl-dot-label">
-                    {pick(lang, item.name_zh, item.name_en)} · {formatYear(lang, item.primary_year)}
+                    {pick(lang, item.name_zh, item.name_en, { ja: item.name_ja })} · {formatYear(lang, item.primary_year)}
                   </span>
                 </button>
               );

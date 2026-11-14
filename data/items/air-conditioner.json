@@ -2,6 +2,7 @@
   "id": "air-conditioner",
   "name_zh": "空调",
   "name_en": "Air conditioner",
+  "name_ja": "エアコン",
   "category": "home",
   "years": {
     "invention": {
@@ -64,6 +65,7 @@
   "disputed": false,
   "summary_zh": "空调通过制冷循环调节室内温度与湿度。1902年威利斯·开利发明现代电力温湿度调节系统，20世纪中叶小型化窗机与分体机走入千家万户，重塑了现代城市生活与建筑方式。",
   "summary_en": "The air conditioner controls indoor temperature and humidity. Willis Carrier designed the modern system in 1902, and mid-20th-century residential units reshaped modern buildings and comfort.",
+  "summary_ja": "エアコンは室内の温度と湿度を調整する。Willis Carrier が1902年に近代的な装置を設計し、20世紀半ばの家庭用機器が建物と快適さを変えた。",
   "tags": [
     "electric",
     "household"

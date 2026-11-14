@@ -2,6 +2,7 @@
   "id": "television",
   "name_zh": "电视机",
   "name_en": "Television",
+  "name_ja": "テレビ",
   "category": "digital",
   "years": {
     "invention": {
@@ -97,6 +98,7 @@
   "disputed": true,
   "summary_zh": "1926 年贝尔德在伦敦演示机械电视；1936 年 BBC 从亚历山德拉宫开播定期电视服务，1939 年 RCA 借纽约世界博览会推广电视。机械与电子路线使「发明」归属存在争议。",
   "summary_en": "Baird demonstrated mechanical TV in London in 1926; BBC service began in 1936 and RCA promoted TV at the 1939 New York fair. Mechanical and electronic systems complicate priority.",
+  "summary_ja": "ベアードは1926年にロンドンで機械式テレビを公開した。BBCの放送は1936年に始まり、RCAは1939年のニューヨーク万博でテレビを宣伝した。機械式と電子式が優先権を複雑にする。",
   "tags": [
     "media"
   ],

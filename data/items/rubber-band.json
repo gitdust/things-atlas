@@ -2,6 +2,7 @@
   "id": "rubber-band",
   "name_zh": "橡皮筋",
   "name_en": "Rubber band",
+  "name_ja": "輪ゴム",
   "category": "apparel_accessory",
   "years": {
     "invention": null,
@@ -36,6 +37,7 @@
   "disputed": false,
   "summary_zh": "1845 年 3 月 17 日，伦敦 Perry & Co 的斯蒂芬·佩里获得橡皮筋专利，用于捆扎纸张与信封。",
   "summary_en": "Stephen Perry of Messrs Perry & Co, London, patented the rubber band on 17 March 1845 for holding papers and envelopes together.",
+  "summary_ja": "ロンドンの Messrs Perry & Co. の Stephen Perry は、1845年3月17日、書類や封筒を束ねる輪ゴムを特許化した。",
   "tags": [
     "office",
     "fastening"

@@ -2,6 +2,7 @@
   "id": "tea",
   "name_zh": "茶",
   "name_en": "Tea",
+  "name_ja": "茶",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -71,6 +72,7 @@
   "notes_en": "Legends (for example Shennong) push tea drinking into deep antiquity without hard evidence. Claims of Neolithic cultivation at sites such as Tianluoshan remain debated. The firmest early physical tea is Western Han material from Xi’an; Lu Yu’s Cha Jing marks Tang classicization. Separate Assam domestication lines also complicate a single-origin story.",
   "summary_zh": "茶树原产东亚；西汉西安一带已有茶的实物证据，唐代陆羽《茶经》推动饮茶普及。最早驯化年代与地点仍有争议。",
   "summary_en": "Tea is native to East Asia. Western Han remains from Xi’an are early physical evidence; Lu Yu’s Tang Classic of Tea popularized drinking. Its domestication date and place remain disputed.",
+  "summary_ja": "茶は東アジア原産である。西安の前漢の遺物が早い物的証拠で、陸羽の唐の『茶経』が飲用を広めた。栽培化の年代と場所は争われている。",
   "tags": [
     "food-drink"
   ],

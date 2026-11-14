@@ -2,6 +2,7 @@
   "id": "soy-sauce",
   "name_zh": "酱油",
   "name_en": "Soy sauce",
+  "name_ja": "しょうゆ",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -66,6 +67,7 @@
   "disputed": false,
   "summary_zh": "酱油由豆酱汁液演化而来；公元40年《四民月令》已见清酱，544年《齐民要术》详述制法，宋代「酱油」之名定型。",
   "summary_en": "Soy sauce evolved from fermented soybean seasonings. Qingjiang appeared in the Simin Yueling (40 CE), the Qimin Yaoshu (544) detailed production, and the name jiangyou settled in Song texts.",
+  "summary_ja": "しょうゆは発酵大豆の調味料から発展した。清醤は『四民月令』（40年）に現れ、『斉民要術』（544年）が製法を詳述し、名称「醤油」は宋の文献で定着した。",
   "tags": [
     "food-drink"
   ],

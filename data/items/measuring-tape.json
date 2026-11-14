@@ -2,6 +2,7 @@
   "id": "measuring-tape",
   "name_zh": "卷尺",
   "name_en": "Tape measure",
+  "name_ja": "巻尺",
   "category": "hand_tool",
   "years": {
     "invention": {
@@ -62,6 +63,7 @@
   "notes": "1864 年 William H. Bangs 也获得过卷尺专利；费洛斯的设计加入了可锁定尺带的弹簧卡扣。",
   "summary_zh": "1821 年谢菲尔德的詹姆斯·切斯特曼做出可收卷的卷尺；1868 年康涅狄格州的费洛斯为带弹簧卡位的卷尺申请专利。",
   "summary_en": "James Chesterman of Sheffield made a retractable measuring tape in 1821; Alvin Fellows of Connecticut patented a spring tape measure in 1868.",
+  "summary_ja": "シェフィールドの James Chesterman は1821年に巻き取れる巻尺を作った。コネチカットの Alvin Fellows は1868年にばね式巻尺を特許化した。",
   "tags": [
     "repair"
   ],

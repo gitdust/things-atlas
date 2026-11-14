@@ -2,6 +2,7 @@
   "id": "watch",
   "name_zh": "手表",
   "name_en": "Watch",
+  "name_ja": "腕時計",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -94,6 +95,7 @@
   "disputed": false,
   "summary_zh": "1868 年百达翡丽制造首只腕表，1904 年卡地亚打造首款男士飞行腕表；一战战壕使腕上读时普及，其后历经石英革命与现代智能跃迁，成为全球手腕上的永恒标配。",
   "summary_en": "From Patek Philippe's 1868 piece and Cartier's 1904 Santos to WWI trench watches and 1969 Seiko quartz precision, the wristwatch replaced pocket watches as humanity's essential wrist-worn companion.",
+  "summary_ja": "パテック フィリップの1868年の作品とカルティエの1904年のサントスから、第一次世界大戦のトレンチウォッチ、1969年のセイコーのクォーツ精度まで、腕時計は懐中時計に代わる手首の道具になった。",
   "tags": [
     "clothing",
     "materials"

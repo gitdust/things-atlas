@@ -2,7 +2,7 @@ import tagData from '../../data/tags.json';
 import { DisputeIcon } from './DisputeIcon';
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
 import type { AtlasItem } from '@/lib/types';
-import { formatYear, pick, t, type Lang } from '@/lib/i18n';
+import { fill, formatYear, pick, t, type Lang } from '@/lib/i18n';
 
 type Props = {
   lang: Lang;
@@ -53,7 +53,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
         .sort((a, b) => a.primary_year - b.primary_year || a.id.localeCompare(b.id))
         .map((item) => ({
           item,
-          terms: [item.name_zh, item.name_en, item.id].map((name) =>
+          terms: [item.name_zh, item.name_en, item.name_ja, item.id].map((name) =>
             name.normalize('NFKC').toLowerCase(),
           ),
         })),
@@ -72,13 +72,9 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
       const year = item.primary_year;
       const label =
         year < 1
-          ? lang === 'zh'
-            ? '公元前'
-            : 'BCE'
+          ? t(lang, 'eraBce')
           : year < 1000
-            ? lang === 'zh'
-              ? '公元 1–999 年'
-              : '1–999 CE'
+            ? t(lang, 'eraFirst')
             : `${Math.floor(year / 100) * 100}–${Math.floor(year / 100) * 100 + 99}`;
       const group = result.get(label);
       if (group) group.push(item);
@@ -90,10 +86,10 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
   const issue = new URL('https://github.com/gitdust/things-atlas/issues/new');
   issue.searchParams.set('title', `add: ${query.trim()}`);
   return (
-    <aside className="drawer catalog" aria-label={lang === 'zh' ? '条目目录' : 'Entry catalogue'}>
+    <aside className="drawer catalog" aria-label={t(lang, 'catalogue')}>
       <header className="catalog-head">
         <div className="catalog-title-row">
-          <h2>{lang === 'zh' ? '日常之物' : 'Everyday things'}</h2>
+          <h2>{t(lang, 'everyday')}</h2>
           <label className="switch catalog-dispute-switch">
             <input
               type="checkbox"
@@ -126,11 +122,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
             className="catalog-search-count num"
             role="status"
             aria-live="polite"
-            aria-label={
-              lang === 'zh'
-                ? `${matchCount} 个匹配条目，共 ${items.length} 个条目`
-                : `${matchCount} matching entries out of ${items.length}`
-            }
+            aria-label={fill(t(lang, 'matchCount'), { found: matchCount, total: items.length })}
           >
             {matchCount} / {items.length}
           </span>
@@ -143,7 +135,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
           <button
             type="button"
             className="tags-scroll-btn tags-scroll-left"
-            aria-label={lang === 'zh' ? '向左滑动标签' : 'Scroll tags left'}
+            aria-label={t(lang, 'scrollTagsLeft')}
             onClick={() => scrollByOffset('left')}
             tabIndex={-1}
           >
@@ -155,7 +147,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
             ref={tagsRef}
             className="catalog-tags"
             role="group"
-            aria-label={lang === 'zh' ? '标签筛选（同时符合）' : 'Filter tags (match all)'}
+            aria-label={t(lang, 'filterTags')}
             onScroll={updateScrollState}
             onWheel={(e) => {
               if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
@@ -171,7 +163,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
                 tagsRef.current?.scrollTo({ left: 0, behavior: 'smooth' });
               }}
             >
-              {lang === 'zh' ? '全部' : 'All'}
+              {t(lang, 'all')}
             </button>
             {tagData.tags.map((tag) => (
               <button
@@ -191,14 +183,14 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
                   });
                 }}
               >
-                {pick(lang, tag.name_zh, tag.name_en)}
+                {pick(lang, tag.name_zh, tag.name_en, { es: tag.name_es, ja: tag.name_ja })}
               </button>
             ))}
           </div>
           <button
             type="button"
             className="tags-scroll-btn tags-scroll-right"
-            aria-label={lang === 'zh' ? '向右滑动标签' : 'Scroll tags right'}
+            aria-label={t(lang, 'scrollTagsRight')}
             onClick={() => scrollByOffset('right')}
             tabIndex={-1}
           >
@@ -218,7 +210,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
                   <button type="button" data-item-id={item.id} onClick={() => onSelect(item.id)}>
                     <span className="catalog-year num">{formatYear(lang, item.primary_year)}</span>
                     <span>
-                      {pick(lang, item.name_zh, item.name_en)}
+                      {pick(lang, item.name_zh, item.name_en, { ja: item.name_ja })}
                       {item.disputed ? <DisputeIcon label={t(lang, 'disputed')} /> : null}
                     </span>
                   </button>

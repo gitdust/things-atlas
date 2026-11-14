@@ -2,6 +2,7 @@
   "id": "wheelbarrow",
   "name_zh": "独轮车",
   "name_en": "Wheelbarrow",
+  "name_ja": "一輪車",
   "category": "hand_tool",
   "years": {
     "invention": {
@@ -63,6 +64,7 @@
   "notes_en": "Chinese one-wheeled barrows are depicted by the early 2nd century CE in Sichuan, before Zhuge Liang. His “wooden ox / gliding horse” is often called a wheelbarrow, but some reconstructions make it four-wheeled, so he should not be treated as sole inventor. European wheelbarrows appear later.",
   "summary_zh": "中国独轮车约公元 118 年已见于四川墓葬图像；诸葛亮「木牛流马」是否即独轮手推车仍有争议，不应简单视为唯一发明人。",
   "summary_en": "Chinese wheelbarrows appeared in Sichuan imagery by about 118 CE. Whether Zhuge Liang’s “wooden ox” was a wheelbarrow remains disputed; he should not be treated as the sole inventor.",
+  "summary_ja": "中国の一輪車は118年頃までに四川の図像に現れる。諸葛亮の「木牛」が一輪車だったかは争われ、彼を唯一の発明者とみなすべきではない。",
   "tags": [
     "travel"
   ],

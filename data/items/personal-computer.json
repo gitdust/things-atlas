@@ -2,6 +2,7 @@
   "id": "personal-computer",
   "name_zh": "个人电脑",
   "name_en": "Personal computer",
+  "name_ja": "パーソナルコンピュータ",
   "category": "digital",
   "years": {
     "invention": {
@@ -76,6 +77,7 @@
   "disputed": true,
   "summary_zh": "1975 年 Altair 8800 点燃个人电脑热潮；1977 年 Apple II、PET 与 TRS-80 推动成品机市场，1981 年 IBM PC 确立重要标准。「第一台个人电脑」的归属仍有争议。",
   "summary_en": "The 1975 Altair 8800 sparked the PC boom; the 1977 Apple II, PET and TRS-80 expanded the market, and the 1981 IBM PC set a major standard. Which machine came first remains contested.",
+  "summary_ja": "1975年の Altair 8800 がPCブームの火付け役になった。1977年の Apple II、PET、TRS-80 が市場を広げ、1981年のIBM PCが大きな標準を作った。どれが最初かは争われている。",
   "tags": [
     "office",
     "computing"

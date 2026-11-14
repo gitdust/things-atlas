@@ -2,6 +2,7 @@
   "id": "eyeglasses",
   "name_zh": "眼镜",
   "name_en": "Eyeglasses",
+  "name_ja": "眼鏡",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -44,6 +45,7 @@
   "notes_en": "This entry covers paired corrective spectacles, not earlier magnifiers or reading stones. Dates around 1285–1290 and an Italian origin are approximate; the inventor and exact city are unknown. The 1280 marker represents a decade.",
   "summary_zh": "约13世纪末，意大利工匠将两片镜片连接成可佩戴的阅读辅助工具。早期眼镜没有镜腿，具体发明者与地点仍不确定。",
   "summary_en": "Paired reading lenses appeared in late-13th-century Italy. Early spectacles had no side arms; their precise inventor and place of origin remain uncertain.",
+  "summary_ja": "対の読書用レンズは13世紀末のイタリアに現れた。初期の眼鏡につるはなく、発明者と発祥地ははっきりしない。",
   "tags": [
     "clothing",
     "health"

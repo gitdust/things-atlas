@@ -2,6 +2,7 @@
   "id": "light-bulb",
   "name_zh": "白炽灯泡",
   "name_en": "Incandescent light bulb",
+  "name_ja": "白熱電球",
   "category": "home",
   "years": {
     "invention": {
@@ -70,6 +71,7 @@
   "notes": "历史学家列出过多位早于爱迪生和斯旺的白炽灯发明者。斯旺 1879 年 1 月 17 日在纽卡斯尔成功演示，他的灯泡 1881 年已在伦敦日常使用；爱迪生的优势在于高真空、高电阻灯丝和整套供电系统。",
   "summary_zh": "白炽灯有多位先驱；1879 年爱迪生在门洛帕克做出实用碳丝灯并申请专利，同年英国的斯旺也公开演示，1881 年斯旺灯已在伦敦日常使用。",
   "summary_en": "Many pioneered the incandescent lamp. In 1879 Edison made a practical carbon-filament lamp at Menlo Park and filed a patent; Swan demonstrated his in England that year and lit London by 1881.",
+  "summary_ja": "白熱灯には多くの先駆者がいる。1879年、エジソンはメンロパークで実用的な炭素フィラメント灯を作り特許を申請した。スワンは同年イングランドで公開し、1881年までにロンドンを照らした。",
   "tags": [
     "electric",
     "household"

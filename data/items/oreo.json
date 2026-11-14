@@ -2,6 +2,7 @@
   "id": "oreo",
   "name_zh": "奥利奥",
   "name_en": "Oreo",
+  "name_ja": "オレオ",
   "category": "kitchen",
   "years": {
     "invention": null,
@@ -49,6 +50,7 @@
   "notes": "本条只记录奥利奥品牌巧克力夹心饼干，1912年为产品推出和生产节点。夹心饼干更早已有，Hydrox在1908年已推出；不能将奥利奥视为所有夹心饼干的首次发明。配图为现代产品。",
   "summary_zh": "奥利奥是巧克力饼干夹白色甜馅的品牌产品，1912年由美国国家饼干公司在纽约切尔西生产并推出。夹心饼干在此之前已经存在；本条记录奥利奥的商品化历史，而非整个食品类型的起源。",
   "summary_en": "Oreo chocolate sandwich cookies were introduced and produced by National Biscuit Company in New York’s Chelsea neighborhood in 1912. Sandwich cookies existed earlier; this is a brand history.",
+  "summary_ja": "オレオのチョコレートサンドクッキーは、1912年にニューヨークのチェルシーでナショナル・ビスケット社が発売し製造した。サンドクッキー自体はそれ以前からあり、これはブランドの歴史である。",
   "tags": [
     "food-drink"
   ],

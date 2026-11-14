@@ -2,6 +2,7 @@
   "id": "vacuum-cleaner",
   "name_zh": "吸尘器",
   "name_en": "Vacuum cleaner",
+  "name_ja": "掃除機",
   "category": "home",
   "years": {
     "invention": {
@@ -72,6 +73,7 @@
   "disputed": false,
   "summary_zh": "吸尘器利用电机产生负压气流吸入粉尘杂物。1901 年布斯发明动力抽吸系统后，斯潘格勒与胡佛将之改造成轻便家用机型，成为现代家庭地面清洁的基本工具。",
   "summary_en": "The vacuum cleaner uses suction to remove dust and debris. Following Booth's 1901 powered cleaner, Spangler and Hoover developed portable electric models that became standard home appliances.",
+  "summary_ja": "掃除機は吸引力でほこりやごみを取り除く。Booth の1901年の動力掃除機に続き、Spangler と Hoover が持ち運べる電動機を作り、家庭の標準的な家電にした。",
   "tags": [
     "cleaning",
     "electric",

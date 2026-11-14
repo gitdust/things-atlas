@@ -2,6 +2,7 @@
   "id": "ethernet-cable",
   "name_zh": "网线",
   "name_en": "Ethernet cable",
+  "name_ja": "イーサネットケーブル",
   "category": "digital",
   "years": {
     "invention": {
@@ -53,6 +54,7 @@
   "notes": "最初的以太网使用粗同轴电缆，并非今天的双绞线 RJ45 网线；本条目以以太网本身的诞生为起点。",
   "summary_zh": "1973 年梅特卡夫在施乐帕洛阿尔托研究中心构想并跑通以太网，最初用同轴电缆；后来改用今天常见的双绞线网线。",
   "summary_en": "Robert Metcalfe conceived Ethernet at Xerox PARC in 1973 and it first ran that November over coaxial cable; later versions moved to today's twisted-pair cables.",
+  "summary_ja": "Robert Metcalfe は1973年にゼロックスPARCでイーサネットを構想し、その11月に同軸ケーブルで初めて動いた。後の方式は今日のツイストペアへ移った。",
   "tags": [
     "computing",
     "media"

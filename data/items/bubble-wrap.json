@@ -2,6 +2,7 @@
   "id": "bubble-wrap",
   "name_zh": "气泡膜",
   "name_en": "Bubble wrap",
+  "name_ja": "プチプチ",
   "category": "home",
   "years": {
     "invention": {
@@ -65,6 +66,7 @@
   "disputed": false,
   "summary_zh": "1957 年两位工程师研发立体壁纸失败，却意外创造了密封气泡膜。1960 年 IBM 选用它运送精密计算机，使其迅速成为现代电商与包裹物流的减震标配。",
   "summary_en": "Invented in 1957 as 3D wallpaper, sealed plastic bubbles found their calling in 1960 when IBM used them to pack computers, turning Bubble Wrap into an icon of global packaging.",
+  "summary_ja": "1957年に立体壁紙として発明された密閉プラスチック気泡は、1960年にIBMがコンピュータの梱包に使い、Bubble Wrap として包装の象徴になった。",
   "tags": [
     "storage",
     "materials",

@@ -219,6 +219,70 @@ button {
   border-color: var(--rule-strong);
 }
 
+.lang-menu {
+  position: relative;
+}
+.lang-menu-button {
+  min-width: 44px;
+  padding: 7px 12px;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-pill);
+  background: var(--glass);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  cursor: pointer;
+}
+.lang-menu-list {
+  position: absolute;
+  top: calc(100% - 4px);
+  right: 0;
+  z-index: var(--z-overlay);
+  display: none;
+  min-width: 148px;
+  margin: 0;
+  padding: 6px 0 4px;
+  list-style: none;
+}
+.lang-menu-list::before {
+  content: '';
+  position: absolute;
+  inset: 10px 0 0;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: var(--shadow-1);
+}
+.lang-menu:hover .lang-menu-list,
+.lang-menu:focus-within .lang-menu-list,
+.lang-menu.is-open .lang-menu-list {
+  display: grid;
+}
+.lang-menu-list button {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 14px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  text-align: left;
+  cursor: pointer;
+}
+.lang-menu-list button span {
+  width: 1.8em;
+  color: var(--ink-3);
+}
+.lang-menu-list button.is-active span,
+.lang-menu-list button:hover {
+  color: var(--ink);
+  font-weight: var(--fw-medium);
+}
+
 /* --------------------------------------------------------------- segmented */
 
 .segmented {
@@ -1904,8 +1968,7 @@ button {
   width: 36px;
   height: 36px;
   padding: var(--s-1);
-  border: 1px solid var(--rule-strong);
-  border-radius: var(--r-pill);
+  border: 0;
   color: var(--accent);
 }
 .quiz-launch-button svg {
@@ -1915,7 +1978,11 @@ button {
   animation: map-bulb-shake 3s ease-in-out infinite;
 }
 .quiz-launch-button:hover {
-  background: var(--accent-soft);
+  color: var(--ink);
+}
+.quiz-launch-button:hover svg {
+  animation-play-state: paused;
+  transform: scale(1.16);
 }
 @keyframes map-bulb-shake {
   0%,

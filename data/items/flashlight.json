@@ -2,6 +2,7 @@
   "id": "flashlight",
   "name_zh": "手电筒",
   "name_en": "Flashlight",
+  "name_ja": "懐中電灯",
   "category": "hand_tool",
   "years": {
     "invention": null,
@@ -59,6 +60,7 @@
   "disputed": false,
   "summary_zh": "1899 年 1 月 10 日，大卫·米塞尔获得手电筒专利，并转让给纽约的美国电气新奇制造公司，也就是后来的永备（Eveready）。",
   "summary_en": "David Misell patented the flashlight on 10 January 1899 and assigned it to New York's American Electrical Novelty and Manufacturing Co., later Eveready.",
+  "summary_ja": "David Misell は1899年1月10日に懐中電灯を特許化し、後のエバレディとなるニューヨークの American Electrical Novelty and Manufacturing Co. に譲渡した。",
   "tags": [
     "travel",
     "electric"

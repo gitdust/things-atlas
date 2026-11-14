@@ -11,7 +11,7 @@ export const SHARE_FORMATS = {
 
 export type ShareFormat = keyof typeof SHARE_FORMATS;
 export type ShareImage = { path: string; width: number; height: number; mime: string; alt: string };
-export type ShareManifest = Record<string, Record<Lang, Record<ShareFormat, ShareImage>>>;
+export type ShareManifest = Record<string, Partial<Record<Lang, Record<ShareFormat, ShareImage>>>>;
 
 export function shareUrl(id: string, lang: Lang) {
   return absoluteUrl(itemPath(id), lang);
@@ -20,15 +20,16 @@ export function shareUrl(id: string, lang: Lang) {
 export function shareYear(lang: Lang, mark: NonNullable<YearMark>) {
   const year = formatYear(lang, mark.year);
   const approximate = mark.precision === 'decade' || mark.precision === 'century';
-  return lang === 'zh'
-    ? `${approximate ? '约 ' : ''}${year} 年`
-    : `${approximate ? 'c. ' : ''}${year}`;
+  if (lang === 'zh') return `${approximate ? '约 ' : ''}${year} 年`;
+  if (lang === 'ja') return `${approximate ? '約' : ''}${year}年`;
+  if (lang === 'es') return `${approximate ? 'c. ' : ''}${year}`;
+  return `${approximate ? 'c. ' : ''}${year}`;
 }
 
 export function shareContent(item: AtlasItem, lang: Lang) {
-  const name = item[`name_${lang}`];
-  const editorial = item.share?.[lang];
-  const summary = editorial?.summary ?? item[`summary_${lang}`];
+  const name = lang === 'es' || lang === 'ja' ? item.name_en : item[`name_${lang}`];
+  const editorial = lang === 'zh' || lang === 'en' ? item.share?.[lang] : undefined;
+  const summary = editorial?.summary ?? (lang === 'zh' ? item.summary_zh : item.summary_en);
   const ogSummary = editorial?.ogSummary ?? summary;
   const source = item.sources[0]?.title;
   for (const [field, value] of Object.entries({ name, summary, ogSummary, source })) {
@@ -69,6 +70,14 @@ export function shareContent(item: AtlasItem, lang: Lang) {
     ogSummary,
     source,
     milestones,
-    dispute: item.disputed ? (lang === 'zh' ? '起源存在争议' : 'Origins disputed') : '',
+    dispute: item.disputed
+      ? lang === 'zh'
+        ? '起源存在争议'
+        : lang === 'ja'
+          ? '起源には異説がある'
+          : lang === 'es'
+            ? 'El origen está en disputa'
+            : 'Origins disputed'
+      : '',
   };
 }

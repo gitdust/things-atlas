@@ -15,7 +15,7 @@ Foods and beverages may also include specific branded products with broad cultur
 - **View object details**: Explore photos, summaries, key dates, related places, and reference sources.
 - **Explore disputed histories**: Identify disputed entries in the directory and view dispute notes and date precision in the details.
 - **Version updates**: See the current version beside the title. A green prompt announces a newer version; refresh through it to view that release’s changes. Historical change records remain in the repository.
-- **Switch languages**: Browse in Chinese or English.
+- **Languages**: Chinese, English, Spanish, and Japanese. Chinese uses the unprefixed URL; the others use `/en/`, `/es/`, and `/ja/`. Entry prose falls back to English until a Spanish or Japanese translation exists.
 - **Share links**: Share an object's detail link with the selected year and language preserved.
 
 The basemap uses modern political borders. Historical locations are approximate.

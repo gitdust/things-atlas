@@ -2,6 +2,7 @@
   "id": "correction-fluid",
   "name_zh": "修正液",
   "name_en": "Correction fluid",
+  "name_ja": "修正液",
   "category": "stationery",
   "years": {
     "invention": {
@@ -42,6 +43,7 @@
   "disputed": false,
   "summary_zh": "1956 年，达拉斯秘书贝蒂·格雷厄姆用白色颜料遮盖打字错误，后来发展成 Liquid Paper 修正液。",
   "summary_en": "In 1956, Dallas secretary Bette Nesmith Graham began covering typing errors with white paint, which became Liquid Paper.",
+  "summary_ja": "1956年、ダラスの秘書 Bette Nesmith Graham がタイプの誤りを白い塗料で隠し始め、それが Liquid Paper になった。",
   "tags": [
     "office",
     "writing"

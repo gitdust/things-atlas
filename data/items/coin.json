@@ -2,6 +2,7 @@
   "id": "coin",
   "name_zh": "硬币",
   "name_en": "Coin",
+  "name_ja": "硬貨",
   "category": "home",
   "years": {
     "invention": {
@@ -69,6 +70,7 @@
   "notes_en": "Standardized metal coinage originated independently in multiple ancient centers: in the 7th–6th century BCE, Lydia in Asia Minor created stamped electrum coins that founded the Western struck-coin tradition, while the Central Plains of China developed cast-bronze spade money, founding the East Asian tradition. Their independent chronologies and distinct metallurgy form a widely acknowledged historical divergence.",
   "summary_zh": "约公元前七至六世纪，吕底亚王国首创官印打制琥珀金币，中国中原独立铸造青铜布币；硬币为贸易确立了标准化国家信用与交换尺度。",
   "summary_en": "Emerging in the 7th–6th centuries BCE via Lydian stamped electrum in Anatolia and bronze spade money in ancient China, coins established standardized state-certified currency for human trade.",
+  "summary_ja": "紀元前7–6世紀、アナトリアのリディアで打刻されたエレクトラムと、古代中国の青銅の布銭を通じて生まれ、国家が保証する標準的な交換手段になった。",
   "tags": [
     "trade"
   ],

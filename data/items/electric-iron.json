@@ -2,6 +2,7 @@
   "id": "electric-iron",
   "name_zh": "电熨斗",
   "name_en": "Electric iron",
+  "name_ja": "電気アイロン",
   "category": "home",
   "years": {
     "invention": {
@@ -66,6 +67,7 @@
   "disputed": false,
   "summary_zh": "电熨斗通过电热元件加热底板并配合压力与蒸汽平整织物。1882年西利发明电平熨斗，告别了传统炭火加热；20世纪温控与蒸汽功能的加入使其成为衣物打理的必备品。",
   "summary_en": "The electric iron uses heated resistance elements to press clothes. Patented by Henry Seely in 1882, it replaced charcoal-heated irons and later integrated thermostats and steam for fabric care.",
+  "summary_ja": "電気アイロンは抵抗体の熱で衣服を押す。1882年に Henry Seely が特許を得て、炭火アイロンに取って代わり、後に温度調節とスチームを備えた。",
   "tags": [
     "clothing",
     "electric",

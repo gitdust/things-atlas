@@ -2,6 +2,7 @@
   "id": "teapot",
   "name_zh": "茶壶",
   "name_en": "Teapot",
+  "name_ja": "急須",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -66,6 +67,7 @@
   "disputed": false,
   "summary_zh": "随散茶冲泡法兴起，明代宜兴紫砂壶成为专用泡茶器；南京吴经墓（1533）出土目前最早可断代实物。",
   "summary_en": "As leaf steeping replaced powdered tea, Ming Yixing zisha pots became purpose-made teapots. The earliest securely dated example is from Wu Jing’s Nanjing tomb (d. 1533).",
+  "summary_ja": "葉を浸す淹れ方が粉末茶に取って代わると、明の宜興の紫砂壺が専用の急須になった。確実に年代の分かる最古の例は、1533年に没した呉経の南京の墓から出土している。",
   "tags": [
     "dining"
   ],

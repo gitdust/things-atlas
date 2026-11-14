@@ -2,6 +2,7 @@
   "id": "laptop",
   "name_zh": "笔记本电脑",
   "name_en": "Laptop",
+  "name_ja": "ノートパソコン",
   "category": "digital",
   "years": {
     "invention": {
@@ -57,6 +58,7 @@
   "disputed": true,
   "summary_zh": "1982 年 GRiD Compass 采用翻盖式设计，成为早期笔记本电脑的重要代表；1981 年 Osborne 便携机与 Epson HX-20 等先驱也使「第一台笔记本」的定义存在争议。",
   "summary_en": "The 1982 GRiD Compass was an influential clamshell laptop. Earlier portable machines such as the 1981 Osborne and Epson HX-20 complicate claims to the first laptop.",
+  "summary_ja": "1982年のGRiD Compassは影響力のある二つ折り型だった。1981年の Osborne や Epson HX-20 など先行する携帯機があり、最初の一台を決めるのは難しい。",
   "tags": [
     "office",
     "computing"

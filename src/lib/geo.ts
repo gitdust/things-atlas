@@ -6,6 +6,7 @@ export type ItemFeatureProps = {
   location_index: number;
   name_zh: string;
   name_en: string;
+  name_ja: string;
   category: string;
   primary_year: number;
   disputed: boolean;
@@ -31,6 +32,7 @@ export function itemsToGeoJSON(items: AtlasItem[]): FeatureCollection<Point, Ite
           location_index,
           name_zh: item.name_zh,
           name_en: item.name_en,
+          name_ja: item.name_ja,
           category: item.category,
           primary_year: item.primary_year,
           disputed: item.disputed,

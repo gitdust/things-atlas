@@ -2,6 +2,7 @@
   "id": "moka-pot",
   "name_zh": "摩卡壶",
   "name_en": "Moka pot",
+  "name_ja": "モカポット",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -65,6 +66,7 @@
   "notes_en": "Company histories date the invention to 1933, but early patent attribution is messy and often points to Luigi De Ponti rather than Alfonso Bialetti himself; this entry still uses the 1933 product launch as the primary year.",
   "summary_zh": "摩卡壶是意大利炉灶煮咖啡器，由阿方索·比亚莱蒂于1933年推出；二战后成为意式家庭煮咖啡的代表器具。",
   "summary_en": "The moka pot is Italy’s stove-top coffee maker, launched by Alfonso Bialetti in 1933 and established as an everyday Italian household fixture after World War II.",
+  "summary_ja": "モカポットはイタリアの直火式コーヒーメーカーで、1933年に Alfonso Bialetti が発売した。第二次世界大戦後、イタリアの家庭の定番になった。",
   "tags": [
     "dining"
   ],

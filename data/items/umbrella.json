@@ -2,6 +2,7 @@
   "id": "umbrella",
   "name_zh": "伞",
   "name_en": "Umbrella",
+  "name_ja": "傘",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -94,6 +95,7 @@
   "disputed": false,
   "summary_zh": "从周代仪仗与秦陵铜车马精密的机械机关伞，到 1852 年英国福克斯发明轻量槽形钢骨，再到 1928 年德国伸缩折叠伞，伞历经数千年演变，成为全球遮阳避雨的随身必备。",
   "summary_en": "From Qin chariot bronze umbrellas with mechanical joints to Samuel Fox's 1852 steel frame and 1928 Knirps pocket models, the umbrella evolved into an essential everyday shelter worldwide.",
+  "summary_ja": "機械関節のある秦の車の青銅の傘から、1852年の Samuel Fox の鋼骨、1928年のクニルプスの折りたたみまで、傘は日常の雨よけへ発展した。",
   "tags": [
     "travel",
     "health",

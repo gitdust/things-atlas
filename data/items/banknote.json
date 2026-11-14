@@ -2,6 +2,7 @@
   "id": "banknote",
   "name_zh": "纸币",
   "name_en": "Banknote",
+  "name_ja": "紙幣",
   "category": "home",
   "years": {
     "invention": {
@@ -60,6 +61,7 @@
   "notes_en": "Private jiaozi notes circulated in Sichuan by the late 10th century; this entry uses the 1023–1024 state takeover and official issue as the primary mark.",
   "summary_zh": "世界最早的纸币出现在中国：北宋四川交子在1023–1024年由官府发行，其后元明继续推行钞法。",
   "summary_en": "The world’s earliest banknotes appeared in China: Northern Song Sichuan jiaozi were officially issued in 1023–1024, with Yuan and Ming states later expanding paper currency.",
+  "summary_ja": "世界最古の紙幣は中国に現れた。北宋の四川で交子が1023–1024年に官発され、元と明が後に紙の通貨を広げた。",
   "tags": [
     "trade"
   ],

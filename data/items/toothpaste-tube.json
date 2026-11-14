@@ -2,6 +2,7 @@
   "id": "toothpaste-tube",
   "name_zh": "牙膏管",
   "name_en": "Toothpaste tube",
+  "name_ja": "歯磨き粉のチューブ",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -42,6 +43,7 @@
   "notes": "年份有分歧：维基百科写作 1880 年，其他资料常写 1892 年，因此精度只标到十年。牙膏本身比软管古老得多。",
   "summary_zh": "19 世纪 80 至 90 年代，康涅狄格州牙医华盛顿·谢菲尔德把牙膏装进可挤压的金属软管；1896 年高露洁跟进。",
   "summary_en": "In the 1880s–90s, Connecticut dentist Washington Sheffield put toothpaste into a collapsible tube; Colgate followed in 1896.",
+  "summary_ja": "1880–90年代、コネチカットの歯科医 Washington Sheffield が歯磨き粉を押し出し式のチューブに入れた。コルゲートは1896年に続いた。",
   "tags": [
     "storage",
     "cleaning",

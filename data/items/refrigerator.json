@@ -2,6 +2,7 @@
   "id": "refrigerator",
   "name_zh": "冰箱",
   "name_en": "Refrigerator",
+  "name_ja": "冷蔵庫",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -66,6 +67,7 @@
   "disputed": false,
   "summary_zh": "冰箱通过人工制冷保持低温以储藏食品。19世纪确立蒸气压缩循环后，20世纪初走向家庭化，通用电气1927年推出的密闭压缩机机型带动了现代家用冰箱的普及。",
   "summary_en": "The refrigerator preserves food by artificial cooling. Following 19th-century vapor-compression systems, General Electric's 1927 Monitor-Top popularized sealed home refrigeration.",
+  "summary_ja": "冷蔵庫は人工的な冷却で食品を保存する。19世紀の蒸気圧縮方式に続き、ゼネラル・エレクトリックの1927年のモニタートップが密閉型の家庭用冷蔵を広めた。",
   "tags": [
     "storage",
     "electric",

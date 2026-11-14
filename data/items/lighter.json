@@ -2,6 +2,7 @@
   "id": "lighter",
   "name_zh": "打火机",
   "name_en": "Lighter",
+  "name_ja": "ライター",
   "category": "home",
   "years": {
     "invention": {
@@ -81,6 +82,7 @@
   "disputed": false,
   "summary_zh": "1823 年德贝莱纳研制出最早的催化打火机；1903 年韦尔斯巴赫发明铈铁打火石奠定现代点火机械，70 年代比克推出一次性丁烷打火机使其普及全球。",
   "summary_en": "Originating in 1823 with Döbereiner's catalytic lamp and revolutionized in 1903 by Welsbach's ferrocerium flint, lighters became cheap, ubiquitous household items with BIC's 1973 disposable model.",
+  "summary_ja": "1823年のデーベライナーの触媒ランプに始まり、1903年のウェルスバッハの発火合金で大きく変わった。BICの1973年の使い捨てが、安くどこにでもある日用品にした。",
   "tags": [
     "household"
   ],

@@ -2,6 +2,7 @@
   "id": "toothbrush",
   "name_zh": "牙刷",
   "name_en": "Toothbrush",
+  "name_ja": "歯ブラシ",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -50,6 +51,7 @@
   "notes": "更早的嚼枝（chew stick）可追溯到约前 3500 年的苏美尔，但不属于刷毛牙刷。阿迪斯的具体城市未核实，地点只到国家。",
   "summary_zh": "把猪鬃装在骨柄上的牙刷在唐代中国已经使用，17 世纪传入欧洲；1780 年英国的威廉·阿迪斯开始量产牙刷。",
   "summary_en": "Bristle toothbrushes were used in Tang-dynasty China and reached Europe in the 17th century; William Addis began mass-producing them in England around 1780.",
+  "summary_ja": "毛の歯ブラシは唐の中国で使われ、17世紀にヨーロッパへ届いた。William Addis は1780年頃、イングランドで量産を始めた。",
   "tags": [
     "cleaning",
     "grooming"

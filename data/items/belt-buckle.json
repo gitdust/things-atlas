@@ -2,6 +2,7 @@
   "id": "belt-buckle",
   "name_zh": "皮带扣",
   "name_en": "Belt buckle",
+  "name_ja": "ベルトのバックル",
   "category": "apparel_accessory",
   "years": {
     "invention": null,
@@ -37,6 +38,7 @@
   "notes": "来源较弱：带扣在古罗马时期已有使用，但没有可靠的具体年份，因此发明年留空，只记录 15 世纪的普及。",
   "summary_zh": "带扣在中世纪多为装饰，只属于富人；15 世纪模铸工艺让廉价带扣进入普通人的衣着。",
   "summary_en": "Medieval buckles were mostly ornamental and for the wealthy; in the 15th century moulded buckles became cheap enough for everyone.",
+  "summary_ja": "中世のバックルは多くが装飾で富裕層のものだった。15世紀には型で作ったバックルが安くなり、誰でも使えるようになった。",
   "tags": [
     "fastening",
     "clothing"

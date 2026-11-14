@@ -2,6 +2,7 @@
   "id": "stirrup",
   "name_zh": "马镫",
   "name_en": "Stirrup",
+  "name_ja": "あぶみ",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -63,6 +64,7 @@
   "notes_en": "True paired stirrups are long disputed between China-centred and steppe-centred accounts. A Changsha-area figurine of about 302 CE is an early firm Chinese marker; Mongolian finds of the 4th–5th centuries suggest shared East Asian–steppe development. Single mounting loops also differ from paired riding stirrups.",
   "summary_zh": "马镫约四世纪初出现于东亚；中国长沙一带约公元302年已有相关陶俑证据，与草原马具传统的先后关系仍有争议。",
   "summary_en": "Stirrups appeared in East Asia by the early 4th century. A Changsha-area figurine of about 302 CE is early Chinese evidence; priority versus steppe traditions remains disputed.",
+  "summary_ja": "あぶみは4世紀初頭までに東アジアに現れた。長沙周辺の紀元302年頃の俑が中国の早い証拠である。草原の伝統との先後は争われている。",
   "tags": [
     "travel"
   ],

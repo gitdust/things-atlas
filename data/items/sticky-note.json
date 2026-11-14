@@ -2,6 +2,7 @@
   "id": "sticky-note",
   "name_zh": "便利贴",
   "name_en": "Sticky note",
+  "name_ja": "付箋",
   "category": "stationery",
   "years": {
     "invention": {
@@ -79,6 +80,7 @@
   "notes": "胶水由西尔弗于 1968 年发现，1972 年获专利；1974 年弗赖想到用它做书签，才有便利贴的构想。1978 年在博伊西试销，1980-04-06 全美上市，1981 年进入加拿大和欧洲。艾姆伦（Amron）曾声称自己 1973 年发明，双方和解后他再次起诉，被法院驳回。",
   "summary_zh": "1968 年发现胶水，1974 年弗赖想到用它做书签，1980 年全美上市——发明与普及相差十多年。",
   "summary_en": "The adhesive was discovered in 1968; Fry’s bookmark idea came in 1974; the US national launch followed in 1980 — invention and popularization are years apart.",
+  "summary_ja": "粘着剤は1968年に見つかり、Fry のしおりの着想は1974年、米国での全国発売は1980年である。発明と普及は別の年である。",
   "tags": [
     "office",
     "fastening"

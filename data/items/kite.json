@@ -2,6 +2,7 @@
   "id": "kite",
   "name_zh": "风筝",
   "name_en": "Kite",
+  "name_ja": "凧",
   "category": "home",
   "years": {
     "invention": {
@@ -63,6 +64,7 @@
   "notes_en": "Mozi’s wooden kite and Lu Ban’s bamboo “magpie” are often cited, but whether they equal later paper recreational kites is debated; military ranging stories are hard to verify case by case. The tradition is Chinese, with flying frames attested around the Warring States era and paper kites popular by Tang–Song times.",
   "summary_zh": "风筝传统源于中国，战国前后已有木竹飞鸢记载；唐宋纸鸢成为娱乐。具体发明人与最早形态仍有争议。",
   "summary_en": "Kites originated in China, with wooden frames attested around the 5th century BCE and paper kites popular by Tang–Song times. The exact inventor and earliest form remain disputed.",
+  "summary_ja": "凧は中国に起源がある。木枠は紀元前5世紀頃に確認され、紙の凧は唐から宋に普及した。発明者と最古の形は争われている。",
   "tags": [
     "leisure"
   ],

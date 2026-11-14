@@ -2,6 +2,7 @@
   "id": "wok",
   "name_zh": "炒锅",
   "name_en": "Wok",
+  "name_ja": "中華鍋",
   "category": "kitchen",
   "years": {
     "invention": null,
@@ -50,6 +51,7 @@
   "notes_en": "No precise invention year is known; clay cauldrons are far older, while iron woks become clear later. This entry uses Song-dynasty cast-iron household woks as the primary mark; sourcing is relatively thin.",
   "summary_zh": "炒锅由中国圜底锅演化而来，精确发明年不详；宋代起铸铁炒锅在日常烹饪中普及，成为爆炒核心炊具。",
   "summary_en": "The wok evolved from Chinese round-bottomed pots; no single invention year is known. Cast-iron household woks became common in the Song dynasty and anchored stir-fry cooking.",
+  "summary_ja": "中華鍋は中国の丸底の鍋から発展し、単一の発明年は知られていない。鋳鉄の家庭用は宋に一般的になり、炒め料理の中心になった。",
   "tags": [
     "cooking"
   ],

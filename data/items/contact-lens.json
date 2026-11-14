@@ -2,6 +2,7 @@
   "id": "contact-lens",
   "name_zh": "隐形眼镜",
   "name_en": "Contact lens",
+  "name_ja": "コンタクトレンズ",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -81,6 +82,7 @@
   "disputed": false,
   "summary_zh": "1888 年菲克与卡尔特首创玻璃巩膜接触镜；1961 年威特勒在布拉格发明透水亲水的水凝胶软镜，摆脱了外置镜框对人类面部视觉矫正的束缚。",
   "summary_en": "Pioneered in 1888 with blown-glass scleral lenses and revolutionized in 1961 by Otto Wichterle's soft hydrogel material, contact lenses freed millions from external spectacle frames.",
+  "summary_ja": "1888年の吹きガラス製強膜レンズに始まり、1961年の Otto Wichterle による軟らかいハイドロゲルで大きく変わった。眼鏡の枠から多くの人を解放した。",
   "tags": [
     "health",
     "clothing"

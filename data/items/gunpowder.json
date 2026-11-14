@@ -2,6 +2,7 @@
   "id": "gunpowder",
   "name_zh": "火药",
   "name_en": "Gunpowder",
+  "name_ja": "火薬",
   "category": "home",
   "years": {
     "invention": {
@@ -70,6 +71,7 @@
   "notes_en": "Gunpowder grew out of Chinese alchemical experiments with saltpetre, sulfur and charcoal; ninth-century texts already warn that such mixes can burn or explode, but no single invention year is secure. The earliest surviving written military formulas appear in the Northern Song Wujing Zongyao (1044, Kaifeng). This entry uses a ninth-century invention mark and 1044 for recorded formulas, flagged as disputed.",
   "summary_zh": "中国唐宋之际发明火药：约九世纪炼丹术已有记载，1044 年《武经总要》留下最早配方。精确发明年有争议。",
   "summary_en": "Gunpowder was developed in Tang–Song China: alchemical mentions by the 9th century, with the earliest surviving formulas in the 1044 Wujing Zongyao. The exact invention year remains disputed.",
+  "summary_ja": "火薬は唐から宋の中国で発展した。9世紀までに錬金術の言及があり、現存最古の処方は1044年の『武経総要』にある。正確な発明年は争われている。",
   "tags": [
     "materials"
   ],

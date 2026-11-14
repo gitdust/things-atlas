@@ -20,7 +20,7 @@ V1 不包含：用户编辑文案、主题选择、地图截图、游戏战绩�
 | src/lib/seo.ts | itemPath、absoluteUrl、双语元数据；运行时尚未同步社交图片 |
 | scripts/prerender.ts | 静态中英页面、OG/Twitter 标签；有图条目使用原图，无图使用通用 OG 图 |
 | src/lib/types.ts | 已有 summary、years、precision、disputed、sources、图片署名等字段 |
-| worker/index.ts | 英文公开 URL 为 ?lang=en，内部映射 /en 静态资源 |
+| worker/index.ts | 英文、西语、日语公开 URL 为 `/en/`、`/es/`、`/ja/`；旧 `?lang=` 301 到对应路径 |
 | src/components/VersionControl.tsx | 可参考现有原生 dialog 模式 |
 
 项目不需要新增公开条目路由。公开英文 URL 保持现状，二维码不得指向内部 /en 路径。
@@ -149,7 +149,7 @@ hash 覆盖内容、语言、图片字节、字体、模板/CSS、生成器版�
 统一通过 absoluteUrl(itemPath(item.id), lang, SITE_URL) 生成；不使用 window.location.origin，防止分享 localhost 或预览域名。默认不带筛选、时间轴、主题和临时参数。
 
 中文：https://things-atlas.com/item/toilet-paper/  
-英文：https://things-atlas.com/item/toilet-paper/?lang=en
+英文：https://things-atlas.com/en/item/toilet-paper/
 
 二维码编码与「复制链接」完全相同。V1 不增加 UTM；后续引入渠道参数时需保持 canonical 无跟踪参数。
 

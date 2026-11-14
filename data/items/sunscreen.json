@@ -2,6 +2,7 @@
   "id": "sunscreen",
   "name_zh": "防晒霜",
   "name_en": "Sunscreen",
+  "name_ja": "日焼け止め",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -73,6 +74,7 @@
   "disputed": false,
   "summary_zh": "1930 年代德法研制出早期紫外线化学滤剂并推出商业防晒霜；二战军用防晒与 1962 年 SPF 指数的诞生，让防晒从沙滩度假跃升为全球日常护肤与健康基准。",
   "summary_en": "In the 1930s European chemists patented synthetic UV filters. Post-war formulas and the 1962 SPF standard transformed sunscreen from a beach novelty into an everyday global skincare essential.",
+  "summary_ja": "1930年代、ヨーロッパの化学者が合成紫外線フィルターを特許化した。戦後の処方と1962年のSPF基準が、浜辺の目新しさから日常のスキンケアへ変えた。",
   "tags": [
     "health",
     "grooming"

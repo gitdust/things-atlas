@@ -2,6 +2,7 @@
   "id": "can-opener",
   "name_zh": "开罐器",
   "name_en": "Can opener",
+  "name_ja": "缶切り",
   "category": "hand_tool",
   "years": {
     "invention": {
@@ -56,6 +57,7 @@
   "notes": "今天常见的转轮式开罐器出现得更晚（1870 年 William Lyman 的专利）。",
   "summary_zh": "罐头出现约半个世纪后，1855 年伦敦的罗伯特·耶茨才发明首个手持爪式开罐器；1858 年美国沃纳获得开罐器专利。",
   "summary_en": "Decades after canned food appeared, Robert Yeates of London made the first claw-ended hand can opener in 1855; Ezra Warner patented one in the US in 1858.",
+  "summary_ja": "缶詰の登場から数十年後、ロンドンの Robert Yeates が1855年に爪状の手持ち缶切りを作った。Ezra Warner は1858年に米国で特許を得た。",
   "tags": [
     "cooking"
   ],

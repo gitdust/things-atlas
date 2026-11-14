@@ -2,6 +2,7 @@
   "id": "scissors",
   "name_zh": "剪刀",
   "name_en": "Scissors",
+  "name_ja": "はさみ",
   "category": "hand_tool",
   "years": {
     "invention": {
@@ -59,6 +60,7 @@
   "notes": "早期的是弹簧式弓形剪，支轴式剪刀后来才普及。杭州张小泉创立于 1663 年，创始人张思家早在约 1580 年（明代）就开创了这种镶钢工艺。",
   "summary_zh": "弓形剪约公元前 1000 年出现在欧洲；1761 年谢菲尔德的欣奇利夫开始量产铸钢剪刀；杭州张小泉自 1663 年制作支轴剪。",
   "summary_en": "Bow shears appeared in Europe around 1000 BCE; Robert Hinchliffe of Sheffield mass-produced cast-steel scissors in 1761; Hangzhou's Zhang Xiaoquan has made pivoted scissors since 1663.",
+  "summary_ja": "弓形の大ばさみは紀元前1000年頃のヨーロッパに現れた。シェフィールドの Robert Hinchliffe は1761年に鋳鋼のはさみを量産し、杭州の張小泉は1663年から軸のはさみを作っている。",
   "tags": [
     "repair"
   ],

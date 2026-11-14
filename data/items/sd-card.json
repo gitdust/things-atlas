@@ -2,6 +2,7 @@
   "id": "sd-card",
   "name_zh": "SD 卡",
   "name_en": "SD card",
+  "name_ja": "SDカード",
   "category": "digital",
   "years": {
     "invention": {
@@ -49,6 +50,7 @@
   "disputed": false,
   "summary_zh": "1999 年 8 月，闪迪、松下和东芝联合推出 SD 存储卡，作为 MMC 卡的继任者；2000 年 1 月成立 SD 协会。",
   "summary_en": "SanDisk, Panasonic and Toshiba introduced the Secure Digital card in August 1999 as a successor to MMC, forming the SD Association in January 2000.",
+  "summary_ja": "サンディスク、パナソニック、東芝は1999年8月、MMCの後継としてSDカードを発表した。2000年1月にSDアソシエーションが発足した。",
   "tags": [
     "computing"
   ],

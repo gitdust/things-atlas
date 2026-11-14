@@ -2,6 +2,7 @@
   "id": "candle",
   "name_zh": "蜡烛",
   "name_en": "Candle",
+  "name_ja": "ろうそく",
   "category": "home",
   "years": {
     "invention": {
@@ -73,6 +74,7 @@
   "notes_en": "Accounts differ in how they distinguish wicked candles from oil lamps and fat-soaked rushlights. Smith College labels Roman dipped candles around 500 BCE, while English Heritage presents the Roman attribution cautiously. This conventional date is a display point, not proof of a single global birthplace. The guild milestone represents the 13th century rather than an exact first year of adoption.",
   "summary_zh": "蜡烛把可燃脂或蜡包在灯芯周围，成为可携带的光源。罗马浸制烛是一条早期传统；到13世纪，英格兰和法国的制烛业已形成行会手艺。",
   "summary_en": "Candles surround a wick with solid fat or wax. Roman dipping is an early tradition; by the 13th century candle-making was a guild craft in England and France.",
+  "summary_ja": "ろうそくは芯を固形の脂や蝋で包む。ローマの浸し作りは早い伝統で、13世紀にはイングランドとフランスでギルドの技になっていた。",
   "tags": [
     "electric",
     "household"

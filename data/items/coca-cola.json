@@ -2,6 +2,7 @@
   "id": "coca-cola",
   "name_zh": "可口可乐",
   "name_en": "Coca-Cola",
+  "name_ja": "コカ・コーラ",
   "category": "kitchen",
   "years": {
     "invention": null,
@@ -63,6 +64,7 @@
   "notes": "本条仅指可口可乐品牌饮料。1886年为首次销售，1899年为授权装瓶体系起步；未将商标或瓶型专利当作饮料专利。配图为现代玻璃瓶，并非1886年的包装。",
   "summary_zh": "可口可乐于1886年在美国亚特兰大以汽水柜台饮料上市。1899年，查塔努加的授权装瓶业务推动其规模化分销。本条记录这一品牌产品，不能据此认定可乐类饮料始于1886年。",
   "summary_en": "Coca-Cola debuted at an Atlanta soda fountain in 1886. Franchised bottling began in Chattanooga in 1899, expanding distribution. These dates concern the brand, not cola as a category.",
+  "summary_ja": "コカ・コーラは1886年、アトランタのソーダファウンテンに登場した。瓶詰めのフランチャイズは1899年にチャタヌーガで始まり、流通を広げた。これはブランドの年代であり、コーラという品目の起源ではない。",
   "tags": [
     "food-drink"
   ],

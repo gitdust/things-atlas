@@ -2,6 +2,7 @@
   "id": "comb",
   "name_zh": "梳子",
   "name_en": "Comb",
+  "name_ja": "くし",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -50,6 +51,7 @@
   "notes_en": "No single inventor is established. The Egyptian bone comb dated to 4000–3500 BCE is a verifiable early surviving example, not a claim to the world’s first comb. The timeline uses the range’s beginning and the map locates only the documented country. A later Egyptian ivory comb dated to 3200–3100 BCE also shows decorative and ceremonial functions.",
   "summary_zh": "梳子用排列的齿整理头发。埃及留下约公元前4000—3500年的骨梳，后来的象牙梳还刻有动物图案，兼具装饰和仪式用途。现存实物不足以确定梳子的唯一发源地。",
   "summary_en": "Combs arrange hair with rows of teeth. Egyptian bone examples date to 4000–3500 BCE; later carved ivory combs also had decorative and ceremonial roles. A single birthplace remains unproven.",
+  "summary_ja": "くしは歯の列で髪を整える。エジプトの骨製品は紀元前4000–3500年にさかのぼり、後の象牙のくしは装飾や儀礼にも使われた。単一の発祥地は証明されていない。",
   "tags": [
     "grooming"
   ],

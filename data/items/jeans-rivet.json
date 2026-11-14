@@ -2,6 +2,7 @@
   "id": "jeans-rivet",
   "name_zh": "牛仔裤铆钉",
   "name_en": "Jeans rivet",
+  "name_ja": "ジーンズのリベット",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -66,6 +67,7 @@
   "disputed": false,
   "summary_zh": "1871 年里诺裁缝雅各布·戴维斯用铜铆钉加固裤袋，1873 年与李维·斯特劳斯合作获得专利，牛仔裤由此诞生。",
   "summary_en": "Reno tailor Jacob Davis reinforced pocket corners with copper rivets in 1871 and patented the idea with Levi Strauss in 1873, creating blue jeans.",
+  "summary_ja": "リノの仕立て屋 Jacob Davis は1871年、ポケットの角を銅リベットで補強し、1873年に Levi Strauss とともに特許化した。これがブルージーンズを生んだ。",
   "tags": [
     "fastening",
     "clothing"

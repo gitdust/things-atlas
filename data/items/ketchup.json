@@ -2,6 +2,7 @@
   "id": "ketchup",
   "name_zh": "番茄酱",
   "name_en": "Tomato ketchup",
+  "name_ja": "トマトケチャップ",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -64,6 +65,7 @@
   "notes_en": "This entry covers tomato ketchup, not earlier fish, mushroom, or walnut sauces, nor tomato paste. 1812 is an early recipe record; 1876 is a Heinz product launch.",
   "summary_zh": "番茄酱是以番茄为主体的餐桌调味酱，区别于早期鱼类或蘑菇制成的ketchup。1812年米斯留下早期配方记载；1876年亨氏推出瓶装产品，并非由该品牌首次发明番茄酱。",
   "summary_en": "Tomato ketchup differs from earlier fish or mushroom sauces. Mease published an early recipe in 1812; Heinz launched bottled ketchup in 1876, rather than inventing the food type.",
+  "summary_ja": "トマトケチャップは、それ以前の魚やキノコのソースとは異なる。Mease は1812年に早いレシピを公表し、Heinz は1876年に瓶入りを発売した。食品そのものの発明ではない。",
   "tags": [
     "food-drink"
   ],

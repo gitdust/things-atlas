@@ -2,6 +2,7 @@
   "id": "tin-can",
   "name_zh": "罐头",
   "name_en": "Tin can",
+  "name_ja": "缶詰",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -65,6 +66,7 @@
   "disputed": false,
   "summary_zh": "1810 年法国阿佩尔确立密封加热灭菌原理，英国杜兰德取得马口铁罐头专利；1813 年唐金在伦敦建立首座罐头工坊供应皇家海军，奠定现代食品保藏与储备基础。",
   "summary_en": "In 1810 Nicolas Appert perfected heat sterilization and Peter Durand patented the tinplate canister. Bryan Donkin built the first commercial canning factory in 1813, revolutionizing food preservation.",
+  "summary_ja": "1810年、ニコラ・アペールが加熱殺菌を完成させ、ピーター・デュランがブリキ缶を特許化した。ブライアン・ドンキンは1813年に最初の商業缶詰工場を建て、食品保存を大きく変えた。",
   "tags": [
     "food-drink",
     "storage",

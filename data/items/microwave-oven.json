@@ -2,6 +2,7 @@
   "id": "microwave-oven",
   "name_zh": "微波炉",
   "name_en": "Microwave oven",
+  "name_ja": "電子レンジ",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -71,6 +72,7 @@
   "disputed": false,
   "summary_zh": "1945 年雷神公司工程师珀西·斯潘塞偶然发现微波能加热食物，1947 年推出商用 Radarange，1967 年 Amana 的台式微波炉让它走进家庭。",
   "summary_en": "Raytheon engineer Percy Spencer discovered microwave heating in 1945; the commercial Radarange followed in 1947, and Amana's 1967 countertop model brought it into homes.",
+  "summary_ja": "レイセオンの技術者 Percy Spencer は1945年にマイクロ波加熱を見いだした。業務用のレーダレンジは1947年、Amana の1967年の卓上型が家庭へ入れた。",
   "tags": [
     "cooking",
     "electric"

@@ -19,14 +19,54 @@ export function ShareCard({ format, lang, content, image, map, qr }: Props) {
   const { width, height } = SHARE_FORMATS[format];
   // Keep every QR module aligned to a whole pixel and the quiet zone intact.
   const qrPixels = qr ? Math.floor(200 / qr.size) * qr.size : 0;
-  const zh = lang === 'zh';
+  const brand =
+    lang === 'zh'
+      ? SITE_NAME_ZH
+      : lang === 'ja'
+        ? '日常のもの図志'
+        : lang === 'es'
+          ? 'Atlas de objetos'
+          : SITE_NAME;
+  const lines =
+    lang === 'zh'
+      ? '连线表示历史地点关联'
+      : lang === 'ja'
+        ? '線は歴史上の場所のつながり'
+        : lang === 'es'
+          ? 'Las líneas unen lugares de la historia'
+          : 'Lines connect locations in the entry’s history';
+  const dashed =
+    lang === 'zh'
+      ? ' · 虚线表示关联有争议'
+      : lang === 'ja'
+        ? ' · 破線は異説のあるつながり'
+        : lang === 'es'
+          ? ' · La línea discontinua marca un vínculo en disputa'
+          : ' · Dashed lines indicate disputed links';
+  const sourceLabel =
+    lang === 'zh'
+      ? '主要来源'
+      : lang === 'ja'
+        ? '主な出典'
+        : lang === 'es'
+          ? 'Fuente principal'
+          : 'Source';
+  const more =
+    lang === 'zh'
+      ? '完整来源见条目'
+      : lang === 'ja'
+        ? '出典の全文は項目へ'
+        : lang === 'es'
+          ? 'Fuentes completas en la entrada'
+          : 'Full sources in the entry';
+  const photo = lang === 'zh' ? '图片' : lang === 'ja' ? '写真' : lang === 'es' ? 'Foto' : 'Photo';
   const { name, summary, ogSummary, source, milestones, dispute } = content;
 
   if (format === 'og') {
     return (
       <main id="card" className={image ? 'og with-image' : 'og'} style={{ width, height }}>
         <section className="og-copy">
-          <div className="brand">{zh ? SITE_NAME_ZH : SITE_NAME}</div>
+          <div className="brand">{brand}</div>
           <h1 data-fit="name">{name}</h1>
           {dispute && <div className="dispute">{dispute}</div>}
           <p className="summary" data-fit="ogSummary">
@@ -48,7 +88,7 @@ export function ShareCard({ format, lang, content, image, map, qr }: Props) {
   return (
     <main id="card" className={image ? 'poster with-image' : 'poster'} style={{ width, height }}>
       <header>
-        <div className="brand">{zh ? SITE_NAME_ZH : SITE_NAME}</div>
+        <div className="brand">{brand}</div>
         <h1 data-fit="name">{name}</h1>
         {dispute && <div className="dispute">{dispute}</div>}
       </header>
@@ -83,15 +123,14 @@ export function ShareCard({ format, lang, content, image, map, qr }: Props) {
             <ul>
               {map.pins.map(({ location }, index) => (
                 <li key={index}>
-                  <b>{index + 1}</b> {location[`place_label_${lang}`]}
+                  <b>{index + 1}</b> {location[lang === 'zh' ? 'place_label_zh' : 'place_label_en']}
                 </li>
               ))}
             </ul>
             {map.arcs.length > 0 && (
               <div className="map-legend">
-                {zh ? '连线表示历史地点关联' : 'Lines connect locations in the entry’s history'}
-                {map.arcs.some(({ contested }) => contested) &&
-                  (zh ? ' · 虚线表示关联有争议' : ' · Dashed lines indicate disputed links')}
+                {lines}
+                {map.arcs.some(({ contested }) => contested) ? dashed : null}
               </div>
             )}
           </figcaption>
@@ -125,15 +164,15 @@ export function ShareCard({ format, lang, content, image, map, qr }: Props) {
       <footer>
         <section className="credits" data-fit="credit">
           <div>
-            {zh ? '主要来源' : 'Source'} · {source}
+            {sourceLabel} · {source}
           </div>
           <div>
-            {zh ? '完整来源见条目' : 'Full sources in the entry'}
+            {more}
             {map && ' · Natural Earth'}
           </div>
           {image && (
             <div>
-              {zh ? '图片' : 'Photo'} · {image.credit} · {image.license}
+              {photo} · {image.credit} · {image.license}
               <br />
               {image.source}
             </div>

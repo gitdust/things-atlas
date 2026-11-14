@@ -2,6 +2,7 @@
   "id": "door-knob",
   "name_zh": "门把手",
   "name_en": "Door handle",
+  "name_ja": "ドアノブ",
   "category": "home",
   "years": {
     "invention": {
@@ -37,6 +38,7 @@
   "notes": "来源较弱：内米湖门只是有据可查的早期实例，并非发明；工业革命后锁具与门把手才大规模生产。",
   "summary_zh": "门把手至少有数千年历史；意大利内米湖出土、约公元 1 世纪的门上就有球形把手。",
   "summary_en": "Door handles have existed for thousands of years; doors excavated from Lake Nemi in Italy, dated to about the 1st century CE, already had knob-shaped handles.",
+  "summary_ja": "ドアの取っ手は数千年前からある。イタリアのネミ湖から出土し、紀元1世紀頃とされる扉には、すでにノブ状の取っ手が付いていた。",
   "tags": [
     "household"
   ],

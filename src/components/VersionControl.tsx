@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { version } from '../../package.json';
 import releases from '@/generated/release-history.json';
-import type { Lang } from '@/lib/i18n';
+import { t, type Lang } from '@/lib/i18n';
 
 export function VersionControl({ lang }: { lang: Lang }) {
   const [open, setOpen] = useState(false);
@@ -10,7 +10,7 @@ export function VersionControl({ lang }: { lang: Lang }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const trigger = useRef<HTMLButtonElement>(null);
   const selectedRelease = releases.find((release) => release.version === selectedVersion);
-  const title = lang === 'zh' ? '更新记录' : 'Release notes';
+  const title = t(lang, 'releaseNotes');
 
   useEffect(() => {
     if (open) dialog.current?.showModal();
@@ -54,7 +54,7 @@ export function VersionControl({ lang }: { lang: Lang }) {
               <button
                 type="button"
                 className="close-btn"
-                aria-label={lang === 'zh' ? '关闭更新记录' : 'Close release notes'}
+                aria-label={t(lang, 'closeReleaseNotes')}
                 onClick={() => dialog.current?.close()}
                 autoFocus
               >
@@ -101,9 +101,7 @@ export function VersionControl({ lang }: { lang: Lang }) {
                   ))}
                 </ul>
               ) : (
-                <p>
-                  {lang === 'zh' ? '此版本暂无更新记录。' : 'No release notes for this version.'}
-                </p>
+                <p>{t(lang, 'noReleaseNotes')}</p>
               )}
             </section>
           </dialog>,

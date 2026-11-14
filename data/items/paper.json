@@ -2,6 +2,7 @@
   "id": "paper",
   "name_zh": "纸",
   "name_en": "Paper",
+  "name_ja": "紙",
   "category": "stationery",
   "years": {
     "invention": {
@@ -69,6 +70,7 @@
   "notes_en": "Tradition credits Eastern Han court official Cai Lun with presenting bark-, hemp-, rag- and fishing-net paper to Emperor He in 105 CE (“Marquis Cai’s paper”). Archaeology has found hemp-paper fragments from the Western Han (for example at Fangmatan, Gansu), so papermaking began earlier; most historians treat Cai Lun as the key improver and standardizer rather than the sole first inventor.",
   "summary_zh": "东汉蔡伦于公元 105 年改良并推广造纸；考古显示西汉已有更早麻纸，故标为争议。日常书写、包装用纸由此普及。",
   "summary_en": "Cai Lun improved papermaking at the Eastern Han court in 105 CE. Earlier Western Han paper finds make the “first inventor” claim disputed; everyday writing paper spread from China afterward.",
+  "summary_ja": "蔡倫は105年、後漢の宮廷で製紙を改良した。それ以前の前漢の紙の出土があり、「最初の発明者」という主張は争われている。日常の筆記用紙はその後中国から広がった。",
   "tags": [
     "office",
     "writing",

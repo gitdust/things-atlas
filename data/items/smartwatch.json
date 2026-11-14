@@ -2,6 +2,7 @@
   "id": "smartwatch",
   "name_zh": "智能手表",
   "name_en": "Smartwatch",
+  "name_ja": "スマートウォッチ",
   "category": "digital",
   "years": {
     "invention": {
@@ -76,6 +77,7 @@
   "disputed": true,
   "summary_zh": "1984 年精工 RC-1000 可与个人电脑交换数据；2004 年微软 SPOT 手表上市，2015 年 Apple Watch 将智能手表进一步带入大众视野。「智能」的定义使起点存在争议。",
   "summary_en": "Seiko’s 1984 RC-1000 connected to computers; Microsoft SPOT watches reached consumers in 2004. Apple Watch’s 2015 launch widened awareness, though definitions of a smartwatch vary.",
+  "summary_ja": "セイコーの1984年のRC-1000はコンピュータと接続した。マイクロソフトのSPOT時計は2004年に消費者へ届いた。2015年のApple Watchが認知を広げたが、定義は一様ではない。",
   "tags": [
     "clothing",
     "computing"

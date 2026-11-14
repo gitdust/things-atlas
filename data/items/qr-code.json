@@ -2,6 +2,7 @@
   "id": "qr-code",
   "name_zh": "二维码",
   "name_en": "QR code",
+  "name_ja": "QRコード",
   "category": "digital",
   "years": {
     "invention": {
@@ -64,6 +65,7 @@
   "disputed": false,
   "summary_zh": "1994 年日本电装公司的原昌宏发明三角定位的高密度矩阵式二维码；因电装放弃行使专利费，该技术成为全球开放标准并重塑了移动支付与信息交互。",
   "summary_en": "Invented in 1994 by Masahiro Hara at Denso Wave, the 2D QR code enabled omnidirectional high-speed scanning. Denso's waiver of patent fees fostered its global ubiquity in payments and connectivity.",
+  "summary_ja": "1994年、デンソーウェーブの原昌宏が発明した。二次元のQRコードは全方位から高速に読める。デンソーが特許料を放棄したことが、決済や接続での世界的普及を促した。",
   "tags": [
     "computing",
     "trade"

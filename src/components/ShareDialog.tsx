@@ -33,6 +33,30 @@ const strings = {
     retry: 'Retry',
     longPress: 'Press and hold the opened image to save.',
   },
+  es: {
+    title: 'Compartir entrada',
+    share: 'Compartir',
+    shareError: 'No se pudo compartir. Inténtalo de nuevo.',
+    copied: 'Este navegador no puede compartir. Enlace copiado.',
+    download: 'Descargar póster',
+    downloading: 'Descarga iniciada',
+    loading: 'Cargando el póster…',
+    unavailable: 'El póster no se pudo cargar. Reintenta o actualiza la página.',
+    retry: 'Reintentar',
+    longPress: 'Abre la imagen y mantenla pulsada para guardarla.',
+  },
+  ja: {
+    title: '項目を共有',
+    share: '共有',
+    shareError: '共有できませんでした。もう一度試してください。',
+    copied: 'システム共有が使えないため、リンクをコピーしました。',
+    download: 'ポスターを保存',
+    downloading: 'ダウンロードを開始しました',
+    loading: 'ポスターを読み込み中…',
+    unavailable: 'ポスターを読み込めません。再試行するか、ページを更新してください。',
+    retry: '再試行',
+    longPress: '開いた画像を長押しして保存できます。',
+  },
 } as const;
 
 function track(event: string, itemId: string, lang: Lang, action: string, result: string) {
@@ -109,9 +133,10 @@ function ShareOptions({ item, lang }: Pick<Props, 'item' | 'lang'>) {
     let result = 'completed';
     try {
       if (nativeShare) {
+        const editorial = lang === 'zh' || lang === 'en' ? item.share?.[lang] : undefined;
         await navigator.share({
-          title: item[`name_${lang}`],
-          text: item.share?.[lang].ogSummary ?? item[`summary_${lang}`],
+          title: lang === 'zh' ? item.name_zh : item.name_en,
+          text: editorial?.ogSummary ?? (lang === 'zh' ? item.summary_zh : item.summary_en),
           url,
         });
       } else {

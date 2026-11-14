@@ -2,6 +2,7 @@
   "id": "hdmi-cable",
   "name_zh": "HDMI 线",
   "name_en": "HDMI cable",
+  "name_ja": "HDMIケーブル",
   "category": "digital",
   "years": {
     "invention": {
@@ -49,6 +50,7 @@
   "disputed": false,
   "summary_zh": "2002 年 4 月日立、松下、飞利浦、Silicon Image、索尼、汤姆逊、东芝等开始制定 HDMI，2003 年推出，逐步取代模拟视频接口。",
   "summary_en": "Hitachi, Panasonic, Philips, Silicon Image, Sony, Thomson, and Toshiba founded HDMI in April 2002; launched in 2003, it largely replaced analog video connectors.",
+  "summary_ja": "日立、パナソニック、フィリップス、Silicon Image、ソニー、トムソン、東芝が2002年4月にHDMIを設立した。2003年の登場後、アナログ映像端子の多くを置き換えた。",
   "tags": [
     "computing",
     "media"

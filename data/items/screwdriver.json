@@ -2,6 +2,7 @@
   "id": "screwdriver",
   "name_zh": "螺丝刀",
   "name_en": "Screwdriver",
+  "name_ja": "ドライバー",
   "category": "hand_tool",
   "years": {
     "invention": {
@@ -37,6 +38,7 @@
   "notes": "具体发明地点在德国还是法国并不确定，这里标在《家书》收藏地沃尔夫埃格，精度为地区。",
   "summary_zh": "螺丝刀大约在 15 世纪末的德国或法国出现，最早的记录见于 1475–1490 年间的《沃尔夫埃格城堡家书》。",
   "summary_en": "The screwdriver probably arose in late-15th-century Germany or France; its first record is the Housebook of Wolfegg Castle, written 1475–1490.",
+  "summary_ja": "ドライバーは15世紀末のドイツかフランスで生まれたと考えられる。最初の記録は、1475–1490年に書かれたヴォルフェック城のハウスブックである。",
   "tags": [
     "repair"
   ],

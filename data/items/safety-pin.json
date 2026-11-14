@@ -2,6 +2,7 @@
   "id": "safety-pin",
   "name_zh": "别针",
   "name_en": "Safety pin",
+  "name_ja": "安全ピン",
   "category": "apparel_accessory",
   "years": {
     "invention": null,
@@ -52,6 +53,7 @@
   "notes": "同年英国伯明翰的 Charles Rowley 也获得了类似别针的专利；古代的扣针（fibula）在功能上是它的前身。",
   "summary_zh": "1849 年 4 月 10 日，纽约机械师沃尔特·亨特获得别针专利，据说他为还一笔 15 美元的债，用一根铜丝做出了它。",
   "summary_en": "New York mechanic Walter Hunt patented the safety pin on 10 April 1849, reportedly twisting it from wire to pay off a $15 debt.",
+  "summary_ja": "ニューヨークの機械工 Walter Hunt は1849年4月10日に安全ピンを特許化した。15ドルの借金を返すため針金をひねったとされる。",
   "tags": [
     "fastening",
     "clothing"

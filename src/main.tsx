@@ -20,7 +20,7 @@ const app = (
 );
 
 // Build-time prerendered markup is hydrated when the URL matches the state it
-// was rendered for; otherwise (e.g. ?lang=en, ?y=…) index.html has flagged
+// was rendered for; otherwise (e.g. another language, ?y=…) index.html has flagged
 // it `ssr-stale` and we render fresh.
 const prerendered = container.querySelector('.app') !== null;
 const stale = document.documentElement.classList.contains('ssr-stale');

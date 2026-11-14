@@ -2,6 +2,7 @@
   "id": "plastic-wrap",
   "name_zh": "保鲜膜",
   "name_en": "Plastic wrap",
+  "name_ja": "ラップ",
   "category": "kitchen",
   "years": {
     "invention": null,
@@ -44,6 +45,7 @@
   "notes_en": "The date marks household marketing, not polymer discovery. The image shows modern PVC film, not the original 1953 Saran product.",
   "summary_zh": "保鲜膜是用于覆盖容器、包裹食物的薄塑料膜。1953年，Saran Wrap 已在美国向家庭推广；如今保鲜膜可由不同聚合物制成，不能都等同于早期产品材料。",
   "summary_en": "Plastic wrap covers containers and wraps food. Saran Wrap reached American households in 1953; present-day cling films use several different polymers.",
+  "summary_ja": "ラップは容器を覆い、食品を包む。サランラップは1953年にアメリカの家庭へ届いた。今日の密着フィルムには複数のポリマーが使われる。",
   "tags": [
     "storage"
   ],

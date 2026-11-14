@@ -2,6 +2,7 @@
   "id": "camera",
   "name_zh": "相机",
   "name_en": "Camera",
+  "name_ja": "カメラ",
   "category": "digital",
   "years": {
     "invention": {
@@ -67,6 +68,7 @@
   "disputed": false,
   "summary_zh": "1839 年达盖尔摄影法在巴黎公开；1888 年柯达推出卷片相机，1900 年低价 Brownie 进一步降低使用门槛，让日常摄影走向大众。",
   "summary_en": "The daguerreotype was announced in Paris in 1839. Kodak’s 1888 roll-film camera and the affordable Brownie of 1900 brought everyday photography to a wider public.",
+  "summary_ja": "ダゲレオタイプは1839年にパリで発表された。コダックの1888年のロールフィルム式カメラと、1900年の手頃なブラウニーが、日常の写真を広げた。",
   "tags": [
     "writing",
     "media"

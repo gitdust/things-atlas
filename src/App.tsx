@@ -10,7 +10,9 @@ import { findItem, loadCategories, loadItemsIndex } from '@/lib/loadItems';
 import { filterItems } from '@/lib/yearFilter';
 import { itemsToArcs, itemsToGeoJSON } from '@/lib/geo';
 import { t, type Lang } from '@/lib/i18n';
-import { HTML_LANG, applyDocumentMeta, itemPath } from '@/lib/seo';
+import { HTML_LANG, applyDocumentMeta } from '@/lib/seo';
+import { rememberLang } from '@/lib/locale-pref';
+import { itemPath, localizedPath } from '@/lib/page-url';
 import { readUrlState, type UrlLike } from '@/lib/urlState';
 import { mq } from '@/lib/tokens';
 import { getQuizLifecycle, type QuizSnapshot } from '@/lib/quizLifecycle';
@@ -97,10 +99,10 @@ export default function App({ url }: { url?: UrlLike }) {
   useEffect(() => {
     const params = new URLSearchParams();
     if (year !== index.year_range.data_max) params.set('y', String(year));
-    if (lang === 'en') params.set('lang', 'en');
+    params.delete('lang');
     const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const query = params.toString();
-    const next = `${base}${itemPath(selectedId && selectedItem ? selectedId : null)}${query ? `?${query}` : ''}`;
+    const next = `${base}${localizedPath(itemPath(selectedId && selectedItem ? selectedId : null), lang)}${query ? `?${query}` : ''}`;
     if (next !== window.location.pathname + window.location.search) {
       window.history.replaceState(null, '', next);
     }
@@ -229,7 +231,10 @@ export default function App({ url }: { url?: UrlLike }) {
       <SiteHeader
         hasSelectedItem={Boolean(selectedItem)}
         lang={lang}
-        onLangChange={setLang}
+        onLangChange={(next) => {
+          rememberLang(next);
+          setLang(next);
+        }}
         onHelp={() => setGuideRequest((value) => value + 1)}
       />
       <Guide
@@ -318,8 +323,8 @@ export default function App({ url }: { url?: UrlLike }) {
           type="button"
           className="quiz-launch-button"
           onClick={openQuiz}
-          aria-label={lang === 'zh' ? '猜哪个更早' : 'Guess which came earlier'}
-          title={lang === 'zh' ? '猜哪个更早' : 'Guess which came earlier'}
+          aria-label={t(lang, 'quizPrompt')}
+          title={t(lang, 'quizPrompt')}
           aria-haspopup="dialog"
         >
           <svg

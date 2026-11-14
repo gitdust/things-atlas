@@ -37,7 +37,7 @@ import {
   SITE_URL as CONFIG_SITE_URL,
   TWITTER_SITE,
 } from '../src/config/site';
-import { formatYear, pick, type Lang } from '../src/lib/i18n';
+import { LANGS, formatYear, pick, t as tr, type Lang } from '../src/lib/i18n';
 import type { AtlasItem } from '../src/lib/types';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -51,7 +51,7 @@ const esc = (s: string) =>
   s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
 const jsonLd = (data: unknown) =>
   `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
-const url = (p: string, lang: 'zh' | 'en' = 'zh') => absoluteUrl(p, lang, ORIGIN);
+const url = (p: string, lang: Lang = 'zh') => absoluteUrl(p, lang, ORIGIN);
 
 /* ---------------------------------------------------------------- fonts */
 const assets = fs.readdirSync(path.join(dist, 'assets'));
@@ -72,10 +72,10 @@ function definedTerm(item: AtlasItem, lang: Lang) {
   return {
     '@type': 'DefinedTerm',
     '@id': `${url(itemPath(item.id), lang)}#term`,
-    name: pick(lang, item.name_zh, item.name_en),
+    name: pick(lang, item.name_zh, item.name_en, { ja: item.name_ja }),
     alternateName: pick(lang === 'zh' ? 'en' : 'zh', item.name_zh, item.name_en),
     termCode: item.id,
-    description: `${formatYear(lang, item.primary_year)} — ${pick(lang, item.summary_zh, item.summary_en)}`,
+    description: `${formatYear(lang, item.primary_year)} — ${pick(lang, item.summary_zh, item.summary_en, { ja: item.summary_ja })}`,
     url: url(itemPath(item.id), lang),
     ...(item.image?.src ? { image: ORIGIN + item.image.src } : {}),
     inDefinedTermSet: TERM_SET_ID,
@@ -130,7 +130,7 @@ function itemLd(item: AtlasItem, lang: Lang) {
         {
           '@type': 'ListItem',
           position: 2,
-          name: pick(lang, item.name_zh, item.name_en),
+          name: pick(lang, item.name_zh, item.name_en, { ja: item.name_ja }),
           item: url(itemPath(item.id), lang),
         },
       ],
@@ -155,16 +155,20 @@ function headTags(meta: PageMeta, item: AtlasItem | null, ld: unknown, lang: Lan
     `<title>${esc(meta.title)}</title>`,
     `<meta name="description" content="${esc(meta.description)}" />`,
     `<link rel="canonical" href="${esc(canonical)}" />`,
-    `<link rel="alternate" hreflang="zh-Hans" href="${esc(url(meta.path))}" />`,
-    `<link rel="alternate" hreflang="en" href="${esc(url(meta.path, 'en'))}" />`,
-    `<link rel="alternate" hreflang="x-default" href="${esc(url(meta.path))}" />`,
+    ...LANGS.map(
+      (code) =>
+        `<link rel="alternate" hreflang="${HTML_LANG[code]}" href="${esc(url(meta.path, code))}" />`,
+    ),
+    `<link rel="alternate" hreflang="x-default" href="${esc(url(meta.path, 'en'))}" />`,
     `<meta property="og:type" content="${item ? 'article' : 'website'}" />`,
     `<meta property="og:site_name" content="${esc(`${SITE_NAME} · ${SITE_NAME_ZH}`)}" />`,
     `<meta property="og:title" content="${esc(meta.title)}" />`,
     `<meta property="og:description" content="${esc(meta.description)}" />`,
     `<meta property="og:url" content="${esc(canonical)}" />`,
     `<meta property="og:locale" content="${OG_LOCALE[lang]}" />`,
-    `<meta property="og:locale:alternate" content="${OG_LOCALE[lang === 'zh' ? 'en' : 'zh']}" />`,
+    ...LANGS.filter((code) => code !== lang).map(
+      (code) => `<meta property="og:locale:alternate" content="${OG_LOCALE[code]}" />`,
+    ),
     `<meta property="og:image" content="${esc(img.url)}" />`,
     img.width ? `<meta property="og:image:width" content="${img.width}" />` : '',
     img.height ? `<meta property="og:image:height" content="${img.height}" />` : '',
@@ -186,11 +190,11 @@ function headTags(meta: PageMeta, item: AtlasItem | null, ld: unknown, lang: Lan
 function catalogue(lang: Lang) {
   const rows = index.items
     .map((item) => {
-      const href = `${itemPath(item.id)}${lang === 'en' ? '?lang=en' : ''}`;
-      return `<li><a href="${href}">${esc(pick(lang, item.name_zh, item.name_en))}</a> — ${esc(formatYear(lang, item.primary_year))}</li>`;
+      const href = url(itemPath(item.id), lang).replace(ORIGIN, '');
+      return `<li><a href="${href}">${esc(pick(lang, item.name_zh, item.name_en, { ja: item.name_ja }))}</a> — ${esc(formatYear(lang, item.primary_year))}</li>`;
     })
     .join('');
-  return `<noscript><nav class="noscript-catalog" aria-label="${lang === 'zh' ? '条目目录' : 'Entry catalogue'}"><p>${lang === 'zh' ? '需要启用 JavaScript 才能使用交互地图。' : 'Enable JavaScript for the interactive map.'}</p><ol>${rows}</ol></nav></noscript>`;
+  return `<noscript><nav class="noscript-catalog" aria-label="${esc(tr(lang, 'noscriptCatalogue'))}"><p>${esc(tr(lang, 'noscriptNeedJs'))}</p><ol>${rows}</ol></nav></noscript>`;
 }
 
 /* ---------------------------------------------------------------- render */
@@ -201,7 +205,9 @@ function renderPage(item: AtlasItem | null, lang: Lang) {
     createElement(
       StrictMode,
       null,
-      createElement(App, { url: { pathname, search: lang === 'en' ? '?lang=en' : '' } }),
+      createElement(App, {
+        url: { pathname: lang === 'zh' ? pathname : `/${lang}${pathname}`, search: '' },
+      }),
     ),
   );
   const ld = item ? itemLd(item, lang) : homeLd(lang);
@@ -216,7 +222,7 @@ function renderPage(item: AtlasItem | null, lang: Lang) {
   for (const marker of ['<!--seo:start-->', '<!--app-html-->', '<!--noscript-->', '__DATA_MAX__']) {
     if (html.includes(marker)) throw new Error(`prerender: unreplaced marker ${marker}`);
   }
-  const languageRoot = lang === 'en' ? path.join(dist, 'en') : dist;
+  const languageRoot = lang === 'zh' ? dist : path.join(dist, lang);
   const out = item
     ? path.join(languageRoot, 'item', item.id, 'index.html')
     : path.join(languageRoot, 'index.html');
@@ -229,7 +235,7 @@ if (!template.includes('<!--app-html-->')) {
     'prerender: dist/index.html has already been prerendered — run `vite build` first',
   );
 }
-for (const lang of ['zh', 'en'] as const) {
+for (const lang of LANGS) {
   renderPage(null, lang);
   for (const item of index.items) renderPage(item, lang);
 }
@@ -268,13 +274,12 @@ const entry = (p: string, mod: string, priority: string, lang: Lang) => `  <url>
     <loc>${esc(url(p, lang))}</loc>
     <lastmod>${lastmod(mod)}</lastmod>
     <priority>${priority}</priority>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="${esc(url(p))}"/>
-    <xhtml:link rel="alternate" hreflang="en" href="${esc(url(p, 'en'))}"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="${esc(url(p))}"/>
+    ${LANGS.map((code) => `<xhtml:link rel="alternate" hreflang="${HTML_LANG[code]}" href="${esc(url(p, code))}"/>`).join('\n    ')}
+    <xhtml:link rel="alternate" hreflang="x-default" href="${esc(url(p, 'en'))}"/>
   </url>`;
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${(['zh', 'en'] as const).flatMap((lang) => [entry('/', newest, '1.0', lang), ...index.items.map((i) => entry(itemPath(i.id), i.updated, '0.7', lang))]).join('\n')}
+${LANGS.flatMap((lang) => [entry('/', newest, '1.0', lang), ...index.items.map((i) => entry(itemPath(i.id), i.updated, '0.7', lang))]).join('\n')}
 </urlset>
 `;
 fs.writeFileSync(path.join(dist, 'sitemap.xml'), sitemap);

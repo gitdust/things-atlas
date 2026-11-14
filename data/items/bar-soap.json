@@ -2,6 +2,7 @@
   "id": "bar-soap",
   "name_zh": "肥皂",
   "name_en": "Soap",
+  "name_ja": "せっけん",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -37,6 +38,7 @@
   "notes": "古巴比伦的是「类肥皂」物质，真正的肥皂工艺大约在其后到公元 1 世纪之间形成，因此只标到世纪。",
   "summary_zh": "约公元前 2800 年的古巴比伦已有制作类似肥皂物质的证据；古罗马人至迟在公元 1 世纪才开始用肥皂。",
   "summary_en": "Evidence of soap-like materials dates to ancient Babylon around 2800 BCE; the Romans did not use soap until at least the 1st century CE.",
+  "summary_ja": "せっけんに似た材料の痕跡は紀元前2800年頃の古代バビロニアにさかのぼる。ローマ人がせっけんを使うのは、少なくとも紀元1世紀以降である。",
   "tags": [
     "cleaning"
   ],

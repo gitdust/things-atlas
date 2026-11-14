@@ -1,6 +1,6 @@
 import type { AtlasItem, EarliestUse } from './types';
 
-export type QuizItem = Pick<AtlasItem, 'id' | 'name_zh' | 'name_en' | 'image' | 'sources'> & {
+export type QuizItem = Pick<AtlasItem, 'id' | 'name_zh' | 'name_en' | 'name_ja' | 'image' | 'sources'> & {
   earliest_use: EarliestUse;
 };
 export type QuizPair = [string, string];
@@ -73,6 +73,7 @@ export function eligibleQuizItems(items: AtlasItem[]): QuizItem[] {
           id: item.id,
           name_zh: item.name_zh,
           name_en: item.name_en,
+          name_ja: item.name_ja,
           image: item.image,
           sources: item.sources,
           earliest_use: item.earliest_use,

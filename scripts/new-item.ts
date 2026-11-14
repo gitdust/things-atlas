@@ -23,6 +23,7 @@ const template = {
   id: slug,
   name_zh: '',
   name_en: '',
+  name_ja: '',
   category: 'stationery',
   years: {
     invention: null,
@@ -54,6 +55,7 @@ const template = {
   notes_en: '',
   summary_zh: '',
   summary_en: '',
+  summary_ja: '',
   tags: ['office'],
   updated: today,
 };

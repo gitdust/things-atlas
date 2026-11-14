@@ -2,6 +2,7 @@
   "id": "bento-box",
   "name_zh": "便当盒",
   "name_en": "Bento box",
+  "name_ja": "弁当箱",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -53,6 +54,7 @@
   "disputed": false,
   "summary_zh": "便当盒是日本发展出的分格携餐容器；安土桃山时代已有漆器便当盒，「便当」一词约在1603年见载。",
   "summary_en": "The bento box is Japan’s compartmented portable meal container. Lacquered boxes appeared in the Azuchi–Momoyama period, and the word bentō was recorded around 1603.",
+  "summary_ja": "弁当箱は仕切りのある日本の携帯食容器である。漆塗りの箱は安土桃山時代に現れ、「弁当」という語は1603年頃に記録された。",
   "tags": [
     "dining",
     "storage"

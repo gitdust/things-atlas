@@ -2,6 +2,7 @@
   "id": "mirror",
   "name_zh": "镜子",
   "name_en": "Mirror",
+  "name_ja": "鏡",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -59,6 +60,7 @@
   "notes_en": "No single inventor is established. The ca. 6000 BCE benchmark summarizes early obsidian mirrors; Çatalhöyük marks an archaeological findspot, not a proven exclusive birthplace. The Abydos marker uses 1700 BCE as the midpoint of a surviving bronze mirror’s 1800–1600 BCE range, not the first bronze mirror or evidence of direct transmission.",
   "summary_zh": "镜子先于玻璃镜存在。约公元前6000年，安纳托利亚已有磨光黑曜石镜；埃及也留下了青铜镜实物。早期地点记录的是考古见证，无法据此确定唯一发明者。",
   "summary_en": "Mirrors predate glass mirrors: polished obsidian examples survive from Neolithic Anatolia around 6000 BCE, and bronze examples from Egypt. These finds do not establish a single inventor.",
+  "summary_ja": "鏡はガラス鏡より古い。磨いた黒曜石の例が紀元前6000年頃の新石器時代アナトリアに残り、エジプトには青銅の例がある。これらは単一の発明者を示さない。",
   "tags": [
     "grooming",
     "household"

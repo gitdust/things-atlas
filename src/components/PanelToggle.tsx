@@ -1,5 +1,5 @@
 import { forwardRef, useRef, type PointerEvent } from 'react';
-import type { Lang } from '@/lib/i18n';
+import { t, type Lang } from '@/lib/i18n';
 import { mq } from '@/lib/tokens';
 
 type Props = {
@@ -14,13 +14,7 @@ export const PanelToggle = forwardRef<HTMLButtonElement, Props>(function PanelTo
   ref,
 ) {
   const gesture = useRef({ pointerId: null as number | null, startY: 0, suppressClick: false });
-  const label = open
-    ? lang === 'zh'
-      ? '收起面板'
-      : 'Collapse panel'
-    : lang === 'zh'
-      ? '展开条目列表'
-      : 'Expand catalogue';
+  const label = open ? t(lang, 'collapsePanel') : t(lang, 'expandCatalogue');
 
   const resetGesture = () => {
     gesture.current = { pointerId: null, startY: 0, suppressClick: false };
@@ -79,7 +73,7 @@ export const PanelToggle = forwardRef<HTMLButtonElement, Props>(function PanelTo
       </span>
       <span className="panel-toggle-text">
         <span className="panel-toggle-label">
-          {open ? (lang === 'zh' ? '收起' : 'Collapse') : lang === 'zh' ? '目录' : 'Catalogue'}
+          {open ? t(lang, 'collapse') : t(lang, 'catalogue')}
         </span>
         {!open && count != null && <span className="panel-toggle-count num">{count}</span>}
       </span>

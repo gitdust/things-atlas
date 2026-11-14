@@ -2,6 +2,7 @@
   "id": "bamboo-steamer",
   "name_zh": "蒸笼",
   "name_en": "Bamboo steamer",
+  "name_ja": "蒸籠",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -57,6 +58,7 @@
   "notes_en": "Ceramic yan steamers are far older (Neolithic). This entry covers stacked bamboo zhenglong. Legends crediting Han Xin lack evidence; the primary mark follows Eastern Han mural evidence.",
   "summary_zh": "竹制叠层蒸笼约在汉代厨房图像中可见；后世成为中式蒸点与家常蒸煮的标准器具。更早的陶甑另有渊源。",
   "summary_en": "Stacked bamboo steamers appeared in Han-period kitchen imagery and later became standard for Chinese steamed dishes. Older ceramic steamers are a separate lineage.",
+  "summary_ja": "重ねる竹の蒸籠は漢代の厨房図に現れ、その後中国の蒸し料理の標準になった。より古い陶製の蒸し器は別の系統である。",
   "tags": [
     "cooking"
   ],

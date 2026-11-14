@@ -3,37 +3,51 @@
     {
       "id": "stationery",
       "name_zh": "文具",
-      "name_en": "Stationery"
+      "name_en": "Stationery",
+      "name_es": "Papelería",
+      "name_ja": "文房具"
     },
     {
       "id": "apparel_accessory",
       "name_zh": "服饰配件",
-      "name_en": "Apparel"
+      "name_en": "Apparel",
+      "name_es": "Ropa y accesorios",
+      "name_ja": "服飾小物"
     },
     {
       "id": "hand_tool",
       "name_zh": "手持工具",
-      "name_en": "Hand tools"
+      "name_en": "Hand tools",
+      "name_es": "Herramientas de mano",
+      "name_ja": "手持ち道具"
     },
     {
       "id": "home",
       "name_zh": "家居",
-      "name_en": "Home"
+      "name_en": "Home",
+      "name_es": "Hogar",
+      "name_ja": "住まい"
     },
     {
       "id": "personal_care",
       "name_zh": "个护",
-      "name_en": "Personal care"
+      "name_en": "Personal care",
+      "name_es": "Cuidado personal",
+      "name_ja": "身だしなみ"
     },
     {
       "id": "digital",
       "name_zh": "数码配件",
-      "name_en": "Digital"
+      "name_en": "Digital",
+      "name_es": "Digital",
+      "name_ja": "デジタル"
     },
     {
       "id": "kitchen",
       "name_zh": "厨具",
-      "name_en": "Kitchen"
+      "name_en": "Kitchen",
+      "name_es": "Cocina",
+      "name_ja": "台所用品"
     }
   ]
 }

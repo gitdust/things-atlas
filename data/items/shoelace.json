@@ -2,6 +2,7 @@
   "id": "shoelace",
   "name_zh": "鞋带",
   "name_en": "Shoelace",
+  "name_ja": "靴ひも",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -50,6 +51,7 @@
   "notes": "更早的「鞋带」见于亚美尼亚 Areni-1 皮鞋（约前 3500 年）和冰人奥茨的鞋（约前 3300 年），早于本站年份范围；本条目以伦敦博物馆记录的 12 世纪鞋带作为现代意义鞋带的起点。",
   "summary_zh": "12 世纪的中世纪鞋已用鞋带穿过鞋眼系紧；1790 年哈维·肯尼迪在英国为两端带硬头的鞋带申请了专利。",
   "summary_en": "Medieval shoes from the 12th century were already laced through eyelets; in 1790 Harvey Kennedy patented aglet-tipped shoelaces in the UK.",
+  "summary_ja": "12世紀の中世の靴は、すでに鳩目へひもを通していた。1790年、Harvey Kennedy が英国でアグレット付きの靴ひもを特許化した。",
   "tags": [
     "fastening",
     "clothing"

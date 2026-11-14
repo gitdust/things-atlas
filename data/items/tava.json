@@ -2,6 +2,7 @@
   "id": "tava",
   "name_zh": "印度烤盘",
   "name_en": "Tava",
+  "name_ja": "タワ",
   "category": "kitchen",
   "years": {
     "invention": null,
@@ -50,6 +51,7 @@
   "notes_en": "The Indian tava/tawa is an everyday flat griddle, but almost no checkable invention year exists. Clay or stone flat cooking surfaces are older; metal griddles likely follow ironworking, yet the century is poorly evidenced. This entry uses a rough post–Iron Age metal-griddle mark and flags weak sourcing.",
   "summary_zh": "tava（tawa）是南亚平底烤盘，用于烙饼与多萨等；金属形制随铁器时代发展，精确发明年证据薄弱，故标争议。",
   "summary_en": "The tava (tawa) is South Asia’s flat griddle for flatbreads and dosa. Metal forms likely followed Iron Age cookware; its precise invention year is weakly evidenced and disputed.",
+  "summary_ja": "タワ（tawa）は南アジアの平たい鉄板で、フラットブレッドやドーサに使う。金属製は鉄器時代の調理具に続いたと考えられるが、正確な発明年の証拠は弱く争われている。",
   "tags": [
     "cooking"
   ],

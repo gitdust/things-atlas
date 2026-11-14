@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
-import type { Lang } from '@/lib/i18n';
+import { t, type Lang } from '@/lib/i18n';
 import { mq } from '@/lib/tokens';
 
 const useBrowserLayoutEffect = typeof window === 'undefined' ? useEffect : useLayoutEffect;
@@ -21,7 +21,6 @@ export function Guide({ lang, autoInvite, request, selectedId, panelOpen, onOpen
   const [position, setPosition] = useState({ left: 16, top: 112 });
   const cardRef = useRef<HTMLDivElement>(null);
   const previousSelection = useRef(selectedId);
-  const zh = lang === 'zh';
   const total = mobile ? 2 : 3;
 
   const dismiss = useCallback(() => {
@@ -204,24 +203,12 @@ export function Guide({ lang, autoInvite, request, selectedId, panelOpen, onOpen
   }, [phase, mobile, panelOpen, lang, selectedId]);
 
   if (phase < -1) return null;
-  const titles = zh
-    ? ['点一个地点', '找一件熟悉的东西', '沿时间探索']
-    : ['Pick a place', 'Find something familiar', 'Explore through time'];
-  const descriptions = zh
-    ? [
-        '点击地图上的圆点，看看物件的起源、故事与资料。',
-        selectedId
-          ? '在详情中返回列表，再搜索名称或按分类浏览。'
-          : '在目录中搜索名称，也可以按分类浏览。',
-        '左右拖动时间轴，看日常之物在历史中被点亮。未激活的物件呈半透明，依然可以点击。',
-      ]
-    : [
-        'Click a dot on the map to discover an object’s origins, story and sources.',
-        selectedId
-          ? 'Return to the list from the details, then search by name or browse categories.'
-          : 'Search the catalogue by name, or browse its categories.',
-        'Drag the timeline horizontally to see objects light up across history. Inactive objects remain clickable.',
-      ];
+  const titles = [t(lang, 'guideTitle0'), t(lang, 'guideTitle1'), t(lang, 'guideTitle2')];
+  const descriptions = [
+    t(lang, 'guideBody0'),
+    selectedId ? t(lang, 'guideBody1Back') : t(lang, 'guideBody1'),
+    t(lang, 'guideBody2'),
+  ];
   return (
     <div className="guide-layer">
       {phase >= 0 && target && (
@@ -237,7 +224,7 @@ export function Guide({ lang, autoInvite, request, selectedId, panelOpen, onOpen
         aria-describedby="guide-copy"
       >
         <div className="guide-kicker">
-          {zh ? '初次见面' : 'A quick introduction'}
+          {t(lang, 'guideKicker')}
           {phase >= 0 && (
             <span className="guide-progress">
               {phase + 1} / {total}
@@ -245,35 +232,21 @@ export function Guide({ lang, autoInvite, request, selectedId, panelOpen, onOpen
           )}
         </div>
         <h2 className="guide-title" id="guide-title">
-          {phase === -1
-            ? zh
-              ? '从一件日常之物开始'
-              : 'Start with an everyday object'
-            : titles[Math.min(phase, 2)]}
+          {phase === -1 ? t(lang, 'guideStartTitle') : titles[Math.min(phase, 2)]}
         </h2>
         <p className="guide-copy" id="guide-copy">
-          {phase === -1
-            ? zh
-              ? '看看它何时出现，又从哪里走进我们的生活。'
-              : 'Discover when it appeared and where its journey into our lives began.'
-            : descriptions[Math.min(phase, 2)]}
+          {phase === -1 ? t(lang, 'guideStartBody') : descriptions[Math.min(phase, 2)]}
         </p>
         <div className="guide-actions">
           <button type="button" className="guide-skip" onClick={dismiss}>
-            {zh ? '跳过' : 'Skip'}
+            {t(lang, 'guideSkip')}
           </button>
           <button type="button" className="guide-primary" onClick={next}>
             {phase === -1
-              ? zh
-                ? '带我看看'
-                : 'Show me around'
+              ? t(lang, 'guideShow')
               : phase >= total - 1
-                ? zh
-                  ? '开始探索'
-                  : 'Start exploring'
-                : zh
-                  ? '下一步'
-                  : 'Next'}
+                ? t(lang, 'guideBegin')
+                : t(lang, 'guideNext')}
           </button>
         </div>
       </div>

@@ -2,6 +2,7 @@
   "id": "trash-bag",
   "name_zh": "垃圾袋",
   "name_en": "Trash bag",
+  "name_ja": "ごみ袋",
   "category": "home",
   "years": {
     "invention": {
@@ -53,6 +54,7 @@
   "disputed": false,
   "summary_zh": "垃圾袋是用塑料薄膜制成的废弃物收纳用具。1950 年瓦西里克在温尼伯利用聚乙烯制造防漏垃圾袋供应医院，1960 年代末家用卷装垃圾袋问世，极大地改善了公共与家庭环卫条件。",
   "summary_en": "The trash bag is a disposable polyethylene bag for waste. Invented by Harry Wasylyk in Winnipeg in 1950, household bags in rolls were popularized in the late 1960s, modernizing sanitation.",
+  "summary_ja": "ごみ袋は廃棄物用の使い捨てポリエチレン袋である。1950年、ウィニペグの Harry Wasylyk が発明し、1960年代末にロール入りの家庭用袋が普及して衛生を変えた。",
   "tags": [
     "cleaning",
     "storage",

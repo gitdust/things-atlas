@@ -25,7 +25,7 @@ const files = new Set<string>();
 assert.equal(Object.keys(shareImages).length, items.length, 'Manifest item count');
 
 for (const lang of SHARE_LANGUAGES) {
-  const localeRoot = lang === 'en' ? path.join(root, 'en') : root;
+  const localeRoot = lang === 'zh' ? root : path.join(root, lang);
   for (const item of [null, ...items]) {
     if (item) {
       for (const format of formats) {
@@ -79,11 +79,12 @@ for (const lang of SHARE_LANGUAGES) {
         `${file}: ${name}`,
       );
     }
-    assert.ok(html.includes(`<html lang="${lang === 'zh' ? 'zh-Hans' : 'en'}"`), file);
+    const htmlLang = { zh: 'zh-Hans', en: 'en', es: 'es', ja: 'ja' }[lang];
+    assert.ok(html.includes(`<html lang="${htmlLang}"`), file);
     if (item)
       assert.ok(
         html.includes(
-          `<link rel="canonical" href="${origin}/item/${item.id}/${lang === 'en' ? '?lang=en' : ''}"`,
+          `<link rel="canonical" href="${origin}${lang === 'zh' ? '' : `/${lang}`}/item/${item.id}/"`,
         ),
         file,
       );

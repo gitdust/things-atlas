@@ -2,6 +2,7 @@
   "id": "button",
   "name_zh": "纽扣",
   "name_en": "Button",
+  "name_ja": "ボタン",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -46,6 +47,7 @@
   "notes": "「纽扣」的起点取决于定义：摩亨佐-达罗的贝壳纽扣（约前 2000 年，科特迪吉遗址更早至前 2800–2600 年）是装饰品，不是扣件；本条目以 13 世纪德国扣眼的出现作为扣合式纽扣的起点。",
   "summary_zh": "约公元前 2000 年印度河流域已有装饰性贝壳纽扣；真正配合扣眼扣合衣物的纽扣出现在 13 世纪的德国。",
   "summary_en": "Ornamental shell buttons existed in the Indus Valley by about 2000 BCE; buttons used with buttonholes to fasten clothing appeared in 13th-century Germany.",
+  "summary_ja": "装飾用の貝ボタンは紀元前2000年頃のインダス流域にあった。ボタン穴と組んで衣服を留める使い方は、13世紀のドイツに現れた。",
   "tags": [
     "fastening",
     "clothing"

@@ -2,6 +2,7 @@
   "id": "pencil-sharpener",
   "name_zh": "卷笔刀",
   "name_en": "Pencil sharpener",
+  "name_ja": "鉛筆削り",
   "category": "stationery",
   "years": {
     "invention": {
@@ -65,6 +66,7 @@
   "disputed": false,
   "summary_zh": "1828 年法国数学家拉西蒙取得首个机械刨笔专利，1847 年埃斯蒂沃发明锥形孔手持卷笔刀；19 世纪末双滚刀手摇机面世，让削铅笔彻底告别手削小刀时代。",
   "summary_en": "In 1828 Bernard Lassimonne patented the mechanical sharpener in Paris, and in 1847 Thierry des Estivaux created the handheld prism sharpener, later expanded into rotary classroom tools.",
+  "summary_ja": "1828年、Bernard Lassimonne がパリで機械式削り器を特許化した。1847年、Thierry des Estivaux が手持ちの角柱型を作り、後に回転式の教室用へ広がった。",
   "tags": [
     "writing",
     "office"

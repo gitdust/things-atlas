@@ -2,6 +2,7 @@
   "id": "chopsticks",
   "name_zh": "筷子",
   "name_en": "Chopsticks",
+  "name_ja": "箸",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -36,6 +37,7 @@
   "disputed": false,
   "summary_zh": "已知最早的筷子是河南安阳殷墟出土的 6 支青铜筷，约属公元前 1200 年的商代。",
   "summary_en": "The earliest known chopsticks are six bronze sticks excavated from the Ruins of Yin near Anyang, Henan, dated to about 1200 BCE in the Shang dynasty.",
+  "summary_ja": "知られている最古の箸は、河南省安陽付近の殷墟から出土した6本の青銅箸で、殷の紀元前1200年頃に年代づけられる。",
   "tags": [
     "dining"
   ],

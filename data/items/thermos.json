@@ -2,6 +2,7 @@
   "id": "thermos",
   "name_zh": "保温瓶",
   "name_en": "Vacuum flask",
+  "name_ja": "魔法瓶",
   "category": "home",
   "years": {
     "invention": {
@@ -49,6 +50,7 @@
   "disputed": false,
   "summary_zh": "1892 年苏格兰科学家詹姆斯·杜瓦发明真空瓶用于低温研究；1904 年两位德国玻璃匠将它改成耐用的日用保温瓶。",
   "summary_en": "Scottish scientist James Dewar invented the vacuum flask in 1892 for cryogenics; in 1904 two German glassblowers made a sturdier version for everyday hot and cold drinks.",
+  "summary_ja": "スコットランドの科学者ジェームズ・デュワーは1892年、低温研究のため真空瓶を発明した。1904年、二人のドイツ人ガラス職人が、日常の温冷飲料向けにより丈夫な形を作った。",
   "tags": [
     "dining",
     "storage",

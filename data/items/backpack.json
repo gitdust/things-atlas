@@ -2,6 +2,7 @@
   "id": "backpack",
   "name_zh": "双肩背包",
   "name_en": "Backpack",
+  "name_ja": "リュックサック",
   "category": "apparel_accessory",
   "years": {
     "invention": {
@@ -79,6 +80,7 @@
   "disputed": false,
   "summary_zh": "公元前 3300 年阿尔卑斯冰人奥茨携带以榛木弯成 U 形的背架构成了已知最早背包；1908 年挪威人体工学外架与 1967 年西雅图尼龙包使其蜕变为现代全球日常通勤与书包标配。",
   "summary_en": "From Ötzi the Iceman's 3300 BCE hazel U-frame pack in the Alps to Ole Bergan's 1908 ergonomic frame in Norway and 1967 Seattle nylon daypacks, the backpack evolved into an everyday global staple.",
+  "summary_ja": "アルプスで見つかった紀元前3300年頃のアイスマン、エッツィのハシバミ製枠から、1908年の Ole Bergan の人間工学的な枠、1967年のシアトル製ナイロンデイパックへと、背負い袋は日常の道具になった。",
   "tags": [
     "travel",
     "storage"

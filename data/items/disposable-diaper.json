@@ -2,6 +2,7 @@
   "id": "disposable-diaper",
   "name_zh": "一次性纸尿裤",
   "name_en": "Disposable diaper",
+  "name_ja": "紙おむつ",
   "category": "personal_care",
   "years": {
     "invention": null,
@@ -50,6 +51,7 @@
   "notes_en": "Disposable inserts, reusable waterproof covers and modern all-in-one diapers are distinct. Donovan’s 1951 patents concern covers. The timeline uses the 1961 market launch, not a first-invention claim.",
   "summary_zh": "一次性纸尿裤把吸收层与防漏结构结合，减少反复洗涤。早期纸垫与尿布罩经历多路发展；1961 年 Pampers 上市是现代产品商业化的重要节点。",
   "summary_en": "Disposable diapers combine absorbency and leak protection. Earlier pads and covers had several origins; the 1961 Pampers launch marks a commercial milestone.",
+  "summary_ja": "紙おむつは吸収と漏れ防止を兼ねる。パッドとカバーには複数の前史があり、1961年のパンパース発売が商業上の節目である。",
   "tags": [
     "cleaning",
     "health"

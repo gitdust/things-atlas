@@ -2,7 +2,8 @@ import { formatYear, pick, type Lang } from '@/lib/i18n';
 import type { EarliestUse, ItemSource } from '@/lib/types';
 
 function formatEarliestUse(lang: Lang, use: EarliestUse): string {
-  const prefix = use.precision === 'year' ? '' : lang === 'zh' ? '约 ' : 'c. ';
+  const prefix =
+    use.precision === 'year' ? '' : lang === 'zh' ? '约 ' : lang === 'ja' ? '約' : 'c. ';
   return prefix + formatYear(lang, use.year);
 }
 

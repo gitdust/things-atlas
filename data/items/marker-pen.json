@@ -2,6 +2,7 @@
   "id": "marker-pen",
   "name_zh": "马克笔",
   "name_en": "Marker pen",
+  "name_ja": "マーカー",
   "category": "stationery",
   "years": {
     "invention": {
@@ -65,6 +66,7 @@
   "disputed": false,
   "summary_zh": "1952 年纽约罗森塔尔发明毛毡头 Magic Marker；1962 年日本东京文具的堀江幸夫研制出现代合成纤维签名笔（Pentel），随后荧光笔与白板笔风靡全球。",
   "summary_en": "In 1952 Sidney Rosenthal developed the felt-tip Magic Marker in New York. Yukio Horie's 1962 acrylic fiber-tip Sign Pen in Tokyo popularized the modern marker for office and art worldwide.",
+  "summary_ja": "1952年、Sidney Rosenthal がニューヨークでフェルト芯の Magic Marker を開発した。堀江幸夫の1962年のアクリル繊維芯サインペンが、事務と画材の現代的なマーカーを広めた。",
   "tags": [
     "writing",
     "office"

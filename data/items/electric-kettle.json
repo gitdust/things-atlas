@@ -2,6 +2,7 @@
   "id": "electric-kettle",
   "name_zh": "电热水壶",
   "name_en": "Electric kettle",
+  "name_ja": "電気ケトル",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -44,6 +45,7 @@
   "notes_en": "Early priority accounts differ: National MagLab names Carpenter in 1891, while the Museum of Technology names Crompton in that year. Carpenter is an early documented example, not an exclusive inventor or an automatic-shutoff model.",
   "summary_zh": "1891 年已有 Carpenter 公司的早期电热水壶，其加热器与水分隔，效率有限。后来的浸入式加热元件和自动断电设计，让烧水逐渐成为方便的家庭日常。",
   "summary_en": "An early Carpenter electric kettle dates to 1891, with its heater separated from the water. Later immersed elements and automatic shutoff improved everyday boiling.",
+  "summary_ja": "初期の Carpenter 製電気ケトルは1891年にさかのぼり、ヒーターは水と分かれていた。後の浸漬式ヒーターと自動停止が、日常の湯沸かしを改善した。",
   "tags": [
     "cooking",
     "electric"

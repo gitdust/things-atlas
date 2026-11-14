@@ -116,7 +116,7 @@ function applySelection(map: MlMap, selectedId: string | null, visibleIds: Set<s
 }
 
 function tooltipHtml(p: ItemFeatureProps, lang: Lang) {
-  const name = pick(lang, p.name_zh, p.name_en);
+  const name = pick(lang, p.name_zh, p.name_en, { ja: p.name_ja });
   const alt = pick(lang === 'zh' ? 'en' : 'zh', p.name_zh, p.name_en);
   const place = pick(lang, p.place_label_zh, p.place_label_en);
   const kind = t(lang, `kind_${p.kind}` as MessageKey);

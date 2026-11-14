@@ -2,6 +2,7 @@
   "id": "face-mask",
   "name_zh": "口罩",
   "name_en": "Face mask",
+  "name_ja": "マスク",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -75,6 +76,7 @@
   "disputed": false,
   "summary_zh": "1897 年米库利奇与贝格尔将纱布口罩引入外科手术以防飞沫；1911 年伍连德设计双层防菌口罩抗击东北鼠疫，使之成为大众公共卫生防护的核心装备。",
   "summary_en": "Introduced in 1897 by Mikulicz and Berger for surgical asepsis, gauze face masks were adapted by Dr. Wu Lien-teh in 1911 during the Manchurian plague into cheap, mass-produced protective coverings.",
+  "summary_ja": "1897年、Mikulicz と Berger が外科の無菌のためガーゼのマスクを導入した。1911年、満州ペストの際に伍連徳が安価で量産できる防護覆いに改めた。",
   "tags": [
     "health"
   ],

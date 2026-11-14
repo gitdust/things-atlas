@@ -2,6 +2,7 @@
   "id": "rice-cooker",
   "name_zh": "电饭煲",
   "name_en": "Rice cooker",
+  "name_ja": "炊飯器",
   "category": "kitchen",
   "years": {
     "invention": null,
@@ -57,6 +58,7 @@
   "notes_en": "The timeline starts with commercialization of automatic household rice cookers. Nonautomatic electric rice-cooking devices predate 1955.",
   "summary_zh": "1955 年东芝推出自动电饭煲，将煮饭后的断电控制交给器具；这类产品随后进入日本家庭。它代表自动化的重要节点，早期非自动电热煮饭器则更早出现。",
   "summary_en": "Toshiba launched its automatic rice cooker in 1955. Automatic shutoff reduced supervision, and such cookers spread through Japanese homes; nonautomatic electric rice cookers existed earlier.",
+  "summary_ja": "東芝は1955年に自動炊飯器を発売した。自動停止が監視を減らし、日本の家庭に広がった。自動でない電気炊飯器はそれ以前からあった。",
   "tags": [
     "cooking",
     "electric"

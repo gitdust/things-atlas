@@ -2,6 +2,7 @@
   "id": "pliers",
   "name_zh": "钳子",
   "name_en": "Pliers",
+  "name_ja": "ペンチ",
   "category": "hand_tool",
   "years": {
     "invention": {
@@ -37,6 +38,7 @@
   "notes": "来源较弱：维基百科只说青铜钳「可能」出现在公元前 3000 年之前，没有具体出土年代或地点，本条目取本站最早年份并标为争议。",
   "summary_zh": "早期冶金需要夹持高温材料的工具，钳子大约在公元前 3000 年前由木制演变为青铜制。",
   "summary_en": "Early metalworking needed tools to hold hot material; pliers probably evolved from wood to bronze before 3000 BCE.",
+  "summary_ja": "初期の金属加工には熱い材料を持つ道具が必要だった。ペンチは紀元前3000年より前に、木から青銅へと発展したと考えられる。",
   "tags": [
     "repair"
   ],

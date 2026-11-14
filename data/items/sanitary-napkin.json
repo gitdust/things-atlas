@@ -2,6 +2,7 @@
   "id": "sanitary-napkin",
   "name_zh": "卫生巾",
   "name_en": "Sanitary napkin",
+  "name_ja": "生理用ナプキン",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -79,6 +80,7 @@
   "disputed": false,
   "summary_zh": "一战期间战地护士发现木浆吸水棉极其好用；1920 年金佰利推出高洁丝开启现代量产。1969 年背胶卫生巾的面世彻底改变了全球女性经期生活。",
   "summary_en": "WWI nurses repurposed absorbent cellulose bandages for menstruation. Kimberly-Clark launched Kotex in 1920, and the 1969 adhesive strip transformed women's mobility worldwide.",
+  "summary_ja": "第一次世界大戦の看護師が吸収性のセルロース包帯を月経に転用した。キンバリー・クラークは1920年にコテックスを発売し、1969年の粘着テープが女性の移動を大きく変えた。",
   "tags": [
     "health",
     "grooming"

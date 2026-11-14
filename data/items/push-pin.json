@@ -2,6 +2,7 @@
   "id": "push-pin",
   "name_zh": "图钉",
   "name_en": "Push pin",
+  "name_ja": "押しピン",
   "category": "stationery",
   "years": {
     "invention": null,
@@ -55,6 +56,7 @@
   "notes": "带柄推钉（摩尔，1900）与扁头图钉是两种形态：扁头图钉一说为德国吕兴钟表匠基尔斯滕 1903 年发明，另一说为奥地利工厂主萨克斯 1888 年用单片金属冲压而成。萨克斯的具体城市未核实。",
   "summary_zh": "1900 年爱德温·摩尔为带柄的「推钉」申请美国专利；扁头图钉则有德国 1903 年和奥地利 1888 年两种说法。",
   "summary_en": "Edwin Moore patented the handled push-pin in the US in 1900; the flat thumbtack is credited either to Johann Kirsten (Lychen, 1903) or Heinrich Sachs (Austria, 1888).",
+  "summary_ja": "Edwin Moore は1900年、柄付きの押しピンを米国で特許化した。平たい画鋲は、ヨハン・キルステン（リュッヘン、1903年）かハインリヒ・ザックス（オーストリア、1888年）に帰される。",
   "tags": [
     "office",
     "fastening"

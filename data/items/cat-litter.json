@@ -2,6 +2,7 @@
   "id": "cat-litter",
   "name_zh": "猫砂",
   "name_en": "Cat litter",
+  "name_ja": "猫砂",
   "category": "home",
   "years": {
     "invention": {
@@ -52,6 +53,7 @@
   "disputed": false,
   "summary_zh": "1947 年前养猫只能用泥沙或炉渣。爱德华·洛将吸水膨润土装袋制成 Kitty Litter，彻底解决了室内异味，使家猫从农场捕鼠动物变成现代纯室内陪伴宠物。",
   "summary_en": "Before 1947 indoor cats used sand or stove ashes. Edward Lowe packaged absorbent fuller's earth as 'Kitty Litter' in Michigan, transforming domestic cats into purely indoor companions worldwide.",
+  "summary_ja": "1947年より前、室内の猫には砂やかまどの灰が使われた。Edward Lowe はミシガンで吸水性のフラー土を「Kitty Litter」として売り、猫を完全な室内動物へ変えた。",
   "tags": [
     "household",
     "cleaning"

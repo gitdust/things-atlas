@@ -2,6 +2,7 @@
   "id": "transparent-tape",
   "name_zh": "透明胶带",
   "name_en": "Transparent tape",
+  "name_ja": "透明テープ",
   "category": "stationery",
   "years": {
     "invention": {
@@ -36,6 +37,7 @@
   "disputed": false,
   "summary_zh": "1930 年，3M 工程师理查德·德鲁在明尼苏达州圣保罗发明透明玻璃纸胶带，即思高（Scotch）胶带。",
   "summary_en": "In 1930, 3M engineer Richard Drew in St. Paul, Minnesota, invented clear cellulose tape, sold as Scotch Tape.",
+  "summary_ja": "1930年、ミネソタ州セントポールの3Mの技術者 Richard Drew が透明なセルロースのテープを発明し、スコッチテープとして売られた。",
   "tags": [
     "office",
     "fastening"

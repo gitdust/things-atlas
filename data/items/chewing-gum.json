@@ -2,6 +2,7 @@
   "id": "chewing-gum",
   "name_zh": "口香糖",
   "name_en": "Chewing gum",
+  "name_ja": "チューインガム",
   "category": "kitchen",
   "primary": "mass_production",
   "years": {
@@ -59,6 +60,7 @@
   "notes_en": "The dates concern manufactured gum and a specific composition patent, not the ancient practice of chewing plant resins.",
   "summary_zh": "口香糖由可咀嚼的胶基与调味成分制成。人类咀嚼植物树脂的习俗十分古老；1848年缅因州云杉树脂口香糖已作为商品出售，1869年森普尔又获得特定配方专利。",
   "summary_en": "People chewed plant resins long before manufactured gum. Spruce gum was sold commercially in Maine in 1848; Semple patented a rubber-based composition in 1869.",
+  "summary_ja": "製造ガムより前から、人は植物樹脂を噛んでいた。トウヒガムは1848年にメーンで売られ、Semple は1869年にゴムを基にした配合を特許化した。",
   "tags": [
     "food-drink"
   ],

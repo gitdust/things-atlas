@@ -2,6 +2,7 @@
   "id": "go",
   "name_zh": "围棋",
   "name_en": "Go",
+  "name_ja": "囲碁",
   "category": "home",
   "years": {
     "invention": {
@@ -55,6 +56,7 @@
   "notes_en": "Legends crediting Yao or Shun are unprovable. Scholars generally place weiqi’s origin in ancient China, but the exact century is unclear; an early firm textual anchor is the Zuo Zhuan. This entry uses a rough first-millennium BCE invention mark plus the textual reference year.",
   "summary_zh": "围棋起源于中国上古，传说发明人不可考；约公元前一千年已可能存在，公元前548年《左传》提供较早书证。",
   "summary_en": "Go (weiqi) originated in ancient China; legendary inventors are unprovable. It likely existed by the first millennium BCE, with an early textual anchor in 548 BCE.",
+  "summary_ja": "囲碁は古代中国に起源がある。伝説上の発明者は証明できない。紀元前1千年紀には存在したと考えられ、早い文献上の手がかりは紀元前548年である。",
   "tags": [
     "leisure"
   ],

@@ -2,6 +2,7 @@
   "id": "abacus",
   "name_zh": "算盘",
   "name_en": "Abacus",
+  "name_ja": "そろばん",
   "category": "stationery",
   "years": {
     "invention": {
@@ -68,6 +69,7 @@
   "notes_en": "Counting rods are older; this entry covers the beaded, framed suanpan. Form evolved between Han descriptions and the classic Song–later layout.",
   "summary_zh": "中国算盘由早期珠算工具演化而来；约公元190年已有相关记载，宋代起上二下五的典型算盘广泛使用。",
   "summary_en": "The Chinese suanpan evolved from earlier bead calculation devices described around 190 CE. The classic 2/5-bead frame is widely attested from the Song dynasty onward.",
+  "summary_ja": "中国の算盤は、190年頃に記された珠を使う計算具から発展した。上下2珠・5珠の形は宋以降広く確認される。",
   "tags": [
     "office",
     "computing"

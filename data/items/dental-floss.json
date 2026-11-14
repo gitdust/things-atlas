@@ -2,6 +2,7 @@
   "id": "dental-floss",
   "name_zh": "牙线",
   "name_en": "Dental floss",
+  "name_ja": "デンタルフロス",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -65,6 +66,7 @@
   "disputed": false,
   "summary_zh": "1815 年新奥尔良牙医帕姆利提出用丝线清洁牙缝。1898 年强生将外科缝合线余料制成商品牙线，二战后尼龙的发明让牙线彻底融入日常口腔护理。",
   "summary_en": "In 1815 New Orleans dentist Levi Spear Parmly recommended silk thread for flossing. Johnson & Johnson patented it in 1898, and post-WWII nylon made dental floss an everyday bathroom staple.",
+  "summary_ja": "1815年、ニューオーリンズの歯科医 Levi Spear Parmly が絹糸での清掃を勧めた。Johnson & Johnson は1898年に特許を得て、第二次世界大戦後のナイロンが日常の浴室用品にした。",
   "tags": [
     "health",
     "grooming"

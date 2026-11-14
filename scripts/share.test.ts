@@ -13,7 +13,7 @@ test('public share URLs include only the selected entry and language', () => {
   assert.equal(shareUrl('toilet-paper', 'zh'), 'https://things-atlas.com/item/toilet-paper/');
   assert.equal(
     shareUrl('toilet-paper', 'en'),
-    'https://things-atlas.com/item/toilet-paper/?lang=en',
+    'https://things-atlas.com/en/item/toilet-paper/',
   );
 });
 

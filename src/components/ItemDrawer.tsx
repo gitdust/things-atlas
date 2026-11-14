@@ -133,7 +133,7 @@ export function ItemDrawer({
       return a.mark.year - b.mark.year;
     },
   );
-  const title = pick(lang, item.name_zh, item.name_en);
+  const title = pick(lang, item.name_zh, item.name_en, { ja: item.name_ja });
   const alt = pick(lang === 'zh' ? 'en' : 'zh', item.name_zh, item.name_en);
 
   return (
@@ -160,7 +160,12 @@ export function ItemDrawer({
               <span className="kicker-sep" />
               <span className="kicker-cat">
                 <span className="chip-dot" />
-                {category ? pick(lang, category.name_zh, category.name_en) : item.category}
+                {category
+                  ? pick(lang, category.name_zh, category.name_en, {
+                      es: category.name_es,
+                      ja: category.name_ja,
+                    })
+                  : item.category}
               </span>
               {item.disputed ? (
                 <span className="badge-disputed" title={t(lang, 'disputed')}>
@@ -173,8 +178,8 @@ export function ItemDrawer({
             <button
               type="button"
               className="close-btn share-btn"
-              aria-label={lang === 'zh' ? '分享条目' : 'Share entry'}
-              title={lang === 'zh' ? '分享条目' : 'Share entry'}
+              aria-label={t(lang, 'shareEntry')}
+              title={t(lang, 'shareEntry')}
               ref={shareButton}
               aria-haspopup="dialog"
               onClick={() => setSharingItem(item.id)}
@@ -238,11 +243,11 @@ export function ItemDrawer({
           </figure>
         ) : null}
 
-        <p className="drawer-lede">{pick(lang, item.summary_zh, item.summary_en)}</p>
+        <p className="drawer-lede">{pick(lang, item.summary_zh, item.summary_en, { ja: item.summary_ja })}</p>
 
         {item.earliest_use && (
           <section className="drawer-section">
-            <h3>{lang === 'zh' ? '最早已知使用' : 'Earliest known use'}</h3>
+            <h3>{t(lang, 'earliestUse')}</h3>
             <EarliestUseEvidence
               lang={lang}
               earliestUse={item.earliest_use}
@@ -333,19 +338,16 @@ export function ItemDrawer({
           </ol>
         </section>
 
-        <nav
-          className="drawer-footer-nav"
-          aria-label={lang === 'zh' ? '相邻条目' : 'Adjacent entries'}
-        >
+        <nav className="drawer-footer-nav" aria-label={t(lang, 'adjacent')}>
           {prevItem ? (
             <button
               type="button"
               className="drawer-nav-card prev"
               onClick={() => onNavigate?.(prevItem.id)}
             >
-              <span className="nav-card-dir">← {lang === 'zh' ? '上一条' : 'Previous'}</span>
+              <span className="nav-card-dir">← {t(lang, 'previous')}</span>
               <strong className="nav-card-title">
-                {pick(lang, prevItem.name_zh, prevItem.name_en)}
+                {pick(lang, prevItem.name_zh, prevItem.name_en, { ja: prevItem.name_ja })}
               </strong>
               <span className="nav-card-year num">{formatYear(lang, prevItem.primary_year)}</span>
             </button>
@@ -359,9 +361,9 @@ export function ItemDrawer({
               className="drawer-nav-card next"
               onClick={() => onNavigate?.(nextItem.id)}
             >
-              <span className="nav-card-dir">{lang === 'zh' ? '下一条' : 'Next'} →</span>
+              <span className="nav-card-dir">{t(lang, 'next')} →</span>
               <strong className="nav-card-title">
-                {pick(lang, nextItem.name_zh, nextItem.name_en)}
+                {pick(lang, nextItem.name_zh, nextItem.name_en, { ja: nextItem.name_ja })}
               </strong>
               <span className="nav-card-year num">{formatYear(lang, nextItem.primary_year)}</span>
             </button>

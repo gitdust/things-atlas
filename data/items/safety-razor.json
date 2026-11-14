@@ -2,6 +2,7 @@
   "id": "safety-razor",
   "name_zh": "安全剃须刀",
   "name_en": "Safety razor",
+  "name_ja": "安全かみそり",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -56,6 +57,7 @@
   "notes": "约 1762 年法国刀匠佩雷已给直剃刀加装护罩；吉列 1901 年提交专利申请，1904 年获批。",
   "summary_zh": "1880 年布鲁克林的坎普夫兄弟首次以「安全剃须刀」之名申请专利；1904 年吉列的一次性双刃刀片让它真正普及。",
   "summary_en": "The Kampfe brothers of Brooklyn first used the term in an 1880 safety-razor patent; King Gillette's disposable double-edge blade, patented in 1904, made it widespread.",
+  "summary_ja": "ブルックリンの Kampfe 兄弟が1880年の特許でこの語を最初に使った。King Gillette の使い捨て両刃は1904年に特許化され、広く普及した。",
   "tags": [
     "grooming"
   ],

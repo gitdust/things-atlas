@@ -2,6 +2,7 @@
   "id": "shampoo",
   "name_zh": "洗发水",
   "name_en": "Shampoo",
+  "name_ja": "シャンプー",
   "category": "personal_care",
   "years": {
     "invention": {
@@ -64,6 +65,7 @@
   "notes": "马哈茂德最初在英国推广的是印度式头部按摩（shampooing），不是洗发液；他 1821 年在布莱顿开设浴室。",
   "summary_zh": "「洗发」一词经印度旅行家迪恩·马哈茂德 1814 年传入英国；1900 年劳施在瑞士研制出液体洗发皂，1927 年施华蔻在柏林实现量产。",
   "summary_en": "Sake Dean Mahomed brought \"shampooing\" (head massage) to Britain in 1814; Rausch made the first liquid hair soap in Switzerland in 1900, and Schwarzkopf mass-produced it in Berlin in 1927.",
+  "summary_ja": "Sake Dean Mahomed は1814年、「シャンプー」（頭のマッサージ）を英国へ伝えた。Rausch は1900年にスイスで最初の液体ヘアソープを作り、シュワルツコフが1927年にベルリンで量産した。",
   "tags": [
     "cleaning",
     "grooming"

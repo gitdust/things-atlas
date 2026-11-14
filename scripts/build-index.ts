@@ -57,6 +57,7 @@ for (const file of files) {
         location_index: index,
         name_zh: data.name_zh,
         name_en: data.name_en,
+        name_ja: data.name_ja,
         category: data.category,
         primary_year: primary,
         disputed: data.disputed,

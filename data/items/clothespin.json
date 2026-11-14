@@ -2,6 +2,7 @@
   "id": "clothespin",
   "name_zh": "衣夹",
   "name_en": "Clothespin",
+  "name_ja": "洗濯ばさみ",
   "category": "home",
   "years": {
     "invention": null,
@@ -44,6 +45,7 @@
   "notes_en": "The dated milestone is a spring-clamp patent, not the origin of every form of clothes peg.",
   "summary_zh": "衣夹把湿衣固定在晾衣绳上。1853 年，戴维·史密斯为双臂弹簧夹申请的专利获准，使夹取衣物更方便；此前已有不带弹簧的一体式木夹。",
   "summary_en": "Clothespins secure laundry to a line. David M. Smith patented a two-arm spring clamp in 1853; one-piece wooden pegs preceded it.",
+  "summary_ja": "洗濯ばさみは洗濯物を綱に留める。David M. Smith は1853年に二本腕のばね式を特許化した。一体の木製ピンはそれより前にあった。",
   "tags": [
     "fastening",
     "cleaning"

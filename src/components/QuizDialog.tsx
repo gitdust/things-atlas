@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { pick, t, type Lang } from '@/lib/i18n';
+import { fill, pick, t, type Lang } from '@/lib/i18n';
 import type { Question, QuizItem } from '@/lib/quiz';
 import { QuizConfetti } from './QuizConfetti';
 import { EarliestUseEvidence } from './EarliestUseEvidence';
@@ -25,7 +25,7 @@ const reviewedImages = new Set([
 
 function QuizImage({ item, lang }: { item: QuizItem; lang: Lang }) {
   const [failed, setFailed] = useState(false);
-  const name = pick(lang, item.name_zh, item.name_en);
+  const name = pick(lang, item.name_zh, item.name_en, { ja: item.name_ja });
   if (item.image && reviewedImages.has(item.image.src) && !failed) {
     return (
       <img className="quiz-image" src={item.image.src} alt={name} onError={() => setFailed(true)} />
@@ -53,7 +53,6 @@ export default function QuizDialog({
   const accepted = useRef(selectedId !== null);
   const exitAction = useRef<(() => void) | null>(null);
   const [closing, setClosing] = useState(false);
-  const zh = lang === 'zh';
   const revealed = selectedId !== null;
   const choices = [question.leftId, question.rightId].map((id) =>
     items.find((item) => item.id === id),
@@ -132,7 +131,7 @@ export default function QuizDialog({
       {selectedId === question.earlierId && !closing && <QuizConfetti />}
       <header className="quiz-heading">
         <h2 id="quiz-title" ref={heading} tabIndex={-1}>
-          {zh ? '哪个更早被使用？' : 'Which came into use earlier?'}
+          {t(lang, 'quizTitle')}
         </h2>
         <button
           className="close-btn"
@@ -147,12 +146,10 @@ export default function QuizDialog({
         {revealed && earlier && (
           <p ref={result} tabIndex={-1} className="quiz-result">
             {selectedId === question.earlierId
-              ? zh
-                ? '答对了！'
-                : 'Correct!'
-              : zh
-                ? `其实，${earlier.name_zh}更早`
-                : `${earlier.name_en} came earlier`}
+              ? t(lang, 'quizCorrect')
+              : fill(t(lang, 'quizEarlier'), {
+                  name: pick(lang, earlier.name_zh, earlier.name_en, { ja: earlier.name_ja }),
+                })}
           </p>
         )}
       </div>
@@ -171,16 +168,12 @@ export default function QuizDialog({
                   onClick={() => answer(item.id)}
                 >
                   <QuizImage item={item} lang={lang} />
-                  <strong>{pick(lang, item.name_zh, item.name_en)}</strong>
+                  <strong>{pick(lang, item.name_zh, item.name_en, { ja: item.name_ja })}</strong>
                 </button>
                 {revealed && (
                   <div className="quiz-evidence">
                     <p className="quiz-choice-label">
-                      {item.id === question.earlierId
-                        ? zh
-                          ? '✓ 更早使用'
-                          : '✓ Earlier use'
-                        : '\u00a0'}
+                      {item.id === question.earlierId ? t(lang, 'quizEarlierMark') : '\u00a0'}
                     </p>
                     <EarliestUseEvidence
                       earliestUse={item.earliest_use}
@@ -193,7 +186,7 @@ export default function QuizDialog({
                       onClick={() => close(item.id)}
                       disabled={closing}
                     >
-                      {zh ? '查看条目' : 'View entry'} ↗
+                      {t(lang, 'quizView')} ↗
                     </button>
                   </div>
                 )}
@@ -202,15 +195,9 @@ export default function QuizDialog({
         )}
       </div>
       <footer className="quiz-footer">
-        <p id="quiz-rule">{zh ? '按最早已知使用年份比较' : 'Based on earliest known use year'}</p>
+        <p id="quiz-rule">{t(lang, 'quizRule')}</p>
         <button type="button" className="quiz-dismiss" disabled={closing} onClick={() => close()}>
-          {revealed
-            ? zh
-              ? '继续探索'
-              : 'Keep exploring'
-            : zh
-              ? '跳过，浏览地图'
-              : 'Skip and explore'}
+          {revealed ? t(lang, 'quizContinue') : t(lang, 'quizSkip')}
         </button>
       </footer>
     </dialog>,

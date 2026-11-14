@@ -2,6 +2,7 @@
   "id": "frying-pan",
   "name_zh": "平底锅",
   "name_en": "Frying pan",
+  "name_ja": "フライパン",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -80,6 +81,7 @@
   "disputed": false,
   "summary_zh": "距今 4000 年前的两河与爱琴海文明已普遍使用平底煎盘；19 世纪末铸铁煎锅随现代炉灶普及，1954 年法国特福发明特氟龙不粘涂层，使平底锅成为跨越古今的厨房核心炊具。",
   "summary_en": "From 4,000-year-old Mesopotamian and Greek bronze frying pans to 19th-century cast-iron skillets and 1954 Tefal non-stick coatings, the frying pan remains an enduring cooking staple across millennia.",
+  "summary_ja": "4000年前のメソポタミアとギリシャの青銅製から、19世紀の鋳鉄スキレット、1954年のテファルの焦げ付き防止まで、フライパンは長く調理の定番であり続けている。",
   "tags": [
     "cooking",
     "materials"

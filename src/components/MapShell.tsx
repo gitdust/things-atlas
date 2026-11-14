@@ -15,18 +15,10 @@ export function MapStatus({
     <div className={`map-status${compact ? ' is-compact' : ''}`}>
       <div className="map-status-content" role="status" aria-live="polite">
         {!failed && <span className="map-spinner" aria-hidden="true" />}
-        <span>
-          {failed
-            ? lang === 'zh'
-              ? '地图加载失败'
-              : 'Map failed to load'
-            : lang === 'zh'
-              ? '地图加载中…'
-              : 'Loading map…'}
-        </span>
+        <span>{failed ? t(lang, 'mapFailed') : t(lang, 'mapLoading')}</span>
         {failed && onRetry && (
           <button type="button" onClick={onRetry}>
-            {lang === 'zh' ? '重试' : 'Retry'}
+            {t(lang, 'retry')}
           </button>
         )}
       </div>

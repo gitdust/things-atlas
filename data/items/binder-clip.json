@@ -2,6 +2,7 @@
   "id": "binder-clip",
   "name_zh": "长尾夹",
   "name_en": "Binder clip",
+  "name_ja": "ダブルクリップ",
   "category": "stationery",
   "years": {
     "invention": {
@@ -47,6 +48,7 @@
   "disputed": false,
   "summary_zh": "1910 年，路易斯·巴尔茨利在华盛顿发明长尾夹，方便他父亲夹住手稿，1915 年获得专利。",
   "summary_en": "Louis E. Baltzley invented the binder clip in Washington, D.C., in 1910 to hold his father's manuscripts; it was patented in 1915.",
+  "summary_ja": "Louis E. Baltzley は1910年、ワシントンD.C.で父の原稿を留めるためダブルクリップを考案し、1915年に特許を得た。",
   "tags": [
     "office",
     "fastening"

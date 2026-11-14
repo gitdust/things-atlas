@@ -2,6 +2,7 @@
   "id": "tablet",
   "name_zh": "平板电脑",
   "name_en": "Tablet",
+  "name_ja": "タブレット",
   "category": "digital",
   "years": {
     "invention": {
@@ -82,6 +83,7 @@
   "disputed": true,
   "summary_zh": "平板电脑有漫长的笔计算先驱史：1989 年 GRiDPad 是早期商用代表，2002 年微软推动 Tablet PC 规范，2010 年 iPad 则将触控平板带入大众市场。",
   "summary_en": "Tablets have a long pen-computing ancestry: the 1989 GRiDPad was an early commercial model, Microsoft promoted Tablet PCs in 2002, and the 2010 iPad brought touch tablets to a mass market.",
+  "summary_ja": "タブレットにはペン入力の長い前史がある。1989年のGRiDPadは早い市販機で、マイクロソフトは2002年にタブレットPCを推進し、2010年のiPadがタッチ式を大衆市場へ広げた。",
   "tags": [
     "computing",
     "media"

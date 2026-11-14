@@ -2,6 +2,7 @@
   "id": "instant-coffee",
   "name_zh": "速溶咖啡",
   "name_en": "Instant coffee",
+  "name_ja": "インスタントコーヒー",
   "category": "kitchen",
   "years": {
     "invention": null,
@@ -57,6 +58,7 @@
   "notes": "速溶咖啡由多项工艺逐步发展而来。本条以1903年加藤专利与1938年Nescafé生产线为可核实节点，不把加藤认定为唯一发明者，也不把雀巢上市视为整个食品类型的起源。配图为现代咖啡颗粒。",
   "summary_zh": "速溶咖啡将咖啡萃取液干燥成可用水溶解的粉末或颗粒。1903年加藤取得相关工艺专利；1938年雀巢在瑞士奥尔布规模化生产Nescafé。这些节点并非速溶咖啡的唯一或最早起源。",
   "summary_en": "Instant coffee is dried coffee extract. Kato patented a process in 1903; Nescafé entered large-scale production in Orbe in 1938. Neither milestone establishes the food type's first invention.",
+  "summary_ja": "インスタントコーヒーは乾燥したコーヒー抽出物である。Kato は1903年に製法を特許化し、ネスカフェは1938年にオルブで大規模生産を始めた。どちらも食品としての最初の発明を確定しない。",
   "tags": [
     "food-drink"
   ],

@@ -2,6 +2,7 @@
   "id": "eraser",
   "name_zh": "橡皮",
   "name_en": "Eraser",
+  "name_ja": "消しゴム",
   "category": "stationery",
   "years": {
     "invention": {
@@ -61,6 +62,7 @@
   "notes": "李普曼的专利后来被美国最高法院判定无效（认为只是两种已有物的组合）。橡皮本身先于硫化橡胶出现，1839 年的硫化让它更耐用。",
   "summary_zh": "1770 年伦敦仪器商奈恩开始出售橡胶擦，普里斯特利记下它能擦掉铅笔痕；1858 年李普曼为铅笔加橡皮头申请了专利。",
   "summary_en": "London instrument maker Edward Nairne sold rubber erasers in 1770, as Priestley noted; Hymen Lipman patented a pencil with an attached eraser in 1858.",
+  "summary_ja": "ロンドンの器具職人 Edward Nairne は1770年にゴムの消しゴムを売ったと Priestley が記す。Hymen Lipman は1858年、消しゴム付き鉛筆を特許化した。",
   "tags": [
     "office",
     "writing"

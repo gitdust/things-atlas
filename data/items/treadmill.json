@@ -2,6 +2,7 @@
   "id": "treadmill",
   "name_zh": "跑步机",
   "name_en": "Treadmill",
+  "name_ja": "トレッドミル",
   "category": "home",
   "years": {
     "invention": {
@@ -67,6 +68,7 @@
   "disputed": false,
   "summary_zh": "1952 年布鲁斯在西雅图发明电动心肺诊断跑步机；1968 年斯陶布推出首台家用跑步机，将室外长跑转化为不受时空气候限制的室内有氧运动。",
   "summary_en": "Invented in 1952 by Dr. Robert Bruce in Seattle for cardiac testing and commercialized for homes in 1968 by William Staub, the motorized treadmill revolutionized indoor cardiovascular fitness.",
+  "summary_ja": "1952年、シアトルの Robert Bruce 医師が心臓検査のため発明し、1968年に William Staub が家庭向けに商品化した。電動トレッドミルは室内の有酸素運動を大きく変えた。",
   "tags": [
     "health",
     "household"

@@ -178,7 +178,7 @@ try {
     for (const lang of SHARE_LANGUAGES) {
       const content = shareContent(item, lang);
       const url = shareUrl(item.id, lang);
-      const variants = {} as ShareManifest[string][typeof lang];
+      const variants = {} as NonNullable<ShareManifest[string][typeof lang]>;
       languages[lang] = variants;
       for (const format of formats) {
         try {
@@ -208,10 +208,23 @@ try {
             width,
             height,
             mime,
-            alt:
-              lang === 'zh'
-                ? `${content.name} · ${format === 'poster' ? '知识海报' : '分享预览'}`
-                : `${content.name} · ${format === 'poster' ? 'History poster' : 'Share preview'}`,
+            alt: `${content.name} · ${
+              format === 'poster'
+                ? lang === 'zh'
+                  ? '知识海报'
+                  : lang === 'ja'
+                    ? '歴史ポスター'
+                    : lang === 'es'
+                      ? 'póster histórico'
+                      : 'History poster'
+                : lang === 'zh'
+                  ? '分享预览'
+                  : lang === 'ja'
+                    ? '共有プレビュー'
+                    : lang === 'es'
+                      ? 'vista previa'
+                      : 'Share preview'
+            }`,
           };
           const cached = await fs.stat(file).catch((error: NodeJS.ErrnoException) => {
             if (error.code !== 'ENOENT') throw error;
@@ -269,7 +282,7 @@ try {
             markup,
             format,
             lang,
-            !item.share?.[lang].milestones,
+            !(lang === 'zh' || lang === 'en' ? item.share?.[lang].milestones : undefined),
           );
           const bytes = await (
             format === 'poster'

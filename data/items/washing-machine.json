@@ -2,6 +2,7 @@
   "id": "washing-machine",
   "name_zh": "洗衣机",
   "name_en": "Washing machine",
+  "name_ja": "洗濯機",
   "category": "home",
   "years": {
     "invention": null,
@@ -59,6 +60,7 @@
   "disputed": false,
   "summary_zh": "洗衣机是利用机械动力清洗衣物的家用电器。20 世纪初电动洗衣机在芝加哥投产销售，1930 年代出现全自动滚筒机型，彻底改变了家庭日常家务劳动。",
   "summary_en": "The washing machine mechanizes laundry using electric power. Commercial electric machines emerged in Chicago in the 1900s, followed by 1930s automatic models that transformed domestic labor.",
+  "summary_ja": "洗濯機は電力で洗濯を機械化する。商業用の電気式は1900年代のシカゴに現れ、1930年代の自動式が家事を変えた。",
   "tags": [
     "cleaning",
     "electric",

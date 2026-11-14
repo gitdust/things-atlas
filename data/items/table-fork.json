@@ -2,6 +2,7 @@
   "id": "table-fork",
   "name_zh": "餐叉",
   "name_en": "Table fork",
+  "name_ja": "食卓用フォーク",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -59,6 +60,7 @@
   "notes": "中国齐家文化（前 2400–前 1900 年）和商代遗址出土过骨叉，迈锡尼墓葬有前 16 世纪的青铜叉，但用途未必是个人进餐；齐家文化地点以兰州一带示意。",
   "summary_zh": "个人餐叉很可能起源于拜占庭帝国，4 世纪已普遍使用；1004 年拜占庭公主把金叉带到威尼斯，之后才在欧洲慢慢传开。",
   "summary_en": "The table fork most likely began in the Byzantine Empire, where it was common by the 4th century; a Byzantine princess brought golden forks to Venice in 1004, and they spread slowly in Europe.",
+  "summary_ja": "食卓用フォークはビザンツ帝国に始まった可能性が最も高く、4世紀には一般的だった。1004年、ビザンツの皇女が金のフォークをヴェネツィアへ持ち、ヨーロッパへゆっくり広がった。",
   "tags": [
     "dining"
   ],

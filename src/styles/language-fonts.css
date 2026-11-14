@@ -10,7 +10,13 @@
   --font-serif: 'Source Serif 4 Variable', 'Source Serif 4', 'Noto Serif SC Subset', Georgia, serif;
 }
 
-.top-controls .segmented button:lang(zh),
-.top-controls .segmented button:lang(en) {
+:lang(es),
+:lang(ja) {
+  --font-sans:
+    'Inter Variable', 'Inter', 'Noto Sans SC Subset', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  --font-serif: 'Source Serif 4 Variable', 'Source Serif 4', 'Noto Serif SC Subset', Georgia, serif;
+}
+
+.lang-menu button {
   font-family: var(--font-sans);
 }

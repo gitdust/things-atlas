@@ -2,6 +2,7 @@
   "id": "spoon",
   "name_zh": "勺子",
   "name_en": "Spoon",
+  "name_ja": "スプーン",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -53,6 +54,7 @@
   "notes_en": "Spoons have no established single inventor or birthplace, and isolated earlier finds exist. The timeline uses the start of the Grad-Starčevo site’s 5800–5450 BCE date range, not an exact invention date. A 2019 study compared wear with experimental milk-tooth marks, supporting infant feeding. Pins approximate findspots. The Egyptian ivory spoon dates to ca. 3100–2649 BCE.",
   "summary_zh": "勺子在史前已经出现，起源难以归于一地。塞尔维亚前5800—前5450年的骨勺上，发现了与婴幼儿乳牙吻合的痕迹；埃及也留下了约前3100—前2649年的象牙勺实物。",
   "summary_en": "Prehistoric spoons have no single known birthplace. Serbian bone spoons from 5800–5450 BCE bear marks matching milk teeth; an Egyptian ivory spoon dates to ca. 3100–2649 BCE.",
+  "summary_ja": "先史時代のスプーンに単一の発祥地はない。セルビアの紀元前5800–5450年の骨製スプーンには乳歯と一致する跡があり、エジプトの象牙のスプーンは紀元前3100–2649年頃にさかのぼる。",
   "tags": [
     "dining"
   ],

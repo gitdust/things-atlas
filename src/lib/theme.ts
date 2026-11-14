@@ -73,11 +73,10 @@ export function tuneBasemap(map: MlMap) {
 }
 
 /** Show place labels in the UI language only (no dual-script clutter). */
-export function localizeBasemap(map: MlMap, lang: 'zh' | 'en') {
-  const raw =
-    lang === 'zh'
-      ? ['coalesce', ['get', 'name:zh'], ['get', 'name:latin'], ['get', 'name']]
-      : ['coalesce', ['get', 'name:en'], ['get', 'name:latin'], ['get', 'name']];
+export function localizeBasemap(map: MlMap, lang: 'zh' | 'en' | 'es' | 'ja') {
+  const nameKey =
+    lang === 'zh' ? 'name:zh' : lang === 'es' ? 'name:es' : lang === 'ja' ? 'name:ja' : 'name:en';
+  const raw = ['coalesce', ['get', nameKey], ['get', 'name:latin'], ['get', 'name']];
   // OSM name:zh may hold several variants ("美国;美國", "德国 / 德國") — keep the first.
   const firstPart = (sep: string, inner: unknown) => [
     'let',
@@ -95,10 +94,15 @@ export function localizeBasemap(map: MlMap, lang: 'zh' | 'en') {
     if (layer.type !== 'symbol') continue;
     if (!/^label_|^water_name/.test(layer.id)) continue;
     setLayout(map, layer.id, 'text-field', field);
-    setLayout(map, layer.id, 'text-max-width', lang === 'zh' ? 30 : 9);
+    setLayout(map, layer.id, 'text-max-width', lang === 'zh' || lang === 'ja' ? 30 : 9);
     if (layer.id.startsWith('label_country')) {
-      setLayout(map, layer.id, 'text-transform', lang === 'zh' ? 'none' : 'uppercase');
-      setLayout(map, layer.id, 'text-letter-spacing', lang === 'zh' ? 0.12 : 0.18);
+      setLayout(
+        map,
+        layer.id,
+        'text-transform',
+        lang === 'en' || lang === 'es' ? 'uppercase' : 'none',
+      );
+      setLayout(map, layer.id, 'text-letter-spacing', lang === 'en' || lang === 'es' ? 0.18 : 0.12);
     }
   }
 }

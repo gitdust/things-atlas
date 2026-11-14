@@ -2,6 +2,7 @@
   "id": "toaster",
   "name_zh": "烤面包机",
   "name_en": "Toaster",
+  "name_ja": "トースター",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -73,6 +74,7 @@
   "disputed": false,
   "summary_zh": "1893 年英国出现早期电烤面包器；1919 年斯特莱特在明尼苏达发明弹跳式机制与定时器，Toastmaster 随后将双面自动烘烤推向千家万户的早餐餐桌。",
   "summary_en": "Evolving from 1893 British wire-rack electric heaters, the modern toaster took shape in 1919 when Charles Strite added a variable timer and pop-up springs, leading to the iconic Toastmaster.",
+  "summary_ja": "1893年の英国の針金架の電熱器から発展し、1919年に Charles Strite が可変タイマーと飛び出しばねを加えて現代の形になった。これが象徴的なトーストマスターへつながった。",
   "tags": [
     "cooking",
     "electric",

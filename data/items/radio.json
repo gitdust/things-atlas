@@ -2,6 +2,7 @@
   "id": "radio",
   "name_zh": "收音机",
   "name_en": "Radio",
+  "name_ja": "ラジオ",
   "category": "digital",
   "years": {
     "invention": {
@@ -67,6 +68,7 @@
   "disputed": true,
   "summary_zh": "马可尼于 1895 年进行无线电通信实验，1897 年获专利；1920 年匹兹堡 KDKA 播报选举结果，标志着面向公众的广播兴起。无线电发明归属也涉及特斯拉和波波夫。",
   "summary_en": "Marconi tested wireless signalling in 1895 and received a patent in 1897. KDKA’s 1920 election broadcast marked the rise of public radio; Tesla and Popov also figure in priority debates.",
+  "summary_ja": "マルコーニは1895年に無線信号を試し、1897年に特許を得た。KDKAの1920年の選挙放送が公共ラジオの広がりを示す。優先権の議論にはテスラとポポフも登場する。",
   "tags": [
     "media"
   ],

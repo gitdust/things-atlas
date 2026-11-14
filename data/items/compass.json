@@ -2,6 +2,7 @@
   "id": "compass",
   "name_zh": "指南针",
   "name_en": "Compass",
+  "name_ja": "方位磁針",
   "category": "hand_tool",
   "years": {
     "invention": {
@@ -70,6 +71,7 @@
   "notes_en": "Earlier lodestone “south-pointing spoons” (sinan) were used mainly for geomancy and divination, not seafaring. This entry’s primary year is Shen Kuo’s 1088 description of a magnetized needle; Zhu Yu’s 1119 Pingzhou Ketan records sailors at Guangzhou steering by the needle in cloudy weather.",
   "summary_zh": "中国宋代将磁针用于指向：沈括约 1088 年详记磁针，朱彧 1119 年记广州海船阴天用指南针。",
   "summary_en": "Song-dynasty China turned the magnetic needle into a practical compass: Shen Kuo described it around 1088, and Zhu Yu recorded its use at sea out of Guangzhou by 1119.",
+  "summary_ja": "宋の中国は磁針を実用の羅針盤にした。沈括が1088年頃に記し、朱彧は1119年までに広州を出る船での使用を記録した。",
   "tags": [
     "travel"
   ],

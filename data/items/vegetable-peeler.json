@@ -2,6 +2,7 @@
   "id": "vegetable-peeler",
   "name_zh": "削皮器",
   "name_en": "Vegetable peeler",
+  "name_ja": "ピーラー",
   "category": "kitchen",
   "years": {
     "invention": null,
@@ -44,6 +45,7 @@
   "notes_en": "The 1947 milestone concerns Rex production, not the invention of all peelers.",
   "summary_zh": "削皮器用带槽刀片薄薄削去果蔬外皮。它有直柄和横刃等多种形态；瑞士 Rex 横刃削皮器于1947年开始生产，是其中一种经典设计。",
   "summary_en": "Slotted blades remove thin layers of peel. Peelers come in straight and transverse forms; the Swiss Rex model entered production in 1947.",
+  "summary_ja": "溝のある刃で薄い皮をむく。まっすぐな形と横向きの形があり、スイスのレックス型は1947年に生産が始まった。",
   "tags": [
     "cooking"
   ],

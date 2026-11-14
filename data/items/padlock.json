@@ -2,6 +2,7 @@
   "id": "padlock",
   "name_zh": "挂锁",
   "name_en": "Padlock",
+  "name_ja": "南京錠",
   "category": "home",
   "years": {
     "invention": {
@@ -37,6 +38,7 @@
   "notes": "来源较弱：年代跨度很大，只能标到世纪；英文 padlock 一词 15 世纪末才出现。",
   "summary_zh": "已发现的挂锁可追溯到古罗马时期（公元前 500 年至公元 300 年）；19 世纪的波尔亨锁等设计让挂锁更安全。",
   "summary_en": "Surviving padlocks date to the Roman era (500 BCE–300 CE); 19th-century designs such as the Polhem lock made them more secure.",
+  "summary_ja": "現存する南京錠はローマ時代（紀元前500年–紀元300年）にさかのぼる。19世紀のポルヘム錠などの設計が安全性を高めた。",
   "tags": [
     "household"
   ],

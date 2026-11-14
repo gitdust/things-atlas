@@ -5,8 +5,12 @@ import worker from '../worker/index.ts';
 const FILES = new Set([
   '/index.html',
   '/en/index.html',
+  '/es/index.html',
+  '/ja/index.html',
   '/item/mirror/index.html',
   '/en/item/mirror/index.html',
+  '/es/item/mirror/index.html',
+  '/ja/item/mirror/index.html',
   '/404.html',
 ]);
 
@@ -57,9 +61,13 @@ const env = createAssetsEnv();
 test('canonical Chinese and English URLs serve 200 directly', async () => {
   for (const [url, expected] of [
     ['https://things-atlas.com/', 'served:/'],
-    ['https://things-atlas.com/?lang=en', 'served:/en/'],
+    ['https://things-atlas.com/en/', 'served:/en/'],
+    ['https://things-atlas.com/es/', 'served:/es/'],
+    ['https://things-atlas.com/ja/', 'served:/ja/'],
     ['https://things-atlas.com/item/mirror/', 'served:/item/mirror/'],
-    ['https://things-atlas.com/item/mirror/?lang=en', 'served:/en/item/mirror/'],
+    ['https://things-atlas.com/en/item/mirror/', 'served:/en/item/mirror/'],
+    ['https://things-atlas.com/es/item/mirror/', 'served:/es/item/mirror/'],
+    ['https://things-atlas.com/ja/item/mirror/', 'served:/ja/item/mirror/'],
   ] as const) {
     const res = await worker.fetch(new Request(url), env);
     assert.equal(res.status, 200, url);
@@ -89,20 +97,19 @@ test('local development hosts are not redirected to production', async () => {
 test('missing trailing slash, index.html, and /en/ paths redirect with 301 in a single hop', async () => {
   const cases: Array<[string, string]> = [
     ['https://things-atlas.com/item/mirror', 'https://things-atlas.com/item/mirror/'],
-    [
-      'https://things-atlas.com/item/mirror?lang=en',
-      'https://things-atlas.com/item/mirror/?lang=en',
-    ],
-    ['https://things-atlas.com/en', 'https://things-atlas.com/?lang=en'],
-    ['https://things-atlas.com/en/', 'https://things-atlas.com/?lang=en'],
-    ['https://things-atlas.com/en/item/mirror', 'https://things-atlas.com/item/mirror/?lang=en'],
-    ['https://things-atlas.com/en/item/mirror/', 'https://things-atlas.com/item/mirror/?lang=en'],
+    ['https://things-atlas.com/item/mirror?lang=en', 'https://things-atlas.com/en/item/mirror/'],
+    ['https://things-atlas.com/?lang=en', 'https://things-atlas.com/en/'],
+    ['https://things-atlas.com/?lang=es', 'https://things-atlas.com/es/'],
+    ['https://things-atlas.com/?lang=ja', 'https://things-atlas.com/ja/'],
+    ['https://things-atlas.com/?lang=zh', 'https://things-atlas.com/'],
+    ['https://things-atlas.com/en', 'https://things-atlas.com/en/'],
+    ['https://things-atlas.com/en/item/mirror', 'https://things-atlas.com/en/item/mirror/'],
     ['https://things-atlas.com/index.html', 'https://things-atlas.com/'],
-    ['https://things-atlas.com/index.html?lang=en', 'https://things-atlas.com/?lang=en'],
+    ['https://things-atlas.com/index.html?lang=en', 'https://things-atlas.com/en/'],
     ['https://things-atlas.com/item/mirror/index.html', 'https://things-atlas.com/item/mirror/'],
     [
       'https://things-atlas.com/en/item/mirror/index.html',
-      'https://things-atlas.com/item/mirror/?lang=en',
+      'https://things-atlas.com/en/item/mirror/',
     ],
   ];
   for (const [input, expected] of cases) {
@@ -119,11 +126,11 @@ test('legacy /?id=<id> URLs 301 redirect to /item/<id>/ when item exists', async
 
   const en = await worker.fetch(new Request('https://things-atlas.com/?id=mirror&lang=en'), env);
   assert.equal(en.status, 301);
-  assert.equal(en.headers.get('Location'), 'https://things-atlas.com/item/mirror/?lang=en');
+  assert.equal(en.headers.get('Location'), 'https://things-atlas.com/en/item/mirror/');
 
   const enPath = await worker.fetch(new Request('https://things-atlas.com/en/?id=mirror'), env);
   assert.equal(enPath.status, 301);
-  assert.equal(enPath.headers.get('Location'), 'https://things-atlas.com/item/mirror/?lang=en');
+  assert.equal(enPath.headers.get('Location'), 'https://things-atlas.com/en/item/mirror/');
 
   const unknown = await worker.fetch(new Request('https://things-atlas.com/?id=unknown'), env);
   assert.equal(unknown.status, 200);
@@ -136,7 +143,7 @@ test('404 routes and missing items return 404 directly without redirect or 200 s
     'https://things-atlas.com/en/404.html',
     'https://things-atlas.com/item/nonexistent',
     'https://things-atlas.com/item/nonexistent/',
-    'https://things-atlas.com/item/nonexistent/?lang=en',
+    'https://things-atlas.com/en/item/nonexistent/',
   ]) {
     const res = await worker.fetch(new Request(url), env);
     assert.equal(res.status, 404, url);
@@ -150,4 +157,38 @@ test('404 routes and missing items return 404 directly without redirect or 200 s
   );
   assert.equal(head.status, 404);
   assert.equal(await head.text(), '');
+});
+
+test('browser language redirects an unprefixed page without overriding an explicit URL', async () => {
+  const ja = await worker.fetch(
+    new Request('https://things-atlas.com/', { headers: { 'accept-language': 'ja,en;q=0.8' } }),
+    env,
+  );
+  assert.equal(ja.status, 302);
+  assert.equal(ja.headers.get('Location'), 'https://things-atlas.com/ja/');
+
+  const zhFirst = await worker.fetch(
+    new Request('https://things-atlas.com/item/mirror', {
+      headers: { 'accept-language': 'zh-CN,ja;q=0.5' },
+    }),
+    env,
+  );
+  assert.equal(zhFirst.status, 301);
+  assert.equal(zhFirst.headers.get('Location'), 'https://things-atlas.com/item/mirror/');
+
+  const saved = await worker.fetch(
+    new Request('https://things-atlas.com/', {
+      headers: { cookie: 'atlas_lang=es', 'accept-language': 'ja' },
+    }),
+    env,
+  );
+  assert.equal(saved.status, 302);
+  assert.equal(saved.headers.get('Location'), 'https://things-atlas.com/es/');
+
+  const explicit = await worker.fetch(
+    new Request('https://things-atlas.com/en/', { headers: { 'accept-language': 'ja' } }),
+    env,
+  );
+  assert.equal(explicit.status, 200);
+  assert.equal(await explicit.text(), 'served:/en/');
 });

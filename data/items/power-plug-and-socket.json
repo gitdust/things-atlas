@@ -2,6 +2,7 @@
   "id": "power-plug-and-socket",
   "name_zh": "电源插头与插座",
   "name_en": "Power plug and socket",
+  "name_ja": "電源プラグとコンセント",
   "category": "home",
   "years": {
     "invention": {
@@ -65,6 +66,7 @@
   "disputed": false,
   "summary_zh": "在 1904 年哈贝尔发明可分离插头前，所有家用电器都必须拧进天花板的灯泡座取电。插头与插座的发明让电力真正安全走入千家万户的墙面。",
   "summary_en": "Before Harvey Hubbell patented the separable plug in 1904, home appliances had to screw into ceiling light bulb sockets. His design safely routed electricity to walls and floors worldwide.",
+  "summary_ja": "Harvey Hubbell が1904年に分離式プラグを特許化する前、家電は天井の電球ソケットにねじ込む必要があった。彼の設計は電気を壁や床へ安全に引き出した。",
   "tags": [
     "electric",
     "household"

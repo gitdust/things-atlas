@@ -2,6 +2,7 @@
   "id": "broom",
   "name_zh": "扫帚",
   "name_en": "Broom",
+  "name_ja": "ほうき",
   "category": "home",
   "years": {
     "invention": {
@@ -58,6 +59,7 @@
   "notes_en": "The first date and place of broom-making are unknown. Museo Egizio dates its Deir el-Medina broom to 1539–1077 BCE; 1300 BCE is a representative point within that range. The findspot is not a proven birthplace. The 1797 Hadley record concerns broomcorn brooms and a regional industry, not the first broom.",
   "summary_zh": "把枝条或植物纤维扎成一束，就能扫去地面的尘土。埃及新王国时期已留下扫帚实物；1797年哈德利的高粱穗扫帚推动了美国当地制帚业的发展。",
   "summary_en": "Bundled plant fibres sweep away dirt. A broom survives from Egypt’s New Kingdom; broomcorn brooms made in Hadley in 1797 helped launch a regional American industry.",
+  "summary_ja": "束ねた植物の繊維で汚れを掃く。エジプト新王国のほうきが残り、1797年にハドリーで作られたホウキモロコシのほうきが、アメリカの地域産業を育てた。",
   "tags": [
     "cleaning",
     "household"

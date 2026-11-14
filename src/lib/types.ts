@@ -84,6 +84,7 @@ export type AtlasItem = {
   id: string;
   name_zh: string;
   name_en: string;
+  name_ja: string;
   category: CategoryId;
   years: {
     invention: YearMark;
@@ -104,6 +105,7 @@ export type AtlasItem = {
   share?: ShareEditorial;
   summary_zh: string;
   summary_en: string;
+  summary_ja: string;
   tags?: string[];
   updated: string;
   /** Derived at build time — not stored in source JSON */
@@ -127,4 +129,6 @@ export type CategoryMeta = {
   id: CategoryId;
   name_zh: string;
   name_en: string;
+  name_es: string;
+  name_ja: string;
 };

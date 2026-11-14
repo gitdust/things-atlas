@@ -2,6 +2,7 @@
   "id": "usb-flash-drive",
   "name_zh": "U 盘",
   "name_en": "USB flash drive",
+  "name_ja": "USBメモリ",
   "category": "digital",
   "years": {
     "invention": {
@@ -70,6 +71,7 @@
   "notes": "发明权争议很大：M-Systems 的 Ban、Moran、Ogdan 1999 年 4 月申请，常被视为发明者；朗科 1999 年 11 月申请、2002 年获中国专利，曾与 M-Systems、Trek 2000 发生专利纠纷；IBM 工程师 Shmueli 也在 1999 年提交过发明披露。",
   "summary_zh": "1999 年以色列 M-Systems 与深圳朗科先后申请 USB 闪存盘专利，新加坡 Trek 2000 于 2000 年底最先发售，三方都自称发明者。",
   "summary_en": "In 1999 Israel's M-Systems and Shenzhen's Netac both filed USB flash-drive patents; Singapore's Trek 2000 sold the first one in late 2000, and all three claim the invention.",
+  "summary_ja": "1999年、イスラエルのM-Systemsと深圳の朗科がともにUSBメモリの特許を申請した。シンガポールのTrek 2000が2000年末に最初の製品を売り、三者とも発明を主張している。",
   "tags": [
     "computing"
   ],

@@ -2,6 +2,7 @@
   "id": "mosquito-coil",
   "name_zh": "蚊香",
   "name_en": "Mosquito coil",
+  "name_ja": "蚊取り線香",
   "category": "home",
   "years": {
     "invention": {
@@ -72,6 +73,7 @@
   "disputed": false,
   "summary_zh": "1895 年日本上山夫妇将除虫菊线香创制为螺旋盘香，实现长达七八小时的夜间持续阴燃驱蚊；1902 年金鸟正式上市，成为风靡全球的经典夏季防蚊用品。",
   "summary_en": "Invented in 1895 when Yuki Ueyama wound pyrethrum incense into a spiral to burn overnight, the mosquito coil was launched commercially by Kincho in 1902, becoming an enduring global summer staple.",
+  "summary_ja": "1895年、上山英一郎が除虫菊の線香を渦巻きにして一晩燃やせるようにした。金鳥が1902年に商品化し、世界の夏の定番になった。",
   "tags": [
     "household",
     "health"

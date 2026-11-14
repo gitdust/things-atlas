@@ -2,6 +2,7 @@
   "id": "cezve",
   "name_zh": "土耳其咖啡壶",
   "name_en": "Cezve",
+  "name_ja": "ジェズヴェ",
   "category": "kitchen",
   "years": {
     "invention": {
@@ -55,6 +56,7 @@
   "notes_en": "Coffee reached the Ottomans in the mid-16th century, but today’s lidless cezve may have solidified later; exact invention dating is thin, so the primary mark follows Istanbul coffeehouse emergence.",
   "summary_zh": "cezve是煮土耳其咖啡的长柄小壶；约十六世纪中叶随伊斯坦布尔咖啡馆兴起，后世成为无盖铜壶的典型形制。",
   "summary_en": "The cezve is the long-handled pot for Turkish coffee. It appeared alongside mid-sixteenth-century Istanbul coffeehouses and later settled into the familiar lidless copper form.",
+  "summary_ja": "ジェズヴェはトルココーヒー用の長い柄の鍋である。16世紀半ばのイスタンブールのコーヒーハウスとともに現れ、後に蓋のない銅の形に落ち着いた。",
   "tags": [
     "dining"
   ],

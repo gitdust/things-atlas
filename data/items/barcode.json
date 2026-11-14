@@ -2,6 +2,7 @@
   "id": "barcode",
   "name_zh": "条形码",
   "name_en": "Barcode",
+  "name_ja": "バーコード",
   "category": "digital",
   "years": {
     "invention": {
@@ -72,6 +73,7 @@
   "disputed": false,
   "summary_zh": "1948 年伍德兰德与西尔弗在费城构思光学条形码，1952 年获专利；1974 年俄亥俄州特洛伊超市完成首次商用扫描，彻底重塑了全球零售结算与仓储物流。",
   "summary_en": "Conceived in 1948 by Woodland and Silver and patented in 1952, the barcode had its first commercial checkout scan in 1974 in Troy, Ohio, fundamentally transforming retail logistics worldwide.",
+  "summary_ja": "1948年に Woodland と Silver が着想し、1952年に特許を得た。1974年、オハイオ州トロイで初めて店頭スキャンされ、小売物流を根本から変えた。",
   "tags": [
     "computing",
     "trade"
