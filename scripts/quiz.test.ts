@@ -15,6 +15,7 @@ function item(id: string, start: number, end = start): QuizItem {
     id,
     name_zh: id,
     name_en: id,
+    name_ja: id,
     sources: [
       { title: 'Evidence', url: 'https://example.com', type: 'museum', accessed: '2026-11-14' },
     ],
@@ -88,6 +89,7 @@ test('entries without evidence and disputed entries never enter the pool', () =>
     disputed: false,
     summary_zh: '',
     summary_en: '',
+    summary_ja: '',
     updated: '2026-11-14',
     primary_year: 1,
   });

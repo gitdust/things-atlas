@@ -16,6 +16,7 @@ import { itemPath, localizedPath } from '@/lib/page-url';
 import { readUrlState, type UrlLike } from '@/lib/urlState';
 import { mq } from '@/lib/tokens';
 import { getQuizLifecycle, type QuizSnapshot } from '@/lib/quizLifecycle';
+import type { QuizDataset } from '@/lib/quiz';
 import type QuizDialogComponent from '@/components/QuizDialog';
 
 type LoadedQuizDialog = typeof QuizDialogComponent;
@@ -50,7 +51,7 @@ export default function App({ url }: { url?: UrlLike }) {
         import('@/lib/quiz'),
       ]);
       setQuizDialog(() => component.default);
-      const dataset = data.default;
+      const dataset = data.default as QuizDataset;
       return { question: logic.drawQuestion(dataset), dataset };
     });
   }, []);

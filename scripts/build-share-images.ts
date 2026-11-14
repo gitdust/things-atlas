@@ -212,18 +212,10 @@ try {
               format === 'poster'
                 ? lang === 'zh'
                   ? '知识海报'
-                  : lang === 'ja'
-                    ? '歴史ポスター'
-                    : lang === 'es'
-                      ? 'póster histórico'
-                      : 'History poster'
+                  : 'History poster'
                 : lang === 'zh'
                   ? '分享预览'
-                  : lang === 'ja'
-                    ? '共有プレビュー'
-                    : lang === 'es'
-                      ? 'vista previa'
-                      : 'Share preview'
+                  : 'Share preview'
             }`,
           };
           const cached = await fs.stat(file).catch((error: NodeJS.ErrnoException) => {
