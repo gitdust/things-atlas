@@ -11,10 +11,7 @@ function entry(id: string): AtlasItem {
 
 test('public share URLs include only the selected entry and language', () => {
   assert.equal(shareUrl('toilet-paper', 'zh'), 'https://things-atlas.com/item/toilet-paper/');
-  assert.equal(
-    shareUrl('toilet-paper', 'en'),
-    'https://things-atlas.com/en/item/toilet-paper/',
-  );
+  assert.equal(shareUrl('toilet-paper', 'en'), 'https://things-atlas.com/en/item/toilet-paper/');
 });
 
 test('approximate and BCE years retain their precision', () => {
@@ -27,7 +24,9 @@ test('approximate and BCE years retain their precision', () => {
 test('written evidence retains its context and dates sort chronologically', () => {
   const item = entry('toilet-paper');
   const en = shareContent(item, 'en');
-  assert.match(en.summary, /mentioned toilet paper around 589/);
+  assert.match(en.summary, /Yan Zhitui/);
+  assert.match(en.summary, /paper for toilet/);
+  assert.match(en.summary, /589/);
   assert.match(en.milestones[0].text, /mentions using paper/);
   assert.equal(en.milestones[0].date, 'c. 589');
   assert.deepEqual(
