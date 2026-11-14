@@ -4,36 +4,30 @@ export function MapStatus({
   lang,
   failed = false,
   compact = false,
-  ready = false,
   onRetry,
 }: {
   lang: Lang;
   failed?: boolean;
   compact?: boolean;
-  ready?: boolean;
   onRetry?: () => void;
 }) {
   return (
-    <div className={`map-status${compact ? ' is-compact' : ''}${failed ? ' is-failed' : ''}`}>
-      <div className="map-status-actions">
-        {!ready && (
-          <div className="map-status-content" role="status" aria-live="polite">
-            {!failed && <span className="map-spinner" aria-hidden="true" />}
-            <span>
-              {failed
-                ? lang === 'zh'
-                  ? '地图加载失败'
-                  : 'Map failed to load'
-                : lang === 'zh'
-                  ? '地图加载中…'
-                  : 'Loading map…'}
-            </span>
-            {failed && onRetry && (
-              <button type="button" onClick={onRetry}>
-                {lang === 'zh' ? '重试' : 'Retry'}
-              </button>
-            )}
-          </div>
+    <div className={`map-status${compact ? ' is-compact' : ''}`}>
+      <div className="map-status-content" role="status" aria-live="polite">
+        {!failed && <span className="map-spinner" aria-hidden="true" />}
+        <span>
+          {failed
+            ? lang === 'zh'
+              ? '地图加载失败'
+              : 'Map failed to load'
+            : lang === 'zh'
+              ? '地图加载中…'
+              : 'Loading map…'}
+        </span>
+        {failed && onRetry && (
+          <button type="button" onClick={onRetry}>
+            {lang === 'zh' ? '重试' : 'Retry'}
+          </button>
         )}
       </div>
     </div>

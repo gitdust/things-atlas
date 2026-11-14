@@ -4,11 +4,9 @@ import {
   buildPairs,
   drawQuestion,
   eligibleQuizItems,
-  quizReducer,
   validateEarliestUse,
   validateExcludedPairs,
   type QuizItem,
-  type QuizState,
 } from '../src/lib/quiz';
 import type { AtlasItem } from '../src/lib/types';
 
@@ -135,18 +133,4 @@ test('fixed RNG selects uniformly indexed pairs then swaps sides independently',
   assert.equal(calls, 2);
   assert.equal(drawQuestion(dataset, () => 0).leftId, 'a');
   assert.throws(() => drawQuestion({ ...dataset, pairs: [] }, () => 0));
-});
-
-test('answers lock after the first valid choice and dismissal is terminal', () => {
-  const question = { id: 'q', leftId: 'a', rightId: 'b', earlierId: 'a' };
-  const state: QuizState = { phase: 'question', question };
-  assert.equal(quizReducer(state, { type: 'ANSWER', questionId: 'wrong', selectedId: 'a' }), state);
-  assert.equal(quizReducer(state, { type: 'ANSWER', questionId: 'q', selectedId: 'c' }), state);
-  const revealed = quizReducer(state, { type: 'ANSWER', questionId: 'q', selectedId: 'b' });
-  assert.equal(
-    quizReducer(revealed, { type: 'ANSWER', questionId: 'q', selectedId: 'a' }),
-    revealed,
-  );
-  const dismissed = quizReducer(revealed, { type: 'DISMISS' });
-  assert.equal(quizReducer(dismissed, { type: 'READY', question }), dismissed);
 });

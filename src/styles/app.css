@@ -1646,9 +1646,6 @@ button {
     padding: 6px 9px;
   }
 
-  .bottombar {
-    display: none !important;
-  }
   .drawer::before {
     left: 50%;
     width: 44px;
@@ -1852,11 +1849,6 @@ button {
   background: var(--paper-map);
   pointer-events: none;
 }
-.map-status-actions {
-  display: flex;
-  align-items: center;
-  gap: var(--s-2);
-}
 .map-status-content {
   display: flex;
   align-items: center;
@@ -1883,9 +1875,6 @@ button {
 }
 .map-status.is-compact {
   inset: 90px auto auto var(--edge);
-  background: transparent;
-}
-.map-status.is-compact .map-status-content {
   border: 1px solid var(--rule);
   border-radius: var(--r-pill);
   background: var(--glass);
@@ -1952,15 +1941,8 @@ button {
 }
 
 @media (max-width: 760px) {
-  .has-drawer .map-status.is-failed:not(.is-compact) {
-    top: 90px;
-    bottom: calc(var(--mobile-panel-h) + var(--attribution-h));
-  }
-}
-
-@media (max-width: 760px) {
   .bottombar {
-    display: block !important;
+    display: block;
     bottom: calc(var(--mobile-panel-h) + var(--attribution-h) + var(--s-3));
     height: 36px;
     padding: 0;

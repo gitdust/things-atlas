@@ -573,13 +573,14 @@ export function MapView({
   return (
     <>
       <div ref={containerRef} className="map-root" aria-label={t(lang, 'map')} />
-      <MapStatus
-        lang={lang}
-        ready={status === 'ready'}
-        failed={status === 'error'}
-        compact={firstPaint}
-        onRetry={() => setAttempt((value) => value + 1)}
-      />
+      {status !== 'ready' && (
+        <MapStatus
+          lang={lang}
+          failed={status === 'error'}
+          compact={firstPaint}
+          onRetry={() => setAttempt((value) => value + 1)}
+        />
+      )}
     </>
   );
 }

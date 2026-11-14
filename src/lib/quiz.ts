@@ -7,16 +7,6 @@ export type QuizPair = [string, string];
 export type ExcludedPair = { ids: QuizPair; reason: string };
 export type QuizDataset = { datasetVersion: string; items: QuizItem[]; pairs: QuizPair[] };
 export type Question = { id: string; leftId: string; rightId: string; earlierId: string };
-export type QuizState =
-  | { phase: 'pending' }
-  | { phase: 'question'; question: Question }
-  | { phase: 'revealed'; question: Question; selectedId: string }
-  | { phase: 'dismissed' };
-export type QuizAction =
-  | { type: 'READY'; question: Question }
-  | { type: 'ANSWER'; questionId: string; selectedId: string }
-  | { type: 'DISMISS' };
-
 export function validateEarliestUse(item: {
   earliest_use?: EarliestUse;
   sources: { url: string }[];
@@ -121,19 +111,4 @@ export function drawQuestion(dataset: QuizDataset, rng: () => number = Math.rand
   if (!earlierId) throw new Error('Quiz pair has no reliable ordering');
   const [leftId, rightId] = rng() < 0.5 ? pair : [pair[1], pair[0]];
   return { id: `${dataset.datasetVersion}:${pair.join(':')}`, leftId, rightId, earlierId };
-}
-
-export function quizReducer(state: QuizState, action: QuizAction): QuizState {
-  if (state.phase === 'dismissed') return state;
-  if (action.type === 'DISMISS') return { phase: 'dismissed' };
-  if (action.type === 'READY' && state.phase === 'pending')
-    return { phase: 'question', question: action.question };
-  if (
-    action.type === 'ANSWER' &&
-    state.phase === 'question' &&
-    action.questionId === state.question.id &&
-    [state.question.leftId, state.question.rightId].includes(action.selectedId)
-  )
-    return { phase: 'revealed', question: state.question, selectedId: action.selectedId };
-  return state;
 }
