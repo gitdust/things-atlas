@@ -56,6 +56,12 @@
       "url": "https://patents.google.com/patent/US3541541A/en",
       "type": "patent",
       "accessed": "2026-11-01"
+    },
+    {
+      "title": "75 Years of Innovation: The Computer Mouse — SRI",
+      "url": "https://www.sri.com/75-years-of-innovation/75-years-of-innovation-the-computer-mouse/",
+      "type": "other",
+      "accessed": "2026-11-14"
     }
   ],
   "disputed": false,
@@ -66,7 +72,7 @@
     "office",
     "computing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-14",
   "image": {
     "src": "/images/computer-mouse.jpg",
     "alt_zh": "一只微软三键鼠标",
@@ -75,5 +81,19 @@
     "license": "CC BY-SA 2.5",
     "source_url": "https://commons.wikimedia.org/wiki/File:3-Tasten-Maus_Microsoft.jpg"
   },
-  "notes_en": "Telefunken announced its Rollkugel rolling-ball mouse on 2 October 1968, two months before Engelbart's public demo, as an independent ball-mouse design."
+  "notes_en": "Telefunken announced its Rollkugel rolling-ball mouse on 2 October 1968, two months before Engelbart's public demo, as an independent ball-mouse design.",
+  "earliest_use": {
+    "year": 1964,
+    "precision": "year",
+    "range": {
+      "start": 1964,
+      "end": 1964
+    },
+    "evidence": "documented_use",
+    "explanation_zh": "SRI 记载，英格利希于 1964 年制作出以垂直滚轮和按钮操作的鼠标原型。",
+    "explanation_en": "SRI records a working mouse prototype built by Bill English in 1964, using perpendicular wheels and a button.",
+    "source_urls": [
+      "https://www.sri.com/75-years-of-innovation/75-years-of-innovation-the-computer-mouse/"
+    ]
+  }
 }

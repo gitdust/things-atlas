@@ -7,13 +7,14 @@ const STORAGE_KEY = 'things-atlas.guide.v1';
 type Rect = { left: number; top: number; width: number; height: number };
 type Props = {
   lang: Lang;
+  autoInvite: boolean;
   request: number;
   selectedId: string | null;
   panelOpen: boolean;
   onOpenPanel: () => void;
 };
 
-export function Guide({ lang, request, selectedId, panelOpen, onOpenPanel }: Props) {
+export function Guide({ lang, autoInvite, request, selectedId, panelOpen, onOpenPanel }: Props) {
   const [phase, setPhase] = useState(-2); // hidden, invitation, then numbered steps
   const [mobile, setMobile] = useState(false);
   const [target, setTarget] = useState<Rect | null>(null);
@@ -55,6 +56,10 @@ export function Guide({ lang, request, selectedId, panelOpen, onOpenPanel }: Pro
   }, []);
 
   useEffect(() => {
+    if (!autoInvite) {
+      setPhase((current) => (current === -1 ? -2 : current));
+      return;
+    }
     try {
       if (localStorage.getItem(STORAGE_KEY)) return;
     } catch {
@@ -98,7 +103,7 @@ export function Guide({ lang, request, selectedId, panelOpen, onOpenPanel }: Pro
       clearTimeout(timer);
       observer.disconnect();
     };
-  }, []);
+  }, [autoInvite]);
 
   useEffect(() => {
     if (request > 0) setPhase(0);

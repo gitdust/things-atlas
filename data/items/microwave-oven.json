@@ -60,6 +60,12 @@
       "url": "https://patents.google.com/patent/US2495429A/en",
       "type": "patent",
       "accessed": "2026-11-01"
+    },
+    {
+      "title": "Percy L. Spencer — National Inventors Hall of Fame",
+      "url": "https://www.invent.org/inductees/percy-l-spencer",
+      "type": "museum",
+      "accessed": "2026-11-14"
     }
   ],
   "disputed": false,
@@ -69,7 +75,7 @@
     "cooking",
     "electric"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-14",
   "image": {
     "src": "/images/microwave-oven.jpg",
     "alt_zh": "一台松下不锈钢微波炉",
@@ -77,5 +83,19 @@
     "credit": "Mrbeastmodeallday",
     "license": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Panasonic_NN-SD69LS_20220410.jpg"
+  },
+  "earliest_use": {
+    "year": 1945,
+    "precision": "year",
+    "range": {
+      "start": 1945,
+      "end": 1945
+    },
+    "evidence": "documented_use",
+    "explanation_zh": "美国发明家名人堂记载，斯潘塞于 1945 年制成以微波烹饪食物的装置。",
+    "explanation_en": "The National Inventors Hall of Fame records that Spencer built a device for cooking food with microwaves in 1945.",
+    "source_urls": [
+      "https://www.invent.org/inductees/percy-l-spencer"
+    ]
   }
 }

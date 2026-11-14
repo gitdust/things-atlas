@@ -66,7 +66,7 @@
     "computing",
     "media"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-14",
   "primary": "mass_production",
   "image": {
     "src": "/images/mobile-phone.jpg",
@@ -75,5 +75,19 @@
     "credit": "2007Computex e21Forum-MartinCooper.jpg Rico Shen; derivative work: ויקיג'אנקי",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg"
+  },
+  "earliest_use": {
+    "year": 1973,
+    "precision": "year",
+    "range": {
+      "start": 1973,
+      "end": 1973
+    },
+    "evidence": "documented_use",
+    "explanation_zh": "摩托罗拉记载，库珀于 1973 年在纽约使用手持蜂窝电话原型机公开通话。",
+    "explanation_en": "Motorola records Cooper making a public call with a handheld cellular phone prototype in New York in 1973.",
+    "source_urls": [
+      "https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/cell-phone-development.html"
+    ]
   }
 }

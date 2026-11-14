@@ -3,6 +3,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
+import { validateEarliestUse } from '../src/lib/quiz';
+import type { EarliestUse } from '../src/lib/types';
 import { YEAR_KEYS, type YearKey } from '../src/lib/primaryYear';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -15,7 +17,8 @@ type Item = {
   id: string;
   years: Record<string, YearMark>;
   primary?: YearKey;
-  sources: { type: string }[];
+  sources: { type: string; url: string }[];
+  earliest_use?: EarliestUse;
   disputed: boolean;
   notes?: string;
   notes_en?: string;
@@ -73,6 +76,11 @@ for (const file of files) {
     for (const err of validate.errors ?? []) {
       console.error(`  - ${err.instancePath || '/'} ${err.message}`);
     }
+    failed = true;
+  }
+
+  for (const error of ok ? validateEarliestUse(data) : []) {
+    console.error(`✗ ${file}: ${error}`);
     failed = true;
   }
 

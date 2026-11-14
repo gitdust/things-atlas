@@ -13,6 +13,15 @@ import { t, type Lang } from '@/lib/i18n';
 import { HTML_LANG, applyDocumentMeta, itemPath } from '@/lib/seo';
 import { readUrlState, type UrlLike } from '@/lib/urlState';
 import { mq } from '@/lib/tokens';
+import { getQuizLifecycle, type QuizSnapshot } from '@/lib/quizLifecycle';
+import type QuizDialogComponent from '@/components/QuizDialog';
+
+type LoadedQuizDialog = typeof QuizDialogComponent;
+let quizDialogPromise: Promise<{ default: LoadedQuizDialog }> | undefined;
+function loadQuizDialog() {
+  quizDialogPromise ??= import('@/components/QuizDialog');
+  return quizDialogPromise;
+}
 
 export default function App({ url }: { url?: UrlLike }) {
   const index = useMemo(() => loadItemsIndex(), []);
@@ -20,6 +29,29 @@ export default function App({ url }: { url?: UrlLike }) {
   const initial = useMemo(() => readUrlState(url ?? window.location), [url]);
 
   const [guideRequest, setGuideRequest] = useState(0);
+  const [quiz, setQuiz] = useState<QuizSnapshot | null>(null);
+  const [QuizDialog, setQuizDialog] = useState<LoadedQuizDialog | null>(null);
+
+  useEffect(() => {
+    const controller = getQuizLifecycle(document);
+    const unsubscribe = controller.subscribe(() => setQuiz(controller.getSnapshot()));
+    setQuiz(controller.getSnapshot());
+    return unsubscribe;
+  }, []);
+
+  const openQuiz = useCallback(() => {
+    if (document.querySelector('dialog[open], .guide-card, .guide-invite')) return;
+    void getQuizLifecycle(document).open(async () => {
+      const [component, data, logic] = await Promise.all([
+        loadQuizDialog(),
+        import('@/generated/quiz.json'),
+        import('@/lib/quiz'),
+      ]);
+      setQuizDialog(() => component.default);
+      const dataset = data.default;
+      return { question: logic.drawQuestion(dataset), dataset };
+    });
+  }, []);
   const [lang, setLang] = useState<Lang>(initial.lang);
   const [year, setYear] = useState(() =>
     Math.max(
@@ -201,12 +233,28 @@ export default function App({ url }: { url?: UrlLike }) {
         onHelp={() => setGuideRequest((value) => value + 1)}
       />
       <Guide
+        autoInvite={!quiz || quiz.phase === 'idle' || quiz.phase === 'dismissed'}
         lang={lang}
         request={guideRequest}
         selectedId={selectedId}
         panelOpen={panelOpen}
         onOpenPanel={openGuidePanel}
       />
+
+      {QuizDialog && quiz && (quiz.phase === 'question' || quiz.phase === 'revealed') && (
+        <QuizDialog
+          lang={lang}
+          question={quiz.question}
+          items={quiz.dataset.items}
+          selectedId={quiz.phase === 'revealed' ? quiz.selectedId : null}
+          onAnswer={(id) => getQuizLifecycle(document).answer(quiz.question.id, id)}
+          onDismiss={() => getQuizLifecycle(document).dismiss()}
+          onViewItem={(id) => {
+            getQuizLifecycle(document).dismiss();
+            selectItem(id);
+          }}
+        />
+      )}
 
       <PanelToggle
         ref={panelToggleRef}
@@ -266,6 +314,28 @@ export default function App({ url }: { url?: UrlLike }) {
       <div className="map-attribution-slot" id="map-attribution" />
 
       <footer className="bottombar">
+        <button
+          type="button"
+          className="quiz-launch-button"
+          onClick={openQuiz}
+          aria-label={lang === 'zh' ? '猜哪个更早' : 'Guess which came earlier'}
+          title={lang === 'zh' ? '猜哪个更早' : 'Guess which came earlier'}
+          aria-haspopup="dialog"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M9 18h6m-5 3h4M8.5 14.5a6 6 0 1 1 7 0c-.9.6-1.5 1.5-1.5 2.5h-4c0-1-.6-1.9-1.5-2.5Z" />
+            <path d="M12 1V0M4.2 4.2l-1-1m16.6 1 1-1M2 11H.5M22 11h1.5" />
+          </svg>
+        </button>
+
         <Timeline
           lang={lang}
           year={year}

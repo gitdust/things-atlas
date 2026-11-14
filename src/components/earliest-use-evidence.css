@@ -1,0 +1,20 @@
+.earliest-use-evidence {
+  overflow-wrap: anywhere;
+  line-height: var(--lh-base);
+}
+.earliest-use-evidence > strong {
+  font-size: var(--fs-xl);
+}
+.earliest-use-evidence p {
+  margin: var(--s-2) 0;
+  font-size: var(--fs-md);
+}
+.earliest-use-evidence ul {
+  margin: var(--s-2) 0;
+  padding-left: var(--s-4);
+  font-size: var(--fs-sm);
+}
+.earliest-use-evidence a {
+  color: var(--ink-2);
+  text-underline-offset: 3px;
+}

@@ -1852,6 +1852,11 @@ button {
   background: var(--paper-map);
   pointer-events: none;
 }
+.map-status-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+}
 .map-status-content {
   display: flex;
   align-items: center;
@@ -1878,6 +1883,9 @@ button {
 }
 .map-status.is-compact {
   inset: 90px auto auto var(--edge);
+  background: transparent;
+}
+.map-status.is-compact .map-status-content {
   border: 1px solid var(--rule);
   border-radius: var(--r-pill);
   background: var(--glass);
@@ -1890,5 +1898,89 @@ button {
 @media (prefers-reduced-motion: reduce) {
   .map-spinner {
     animation: none;
+  }
+}
+
+.quiz-launch-button {
+  position: absolute;
+  top: var(--s-2);
+  left: var(--s-3);
+  z-index: 2;
+  pointer-events: auto;
+  background: transparent;
+  cursor: pointer;
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 36px;
+  height: 36px;
+  padding: var(--s-1);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r-pill);
+  color: var(--accent);
+}
+.quiz-launch-button svg {
+  width: 24px;
+  height: 24px;
+  transform-origin: center bottom;
+  animation: map-bulb-shake 3s ease-in-out infinite;
+}
+.quiz-launch-button:hover {
+  background: var(--accent-soft);
+}
+@keyframes map-bulb-shake {
+  0%,
+  20%,
+  100% {
+    transform: rotate(0);
+  }
+  3%,
+  9%,
+  15% {
+    transform: rotate(-12deg);
+  }
+  6%,
+  12%,
+  18% {
+    transform: rotate(12deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .quiz-launch-button svg {
+    animation: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .has-drawer .map-status.is-failed:not(.is-compact) {
+    top: 90px;
+    bottom: calc(var(--mobile-panel-h) + var(--attribution-h));
+  }
+}
+
+@media (max-width: 760px) {
+  .bottombar {
+    display: block !important;
+    bottom: calc(var(--mobile-panel-h) + var(--attribution-h) + var(--s-3));
+    height: 36px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    pointer-events: none;
+  }
+  .panel-collapsed .bottombar {
+    bottom: calc(var(--attribution-h) + var(--s-3));
+  }
+  .bottombar > .timeline,
+  .bottombar > .footer-row {
+    display: none;
+  }
+  .quiz-launch-button {
+    top: 0;
+    left: 0;
+    background: var(--paper);
   }
 }

@@ -49,6 +49,7 @@
         "popularization": { "$ref": "#/$defs/yearMarkOrNull" }
       }
     },
+    "earliest_use": { "$ref": "#/$defs/earliestUse" },
     "primary": {
       "description": "Optional. Which years.* mark is the derived primary_year; must point to a non-null mark. When unset: invention → patent → mass_production → popularization (first non-null).",
       "type": "string",
@@ -115,6 +116,89 @@
     }
   },
   "$defs": {
+    "earliestUse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "year",
+        "precision",
+        "range",
+        "evidence",
+        "explanation_zh",
+        "explanation_en",
+        "source_urls"
+      ],
+      "properties": {
+        "year": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991,
+          "not": {
+            "const": 0
+          }
+        },
+        "precision": {
+          "enum": [
+            "year",
+            "decade",
+            "century"
+          ]
+        },
+        "range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "start",
+            "end"
+          ],
+          "properties": {
+            "start": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991,
+              "not": {
+                "const": 0
+              }
+            },
+            "end": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991,
+              "not": {
+                "const": 0
+              }
+            }
+          }
+        },
+        "evidence": {
+          "enum": [
+            "documented_use",
+            "archaeological_evidence"
+          ]
+        },
+        "explanation_zh": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "\\S"
+        },
+        "explanation_en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 220,
+          "pattern": "\\S"
+        },
+        "source_urls": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
     "shareLocale": {
       "type": "object",
       "required": [

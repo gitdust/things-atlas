@@ -1,3 +1,4 @@
+import { EarliestUseEvidence } from './EarliestUseEvidence';
 import { DisputeIcon } from './DisputeIcon';
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import type { AtlasItem, CategoryMeta, ItemImage, YearKey, YearMark } from '@/lib/types';
@@ -238,6 +239,17 @@ export function ItemDrawer({
         ) : null}
 
         <p className="drawer-lede">{pick(lang, item.summary_zh, item.summary_en)}</p>
+
+        {item.earliest_use && (
+          <section className="drawer-section">
+            <h3>{lang === 'zh' ? '最早已知使用' : 'Earliest known use'}</h3>
+            <EarliestUseEvidence
+              lang={lang}
+              earliestUse={item.earliest_use}
+              sources={item.sources}
+            />
+          </section>
+        )}
 
         <section className="drawer-section">
           <h3>{t(lang, 'milestones')}</h3>

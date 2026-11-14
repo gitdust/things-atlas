@@ -70,6 +70,16 @@ export type ShareEditorial = Record<
   }
 >;
 
+export type EarliestUse = {
+  year: number;
+  precision: 'year' | 'decade' | 'century';
+  range: { start: number; end: number };
+  evidence: 'documented_use' | 'archaeological_evidence';
+  explanation_zh: string;
+  explanation_en: string;
+  source_urls: string[];
+};
+
 export type AtlasItem = {
   id: string;
   name_zh: string;
@@ -83,6 +93,7 @@ export type AtlasItem = {
   };
   /** Optional: which years.* mark is the map's primary year (default: invention-first). */
   primary?: YearKey;
+  earliest_use?: EarliestUse;
   locations: ItemLocation[];
   confidence: ItemConfidence;
   sources: ItemSource[];
