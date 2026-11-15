@@ -1,6 +1,6 @@
-import { CloseButton } from './CloseButton';
+import { ModalDialog } from './ModalDialog';
+import { DialogHeader } from './DialogHeader';
 import { useEffect, useRef, useState } from 'react';
-import { createPortal } from 'react-dom';
 import { type Lang, t } from '@/lib/i18n';
 import { shareImages } from '@/lib/seo';
 import { shareUrl } from '@/lib/share';
@@ -225,44 +225,26 @@ function ShareOptions({ item, lang }: Pick<Props, 'item' | 'lang'>) {
 }
 
 export default function ShareDialog({ item, lang, onClose }: Props) {
-  const dialog = useRef<HTMLDialogElement>(null);
   const opened = useRef(false);
   const msg = strings[lang];
   useEffect(() => {
-    const modal = dialog.current;
-    modal?.showModal();
     if (!opened.current) {
       opened.current = true;
       track('share_open', item.id, lang, 'dialog', 'opened');
     }
-    return () => {
-      modal?.close();
-    };
   }, [item.id, lang]);
 
-  return createPortal(
-    <dialog
-      ref={dialog}
-      className="share-dialog"
-      aria-labelledby="share-title"
-      onCancel={(event) => {
-        event.preventDefault();
-        dialog.current?.close();
-        onClose();
-      }}
-    >
-      <header className="share-head">
-        <h2 id="share-title">{msg.title}</h2>
-        <CloseButton
-          label={t(lang, 'close')}
-          onClick={() => {
-            dialog.current?.close();
-            onClose();
-          }}
-        />
-      </header>
+  return (
+    <ModalDialog onRequestClose={onClose} className="share-dialog" aria-labelledby="share-title">
+      <DialogHeader
+        className="share-head"
+        titleId="share-title"
+        closeLabel={t(lang, 'close')}
+        onClose={onClose}
+      >
+        {msg.title}
+      </DialogHeader>
       <ShareOptions key={`${item.id}:${lang}`} item={item} lang={lang} />
-    </dialog>,
-    document.body,
+    </ModalDialog>
   );
 }

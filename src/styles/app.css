@@ -1603,29 +1603,9 @@ button {
   border-color: var(--rule);
 }
 .release-dialog {
-  position: fixed;
   width: min(520px, calc(100vw - 32px));
   max-height: 80dvh;
   padding: var(--s-6);
-  border: 1px solid var(--rule-strong);
-  border-radius: var(--r-lg);
-  background: var(--paper);
-  color: var(--ink);
-  box-shadow: var(--shadow-2);
-}
-.release-dialog::backdrop {
-  background: rgba(var(--ink-rgb), 0.3);
-}
-.release-dialog-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: var(--s-4);
-}
-.release-dialog-head h2 {
-  margin: 0;
-  font-family: var(--font-serif);
-  font-size: var(--fs-xl);
 }
 .release-changes {
   padding-left: var(--s-5);

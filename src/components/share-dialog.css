@@ -1,28 +1,17 @@
 .share-dialog {
+  --modal-backdrop-opacity: 0.52;
   width: min(460px, calc(100vw - 24px));
-  position: fixed;
-  border: 1px solid var(--rule-strong);
-  border-radius: var(--r-lg);
-  background: var(--paper);
-  color: var(--ink);
-  box-shadow: var(--shadow-2);
   max-height: calc(100dvh - 32px);
   padding: 18px 22px;
   overflow-y: auto;
   overscroll-behavior: contain;
 }
-.share-dialog::backdrop {
-  background: rgba(var(--ink-rgb), 0.52);
-}
 .share-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 12px;
   margin-bottom: 12px;
 }
 .share-head h2 {
-  margin: 0;
+  font-family: inherit;
   font-size: 1.25rem;
 }
 .share-actions button,

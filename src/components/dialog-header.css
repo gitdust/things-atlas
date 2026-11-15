@@ -1,0 +1,13 @@
+.dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-4);
+}
+.dialog-header h2 {
+  flex: 1;
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  line-height: var(--lh-snug);
+}

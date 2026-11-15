@@ -1,6 +1,6 @@
-import { CloseButton } from './CloseButton';
+import { ModalDialog } from './ModalDialog';
+import { DialogHeader } from './DialogHeader';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { createPortal } from 'react-dom';
 import { fill, pick, t, type Lang } from '@/lib/i18n';
 import type { Question, QuizItem } from '@/lib/quiz';
 import { QuizConfetti } from './QuizConfetti';
@@ -48,7 +48,6 @@ export default function QuizDialog({
   onDismiss,
   onViewItem,
 }: Props) {
-  const dialog = useRef<HTMLDialogElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const result = useRef<HTMLParagraphElement>(null);
   const accepted = useRef(selectedId !== null);
@@ -61,20 +60,6 @@ export default function QuizDialog({
   const earlier = items.find((item) => item.id === question.earlierId);
 
   useEffect(() => {
-    const modal = dialog.current;
-    const previous = document.activeElement;
-    modal?.showModal();
-    heading.current?.focus({ preventScroll: true });
-    return () => {
-      modal?.close();
-      const fallback = document.querySelector<HTMLElement>('.topbar button, .topbar a');
-      if (previous instanceof HTMLElement && previous.isConnected && previous !== document.body) {
-        previous.focus({ preventScroll: true });
-      } else fallback?.focus({ preventScroll: true });
-    };
-  }, []);
-
-  useEffect(() => {
     if (revealed) result.current?.focus({ preventScroll: true });
   }, [revealed]);
 
@@ -82,7 +67,6 @@ export default function QuizDialog({
     const action = exitAction.current;
     if (!action) return;
     exitAction.current = null;
-    dialog.current?.close();
     action();
   }, []);
 
@@ -104,38 +88,28 @@ export default function QuizDialog({
     onAnswer(id);
   }
 
-  return createPortal(
-    <dialog
-      ref={dialog}
+  return (
+    <ModalDialog
+      initialFocus={heading}
+      onRequestClose={() => close()}
+      closeOnBackdrop
       className={`quiz-dialog${closing ? ' is-closing' : ''}`}
       aria-labelledby="quiz-title"
       aria-describedby="quiz-rule"
-      onCancel={(event) => {
-        event.preventDefault();
-        close();
-      }}
-      onClick={(event) => {
-        if (event.target !== event.currentTarget) return;
-        const rect = event.currentTarget.getBoundingClientRect();
-        if (
-          event.clientX < rect.left ||
-          event.clientX > rect.right ||
-          event.clientY < rect.top ||
-          event.clientY > rect.bottom
-        )
-          close();
-      }}
       onAnimationEnd={(event) => {
         if (closing && event.target === event.currentTarget) finishClose();
       }}
     >
       {selectedId === question.earlierId && !closing && <QuizConfetti />}
-      <header className="quiz-heading">
-        <h2 id="quiz-title" ref={heading} tabIndex={-1}>
-          {t(lang, 'quizTitle')}
-        </h2>
-        <CloseButton label={t(lang, 'close')} onClick={() => close()} />
-      </header>
+      <DialogHeader
+        className="quiz-heading"
+        titleId="quiz-title"
+        headingRef={heading}
+        closeLabel={t(lang, 'close')}
+        onClose={() => close()}
+      >
+        {t(lang, 'quizTitle')}
+      </DialogHeader>
       <div className="quiz-result-slot" aria-live="polite" aria-atomic="true">
         {revealed && earlier && (
           <p ref={result} tabIndex={-1} className="quiz-result">
@@ -194,7 +168,6 @@ export default function QuizDialog({
           {revealed ? t(lang, 'quizContinue') : t(lang, 'quizSkip')}
         </button>
       </footer>
-    </dialog>,
-    document.body,
+    </ModalDialog>
   );
 }

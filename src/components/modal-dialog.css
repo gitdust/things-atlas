@@ -1,0 +1,11 @@
+.modal-dialog {
+  position: fixed;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r-lg);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow-2);
+}
+.modal-dialog::backdrop {
+  background: rgba(var(--ink-rgb), var(--modal-backdrop-opacity, 0.3));
+}
