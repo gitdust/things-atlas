@@ -226,5 +226,17 @@
     "afterVersion": "1.0.0",
     "zh": "修正测验窗口关闭图标的居中位置并增加配色，移除物品图片的背景色。",
     "en": "Center and color the quiz close icon, and remove the background color behind object images."
+  },
+  {
+    "id": "release-five-household-technologies",
+    "afterVersion": "1.0.1",
+    "zh": "新增缝纫机、压力锅（高压锅）、电磁炉、干电池和 LED 灯，收录条目增至 159 项，补齐多语言简介、历史节点、地点、来源与配图。",
+    "en": "Add the sewing machine, pressure cooker, induction cooktop, dry-cell battery, and LED lamp, bringing the atlas to 159 entries with multilingual summaries, historical milestones, places, sources, and images."
+  },
+  {
+    "id": "release-contextual-translations",
+    "afterVersion": "1.0.1",
+    "zh": "结合条目历史语境校订多语言名称、简介与注释，优化英文、西班牙文和日文界面及分类标签表述。",
+    "en": "Refine multilingual entry names, summaries, and notes in their historical context, and improve English, Spanish, and Japanese interface, category, and tag wording."
   }
 ]
