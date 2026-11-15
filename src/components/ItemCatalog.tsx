@@ -1,3 +1,4 @@
+import { IconButton } from './IconButton';
 import tagData from '../../data/tags.json';
 import { DisputeIcon } from './DisputeIcon';
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
@@ -132,17 +133,16 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
           data-can-scroll-left={canScrollLeft}
           data-can-scroll-right={canScrollRight}
         >
-          <button
-            type="button"
+          <IconButton
             className="tags-scroll-btn tags-scroll-left"
-            aria-label={t(lang, 'scrollTagsLeft')}
+            label={t(lang, 'scrollTagsLeft')}
             onClick={() => scrollByOffset('left')}
             tabIndex={-1}
           >
             <svg viewBox="0 0 16 16" aria-hidden="true">
               <path d="M10 3.5 5.5 8l4.5 4.5" />
             </svg>
-          </button>
+          </IconButton>
           <div
             ref={tagsRef}
             className="catalog-tags"
@@ -187,17 +187,16 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
               </button>
             ))}
           </div>
-          <button
-            type="button"
+          <IconButton
             className="tags-scroll-btn tags-scroll-right"
-            aria-label={t(lang, 'scrollTagsRight')}
+            label={t(lang, 'scrollTagsRight')}
             onClick={() => scrollByOffset('right')}
             tabIndex={-1}
           >
             <svg viewBox="0 0 16 16" aria-hidden="true">
               <path d="M6 3.5 10.5 8 6 12.5" />
             </svg>
-          </button>
+          </IconButton>
         </div>
       </header>
       <div className="catalog-scroll">

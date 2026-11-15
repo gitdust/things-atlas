@@ -1,3 +1,4 @@
+import { ItemImage } from './ItemImage';
 import { ModalDialog } from './ModalDialog';
 import { DialogHeader } from './DialogHeader';
 import { useCallback, useEffect, useRef, useState } from 'react';
@@ -29,7 +30,14 @@ function QuizImage({ item, lang }: { item: QuizItem; lang: Lang }) {
   const name = pick(lang, item.name_zh, item.name_en, { ja: item.name_ja });
   if (item.image && reviewedImages.has(item.image.src) && !failed) {
     return (
-      <img className="quiz-image" src={item.image.src} alt={name} onError={() => setFailed(true)} />
+      <ItemImage
+        className="quiz-image"
+        image={item.image}
+        alt={name}
+        sizes="(max-width: 760px) 64px, 280px"
+        eager
+        onError={() => setFailed(true)}
+      />
     );
   }
   return (

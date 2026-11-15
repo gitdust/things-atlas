@@ -1,10 +1,11 @@
+import { IconButton } from './IconButton';
+import { ItemImage } from './ItemImage';
 import { EarliestUseEvidence } from './EarliestUseEvidence';
 import { DisputeIcon } from './DisputeIcon';
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
-import type { AtlasItem, CategoryMeta, ItemImage, YearKey, YearMark } from '@/lib/types';
+import type { AtlasItem, CategoryMeta, YearKey, YearMark } from '@/lib/types';
 import { YEAR_KEYS } from '@/lib/primaryYear';
 import { categoryColor } from '@/lib/tokens';
-import { IMAGE_SIZES, variantSrcSet } from '@/lib/images';
 import { pick, t, type Lang, type MessageKey, formatYear } from '@/lib/i18n';
 
 const ShareDialog = lazy(() => import('./ShareDialog'));
@@ -40,37 +41,6 @@ function fmtCoord(lat: number, lng: number) {
   const ns = lat >= 0 ? 'N' : 'S';
   const ew = lng >= 0 ? 'E' : 'W';
   return `${Math.abs(lat).toFixed(2)}°${ns} ${Math.abs(lng).toFixed(2)}°${ew}`;
-}
-
-/** <picture> with AVIF/WebP variants from scripts/build-images.ts, JPEG fallback. */
-function ResponsiveImage({ image, alt, eager }: { image: ItemImage; alt: string; eager: boolean }) {
-  const widths = image.widths?.length ? image.widths : null;
-  return (
-    <picture>
-      {widths ? (
-        <source
-          type="image/avif"
-          srcSet={variantSrcSet(image.src, widths, 'avif')}
-          sizes={IMAGE_SIZES}
-        />
-      ) : null}
-      {widths ? (
-        <source
-          type="image/webp"
-          srcSet={variantSrcSet(image.src, widths, 'webp')}
-          sizes={IMAGE_SIZES}
-        />
-      ) : null}
-      <img
-        src={image.src}
-        alt={alt}
-        width={image.width}
-        height={image.height}
-        loading={eager ? 'eager' : 'lazy'}
-        decoding="async"
-      />
-    </picture>
-  );
 }
 
 export function ItemDrawer({
@@ -141,18 +111,17 @@ export function ItemDrawer({
       <div className="drawer-scroll" ref={bodyRef}>
         <header className="drawer-head">
           <div className="drawer-head-left">
-            <button
+            <IconButton
               id="close-btn"
-              type="button"
-              className="close-btn back-btn"
+              className="back-btn"
               onClick={onClose}
-              aria-label={t(lang, 'back')}
+              label={t(lang, 'back')}
               title={t(lang, 'back')}
             >
               <svg viewBox="0 0 16 16" aria-hidden="true">
                 <path d="M12.5 8H3.5M7 4.5 3.5 8 7 11.5" />
               </svg>
-            </button>
+            </IconButton>
             <div className="drawer-kicker">
               <span className="kicker-no num">
                 {t(lang, 'entry')} {entryNo != null ? String(entryNo).padStart(3, '0') : ''}
@@ -175,10 +144,9 @@ export function ItemDrawer({
             </div>
           </div>
           <div className="drawer-actions">
-            <button
-              type="button"
-              className="close-btn share-btn"
-              aria-label={t(lang, 'shareEntry')}
+            <IconButton
+              className="share-btn"
+              label={t(lang, 'shareEntry')}
               title={t(lang, 'shareEntry')}
               ref={shareButton}
               aria-haspopup="dialog"
@@ -190,7 +158,7 @@ export function ItemDrawer({
                 <circle cx="12" cy="12" r="2" />
                 <path d="M5.8 7.1l4.4-2.2M5.8 8.9l4.4 2.2" />
               </svg>
-            </button>
+            </IconButton>
           </div>
         </header>
 
@@ -221,7 +189,7 @@ export function ItemDrawer({
 
         {item.image ? (
           <figure className="drawer-figure">
-            <ResponsiveImage
+            <ItemImage
               image={item.image}
               alt={pick(lang, item.image.alt_zh, item.image.alt_en)}
               eager={eagerImage}
@@ -243,7 +211,9 @@ export function ItemDrawer({
           </figure>
         ) : null}
 
-        <p className="drawer-lede">{pick(lang, item.summary_zh, item.summary_en, { ja: item.summary_ja })}</p>
+        <p className="drawer-lede">
+          {pick(lang, item.summary_zh, item.summary_en, { ja: item.summary_ja })}
+        </p>
 
         {item.earliest_use && (
           <section className="drawer-section">

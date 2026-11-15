@@ -795,34 +795,6 @@ button {
   align-items: center;
   color: var(--accent);
 }
-.close-btn {
-  width: 34px;
-  height: 34px;
-  flex: none;
-  border-radius: var(--r-round);
-  border: 1px solid var(--rule);
-  background: transparent;
-  display: grid;
-  place-items: center;
-  cursor: pointer;
-  transition:
-    background var(--dur) var(--ease),
-    border-color var(--dur) var(--ease);
-}
-.close-btn:hover {
-  background: var(--paper-2);
-  border-color: var(--rule-strong);
-}
-.close-btn svg {
-  width: 14px;
-  height: 14px;
-  fill: none;
-  stroke: var(--ink);
-  stroke-width: 1.6;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
 .drawer-head .back-btn {
   color: var(--ink-2);
   background: var(--paper-2);
@@ -840,9 +812,6 @@ button {
   color: var(--white);
   background: var(--accent);
   border-color: var(--accent);
-}
-.drawer-head .close-btn svg {
-  stroke: currentColor;
 }
 
 .drawer-title {
@@ -1300,23 +1269,17 @@ button {
   opacity: 1;
 }
 
-.tags-scroll-btn {
+.icon-button.tags-scroll-btn {
+  --icon-button-size: 24px;
+  --icon-size: 12px;
+  --icon-stroke-width: 1.8;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  padding: 0;
-  border-radius: var(--r-round);
-  border: 1px solid var(--rule);
   background: var(--paper);
   color: var(--ink-2);
   box-shadow: var(--shadow-1);
-  cursor: pointer;
   opacity: 0;
   pointer-events: none;
   transition:
@@ -1325,16 +1288,8 @@ button {
     color var(--dur) var(--ease),
     transform var(--dur) var(--ease);
 }
-.tags-scroll-btn svg {
-  width: 12px;
-  height: 12px;
-  stroke: currentColor;
-  stroke-width: 1.8;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-.tags-scroll-btn:hover {
+.icon-button.tags-scroll-btn:hover {
+  background: var(--paper);
   border-color: var(--rule-strong);
   color: var(--ink);
   transform: translateY(-50%) scale(1.08);

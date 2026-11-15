@@ -1,0 +1,40 @@
+.icon-button {
+  width: var(--icon-button-size, 34px);
+  height: var(--icon-button-size, 34px);
+  flex: none;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-round);
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+  transition:
+    color var(--dur) var(--ease),
+    background var(--dur) var(--ease),
+    border-color var(--dur) var(--ease);
+}
+.icon-button:hover {
+  background: var(--paper-2);
+  border-color: var(--rule-strong);
+}
+.icon-button[data-tone='accent'] {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: var(--accent-border);
+}
+.icon-button[data-tone='accent']:hover {
+  color: var(--white);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.icon-button svg {
+  width: var(--icon-size, 14px);
+  height: var(--icon-size, 14px);
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--icon-stroke-width, 1.6);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
