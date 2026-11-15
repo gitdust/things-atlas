@@ -1,3 +1,4 @@
+import { CloseButton } from './CloseButton';
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { type Lang, t } from '@/lib/i18n';
@@ -252,17 +253,13 @@ export default function ShareDialog({ item, lang, onClose }: Props) {
     >
       <header className="share-head">
         <h2 id="share-title">{msg.title}</h2>
-        <button
-          type="button"
-          className="close-btn"
-          aria-label={t(lang, 'close')}
+        <CloseButton
+          label={t(lang, 'close')}
           onClick={() => {
             dialog.current?.close();
             onClose();
           }}
-        >
-          ×
-        </button>
+        />
       </header>
       <ShareOptions key={`${item.id}:${lang}`} item={item} lang={lang} />
     </dialog>,

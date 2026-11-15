@@ -1,3 +1,4 @@
+import { CloseButton } from './CloseButton';
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { version } from '../../package.json';
@@ -51,15 +52,11 @@ export function VersionControl({ lang }: { lang: Lang }) {
           >
             <header className="release-dialog-head">
               <h2 id="release-dialog-title">{title}</h2>
-              <button
-                type="button"
-                className="close-btn"
-                aria-label={t(lang, 'closeReleaseNotes')}
+              <CloseButton
+                label={t(lang, 'closeReleaseNotes')}
                 onClick={() => dialog.current?.close()}
                 autoFocus
-              >
-                ×
-              </button>
+              />
             </header>
             <div className="release-tabs" role="tablist" aria-label={title}>
               {releases.map((release, index) => (

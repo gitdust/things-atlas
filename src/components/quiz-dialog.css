@@ -29,21 +29,6 @@
   font-size: var(--fs-2xl);
   line-height: var(--lh-snug);
 }
-.quiz-heading .close-btn {
-  flex: none;
-  padding: 0;
-  color: var(--accent);
-  background: var(--accent-soft);
-  border-color: var(--accent-border);
-}
-.quiz-heading .close-btn:hover {
-  color: var(--white);
-  background: var(--accent);
-  border-color: var(--accent);
-}
-.quiz-heading .close-btn svg {
-  stroke: currentColor;
-}
 .quiz-result-slot {
   min-height: 52px;
   display: flex;

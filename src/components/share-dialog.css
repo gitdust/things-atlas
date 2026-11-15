@@ -46,8 +46,7 @@
   color: var(--accent);
   min-width: 96px;
 }
-.share-download,
-.share-head .close-btn {
+.share-download {
   min-width: 44px;
   min-height: 44px;
 }

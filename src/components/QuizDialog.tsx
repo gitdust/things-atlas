@@ -1,3 +1,4 @@
+import { CloseButton } from './CloseButton';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { fill, pick, t, type Lang } from '@/lib/i18n';
@@ -133,16 +134,7 @@ export default function QuizDialog({
         <h2 id="quiz-title" ref={heading} tabIndex={-1}>
           {t(lang, 'quizTitle')}
         </h2>
-        <button
-          className="close-btn"
-          type="button"
-          aria-label={t(lang, 'close')}
-          onClick={() => close()}
-        >
-          <svg viewBox="0 0 16 16" aria-hidden="true">
-            <path d="m4 4 8 8M12 4l-8 8" />
-          </svg>
-        </button>
+        <CloseButton label={t(lang, 'close')} onClick={() => close()} />
       </header>
       <div className="quiz-result-slot" aria-live="polite" aria-atomic="true">
         {revealed && earlier && (
