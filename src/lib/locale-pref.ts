@@ -1,8 +1,8 @@
 import { isLang, type Lang } from './i18n';
 
-export const LANG_COOKIE = 'atlas_lang';
+const LANG_COOKIE = 'atlas_lang';
 
-export function matchLang(tag: string): Lang | null {
+function matchLang(tag: string): Lang | null {
   const base = tag.trim().toLowerCase().split('-')[0];
   return base === 'zh' || base === 'en' || base === 'es' || base === 'ja' ? base : null;
 }

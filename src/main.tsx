@@ -11,6 +11,10 @@ import './styles/app.css';
 import './styles/language-fonts.css';
 import './styles/guide.css';
 import './components/earliest-use-evidence.css';
+import './components/icon-button.css';
+import './components/item-image.css';
+import './components/modal-dialog.css';
+import './components/dialog-header.css';
 
 const container = document.getElementById('root')!;
 const app = (

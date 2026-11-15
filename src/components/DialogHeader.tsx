@@ -1,6 +1,5 @@
 import type { ReactNode, RefObject } from 'react';
 import { CloseButton } from './CloseButton';
-import './dialog-header.css';
 
 type Props = {
   titleId: string;

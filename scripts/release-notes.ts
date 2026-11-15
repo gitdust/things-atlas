@@ -10,7 +10,7 @@ type ChangeRecord = {
   en: string;
 };
 
-export type ReleaseManifest = {
+type ReleaseManifest = {
   version: string;
   changes: { id: string; zh: string; en: string }[];
 };
@@ -125,7 +125,7 @@ export function createReleaseHistory(
   }));
 }
 
-export function readReleaseHistory(root: string): ReleaseManifest[] {
+function readReleaseHistory(root: string): ReleaseManifest[] {
   const pkg = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
   const changes: unknown = JSON.parse(
     fs.readFileSync(path.join(root, 'data/changes.json'), 'utf8'),

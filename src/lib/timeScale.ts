@@ -27,7 +27,7 @@ const ERA_SEGMENTS: Segment[] = [
   { from: 1800, at: 0.3, minor: 1, major: 10, step: 1 },
 ];
 
-export type TimeScale = {
+type TimeScale = {
   min: number;
   max: number;
   /** Year → percent of track width (0–100). */

@@ -1,7 +1,6 @@
 import type { ComponentPropsWithoutRef } from 'react';
 import type { ItemImage as ImageData } from '@/lib/types';
 import { IMAGE_SIZES, variantSrcSet } from '@/lib/images';
-import './item-image.css';
 
 type Props = Pick<ComponentPropsWithoutRef<'img'>, 'onError'> & {
   image: ImageData;

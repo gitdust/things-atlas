@@ -1,9 +1,12 @@
 import type { AtlasItem, EarliestUse } from './types';
 
-export type QuizItem = Pick<AtlasItem, 'id' | 'name_zh' | 'name_en' | 'name_ja' | 'image' | 'sources'> & {
+export type QuizItem = Pick<
+  AtlasItem,
+  'id' | 'name_zh' | 'name_en' | 'name_ja' | 'image' | 'sources'
+> & {
   earliest_use: EarliestUse;
 };
-export type QuizPair = [string, string];
+type QuizPair = [string, string];
 export type ExcludedPair = { ids: QuizPair; reason: string };
 export type QuizDataset = { datasetVersion: string; items: QuizItem[]; pairs: QuizPair[] };
 export type Question = { id: string; leftId: string; rightId: string; earlierId: string };
@@ -43,7 +46,7 @@ export function validateEarliestUse(item: {
   return errors;
 }
 
-export function earlierItem(a: QuizItem, b: QuizItem): string | null {
+function earlierItem(a: QuizItem, b: QuizItem): string | null {
   if (a.earliest_use.range.end < b.earliest_use.range.start) return a.id;
   if (b.earliest_use.range.end < a.earliest_use.range.start) return b.id;
   return null;

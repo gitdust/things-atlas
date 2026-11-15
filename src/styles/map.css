@@ -12,32 +12,6 @@
 
 /* ------------------------------------------------------- map chrome / tips */
 
-.maplibregl-ctrl-bottom-right,
-.maplibregl-ctrl-bottom-left {
-  bottom: calc(var(--tl-h) + var(--s-5) + var(--s-2));
-  transition: right var(--dur-layout) var(--ease);
-}
-.maplibregl-ctrl-bottom-right {
-  right: calc(var(--edge) - 10px);
-}
-.has-drawer .maplibregl-ctrl-bottom-right {
-  right: calc(var(--drawer-w) + var(--edge) + var(--s-4) - 10px);
-}
-.maplibregl-ctrl-group {
-  background: var(--glass) !important;
-  backdrop-filter: var(--blur);
-  border-radius: var(--r-md) !important;
-  box-shadow: var(--shadow-1) !important;
-  border: 1px solid var(--rule);
-  overflow: hidden;
-}
-.maplibregl-ctrl-group button {
-  width: 32px !important;
-  height: 32px !important;
-}
-.maplibregl-ctrl-group button + button {
-  border-top: 1px solid var(--rule) !important;
-}
 .maplibregl-ctrl-attrib {
   background: var(--surface-attrib) !important;
   font-size: var(--fs-3xs);
@@ -128,19 +102,5 @@
 @media (max-width: 760px) {
   .map-attribution-slot {
     padding-bottom: calc(2px + env(safe-area-inset-bottom, 0px));
-  }
-}
-
-@media (max-width: 760px) {
-  .maplibregl-ctrl-bottom-right {
-    right: calc(var(--edge) - 10px);
-    bottom: calc(var(--attribution-h) + var(--s-4));
-    transition:
-      right var(--dur-bar) var(--ease),
-      bottom var(--dur-bar) var(--ease);
-  }
-  .has-drawer .maplibregl-ctrl-bottom-right {
-    right: calc(var(--edge) - 10px);
-    bottom: calc(var(--attribution-h) + var(--mobile-panel-h) + var(--s-4));
   }
 }

@@ -2,7 +2,7 @@ import type { YearKey } from './primaryYear';
 
 export type { YearKey };
 
-export type YearPrecision = 'exact' | 'year' | 'decade' | 'century';
+type YearPrecision = 'exact' | 'year' | 'decade' | 'century';
 
 export type YearMark = {
   year: number;
@@ -22,13 +22,13 @@ export type CategoryId =
   | 'digital'
   | 'kitchen';
 
-export type LocationKind = 'invention' | 'patent' | 'production' | 'popularization' | 'contested';
+type LocationKind = 'invention' | 'patent' | 'production' | 'popularization' | 'contested';
 
-export type PlaceConfidence = 'exact' | 'city' | 'region' | 'country' | 'approximate';
+type PlaceConfidence = 'exact' | 'city' | 'region' | 'country' | 'approximate';
 
-export type ItemConfidence = 'exact' | 'year' | 'decade' | 'century' | 'disputed';
+type ItemConfidence = 'exact' | 'year' | 'decade' | 'century' | 'disputed';
 
-export type SourceType = 'patent' | 'museum' | 'wiki' | 'book' | 'news' | 'brand' | 'other';
+type SourceType = 'patent' | 'museum' | 'wiki' | 'book' | 'news' | 'brand' | 'other';
 
 export type ItemLocation = {
   lat: number;
@@ -60,8 +60,8 @@ export type ItemImage = {
   widths?: number[];
 };
 
-export type ShareMilestone = { yearKey: YearKey; label: string; text: string };
-export type ShareEditorial = Record<
+type ShareMilestone = { yearKey: YearKey; label: string; text: string };
+type ShareEditorial = Record<
   'zh' | 'en',
   {
     summary: string;

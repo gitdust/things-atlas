@@ -55,12 +55,10 @@ export const breakpoint = {
 } as const;
 
 /** Motion durations (ms). */
-export const duration = {
+const duration = {
   base: 220,
   bar: 260,
-  slide: 320,
   layout: 420,
-  enter: 480,
 } as const;
 
 export const mq = {
@@ -83,8 +81,6 @@ export function cssVarMirror(): Record<string, string> {
   for (const [k, v] of Object.entries(breakpoint)) out[`--bp-${k}`] = `${v}px`;
   out['--dur'] = `${duration.base}ms`;
   out['--dur-bar'] = `${duration.bar}ms`;
-  out['--dur-slide'] = `${duration.slide}ms`;
   out['--dur-layout'] = `${duration.layout}ms`;
-  out['--dur-enter'] = `${duration.enter}ms`;
   return out;
 }

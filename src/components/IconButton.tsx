@@ -1,5 +1,4 @@
 import { forwardRef, type ComponentPropsWithoutRef } from 'react';
-import './icon-button.css';
 
 type Props = Omit<ComponentPropsWithoutRef<'button'>, 'type' | 'aria-label'> & {
   label: string;

@@ -1,6 +1,6 @@
 import type { AtlasItem } from './types';
 
-export function itemMatchesYear(item: AtlasItem, selectedYear: number): boolean {
+function itemMatchesYear(item: AtlasItem, selectedYear: number): boolean {
   return item.primary_year <= selectedYear;
 }
 

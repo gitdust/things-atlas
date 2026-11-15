@@ -1,6 +1,5 @@
 import { useEffect, useRef, type ComponentPropsWithoutRef, type RefObject } from 'react';
 import { createPortal } from 'react-dom';
-import './modal-dialog.css';
 
 type Props = Pick<
   ComponentPropsWithoutRef<'dialog'>,

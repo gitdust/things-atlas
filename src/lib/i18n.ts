@@ -54,7 +54,6 @@ const dict = {
 
     // precision (shown only when not plain "year")
     precision_exact: '确切日期',
-    precision_year: '年份',
     precision_decade: '年代级精度',
     precision_century: '世纪级精度',
 
@@ -152,7 +151,6 @@ const dict = {
     legendArc: 'Lines connecting places for the same entry',
 
     precision_exact: 'exact date',
-    precision_year: 'year',
     precision_decade: 'decade-level precision',
     precision_century: 'century-level precision',
 
@@ -251,7 +249,6 @@ const es = {
   legendContested: 'Versión controvertida',
   legendArc: 'Líneas entre los lugares de una misma entrada',
   precision_exact: 'fecha exacta',
-  precision_year: 'año',
   precision_decade: 'década aproximada',
   precision_century: 'siglo aproximado',
   footer: 'Fronteras actuales y ubicaciones aproximadas · Código: MIT · Datos: CC BY 4.0',
@@ -345,7 +342,6 @@ const ja = {
   legendContested: '異説',
   legendArc: '同じ項目の場所を結ぶ線',
   precision_exact: '正確な日付',
-  precision_year: '年',
   precision_decade: '年代単位の概算',
   precision_century: '世紀単位の概算',
   footer:

@@ -1646,9 +1646,6 @@ button {
   .panel-toggle.is-open .icon-chevron {
     transform: rotate(90deg);
   }
-  .panel-toggle.is-open .panel-toggle-count {
-    display: none;
-  }
   .panel-collapsed .panel-toggle,
   .panel-toggle.is-collapsed {
     top: auto;

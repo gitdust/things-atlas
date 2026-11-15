@@ -55,7 +55,7 @@ export function createQuizLifecycle() {
   };
 }
 
-export type QuizLifecycle = ReturnType<typeof createQuizLifecycle>;
+type QuizLifecycle = ReturnType<typeof createQuizLifecycle>;
 const documents = new WeakMap<Document, QuizLifecycle>();
 
 /** Call only in the browser. No timers or visibility listeners can open the game. */

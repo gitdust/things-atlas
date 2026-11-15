@@ -19,7 +19,7 @@ const srcDir = path.join(root, 'public', 'images');
 const outDir = path.join(srcDir, 'opt');
 const manifestPath = path.join(root, 'data', 'images.json');
 
-export const TARGET_WIDTHS = [480, 960] as const;
+const TARGET_WIDTHS = [480, 960] as const;
 const FORMATS = {
   avif: { quality: 52, effort: 4 },
   webp: { quality: 78, effort: 6 },
