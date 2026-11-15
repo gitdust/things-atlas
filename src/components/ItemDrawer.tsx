@@ -1,3 +1,4 @@
+import { ExternalLink } from './ExternalLink';
 import { IconButton } from './IconButton';
 import { ItemImage } from './ItemImage';
 import { EarliestUseEvidence } from './EarliestUseEvidence';
@@ -198,10 +199,10 @@ export function ItemDrawer({
               {item.image.credit || item.image.license || item.image.source_url ? (
                 <span className="fig-credit">
                   {item.image.source_url ? (
-                    <a href={item.image.source_url} target="_blank" rel="noreferrer">
+                    <ExternalLink href={item.image.source_url}>
                       {[item.image.credit, item.image.license].filter(Boolean).join(' · ') ||
                         t(lang, 'photoSource')}
-                    </a>
+                    </ExternalLink>
                   ) : (
                     [item.image.credit, item.image.license].filter(Boolean).join(' · ')
                   )}
@@ -296,9 +297,7 @@ export function ItemDrawer({
               <li key={i}>
                 <span className="src-no num">{i + 1}</span>
                 <div>
-                  <a href={s.url} target="_blank" rel="noreferrer">
-                    {s.title}
-                  </a>
+                  <ExternalLink href={s.url}>{s.title}</ExternalLink>
                   <div className="src-meta">
                     {hostOf(s.url)} · {s.type} · <span className="num">{s.accessed}</span>
                   </div>

@@ -1,3 +1,4 @@
+import { ExternalLink } from './ExternalLink';
 import { formatYear, pick, type Lang } from '@/lib/i18n';
 import type { EarliestUse, ItemSource } from '@/lib/types';
 
@@ -23,9 +24,9 @@ export function EarliestUseEvidence({
       <ul>
         {earliestUse.source_urls.map((url) => (
           <li key={url}>
-            <a href={url} target="_blank" rel="noreferrer">
-              {sources.find((source) => source.url === url)?.title ?? url} ↗
-            </a>
+            <ExternalLink href={url} showIndicator>
+              {sources.find((source) => source.url === url)?.title ?? url}
+            </ExternalLink>
           </li>
         ))}
       </ul>

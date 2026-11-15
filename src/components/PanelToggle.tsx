@@ -1,3 +1,4 @@
+import { ChevronIcon } from './ChevronIcon';
 import { forwardRef, useRef, type PointerEvent } from 'react';
 import { t, type Lang } from '@/lib/i18n';
 import { mq } from '@/lib/tokens';
@@ -62,9 +63,7 @@ export const PanelToggle = forwardRef<HTMLButtonElement, Props>(function PanelTo
     >
       <span className="panel-toggle-icon" aria-hidden="true">
         {open ? (
-          <svg className="icon-chevron" viewBox="0 0 16 16">
-            <path d="M6 3.5 10.5 8 6 12.5" />
-          </svg>
+          <ChevronIcon />
         ) : (
           <svg className="icon-list" viewBox="0 0 16 16">
             <path d="M2.5 4h11M2.5 8h11M2.5 12h7" />

@@ -1,3 +1,5 @@
+import { ChevronIcon } from './ChevronIcon';
+import { ExternalLink } from './ExternalLink';
 import { IconButton } from './IconButton';
 import tagData from '../../data/tags.json';
 import { DisputeIcon } from './DisputeIcon';
@@ -139,9 +141,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
             onClick={() => scrollByOffset('left')}
             tabIndex={-1}
           >
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M10 3.5 5.5 8l4.5 4.5" />
-            </svg>
+            <ChevronIcon direction="left" />
           </IconButton>
           <div
             ref={tagsRef}
@@ -193,9 +193,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
             onClick={() => scrollByOffset('right')}
             tabIndex={-1}
           >
-            <svg viewBox="0 0 16 16" aria-hidden="true">
-              <path d="M6 3.5 10.5 8 6 12.5" />
-            </svg>
+            <ChevronIcon />
           </IconButton>
         </div>
       </header>
@@ -222,9 +220,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
           <div className="catalog-empty">
             <p>{t(lang, 'searchEmpty')}</p>
             <p>{t(lang, 'searchSuggestHint')}</p>
-            <a href={issue.href} target="_blank" rel="noopener noreferrer">
-              {t(lang, 'searchSuggest')}
-            </a>
+            <ExternalLink href={issue.href}>{t(lang, 'searchSuggest')}</ExternalLink>
           </div>
         ) : null}
       </div>
