@@ -1,0 +1,86 @@
+{
+  "id": "led-lamp",
+  "name_zh": "LED 灯",
+  "name_en": "LED lamp",
+  "name_ja": "LED照明",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1962,
+      "precision": "year",
+      "ref": "Holonyak develops a practical visible red LED at GE; a precursor to white LED lighting",
+      "ref_zh": "霍洛尼亚克在通用电气研制实用红光 LED，是白光照明的技术前驱"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 39,
+      "lng": -98,
+      "place_label_zh": "美国（通用电气，实用红光 LED）",
+      "place_label_en": "United States (GE, practical red LED)",
+      "kind": "invention",
+      "confidence": "country"
+    },
+    {
+      "lat": 35.1815,
+      "lng": 136.9066,
+      "place_label_zh": "日本名古屋（赤崎勇、天野浩的蓝光 LED 研究）",
+      "place_label_en": "Nagoya, Japan (Akasaki and Amano’s blue LED research)",
+      "kind": "invention",
+      "confidence": "city",
+      "year_override": 1990
+    },
+    {
+      "lat": 34.0703,
+      "lng": 134.5548,
+      "place_label_zh": "日本德岛（日亚化学、中村修二的高亮度蓝光 LED）",
+      "place_label_en": "Tokushima, Japan (Nichia and Nakamura’s bright blue LED)",
+      "kind": "production",
+      "confidence": "region",
+      "year_override": 1993
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "LED Essentials — U.S. Department of Energy",
+      "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/ssl/webinar_2007-10-11.pdf",
+      "type": "other",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2014 — Press release",
+      "url": "https://www.nobelprize.org/prizes/physics/2014/press-release/",
+      "type": "other",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "Shuji Nakamura — Biographical",
+      "url": "https://www.nobelprize.org/prizes/physics/2014/nakamura/biographical/",
+      "type": "other",
+      "accessed": "2026-11-15"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条覆盖半导体 LED 从指示光源走向日常照明的过程。1962 年指实用可见红光 LED，并非白光灯泡问世；更早已有电致发光现象和红外器件。1990 年代的高效蓝光突破使实用白光照明成为可能；2014 年是相关诺贝尔奖年份，不是发明年份。地图地点展示日本的蓝光突破，1990 为年代代表值。",
+  "notes_en": "This entry traces semiconductor LEDs from indicators to everyday lighting. The 1962 milestone is a practical visible red LED, not a white bulb; electroluminescence and infrared devices are older. Efficient blue LEDs in the 1990s enabled practical white lighting. The 2014 Nobel Prize is recognition, not an invention date. Map locations show the Japanese blue LED breakthroughs; 1990 represents a decade.",
+  "summary_zh": "LED 通过半导体发光，与加热灯丝的白炽灯原理不同。1962 年实用红光 LED 问世，1990 年代日本研究者突破高效蓝光难题，推动白光 LED 从电子指示灯走入家庭照明。",
+  "summary_en": "LEDs emit light in semiconductors. Practical red LEDs appeared in 1962; efficient blue LEDs developed in Japan in the 1990s enabled white LED lighting for homes.",
+  "summary_ja": "LEDはフィラメントを加熱せず、半導体で発光する。1962年の実用的な赤色LEDに続き、1990年代に日本で高効率の青色LEDが開発され、白色LEDによる家庭照明への道が開かれた。",
+  "tags": [
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-15",
+  "image": {
+    "src": "/images/led-lamp.jpg",
+    "alt_zh": "多种家用 LED 灯泡",
+    "alt_en": "Several household LED light bulbs",
+    "credit": "Geoffrey.landis at English Wikipedia",
+    "license": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:LED_bulbs.jpg"
+  }
+}

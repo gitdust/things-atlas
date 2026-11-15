@@ -1,0 +1,88 @@
+{
+  "id": "induction-cooktop",
+  "name_zh": "电磁炉",
+  "name_en": "Induction cooktop",
+  "name_ja": "IH調理器",
+  "category": "kitchen",
+  "primary": "patent",
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1909,
+      "precision": "year",
+      "ref": "Arthur Francis Berry’s US 932,242 granted for induction heating for cooking; filed in 1906",
+      "ref_zh": "Arthur Francis Berry 的美国感应加热烹饪专利 US 932,242 获批（1906 年申请）"
+    },
+    "mass_production": {
+      "year": 1970,
+      "precision": "decade",
+      "ref": "Modern induction ranges appeared in the 1970s, including Westinghouse models with limited early distribution",
+      "ref_zh": "1970 年代出现 Westinghouse 等企业的现代电磁灶，早期产品销售规模有限"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 51.513,
+      "lng": -0.308,
+      "place_label_zh": "英国伦敦伊灵（Berry 的专利所载居住地）",
+      "place_label_en": "Ealing, London, UK (Berry’s residence recorded in the patent)",
+      "kind": "patent",
+      "confidence": "city"
+    },
+    {
+      "lat": 40.441,
+      "lng": -79.996,
+      "place_label_zh": "美国宾夕法尼亚州匹兹堡地区（Westinghouse 研发）",
+      "place_label_en": "Pittsburgh region, Pennsylvania, USA (Westinghouse development)",
+      "kind": "production",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "year",
+  "disputed": false,
+  "sources": [
+    {
+      "title": "US 932,242 — Electrical production of heat for cooking and other purposes",
+      "url": "https://patents.google.com/patent/US932242A/en",
+      "type": "patent",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "Making the Switch to Induction Stoves or Cooktops — US Department of Energy",
+      "url": "https://www.energy.gov/articles/making-switch-induction-stoves-or-cooktops",
+      "type": "other",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "Federal Register, 7 December 1979 — FCC induction cooking range discussion",
+      "url": "https://archives.federalregister.gov/issue_slice/1979/12/7/70471-70474.pdf",
+      "type": "other",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "All-Electric Commercial Kitchens — New Buildings Institute",
+      "url": "https://filesnewbuilding.s3.amazonaws.com/wp-content/uploads/2024/05/AllElectricCommercialKitchens_NBI_June2024.pdf",
+      "type": "other",
+      "accessed": "2026-11-15"
+    }
+  ],
+  "summary_zh": "电磁炉利用交变磁场让锅具自身发热。1909 年 Berry 的美国烹饪感应加热专利获批；1970 年代 Westinghouse 等企业推出采用现代电子技术的电磁灶，推动这一原理进入厨房。",
+  "summary_en": "Induction cooktops heat cookware through a changing magnetic field. Berry patented an early design in 1909; Westinghouse helped commercialize modern electronic models in the 1970s.",
+  "summary_ja": "IH調理器は変化する磁場によって鍋自体を発熱させる。1909年に Berry の誘導加熱調理に関する米国特許が成立し、1970年代には Westinghouse などが電子技術を用いた調理器を製品化した。",
+  "notes": "本条以有据可查的早期专利为年表节点，不将 1909 年认定为唯一发明年份。早期感应加热构想与现代高频电子电磁炉应区别；1970 年代的产品化也不等同于大规模普及。普通电阻式电热炉不在本条范围内。",
+  "notes_en": "The timeline uses a documented early patent, not a claim that induction cooking was uniquely invented in 1909. Early concepts differ from modern high-frequency electronic cooktops, and 1970s commercialization does not imply widespread adoption. Resistance-heated electric stoves are outside this entry.",
+  "tags": [
+    "cooking",
+    "electric"
+  ],
+  "updated": "2026-11-15",
+  "image": {
+    "src": "/images/induction-cooktop.jpg",
+    "alt_zh": "电磁炉上的锅具正在煮水",
+    "alt_en": "Water boiling in cookware on an induction cooktop",
+    "credit": "Wtshymanski",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Induction_Cooktop_Rolling_Boil_Cropped.jpg"
+  }
+}

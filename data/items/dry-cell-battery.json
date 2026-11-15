@@ -1,0 +1,86 @@
+{
+  "id": "dry-cell-battery",
+  "name_zh": "干电池",
+  "name_en": "Dry-cell battery",
+  "name_ja": "乾電池",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1880,
+      "precision": "decade",
+      "ref": "Gassner developed dry cells with immobilized electrolyte in the 1880s",
+      "ref_zh": "Gassner 在 1880 年代研制以固定电解质替代自由流动液体的干电池"
+    },
+    "patent": {
+      "year": 1887,
+      "precision": "year",
+      "ref": "Gassner’s US battery patent 373,064 granted",
+      "ref_zh": "Gassner 的美国电池专利 US 373,064 获批"
+    },
+    "mass_production": {
+      "year": 1896,
+      "precision": "year",
+      "ref": "National Carbon introduced the mass-market sealed Columbia dry cell in the Cleveland area",
+      "ref_zh": "National Carbon 在克利夫兰地区推出面向大众市场的 Columbia 密封干电池"
+    },
+    "popularization": null
+  },
+  "locations": [
+    {
+      "lat": 49.992,
+      "lng": 8.247,
+      "place_label_zh": "德国美因茨（Gassner 的专利所载居住地）",
+      "place_label_en": "Mainz, Germany (Gassner’s residence recorded in the patent)",
+      "kind": "invention",
+      "confidence": "city"
+    },
+    {
+      "lat": 41.482,
+      "lng": -81.798,
+      "place_label_zh": "美国俄亥俄州莱克伍德（Columbia 干电池研发工厂）",
+      "place_label_en": "Lakewood, Ohio, USA (Columbia dry-cell development plant)",
+      "kind": "production",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "decade",
+  "disputed": false,
+  "sources": [
+    {
+      "title": "The Columbia Dry Cell Battery — American Chemical Society",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/drycellbattery.html",
+      "type": "other",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "US 373,064 — Gassner battery patent",
+      "url": "https://patents.google.com/patent/US373064A/en",
+      "type": "patent",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "Silver Oxide Batteries / Alkaline Button Batteries — Maxell",
+      "url": "https://biz.maxell.com/en/primary_batteries/sr_coin.html",
+      "type": "brand",
+      "accessed": "2026-11-15"
+    }
+  ],
+  "summary_zh": "1880 年代 Gassner 研制干电池，1896 年 Columbia 密封干电池走向大众市场。固定电解质与密封结构使电源更易携带、较少需要维护，为手电筒等日常电器提供了实用电源。",
+  "summary_en": "Gassner developed dry cells in the 1880s; Columbia cells reached the mass market in 1896. Immobilized electrolyte made electrical power portable and low-maintenance.",
+  "summary_ja": "1880年代に Gassner が乾電池を開発し、1896年には密閉型の Columbia 乾電池が大衆市場に登場した。電解質の固定と密閉構造により電源を持ち運びやすくなり、懐中電灯などの日用品を支えた。",
+  "notes": "“干”指电解质被固定而非完全无水。本条以锌碳干电池及其消费品化为主线；纽扣电池是外形分类，可采用碱性、氧化银等不同体系，作为小型化延伸介绍，不另建同形态条目，也不将它与干电池简单并列。",
+  "notes_en": "Dry means that the electrolyte is immobilized, not necessarily water-free. This entry follows zinc-carbon dry cells and their emergence as consumer goods. Button cells describe a shape used by different chemistries, including alkaline and silver oxide; they are discussed as miniaturization rather than a separate parallel category.",
+  "tags": [
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-15",
+  "image": {
+    "src": "/images/dry-cell-battery.jpg",
+    "alt_zh": "一节圆柱形干电池",
+    "alt_en": "A cylindrical dry-cell battery",
+    "credit": "Asim18",
+    "license": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:02_-_Single_Energizer_Battery.jpg"
+  }
+}

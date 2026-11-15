@@ -1,0 +1,67 @@
+{
+  "years": {
+    "invention": {
+      "year": 1679,
+      "precision": "year",
+      "ref": "Papin designs an experimental steam digester in England, a precursor of modern pressure cookers",
+      "ref_zh": "帕潘在英国设计实验性高压蒸煮器，为现代压力锅的先驱"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "confidence": "year",
+  "disputed": false,
+  "updated": "2026-11-15",
+  "id": "pressure-cooker",
+  "name_zh": "压力锅（高压锅）",
+  "name_en": "Pressure cooker",
+  "name_ja": "圧力鍋",
+  "category": "kitchen",
+  "locations": [
+    {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "place_label_zh": "英国伦敦（帕潘蒸煮器研究）",
+      "place_label_en": "London, England (Papin’s digester research)",
+      "kind": "invention",
+      "confidence": "city"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Papin’s Digester — Smithsonian",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_2491",
+      "type": "museum",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "A plaque for Papin — Royal Society",
+      "url": "https://royalsociety.org/blog/2020/03/a-plaque-for-papin/",
+      "type": "other",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "Paper, regarding the digester used for cooking rice by Denis Papin — Royal Society",
+      "url": "https://makingscience.royalsociety.org/items/clp_18i_20/paper-regarding-the-digester-used-for-cooking-rice-by-denis-papin",
+      "type": "other",
+      "accessed": "2026-11-15"
+    }
+  ],
+  "notes": "压力锅与高压锅是同一类器具。1679年节点指帕潘的实验性蒸煮器，并非现代家用锅的量产或普及年份；传统炉火式与电压力锅归入同一条目，不把医用灭菌器混作家用炊具。",
+  "notes_en": "Pressure cooker and the Chinese term gaoyaguo refer to the same category. The 1679 milestone concerns Papin’s experimental digester, not mass production or household adoption of modern cookers. Stovetop and electric pressure cookers are covered together; medical autoclaves are outside this entry.",
+  "summary_zh": "1679年，丹尼斯·帕潘在英国设计高压蒸煮器，成为压力锅的先驱。密闭增压提高水的沸点，让食物在更高温度下烹煮；1686年他已用蒸煮器试煮米饭，后来这种原理走进家庭厨房。",
+  "summary_en": "Papin’s 1679 steam digester pioneered pressure cooking. Sealing in steam raises water’s boiling point; his 1686 rice trials foreshadowed a technique that later entered household kitchens.",
+  "summary_ja": "1679年、ドニ・パパンは英国で圧力鍋の先駆となる蒸煮器を設計した。密閉して加圧することで水の沸点を上げ、高温で調理する。1686年には米の調理を試み、この原理は後に家庭の台所へ広がった。",
+  "tags": [
+    "cooking"
+  ],
+  "image": {
+    "src": "/images/pressure-cooker.jpg",
+    "alt_zh": "一只炉灶用高压锅",
+    "alt_en": "A stovetop pressure cooker",
+    "credit": "Cantons-de-l'Est",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pressure_cooker_-_Hawkins,_Contura_Model_-_3_litres_-_2.jpg"
+  }
+}

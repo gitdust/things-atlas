@@ -302,6 +302,14 @@
       960
     ]
   },
+  "dry-cell-battery.jpg": {
+    "width": 1600,
+    "height": 1071,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "electric-fan.jpg": {
     "width": 1052,
     "height": 1052,
@@ -462,6 +470,14 @@
       960
     ]
   },
+  "induction-cooktop.jpg": {
+    "width": 1158,
+    "height": 778,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "instant-coffee.jpg": {
     "width": 3648,
     "height": 2736,
@@ -516,6 +532,14 @@
     "widths": [
       480,
       498
+    ]
+  },
+  "led-lamp.jpg": {
+    "width": 1600,
+    "height": 910,
+    "widths": [
+      480,
+      960
     ]
   },
   "light-bulb.jpg": {
@@ -717,6 +741,14 @@
       960
     ]
   },
+  "pressure-cooker.jpg": {
+    "width": 1600,
+    "height": 1067,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "printing.jpg": {
     "width": 3272,
     "height": 4940,
@@ -815,6 +847,14 @@
   "sd-card.jpg": {
     "width": 1200,
     "height": 792,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "sewing-machine.jpg": {
+    "width": 1600,
+    "height": 1103,
     "widths": [
       480,
       960

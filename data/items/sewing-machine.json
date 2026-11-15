@@ -1,0 +1,63 @@
+{
+  "years": {
+    "invention": null,
+    "patent": {
+      "year": 1846,
+      "precision": "year",
+      "ref": "Howe receives US patent 4,750 for an improved lockstitch sewing machine",
+      "ref_zh": "豪获得改进锁式线迹缝纫机的美国第4750号专利"
+    },
+    "mass_production": null,
+    "popularization": null
+  },
+  "confidence": "year",
+  "disputed": false,
+  "updated": "2026-11-15",
+  "id": "sewing-machine",
+  "name_zh": "缝纫机",
+  "name_en": "Sewing machine",
+  "name_ja": "ミシン",
+  "category": "home",
+  "primary": "patent",
+  "locations": [
+    {
+      "lat": 42.3736,
+      "lng": -71.1097,
+      "place_label_zh": "美国马萨诸塞州剑桥（豪的锁式线迹缝纫机）",
+      "place_label_en": "Cambridge, Massachusetts, USA (Howe’s lockstitch machine)",
+      "kind": "patent",
+      "confidence": "city"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Elias Howe Issued a Patent for the Sewing Machine — Library of Congress",
+      "url": "https://guides.loc.gov/this-month-in-business-history/september/elias-howe-patented-sewing-machine",
+      "type": "other",
+      "accessed": "2026-11-15"
+    },
+    {
+      "title": "1846 — Elias Howe Jr.’s Sewing Machine Patent Model — Smithsonian",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_630930",
+      "type": "museum",
+      "accessed": "2026-11-15"
+    }
+  ],
+  "notes": "缝纫机由多位先驱接力发展，豪并非唯一发明者。本条以1846年锁式线迹专利为代表节点，不将专利年视为整个品类的起点；脚踏、电动及电脑控制机型归入同一发展史。",
+  "notes_en": "Many pioneers contributed to the sewing machine. Howe was not its sole inventor; his 1846 lockstitch patent is the representative milestone here, not the beginning of the entire category. Treadle, electric and computer-controlled models belong to the same history.",
+  "summary_zh": "1846年，伊莱亚斯·豪为改进的锁式线迹缝纫机获得专利，针与梭携带的两根线交锁成缝。机械缝制随后改变了成衣生产，也走进家庭，脚踏与电动机型延续了这场变革。",
+  "summary_en": "Elias Howe’s 1846 lockstitch patent helped mechanize sewing. Interlocking needle and shuttle threads transformed garment production and brought sewing machines into homes.",
+  "summary_ja": "1846年、エリアス・ハウは針糸とシャトルの糸を絡める本縫いミシンの改良で特許を取得した。機械による縫製は衣服生産を変え、足踏み式や電動式として家庭にも広がった。",
+  "tags": [
+    "clothing",
+    "household"
+  ],
+  "image": {
+    "src": "/images/sewing-machine.jpg",
+    "alt_zh": "一台老式 Vesta 缝纫机",
+    "alt_en": "A vintage Vesta sewing machine",
+    "credit": "Nikodem Nijaki",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vesta_sewing_machine_IMGP0718.jpg"
+  }
+}
