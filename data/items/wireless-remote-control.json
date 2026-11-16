@@ -1,0 +1,88 @@
+{
+  "id": "wireless-remote-control",
+  "name_zh": "无线遥控器",
+  "name_en": "Wireless remote control",
+  "name_es": "Mando a distancia inalámbrico",
+  "name_ja": "ワイヤレスリモコン",
+  "category": "digital",
+  "years": {
+    "invention": {
+      "year": 1955,
+      "precision": "year",
+      "ref": "Zenith introduces Eugene Polley’s Flash-Matic, a light-operated wireless television remote.",
+      "ref_zh": "Zenith 推出尤金·波利设计的 Flash-Matic，以光束控制电视，开启家用无线电视遥控。",
+      "ref_es": "Zenith presenta el Flash-Matic de Eugene Polley, un mando inalámbrico de televisión que utiliza luz.",
+      "ref_ja": "ZenithがEugene Polley設計のFlash-Maticを発売。光でテレビを操作する家庭用ワイヤレスリモコンが登場した。"
+    },
+    "patent": null,
+    "mass_production": {
+      "year": 1956,
+      "precision": "year",
+      "ref": "Zenith begins producing Space Command, using ultrasonic signals from mechanically struck metal rods.",
+      "ref_zh": "Zenith 开始生产 Space Command，用机械敲击金属棒产生超声信号控制电视。",
+      "ref_es": "Zenith inicia la producción de Space Command, que transmite ultrasonidos al golpear mecánicamente varillas metálicas.",
+      "ref_ja": "ZenithがSpace Commandの生産を開始。金属棒を機械的に叩いて生じる超音波でテレビを操作した。"
+    },
+    "popularization": {
+      "year": 1980,
+      "precision": "decade",
+      "ref": "In the early 1980s, television makers shift from ultrasonic to infrared remote control.",
+      "ref_zh": "20 世纪 80 年代初，电视行业由超声波遥控转向红外遥控。",
+      "ref_es": "A principios de los años ochenta, los fabricantes de televisores pasan de los mandos ultrasónicos a los infrarrojos.",
+      "ref_ja": "1980年代初頭、テレビ業界は超音波式から赤外線式のリモコンへ移行した。"
+    }
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 39.8,
+      "lng": -98.6,
+      "place_label_zh": "美国（Flash-Matic 家用电视遥控；具体研发地点未核实）",
+      "place_label_en": "United States (Flash-Matic TV remote; exact development site unverified)",
+      "place_label_es": "Estados Unidos (mando de TV Flash-Matic; lugar exacto de desarrollo no verificado)",
+      "place_label_ja": "米国（テレビ用Flash-Matic。詳しい開発地は未確認）",
+      "kind": "invention",
+      "confidence": "country"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Zenith Flash-Matic remote control — Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8676884/zenith-flash-matic-remote-control",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Six Decades of Channel Surfing — Zenith",
+      "url": "https://zenith.com/heritage/remote-background/",
+      "type": "brand",
+      "accessed": "2026-11-16"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条目记录家用无线遥控器，以电视遥控的商业化为主要线索，不把 1955 年视为一切无线遥控技术的起点。早期光控、后来的超声波与红外型号合并为同一品类；地图只作美国国家级定位，未以企业总部代替未核实的研发地点。",
+  "notes_en": "This entry follows household wireless remotes through television commercialization; 1955 is not the origin of all wireless control. Light, ultrasonic, and infrared designs belong to one category. The map uses a country-level US location rather than assuming a company headquarters was the development site.",
+  "notes_es": "La entrada sigue los mandos inalámbricos domésticos a través de su comercialización para televisores; 1955 no marca el origen de todo control inalámbrico. Los modelos ópticos, ultrasónicos e infrarrojos forman una sola categoría. El mapa señala Estados Unidos a escala nacional, sin confundir una sede empresarial con el lugar de desarrollo.",
+  "notes_ja": "家庭用ワイヤレスリモコンを、テレビ用製品の商業化を軸に扱う。1955年を無線遠隔操作全体の起源とはしない。光・超音波・赤外線の各方式は同じカテゴリーにまとめる。詳しい開発地は未確認のため、企業本社を発明地とみなさず、地図は米国を国単位で示す。",
+  "summary_zh": "1955 年 Zenith 的 Flash-Matic 让人用光束隔空操控电视；1956 年超声波型号投入生产，80 年代初行业转向红外。家用无线遥控将操作从机身移到了手中。",
+  "summary_en": "Zenith’s 1955 Flash-Matic brought light-operated wireless TV control. Ultrasonic models followed in 1956; infrared spread in the early 1980s, moving household controls into the viewer’s hand.",
+  "summary_es": "El Flash-Matic de Zenith permitió controlar el televisor con luz en 1955. Le siguieron los mandos ultrasónicos en 1956 y los infrarrojos a principios de los ochenta: el control doméstico pasó del aparato a la mano.",
+  "summary_ja": "1955年のZenith Flash-Maticは光でテレビを遠隔操作した。1956年には超音波式が生産され、1980年代初頭には赤外線式へ移行。家電の操作を本体から手元へ移した。",
+  "tags": [
+    "media",
+    "electric",
+    "household"
+  ],
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/wireless-remote-control.jpg",
+    "alt_zh": "带数字键和方向键的黑色电视遥控器",
+    "alt_en": "A black television remote control with number and navigation buttons",
+    "alt_es": "Mando a distancia negro de televisión con botones numéricos y de navegación",
+    "alt_ja": "数字キーと方向キーを備えた黒いテレビ用リモコン",
+    "credit": "Dmitry Makeev",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Television_remote_control_-_black_colour.jpg"
+  }
+}

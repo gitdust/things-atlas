@@ -1,0 +1,85 @@
+{
+  "id": "kotatsu",
+  "name_zh": "被炉",
+  "name_en": "Kotatsu",
+  "name_es": "Kotatsu",
+  "name_ja": "こたつ",
+  "category": "home",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": null,
+    "popularization": {
+      "year": 1700,
+      "precision": "decade",
+      "ref": "By the Genroku era (1688–1704), kotatsu were fairly widespread and ready-made frames were sold in Osaka.",
+      "ref_zh": "元禄年间（1688—1704），被炉已较广泛使用，大坂等地出售现成的被炉木架。",
+      "ref_es": "En la era Genroku (1688–1704), el kotatsu estaba bastante extendido y en Osaka se vendían armazones prefabricados.",
+      "ref_ja": "元禄期（1688～1704年）にはかなり普及し、大坂などで既製品のこたつ櫓が売られていた。"
+    }
+  },
+  "primary": "popularization",
+  "locations": [
+    {
+      "lat": 34.69,
+      "lng": 135.5,
+      "place_label_zh": "日本大坂（元禄年间销售被炉木架）",
+      "place_label_en": "Osaka, Japan (Genroku-era sales of kotatsu frames)",
+      "place_label_es": "Osaka, Japón (venta de armazones en la era Genroku)",
+      "place_label_ja": "日本・大坂（元禄期のこたつ櫓の販売）",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "炬燵 — 精選版 日本国語大辞典・世界大百科事典 / コトバンク",
+      "url": "https://kotobank.jp/word/%E7%82%AC%E7%87%B5-502145",
+      "type": "other",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "〔雑字類書〕 — National Diet Library / Japan Search",
+      "url": "https://jpsearch.go.jp/en/item/dignl-1286982",
+      "type": "other",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "電気やぐらこたつデザインの変遷 — 日本デザイン学会研究発表大会概要集",
+      "url": "https://www.jstage.jst.go.jp/article/jssd/45/0/45_222/_article/-char/ja",
+      "type": "other",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Mini Encyclopedia: Kotatsu — The Japan Forum",
+      "url": "https://www.tjf.or.jp/deai/contents/teacher/mini_en/html/kotatsu_j.html",
+      "type": "other",
+      "accessed": "2026-11-16"
+    }
+  ],
+  "disputed": true,
+  "notes": "被炉由日本围炉、木架与覆被逐渐发展，没有可证实的单一发明年。室町中期文献已有其名，但不能把《文明本节用集》中出现的1474年直接当作写本完成年或发明年。本条目以元禄时期约1700年的普及为主年份；1957年是所引研究中的电气化开发节点，不是已确认的量产起点。",
+  "notes_en": "Kotatsu developed gradually from hearths, frames and quilts; no exact invention date is established. A mid-Muromachi text records the name, but its mention of 1474 does not establish the manuscript’s completion or an invention date. The primary year represents spread in the Genroku era, around 1700. A cited study dates electric development to 1957, which is not a verified start of mass production.",
+  "notes_es": "El kotatsu surgió gradualmente de hogares, armazones y mantas; no se conoce una fecha exacta de invención. Su nombre figura en un texto de mediados del período Muromachi, pero la mención de 1474 no fecha la conclusión del manuscrito ni la invención. El año principal representa su difusión en la era Genroku, hacia 1700. Un estudio sitúa el desarrollo eléctrico en 1957, sin demostrar el inicio de su producción en masa.",
+  "notes_ja": "こたつは囲炉裏・櫓・覆い布団から徐々に発達し、正確な発明年は確定していない。室町中期の文献に名が見えるが、『文明本節用集』に1474年の記載があることを、写本の完成年や発明年の証拠とはしない。代表年は元禄期の普及を示す約1700年とする。引用研究の1957年は電気化の開発段階で、量産開始年とは確認されていない。",
+  "summary_zh": "被炉以桌下热源和覆被形成局部保温空间，是日本冬季围坐生活的中心。15世纪文献已见其名，元禄时期逐渐普及，20世纪中期转向电气加热；精确起源不详。",
+  "summary_en": "A quilted table with a heater, kotatsu anchor Japanese winter life. Recorded in the 15th century, they spread in the Genroku era and adopted electric heat in the 1950s; their exact origin is unknown.",
+  "summary_es": "El kotatsu combina una fuente de calor, una mesa y una manta para abrigarse en los hogares japoneses. Documentado desde el siglo XV, se difundió en la era Genroku y adoptó calor eléctrico a mediados del siglo XX; su origen exacto es incierto.",
+  "summary_ja": "こたつは卓下の熱源と布団で局所的な暖かい空間をつくり、日本の冬の団らんを支える。15世紀の文献に名が見え、元禄期に普及し、20世紀半ばに電気化した。正確な起源は不明。",
+  "tags": [
+    "household",
+    "electric"
+  ],
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/kotatsu.jpg",
+    "alt_zh": "日本室内一张覆盖蓝色被褥的被炉桌",
+    "alt_en": "A kotatsu table covered with a blue quilt in a Japanese room",
+    "alt_es": "Mesa kotatsu cubierta con un edredón azul en una habitación japonesa",
+    "alt_ja": "日本の室内に置かれた青い布団付きのこたつ",
+    "credit": "Tim Notari (tastefulTN)",
+    "license": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kotatsu-tastefulTN.jpg"
+  }
+}

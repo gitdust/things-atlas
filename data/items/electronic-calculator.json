@@ -1,0 +1,122 @@
+{
+  "id": "electronic-calculator",
+  "name_zh": "电子计算器",
+  "name_en": "Electronic calculator",
+  "name_es": "Calculadora electrónica",
+  "name_ja": "電卓",
+  "category": "digital",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": 1961,
+      "precision": "year",
+      "ref": "Bell Punch announces ANITA, the first commercial all-electronic desktop calculator.",
+      "ref_zh": "英国 Bell Punch 发布 ANITA，成为首款商业化的全电子桌面计算器。",
+      "ref_es": "Bell Punch anuncia ANITA, la primera calculadora de sobremesa totalmente electrónica comercializada.",
+      "ref_ja": "英国Bell PunchがANITAを発表。全電子式の卓上計算機が初めて商業化された。"
+    },
+    "popularization": {
+      "year": 1970,
+      "precision": "year",
+      "ref": "Canon introduces the Pocketronic in Japan, bringing TI’s handheld prototype technology to a commercial product.",
+      "ref_zh": "佳能在日本推出 Pocketronic，将德州仪器手持原型的技术带入商品计算器。",
+      "ref_es": "Canon presenta la Pocketronic en Japón y convierte la tecnología del prototipo portátil de TI en un producto comercial.",
+      "ref_ja": "Canonが日本でPocketronicを発売。TIの携帯型試作機の技術が市販製品になった。"
+    }
+  },
+  "primary": "mass_production",
+  "locations": [
+    {
+      "lat": 54,
+      "lng": -2,
+      "place_label_zh": "英国（ANITA 商业化；具体研发地点未核实）",
+      "place_label_en": "United Kingdom (ANITA commercialization; exact development site unverified)",
+      "place_label_es": "Reino Unido (comercialización de ANITA; lugar exacto de desarrollo no verificado)",
+      "place_label_ja": "英国（ANITAの商業化。詳しい開発地は未確認）",
+      "kind": "production",
+      "confidence": "country",
+      "year_override": 1961
+    },
+    {
+      "lat": 32.78,
+      "lng": -96.8,
+      "place_label_zh": "美国得克萨斯州达拉斯（1967 年 Cal-Tech 手持原型）",
+      "place_label_en": "Dallas, Texas, USA (1967 Cal-Tech handheld prototype)",
+      "place_label_es": "Dallas, Texas, Estados Unidos (prototipo portátil Cal-Tech de 1967)",
+      "place_label_ja": "米国テキサス州ダラス（1967年の携帯型試作機Cal-Tech）",
+      "kind": "invention",
+      "confidence": "city",
+      "year_override": 1967
+    },
+    {
+      "lat": 36,
+      "lng": 138,
+      "place_label_zh": "日本（1970 年 Pocketronic 上市市场，非发明地点）",
+      "place_label_en": "Japan (1970 Pocketronic launch market, not an invention site)",
+      "place_label_es": "Japón (mercado de lanzamiento de la Pocketronic en 1970, no lugar de invención)",
+      "place_label_ja": "日本（1970年のPocketronic発売市場。発明地ではない）",
+      "kind": "popularization",
+      "confidence": "country",
+      "year_override": 1970
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "Electronic Calculators — Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/calculators/1/60",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Handheld Electronic Calculator Prototype — Texas Instruments Cal Tech — Smithsonian Institution",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1329686",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Canon Pocketronic printing calculator — Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/calculators/1/60/257",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Anita — University of Stuttgart Computer Museum",
+      "url": "https://computermuseum.informatik.uni-stuttgart.de/dev_en/anita/anita.html",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Desk and pocket calculators – Electronic mass products — Heinz Nixdorf MuseumsForum",
+      "url": "https://www.hnf.de/en/permanent-exhibition/exhibition-areas/computers-in-business-and-professions-1970-to-1980/desk-and-pocket-calculators-electronic-mass-products.html",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    }
+  ],
+  "disputed": false,
+  "notes": "本条目涵盖独立的全电子桌面与手持计算器，不含机械或继电器运算的计算机器，也不将手机计算器应用另立品类。主年份采用 1961 年 ANITA 的商业化，而非宣称该年才首次实现电子计算；1967 年 Cal-Tech 是手持原型节点，1970 年 Pocketronic 是日本上市节点。未核实的具体发明年与相关专利留空。",
+  "notes_en": "The scope is standalone all-electronic desktop and handheld calculators, excluding mechanical or relay-based machines and phone apps. The primary year is ANITA’s 1961 commercialization, not the beginning of electronic computation. Cal-Tech in 1967 is a handheld prototype milestone; 1970 marks the Pocketronic’s Japanese launch. An unsupported invention date or patent is left blank.",
+  "notes_es": "Se incluyen calculadoras independientes de sobremesa y portátiles totalmente electrónicas, no máquinas mecánicas, de relés ni aplicaciones de móvil. El año principal es la comercialización de ANITA en 1961, no el inicio del cálculo electrónico. Cal-Tech fue un prototipo portátil en 1967; 1970 corresponde al lanzamiento japonés de la Pocketronic. Se dejan vacías las fechas de invención y patente no verificadas.",
+  "notes_ja": "独立した全電子式の卓上・携帯型計算機を扱い、機械式・リレー式の計算機やスマートフォンのアプリは含めない。代表年はANITAが商業化された1961年であり、電子計算そのものの始まりではない。1967年のCal-Techは携帯型試作機、1970年のPocketronicは日本発売の節目とする。裏づけのない発明年や特許は空欄にした。",
+  "summary_zh": "1961 年英国 ANITA 开启全电子桌面计算器的商业化；1967 年达拉斯的 Cal-Tech 制成手持原型，1970 年佳能 Pocketronic 在日本上市，让电子运算走向随身使用。",
+  "summary_en": "Britain’s ANITA brought all-electronic desktop calculators to market in 1961. TI made the Cal-Tech handheld prototype in Dallas in 1967; Canon launched the related Pocketronic in Japan in 1970.",
+  "summary_es": "Con ANITA comenzó la comercialización de calculadoras de sobremesa totalmente electrónicas en el Reino Unido en 1961. TI creó el prototipo portátil Cal-Tech en Dallas en 1967; Canon lanzó la Pocketronic en Japón en 1970.",
+  "summary_ja": "1961年、英国のANITAが全電子式卓上計算機の商業化の先駆けとなった。1967年にはダラスで携帯型試作機Cal-Techが製作され、その技術を用いたCanon Pocketronicが1970年に日本で発売された。",
+  "tags": [
+    "computing",
+    "office",
+    "electric"
+  ],
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/electronic-calculator.jpg",
+    "alt_zh": "带太阳能电池板和液晶显示屏的 Citizen SLD-100NR 电子计算器",
+    "alt_en": "A Citizen SLD-100NR electronic calculator with a solar panel and LCD screen",
+    "alt_es": "Calculadora electrónica Citizen SLD-100NR con panel solar y pantalla LCD",
+    "alt_ja": "太陽電池と液晶画面を備えたCitizen SLD-100NR電子計算機",
+    "credit": "LoMit",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Citizen_SLD-100NR_calculator.jpg"
+  }
+}

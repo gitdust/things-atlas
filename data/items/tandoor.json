@@ -1,0 +1,91 @@
+{
+  "id": "tandoor",
+  "name_zh": "馕坑",
+  "name_en": "Tandoor",
+  "name_es": "Horno tandoor",
+  "name_ja": "タンドール",
+  "category": "kitchen",
+  "years": {
+    "invention": {
+      "year": -3000,
+      "precision": "century",
+      "ref": "Mud-lined ovens in Kalibangan layers dated c. 3000–2700 BCE are interpreted by some researchers as tandoors; function and continuity remain debated. The marker uses the period’s start.",
+      "ref_zh": "卡利班甘约公元前3000—2700年的早期哈拉帕层发现泥壁炉具，被部分研究解释为馕坑式炉；用途与传承仍有争论，前3000仅为该时段起点。",
+      "ref_es": "Hornos de barro de Kalibangan, fechados hacia 3000–2700 a. C., se interpretan a veces como tandores; su función y continuidad siguen debatidas. El marcador usa el inicio del período.",
+      "ref_ja": "前3000～前2700年頃のカリバンガン早期ハラッパー層で泥壁の炉が出土し、一部の研究はタンドールと解釈する。用途と連続性には議論があり、前3000年はこの時期の始点を示す。"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 29.47,
+      "lng": 74.13,
+      "place_label_zh": "印度拉贾斯坦卡利班甘（有争议的早期炉具考古证据，非确定发源地）",
+      "place_label_en": "Kalibangan, Rajasthan, India (debated early oven evidence; not a confirmed birthplace)",
+      "place_label_es": "Kalibangan, Rajastán, India (indicios debatidos de hornos antiguos; origen no confirmado)",
+      "place_label_ja": "インド・ラージャスターン州カリバンガン（解釈に議論のある古代炉の遺構。発祥地は未確定）",
+      "kind": "contested",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Excavations at Kalibangan: The Early Harappans — Archaeological Survey of India",
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/40",
+      "type": "other",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Excavations at Kalibangan: The Harappans — Introduction and Summary — Archaeological Survey of India",
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "type": "other",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Is Every Circular Fire-Pit in Harappan Levels—a Tandoor? — Puratattva",
+      "url": "https://ignca.gov.in/Asi_data/87125.pdf",
+      "type": "other",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Reconstructing the Pyrotechnological Development of the Harappans — EXARC Journal",
+      "url": "https://exarc.net/issue-2024-1/at/reconstructing-pyrotechnological-development-harappans",
+      "type": "other",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Silk Road Seattle: Traditional Culture — Food — University of Washington",
+      "url": "https://depts.washington.edu/silkroad/culture/food/food.html",
+      "type": "other",
+      "accessed": "2026-11-16"
+    }
+  ],
+  "disputed": true,
+  "notes": "本条目涵盖中亚、南亚等地以蓄热炉壁贴烤面饼的馕坑／坦都炉传统，不把它限定为印度的一项发明。卡利班甘早期哈拉帕层约前3000—2700年的泥壁炉被部分考古报告称为馕坑式炉，但圆形火坑的具体用途与现代馕坑的连续传承仍有争议。时间轴取考古时段起点前3000年作近似标记，不是精确发明年，也不能证明全球最早。",
+  "notes_en": "This entry covers the heat-retaining wall ovens used for flatbread across Central and South Asia and nearby regions, not an invention assigned exclusively to India. Some reports identify Kalibangan ovens from c. 3000–2700 BCE as tandoors, but the functions of circular fire-pits and their continuity with modern ovens are disputed. The timeline uses the period’s beginning as an approximate anchor, not an exact invention date or a claim of global priority.",
+  "notes_es": "La entrada abarca los hornos de paredes que acumulan calor para cocer panes en Asia Central, Asia Meridional y regiones próximas, sin atribuir la invención exclusivamente a la India. Algunos informes identifican como tandores los hornos de Kalibangan de hacia 3000–2700 a. C., pero se discuten la función de los fosos circulares y su continuidad con los hornos actuales. La cronología usa el inicio del período como referencia aproximada, no como fecha de invención ni prueba de prioridad mundial.",
+  "notes_ja": "本項目は中央・南アジアと周辺地域で、蓄熱した炉壁に平焼きパンを貼って焼く炉の伝統を扱い、インドだけの発明とはしない。カリバンガンの前3000～前2700年頃の炉をタンドールとする報告がある一方、円形火坑の用途や現代の炉への連続性には議論がある。時間軸は考古学上の時期の始点を近似値として用い、正確な発明年や世界最古を示さない。",
+  "summary_zh": "馕坑以高温炉壁蓄热，面饼贴壁烘烤，是中亚、南亚及周边地区的日常烤炉。卡利班甘约前3000—2700年的炉具被部分学者视为早期证据，但其用途和现代传承仍有争议。",
+  "summary_en": "Tandoors bake flatbread against heat-retaining walls across Central and South Asia. Kalibangan ovens dated c. 3000–2700 BCE are debated early evidence, not a proven single origin.",
+  "summary_es": "El tandoor cuece panes pegados a paredes que acumulan calor en Asia Central, Asia Meridional y regiones próximas. Los hornos de Kalibangan de hacia 3000–2700 a. C. son indicios antiguos discutidos, no prueba de un origen único.",
+  "summary_ja": "タンドールは高温の炉壁にパンを貼って焼く、中央・南アジアと周辺地域の生活に根付く炉である。前3000～前2700年頃のカリバンガンの炉は初期の証拠とされることがあるが、用途と現代への連続性には議論がある。",
+  "tags": [
+    "cooking",
+    "household"
+  ],
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/tandoor.jpg",
+    "alt_zh": "乌兹别克斯坦塔什干市场中正在使用的馕坑及操作人员",
+    "alt_en": "A tandoor in use with its operator at a market in Tashkent, Uzbekistan",
+    "alt_es": "Horno tandoor en uso con su operador en un mercado de Taskent, Uzbekistán",
+    "alt_ja": "ウズベキスタンのタシュケントの市場で使われているタンドールと作業者",
+    "credit": "Игорь Улитин",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D0%BD%D0%B4%D1%8B%D1%80_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B0%D1%80%D0%B5.jpg"
+  }
+}

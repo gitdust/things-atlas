@@ -222,6 +222,14 @@
       682
     ]
   },
+  "clinical-thermometer.jpg": {
+    "width": 1200,
+    "height": 728,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "clothespin.jpg": {
     "width": 1280,
     "height": 960,
@@ -366,6 +374,14 @@
       960
     ]
   },
+  "electronic-calculator.jpg": {
+    "width": 981,
+    "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "eraser.jpg": {
     "width": 1200,
     "height": 600,
@@ -470,6 +486,14 @@
       960
     ]
   },
+  "hammock.jpg": {
+    "width": 640,
+    "height": 427,
+    "widths": [
+      480,
+      640
+    ]
+  },
   "hdmi-cable.jpg": {
     "width": 1200,
     "height": 900,
@@ -564,6 +588,14 @@
     "widths": [
       480,
       960
+    ]
+  },
+  "kotatsu.jpg": {
+    "width": 932,
+    "height": 1200,
+    "widths": [
+      480,
+      932
     ]
   },
   "laptop.jpg": {
@@ -1043,6 +1075,14 @@
       960
     ]
   },
+  "tandoor.jpg": {
+    "width": 1200,
+    "height": 800,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "tava.jpg": {
     "width": 1920,
     "height": 2560,
@@ -1224,6 +1264,14 @@
     "widths": [
       480,
       960
+    ]
+  },
+  "wireless-remote-control.jpg": {
+    "width": 698,
+    "height": 1200,
+    "widths": [
+      480,
+      698
     ]
   },
   "wok.jpg": {

@@ -1,0 +1,102 @@
+{
+  "id": "clinical-thermometer",
+  "name_zh": "体温计",
+  "name_en": "Clinical thermometer",
+  "name_es": "Termómetro clínico",
+  "name_ja": "体温計",
+  "category": "personal_care",
+  "years": {
+    "invention": null,
+    "patent": null,
+    "mass_production": {
+      "year": 1867,
+      "precision": "year",
+      "ref": "Harvey & Reynolds in Leeds begins manufacturing Allbutt’s small clinical thermometer for commercial use.",
+      "ref_zh": "利兹的 Harvey & Reynolds 开始制造阿尔巴特设计的小型医用体温计，推动便携体温计商品化。",
+      "ref_es": "Harvey & Reynolds, de Leeds, comienza a fabricar para su venta el pequeño termómetro clínico de Allbutt.",
+      "ref_ja": "リーズのHarvey & Reynoldsが、Allbutt設計の小型医療用体温計の商業製造を始める。"
+    },
+    "popularization": {
+      "year": 1868,
+      "precision": "year",
+      "ref": "Wunderlich publishes his study of temperature in disease in Leipzig, helping establish systematic clinical thermometry.",
+      "ref_zh": "文德利希在莱比锡出版疾病体温研究，推动有规律地测量、记录体温成为临床诊察方法。",
+      "ref_es": "Wunderlich publica en Leipzig su estudio de la temperatura en las enfermedades, que impulsa la termometría clínica sistemática.",
+      "ref_ja": "Wunderlichがライプツィヒで疾病時の体温に関する研究を出版し、体系的な臨床体温測定の普及を後押しする。"
+    }
+  },
+  "primary": "mass_production",
+  "locations": [
+    {
+      "lat": 53.8008,
+      "lng": -1.5491,
+      "place_label_zh": "英国利兹（Harvey & Reynolds 制造便携体温计）",
+      "place_label_en": "Leeds, United Kingdom (Harvey & Reynolds manufactures portable clinical thermometers)",
+      "place_label_es": "Leeds, Reino Unido (fabricación de termómetros clínicos portátiles por Harvey & Reynolds)",
+      "place_label_ja": "英国リーズ（Harvey & Reynoldsによる携帯型体温計の製造）",
+      "kind": "production",
+      "confidence": "city"
+    },
+    {
+      "lat": 51.3397,
+      "lng": 12.3731,
+      "place_label_zh": "德国莱比锡（文德利希1868年疾病体温研究）",
+      "place_label_en": "Leipzig, Germany (Wunderlich’s 1868 study of temperature in disease)",
+      "place_label_es": "Leipzig, Alemania (estudio de Wunderlich de 1868 sobre la temperatura en las enfermedades)",
+      "place_label_ja": "ドイツ・ライプツィヒ（1868年のWunderlichによる疾病時の体温研究）",
+      "kind": "popularization",
+      "confidence": "city"
+    }
+  ],
+  "confidence": "year",
+  "sources": [
+    {
+      "title": "History of the Thermometer — Ewa Grodzinsky and Märta Sund Levander",
+      "url": "https://doi.org/10.1007/978-3-030-21886-7_3",
+      "type": "book",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Thomas Harvey: The Remarkable Life of a Humble Leeds Chemist — Thackray Museum of Medicine",
+      "url": "https://thackraymuseum.co.uk/journal/thomas-harvey-the-remarkable-life-of-a-humble-leeds-chemist/",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Clinical Fahrenheit thermometer — Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co93948/clinical-fahrenheit-thermometer-thermometer",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Thermometer — Museo Galileo",
+      "url": "https://catalogue.museogalileo.it/indepth/Thermometer.html",
+      "type": "museum",
+      "accessed": "2026-11-16"
+    }
+  ],
+  "disputed": false,
+  "notes": "体温计源自数代人的测温实验与临床应用，不能归于单一发明者。本条目以1867年利兹制造小型便携体温计为商业制造节点，并非一般温度计或人体测温的首次发明。1868年是文德利希研究的出版年，不代表当年已在全球家庭普及；没有可靠依据的发明年和专利节点留空。",
+  "notes_en": "Clinical thermometry grew from many generations of experiments and medical practice, rather than a single inventor. The primary year, 1867, marks commercial manufacture of Allbutt’s portable instrument in Leeds, not the invention of thermometers or body-temperature measurement. The 1868 milestone is the publication of Wunderlich’s study, not worldwide household adoption. Unsupported invention and patent dates remain blank.",
+  "notes_es": "La termometría clínica surgió de varias generaciones de experimentos y práctica médica, no de un único inventor. El año principal, 1867, corresponde a la fabricación comercial del instrumento portátil de Allbutt en Leeds, no a la invención del termómetro ni de la medición de la temperatura corporal. El hito de 1868 es la publicación del estudio de Wunderlich, no su adopción en todos los hogares. Se dejan sin fecha la invención y las patentes no verificadas.",
+  "notes_ja": "体温測定は多くの世代の実験と臨床実践から発達したもので、一人の発明者には帰せない。代表年の1867年はリーズでAllbuttの携帯型器具が商業製造された節目であり、温度計や体温測定そのものの発明年ではない。1868年はWunderlichの研究の出版年で、世界の家庭に一斉に普及した年ではない。根拠のない発明年と特許年は空欄とする。",
+  "summary_zh": "临床测温经历长期发展。1867年，英国利兹开始制造阿尔巴特的小型体温计；次年文德利希出版系统研究，推动体温读数成为诊察依据。便携化与规范测量共同塑造了现代体温计。",
+  "summary_en": "In 1867, a Leeds firm began making Allbutt’s portable clinical thermometer. Wunderlich’s 1868 study helped establish systematic temperature measurement, building on centuries of earlier work.",
+  "summary_es": "En 1867, una empresa de Leeds comenzó a fabricar el termómetro clínico portátil de Allbutt. El estudio de Wunderlich de 1868 impulsó la medición sistemática de la temperatura, tras siglos de experimentos previos.",
+  "summary_ja": "体温測定は長い発展を経た。1867年、英国リーズでAllbuttの小型体温計が製造され、翌年にはWunderlichが体系的な研究を出版した。携帯しやすい器具と規則的な測定が、近代の臨床体温測定を形づくった。",
+  "tags": [
+    "health",
+    "household"
+  ],
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/clinical-thermometer.jpg",
+    "alt_zh": "白色背景上的玻璃水银体温计",
+    "alt_en": "A mercury-in-glass clinical thermometer on a white background",
+    "alt_es": "Termómetro clínico de mercurio en vidrio sobre un fondo blanco",
+    "alt_ja": "白い背景に置かれたガラス製の水銀体温計",
+    "credit": "Jacek Halicki",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2023_Rt%C4%99ciowy_termometr_lekarski.jpg"
+  }
+}

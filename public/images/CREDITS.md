@@ -133,6 +133,13 @@ Local copies under `public/images/` are used so mainland China can load them wit
 | `lighter.jpg` | [Hand holding burning lighter.jpg](https://commons.wikimedia.org/wiki/File:Hand_holding_burning_lighter.jpg) | CC BY-SA 4.0 | Santeri Viinamäki |
 | `contact-lens.jpg` | [Contact Lens.jpg](https://commons.wikimedia.org/wiki/File:Contact_Lens.jpg) | CC BY-SA 4.0 | Peter Clarke |
 
+| `wireless-remote-control.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Television_remote_control_-_black_colour.jpg) | CC BY-SA 4.0 | Dmitry Makeev |
+| `electronic-calculator.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Citizen_SLD-100NR_calculator.jpg) | CC BY-SA 4.0 | LoMit |
+| `clinical-thermometer.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2023_Rt%C4%99ciowy_termometr_lekarski.jpg) | CC BY-SA 4.0 | Jacek Halicki |
+| `kotatsu.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kotatsu-tastefulTN.jpg) | CC BY-SA 2.0 | Tim Notari (tastefulTN) |
+| `hammock.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hammock_040522.jpg) | CC BY 2.0 | Dennis Mojado |
+| `tandoor.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D0%BD%D0%B4%D1%8B%D1%80_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B0%D1%80%D0%B5.jpg) | CC BY-SA 4.0 | Игорь Улитин |
+
 Cropped/resized for the drawer; attribution retained in each item's `image` field.
 
 ## Derived files

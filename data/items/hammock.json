@@ -1,0 +1,74 @@
+{
+  "id": "hammock",
+  "name_zh": "吊床",
+  "name_en": "Hammock",
+  "name_es": "Hamaca",
+  "name_ja": "ハンモック",
+  "category": "home",
+  "years": {
+    "invention": {
+      "year": 1492,
+      "precision": "year",
+      "ref": "On 17 October 1492, Columbus recorded Indigenous cotton hammocks on Long Island in the Caribbean; this encounter was not their invention.",
+      "ref_zh": "1492年10月17日，哥伦布一行在加勒比的长岛记录当地原住民使用棉织吊床；这是外来者的见闻，并非吊床发明。",
+      "ref_es": "El 17 de octubre de 1492, Colón registró hamacas indígenas de algodón en Long Island, en el Caribe; fue un encuentro, no su invención.",
+      "ref_ja": "1492年10月17日、コロンブス一行がカリブ海のロング島で先住民の綿製ハンモックを記録した。外来者の見聞であり、発明ではない。"
+    },
+    "patent": null,
+    "mass_production": null,
+    "popularization": null
+  },
+  "primary": "invention",
+  "locations": [
+    {
+      "lat": 23.25,
+      "lng": -75.1,
+      "place_label_zh": "加勒比地区长岛（今巴哈马群岛；1492年见闻记录，不代表发源地）",
+      "place_label_en": "Long Island, Caribbean (present-day Bahamas; 1492 encounter, not an origin claim)",
+      "place_label_es": "Long Island, Caribe (actuales Bahamas; encuentro de 1492, no lugar de origen demostrado)",
+      "place_label_ja": "カリブ海ロング島（現在のバハマ諸島。1492年の見聞地点で、発祥地を示すものではない）",
+      "kind": "contested",
+      "confidence": "region"
+    }
+  ],
+  "confidence": "disputed",
+  "sources": [
+    {
+      "title": "Material Culture and Cultural Practices: Hammocks — University of Oxford SIBA",
+      "url": "https://siba.web.ox.ac.uk/material-culture-and-cultural-practices",
+      "type": "other",
+      "accessed": "2026-11-16"
+    },
+    {
+      "title": "Towards a history of the hammock: An Indigenous technology in the Atlantic world — postmedieval",
+      "url": "https://link.springer.com/article/10.1057/s41280-025-00379-w",
+      "type": "other",
+      "accessed": "2026-11-16"
+    }
+  ],
+  "disputed": true,
+  "notes": "吊床是加勒比与南美低地原住民长期使用的悬挂寝具，起源早于欧洲人的记录，不能把哥伦布1492年的见闻当作发明。本条目以可核实的见闻日期作为时间轴锚点；地图标记长岛所在区域，而非把发源权归给今天的巴哈马或某一位欧洲人。",
+  "notes_en": "Hammocks were longstanding Indigenous sleeping technologies in the Caribbean and lowland South America before European accounts. The 1492 encounter is a verifiable documentary anchor, not an invention date. The map marks the Long Island area and does not assign the origin to the modern Bahamas or a European inventor.",
+  "notes_es": "Las hamacas eran tecnologías indígenas de descanso del Caribe y las tierras bajas sudamericanas antes de las crónicas europeas. El encuentro de 1492 es una referencia documental verificable, no una fecha de invención. El mapa señala la zona de Long Island sin atribuir el origen a las Bahamas actuales ni a un inventor europeo.",
+  "notes_ja": "ハンモックはヨーロッパ人の記録以前から、カリブ海と南米低地の先住民が使っていた吊り下げ式の寝具である。1492年の見聞は確認可能な文献上の目安で、発明年ではない。地図はロング島の地域を示し、現在のバハマやヨーロッパ人に発祥を帰属させない。",
+  "summary_zh": "吊床以悬挂织物承托身体，是加勒比和南美低地原住民的日常寝具。1492年的欧洲见闻留下明确记录，此后跨洋传播；这不是它的发明年份，精确起源尚不清楚。",
+  "summary_en": "Indigenous peoples of the Caribbean and lowland South America used suspended fabric beds long before Europeans recorded them in 1492. Hammocks later spread worldwide; their exact origin is unknown.",
+  "summary_es": "Los pueblos indígenas del Caribe y las tierras bajas sudamericanas usaban lechos de tejido suspendido mucho antes del registro europeo de 1492. Las hamacas se difundieron después por el mundo; su origen exacto se desconoce.",
+  "summary_ja": "ハンモックは布や網を吊って体を支える、カリブ海と南米低地の先住民の寝具である。1492年のヨーロッパ人の見聞に記録され、のちに世界へ広まったが、その年に発明されたわけではなく、正確な起源は不明。",
+  "tags": [
+    "household",
+    "leisure",
+    "travel"
+  ],
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/hammock.jpg",
+    "alt_zh": "悬挂在草地上方、带木撑杆的绳网吊床",
+    "alt_en": "A rope-net hammock with wooden spreader bars suspended over grass",
+    "alt_es": "Hamaca de red con barras separadoras de madera suspendida sobre el césped",
+    "alt_ja": "芝生の上に吊るされた木製の横木付きロープ網のハンモック",
+    "credit": "Dennis Mojado",
+    "license": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hammock_040522.jpg"
+  }
+}
