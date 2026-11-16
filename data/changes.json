@@ -318,5 +318,45 @@
     "en": "Refine multilingual entry names, summaries, and notes in their historical context, and improve English, Spanish, and Japanese interface, category, and tag wording.",
     "es": "Revisar nombres, resúmenes y notas multilingües según el contexto histórico y mejorar los textos de interfaz y las etiquetas de categorías en inglés, español y japonés.",
     "ja": "歴史的文脈に照らして多言語の項目名、概要、注記を校訂し、英語・スペイン語・日本語の画面文言と分類タグを改善した。"
+  },
+  {
+    "id": "release-complete-four-language-content",
+    "afterVersion": "1.0.2",
+    "zh": "补齐全部条目的中、英、西、日四语内容，覆盖名称、简介、时间线、地点、备注、测验依据和图片说明；搜索、分享海报与更新记录同步使用所选语言。",
+    "en": "Complete Chinese, English, Spanish, and Japanese entry names, summaries, timelines, places, notes, quiz evidence, and image descriptions. Search, share posters, and release notes use the selected language.",
+    "es": "Completar en chino, inglés, español y japonés los nombres, resúmenes, cronologías, lugares, notas, pruebas del cuestionario y descripciones de imágenes. La búsqueda, los pósteres y las novedades utilizan el idioma elegido.",
+    "ja": "全項目の名前、概要、年表、場所、注記、クイズの根拠、画像説明を中国語・英語・スペイン語・日本語で揃えた。検索、共有ポスター、更新履歴も選択した言語に対応。"
+  },
+  {
+    "id": "release-entry-photo-completion",
+    "afterVersion": "1.0.2",
+    "zh": "为双肩背包、菜刀、罐头、牙线、手表、卫生巾等13个缺图条目补充照片，并更换隐形眼镜和电磁炉的配图，让物品主体更清楚。",
+    "en": "Add photos to 13 entries, including backpack, kitchen knife, tin can, dental floss, watch, and sanitary pad. Replace the contact-lens and induction-cooktop photos with clearer views of the objects.",
+    "es": "Añadir fotos a 13 entradas, entre ellas mochila, cuchillo de cocina, conserva, hilo dental, reloj y compresa. Sustituir las fotos de lentes de contacto y placa de inducción por imágenes que muestran mejor los objetos.",
+    "ja": "リュックサック、包丁、缶詰、デンタルフロス、腕時計、生理用ナプキンなど、写真のなかった13項目に画像を追加。コンタクトレンズとIH調理器も、物が分かりやすい写真に変更。"
+  },
+  {
+    "id": "release-image-loading-transitions",
+    "afterVersion": "1.0.2",
+    "zh": "条目图片加载时显示占位反馈，解码后淡入，失败时显示提示；快速切换条目时避免残留旧图。详情标题只显示当前语言，去掉重复的另一语言副标题。",
+    "en": "Show loading feedback and fade in decoded photos, with a message on failure. Prevent stale images during rapid entry changes. Show only the selected-language title, removing the alternate-language subtitle.",
+    "es": "Mostrar un indicador durante la carga, una transición suave al aparecer la foto y un aviso si falla. Evitar imágenes anteriores al cambiar rápidamente de entrada. Mostrar solo el título del idioma elegido, sin subtítulo en otro idioma.",
+    "ja": "画像の読み込み中に待機表示を出し、デコード後にフェードイン。失敗時は案内を表示し、素早い項目切り替えでも前の画像が残らないようにした。詳細の別言語の副題を削除し、選択言語のタイトルのみ表示。"
+  },
+  {
+    "id": "release-six-global-regional-objects",
+    "afterVersion": "1.0.2",
+    "zh": "新增无线遥控器、电子计算器、体温计、被炉、吊床和馕坑，补齐四语历史资料、地点与授权配图，并说明传统物件的起源及年代不确定性。",
+    "en": "Add wireless remote control, electronic calculator, clinical thermometer, kotatsu, hammock, and tandoor, with four-language histories, places, and licensed photos. Explain uncertainties around traditional objects’ origins and dates.",
+    "es": "Añadir mando inalámbrico, calculadora electrónica, termómetro clínico, kotatsu, hamaca y horno tandoor, con historia en cuatro idiomas, lugares y fotos autorizadas. Explicar las incertidumbres sobre el origen y las fechas de los objetos tradicionales.",
+    "ja": "ワイヤレスリモコン、電卓、体温計、こたつ、ハンモック、タンドールを追加。四言語の歴史資料、場所、利用許諾のある写真を揃え、伝統的な物の起源や年代の不確かさも明記。"
+  },
+  {
+    "id": "release-catalogue-scope-refinement",
+    "afterVersion": "1.0.2",
+    "zh": "按日常用品收录范围移除马镫，并取消与平底锅重复的炒锅独立条目；本次调整与新增后，目录共收录163项。",
+    "en": "Remove the stirrup from the everyday-object scope and drop the separate wok entry because it overlaps with the frying pan. After these changes and additions, the atlas contains 163 entries.",
+    "es": "Retirar el estribo por quedar fuera del ámbito de los objetos cotidianos y eliminar la entrada independiente del wok por su solapamiento con la sartén. Tras los ajustes y las incorporaciones, el atlas reúne 163 entradas.",
+    "ja": "日常用品の収録範囲に合わせて鐙を削除し、フライパンと重複する中華鍋の独立項目を取り下げた。今回の整理と追加により、全163項目となった。"
   }
 ]

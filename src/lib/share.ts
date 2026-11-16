@@ -22,7 +22,6 @@ export function shareYear(lang: Lang, mark: NonNullable<YearMark>) {
   const approximate = mark.precision === 'decade' || mark.precision === 'century';
   if (lang === 'zh') return `${approximate ? '约 ' : ''}${year} 年`;
   if (lang === 'ja') return `${approximate ? '約' : ''}${year}${mark.year < 0 ? '' : '年'}`;
-  if (lang === 'es') return `${approximate ? 'c. ' : ''}${year}`;
   return `${approximate ? 'c. ' : ''}${year}`;
 }
 

@@ -172,7 +172,6 @@
 }
 @media (max-width: 760px) {
   .quiz-dialog {
-    --modal-backdrop-opacity: 0.28;
     padding: var(--s-4);
   }
   .quiz-heading h2 {
@@ -213,7 +212,6 @@
 .quiz-image {
   width: 100%;
   height: 112px;
-  object-fit: contain;
   border-radius: var(--r-sm);
 }
 .quiz-image .item-image-message {
