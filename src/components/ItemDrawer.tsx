@@ -105,7 +105,6 @@ export function ItemDrawer({
     },
   );
   const title = pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja });
-  const alt = pick(lang === 'zh' ? 'en' : 'zh', item.name_zh, item.name_en);
 
   return (
     <aside className="drawer" aria-label={title} style={{ ['--item-color' as string]: color }}>
@@ -166,7 +165,6 @@ export function ItemDrawer({
         <h1 ref={titleRef} tabIndex={-1} className={`drawer-title lang-${lang}`}>
           {title}
         </h1>
-        <p className="drawer-alt">{alt}</p>
         {active && sharingItem === item.id && (
           <Suspense fallback={null}>
             <ShareDialog

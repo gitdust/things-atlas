@@ -830,14 +830,6 @@ button {
   letter-spacing: 0.06em;
   font-weight: var(--fw-bold);
 }
-.drawer-alt {
-  margin: 6px 0 0;
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: var(--fs-xl);
-  color: var(--ink-3);
-}
-
 .drawer-primary {
   display: flex;
   justify-content: space-between;
