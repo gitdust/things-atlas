@@ -9,7 +9,9 @@
       "year": 1088,
       "precision": "year",
       "ref": "Shen Kuo’s Dream Pool Essays describes how to magnetize a needle with lodestone and suspend it to find south",
-      "ref_zh": "沈括《梦溪笔谈》记述以磁石磨针尖、悬丝定南"
+      "ref_zh": "沈括《梦溪笔谈》记述以磁石磨针尖、悬丝定南",
+      "ref_es": "Los Ensayos del estanque de los sueños de Shen Kuo describen cómo imantar una aguja con magnetita y suspenderla para hallar el sur.",
+      "ref_ja": "沈括の『夢渓筆談』が磁石で針を磁化し、つるして南を求める方法を記す。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1119,
       "precision": "year",
       "ref": "Zhu Yu’s Pingzhou Ketan — sailors at Guangzhou use the south-pointing needle in cloudy weather",
-      "ref_zh": "朱彧《萍洲可谈》记广州海船阴天用指南针导航"
+      "ref_zh": "朱彧《萍洲可谈》记广州海船阴天用指南针导航",
+      "ref_es": "Las Conversaciones de Pingzhou de Zhu Yu señalan que los marineros de Guangzhou usan la aguja que apunta al sur con cielo nublado.",
+      "ref_ja": "朱彧の『萍洲可談』が、広州の船乗りが曇天に指南針を使うと記す。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国浙江杭州（沈括与《梦溪笔谈》）",
       "place_label_en": "Hangzhou, Zhejiang, China (Shen Kuo / Dream Pool Essays)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Hangzhou, Zhejiang, China (Shen Kuo y los Ensayos del estanque de los sueños)",
+      "place_label_ja": "中国浙江省杭州（沈括と『夢渓筆談』）"
     },
     {
       "lat": 23.129,
@@ -36,7 +42,9 @@
       "place_label_en": "Guangzhou, Guangdong, China (maritime compass use recorded)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1119
+      "year_override": 1119,
+      "place_label_es": "Guangzhou, Guangdong, China (registro de uso marítimo)",
+      "place_label_ja": "中国広東省広州（航海での指南針使用の記録）"
     }
   ],
   "confidence": "year",
@@ -75,13 +83,19 @@
   "tags": [
     "travel"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/compass.jpg",
     "alt_zh": "实验室用磁针指南针",
     "alt_en": "A magnetic needle compass for laboratory use",
     "credit": "Kvr.lohith",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Magnetic_compass_-_school_laboratory.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Magnetic_compass_-_school_laboratory.jpg",
+    "alt_es": "Brújula de aguja magnética de laboratorio",
+    "alt_ja": "実験室用の磁針式方位磁針"
+  },
+  "name_es": "Brújula",
+  "summary_es": "En la China Song, Shen Kuo describió la aguja imantada hacia 1088. Zhu Yu relató en 1119 que los navegantes de Guangzhou la utilizaban cuando el cielo estaba nublado.",
+  "notes_es": "El sinan anterior, una cuchara de magnetita, se vinculaba sobre todo a adivinación y geomancia antes de época Han, no a navegación. El hito principal es la descripción experimental explícita de Shen Kuo de 1088; el registro marítimo de Guangzhou de Zhu Yu de 1119 señala su difusión náutica.",
+  "notes_ja": "より古い天然磁石の匙「司南」は漢以前の占いや風水に主に用いられ、航海機器ではなかった。本項は沈括の1088年の明確な実験記述を主要年とし、朱彧の1119年の『萍洲可談』にある広州の海運記録を航海普及の節目とする。"
 }

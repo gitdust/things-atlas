@@ -9,7 +9,9 @@
       "year": 1891,
       "precision": "year",
       "ref": "National MagLab dates an early Carpenter Electric Company kettle in Chicago to 1891",
-      "ref_zh": "美国国家强磁场实验室的历史资料记载，芝加哥 Carpenter 公司在此年推出早期电热水壶"
+      "ref_zh": "美国国家强磁场实验室的历史资料记载，芝加哥 Carpenter 公司在此年推出早期电热水壶",
+      "ref_es": "National MagLab fecha un hervidor temprano de Carpenter Electric Company, de Chicago, en 1891.",
+      "ref_ja": "National MagLabはシカゴのCarpenter Electric Companyの初期電気ケトルを1891年とする。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "美国芝加哥（Carpenter 早期电热水壶）",
       "place_label_en": "Chicago, USA (early Carpenter electric kettle)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Chicago, Estados Unidos (hervidor temprano de Carpenter)",
+      "place_label_ja": "米国シカゴ（Carpenterの初期電気ケトル）"
     }
   ],
   "confidence": "year",
@@ -50,13 +54,19 @@
     "cooking",
     "electric"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/electric-kettle.jpg",
     "alt_zh": "一只黑色电热水壶",
     "alt_en": "A black electric kettle",
     "credit": "Jacek Halicki",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:2023_Czajnik_elektryczny_Bosch_%281%29.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:2023_Czajnik_elektryczny_Bosch_%281%29.jpg",
+    "alt_es": "Hervidor eléctrico negro",
+    "alt_ja": "黒い電気ケトル"
+  },
+  "name_es": "Hervidor eléctrico",
+  "summary_es": "Carpenter comercializó un hervidor eléctrico temprano en 1891, cuyo calentador separado del agua tenía poca eficiencia. Las resistencias de inmersión y la desconexión automática posteriores facilitaron hervir agua en casa.",
+  "notes_es": "Las atribuciones difieren: National MagLab cita a Carpenter en 1891 y el Museum of Technology británico a Crompton ese mismo año. Se presenta Carpenter como un ejemplo temprano documentado, no necesariamente el primero, ni un modelo con desconexión automática.",
+  "notes_ja": "初期電気ケトルの起源の記述は異なり、National MagLabは1891年のCarpenterを、英国Museum of Technologyは同年のCromptonを挙げる。本項はCarpenterを出典のある初期例とし、唯一の先駆者とは認定せず、自動電源オフ付きとも同一視しない。"
 }

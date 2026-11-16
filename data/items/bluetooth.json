@@ -9,20 +9,26 @@
       "year": 1994,
       "precision": "year",
       "ref": "Jaap Haartsen and Sven Mattisson at Ericsson in Lund begin developing short-range radio frequency-hopping links",
-      "ref_zh": "哈尔特森与马蒂森在瑞典隆德爱立信实验室启动短距离跳频无线通信研发"
+      "ref_zh": "哈尔特森与马蒂森在瑞典隆德爱立信实验室启动短距离跳频无线通信研发",
+      "ref_es": "Jaap Haartsen y Sven Mattisson, de Ericsson en Lund, comienzan a desarrollar enlaces de radio de corto alcance con salto de frecuencia.",
+      "ref_ja": "ルンドのEricssonでJaap HaartsenとSven Mattissonが周波数ホッピングによる近距離無線の開発を始める。"
     },
     "patent": {
       "year": 1997,
       "precision": "year",
       "ref": "Ericsson files foundational patent application for frequency-hopping piconet radio communication (US6590928B1)",
-      "ref_zh": "爱立信提交基础跳频微网无线电通信专利申请（US6590928B1）"
+      "ref_zh": "爱立信提交基础跳频微网无线电通信专利申请（US6590928B1）",
+      "ref_es": "Ericsson presenta una solicitud de patente fundamental para comunicaciones de radio en piconet con salto de frecuencia (US6590928B1).",
+      "ref_ja": "Ericssonが周波数ホッピングを用いるピコネット無線通信の基礎特許を出願する（US6590928B1）。"
     },
     "mass_production": null,
     "popularization": {
       "year": 1998,
       "precision": "year",
       "ref": "Bluetooth Special Interest Group (SIG) formed by Ericsson, Intel, IBM, Nokia, and Toshiba",
-      "ref_zh": "爱立信、英特尔、IBM、诺基亚和东芝联合成立蓝牙特别兴趣小组（SIG）"
+      "ref_zh": "爱立信、英特尔、IBM、诺基亚和东芝联合成立蓝牙特别兴趣小组（SIG）",
+      "ref_es": "Ericsson, Intel, IBM, Nokia y Toshiba fundan el Bluetooth Special Interest Group (SIG).",
+      "ref_ja": "Ericsson、Intel、IBM、Nokia、ToshibaがBluetooth SIGを設立する。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "瑞典隆德（爱立信移动通信研发中心）",
       "place_label_en": "Lund, Sweden (Ericsson Mobile Communications R&D)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Lund, Suecia (centro de I+D de Ericsson Mobile Communications)",
+      "place_label_ja": "スウェーデン、ルンド（Ericsson移動通信研究開発拠点）"
     }
   ],
   "confidence": "year",
@@ -64,13 +72,17 @@
     "computing",
     "media"
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/bluetooth.jpg",
     "alt_zh": "带有蓝牙标志的 USB 蓝牙无线适配器",
     "alt_en": "A USB Bluetooth wireless adapter bearing the Bluetooth rune logo",
     "credit": "EEIM",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:USB_Bluetooth_adapter.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:USB_Bluetooth_adapter.jpg",
+    "alt_es": "Adaptador inalámbrico USB con el símbolo de Bluetooth",
+    "alt_ja": "Bluetoothロゴ付きのUSB無線アダプター"
+  },
+  "name_es": "Bluetooth",
+  "summary_es": "En 1994, ingenieros de Ericsson en Lund, Suecia, desarrollaron Bluetooth, una conexión por radio de corto alcance con salto de frecuencia. La alianza industrial de 1998 impulsó su adopción como conexión inalámbrica para dispositivos móviles."
 }

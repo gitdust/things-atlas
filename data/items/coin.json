@@ -9,20 +9,26 @@
       "year": -640,
       "precision": "century",
       "ref": "Kingdom of Lydia issues official electrum coins stamped with a lion head in western Anatolia (~640–600 BCE)",
-      "ref_zh": "小亚细亚吕底亚王国铸造带有狮首官印的琥珀金硬币（约公元前640—前600年）"
+      "ref_zh": "小亚细亚吕底亚王国铸造带有狮首官印的琥珀金硬币（约公元前640—前600年）",
+      "ref_es": "Lidia emite monedas oficiales de electro con cabeza de león en Anatolia occidental, hacia 640–600 a. C.",
+      "ref_ja": "前640～前600年頃、西アナトリアのリュディア王国が獅子頭の公印を打ったエレクトラム貨を発行する。"
     },
     "patent": null,
     "mass_production": {
       "year": -600,
       "precision": "century",
       "ref": "Ancient China independently casts standardized hollow-handle bronze spade money (kongshoubu) in the Central Plains",
-      "ref_zh": "中国中原地区独立铸造空首布等青铜铲币，确立青铜金属铸币传统"
+      "ref_zh": "中国中原地区独立铸造空首布等青铜铲币，确立青铜金属铸币传统",
+      "ref_es": "China funde de manera independiente monedas estandarizadas de bronce con forma de pala y mango hueco en las Llanuras Centrales.",
+      "ref_ja": "中国の中原で独立して、柄が空洞の規格化された青銅製空首布が鋳造される。"
     },
     "popularization": {
       "year": -221,
       "precision": "year",
       "ref": "Qin Shi Huang unifies China and introduces round Ban Liang coins with square holes, establishing a standard that influences East Asia for two millennia",
-      "ref_zh": "秦始皇统一中国并颁行秦半两，确立圆形方孔钱规制，深刻影响东亚两千年"
+      "ref_zh": "秦始皇统一中国并颁行秦半两，确立圆形方孔钱规制，深刻影响东亚两千年",
+      "ref_es": "Qin Shi Huang unifica China e introduce monedas Ban Liang redondas con agujero cuadrado, modelo de larga influencia en Asia oriental.",
+      "ref_ja": "秦の始皇帝が中国を統一し、東アジアに約2000年間影響する円形方孔の半両銭を導入する。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "土耳其萨尔特（古吕底亚首都萨第斯，西方最早琥珀金币）",
       "place_label_en": "Sart, Turkey (ancient Sardis, capital of Lydia; earliest Western electrum coins)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Sart, Turquía (Sardes, capital lidia; primeras monedas occidentales de electro)",
+      "place_label_ja": "トルコ、サルト（古リュディアの首都サルディス、西方初期のエレクトラム貨）"
     },
     {
       "lat": 34.6197,
@@ -41,7 +49,9 @@
       "place_label_en": "Luoyang, Henan, China (Central Plains, site of early hollow-head spade coins)",
       "kind": "production",
       "confidence": "city",
-      "year_override": -600
+      "year_override": -600,
+      "place_label_es": "Luoyang, Henan, China (monedas tempranas de bronce con mango hueco)",
+      "place_label_ja": "中国河南省洛陽（周代中原の初期空首布青銅貨）"
     }
   ],
   "confidence": "disputed",
@@ -74,13 +84,19 @@
   "tags": [
     "trade"
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/coin.jpg",
     "alt_zh": "英格兰银行博物馆藏公元前约650年吕底亚王国琥珀金铸币",
     "alt_en": "An electrum gold coin from Lydia, circa 650 BCE, in the Bank of England Museum",
     "credit": "Joyofmuseums",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Electrum_Gold_Coin_from_Lydia%2C_650_BC_-_Bank_of_England_Museum_-_Joy_of_Museums.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Electrum_Gold_Coin_from_Lydia%2C_650_BC_-_Bank_of_England_Museum_-_Joy_of_Museums.jpg",
+    "alt_es": "Moneda lidia de electro de hacia 650 a. C. del Museo del Banco de Inglaterra",
+    "alt_ja": "イングランド銀行博物館所蔵、前650年頃のリュディアのエレクトラム貨"
+  },
+  "name_es": "Moneda",
+  "summary_es": "Entre los siglos VII y VI a. C., Lidia acuñó monedas oficiales de electro y China fundió de forma independiente monedas de bronce en forma de pala. Las monedas aportaron medidas de intercambio y garantías estatales estandarizadas.",
+  "notes_es": "La moneda metálica con garantía estatal y peso normalizado tuvo varios focos de desarrollo. En los siglos VII–VI a. C., Lidia inició la acuñación oficial de electro, base de la tradición occidental de oro y plata. China desarrolló independientemente monedas fundidas de bronce, como las palas de mango hueco, a partir de formas de dinero anteriores. Sus técnicas y trayectorias fueron independientes; la cronología exacta y la prioridad siguen siendo temas de estudio.",
+  "notes_ja": "国家信用と規格重量を保証する金属貨幣は複数の中心で発展した。前7～前6世紀のリュディアの公印付きエレクトラム貨は西方の打製金銀貨の伝統につながり、中国中原は貝貨から空首布などの鋳造青銅貨を独立に発展させ、東方の方孔銭へつながった。技術と系譜は独立しており、厳密な先後や優先権については学術上の議論がある。"
 }

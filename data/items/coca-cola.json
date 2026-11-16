@@ -11,13 +11,17 @@
       "year": 1899,
       "precision": "year",
       "ref": "A franchised bottling plant opened in Chattanooga under the 1899 contract, supporting larger-scale distribution; earlier bottling already existed",
-      "ref_zh": "1899年授权装瓶体系在查塔努加设厂，推动规模化分销；这不是最早的装瓶尝试"
+      "ref_zh": "1899年授权装瓶体系在查塔努加设厂，推动规模化分销；这不是最早的装瓶尝试",
+      "ref_es": "Una planta de embotellado en franquicia abre en Chattanooga bajo el contrato de 1899 y amplía la distribución; ya había embotellado anterior.",
+      "ref_ja": "1899年の契約によりチャタヌーガにフランチャイズ瓶詰め工場が開き、流通を拡大する。瓶詰め自体はそれ以前にも存在した。"
     },
     "popularization": {
       "year": 1886,
       "precision": "year",
       "ref": "Coca-Cola first went on sale at Jacobs’ Pharmacy in Atlanta; this marks the branded drink’s commercial debut, not the invention of cola as a category",
-      "ref_zh": "可口可乐在亚特兰大雅各布斯药房首次销售；此处记录品牌饮料上市，而非可乐类饮料的发明"
+      "ref_zh": "可口可乐在亚特兰大雅各布斯药房首次销售；此处记录品牌饮料上市，而非可乐类饮料的发明",
+      "ref_es": "Coca-Cola se vende por primera vez en la farmacia Jacobs de Atlanta; es el debut comercial de la marca, no el origen de todas las colas.",
+      "ref_ja": "アトランタのJacobs薬局でCoca-Colaが初めて販売される。ブランド飲料の発売であり、コーラ類全体の発明ではない。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "美国佐治亚州亚特兰大（雅各布斯药房首次销售）",
       "place_label_en": "Atlanta, Georgia, USA (first sales at Jacobs’ Pharmacy)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Atlanta, Georgia, Estados Unidos (primeras ventas en la farmacia Jacobs)",
+      "place_label_ja": "米国ジョージア州アトランタ（Jacobs薬局で初販売）"
     },
     {
       "lat": 35.0456,
@@ -36,7 +42,9 @@
       "place_label_en": "Chattanooga, Tennessee, USA (franchised bottling, 1899)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1899
+      "year_override": 1899,
+      "place_label_es": "Chattanooga, Tennessee, Estados Unidos (embotellado autorizado de 1899)",
+      "place_label_ja": "米国テネシー州チャタヌーガ（1899年の認可瓶詰め事業）"
     }
   ],
   "confidence": "year",
@@ -68,7 +76,7 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "primary": "popularization",
   "notes_en": "This entry covers only the Coca-Cola branded drink. The dates mark first sales in 1886 and the beginning of franchised bottling in 1899. Trademark and bottle-design patents are not treated as patents on the beverage. The photograph shows a modern glass bottle, not the 1886 packaging.",
   "image": {
@@ -77,6 +85,12 @@
     "alt_en": "A modern glass bottle containing Coca-Cola",
     "credit": "Oleg Yunakov",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Coca-cola_bottle.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Coca-cola_bottle.jpg",
+    "alt_es": "Botella de vidrio moderna con Coca-Cola",
+    "alt_ja": "Coca-Colaの入った現代のガラス瓶"
+  },
+  "name_es": "Coca-Cola",
+  "summary_es": "Coca-Cola salió a la venta en Atlanta en 1886 como bebida de fuente de soda. El embotellado autorizado en Chattanooga desde 1899 amplió su distribución. Esta entrada trata de la marca, no del origen de las bebidas de cola.",
+  "notes_es": "La entrada solo trata de la bebida de marca Coca-Cola: 1886 corresponde a su primera venta y 1899 al inicio del sistema de embotellado autorizado. No se confunden marcas ni patentes de botellas con patentes de la bebida. La foto muestra una botella moderna, no el envase de 1886.",
+  "notes_ja": "本項はCoca-Colaブランドの飲料のみを扱う。1886年は初販売、1899年は認可瓶詰め制度の始まりで、商標や瓶形の特許を飲料の特許とはしない。写真は現代のガラス瓶で、1886年の容器ではない。"
 }

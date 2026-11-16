@@ -11,13 +11,17 @@
       "year": 1869,
       "precision": "year",
       "ref": "William F. Semple received US98304A for a rubber-based chewing-gum composition, not the origin of chewing plant resins",
-      "ref_zh": "威廉·森普尔获得橡胶基口香糖配方专利 US98304A；并非咀嚼植物树脂习俗的起源"
+      "ref_zh": "威廉·森普尔获得橡胶基口香糖配方专利 US98304A；并非咀嚼植物树脂习俗的起源",
+      "ref_es": "William F. Semple obtiene la patente US98304A para una fórmula de chicle a base de caucho; no representa el origen de mascar resinas.",
+      "ref_ja": "William F. Sempleがゴムを用いるチューインガム組成の特許US98304Aを取得する。樹脂をかむ習慣の起源ではない。"
     },
     "mass_production": {
       "year": 1848,
       "precision": "year",
       "ref": "State of Maine Pure Spruce Gum became commercially available; this marks manufactured gum rather than ancient resin chewing",
-      "ref_zh": "State of Maine Pure Spruce Gum 开始商业销售；此为商品化节点，而非古老树脂咀嚼习俗的起源"
+      "ref_zh": "State of Maine Pure Spruce Gum 开始商业销售；此为商品化节点，而非古老树脂咀嚼习俗的起源",
+      "ref_es": "Se comercializa State of Maine Pure Spruce Gum, un hito del chicle manufacturado, no de la antigua masticación de resinas.",
+      "ref_ja": "State of Maine Pure Spruce Gumが商品化される。製造ガムの節目であり、古来の樹脂をかむ習慣の始まりではない。"
     },
     "popularization": null
   },
@@ -28,7 +32,9 @@
       "place_label_zh": "美国缅因州（1848年云杉树脂口香糖商品化，州级近似定位）",
       "place_label_en": "Maine, USA (commercial spruce gum, 1848; state-level approximate location)",
       "kind": "production",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Maine, Estados Unidos (goma de abeto comercializada en 1848; ubicación estatal aproximada)",
+      "place_label_ja": "米国メーン州（1848年のトウヒ樹脂ガム商品化、州単位の近似位置）"
     },
     {
       "lat": 40.3934,
@@ -37,7 +43,9 @@
       "place_label_en": "Mount Vernon, Ohio, USA (Semple composition patent, 1869)",
       "kind": "patent",
       "confidence": "city",
-      "year_override": 1869
+      "year_override": 1869,
+      "place_label_es": "Mount Vernon, Ohio, Estados Unidos (patente de Semple, 1869)",
+      "place_label_ja": "米国オハイオ州マウントバーノン（Sempleの1869年の配合特許）"
     }
   ],
   "confidence": "year",
@@ -64,13 +72,19 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/chewing-gum.jpg",
     "alt_zh": "蓝色碗中的白色木糖醇口香糖",
     "alt_en": "White xylitol chewing gum in a blue bowl",
     "credit": "Kotivalo",
     "license": "CC0 1.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Xylitol_chewing_gum_in_a_blue_bowl.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Xylitol_chewing_gum_in_a_blue_bowl.jpg",
+    "alt_es": "Chicles blancos de xilitol en un cuenco azul",
+    "alt_ja": "青い器に入った白いキシリトールガム"
+  },
+  "name_es": "Chicle",
+  "summary_es": "El chicle combina una base masticable con saborizantes. Masticar resinas es una costumbre muy antigua; la goma de abeto de Maine ya se vendía en 1848 y Semple patentó una fórmula específica en 1869.",
+  "notes_es": "Esta entrada trata del chicle comercial. La costumbre de mascar resinas es muy anterior a 1848; la patente de Semple de 1869 cubre una fórmula específica de caucho, no la invención de todo chicle.",
+  "notes_ja": "本項は商品化されたガムを扱う。樹脂をかむ習慣は1848年よりはるかに古い。Sempleの1869年の特許は特定のゴム配合であり、ガム全般の発明者とはいえない。"
 }

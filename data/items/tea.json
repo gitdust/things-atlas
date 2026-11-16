@@ -9,7 +9,9 @@
       "year": -100,
       "precision": "century",
       "ref": "Physical tea remains from Western Han Chang’an (Xi’an), ~2100 years ago",
-      "ref_zh": "西安西汉茶遗存约2100年前"
+      "ref_zh": "西安西汉茶遗存约2100年前",
+      "ref_es": "Restos de té de la dinastía Han occidental hallados en Xi’an datan de hace unos 2100 años.",
+      "ref_ja": "西安の前漢時代の茶の遺存は約2100年前にさかのぼる。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 780,
       "precision": "year",
       "ref": "Lu Yu’s Classic of Tea (Cha Jing) codifies Tang tea culture",
-      "ref_zh": "唐代陆羽《茶经》系统总结茶文化"
+      "ref_zh": "唐代陆羽《茶经》系统总结茶文化",
+      "ref_es": "Lu Yu sistematiza la cultura del té en el Clásico del té durante la dinastía Tang.",
+      "ref_ja": "唐代の陸羽が『茶経』で茶文化を体系化。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国陕西西安（西汉茶遗存）",
       "place_label_en": "Xi’an, Shaanxi, China (Western Han tea remains)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Xi’an, Shaanxi, China (restos de té Han occidental)",
+      "place_label_ja": "中国陝西省西安（前漢の茶の遺存）"
     },
     {
       "lat": 30.67,
@@ -35,7 +41,9 @@
       "place_label_zh": "中国四川（早期栽培中心之一）",
       "place_label_en": "Sichuan, China (early cultivation centre)",
       "kind": "contested",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Sichuan, China (uno de los primeros centros de cultivo)",
+      "place_label_ja": "中国四川省（初期の栽培中心地の一つ）"
     },
     {
       "lat": 25.04,
@@ -43,7 +51,9 @@
       "place_label_zh": "中国云南（茶树多样性中心）",
       "place_label_en": "Yunnan, China (centre of tea-plant diversity)",
       "kind": "contested",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Yunnan, China (centro de diversidad de la planta del té)",
+      "place_label_ja": "中国雲南省（茶樹の多様性の中心地）"
     }
   ],
   "confidence": "disputed",
@@ -76,13 +86,19 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/tea.jpg",
     "alt_zh": "干燥的绿茶茶叶",
     "alt_en": "Dried green tea leaves",
     "credit": "예향",
     "license": "CC BY 2.0 kr",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Dried_jakseol_green_tea_leaves.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dried_jakseol_green_tea_leaves.jpg",
+    "alt_es": "Hojas secas de té verde",
+    "alt_ja": "乾燥した緑茶の茶葉"
+  },
+  "name_es": "Té",
+  "summary_es": "La planta del té es originaria de Asia oriental. Hay restos de té Han occidental cerca de Xi’an; el Clásico del té de Lu Yu impulsó su cultura en época Tang. Siguen en debate el lugar y la fecha de su primera domesticación.",
+  "notes_es": "Las leyendas de Shennong sitúan el té en una antigüedad remota sin pruebas materiales. El supuesto cultivo en Tianluoshan, Zhejiang, sigue en debate. Los restos Han occidental de Xi’an son más sólidos, y el Clásico del té de Lu Yu marca la codificación de la costumbre en época Tang. Assam, India, también ofrece indicios de domesticación independiente; el origen y las primeras fechas son discutidos.",
+  "notes_ja": "神農の伝説などは茶を遠い古代にさかのぼらせるが、実証には乏しい。浙江の田螺山などでの茶栽培説も議論が続く。より確かな実物は西安などの前漢時代の茶の遺存であり、陸羽の『茶経』は唐代の飲茶習慣の体系化を示す。インドのアッサムにも独立した栽培化の手がかりがあり、起源地と最古の年代には異説がある。"
 }

@@ -9,7 +9,9 @@
       "year": 965,
       "precision": "year",
       "ref": "Earliest clear written mention of doufu in Tao Gu’s Qingyi Lu (c. 965)",
-      "ref_zh": "陶穀《清异录》（约965）首次明确记载「豆腐」"
+      "ref_zh": "陶穀《清异录》（约965）首次明确记载「豆腐」",
+      "ref_es": "El Qing Yi Lu de Tao Gu, hacia 965, ofrece la primera mención explícita del tofu.",
+      "ref_ja": "陶穀の『清異録』（965年頃）に「豆腐」の最初の明確な記録がある。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1100,
       "precision": "century",
       "ref": "Tofu appears widely in Song poetry and materia medica",
-      "ref_zh": "宋代诗文与本草中豆腐记载增多"
+      "ref_zh": "宋代诗文与本草中豆腐记载增多",
+      "ref_es": "Aumentan las menciones al tofu en poemas y obras de materia médica de la dinastía Song.",
+      "ref_ja": "宋代の詩文や本草書に豆腐の記録が増える。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国淮河流域（传说淮南王刘安故地）",
       "place_label_en": "Huai River region, China (legendary Liu An locale)",
       "kind": "contested",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Cuenca del río Huai, China (territorio legendario de Liu An, rey de Huainan)",
+      "place_label_ja": "中国淮河流域（伝説上の発明者・淮南王劉安ゆかりの地）"
     },
     {
       "lat": 34.8,
@@ -35,7 +41,9 @@
       "place_label_zh": "中国河南（打虎亭汉墓争议图像）",
       "place_label_en": "Henan, China (debated Dahuting mural)",
       "kind": "contested",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Henan, China (imágenes discutidas de las tumbas Han de Dahuting)",
+      "place_label_ja": "中国河南省（打虎亭漢墓の解釈に異説のある図像）"
     }
   ],
   "confidence": "disputed",
@@ -68,13 +76,19 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/tofu.jpg",
     "alt_zh": "一块豆腐",
     "alt_en": "A block of tofu",
     "credit": "DryPot",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Japanese_SilkyTofu_(Kinugoshi_Tofu).JPG",
+    "alt_es": "Un bloque de tofu",
+    "alt_ja": "一丁の豆腐"
+  },
+  "name_es": "Tofu",
+  "summary_es": "El tofu se originó en China y aparece claramente documentado en el Qing Yi Lu, hacia 965. La atribución legendaria a Liu An carece de pruebas escritas tempranas, por lo que su origen se considera discutido.",
+  "notes_es": "La tradición atribuye el tofu a Liu An, rey de Huainan de los Han occidentales, pero esa atribución aparece en época Song; no hay menciones explícitas en textos Han o Tang. La primera prueba escrita clara es el Qing Yi Lu de Tao Gu. Una escena de las tumbas Han de Dahuting se interpretó como elaboración de tofu, aunque muchos investigadores la consideran producción de alcohol. La fecha y la autoría siguen en debate.",
+  "notes_ja": "前漢の淮南王劉安が豆腐を発明したという伝承は長く続くが、その説は宋代に初めて現れ、漢・唐の文献には「豆腐」の記載がない。明確な最古の文献は五代末の陶穀『清異録』である。河南密県の打虎亭漢墓の画像は一時豆腐作りと解されたが、後に多くの研究者が酒造の場面と考えた。発明年代と発明者には異説が残る。"
 }

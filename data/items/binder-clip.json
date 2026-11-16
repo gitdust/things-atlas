@@ -9,13 +9,17 @@
       "year": 1910,
       "precision": "year",
       "ref": "Louis E. Baltzley invents the binder clip in Washington, D.C.",
-      "ref_zh": "巴尔茨利在华盛顿发明长尾夹"
+      "ref_zh": "巴尔茨利在华盛顿发明长尾夹",
+      "ref_es": "Louis E. Baltzley inventa la pinza sujetapapeles en Washington D. C.",
+      "ref_ja": "Louis E. BaltzleyがワシントンD.C.でダブルクリップを発明する。"
     },
     "patent": {
       "year": 1915,
       "precision": "year",
       "ref": "US 1,139,627 paper binding clip",
-      "ref_zh": "专利 US 1,139,627（纸张夹）"
+      "ref_zh": "专利 US 1,139,627（纸张夹）",
+      "ref_es": "Patente US 1139627 para una pinza de encuadernación de papel.",
+      "ref_ja": "紙を束ねるクリップの米国特許US 1139627。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "美国华盛顿特区",
       "place_label_en": "Washington, D.C., USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Washington D. C., Estados Unidos",
+      "place_label_ja": "米国ワシントンD.C."
     }
   ],
   "confidence": "year",
@@ -53,13 +59,17 @@
     "office",
     "fastening"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/binder-clip.jpg",
     "alt_zh": "两只黑色长尾夹",
     "alt_en": "Two black binder clips",
     "credit": "Cal.on",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Sponka.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sponka.jpg",
+    "alt_es": "Dos pinzas sujetapapeles negras",
+    "alt_ja": "黒いダブルクリップ2個"
+  },
+  "name_es": "Pinza sujetapapeles",
+  "summary_es": "Louis E. Baltzley inventó la pinza sujetapapeles en Washington en 1910 para ayudar a su padre a sujetar manuscritos. Obtuvo la patente en 1915."
 }

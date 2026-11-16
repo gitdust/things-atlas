@@ -9,20 +9,26 @@
       "year": 1999,
       "precision": "year",
       "ref": "M-Systems files \"USB-based PC flash disk\" patent (5 Apr 1999); Netac files in China (14 Nov 1999)",
-      "ref_zh": "M-Systems 申请 USB 闪存盘专利（1999-04-05）；朗科在中国申请（1999-11-14）"
+      "ref_zh": "M-Systems 申请 USB 闪存盘专利（1999-04-05）；朗科在中国申请（1999-11-14）",
+      "ref_es": "M-Systems solicita una patente de memoria USB el 5 de abril de 1999; Netac la solicita en China el 14 de noviembre.",
+      "ref_ja": "M-Systems が1999年4月5日に USB メモリーの特許を出願し、Netac が同年11月14日に中国で出願。"
     },
     "patent": {
       "year": 2000,
       "precision": "exact",
       "ref": "US 6,148,354 granted to M-Systems (14 Nov 2000)",
-      "ref_zh": "M-Systems 获美国专利 US 6,148,354（2000-11-14）"
+      "ref_zh": "M-Systems 获美国专利 US 6,148,354（2000-11-14）",
+      "ref_es": "M-Systems obtiene la patente estadounidense US 6,148,354 el 14 de noviembre de 2000.",
+      "ref_ja": "M-Systems が2000年11月14日に米国特許 US 6,148,354 を取得。"
     },
     "mass_production": null,
     "popularization": {
       "year": 2000,
       "precision": "year",
       "ref": "Trek 2000 sells the first USB flash drive (ThumbDrive), late 2000",
-      "ref_zh": "Trek 2000 于 2000 年底首先发售 ThumbDrive"
+      "ref_zh": "Trek 2000 于 2000 年底首先发售 ThumbDrive",
+      "ref_es": "Trek 2000 comienza a vender ThumbDrive a finales de 2000.",
+      "ref_ja": "Trek 2000 が2000年末に ThumbDrive の販売を開始。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "以色列（M-Systems）",
       "place_label_en": "Israel (M-Systems)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Israel (M-Systems)",
+      "place_label_ja": "イスラエル（M-Systems）"
     },
     {
       "lat": 22.543,
@@ -41,7 +49,9 @@
       "place_label_en": "Shenzhen, China (Netac)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1999
+      "year_override": 1999,
+      "place_label_es": "Shenzhen, China (Netac)",
+      "place_label_ja": "中国深圳（Netac）"
     },
     {
       "lat": 1.352,
@@ -49,7 +59,9 @@
       "place_label_zh": "新加坡（Trek 2000）",
       "place_label_en": "Singapore (Trek 2000)",
       "kind": "popularization",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Singapur (Trek 2000)",
+      "place_label_ja": "シンガポール（Trek 2000）"
     }
   ],
   "confidence": "disputed",
@@ -75,14 +87,20 @@
   "tags": [
     "computing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/usb-flash-drive.jpg",
     "alt_zh": "一只闪迪 4GB U 盘",
     "alt_en": "A SanDisk Cruzer 4 GB USB flash drive",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg",
+    "alt_es": "Una memoria USB SanDisk de 4 GB",
+    "alt_ja": "SanDisk 製4GB USB メモリー"
   },
-  "notes_en": "Invention is heavily disputed. M-Systems’ Ban, Moran and Ogdan filed in April 1999 and are often regarded as inventors; Netac filed in November 1999, obtained a Chinese patent in 2002 and had patent disputes with M-Systems and Trek 2000. IBM engineer Shmueli also submitted an invention disclosure in 1999."
+  "notes_en": "Invention is heavily disputed. M-Systems’ Ban, Moran and Ogdan filed in April 1999 and are often regarded as inventors; Netac filed in November 1999, obtained a Chinese patent in 2002 and had patent disputes with M-Systems and Trek 2000. IBM engineer Shmueli also submitted an invention disclosure in 1999.",
+  "name_es": "Memoria USB",
+  "summary_es": "M-Systems, de Israel, y Netac, de Shenzhen, solicitaron patentes de memoria USB en 1999. Trek 2000, de Singapur, comenzó a venderla a finales de 2000. Las tres empresas reivindican su invención.",
+  "notes_es": "La autoría es muy discutida. Ban, Moran y Ogdan, de M-Systems, solicitaron una patente en abril de 1999 y suelen citarse como inventores. Netac presentó su solicitud en noviembre de 1999, obtuvo una patente china en 2002 y tuvo litigios con M-Systems y Trek 2000. El ingeniero de IBM Shmueli también presentó una divulgación de invención en 1999.",
+  "notes_ja": "発明者については強い論争がある。M-Systems の Ban、Moran、Ogdan は1999年4月に出願し、発明者とされることが多い。Netac は1999年11月に出願して2002年に中国特許を取得し、M-Systems や Trek 2000 と特許紛争を起こした。IBM 技術者の Shmueli も1999年に発明開示を提出した。"
 }

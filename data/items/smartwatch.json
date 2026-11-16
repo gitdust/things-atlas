@@ -9,20 +9,26 @@
       "year": 1984,
       "precision": "year",
       "ref": "Seiko RC-1000 Wrist Terminal connects to personal computers",
-      "ref_zh": "精工 RC-1000 腕上终端可连接个人电脑"
+      "ref_zh": "精工 RC-1000 腕上终端可连接个人电脑",
+      "ref_es": "El terminal de muñeca Seiko RC-1000 puede conectarse a un ordenador personal.",
+      "ref_ja": "Seiko RC-1000 がパソコンに接続できる腕上端末として登場。"
     },
     "patent": null,
     "mass_production": {
       "year": 2004,
       "precision": "year",
       "ref": "Microsoft SPOT-based watches reach consumers",
-      "ref_zh": "搭载微软 SPOT 的手表上市"
+      "ref_zh": "搭载微软 SPOT 的手表上市",
+      "ref_es": "Salen al mercado relojes con Microsoft SPOT.",
+      "ref_ja": "Microsoft SPOT を搭載した腕時計が発売。"
     },
     "popularization": {
       "year": 2015,
       "precision": "year",
       "ref": "Apple Watch goes on sale",
-      "ref_zh": "Apple Watch 上市"
+      "ref_zh": "Apple Watch 上市",
+      "ref_es": "Se lanza el Apple Watch.",
+      "ref_ja": "Apple Watch が発売。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "日本东京（精工）",
       "place_label_en": "Tokyo, Japan (Seiko)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Tokio, Japón (Seiko)",
+      "place_label_ja": "日本東京（Seiko）"
     },
     {
       "lat": 47.674,
@@ -41,7 +49,9 @@
       "place_label_en": "Redmond, USA (Microsoft SPOT)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 2004
+      "year_override": 2004,
+      "place_label_es": "Redmond, EE. UU. (Microsoft SPOT)",
+      "place_label_ja": "米国レドモンド（Microsoft SPOT）"
     },
     {
       "lat": 37.323,
@@ -50,7 +60,9 @@
       "place_label_en": "Cupertino, USA (Apple Watch)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 2015
+      "year_override": 2015,
+      "place_label_es": "Cupertino, EE. UU. (Apple Watch)",
+      "place_label_ja": "米国クパチーノ（Apple Watch）"
     }
   ],
   "confidence": "disputed",
@@ -82,7 +94,7 @@
     "clothing",
     "computing"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "notes": "智能手表没有统一的起点：计算器手表、腕上电脑与联网手表分别采用不同的「智能」标准。精工 RC-1000 代表可连接电脑的早期腕上终端，微软 SPOT 代表接收无线资讯的路线；2015 年 Apple Watch 是普及节点，不是这一类别的首次发明。",
   "notes_en": "The starting point depends on whether calculator watches, wrist computers or networked watches count as smart. Seiko’s RC-1000 represents early computer connectivity, while Microsoft SPOT represents wireless information delivery; Apple Watch in 2015 marks popularization rather than invention.",
   "primary": "popularization",
@@ -92,6 +104,12 @@
     "alt_en": "A 2015 Apple Watch Sport",
     "credit": "thomersch",
     "license": "CC BY 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Sport.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Sport.jpg",
+    "alt_es": "Un Apple Watch Sport de 2015",
+    "alt_ja": "2015年モデルの Apple Watch Sport"
+  },
+  "name_es": "Reloj inteligente",
+  "summary_es": "El Seiko RC-1000 intercambiaba datos con ordenadores en 1984. Los relojes Microsoft SPOT llegaron en 2004 y el Apple Watch amplió el reconocimiento público de estos dispositivos en 2015. La definición de «inteligente» hace discutido su origen.",
+  "notes_es": "No hay un origen único aceptado: relojes calculadora, ordenadores de muñeca y relojes conectados usan distintas definiciones de «inteligente». El RC-1000 representa la conexión con ordenadores; SPOT, la recepción inalámbrica de información. El Apple Watch de 2015 fue un hito de difusión, no la primera invención de la categoría.",
+  "notes_ja": "スマートウォッチの起点は一つではない。計算機付き時計、腕上コンピューター、通信時計では「スマート」の基準が異なる。RC-1000 はパソコン接続型端末、SPOT は無線情報受信型の代表例である。2015年の Apple Watch は普及の節目であり、このカテゴリーの最初の発明ではない。"
 }

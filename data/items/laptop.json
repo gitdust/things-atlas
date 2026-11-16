@@ -9,7 +9,9 @@
       "year": 1982,
       "precision": "year",
       "ref": "GRiD Compass establishes an influential clamshell laptop design",
-      "ref_zh": "GRiD Compass 推出具有影响力的翻盖式笔记本设计"
+      "ref_zh": "GRiD Compass 推出具有影响力的翻盖式笔记本设计",
+      "ref_es": "GRiD Compass introduce un influyente diseño de ordenador portátil plegable",
+      "ref_ja": "GRiD Compassが影響力のある折り畳み式ノートパソコンの形態を確立した"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "美国加州弗里蒙特（GRiD Systems）",
       "place_label_en": "Fremont, California, USA (GRiD Systems)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Fremont, California, EE. UU. (GRiD Systems)",
+      "place_label_ja": "米国カリフォルニア州フリーモント（GRiD Systems）"
     },
     {
       "lat": 37.7,
@@ -31,7 +35,9 @@
       "place_label_en": "San Francisco Bay Area, USA (Osborne)",
       "kind": "contested",
       "confidence": "region",
-      "year_override": 1981
+      "year_override": 1981,
+      "place_label_es": "Área de la bahía de San Francisco, EE. UU. (Osborne)",
+      "place_label_ja": "米国サンフランシスコ・ベイエリア（Osborne）"
     }
   ],
   "confidence": "disputed",
@@ -63,7 +69,7 @@
     "office",
     "computing"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "notes": "笔记本的「第一」取决于是否要求翻盖结构、可在膝上使用或电池供电。1981 年 Osborne 1 是便携式电脑先驱，却更接近提箱式机器；Epson HX-20 以轻便与电池供电著称。此处选取 1982 年 GRiD Compass 的翻盖式形态，而非断言它是所有便携电脑的起点。",
   "notes_en": "Priority depends on requiring a clamshell, use on the lap or battery operation. The 1981 Osborne 1 was a portable pioneer but a luggable machine; the Epson HX-20 offered compact battery-powered computing. This entry selects the 1982 GRiD Compass for its clamshell form, rather than treating it as the origin of every portable computer.",
   "image": {
@@ -72,6 +78,12 @@
     "alt_en": "A GRiD Compass 1101 clamshell laptop",
     "credit": "jmdo",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:GRiD_Compass_1101_(1).jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:GRiD_Compass_1101_(1).jpg",
+    "alt_es": "Un ordenador portátil plegable GRiD Compass 1101",
+    "alt_ja": "GRiD Compass 1101の折り畳み式ノートパソコン"
+  },
+  "name_es": "Ordenador portátil",
+  "summary_es": "El GRiD Compass de 1982 fue un influyente portátil de formato plegable. Máquinas anteriores, como el Osborne de 1981 y el Epson HX-20, hacen que la identidad del primer portátil siga en disputa.",
+  "notes_es": "La prioridad depende de exigir formato plegable, uso sobre el regazo o batería. El Osborne 1 de 1981 fue pionero de los equipos transportables, aunque era voluminoso; el Epson HX-20 era compacto y funcionaba con batería. Aquí se elige el GRiD Compass de 1982 por su forma plegable, sin atribuirle el origen de todos los ordenadores transportables.",
+  "notes_ja": "「最初」の定義は折り畳み構造、膝上での使用、電池駆動のどれを条件にするかで変わる。1981年のOsborne 1は可搬型の先駆者だがスーツケース型に近く、Epson HX-20は小型で電池駆動だった。本項目は1982年のGRiD Compassの折り畳み形態を採用し、可搬型コンピューター全体の起点とは断定しない。"
 }

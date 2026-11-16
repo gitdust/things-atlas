@@ -20,7 +20,12 @@ export function EarliestUseEvidence({
   return (
     <div className="earliest-use-evidence">
       <strong className="num">{formatEarliestUse(lang, earliestUse)}</strong>
-      <p>{pick(lang, earliestUse.explanation_zh, earliestUse.explanation_en)}</p>
+      <p>
+        {pick(lang, earliestUse.explanation_zh, earliestUse.explanation_en, {
+          es: earliestUse.explanation_es,
+          ja: earliestUse.explanation_ja,
+        })}
+      </p>
       <ul>
         {earliestUse.source_urls.map((url) => (
           <li key={url}>

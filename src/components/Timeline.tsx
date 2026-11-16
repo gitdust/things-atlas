@@ -328,14 +328,15 @@ export function Timeline({
                     bottom: `${level * 15}px`,
                     ['--c' as string]: categoryColor[item.category],
                   }}
-                  title={`${pick(lang, item.name_zh, item.name_en, { ja: item.name_ja })} · ${formatYear(lang, item.primary_year)}`}
+                  title={`${pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja })} · ${formatYear(lang, item.primary_year)}`}
                   onClick={() => {
                     onSelect(item.id);
                     onChange(item.primary_year);
                   }}
                 >
                   <span className="tl-dot-label">
-                    {pick(lang, item.name_zh, item.name_en, { ja: item.name_ja })} · {formatYear(lang, item.primary_year)}
+                    {pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja })}{' '}
+                    · {formatYear(lang, item.primary_year)}
                   </span>
                 </button>
               );

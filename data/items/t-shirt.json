@@ -9,20 +9,26 @@
       "year": 1904,
       "precision": "year",
       "ref": "Cooper Underwear Company advertises buttonless, elastic crew-neck 'bachelor undershirts', Kenosha, Wisconsin",
-      "ref_zh": "威斯康星州基诺沙的库珀内衣公司登报推广无需缝补扣子的单件式弹力圆领套头内衣"
+      "ref_zh": "威斯康星州基诺沙的库珀内衣公司登报推广无需缝补扣子的单件式弹力圆领套头内衣",
+      "ref_es": "Cooper Underwear, de Kenosha, Wisconsin, anuncia una prenda interior elástica de una pieza y cuello redondo, sin botones que reparar.",
+      "ref_ja": "ウィスコンシン州キノーシャの Cooper Underwear が、ボタンの補修が不要な伸縮性のある丸首かぶり式肌着を広告。"
     },
     "patent": null,
     "mass_production": {
       "year": 1913,
       "precision": "year",
       "ref": "United States Navy issues crew-neck, short-sleeved white cotton jerseys as standard undergarments",
-      "ref_zh": "美国海军正式将短袖圆领纯棉汗衫列为水兵标准制服内衣，奠定 T 形剪裁规格"
+      "ref_zh": "美国海军正式将短袖圆领纯棉汗衫列为水兵标准制服内衣，奠定 T 形剪裁规格",
+      "ref_es": "La Marina estadounidense adopta la camiseta de algodón de manga corta y cuello redondo como ropa interior del uniforme.",
+      "ref_ja": "米海軍が半袖・丸首の綿製シャツを水兵の標準肌着とし、T 字型の裁断が定着。"
     },
     "popularization": {
       "year": 1951,
       "precision": "year",
       "ref": "Marlon Brando in 'A Streetcar Named Desire' popularizes the plain white T-shirt as standalone outer apparel",
-      "ref_zh": "马龙·白兰度在电影《欲望号街车》中身穿纯白短袖，彻底让 T 恤从隐蔽内衣跃升为全球大众日常外穿单品"
+      "ref_zh": "马龙·白兰度在电影《欲望号街车》中身穿纯白短袖，彻底让 T 恤从隐蔽内衣跃升为全球大众日常外穿单品",
+      "ref_es": "Marlon Brando luce una camiseta blanca en Un tranvía llamado Deseo y contribuye a popularizarla como prenda exterior.",
+      "ref_ja": "Marlon Brando が映画『欲望という名の電車』で白い半袖シャツを着用し、肌着から日常の上着への普及を後押し。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国威斯康星州基诺沙",
       "place_label_en": "Kenosha, Wisconsin, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Kenosha, Wisconsin, EE. UU.",
+      "place_label_ja": "米国ウィスコンシン州キノーシャ"
     },
     {
       "lat": 38.9072,
@@ -40,7 +48,9 @@
       "place_label_zh": "美国华盛顿特区（美国海军）",
       "place_label_en": "Washington, D.C., USA (US Navy)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Washington D. C., EE. UU. (Marina estadounidense)",
+      "place_label_ja": "米国ワシントン D.C.（米海軍）"
     },
     {
       "lat": 34.0522,
@@ -48,7 +58,9 @@
       "place_label_zh": "美国加利福尼亚州洛杉矶（好莱坞）",
       "place_label_en": "Los Angeles, California, USA (Hollywood)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Los Ángeles, California, EE. UU. (Hollywood)",
+      "place_label_ja": "米国カリフォルニア州ロサンゼルス（ハリウッド）"
     }
   ],
   "confidence": "year",
@@ -80,6 +92,10 @@
     "alt_en": "A white short-sleeved T-shirt with the Wikipedia logo",
     "credit": "Wikimedia Deutschland",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:T-Shirt_Wikipedia_white.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:T-Shirt_Wikipedia_white.jpg",
+    "alt_es": "Una camiseta blanca de manga corta con el logotipo de Wikipedia",
+    "alt_ja": "Wikipedia のロゴが入った白い半袖 T シャツ"
+  },
+  "name_es": "Camiseta",
+  "summary_es": "La camiseta de cuello redondo evolucionó de la ropa de trabajo y pasó a ser ropa interior de la Marina estadounidense en 1913. Marlon Brando ayudó a convertirla en prenda exterior cotidiana con su imagen cinematográfica de 1951."
 }

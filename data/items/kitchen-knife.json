@@ -9,20 +9,26 @@
       "year": -1200,
       "precision": "century",
       "ref": "Bronze culinary knives are excavated at Shang sites such as Yinxu; Bronze Age Mediterranean kitchens widely use blades specifically for cutting meat and vegetables",
-      "ref_zh": "殷墟等商代遗址出土青铜庖厨刀，地中海青铜时代厨房普遍出现专职切割肉类蔬菜的厨刃"
+      "ref_zh": "殷墟等商代遗址出土青铜庖厨刀，地中海青铜时代厨房普遍出现专职切割肉类蔬菜的厨刃",
+      "ref_es": "Se hallan cuchillos culinarios de bronce en yacimientos Shang como Yinxu; las cocinas mediterráneas de la Edad del Bronce usan hojas para cortar carne y verduras",
+      "ref_ja": "殷墟など商代の遺跡から調理用青銅刀が出土し、地中海の青銅器時代の厨房でも肉や野菜を切る専用の刃物が広く使われた"
     },
     "patent": null,
     "mass_production": {
       "year": 1731,
       "precision": "year",
       "ref": "Peter Henckels registers the Twin trademark with the Solingen Cutlers’ Guild in Germany, marking the start of guild-organized industrial mass production of professional kitchen knives",
-      "ref_zh": "彼得·亨克斯在德国索林根刀具行会注册双立人标志，开启近代专业厨刀工业行会化量产"
+      "ref_zh": "彼得·亨克斯在德国索林根刀具行会注册双立人标志，开启近代专业厨刀工业行会化量产",
+      "ref_es": "Peter Henckels registra la marca de los gemelos en el gremio de cuchilleros de Solingen, iniciando la producción industrial gremial de cuchillos profesionales",
+      "ref_ja": "ペーター・ヘンケルスがドイツ・ゾーリンゲンの刃物職人組合に双子の商標を登録し、近代の専門包丁の組合による工業的量産が始まった"
     },
     "popularization": {
       "year": 1945,
       "precision": "decade",
       "ref": "Post-war stainless-steel rustproofing and hardening spread; Santoku knives combining Chinese and Western cutting practices and modern chef’s knives enter households worldwide",
-      "ref_zh": "战后不锈钢防锈淬火工艺普及，结合中西式切削习惯的三德刀与现代主厨刀进入全球万千家庭厨房"
+      "ref_zh": "战后不锈钢防锈淬火工艺普及，结合中西式切削习惯的三德刀与现代主厨刀进入全球万千家庭厨房",
+      "ref_es": "Tras la guerra se difunden el acero inoxidable y su temple; los santoku, que combinan hábitos de corte chinos y occidentales, y los cuchillos de chef llegan a hogares de todo el mundo",
+      "ref_ja": "戦後にステンレスの防錆・焼入れ技術が普及し、中華と西洋の切り方を組み合わせた三徳包丁や現代のシェフナイフが世界の家庭に広がった"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "中国河南安阳（殷墟铜庖厨刀）",
       "place_label_en": "Anyang, Henan, China (Yinxu bronze culinary knife)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Anyang, Henan, China (cuchillo culinario de bronce de Yinxu)",
+      "place_label_ja": "中国河南省安陽（殷墟の調理用青銅刀）"
     },
     {
       "lat": 51.1719,
@@ -40,7 +48,9 @@
       "place_label_zh": "德国索林根",
       "place_label_en": "Solingen, Germany",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Solingen, Alemania",
+      "place_label_ja": "ドイツ・ゾーリンゲン"
     }
   ],
   "confidence": "century",
@@ -73,6 +83,10 @@
     "alt_en": "A stainless steel chef’s knife with a black handle",
     "credit": "WLU",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Eight_inch_Zwilling_J.A._Henckels_chef_knife.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eight_inch_Zwilling_J.A._Henckels_chef_knife.JPG",
+    "alt_es": "Un cuchillo de chef de acero inoxidable con mango negro",
+    "alt_ja": "黒い柄のステンレス製シェフナイフ"
+  },
+  "name_es": "Cuchillo de cocina",
+  "summary_es": "Desde las hojas de cocina de la Edad del Bronce y los gremios de Solingen del siglo XVIII hasta el acero inoxidable moderno, el cuchillo ha evolucionado durante milenios como herramienta esencial para preparar alimentos."
 }

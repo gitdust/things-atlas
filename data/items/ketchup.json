@@ -9,14 +9,18 @@
       "year": 1812,
       "precision": "year",
       "ref": "James Mease published an early American tomato ketchup recipe; this is documentary evidence, not a proven first invention",
-      "ref_zh": "詹姆斯·米斯发表美国早期番茄酱配方；此为文献节点，并非已证实的首次发明"
+      "ref_zh": "詹姆斯·米斯发表美国早期番茄酱配方；此为文献节点，并非已证实的首次发明",
+      "ref_es": "James Mease publica una receta estadounidense temprana de kétchup de tomate; es un testimonio documental, no una primera invención demostrada",
+      "ref_ja": "ジェームズ・ミースが米国の初期のトマトケチャップのレシピを発表した。文献上の節目であり、最初の発明と証明されたものではない"
     },
     "patent": null,
     "mass_production": {
       "year": 1876,
       "precision": "year",
       "ref": "Heinz introduced its bottled tomato ketchup in the United States, a commercial milestone rather than the origin of tomato ketchup",
-      "ref_zh": "亨氏在美国推出瓶装番茄酱；这是商品化节点，不是番茄酱的起源"
+      "ref_zh": "亨氏在美国推出瓶装番茄酱；这是商品化节点，不是番茄酱的起源",
+      "ref_es": "Heinz lanza kétchup de tomate embotellado en Estados Unidos, un hito comercial y no el origen de la salsa",
+      "ref_ja": "Heinzが米国で瓶入りトマトケチャップを発売した。商品化の節目であり、トマトケチャップそのものの起源ではない"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "美国宾夕法尼亚州费城（米斯1812年配方记载）",
       "place_label_en": "Philadelphia, Pennsylvania, USA (Mease recipe, 1812)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Filadelfia, Pensilvania, EE. UU. (receta de Mease, 1812)",
+      "place_label_ja": "米国ペンシルベニア州フィラデルフィア（1812年のミースのレシピ）"
     },
     {
       "lat": 39.8283,
@@ -36,7 +42,9 @@
       "place_label_en": "United States (Heinz bottled ketchup launch, 1876; approximate national location)",
       "kind": "production",
       "confidence": "country",
-      "year_override": 1876
+      "year_override": 1876,
+      "place_label_es": "Estados Unidos (lanzamiento de Heinz, 1876; ubicación nacional aproximada)",
+      "place_label_ja": "米国（1876年のHeinzの瓶入り製品発売。国単位の概略位置）"
     }
   ],
   "confidence": "year",
@@ -69,13 +77,19 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/ketchup.jpg",
     "alt_zh": "白色盘子上的红色番茄酱",
     "alt_en": "Red tomato ketchup on a white plate",
     "credit": "Yohan euan o4; derivative work: Bobek",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Ketchup_example_2.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ketchup_example_2.jpg",
+    "alt_es": "Kétchup rojo sobre un plato blanco",
+    "alt_ja": "白い皿に盛られた赤いトマトケチャップ"
+  },
+  "name_es": "Kétchup",
+  "summary_es": "El kétchup de tomate se distingue de las antiguas salsas de pescado o setas. Mease publicó una receta temprana en 1812; Heinz lanzó su producto embotellado en 1876, pero no inventó esta salsa.",
+  "notes_es": "Esta entrada trata la salsa de mesa de tomate, no las antiguas salsas de pescado, setas o nueces, ni el tomate concentrado. 1812 es la fecha de una receta temprana; 1876 corresponde al lanzamiento del producto de Heinz.",
+  "notes_ja": "本項目はトマトを主原料とする食卓用ソースを扱う。初期の魚醤・キノコ・クルミのケチャップや、濃縮トマトペーストは含めない。1812年は初期レシピの記録、1876年はHeinz製品の発売年である。"
 }

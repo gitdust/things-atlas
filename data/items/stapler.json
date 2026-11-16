@@ -9,19 +9,25 @@
       "year": 1877,
       "precision": "year",
       "ref": "Henry R. Heyl files US 195,603: first machine to insert and clinch a staple in one step",
-      "ref_zh": "黑尔申请 US 195,603：首台一步完成穿钉与弯脚的机器"
+      "ref_zh": "黑尔申请 US 195,603：首台一步完成穿钉与弯脚的机器",
+      "ref_es": "Heyl solicita la patente US 195,603 de una máquina que inserta y dobla una grapa en una sola operación.",
+      "ref_ja": "Heyl が、針の挿入と脚の折り曲げを一度に行う機械の特許 US 195,603 を出願。"
     },
     "patent": {
       "year": 1879,
       "precision": "exact",
       "ref": "George McGill's Single-Stroke Staple Press, US 212,316 (18 Feb 1879)",
-      "ref_zh": "麦吉尔「单击订书机」专利 US 212,316（1879-02-18）"
+      "ref_zh": "麦吉尔「单击订书机」专利 US 212,316（1879-02-18）",
+      "ref_es": "McGill obtiene la patente US 212,316 de su grapadora de un solo golpe el 18 de febrero de 1879.",
+      "ref_ja": "McGill が1879年2月18日に一打式ステープラーの特許 US 212,316 を取得。"
     },
     "mass_production": {
       "year": 1879,
       "precision": "year",
       "ref": "McGill Single-Stroke Staple Press, first commercially successful stapler",
-      "ref_zh": "麦吉尔单击订书机成为首款商业成功的订书机"
+      "ref_zh": "麦吉尔单击订书机成为首款商业成功的订书机",
+      "ref_es": "La grapadora de un solo golpe de McGill alcanza el primer éxito comercial de esta categoría.",
+      "ref_ja": "McGill の一打式ステープラーが、この種の製品で初めて商業的に成功。"
     },
     "popularization": null
   },
@@ -32,7 +38,9 @@
       "place_label_zh": "美国（黑尔）",
       "place_label_en": "United States (Heyl)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Estados Unidos (Heyl)",
+      "place_label_ja": "米国（Heyl）"
     },
     {
       "lat": 39.8,
@@ -40,7 +48,9 @@
       "place_label_zh": "美国（麦吉尔）",
       "place_label_en": "United States (McGill)",
       "kind": "patent",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Estados Unidos (McGill)",
+      "place_label_ja": "米国（McGill）"
     }
   ],
   "confidence": "year",
@@ -79,14 +89,20 @@
     "office",
     "fastening"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/stapler.jpg",
     "alt_zh": "一台白色桌面订书机和一排订书钉",
     "alt_en": "A white desktop stapler with a strip of staples",
     "credit": "Jacek Halicki",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:2017_Zszywacz_biurowy.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:2017_Zszywacz_biurowy.jpg",
+    "alt_es": "Una grapadora de sobremesa blanca y una tira de grapas",
+    "alt_ja": "白い卓上ホチキスと連なった針"
   },
-  "notes_en": "Credit is split: McGill patented a bendable paper fastener in 1866 (US 56,587), but Heyl filed the first one-step stapling machine in 1877. This entry treats Heyl as inventor and McGill's 1879 press as the commercial breakthrough. Their cities are unverified, so locations are country-level."
+  "notes_en": "Credit is split: McGill patented a bendable paper fastener in 1866 (US 56,587), but Heyl filed the first one-step stapling machine in 1877. This entry treats Heyl as inventor and McGill's 1879 press as the commercial breakthrough. Their cities are unverified, so locations are country-level.",
+  "name_es": "Grapadora",
+  "summary_es": "En 1877, la máquina de Henry Heyl logró insertar y doblar una grapa en una sola operación. En 1879, la grapadora de un solo golpe de McGill se convirtió en la primera de éxito comercial.",
+  "notes_es": "La autoría es discutida. McGill patentó en 1866 una grapa doblada para papel (US 56,587), mientras que Heyl solicitó en 1877 la máquina que grapa en una sola operación. Esta entrada toma a Heyl como hito de invención y a McGill en 1879 como comercialización. No se verificaron sus ciudades; el mapa indica solo el país.",
+  "notes_ja": "発明者については諸説ある。McGill は1866年に紙用の折り曲げ針の特許 US 56,587 を取得したが、一度にとじる機械は Heyl が1877年に出願した。本項は Heyl を発明、McGill の1879年を商品化の節目とする。両者の都市は未確認のため国単位で示す。"
 }

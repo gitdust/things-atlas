@@ -9,7 +9,9 @@
       "year": -4000,
       "precision": "century",
       "ref": "An Egyptian bone comb in Cambridge is dated to ca. 4000–3500 BCE; the timeline uses the start of this range as an early surviving example",
-      "ref_zh": "剑桥馆藏埃及骨梳约为公元前4000—3500年；时间轴取区间起点，表示早期实物见证"
+      "ref_zh": "剑桥馆藏埃及骨梳约为公元前4000—3500年；时间轴取区间起点，表示早期实物见证",
+      "ref_es": "Un peine egipcio de hueso conservado en Cambridge se fecha hacia 4000–3500 a. C.; la cronología usa el comienzo del intervalo como testimonio temprano.",
+      "ref_ja": "ケンブリッジ所蔵のエジプトの骨製櫛は前4000～前3500年頃とされ、時間軸は範囲の始点を初期の現存例として用いる。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "埃及（前王朝时期骨梳，具体出土地不详）",
       "place_label_en": "Egypt (Predynastic bone comb; precise findspot unrecorded)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Egipto (peine de hueso predinástico; lugar exacto del hallazgo desconocido)",
+      "place_label_ja": "エジプト（先王朝時代の骨製櫛、正確な出土地は不明）"
     }
   ],
   "confidence": "century",
@@ -55,13 +59,19 @@
   "tags": [
     "grooming"
   ],
-  "updated": "2026-11-06",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/comb.jpg",
     "alt_zh": "一把黑色塑料梳子",
     "alt_en": "A black plastic comb",
     "credit": "Crisco 1492",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Plastic_comb,_2015-06-07.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plastic_comb,_2015-06-07.jpg",
+    "alt_es": "Peine de plástico negro",
+    "alt_ja": "黒いプラスチック製の櫛"
+  },
+  "name_es": "Peine",
+  "summary_es": "El peine ordena el pelo con una hilera de dientes. Egipto conserva ejemplares de hueso de hacia 4000–3500 a. C.; los de marfil posteriores también tuvieron funciones decorativas y rituales. No se conoce un único lugar de origen.",
+  "notes_es": "No se conoce un inventor único. El peine egipcio de hueso de 4000–3500 a. C. es un testimonio temprano verificable, no necesariamente el más antiguo del mundo. La cronología usa el inicio del intervalo y el mapa solo señala Egipto según el registro del museo. Los peines de marfil egipcios de 3200–3100 a. C. muestran además usos decorativos y rituales.",
+  "notes_ja": "確認された単独の発明者はいない。前4000～前3500年のエジプトの骨製櫛を検証可能な初期資料とし、世界最古とは断定しない。時間軸は範囲の始点を、地図は所蔵記録に従いエジプトのみを示す。前3200～前3100年の象牙製櫛には装飾・儀礼用途も見られる。"
 }

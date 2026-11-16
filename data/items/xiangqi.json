@@ -9,7 +9,9 @@
       "year": 762,
       "precision": "century",
       "ref": "Tang texts such as Niu Sengru’s Xuan Guai Lu describe early military-board xiangxi with chariots, horses, generals, advisers and soldiers",
-      "ref_zh": "唐代文献（如牛僧孺《玄怪录》）记载有车、马、将、士、卒等行棋战阵的早期象戏"
+      "ref_zh": "唐代文献（如牛僧孺《玄怪录》）记载有车、马、将、士、卒等行棋战阵的早期象戏",
+      "ref_es": "Textos Tang, como el Xuan Guai Lu de Niu Sengru, describen juegos tempranos de batalla con carros, caballos, generales, guardias y peones.",
+      "ref_ja": "牛僧孺の『玄怪録』など唐代の文献に、車・馬・将・士・卒による初期の戦陣型の象戯が記される。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1100,
       "precision": "century",
       "ref": "Bronze pieces from Northern Song Kaifeng’s Chongning era show the fully developed modern game with 32 pieces, palaces, the Chu River–Han Border and cannons",
-      "ref_zh": "北宋开封崇宁年间出土铜棋子实物证实三十二子、九宫、楚河汉界与‘炮’的现代象棋形制完全定型"
+      "ref_zh": "北宋开封崇宁年间出土铜棋子实物证实三十二子、九宫、楚河汉界与‘炮’的现代象棋形制完全定型",
+      "ref_es": "Piezas de bronce de la era Chongning halladas en Kaifeng atestiguan la forma moderna de 32 piezas, palacios, río divisorio y cañones.",
+      "ref_ja": "開封で出土した北宋・崇寧年間の青銅駒が、32駒、九宮、楚河漢界、砲を備えた現代象棋の成立を示す。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国河南开封（北宋都城汴京，出土崇宁年间完整铜象棋子）",
       "place_label_en": "Kaifeng, Henan, China (Northern Song capital Bianjing; findspot of a complete set of Chongning-era bronze xiangqi pieces)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Kaifeng, Henan, China (capital Song del Norte; piezas de bronce de la era Chongning)",
+      "place_label_ja": "中国河南省開封（北宋の都。崇寧年間の青銅象棋駒が出土）"
     },
     {
       "lat": 34.3416,
@@ -36,7 +42,9 @@
       "place_label_en": "Xi'an, Shaanxi, China (Tang Chang'an, early literary records of military piece chess)",
       "kind": "invention",
       "confidence": "city",
-      "year_override": 762
+      "year_override": 762,
+      "place_label_es": "Xi’an, Shaanxi, China (Chang’an Tang; registros de juegos tempranos)",
+      "place_label_ja": "中国陝西省西安（唐代の長安。初期の象戯を記した文人の記録）"
     }
   ],
   "confidence": "disputed",
@@ -69,13 +77,19 @@
   "tags": [
     "leisure"
   ],
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/xiangqi.jpg",
     "alt_zh": "摆放整齐的中国象棋棋盘与红黑木质棋子",
     "alt_en": "A neatly arranged Chinese chess board with red and black wooden pieces",
     "credit": "Trongphu",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Xiangqi1.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Xiangqi1.JPG",
+    "alt_es": "Un tablero de xiangqi con piezas de madera rojas y negras ordenadas",
+    "alt_ja": "赤黒の木製駒が整然と並ぶ中国象棋の盤"
+  },
+  "name_es": "Xiangqi",
+  "summary_es": "El ajedrez chino tiene raíces diversas. En época Tang hubo juegos bélicos con piezas figurativas; durante los Song del Norte se consolidó la forma moderna de 32 piezas, palacios, río divisorio y cañones.",
+  "notes_es": "La tradición atribuye el xiangqi a Han Xin durante la guerra Chu-Han; otras teorías citan el Chu Ci o juegos de época Zhou del Norte. Esos relatos tempranos suelen mezclarse con liubo y juegos adivinatorios. La interpretación habitual sitúa los juegos figurativos de batalla en época Tang y la forma de 32 piezas con cañones y río divisorio en los Song del Norte, apoyada por hallazgos de Kaifeng. Sus raíces y fechas de evolución siguen en debate.",
+  "notes_ja": "韓信が楚漢戦争中に象棋を発明したという伝承のほか、戦国の『楚辞』や北周の象戯に起源を求める説もあるが、初期の記録は六博や天文占いの盤上遊戯と混在する。一般には唐代に車・馬・将・卒などの具象的戦陣ゲームが現れ、北宋の崇寧年間に砲・楚河漢界・32駒の規則が定まったと考えられ、開封の出土品が手がかりとなる。初期の系譜と発展年代には学術的な議論が残る。"
 }

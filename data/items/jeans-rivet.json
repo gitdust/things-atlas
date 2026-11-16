@@ -9,19 +9,25 @@
       "year": 1871,
       "precision": "year",
       "ref": "Jacob Davis, a tailor in Reno, rivets work pants",
-      "ref_zh": "里诺裁缝雅各布·戴维斯用铆钉加固工装裤"
+      "ref_zh": "里诺裁缝雅各布·戴维斯用铆钉加固工装裤",
+      "ref_es": "Jacob Davis, sastre de Reno, refuerza con remaches los pantalones de trabajo",
+      "ref_ja": "リノの仕立屋ヤコブ・デイヴィスが作業ズボンをリベットで補強した"
     },
     "patent": {
       "year": 1873,
       "precision": "exact",
       "ref": "US 139,121 to Davis and Levi Strauss (20 May 1873)",
-      "ref_zh": "戴维斯与李维·斯特劳斯获专利 US 139,121（1873-05-20）"
+      "ref_zh": "戴维斯与李维·斯特劳斯获专利 US 139,121（1873-05-20）",
+      "ref_es": "Se concede a Davis y Levi Strauss la patente US 139121 el 20 de mayo de 1873",
+      "ref_ja": "デイヴィスとリーバイ・ストラウスが米国特許139,121を取得した（1873年5月20日）"
     },
     "mass_production": {
       "year": 1873,
       "precision": "year",
       "ref": "Levi Strauss & Co. produces riveted pants in San Francisco",
-      "ref_zh": "李维斯在旧金山生产铆钉裤"
+      "ref_zh": "李维斯在旧金山生产铆钉裤",
+      "ref_es": "Levi Strauss & Co. fabrica pantalones remachados en San Francisco",
+      "ref_ja": "Levi Strauss & Co.がサンフランシスコでリベット付きズボンを生産した"
     },
     "popularization": null
   },
@@ -32,7 +38,9 @@
       "place_label_zh": "美国内华达州里诺",
       "place_label_en": "Reno, Nevada, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Reno, Nevada, EE. UU.",
+      "place_label_ja": "米国ネバダ州リノ"
     },
     {
       "lat": 37.775,
@@ -40,7 +48,9 @@
       "place_label_zh": "美国旧金山（李维斯）",
       "place_label_en": "San Francisco, USA (Levi Strauss)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "San Francisco, EE. UU. (Levi Strauss)",
+      "place_label_ja": "米国サンフランシスコ（Levi Strauss）"
     }
   ],
   "confidence": "year",
@@ -72,13 +82,17 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/jeans-rivet.jpg",
     "alt_zh": "牛仔裤背面的铜铆钉",
     "alt_en": "Copper rivets on the back of a pair of jeans",
     "credit": "Tokunori",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:501xx-rivet-back.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:501xx-rivet-back.jpg",
+    "alt_es": "Remaches de cobre en la parte trasera de unos vaqueros",
+    "alt_ja": "ジーンズの後ろ側に付いた銅製リベット"
+  },
+  "name_es": "Remache de los vaqueros",
+  "summary_es": "El sastre de Reno Jacob Davis reforzó las esquinas de los bolsillos con remaches de cobre en 1871. Patentó la idea con Levi Strauss en 1873, dando origen a los vaqueros."
 }

@@ -9,7 +9,9 @@
       "year": -5800,
       "precision": "century",
       "ref": "Bone spoons from Grad-Starčevo, Serbia, date to 5800–5450 BCE; studied wear marks include matches to human milk teeth",
-      "ref_zh": "塞尔维亚格拉德—斯塔尔切沃遗址骨勺断代为前5800—前5450年；研究发现部分磨痕与人类乳牙吻合"
+      "ref_zh": "塞尔维亚格拉德—斯塔尔切沃遗址骨勺断代为前5800—前5450年；研究发现部分磨痕与人类乳牙吻合",
+      "ref_es": "Las cucharas de hueso de Grad-Starčevo, Serbia, datan de 5800–5450 a. C.; algunas marcas coinciden con dientes humanos de leche.",
+      "ref_ja": "セルビアのグラド・スタルチェヴォ遺跡の骨製スプーンは紀元前5800～5450年に年代づけられ、一部の摩耗痕は人の乳歯と一致する。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "塞尔维亚斯塔尔切沃（史前骨勺出土地，位置示意）",
       "place_label_en": "Starčevo, Serbia (prehistoric bone spoon findspot; approximate)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Starčevo, Serbia (hallazgo de cucharas prehistóricas de hueso; posición aproximada)",
+      "place_label_ja": "セルビア・スタルチェヴォ（先史時代の骨製スプーン出土地。模式表示）"
     },
     {
       "lat": 29.53,
@@ -31,7 +35,9 @@
       "place_label_en": "Tarkhan, Egypt (early ivory spoon findspot; approximate)",
       "kind": "invention",
       "confidence": "approximate",
-      "year_override": -3100
+      "year_override": -3100,
+      "place_label_es": "Tarkhan, Egipto (hallazgo de una cuchara temprana de marfil; posición aproximada)",
+      "place_label_ja": "エジプト・タルカン（初期の象牙製スプーン出土地。模式表示）"
     }
   ],
   "confidence": "century",
@@ -58,13 +64,19 @@
   "tags": [
     "dining"
   ],
-  "updated": "2026-11-06",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/spoon.jpg",
     "alt_zh": "一把金属勺子",
     "alt_en": "A metal spoon",
     "credit": "DIVYALAKSHWIN",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Spoon.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Spoon.jpg",
+    "alt_es": "Una cuchara metálica",
+    "alt_ja": "金属製のスプーン"
+  },
+  "name_es": "Cuchara",
+  "summary_es": "La cuchara es prehistórica y no tiene un único origen conocido. En Serbia, cucharas de hueso de 5800–5450 a. C. presentan marcas compatibles con dientes de leche. Egipto conserva cucharas de marfil de hacia 3100–2649 a. C.",
+  "notes_es": "No se conoce un inventor ni un lugar de origen único, y existen registros aislados anteriores al yacimiento elegido. La cronología usa el comienzo del intervalo 5800–5450 a. C. de Grad-Starčevo, no una fecha exacta de invención. Un estudio de 2019 comparó marcas de desgaste de hueso con marcas experimentales de dientes de leche y apoyó su uso para alimentar a niños pequeños. Los puntos del mapa son aproximados. La cuchara egipcia de marfil está fechada por el museo en 3100–2649 a. C.",
+  "notes_ja": "単一の発明者や発祥地は確認されておらず、本項の遺跡より古い散発的記録もある。時間軸にはグラド・スタルチェヴォの年代幅（紀元前5800～5450年）の始点を用い、正確な発明年とはしない。2019年の研究では骨製スプーンの摩耗痕を実験で得た乳歯痕と比較し、乳幼児への給餌用途を支持した。地図点は出土地周辺の模式表示。エジプトの象牙製スプーンは館の年代測定で紀元前3100～2649年とされる。"
 }

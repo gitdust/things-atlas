@@ -9,25 +9,33 @@
       "year": 1895,
       "precision": "year",
       "ref": "Yuki Ueyama, Eiichiro Ueyama’s wife, conceives curling pyrethrum incense into a spiral to sustain overnight smoldering for 7–8 hours",
-      "ref_zh": "上山ゆき（上山英一郎之妻）构想将除虫菊线香盘成螺旋状，实现长达七至八小时的整夜持续阴燃"
+      "ref_zh": "上山ゆき（上山英一郎之妻）构想将除虫菊线香盘成螺旋状，实现长达七至八小时的整夜持续阴燃",
+      "ref_es": "Yuki Ueyama, esposa de Eiichiro, concibe enrollar el incienso de pelitre en espiral para que arda lentamente durante 7-8 horas toda la noche",
+      "ref_ja": "上山英一郎の妻・上山ゆきが除虫菊線香を渦巻き状にする構想を生み、7〜8時間の一晩にわたる燻焼を可能にした"
     },
     "patent": {
       "year": 1900,
       "precision": "year",
       "ref": "Eiichiro Ueyama files Japanese patent application for the spiral mosquito coil",
-      "ref_zh": "上山英一郎在日本递交涡卷形蚊香专利申请"
+      "ref_zh": "上山英一郎在日本递交涡卷形蚊香专利申请",
+      "ref_es": "Eiichiro Ueyama presenta en Japón una solicitud de patente para la espiral antimosquitos",
+      "ref_ja": "上山英一郎が日本で渦巻き形蚊取り線香の特許を出願した"
     },
     "mass_production": {
       "year": 1902,
       "precision": "year",
       "ref": "Commercial sales and factory production of spiral mosquito coils begin under the Kincho brand",
-      "ref_zh": "金鸟（大日本除虫菊）在日本正式量产销售涡卷型蚊香"
+      "ref_zh": "金鸟（大日本除虫菊）在日本正式量产销售涡卷型蚊香",
+      "ref_es": "Kincho inicia la fabricación y venta comercial de espirales antimosquitos",
+      "ref_ja": "金鳥（大日本除虫菊）が渦巻き形蚊取り線香の量産と販売を開始した"
     },
     "popularization": {
       "year": 1957,
       "precision": "year",
       "ref": "Automated punch-press molding makes paired mosquito coils a summer-night household staple across tropical and subtropical regions worldwide",
-      "ref_zh": "全自动冲压成型技术问世，双盘蚊香成为全球亚热带与热带地区家庭夏夜驱蚊必备品"
+      "ref_zh": "全自动冲压成型技术问世，双盘蚊香成为全球亚热带与热带地区家庭夏夜驱蚊必备品",
+      "ref_es": "El moldeo automatizado por troquelado convierte las espirales dobles en un producto doméstico habitual para las noches de verano en los trópicos y subtrópicos",
+      "ref_ja": "自動打ち抜き成形技術の登場により、二巻き一組の蚊取り線香が熱帯・亜熱帯の家庭の夏の夜に欠かせない品となった"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "日本和歌山县有田市（上山英一郎研制除虫菊线香与涡卷蚊香）",
       "place_label_en": "Arida, Wakayama, Japan (Eiichiro Ueyama develops pyrethrum incense and spiral mosquito coils)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Arida, Wakayama, Japón (Ueyama desarrolla incienso de pelitre y espirales)",
+      "place_label_ja": "日本和歌山県有田市（上山英一郎による除虫菊線香・渦巻き蚊取り線香の開発）"
     },
     {
       "lat": 34.6937,
@@ -46,7 +56,9 @@
       "place_label_en": "Osaka, Japan (Kincho / Dainihon Jochugiku mass production and commercial launch)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1902
+      "year_override": 1902,
+      "place_label_es": "Osaka, Japón (producción y lanzamiento de Kincho / Dainihon Jochugiku)",
+      "place_label_ja": "日本大阪市（金鳥／大日本除虫菊の量産・発売）"
     }
   ],
   "confidence": "year",
@@ -78,13 +90,17 @@
     "household",
     "health"
   ],
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/mosquito-coil.jpg",
     "alt_zh": "正在阴燃并冒着微烟的螺旋形蚊香",
     "alt_en": "A burning spiral mosquito coil smoldering with a thin plume of smoke",
     "credit": "مانفی (Manfi)",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Mosquito_coil.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mosquito_coil.JPG",
+    "alt_es": "Una espiral antimosquitos ardiendo lentamente con un fino hilo de humo",
+    "alt_ja": "細い煙を上げて燻る渦巻き形蚊取り線香"
+  },
+  "name_es": "Espiral antimosquitos",
+  "summary_es": "En 1895 los Ueyama, de Japón, dieron forma espiral al incienso de pelitre para que ardiera lentamente durante 7-8 horas. Kincho lo lanzó en 1902 y se convirtió en un clásico repelente de verano en todo el mundo."
 }

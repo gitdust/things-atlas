@@ -9,25 +9,33 @@
       "year": 1823,
       "precision": "year",
       "ref": "Johann Wolfgang Döbereiner invents the first chemical lighter (Döbereiner's lamp) in Jena using platinum catalysis on hydrogen",
-      "ref_zh": "化学家德贝莱纳在耶拿发明利用铂海绵催化氢气燃烧的德贝莱纳灯（最早的化学打火机）"
+      "ref_zh": "化学家德贝莱纳在耶拿发明利用铂海绵催化氢气燃烧的德贝莱纳灯（最早的化学打火机）",
+      "ref_es": "Johann Wolfgang Döbereiner inventa en Jena el primer encendedor químico, que cataliza la combustión del hidrógeno con platino",
+      "ref_ja": "ヨハン・ヴォルフガング・デーベライナーがイェーナで白金触媒による水素燃焼を利用した最初の化学ライター「デーベライナーのランプ」を発明した"
     },
     "patent": {
       "year": 1903,
       "precision": "year",
       "ref": "Carl Auer von Welsbach patents ferrocerium in Austria, providing the modern artificial flint for friction spark lighters",
-      "ref_zh": "奥尔·冯·韦尔斯巴赫在奥地利取得人造铈铁合金（打火石）专利，使轻便机械火石打火机成为可能"
+      "ref_zh": "奥尔·冯·韦尔斯巴赫在奥地利取得人造铈铁合金（打火石）专利，使轻便机械火石打火机成为可能",
+      "ref_es": "Carl Auer von Welsbach patenta el ferrocerio en Austria, la piedra artificial que permite los encendedores de chispa por fricción modernos",
+      "ref_ja": "カール・アウアー・フォン・ヴェルスバッハがオーストリアでフェロセリウムを特許化し、摩擦で火花を出す小型ライター用の人工発火石を実現した"
     },
     "mass_production": {
       "year": 1932,
       "precision": "year",
       "ref": "George G. Blaisdell founds Zippo in Bradford, Pennsylvania, creating the classic windproof chimney flint lighter",
-      "ref_zh": "布莱斯德尔在美国宾州布拉德福德创办之宝（Zippo），研制出经典防风烟囱式煤油打火机"
+      "ref_zh": "布莱斯德尔在美国宾州布拉德福德创办之宝（Zippo），研制出经典防风烟囱式煤油打火机",
+      "ref_es": "George G. Blaisdell funda Zippo en Bradford, Pensilvania, y crea el clásico encendedor de mecha con chimenea cortavientos",
+      "ref_ja": "ジョージ・G・ブレイズデルが米国ペンシルベニア州ブラッドフォードでZippoを設立し、煙突状の防風構造を持つ古典的なオイルライターを開発した"
     },
     "popularization": {
       "year": 1973,
       "precision": "year",
       "ref": "Société Bic introduces the disposable plastic pocket butane lighter in France, triggering global mass adoption",
-      "ref_zh": "比克（BIC）在法国推出一次性塑料丁烷打火机，推动轻便打火机走向全球廉价普及"
+      "ref_zh": "比克（BIC）在法国推出一次性塑料丁烷打火机，推动轻便打火机走向全球廉价普及",
+      "ref_es": "Société Bic lanza en Francia el encendedor de bolsillo desechable de plástico y butano, impulsando su adopción mundial",
+      "ref_ja": "BICがフランスで使い捨てのプラスチック製ブタンライターを発売し、安価な小型ライターの世界的普及を促した"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "德国图林根耶拿（德贝莱纳发明催化打火机）",
       "place_label_en": "Jena, Thuringia, Germany (Döbereiner invents catalytic lighter)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Jena, Turingia, Alemania (encendedor catalítico de Döbereiner)",
+      "place_label_ja": "ドイツ・テューリンゲン州イェーナ（デーベライナーの触媒式ライター）"
     },
     {
       "lat": 41.9559,
@@ -46,7 +56,9 @@
       "place_label_en": "Bradford, Pennsylvania, USA (Zippo windproof lighter)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1932
+      "year_override": 1932,
+      "place_label_es": "Bradford, Pensilvania, EE. UU. (encendedor cortavientos Zippo)",
+      "place_label_ja": "米国ペンシルベニア州ブラッドフォード（Zippoの防風ライター）"
     },
     {
       "lat": 48.9038,
@@ -55,7 +67,9 @@
       "place_label_en": "Clichy, France (Société Bic disposable butane lighter)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1973
+      "year_override": 1973,
+      "place_label_es": "Clichy, Francia (encendedor desechable de butano BIC)",
+      "place_label_ja": "フランス・クリシー（BICの使い捨てブタンライター）"
     }
   ],
   "confidence": "year",
@@ -86,13 +100,17 @@
   "tags": [
     "household"
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/lighter.jpg",
     "alt_zh": "点燃并燃烧着明亮火焰的手持一次性打火机",
     "alt_en": "Hand holding an ignited disposable lighter with a bright flame",
     "credit": "Santeri Viinamäki",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Hand_holding_burning_lighter.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hand_holding_burning_lighter.jpg",
+    "alt_es": "Una mano sostiene un encendedor desechable con una llama brillante",
+    "alt_ja": "明るい炎を出す使い捨てライターを持つ手"
+  },
+  "name_es": "Encendedor",
+  "summary_es": "Döbereiner creó el primer encendedor catalítico en 1823. El ferrocerio de Welsbach de 1903 sentó las bases del encendido mecánico moderno; los encendedores desechables de butano de BIC se difundieron por el mundo en los años setenta."
 }

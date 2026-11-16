@@ -9,25 +9,33 @@
       "year": 1948,
       "precision": "year",
       "ref": "Woodland and Silver conceive an optical barcode system based on Morse code at Drexel University in Philadelphia",
-      "ref_zh": "伍德兰德与西尔弗在费城德雷塞尔大学构思基于莫尔斯电码原理的光学条码系统"
+      "ref_zh": "伍德兰德与西尔弗在费城德雷塞尔大学构思基于莫尔斯电码原理的光学条码系统",
+      "ref_es": "Woodland y Silver conciben en la Universidad Drexel de Filadelfia un código óptico inspirado en el código Morse.",
+      "ref_ja": "WoodlandとSilverがフィラデルフィアのDrexel大学でモールス信号をもとに光学式バーコードを考案する。"
     },
     "patent": {
       "year": 1952,
       "precision": "year",
       "ref": "US Patent US2612994A granted to Woodland and Silver for classifying apparatus and method",
-      "ref_zh": "伍德兰德与西尔弗取得分类装置与条码读取专利 US2612994A"
+      "ref_zh": "伍德兰德与西尔弗取得分类装置与条码读取专利 US2612994A",
+      "ref_es": "Woodland y Silver reciben la patente US2612994A para un aparato y método de clasificación.",
+      "ref_ja": "WoodlandとSilverが分類装置と方法の米国特許US2612994Aを取得する。"
     },
     "mass_production": {
       "year": 1974,
       "precision": "year",
       "ref": "First commercial UPC barcode scanned at Marsh Supermarket in Troy, Ohio on June 26, 1974",
-      "ref_zh": "1974 年 6 月 26 日俄亥俄州特洛伊市马什超市完成全球首次 UPC 条形码商业激光扫描"
+      "ref_zh": "1974 年 6 月 26 日俄亥俄州特洛伊市马什超市完成全球首次 UPC 条形码商业激光扫描",
+      "ref_es": "Primer escaneo comercial de un código UPC en el supermercado Marsh de Troy, Ohio, el 26 de junio de 1974.",
+      "ref_ja": "1974年6月26日、オハイオ州トロイのMarshスーパーでUPCコードが商用で初めて読み取られる。"
     },
     "popularization": {
       "year": 1980,
       "precision": "decade",
       "ref": "UPC and EAN barcode standards become widely adopted in international retail and supply-chain logistics",
-      "ref_zh": "UPC 与 EAN 编码标准在国际零售与供应链物流中实现全球普及"
+      "ref_zh": "UPC 与 EAN 编码标准在国际零售与供应链物流中实现全球普及",
+      "ref_es": "Las normas UPC y EAN se generalizan en el comercio y las cadenas logísticas internacionales.",
+      "ref_ja": "UPCとEAN規格が国際的な小売と物流に広く導入される。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "美国宾夕法尼亚州费城（德雷塞尔大学，发明条形码）",
       "place_label_en": "Philadelphia, Pennsylvania, USA (Drexel University, barcode conceived)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Filadelfia, Pensilvania, Estados Unidos (Universidad Drexel)",
+      "place_label_ja": "米国ペンシルベニア州フィラデルフィア（Drexel大学）"
     },
     {
       "lat": 40.0395,
@@ -46,7 +56,9 @@
       "place_label_en": "Troy, Ohio, USA (Marsh Supermarket, first commercial UPC scan)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1974
+      "year_override": 1974,
+      "place_label_es": "Troy, Ohio, Estados Unidos (primer escaneo comercial de UPC en Marsh)",
+      "place_label_ja": "米国オハイオ州トロイ（Marshで初の商用UPC読み取り）"
     }
   ],
   "confidence": "year",
@@ -78,13 +90,17 @@
     "computing",
     "trade"
   ],
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/barcode.jpg",
     "alt_zh": "印在白色标签上的标准条形码与数字",
     "alt_en": "Standard barcode and numbers printed on a white label",
     "credit": "Aikzhobi",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Barcode_label.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Barcode_label.jpg",
+    "alt_es": "Código de barras con cifras sobre una etiqueta blanca",
+    "alt_ja": "白いラベルに印刷されたバーコードと数字"
+  },
+  "name_es": "Código de barras",
+  "summary_es": "Woodland y Silver idearon un código óptico de barras en Filadelfia en 1948 y lo patentaron en 1952. El primer escaneo comercial, en Troy, Ohio, en 1974, transformó el comercio minorista y la logística."
 }

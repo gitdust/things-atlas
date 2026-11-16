@@ -9,14 +9,18 @@
       "year": 850,
       "precision": "century",
       "ref": "Tang/Five Dynasties Daoist alchemical texts warn that saltpetre–sulfur–charcoal mixes can ignite (e.g. Zhenyuan miaodao yaolüe)",
-      "ref_zh": "唐至五代炼丹文献已警示硝石、硫黄、木炭混合物可燃（如《真元妙道要略》）"
+      "ref_zh": "唐至五代炼丹文献已警示硝石、硫黄、木炭混合物可燃（如《真元妙道要略》）",
+      "ref_es": "Textos alquímicos taoístas de época Tang y de las Cinco Dinastías advierten que las mezclas de salitre, azufre y carbón pueden arder, como el Zhenyuan miaodao yaolüe",
+      "ref_ja": "唐から五代の道教錬丹書（『真元妙道要略』など）が硝石・硫黄・木炭の混合物の発火を警告している"
     },
     "patent": null,
     "mass_production": {
       "year": 1044,
       "precision": "year",
       "ref": "Wujing Zongyao (Kaifeng) records the earliest surviving written gunpowder formulas for military use",
-      "ref_zh": "开封《武经总要》（1044）载现存最早火药配方，用于军器"
+      "ref_zh": "开封《武经总要》（1044）载现存最早火药配方，用于军器",
+      "ref_es": "El Wujing Zongyao de Kaifeng recoge las fórmulas escritas de pólvora para uso militar más antiguas que se conservan",
+      "ref_ja": "開封で編纂された『武経総要』に、現存最古の軍用火薬の配合が記される"
     },
     "popularization": null
   },
@@ -28,7 +32,9 @@
       "place_label_en": "Kaifeng, Henan, China (Northern Song Wujing Zongyao)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1044
+      "year_override": 1044,
+      "place_label_es": "Kaifeng, Henan, China (Wujing Zongyao de los Song del Norte)",
+      "place_label_ja": "中国河南省開封（北宋の『武経総要』）"
     },
     {
       "lat": 34.27,
@@ -36,7 +42,9 @@
       "place_label_zh": "中国陕西西安一带（唐长安炼丹传统）",
       "place_label_en": "Xi’an area, Shaanxi, China (Tang Chang’an alchemical tradition)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Xi’an, Shaanxi, China (tradición alquímica de Chang’an en época Tang)",
+      "place_label_ja": "中国陝西省西安周辺（唐代長安の錬丹の伝統）"
     }
   ],
   "confidence": "disputed",
@@ -75,13 +83,19 @@
   "tags": [
     "materials"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/gunpowder.jpg",
     "alt_zh": "黑火药颗粒与量器",
     "alt_en": "Black powder granules with a powder measure",
     "credit": "Lord Mountbatten",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Blackpowder_%26_Measure.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Blackpowder_%26_Measure.JPG",
+    "alt_es": "Granos de pólvora negra con un dosificador",
+    "alt_ja": "黒色火薬の粒と計量器"
+  },
+  "name_es": "Pólvora",
+  "summary_es": "La pólvora surgió en China entre las dinastías Tang y Song: hay menciones alquímicas del siglo IX y las fórmulas conservadas más antiguas figuran en el Wujing Zongyao de 1044. El año exacto de invención sigue en disputa.",
+  "notes_es": "La pólvora evolucionó de mezclas de salitre, azufre y carbón de la alquimia china. Hay registros del siglo IX de mezclas inflamables o explosivas, pero no un año de invención seguro. Las fórmulas militares conservadas más antiguas con proporciones figuran en el Wujing Zongyao oficial de 1044, de Kaifeng. Se usa una fecha de invención del siglo IX y 1044 para la producción, marcadas como discutidas.",
+  "notes_ja": "火薬は中国の錬丹術における硝石・硫黄・炭の配合から発展した。9世紀頃には可燃性・爆発性混合物の記録があるが、正確な発明年は確定できない。配合比を明記した現存最古の軍用処方は北宋官撰の『武経総要』（1044年、開封）にある。本項目では発明を9世紀頃、量産を1044年とし、異説ありとする。"
 }

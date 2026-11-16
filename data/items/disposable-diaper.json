@@ -11,7 +11,9 @@
       "year": 1961,
       "precision": "year",
       "ref": "Pampers market launch: a commercial milestone, not the earliest disposable diaper",
-      "ref_zh": "Pampers 上市，作为现代一次性纸尿裤商业化的里程碑，并非最早原型"
+      "ref_zh": "Pampers 上市，作为现代一次性纸尿裤商业化的里程碑，并非最早原型",
+      "ref_es": "Lanzamiento de Pampers: un hito comercial, no el primer pañal desechable.",
+      "ref_ja": "Pampersの発売。商業化の節目であり、最初の使い捨ておむつではない。"
     },
     "popularization": null
   },
@@ -22,7 +24,9 @@
       "place_label_zh": "美国伊利诺伊州（1961年商业上市）",
       "place_label_en": "Illinois, USA (1961 commercial launch)",
       "kind": "production",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Illinois, Estados Unidos (lanzamiento comercial de 1961)",
+      "place_label_ja": "米国イリノイ州（1961年の商業発売）"
     }
   ],
   "confidence": "year",
@@ -56,14 +60,20 @@
     "cleaning",
     "health"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/disposable-diaper.jpg",
     "alt_zh": "一次性纸尿裤实物",
     "alt_en": "Disposable diaper",
     "credit": "Coop41",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Disposablediaper.JPG"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Disposablediaper.JPG",
+    "alt_es": "Pañal desechable",
+    "alt_ja": "使い捨て紙おむつ"
   },
-  "primary": "mass_production"
+  "primary": "mass_production",
+  "name_es": "Pañal desechable",
+  "summary_es": "El pañal desechable combina absorción y protección contra fugas y reduce los lavados. Compresas y cubiertas siguieron distintas vías de desarrollo; el lanzamiento de Pampers en 1961 marcó un hito comercial del producto moderno.",
+  "notes_es": "Las compresas absorbentes desechables, las cubiertas impermeables reutilizables y los pañales integrales modernos son formas distintas. La patente de Donovan de 1951 trataba de una cubierta impermeable, no de la invención directa del pañal moderno. Se usa el lanzamiento de 1961, sin asignar un único inventor.",
+  "notes_ja": "使い捨て吸収パッド、再使用できる防水カバー、現代の一体型紙おむつは異なる形態である。Donovanの1951年の特許は防水カバーに関するもので、現代の紙おむつの発明年とはできない。本項は1961年の発売を主要年とし、唯一の発明者は指定しない。"
 }

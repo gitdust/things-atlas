@@ -9,20 +9,26 @@
       "year": 1826,
       "precision": "year",
       "ref": "John Walker's friction match, Stockton-on-Tees",
-      "ref_zh": "沃克在斯托克顿发明摩擦火柴"
+      "ref_zh": "沃克在斯托克顿发明摩擦火柴",
+      "ref_es": "John Walker inventa la cerilla de fricción en Stockton-on-Tees",
+      "ref_ja": "ジョン・ウォーカーがストックトン・オン・ティーズで摩擦マッチを発明した"
     },
     "patent": null,
     "mass_production": {
       "year": 1855,
       "precision": "year",
       "ref": "Lundström brothers' safety matches shown at the Paris Universal Exhibition (made in Jönköping)",
-      "ref_zh": "伦德斯特伦兄弟的安全火柴在巴黎世博会展出（产自延雪平）"
+      "ref_zh": "伦德斯特伦兄弟的安全火柴在巴黎世博会展出（产自延雪平）",
+      "ref_es": "Las cerillas de seguridad de los hermanos Lundström, fabricadas en Jönköping, se presentan en la Exposición Universal de París",
+      "ref_ja": "ルンドストレム兄弟がヨンショーピングで製造した安全マッチをパリ万国博覧会に出品した"
     },
     "popularization": {
       "year": 1827,
       "precision": "year",
       "ref": "Walker sells his first friction matches",
-      "ref_zh": "沃克开始出售摩擦火柴"
+      "ref_zh": "沃克开始出售摩擦火柴",
+      "ref_es": "Walker empieza a vender sus cerillas de fricción",
+      "ref_ja": "ウォーカーが摩擦マッチの販売を開始した"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "英国斯托克顿",
       "place_label_en": "Stockton-on-Tees, UK",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Stockton-on-Tees, Reino Unido",
+      "place_label_ja": "英国ストックトン・オン・ティーズ"
     },
     {
       "lat": 57.783,
@@ -40,7 +48,9 @@
       "place_label_zh": "瑞典延雪平（伦德斯特伦兄弟）",
       "place_label_en": "Jönköping, Sweden (Lundström brothers)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Jönköping, Suecia (hermanos Lundström)",
+      "place_label_ja": "スウェーデン・ヨンショーピング（ルンドストレム兄弟）"
     }
   ],
   "confidence": "year",
@@ -60,14 +70,20 @@
   "tags": [
     "household"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/match.jpg",
     "alt_zh": "在火柴盒上划燃一根火柴",
     "alt_en": "Striking a match on its box",
     "credit": "Yann SEGALEN",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Friction_d%27une_allumette.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Friction_d%27une_allumette.jpg",
+    "alt_es": "Encendido de una cerilla al rascarla en su caja",
+    "alt_ja": "マッチ箱でマッチを擦って点火する様子"
   },
-  "notes_en": "Safety matches, whose heads no longer contain the readily ignitable substance and are lit using the red-phosphorus striking surface on the box, were proposed by Swede Gustaf Erik Pasch in 1844 (the patent covered the striking surface). The Lundström brothers mass-produced them in Jönköping and exhibited them in Paris in 1855. The 1366 Chinese text Nancun Chuogeng Lu records sulfur-treated pine sticks in use as early as 577."
+  "notes_en": "Safety matches, whose heads no longer contain the readily ignitable substance and are lit using the red-phosphorus striking surface on the box, were proposed by Swede Gustaf Erik Pasch in 1844 (the patent covered the striking surface). The Lundström brothers mass-produced them in Jönköping and exhibited them in Paris in 1855. The 1366 Chinese text Nancun Chuogeng Lu records sulfur-treated pine sticks in use as early as 577.",
+  "name_es": "Cerilla",
+  "summary_es": "El farmacéutico John Walker inventó en Stockton las cerillas de fricción en 1826. Las cerillas de seguridad actuales separan el fósforo rojo en el lateral de la caja; se desarrollaron en Suecia y se fabricaron en serie en Jönköping.",
+  "notes_es": "Gustaf Erik Pasch propuso en Suecia en 1844 la cerilla de seguridad, con la sustancia de fácil ignición separada de la cabeza y el fósforo rojo en la superficie de rascado de la caja; su patente cubría esa superficie. Los Lundström la produjeron en Jönköping y la exhibieron en París en 1855. El Nancun Chuogeng Lu chino de 1366 documenta palitos de pino con azufre usados ya en 577.",
+  "notes_ja": "頭薬から発火しやすい物質を分離し、箱側面の赤リンを塗った摩擦面で点火する安全マッチは、スウェーデンのグスタフ・エリック・パッシュが1844年に提案した（特許は摩擦面に関するもの）。ルンドストレム兄弟がヨンショーピングで量産し、1855年のパリ万博で展示した。中国の『南村輟耕録』（1366年）には577年に硫黄を付けた松の棒が使われていたとの記録がある。"
 }

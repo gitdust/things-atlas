@@ -9,7 +9,9 @@
       "year": -500,
       "precision": "century",
       "ref": "Padlocks dating to the Roman era (500 BCE – 300 CE)",
-      "ref_zh": "古罗马时期（前 500–公元 300 年）已有挂锁"
+      "ref_zh": "古罗马时期（前 500–公元 300 年）已有挂锁",
+      "ref_es": "Se conservan candados de época romana, entre el 500 a. C. y el 300 d. C.",
+      "ref_ja": "古代ローマ時代（紀元前500年〜紀元300年）の南京錠が残っている"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "罗马帝国（意大利罗马）",
       "place_label_en": "Roman world (Rome, Italy)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Mundo romano (Roma, Italia)",
+      "place_label_ja": "ローマ世界（イタリア・ローマ）"
     }
   ],
   "confidence": "century",
@@ -42,14 +46,20 @@
   "tags": [
     "household"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/padlock.jpg",
     "alt_zh": "一把铜挂锁和钥匙",
     "alt_en": "A brass padlock with keys",
     "credit": "Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com]",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Padlock_kl%C3%B3dka_ubt.JPG"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Padlock_kl%C3%B3dka_ubt.JPG",
+    "alt_es": "Un candado de latón con sus llaves",
+    "alt_ja": "真鍮製の南京錠と鍵"
   },
-  "notes_en": "Weak sourcing: the date range is wide, so only century precision is given; the English word padlock dates from the late 15th century."
+  "notes_en": "Weak sourcing: the date range is wide, so only century precision is given; the English word padlock dates from the late 15th century.",
+  "name_es": "Candado",
+  "summary_es": "Se conservan candados de época romana, entre el 500 a. C. y el 300 d. C. Diseños del siglo XIX, como el de Polhem, mejoraron su seguridad.",
+  "notes_es": "Las fuentes son débiles y abarcan un periodo amplio, por lo que solo se indica precisión de siglo. La palabra inglesa padlock data de finales del siglo XV.",
+  "notes_ja": "出典は弱く、年代幅が広いため精度は世紀単位とする。英語のpadlockという語が現れるのは15世紀末である。"
 }

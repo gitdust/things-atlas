@@ -8,11 +8,13 @@ type ChangeRecord = {
   afterVersion: string;
   zh: string;
   en: string;
+  es: string;
+  ja: string;
 };
 
 type ReleaseManifest = {
   version: string;
-  changes: { id: string; zh: string; en: string }[];
+  changes: Omit<ChangeRecord, 'afterVersion'>[];
 };
 
 function versionParts(version: unknown): number[] {
@@ -46,7 +48,7 @@ export function createReleaseManifest(
   const records: ChangeRecord[] = input.map((entry: unknown) => {
     if (!entry || typeof entry !== 'object') throw new Error('Each change must be an object');
     const record = entry as Record<string, unknown>;
-    for (const field of ['id', 'afterVersion', 'zh', 'en'] as const) {
+    for (const field of ['id', 'afterVersion', 'zh', 'en', 'es', 'ja'] as const) {
       if (typeof record[field] !== 'string' || !record[field].trim()) {
         throw new Error(`Change field ${field} must be a non-empty string`);
       }
@@ -66,7 +68,7 @@ export function createReleaseManifest(
     version,
     changes: records
       .filter((entry) => entry.afterVersion === previousVersion)
-      .map(({ id, zh, en }) => ({ id, zh, en })),
+      .map(({ id, zh, en, es, ja }) => ({ id, zh, en, es, ja })),
   };
 }
 

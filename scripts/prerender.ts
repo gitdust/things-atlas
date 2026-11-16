@@ -72,10 +72,10 @@ function definedTerm(item: AtlasItem, lang: Lang) {
   return {
     '@type': 'DefinedTerm',
     '@id': `${url(itemPath(item.id), lang)}#term`,
-    name: pick(lang, item.name_zh, item.name_en, { ja: item.name_ja }),
+    name: pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja }),
     alternateName: pick(lang === 'zh' ? 'en' : 'zh', item.name_zh, item.name_en),
     termCode: item.id,
-    description: `${formatYear(lang, item.primary_year)} — ${pick(lang, item.summary_zh, item.summary_en, { ja: item.summary_ja })}`,
+    description: `${formatYear(lang, item.primary_year)} — ${pick(lang, item.summary_zh, item.summary_en, { es: item.summary_es, ja: item.summary_ja })}`,
     url: url(itemPath(item.id), lang),
     ...(item.image?.src ? { image: ORIGIN + item.image.src } : {}),
     inDefinedTermSet: TERM_SET_ID,
@@ -130,7 +130,7 @@ function itemLd(item: AtlasItem, lang: Lang) {
         {
           '@type': 'ListItem',
           position: 2,
-          name: pick(lang, item.name_zh, item.name_en, { ja: item.name_ja }),
+          name: pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja }),
           item: url(itemPath(item.id), lang),
         },
       ],
@@ -191,7 +191,7 @@ function catalogue(lang: Lang) {
   const rows = index.items
     .map((item) => {
       const href = url(itemPath(item.id), lang).replace(ORIGIN, '');
-      return `<li><a href="${href}">${esc(pick(lang, item.name_zh, item.name_en, { ja: item.name_ja }))}</a> — ${esc(formatYear(lang, item.primary_year))}</li>`;
+      return `<li><a href="${href}">${esc(pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja }))}</a> — ${esc(formatYear(lang, item.primary_year))}</li>`;
     })
     .join('');
   return `<noscript><nav class="noscript-catalog" aria-label="${esc(tr(lang, 'noscriptCatalogue'))}"><p>${esc(tr(lang, 'noscriptNeedJs'))}</p><ol>${rows}</ol></nav></noscript>`;

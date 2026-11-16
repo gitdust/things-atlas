@@ -9,7 +9,9 @@
       "year": 100,
       "precision": "century",
       "ref": "Eastern Han kitchen murals (e.g. Dahuting) show steamer baskets in use",
-      "ref_zh": "东汉打虎亭等庖厨画像可见蒸笼类器具"
+      "ref_zh": "东汉打虎亭等庖厨画像可见蒸笼类器具",
+      "ref_es": "Murales de cocinas Han orientales, como los de Dahuting, muestran cestas para cocinar al vapor.",
+      "ref_ja": "打虎亭など後漢の厨房壁画に蒸籠類が見られる。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1200,
       "precision": "century",
       "ref": "Stacked bamboo zhenglong become standard dim-sum and household steamers",
-      "ref_zh": "竹制叠层蒸笼成为点心与家用标准蒸具"
+      "ref_zh": "竹制叠层蒸笼成为点心与家用标准蒸具",
+      "ref_es": "Las cestas de bambú apilables se convierten en vaporeras habituales para el dim sum y el hogar.",
+      "ref_ja": "竹製の重ね蒸籠が点心や家庭の蒸し料理の標準的な道具となる。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国河南密县打虎亭（东汉庖厨图像）",
       "place_label_en": "Dahuting, Mixian, Henan, China (Eastern Han kitchen mural)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Dahuting, Mixian, Henan, China (mural de cocina Han oriental)",
+      "place_label_ja": "中国河南省密県打虎亭（後漢の厨房画像）"
     },
     {
       "lat": 23.13,
@@ -35,7 +41,9 @@
       "place_label_zh": "中国广东（后世点心蒸笼传统中心）",
       "place_label_en": "Guangdong, China (later dim-sum steamer tradition)",
       "kind": "popularization",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Guangdong, China (tradición posterior de vaporeras para dim sum)",
+      "place_label_ja": "中国広東省（後世の点心用蒸籠の伝統）"
     }
   ],
   "confidence": "century",
@@ -62,13 +70,19 @@
   "tags": [
     "cooking"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/bamboo-steamer.jpg",
     "alt_zh": "竹制蒸笼",
     "alt_en": "A bamboo steamer basket",
     "credit": "D-Kuru",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Bamboo_steamer-top_oblique-fs_PNr%C2%B00727.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bamboo_steamer-top_oblique-fs_PNr%C2%B00727.jpg",
+    "alt_es": "Vaporera de bambú",
+    "alt_ja": "竹製の蒸籠"
+  },
+  "name_es": "Vaporera de bambú",
+  "summary_es": "Las vaporeras apilables de bambú aparecen en imágenes de cocinas de época Han y se convirtieron después en utensilios habituales para el dim sum y la cocina china al vapor. Las vasijas cerámicas para cocer al vapor tienen una historia anterior.",
+  "notes_es": "Las vasijas cerámicas para cocer al vapor se remontan al Neolítico; esta entrada trata de las cestas apilables de bambú. La atribución a Han Xin carece de pruebas; se toma como referencia la evidencia visual Han oriental.",
+  "notes_ja": "陶製の甑は新石器時代にさかのぼるが、本項は竹編みの重ね蒸籠を扱う。韓信の発明とする伝説には実証がなく、後漢の画像資料を主要年代の根拠とする。"
 }

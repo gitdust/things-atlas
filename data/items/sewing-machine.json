@@ -5,14 +5,16 @@
       "year": 1846,
       "precision": "year",
       "ref": "Howe receives US patent 4,750 for an improved lockstitch sewing machine",
-      "ref_zh": "豪获得改进锁式线迹缝纫机的美国第4750号专利"
+      "ref_zh": "豪获得改进锁式线迹缝纫机的美国第4750号专利",
+      "ref_es": "Howe obtiene la patente estadounidense n.º 4750 de una máquina de coser de pespunte mejorada.",
+      "ref_ja": "Howe が改良型本縫いミシンの米国特許第4750号を取得。"
     },
     "mass_production": null,
     "popularization": null
   },
   "confidence": "year",
   "disputed": false,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "id": "sewing-machine",
   "name_zh": "缝纫机",
   "name_en": "Sewing machine",
@@ -26,7 +28,9 @@
       "place_label_zh": "美国马萨诸塞州剑桥（豪的锁式线迹缝纫机）",
       "place_label_en": "Cambridge, Massachusetts, USA (Howe’s lockstitch machine)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Cambridge, Massachusetts, EE. UU. (máquina de pespunte de Howe)",
+      "place_label_ja": "米国マサチューセッツ州ケンブリッジ（Howe の本縫いミシン）"
     }
   ],
   "sources": [
@@ -58,6 +62,12 @@
     "alt_en": "A vintage Vesta sewing machine",
     "credit": "Nikodem Nijaki",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Vesta_sewing_machine_IMGP0718.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vesta_sewing_machine_IMGP0718.jpg",
+    "alt_es": "Una antigua máquina de coser Vesta",
+    "alt_ja": "古い Vesta 製ミシン"
+  },
+  "name_es": "Máquina de coser",
+  "summary_es": "En 1846, Elias Howe patentó una mejora de la máquina de coser de pespunte, que entrelaza los hilos de la aguja y la lanzadera. La costura mecánica transformó la confección y llegó al hogar con modelos de pedal y eléctricos.",
+  "notes_es": "La máquina de coser fue desarrollada por varios pioneros; Howe no fue su único inventor. La patente de pespunte de 1846 es un hito representativo, no el origen de toda la categoría. Los modelos de pedal, eléctricos e informatizados forman parte de la misma evolución.",
+  "notes_ja": "ミシンは複数の先駆者が発展させたもので、Howe が唯一の発明者ではない。本項は1846年の本縫い特許を代表的な節目とし、機械全体の起点とはしない。足踏み式、電動式、コンピューター制御式も同じ発展史に含める。"
 }

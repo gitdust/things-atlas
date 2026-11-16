@@ -9,7 +9,9 @@
       "year": -1300,
       "precision": "century",
       "ref": "Representative date within the 1539–1077 BCE dating of a surviving broom from Deir el-Medina; not an invention date",
-      "ref_zh": "代尔麦地那出土扫帚定年为前1539—前1077年；取约前1300年为展示点，并非发明年份"
+      "ref_zh": "代尔麦地那出土扫帚定年为前1539—前1077年；取约前1300年为展示点，并非发明年份",
+      "ref_es": "Fecha representativa dentro de la datación de 1539–1077 a. C. de una escoba de Deir el-Medina; no es una fecha de invención.",
+      "ref_ja": "デイル・エル＝メディーナ出土の箒の年代範囲（前1539～前1077年）内の代表年であり、発明年ではない。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1797,
       "precision": "year",
       "ref": "Levi Dickinson’s broomcorn brooms at Hadley became a milestone in a regional American broom-making industry",
-      "ref_zh": "哈德利的利维·迪金森制作高粱穗扫帚，成为美国当地制帚业的发展节点"
+      "ref_zh": "哈德利的利维·迪金森制作高粱穗扫帚，成为美国当地制帚业的发展节点",
+      "ref_es": "Las escobas de sorgo de Levi Dickinson en Hadley marcan un hito de la industria regional estadounidense.",
+      "ref_ja": "HadleyでのLevi Dickinsonのホウキモロコシ製箒が米国の地域製帚業の節目となる。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "埃及代尔麦地那（新王国时期出土实物）",
       "place_label_en": "Deir el-Medina, Egypt (surviving New Kingdom broom)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Deir el-Medina, Egipto (ejemplar del Imperio Nuevo)",
+      "place_label_ja": "エジプト、デイル・エル＝メディーナ（新王国時代の出土品）"
     },
     {
       "lat": 42.3418,
@@ -36,7 +42,9 @@
       "place_label_en": "Hadley, Massachusetts, USA (broomcorn industry milestone, 1797)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1797
+      "year_override": 1797,
+      "place_label_es": "Hadley, Massachusetts, Estados Unidos (industria de escobas de sorgo de 1797)",
+      "place_label_ja": "米国マサチューセッツ州ハドリー（1797年のホウキモロコシ製箒産業）"
     }
   ],
   "confidence": "disputed",
@@ -64,13 +72,19 @@
     "cleaning",
     "household"
   ],
-  "updated": "2026-11-06",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/broom.jpg",
     "alt_zh": "带木柄的枝条扫帚",
     "alt_en": "A twig broom with a wooden handle",
     "credit": "Thomas Schmidt (Schmidti)",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Broom.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Broom.jpg",
+    "alt_es": "Escoba de ramas con mango de madera",
+    "alt_ja": "木の柄が付いた小枝の箒"
+  },
+  "name_es": "Escoba",
+  "summary_es": "Un haz de ramas o fibras vegetales permite barrer el suelo. Se conservan escobas del Imperio Nuevo egipcio; las escobas de sorgo de Hadley de 1797 impulsaron una industria regional estadounidense.",
+  "notes_es": "No se conocen el primer lugar ni la primera fecha de fabricación de escobas. El ejemplar de Deir el-Medina del Museo Egipcio de Turín se fecha entre 1539 y 1077 a. C.; se representa hacia 1300 a. C. como punto dentro del intervalo. El lugar del hallazgo no es un origen demostrado. El registro estadounidense de 1797 se refiere al sorgo y a una industria local, no a la primera escoba.",
+  "notes_ja": "箒は植物を束ねた道具で、世界最初の製作年代や場所は未確定。トリノ・エジプト博物館所蔵のデイル・エル＝メディーナ出土品は前1539～前1077年とされ、時間軸ではその範囲内の代表点として前1300年頃を用いる。出土地は発明地と確認されたわけではない。1797年の米国の記録はホウキモロコシと地域産業に関するもので、箒全般の初発明ではない。"
 }

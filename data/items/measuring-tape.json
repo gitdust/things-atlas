@@ -9,13 +9,17 @@
       "year": 1821,
       "precision": "year",
       "ref": "James Chesterman's retractable tape, Sheffield",
-      "ref_zh": "谢菲尔德的切斯特曼制作可收卷的卷尺"
+      "ref_zh": "谢菲尔德的切斯特曼制作可收卷的卷尺",
+      "ref_es": "James Chesterman crea una cinta métrica enrollable en Sheffield",
+      "ref_ja": "ジェームズ・チェスターマンがシェフィールドで巻き取り式の巻尺を製作した"
     },
     "patent": {
       "year": 1868,
       "precision": "exact",
       "ref": "Alvin J. Fellows, US 79,965 (14 Jul 1868)",
-      "ref_zh": "费洛斯获美国专利 US 79,965（1868-07-14）"
+      "ref_zh": "费洛斯获美国专利 US 79,965（1868-07-14）",
+      "ref_es": "Alvin J. Fellows obtiene la patente US 79965 el 14 de julio de 1868",
+      "ref_ja": "アルヴィン・J・フェローズの米国特許79,965（1868年7月14日）"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "英国谢菲尔德（切斯特曼）",
       "place_label_en": "Sheffield, UK (Chesterman)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Sheffield, Reino Unido (Chesterman)",
+      "place_label_ja": "英国シェフィールド（チェスターマン）"
     },
     {
       "lat": 41.661,
@@ -35,7 +41,9 @@
       "place_label_zh": "美国康涅狄格州新不列颠（费洛斯）",
       "place_label_en": "New Britain, Connecticut, USA (Fellows)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "New Britain, Connecticut, EE. UU. (Fellows)",
+      "place_label_ja": "米国コネティカット州ニューブリテン（フェローズ）"
     }
   ],
   "confidence": "year",
@@ -67,14 +75,20 @@
   "tags": [
     "repair"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/measuring-tape.jpg",
     "alt_zh": "一只橙色钢卷尺",
     "alt_en": "An orange steel tape measure",
     "credit": "Klein Tools",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Tape_Measure_25%27_Klein_Tools.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tape_Measure_25%27_Klein_Tools.jpg",
+    "alt_es": "Una cinta métrica de acero con carcasa naranja",
+    "alt_ja": "オレンジ色の鋼製巻尺"
   },
-  "notes_en": "William H. Bangs also patented a tape measure in 1864; Fellows's design added a spring click lock to hold the tape."
+  "notes_en": "William H. Bangs also patented a tape measure in 1864; Fellows's design added a spring click lock to hold the tape.",
+  "name_es": "Cinta métrica",
+  "summary_es": "James Chesterman creó en Sheffield una cinta métrica enrollable en 1821. En 1868, Fellows, de Connecticut, solicitó una patente para un modelo con bloqueo por resorte.",
+  "notes_es": "William H. Bangs también patentó una cinta métrica en 1864; Fellows añadió un cierre por resorte para sujetar la cinta.",
+  "notes_ja": "ウィリアム・H・バングスも1864年に巻尺の特許を取得していた。フェローズの設計は尺帯を固定するばね式ロックを追加した。"
 }

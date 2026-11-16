@@ -9,20 +9,26 @@
       "year": 1950,
       "precision": "year",
       "ref": "Harry Wasylyk and Larry Hansen created the first green polyethylene garbage bag in Winnipeg",
-      "ref_zh": "哈里·瓦西里克与拉里·汉森在温尼伯制成首批绿色聚乙烯垃圾袋"
+      "ref_zh": "哈里·瓦西里克与拉里·汉森在温尼伯制成首批绿色聚乙烯垃圾袋",
+      "ref_es": "Harry Wasylyk y Larry Hansen fabrican en Winnipeg las primeras bolsas verdes de polietileno para basura.",
+      "ref_ja": "Harry Wasylyk と Larry Hansen がウィニペグで初期の緑色ポリエチレン製ごみ袋を製作。"
     },
     "patent": null,
     "mass_production": {
       "year": 1950,
       "precision": "year",
       "ref": "Wasylyk mass-produces polyethylene bags and supplies Winnipeg General Hospital and other institutions",
-      "ref_zh": "瓦西里克批量生产聚乙烯垃圾袋并向温尼伯综合医院等机构商业供应"
+      "ref_zh": "瓦西里克批量生产聚乙烯垃圾袋并向温尼伯综合医院等机构商业供应",
+      "ref_es": "Wasylyk produce bolsas de polietileno y las suministra comercialmente al Hospital General de Winnipeg y otras instituciones.",
+      "ref_ja": "Wasylyk がポリエチレン製ごみ袋を量産し、ウィニペグ総合病院などへ供給。"
     },
     "popularization": {
       "year": 1969,
       "precision": "year",
       "ref": "Union Carbide introduced Glad trash bags for home consumer use",
-      "ref_zh": "联合碳化物公司推出 Glad（佳能）家用垃圾袋，进入大众消费市场"
+      "ref_zh": "联合碳化物公司推出 Glad（佳能）家用垃圾袋，进入大众消费市场",
+      "ref_es": "Union Carbide lanza las bolsas domésticas Glad para el mercado de consumo.",
+      "ref_ja": "Union Carbide が家庭用 Glad ごみ袋を発売し、大衆市場に進出。"
     }
   },
   "primary": "invention",
@@ -33,7 +39,9 @@
       "place_label_zh": "加拿大曼尼托巴省温尼伯（瓦西里克聚乙烯垃圾袋）",
       "place_label_en": "Winnipeg, Manitoba, Canada (Wasylyk polyethylene garbage bag)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Winnipeg, Manitoba, Canadá (bolsas de polietileno de Wasylyk)",
+      "place_label_ja": "カナダ・マニトバ州ウィニペグ（Wasylyk のポリエチレン製ごみ袋）"
     }
   ],
   "confidence": "year",
@@ -60,13 +68,17 @@
     "storage",
     "household"
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/trash-bag.jpg",
     "alt_zh": "一个装有废弃物的黑色塑料垃圾袋",
     "alt_en": "A black plastic garbage bag filled with waste",
     "credit": "Yuyudevil",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:A_typical_black_bin_bag_from_the_UK_20060811.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_typical_black_bin_bag_from_the_UK_20060811.jpg",
+    "alt_es": "Una bolsa de basura negra de plástico con residuos",
+    "alt_ja": "ごみの入った黒いプラスチック袋"
+  },
+  "name_es": "Bolsa de basura",
+  "summary_es": "Las bolsas de basura recogen residuos en una película plástica. En 1950, Wasylyk fabricó bolsas impermeables de polietileno para hospitales de Winnipeg. Los rollos domésticos llegaron a finales de los sesenta y mejoraron la higiene diaria."
 }

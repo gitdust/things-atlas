@@ -9,7 +9,9 @@
       "year": 1999,
       "precision": "year",
       "ref": "Secure Digital introduced in August 1999 by SanDisk, Panasonic and Toshiba",
-      "ref_zh": "闪迪、松下、东芝于 1999 年 8 月推出 SD 格式"
+      "ref_zh": "闪迪、松下、东芝于 1999 年 8 月推出 SD 格式",
+      "ref_es": "SanDisk, Panasonic y Toshiba presentan el formato SD en agosto de 1999.",
+      "ref_ja": "SanDisk、Panasonic、Toshiba が1999年8月に SD 規格を発表。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 2000,
       "precision": "year",
       "ref": "SD Association formed (January 2000)",
-      "ref_zh": "SD 协会成立（2000 年 1 月）"
+      "ref_zh": "SD 协会成立（2000 年 1 月）",
+      "ref_es": "Se funda la SD Association en enero de 2000.",
+      "ref_ja": "2000年1月に SD Association が設立。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "美国加利福尼亚（闪迪）",
       "place_label_en": "California, USA (SanDisk)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "California, EE. UU. (SanDisk)",
+      "place_label_ja": "米国カリフォルニア州（SanDisk）"
     },
     {
       "lat": 35.68,
@@ -35,7 +41,9 @@
       "place_label_zh": "日本（松下 / 东芝）",
       "place_label_en": "Japan (Panasonic / Toshiba)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Japón (Panasonic / Toshiba)",
+      "place_label_ja": "日本（Panasonic / Toshiba）"
     }
   ],
   "confidence": "year",
@@ -54,13 +62,17 @@
   "tags": [
     "computing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/sd-card.jpg",
     "alt_zh": "一张闪迪 128MB SD 卡的正反面",
     "alt_en": "Front and back of a SanDisk 128 MB SD card",
     "credit": "Mister rf",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:SanDisk_128MB_SD_card.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:SanDisk_128MB_SD_card.jpg",
+    "alt_es": "Anverso y reverso de una tarjeta SD SanDisk de 128 MB",
+    "alt_ja": "SanDisk 製128MB SD カードの表裏"
+  },
+  "name_es": "Tarjeta SD",
+  "summary_es": "En agosto de 1999, SanDisk, Panasonic y Toshiba presentaron la tarjeta SD como sucesora de la MMC. En enero de 2000 fundaron la SD Association."
 }

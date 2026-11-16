@@ -9,7 +9,9 @@
       "year": 1903,
       "precision": "year",
       "ref": "Albert J. Parkhouse bends a wire into a hanger at work, Jackson, Michigan",
-      "ref_zh": "帕克豪斯在密歇根州杰克逊用铁丝弯出衣架"
+      "ref_zh": "帕克豪斯在密歇根州杰克逊用铁丝弯出衣架",
+      "ref_es": "Albert J. Parkhouse dobla un alambre para formar una percha en su trabajo, en Jackson, Michigan.",
+      "ref_ja": "Albert J. Parkhouseがミシガン州ジャクソンの職場で針金を曲げてハンガーを作る。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "美国密歇根州杰克逊",
       "place_label_en": "Jackson, Michigan, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Jackson, Michigan, Estados Unidos",
+      "place_label_ja": "米国ミシガン州ジャクソン"
     },
     {
       "lat": 41.661,
@@ -31,7 +35,9 @@
       "place_label_en": "New Britain, Connecticut, USA (O. A. North coat hook)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1869
+      "year_override": 1869,
+      "place_label_es": "New Britain, Connecticut, Estados Unidos (gancho de O. A. North)",
+      "place_label_ja": "米国コネティカット州ニューブリテン（O. A. Northの衣類用フック）"
     }
   ],
   "confidence": "disputed",
@@ -52,14 +58,20 @@
     "storage",
     "household"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/coat-hanger.jpg",
     "alt_zh": "一摞木质衣架",
     "alt_en": "A stack of wooden coat hangers",
     "credit": "Photograph by Mike Peel (www.mikepeel.net).",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Wooden_coat_hangers.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wooden_coat_hangers.jpg",
+    "alt_es": "Pila de perchas de madera",
+    "alt_ja": "重ねられた木製ハンガー"
   },
-  "notes_en": "Disputed: the wire hanger was inspired by O. A. North's 1869 coat hook, but the 1903 Parkhouse story from Jackson is also widely told. This entry uses 1903 and marks North as contested."
+  "notes_en": "Disputed: the wire hanger was inspired by O. A. North's 1869 coat hook, but the 1903 Parkhouse story from Jackson is also widely told. This entry uses 1903 and marks North as contested.",
+  "name_es": "Percha",
+  "summary_es": "La percha de alambre con forma de hombros se atribuye tanto al gancho de O. A. North, de Connecticut, de 1869, como a Parkhouse, que en 1903 habría doblado alambre al no encontrar un gancho en su trabajo en Michigan.",
+  "notes_es": "La autoría es discutida: el gancho de O. A. North de 1869 influyó en la percha de alambre, pero también es conocido el relato de Parkhouse en Jackson en 1903. Se adopta 1903 y se marca la contribución de North como origen alternativo.",
+  "notes_ja": "発明者には異説がある。1869年のO. A. Northの衣類用フックが肩形針金ハンガーに影響した一方、1903年のジャクソンでのParkhouseの話も広く伝わる。本項は1903年を採用し、Northを別説として表示する。"
 }

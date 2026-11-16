@@ -9,13 +9,17 @@
       "year": 1681,
       "precision": "year",
       "ref": "Earliest known reference to a corkscrew, England",
-      "ref_zh": "英格兰出现关于螺旋开瓶器的最早记载"
+      "ref_zh": "英格兰出现关于螺旋开瓶器的最早记载",
+      "ref_es": "Primera referencia conocida a un sacacorchos en Inglaterra.",
+      "ref_ja": "イングランドにおける既知最古のコルク抜きの記録。"
     },
     "patent": {
       "year": 1795,
       "precision": "year",
       "ref": "Rev. Samuel Henshall granted the first corkscrew patent, England",
-      "ref_zh": "亨歇尔牧师获首个螺旋开瓶器专利"
+      "ref_zh": "亨歇尔牧师获首个螺旋开瓶器专利",
+      "ref_es": "El reverendo Samuel Henshall obtiene en Inglaterra la primera patente de sacacorchos.",
+      "ref_ja": "Samuel Henshall牧師がイングランドで最初のコルク抜き特許を得る。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "英格兰",
       "place_label_en": "England",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Inglaterra",
+      "place_label_ja": "イングランド"
     }
   ],
   "confidence": "year",
@@ -46,13 +52,17 @@
   "tags": [
     "dining"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/corkscrew.jpg",
     "alt_zh": "几种螺旋开瓶器",
     "alt_en": "Several corkscrews",
     "credit": "Alvesgaspar",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Corkscrews_December_2014-1.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Corkscrews_December_2014-1.jpg",
+    "alt_es": "Sacacorchos de varios tipos",
+    "alt_ja": "さまざまなコルク抜き"
+  },
+  "name_es": "Sacacorchos",
+  "summary_es": "El sacacorchos pudo derivar de un útil en espiral para limpiar cañones de armas. La primera referencia conocida es inglesa, de 1681; el reverendo Samuel Henshall obtuvo la primera patente en 1795."
 }

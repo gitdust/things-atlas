@@ -9,25 +9,33 @@
       "year": 1858,
       "precision": "year",
       "ref": "Louis Vuitton introduces the first flat-topped waterproof Trianon canvas trunk in Paris, designed for train and steamship stacking",
-      "ref_zh": "路易·威登在巴黎推出首款平顶防水特里亚农帆布旅行箱，可层叠堆放于火车与轮船货舱，开启现代便携箱包演进"
+      "ref_zh": "路易·威登在巴黎推出首款平顶防水特里亚农帆布旅行箱，可层叠堆放于火车与轮船货舱，开启现代便携箱包演进",
+      "ref_es": "Louis Vuitton presenta en París un baúl impermeable de lona Trianon y tapa plana, apilable en trenes y barcos.",
+      "ref_ja": "Louis Vuitton がパリで防水性の Trianon キャンバス製平蓋トランクを発売。列車や船倉で積み重ねられ、近代的な旅行かばんの発展を開く。"
     },
     "patent": {
       "year": 1970,
       "precision": "exact",
       "ref": "Bernard D. Sadow files US Patent 3,653,474 for rolling luggage with four casters and a flexible pulling strap in Fall River, MA",
-      "ref_zh": "伯纳德·萨多在马萨诸塞州福尔里弗申请带四个脚轮与拖拉皮带的四轮行李箱专利（US3653474）"
+      "ref_zh": "伯纳德·萨多在马萨诸塞州福尔里弗申请带四个脚轮与拖拉皮带的四轮行李箱专利（US3653474）",
+      "ref_es": "Bernard Sadow solicita en Fall River, Massachusetts, la patente de una maleta con cuatro ruedas y correa de arrastre (US3653474).",
+      "ref_ja": "Bernard Sadow がマサチューセッツ州 Fall River で4輪と引きひもを備えたスーツケースの特許 US3653474 を出願。"
     },
     "mass_production": {
       "year": 1898,
       "precision": "year",
       "ref": "Paul Morszeck founds RIMOWA in Cologne, beginning mass production of lightweight luggage; its signature aluminium-magnesium alloy cases follow in 1937",
-      "ref_zh": "保罗·莫斯策克在德国科隆创立日默瓦（RIMOWA），开启轻量化旅行箱量产，后于 1937 年推出标志性铝镁合金箱"
+      "ref_zh": "保罗·莫斯策克在德国科隆创立日默瓦（RIMOWA），开启轻量化旅行箱量产，后于 1937 年推出标志性铝镁合金箱",
+      "ref_es": "Paul Morszeck funda RIMOWA en Colonia e inicia la producción de equipaje ligero; la maleta de aleación de aluminio y magnesio llega en 1937.",
+      "ref_ja": "Paul Morszeck がケルンで RIMOWA を設立し軽量トランクを生産。1937年には象徴的なアルミニウム・マグネシウム合金製を発売。"
     },
     "popularization": {
       "year": 1987,
       "precision": "year",
       "ref": "Pilot Robert Plath invents the upright, two-wheeled Rollaboard with a telescoping handle in Florida, founds Travelpro and makes it a global carry-on standard",
-      "ref_zh": "民航飞行员罗伯特·普拉思在佛罗里达发明带双轮与伸缩拉杆的直立式 Rollaboard，创立 Travelpro 并普及为全球民航随身标准"
+      "ref_zh": "民航飞行员罗伯特·普拉思在佛罗里达发明带双轮与伸缩拉杆的直立式 Rollaboard，创立 Travelpro 并普及为全球民航随身标准",
+      "ref_es": "El piloto Robert Plath crea en Florida el Rollaboard vertical, de dos ruedas y asa telescópica, y funda Travelpro.",
+      "ref_ja": "パイロットの Robert Plath がフロリダで2輪と伸縮ハンドルを備えた縦型 Rollaboard を開発し、Travelpro を創業。航空旅行の手荷物として普及する。"
     }
   },
   "primary": "invention",
@@ -38,7 +46,9 @@
       "place_label_zh": "法国巴黎（路易·威登平顶旅行箱）",
       "place_label_en": "Paris, France (Louis Vuitton flat-topped trunk)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "París, Francia (baúl de tapa plana de Louis Vuitton)",
+      "place_label_ja": "フランス・パリ（Louis Vuitton の平蓋トランク）"
     },
     {
       "lat": 50.9375,
@@ -46,7 +56,9 @@
       "place_label_zh": "德国科隆（日默瓦）",
       "place_label_en": "Cologne, Germany (RIMOWA)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Colonia, Alemania (RIMOWA)",
+      "place_label_ja": "ドイツ・ケルン（RIMOWA）"
     },
     {
       "lat": 41.7015,
@@ -54,7 +66,9 @@
       "place_label_zh": "美国马萨诸塞州福尔里弗（萨多脚轮箱专利）",
       "place_label_en": "Fall River, Massachusetts, USA (Sadow’s wheeled-luggage patent)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Fall River, Massachusetts, EE. UU. (patente de equipaje con ruedas de Sadow)",
+      "place_label_ja": "米国マサチューセッツ州フォールリバー（Sadow の車輪付きかばん特許）"
     },
     {
       "lat": 26.3683,
@@ -62,7 +76,9 @@
       "place_label_zh": "美国佛罗里达州博卡拉顿（普拉思 Rollaboard）",
       "place_label_en": "Boca Raton, Florida, USA (Plath’s Rollaboard)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Boca Ratón, Florida, EE. UU. (Rollaboard de Plath)",
+      "place_label_ja": "米国フロリダ州ボカラトン（Plath の Rollaboard）"
     }
   ],
   "confidence": "year",
@@ -100,13 +116,17 @@
     "storage",
     "travel"
   ],
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/suitcase.jpg",
     "alt_zh": "行李箱实物",
     "alt_en": "A suitcase",
     "credit": "JEXP",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Suitcase1.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Suitcase1.jpg",
+    "alt_es": "Una maleta",
+    "alt_ja": "スーツケース"
+  },
+  "name_es": "Maleta",
+  "summary_es": "El baúl de tapa plana de 1858 abrió una etapa del equipaje moderno. Sadow añadió ruedas en 1970 y Plath ideó en 1987 la maleta vertical con asa telescópica, hoy habitual en viajes de larga distancia y en avión."
 }

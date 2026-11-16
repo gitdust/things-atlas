@@ -9,14 +9,18 @@
       "year": 1350,
       "precision": "century",
       "ref": "\"Crochet and loop\" fastening recorded in 14th-century England",
-      "ref_zh": "14 世纪英格兰出现名为 crochet and loop 的钩扣"
+      "ref_zh": "14 世纪英格兰出现名为 crochet and loop 的钩扣",
+      "ref_es": "Se documenta el cierre «crochet and loop» en la Inglaterra del siglo XIV",
+      "ref_ja": "14世紀のイングランドで「crochet and loop」と呼ばれる鉤と輪の留め具が記録された"
     },
     "patent": null,
     "mass_production": {
       "year": 1830,
       "precision": "year",
       "ref": "Henry North of New Britain, CT, has a machine built to make hooks and eyes",
-      "ref_zh": "新不列颠的诺斯请人造机器量产钩扣"
+      "ref_zh": "新不列颠的诺斯请人造机器量产钩扣",
+      "ref_es": "Henry North, de New Britain, Connecticut, encarga una máquina para fabricar corchetes",
+      "ref_ja": "コネティカット州ニューブリテンのヘンリー・ノースが鉤と輪を量産する機械を製作させた"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "英格兰",
       "place_label_en": "England",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Inglaterra",
+      "place_label_ja": "イングランド"
     },
     {
       "lat": 41.661,
@@ -35,7 +41,9 @@
       "place_label_zh": "美国康涅狄格州新不列颠",
       "place_label_en": "New Britain, Connecticut, USA",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "New Britain, Connecticut, EE. UU.",
+      "place_label_ja": "米国コネティカット州ニューブリテン"
     }
   ],
   "confidence": "century",
@@ -55,13 +63,17 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/hook-and-eye.jpg",
     "alt_zh": "一副金属钩扣",
     "alt_en": "A metal hook-and-eye pair",
     "credit": "Eitan Ferman",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Hook_and_eye_clasp.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hook_and_eye_clasp.JPG",
+    "alt_es": "Un corchete metálico de gancho y presilla",
+    "alt_ja": "金属製の鉤と輪の留め具"
+  },
+  "name_es": "Cierre de corchete",
+  "summary_es": "Los cierres de gancho y presilla se documentan como «crochet and loop» en la Inglaterra del siglo XIV. Henry North, de Connecticut, mecanizó su producción en 1830."
 }

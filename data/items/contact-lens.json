@@ -9,25 +9,33 @@
       "year": 1888,
       "precision": "year",
       "ref": "Adolf Fick in Zurich and Eugène Kalt in Paris independently fabricate the first wearable blown-glass scleral contact lenses",
-      "ref_zh": "阿道夫·菲克在苏黎世与欧仁·卡尔特在巴黎分别吹制出贴合巩膜的首批玻璃隐形眼镜"
+      "ref_zh": "阿道夫·菲克在苏黎世与欧仁·卡尔特在巴黎分别吹制出贴合巩膜的首批玻璃隐形眼镜",
+      "ref_es": "Adolf Fick, en Zúrich, y Eugène Kalt, en París, fabrican de forma independiente lentes esclerales de vidrio soplado que pueden llevarse puestas.",
+      "ref_ja": "チューリヒのAdolf FickとパリのEugène Kaltが独立に、装用可能な吹きガラスの強膜レンズを製作する。"
     },
     "patent": {
       "year": 1948,
       "precision": "year",
       "ref": "Kevin Tuohy receives a patent in California for the first plastic (PMMA) contact lenses covering only the cornea",
-      "ref_zh": "凯文·托希在加利福尼亚取得首款仅覆盖角膜的塑料（PMMA）隐形眼镜专利"
+      "ref_zh": "凯文·托希在加利福尼亚取得首款仅覆盖角膜的塑料（PMMA）隐形眼镜专利",
+      "ref_es": "Kevin Tuohy obtiene en California una patente de lentes de plástico PMMA que cubren solo la córnea.",
+      "ref_ja": "Kevin Tuohyがカリフォルニアで角膜だけを覆うPMMA製レンズの特許を取得する。"
     },
     "mass_production": {
       "year": 1961,
       "precision": "year",
       "ref": "Otto Wichterle invents soft hydrogel (pHEMA) lenses in Prague using a homemade centrifuge apparatus",
-      "ref_zh": "捷克化学家奥托·威特勒在布拉格利用自制旋铸机发明水凝胶（pHEMA）软性隐形眼镜"
+      "ref_zh": "捷克化学家奥托·威特勒在布拉格利用自制旋铸机发明水凝胶（pHEMA）软性隐形眼镜",
+      "ref_es": "Otto Wichterle inventa en Praga lentes blandas de hidrogel pHEMA con un aparato centrífugo casero.",
+      "ref_ja": "Otto Wichterleがプラハで自作の遠心装置を使い、pHEMAハイドロゲルのソフトレンズを発明する。"
     },
     "popularization": {
       "year": 1971,
       "precision": "year",
       "ref": "Bausch & Lomb gains FDA approval and launches the SofLens, turning soft contact lenses into a global consumer product",
-      "ref_zh": "博士伦（Bausch & Lomb）推出首款获 FDA 批准的软性隐形眼镜 SofLens，掀起全球普及热潮"
+      "ref_zh": "博士伦（Bausch & Lomb）推出首款获 FDA 批准的软性隐形眼镜 SofLens，掀起全球普及热潮",
+      "ref_es": "Bausch & Lomb recibe autorización de la FDA y lanza SofLens, difundiendo las lentes blandas como producto de consumo mundial.",
+      "ref_ja": "Bausch & LombがFDA承認を得てSofLensを発売し、ソフトレンズを世界的な消費財に広める。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "瑞士苏黎世（菲克制作首副矫正视力的玻璃隐形眼镜）",
       "place_label_en": "Zurich, Switzerland (Adolf Fick fits first corrective glass contact lenses)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Zúrich, Suiza (lentes de vidrio de Fick)",
+      "place_label_ja": "スイス、チューリヒ（Fickの視力矯正用ガラスレンズ）"
     },
     {
       "lat": 50.0755,
@@ -46,7 +56,9 @@
       "place_label_en": "Prague, Czech Republic (Otto Wichterle invents soft hydrogel lenses)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1961
+      "year_override": 1961,
+      "place_label_es": "Praga, Chequia (lentes blandas de hidrogel de Wichterle)",
+      "place_label_ja": "チェコ、プラハ（Wichterleのハイドロゲル製ソフトレンズ）"
     },
     {
       "lat": 43.1566,
@@ -55,7 +67,9 @@
       "place_label_en": "Rochester, New York, USA (Bausch & Lomb commercializes SofLens)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1971
+      "year_override": 1971,
+      "place_label_es": "Rochester, Nueva York, Estados Unidos (SofLens de Bausch & Lomb)",
+      "place_label_ja": "米国ニューヨーク州ロチェスター（Bausch & LombのSofLens量産）"
     }
   ],
   "confidence": "year",
@@ -94,6 +108,10 @@
     "alt_en": "A rigid gas-permeable contact lens on a fingertip",
     "credit": "BillC",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:KC-lens.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:KC-lens.jpg",
+    "alt_es": "Lente de contacto rígida permeable al gas sobre la punta de un dedo",
+    "alt_ja": "指先に載せた酸素透過性ハードコンタクトレンズ"
+  },
+  "name_es": "Lentes de contacto",
+  "summary_es": "Fick y Kalt desarrollaron lentes esclerales de vidrio en 1888. En Praga, Wichterle inventó en 1961 lentes blandas de hidrogel hidrófilo permeable al agua, que permitían corregir la visión sin una montura externa."
 }

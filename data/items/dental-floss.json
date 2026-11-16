@@ -9,25 +9,33 @@
       "year": 1815,
       "precision": "year",
       "ref": "New Orleans dentist Levi Spear Parmly advocates unwaxed silk thread to remove debris between teeth, beginning modern flossing",
-      "ref_zh": "新奥尔良牙医帕姆利主张用无蜡丝线清除牙缝污垢，开启现代牙线洁齿"
+      "ref_zh": "新奥尔良牙医帕姆利主张用无蜡丝线清除牙缝污垢，开启现代牙线洁齿",
+      "ref_es": "El dentista Levi Spear Parmly, de Nueva Orleans, recomienda seda sin encerar para retirar restos entre los dientes e inicia el uso moderno del hilo dental.",
+      "ref_ja": "ニューオーリンズの歯科医Levi Spear Parmlyが歯間の汚れを除く無蝋の絹糸を推奨し、近代的なフロス清掃の先駆けとなる。"
     },
     "patent": {
       "year": 1898,
       "precision": "year",
       "ref": "Johnson & Johnson receives first US patent for dental floss made from leftover suture silk",
-      "ref_zh": "强生公司利用制造医用缝合线的蚕丝余料取得首个牙线专利（US608034）"
+      "ref_zh": "强生公司利用制造医用缝合线的蚕丝余料取得首个牙线专利（US608034）",
+      "ref_es": "Johnson & Johnson obtiene la primera patente estadounidense de hilo dental fabricado con restos de seda de sutura.",
+      "ref_ja": "Johnson & Johnsonが縫合用絹糸の余材を用いるデンタルフロスの米国特許を得る。"
     },
     "mass_production": {
       "year": 1882,
       "precision": "year",
       "ref": "Codman & Shurtleff begins commercial manufacturing of unwaxed silk floss, Massachusetts",
-      "ref_zh": "马萨诸塞州的科德曼与舒特利夫公司开始商业化生产无蜡丝质牙线"
+      "ref_zh": "马萨诸塞州的科德曼与舒特利夫公司开始商业化生产无蜡丝质牙线",
+      "ref_es": "Codman & Shurtleff inicia la fabricación comercial de hilo dental de seda sin encerar en Massachusetts.",
+      "ref_ja": "マサチューセッツ州のCodman & Shurtleffが無蝋の絹製フロスの商業生産を始める。"
     },
     "popularization": {
       "year": 1940,
       "precision": "decade",
       "ref": "Dr. Bass replaces fragile natural silk with DuPont nylon, helping nylon floss become an everyday household essential worldwide",
-      "ref_zh": "巴斯医生用杜邦尼龙替代易断裂的天然蚕丝，推动尼龙牙线成为全球家庭日常必需品"
+      "ref_zh": "巴斯医生用杜邦尼龙替代易断裂的天然蚕丝，推动尼龙牙线成为全球家庭日常必需品",
+      "ref_es": "El doctor Bass sustituye la seda frágil por nailon de DuPont, facilitando la difusión mundial del hilo dental doméstico.",
+      "ref_ja": "Bass医師が切れやすい絹をDuPontのナイロンに替え、家庭用フロスの世界的な普及を促す。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "美国路易斯安那州新奥尔良",
       "place_label_en": "New Orleans, Louisiana, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Nueva Orleans, Luisiana, Estados Unidos",
+      "place_label_ja": "米国ルイジアナ州ニューオーリンズ"
     },
     {
       "lat": 40.4862,
@@ -45,7 +55,9 @@
       "place_label_zh": "美国新泽西州新不伦瑞克（强生）",
       "place_label_en": "New Brunswick, New Jersey, USA (Johnson & Johnson)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "New Brunswick, Nueva Jersey, Estados Unidos (Johnson & Johnson)",
+      "place_label_ja": "米国ニュージャージー州ニューブランズウィック（Johnson & Johnson）"
     }
   ],
   "confidence": "year",
@@ -78,6 +90,10 @@
     "alt_en": "An open dental floss dispenser with a length of floss",
     "credit": "Texas Lane",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Dental_Floss.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dental_Floss.jpg",
+    "alt_es": "Dispensador de hilo dental abierto con hilo extraído",
+    "alt_ja": "蓋を開けて糸を引き出したデンタルフロス容器"
+  },
+  "name_es": "Hilo dental",
+  "summary_es": "En 1815, el dentista Parmly, de Nueva Orleans, propuso limpiar entre los dientes con seda. Johnson & Johnson patentó hilo dental de seda de sutura en 1898; el nailon de posguerra extendió su uso cotidiano."
 }

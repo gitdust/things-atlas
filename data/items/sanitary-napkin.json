@@ -9,25 +9,33 @@
       "year": 1888,
       "precision": "year",
       "ref": "Southall's towels introduced in Birmingham, UK, as early commercial disposable pads",
-      "ref_zh": "英国伯明翰的索索尔公司推出早期商用一次性吸水卫生护垫"
+      "ref_zh": "英国伯明翰的索索尔公司推出早期商用一次性吸水卫生护垫",
+      "ref_es": "Southall, de Birmingham, lanza una de las primeras compresas absorbentes desechables comerciales.",
+      "ref_ja": "英国バーミンガムの Southall 社が初期の市販使い捨て吸収パッドを発売。"
     },
     "patent": {
       "year": 1932,
       "precision": "exact",
       "ref": "Heitmeyer receives patent US1863333A for a multilayer wood-pulp absorbent pad used in Kimberly-Clark’s Kotex",
-      "ref_zh": "海特迈尔取得用于金佰利高洁丝的多层木浆纤维棉「吸收垫」发明专利（US1863333A）"
+      "ref_zh": "海特迈尔取得用于金佰利高洁丝的多层木浆纤维棉「吸收垫」发明专利（US1863333A）",
+      "ref_es": "Heitmeyer patenta una almohadilla absorbente de varias capas de celulosa para Kotex (US1863333A).",
+      "ref_ja": "Heitmeyer が Kimberly-Clark の Kotex 向け多層セルロース吸収パッドの特許 US1863333A を取得。"
     },
     "mass_production": {
       "year": 1920,
       "precision": "year",
       "ref": "Kimberly-Clark uses surplus high-absorbency Cellucotton from WWI field hospitals to launch and mass-produce Kotex in Wisconsin",
-      "ref_zh": "金佰利利用一战战地医院剩余的高吸收木浆纤维棉（Cellucotton）在威斯康星州推出高洁丝（Kotex）并量产"
+      "ref_zh": "金佰利利用一战战地医院剩余的高吸收木浆纤维棉（Cellucotton）在威斯康星州推出高洁丝（Kotex）并量产",
+      "ref_es": "Kimberly-Clark produce Kotex en Wisconsin con Cellucotton, material muy absorbente sobrante de hospitales de guerra.",
+      "ref_ja": "Kimberly-Clark が戦時病院で余った高吸収素材 Cellucotton を利用し、ウィスコンシン州で Kotex を量産。"
     },
     "popularization": {
       "year": 1969,
       "precision": "year",
       "ref": "Johnson & Johnson’s Stayfree introduces self-adhesive sanitary pads, replacing pins and menstrual belts",
-      "ref_zh": "强生旗下 Stayfree 推出背胶自粘式卫生巾，彻底淘汰了别针和经期安全带"
+      "ref_zh": "强生旗下 Stayfree 推出背胶自粘式卫生巾，彻底淘汰了别针和经期安全带",
+      "ref_es": "Stayfree, de Johnson & Johnson, lanza compresas autoadhesivas que sustituyen alfileres y cinturones menstruales.",
+      "ref_ja": "Johnson & Johnson の Stayfree が粘着式ナプキンを発売し、ピンや生理用ベルトに代わる。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "英国伯明翰",
       "place_label_en": "Birmingham, UK",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Birmingham, Reino Unido",
+      "place_label_ja": "英国バーミンガム"
     },
     {
       "lat": 44.1858,
@@ -45,7 +55,9 @@
       "place_label_zh": "美国威斯康星州尼纳（金佰利）",
       "place_label_en": "Neenah, Wisconsin, USA (Kimberly-Clark)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Neenah, Wisconsin, EE. UU. (Kimberly-Clark)",
+      "place_label_ja": "米国ウィスコンシン州ニーナ（Kimberly-Clark）"
     },
     {
       "lat": 40.4862,
@@ -53,7 +65,9 @@
       "place_label_zh": "美国新泽西州新不伦瑞克（强生）",
       "place_label_en": "New Brunswick, New Jersey, USA (Johnson & Johnson)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "New Brunswick, Nueva Jersey, EE. UU. (Johnson & Johnson)",
+      "place_label_ja": "米国ニュージャージー州ニューブランズウィック（Johnson & Johnson）"
     }
   ],
   "confidence": "year",
@@ -92,6 +106,10 @@
     "alt_en": "Two disposable sanitary pads, one with wings",
     "credit": "KaurJmeb",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Sanitary_towel.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sanitary_towel.jpg",
+    "alt_es": "Dos compresas desechables, una de ellas con alas",
+    "alt_ja": "使い捨て生理用ナプキン2枚。うち1枚は羽付き"
+  },
+  "name_es": "Compresa higiénica",
+  "summary_es": "Durante la Primera Guerra Mundial, las enfermeras aprovecharon la celulosa absorbente. Kimberly-Clark lanzó Kotex en 1920; las compresas autoadhesivas de 1969 transformaron después el cuidado menstrual cotidiano."
 }

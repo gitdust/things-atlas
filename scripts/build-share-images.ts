@@ -128,7 +128,20 @@ async function render(
       }
       const list = document.querySelector('ol');
       if (list && !list.children.length) list.remove();
-      if (overflow.check(document.getElementById('card')!)) failures.push('card');
+      const card = document.getElementById('card');
+      if (!card) throw new Error('Share card is missing');
+      // Translated fields may each fit while their combined height exceeds the
+      // fixed poster. Fit the complete layout as well as individual fields.
+      const bodyFields = card.querySelectorAll<HTMLElement>(
+        '[data-fit="summary"], [data-fit="milestone"], [data-fit="map locations"]',
+      );
+      for (let attempt = 0; attempt < 3 && overflow.check(card); attempt++) {
+        for (const field of bodyFields) {
+          const size = parseFloat(getComputedStyle(field).fontSize);
+          field.style.fontSize = `${Math.max(16, size * 0.95)}px`;
+        }
+      }
+      if (overflow.check(card)) failures.push('card');
       return failures;
     },
     { automaticMilestones },
@@ -212,10 +225,18 @@ try {
               format === 'poster'
                 ? lang === 'zh'
                   ? '知识海报'
-                  : 'History poster'
+                  : lang === 'es'
+                    ? 'Póster histórico'
+                    : lang === 'ja'
+                      ? '歴史ポスター'
+                      : 'History poster'
                 : lang === 'zh'
                   ? '分享预览'
-                  : 'Share preview'
+                  : lang === 'es'
+                    ? 'Vista previa para compartir'
+                    : lang === 'ja'
+                      ? '共有プレビュー'
+                      : 'Share preview'
             }`,
           };
           const cached = await fs.stat(file).catch((error: NodeJS.ErrnoException) => {
@@ -274,7 +295,7 @@ try {
             markup,
             format,
             lang,
-            !(lang === 'zh' || lang === 'en' ? item.share?.[lang].milestones : undefined),
+            !item.share?.[lang].milestones,
           );
           const bytes = await (
             format === 'poster'
@@ -304,7 +325,10 @@ try {
       const dir = path.join(output, directory.name);
       for (const file of await fs.readdir(dir)) {
         const full = path.join(dir, file);
-        if (/^(zh|en)-(poster|og)\.[a-f0-9]{16}\.(png|jpg)$/.test(file) && !expected.has(full)) {
+        if (
+          /^(zh|en|es|ja)-(poster|og)\.[a-f0-9]{16}\.(png|jpg)$/.test(file) &&
+          !expected.has(full)
+        ) {
           await fs.rm(full);
         }
       }

@@ -12,7 +12,9 @@
       "year": 1953,
       "precision": "year",
       "ref": "Saran Wrap was promoted to American households; this is not the first invention of plastic film",
-      "ref_zh": "Saran Wrap 在美国面向家庭推广；此节点不是塑料薄膜材料的首次发明"
+      "ref_zh": "Saran Wrap 在美国面向家庭推广；此节点不是塑料薄膜材料的首次发明",
+      "ref_es": "Saran Wrap se promociona en los hogares de Estados Unidos; no es la primera invención de la película plástica",
+      "ref_ja": "Saran Wrapが米国の家庭向けに宣伝された。この年はプラスチックフィルム素材そのものの最初の発明年ではない"
     }
   },
   "locations": [
@@ -22,7 +24,9 @@
       "place_label_zh": "美国密歇根州米德兰（陶氏家用保鲜膜）",
       "place_label_en": "Midland, Michigan, USA (Dow household cling film)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Midland, Míchigan, EE. UU. (film doméstico de Dow)",
+      "place_label_ja": "米国ミシガン州ミッドランド（Dowの家庭用食品ラップ）"
     }
   ],
   "confidence": "year",
@@ -49,13 +53,19 @@
   "tags": [
     "storage"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/plastic-wrap.jpg",
     "alt_zh": "一卷透明PVC保鲜膜",
     "alt_en": "A roll of transparent PVC film",
     "credit": "Luccadomina",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Pvc-Film.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pvc-Film.jpg",
+    "alt_es": "Un rollo de film transparente de PVC",
+    "alt_ja": "透明なPVC製食品ラップのロール"
+  },
+  "name_es": "Film transparente",
+  "summary_es": "El film transparente es una lámina fina para cubrir recipientes y envolver alimentos. Saran Wrap se promovía en hogares estadounidenses en 1953. Los films actuales usan distintos polímeros, no necesariamente el material del producto original.",
+  "notes_es": "La fecha marca la promoción doméstica, no el descubrimiento anterior de polímeros, la producción industrial de film ni las ventas locales de prueba. La imagen muestra film moderno de PVC, no el Saran original de 1953.",
+  "notes_ja": "この年代は家庭向け商品としての販売促進の節目であり、それ以前の高分子発見、工業用フィルム生産、地域的な試験販売を同一年に混同しない。写真は現代のPVC製ラップで、1953年のSaranの原製品ではない。"
 }

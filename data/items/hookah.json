@@ -9,7 +9,9 @@
       "year": 1580,
       "precision": "decade",
       "ref": "Waterpipes (qalyān/narghile) emerge in the Persian–Indian sphere after tobacco’s arrival",
-      "ref_zh": "烟草传入后，波斯–印度一带出现水烟袋（qalyān/narghile）"
+      "ref_zh": "烟草传入后，波斯–印度一带出现水烟袋（qalyān/narghile）",
+      "ref_es": "Surgen pipas de agua (qalyān o narghile) en el ámbito persa-indio tras la llegada del tabaco",
+      "ref_ja": "タバコの伝来後、ペルシアからインドにかけて水煙管（qalyān／narghile）が現れた"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1700,
       "precision": "century",
       "ref": "Hookah smoking spreads widely across West, South and Central Asia",
-      "ref_zh": "水烟在西亚、南亚与中亚广泛流行"
+      "ref_zh": "水烟在西亚、南亚与中亚广泛流行",
+      "ref_es": "El uso de la pipa de agua se extiende por Asia occidental, meridional y central",
+      "ref_ja": "水タバコが西アジア・南アジア・中央アジアに広く普及した"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "伊朗伊斯法罕一带（波斯水烟传统）",
       "place_label_en": "Isfahan region, Iran (Persian qalyān tradition)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Isfahán, Irán (tradición persa del qalyān)",
+      "place_label_ja": "イラン・イスファハン周辺（ペルシアの水タバコの伝統）"
     },
     {
       "lat": 27.18,
@@ -35,7 +41,9 @@
       "place_label_zh": "印度阿格拉一带（莫卧儿宫廷语境）",
       "place_label_en": "Agra region, India (Mughal court context)",
       "kind": "contested",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Agra, India (contexto de la corte mogola)",
+      "place_label_ja": "インド・アーグラ周辺（ムガル宮廷の文脈）"
     }
   ],
   "confidence": "disputed",
@@ -68,13 +76,19 @@
   "tags": [
     "leisure"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/hookah.jpg",
     "alt_zh": "水烟壶",
     "alt_en": "A hookah water pipe",
     "credit": "Wouter Hagens",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Waterpipe_A.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Waterpipe_A.jpg",
+    "alt_es": "Una pipa de agua",
+    "alt_ja": "水タバコ用の水煙管"
+  },
+  "name_es": "Pipa de agua",
+  "summary_es": "La pipa de agua apareció a finales del siglo XVI en el ámbito persa-indio. Suele vincularse a la corte mogola, pero probablemente deriva de prácticas persas; su origen exacto sigue en disputa.",
+  "notes_es": "Una versión atribuye el invento al médico mogol Abu’l-Fath Gilani en la India, pero probablemente introdujo allí una pipa de tipo persa. Hay pruebas persas de mediados a finales del siglo XVI. El origen persa o indio sigue debatido; se usa una fecha aproximada en la década de 1580.",
+  "notes_ja": "ムガル宮廷の医師アブル・ファトフ・ギラーニーがインドで発明したとされることが多いが、ペルシア式水煙管をインドへ伝えた可能性が高い。ペルシアには16世紀中頃から後半の証拠がある。ペルシアとインドのどちらに起源を置くかは議論があり、本項目では1580年代頃を概数とする。"
 }

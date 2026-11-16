@@ -9,20 +9,26 @@
       "year": 1974,
       "precision": "year",
       "ref": "Ernő Rubik develops his three-layer twisty puzzle in Budapest",
-      "ref_zh": "Ernő Rubik 在布达佩斯开发三阶旋转拼图"
+      "ref_zh": "Ernő Rubik 在布达佩斯开发三阶旋转拼图",
+      "ref_es": "Ernő Rubik desarrolla en Budapest el rompecabezas giratorio de tres capas.",
+      "ref_ja": "Ernő Rubik がブダペストで3層の回転パズルを開発。"
     },
     "patent": null,
     "mass_production": {
       "year": 1977,
       "precision": "year",
       "ref": "Launched on the Hungarian market as the Magic Cube",
-      "ref_zh": "以 Magic Cube 名称在匈牙利上市"
+      "ref_zh": "以 Magic Cube 名称在匈牙利上市",
+      "ref_es": "Se comercializa en Hungría con el nombre Magic Cube.",
+      "ref_ja": "Magic Cube の名でハンガリーで発売。"
     },
     "popularization": {
       "year": 1980,
       "precision": "year",
       "ref": "Renamed Rubik’s Cube and launched internationally",
-      "ref_zh": "更名 Rubik’s Cube 并面向国际市场推出"
+      "ref_zh": "更名 Rubik’s Cube 并面向国际市场推出",
+      "ref_es": "Se lanza al mercado internacional con el nombre Rubik’s Cube.",
+      "ref_ja": "Rubik’s Cube と改称して国際市場に進出。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "匈牙利布达佩斯（鲁比克的三阶魔方）",
       "place_label_en": "Budapest, Hungary (Rubik’s three-layer cube)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Budapest, Hungría (cubo de tres capas de Rubik)",
+      "place_label_ja": "ハンガリー・ブダペスト（Rubik の3層キューブ）"
     }
   ],
   "confidence": "year",
@@ -65,13 +73,19 @@
   "tags": [
     "leisure"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/rubiks-cube.jpg",
     "alt_zh": "魔方实物",
     "alt_en": "Rubik’s Cube",
     "credit": "AndyHedges; edited by TheCoffee",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Rubiks%20cube.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rubiks%20cube.jpg",
+    "alt_es": "Un cubo de Rubik",
+    "alt_ja": "ルービックキューブ"
+  },
+  "name_es": "Cubo de Rubik",
+  "summary_es": "En 1974, Ernő Rubik creó en Budapest un rompecabezas giratorio de tres capas. Salió al mercado húngaro en 1977 y se lanzó internacionalmente como Rubik’s Cube en 1980.",
+  "notes_es": "Esta entrada trata del cubo mecánico giratorio de tres capas de Rubik, no de rompecabezas anteriores como los cubos magnéticos de dos capas. La solicitud de patente de 1975 debe distinguirse de su concesión en 1977.",
+  "notes_ja": "本項は Rubik の3層式機械回転キューブを扱い、それ以前の磁石式2層パズルなどは含まない。1975年の特許出願と1977年の特許登録を混同しない。"
 }

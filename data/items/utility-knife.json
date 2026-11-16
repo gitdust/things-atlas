@@ -9,25 +9,33 @@
       "year": 1956,
       "precision": "year",
       "ref": "Yoshio Okada in Osaka invents the world’s first snap-off utility knife, inspired by scored chocolate bars and the edges of broken glass",
-      "ref_zh": "日本大阪的冈田良男受巧克力折条凹槽与碎玻璃边缘启发，发明世界上第一把折刃式美工刀"
+      "ref_zh": "日本大阪的冈田良男受巧克力折条凹槽与碎玻璃边缘启发，发明世界上第一把折刃式美工刀",
+      "ref_es": "Yoshio Okada, de Osaka, se inspira en las ranuras del chocolate y los bordes del vidrio roto para crear el cúter de hoja segmentada.",
+      "ref_ja": "大阪の岡田良男が板チョコの溝と割れたガラスの縁に着想を得て、折る刃式カッターナイフを発明。"
     },
     "patent": {
       "year": 1959,
       "precision": "year",
       "ref": "Yoshio Okada granted Japanese patent for the snap-off blade cutting knife",
-      "ref_zh": "冈田良男取得折刃式多节刀片切削工具的日本发明专利"
+      "ref_zh": "冈田良男取得折刃式多节刀片切削工具的日本发明专利",
+      "ref_es": "Okada obtiene en Japón una patente para una herramienta de corte con hoja dividida en segmentos desprendibles.",
+      "ref_ja": "岡田良男が折り取れる多節刃の切削工具について日本特許を取得。"
     },
     "mass_production": {
       "year": 1956,
       "precision": "year",
       "ref": "Okada Kogyo (later OLFA Corporation) begins commercial manufacturing of the Model 1 snap-off cutter in Osaka",
-      "ref_zh": "冈田工业（后为爱利华 OLFA）在大阪正式量产 1 号折刃美工刀"
+      "ref_zh": "冈田工业（后为爱利华 OLFA）在大阪正式量产 1 号折刃美工刀",
+      "ref_es": "Okada Kogyo, después OLFA, inicia en Osaka la producción del cúter de hoja segmentada n.º 1.",
+      "ref_ja": "岡田工業（後の OLFA）が大阪で1号折る刃式カッターナイフを量産。"
     },
     "popularization": {
       "year": 1970,
       "precision": "decade",
       "ref": "OLFA establishes globally used 9 mm and 18 mm snap-off blade standards, making the knife essential for drafting, opening boxes and crafts",
-      "ref_zh": "OLFA 确立全球通用的 9 毫米与 18 毫米折刃刀片国际规格，让美工刀成为美工绘图、开箱与手工必备工具"
+      "ref_zh": "OLFA 确立全球通用的 9 毫米与 18 毫米折刃刀片国际规格，让美工刀成为美工绘图、开箱与手工必备工具",
+      "ref_es": "OLFA establece los formatos de hoja segmentada de 9 y 18 mm, difundidos en dibujo, apertura de cajas y manualidades.",
+      "ref_ja": "OLFA が9mm・18mm の折る刃式規格を確立し、製図、開梱、工作に世界的に普及。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "日本大阪（冈田良男 / OLFA）",
       "place_label_en": "Osaka, Japan (Yoshio Okada / OLFA)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Osaka, Japón (Yoshio Okada / OLFA)",
+      "place_label_ja": "日本大阪（岡田良男 / OLFA）"
     }
   ],
   "confidence": "year",
@@ -76,6 +86,10 @@
     "alt_en": "A red snap-off utility knife with its blade extended",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Box-cutter.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Box-cutter.jpg",
+    "alt_es": "Un cúter rojo con la hoja segmentada extendida",
+    "alt_ja": "折る刃式の刃を出した赤いカッターナイフ"
+  },
+  "name_es": "Cúter",
+  "summary_es": "En 1956, Yoshio Okada, fundador de OLFA en Japón, ideó el cúter de hoja segmentada inspirado en el chocolate y el vidrio roto. Al partir cada segmento se obtiene un filo nuevo sin afilar, y la herramienta se extendió por el mundo."
 }

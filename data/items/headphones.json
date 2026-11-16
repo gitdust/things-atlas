@@ -9,20 +9,26 @@
       "year": 1910,
       "precision": "year",
       "ref": "Nathaniel Baldwin builds a prototype telephone headset",
-      "ref_zh": "鲍德温制作电话头戴式耳机原型"
+      "ref_zh": "鲍德温制作电话头戴式耳机原型",
+      "ref_es": "Nathaniel Baldwin construye un prototipo de auriculares telefónicos de diadema",
+      "ref_ja": "ナサニエル・ボールドウィンが電話用ヘッドセットの試作機を製作した"
     },
     "patent": null,
     "mass_production": {
       "year": 1910,
       "precision": "decade",
       "ref": "Baldwin and partners set up manufacturing in Utah",
-      "ref_zh": "鲍德温与合作方在犹他州建厂生产"
+      "ref_zh": "鲍德温与合作方在犹他州建厂生产",
+      "ref_es": "Baldwin y sus socios establecen una fábrica en Utah",
+      "ref_ja": "ボールドウィンと協力者がユタ州に工場を設立した"
     },
     "popularization": {
       "year": 1920,
       "precision": "decade",
       "ref": "Baldwin mica-diaphragm radio headphones popular",
-      "ref_zh": "鲍德温云母振膜收音机耳机流行"
+      "ref_zh": "鲍德温云母振膜收音机耳机流行",
+      "ref_es": "Se popularizan los auriculares de radio con diafragma de mica de Baldwin",
+      "ref_ja": "ボールドウィンの雲母振動板を用いたラジオ用ヘッドホンが普及した"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国犹他州（以盐湖城示意）",
       "place_label_en": "Utah, USA (Salt Lake City shown)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Utah, EE. UU. (se muestra Salt Lake City)",
+      "place_label_ja": "米国ユタ州（ソルトレイクシティで図示）"
     },
     {
       "lat": 48.857,
@@ -41,7 +49,9 @@
       "place_label_en": "France (Mercadier in-ear patent)",
       "kind": "contested",
       "confidence": "country",
-      "year_override": 1891
+      "year_override": 1891,
+      "place_label_es": "Francia (patente de auriculares de inserción de Mercadier)",
+      "place_label_ja": "フランス（Mercadierの挿入型イヤホン特許）"
     }
   ],
   "confidence": "year",
@@ -61,14 +71,20 @@
   "tags": [
     "media"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/headphones.jpg",
     "alt_zh": "耳机架上的 AKG 头戴式耳机",
     "alt_en": "AKG over-ear headphones on a stand",
     "credit": "http://muzyczny.pl",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:S%C5%82uchawki_referencyjne_K-701_firmy_AKG.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:S%C5%82uchawki_referencyjne_K-701_firmy_AKG.jpg",
+    "alt_es": "Auriculares circumaurales AKG sobre un soporte",
+    "alt_ja": "スタンドに掛けたAKGのオーバーイヤーヘッドホン"
   },
-  "notes_en": "French engineer Mercadier had already applied for an in-ear headphone patent in 1891. Later developments included John Koss of Milwaukee’s first stereo headphones in 1958 and the Walkman’s popularization of lightweight headphones in 1979. Later in-ear earbuds and wireless headphones are further stages of headphone evolution."
+  "notes_en": "French engineer Mercadier had already applied for an in-ear headphone patent in 1891. Later developments included John Koss of Milwaukee’s first stereo headphones in 1958 and the Walkman’s popularization of lightweight headphones in 1979. Later in-ear earbuds and wireless headphones are further stages of headphone evolution.",
+  "name_es": "Auriculares",
+  "summary_es": "En 1910 Nathaniel Baldwin, de Utah, creó unos auriculares para oír mejor los sermones durante el culto. Los modelos estéreo y los de inserción fueron desarrollos posteriores.",
+  "notes_es": "El ingeniero francés Mercadier ya había solicitado una patente de auriculares de inserción en 1891. Después, John Koss presentó los primeros estéreo en Milwaukee en 1958, y el Walkman popularizó los ligeros en 1979. Los de inserción y los inalámbricos posteriores son etapas de esta evolución.",
+  "notes_ja": "フランスの技師Mercadierは1891年に挿入型イヤホンの特許を出願していた。その後、1958年にミルウォーキーのジョン・コスが初のステレオヘッドホンを発売し、1979年にはウォークマンが軽量ヘッドホンを普及させた。後の挿入型やワイヤレス型も、ヘッドホンの発展に位置づけられる。"
 }

@@ -9,7 +9,9 @@
       "year": 1294,
       "precision": "year",
       "ref": "Earliest clear record: printed playing cards seized in Yuan China in 1294",
-      "ref_zh": "目前最早明确记载：元至元三十一年（1294）查获印制纸牌"
+      "ref_zh": "目前最早明确记载：元至元三十一年（1294）查获印制纸牌",
+      "ref_es": "Primer registro inequívoco: incautación de naipes impresos en la China Yuan en 1294",
+      "ref_ja": "最古の明確な記録として、元の至元31年（1294年）に印刷された紙牌が押収された"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1400,
       "precision": "century",
       "ref": "Ming money-suited and other card games widely attested",
-      "ref_zh": "明代钱币纹等纸牌游戏广泛流行"
+      "ref_zh": "明代钱币纹等纸牌游戏广泛流行",
+      "ref_es": "Se documenta ampliamente el uso de cartas con palos de monedas y otros juegos de naipes en época Ming",
+      "ref_ja": "明代に銭の模様などの紙牌遊びが広く行われた"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国（元代印刷纸牌语境，地点不详）",
       "place_label_en": "China (Yuan printed-card context; place uncertain)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "China (naipes impresos Yuan; lugar incierto)",
+      "place_label_ja": "中国（元代の印刷紙牌の記録、場所は不詳）"
     }
   ],
   "confidence": "disputed",
@@ -60,13 +66,19 @@
   "tags": [
     "leisure"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/playing-cards.jpg",
     "alt_zh": "一副中国纸牌",
     "alt_en": "A deck of Chinese playing cards",
     "credit": "Benoît Prieur",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Jeu_de_82_cartes_(Chine).jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jeu_de_82_cartes_(Chine).jpg",
+    "alt_es": "Una baraja de naipes chinos",
+    "alt_ja": "中国の紙牌一組"
+  },
+  "name_es": "Naipes",
+  "summary_es": "Los naipes probablemente nacieron en China. Se discute si los «juegos de hojas» Tang eran cartas; el testimonio inequívoco más antiguo de naipes impresos es un caso de 1294 bajo los Yuan.",
+  "notes_es": "Los «juegos de hojas» Tang suelen citarse como origen, pero algunos estudiosos los consideran juegos de dados y páginas de libro, no naipes. El primer registro inequívoco de cartas impresas es de 1294 bajo los Yuan. También se debate si las barajas europeas descienden directamente de China.",
+  "notes_ja": "唐代の「葉子戯」は紙牌の起源とされることが多いが、さいころと本の頁を使う遊びで、紙牌とは限らないという説もある。印刷紙牌の最古の明確な記録は元の至元31年（1294年）である。ヨーロッパのカードが中国から直接伝わったかも議論されている。"
 }

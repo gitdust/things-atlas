@@ -104,7 +104,7 @@ export function ItemDrawer({
       return a.mark.year - b.mark.year;
     },
   );
-  const title = pick(lang, item.name_zh, item.name_en, { ja: item.name_ja });
+  const title = pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja });
   const alt = pick(lang === 'zh' ? 'en' : 'zh', item.name_zh, item.name_en);
 
   return (
@@ -192,7 +192,10 @@ export function ItemDrawer({
           <figure className="drawer-figure">
             <ItemImage
               image={item.image}
-              alt={pick(lang, item.image.alt_zh, item.image.alt_en)}
+              alt={pick(lang, item.image.alt_zh, item.image.alt_en, {
+                es: item.image.alt_es,
+                ja: item.image.alt_ja,
+              })}
               eager={eagerImage}
             />
             <figcaption>
@@ -213,7 +216,10 @@ export function ItemDrawer({
         ) : null}
 
         <p className="drawer-lede">
-          {pick(lang, item.summary_zh, item.summary_en, { ja: item.summary_ja })}
+          {pick(lang, item.summary_zh, item.summary_en, {
+            es: item.summary_es,
+            ja: item.summary_ja,
+          })}
         </p>
 
         {item.earliest_use && (
@@ -251,8 +257,11 @@ export function ItemDrawer({
                       <span className="ms-primary">{t(lang, 'primaryYear')}</span>
                     ) : null}
                   </div>
-                  {mark && pick(lang, mark.ref_zh, mark.ref) ? (
-                    <div className="ms-ref">{pick(lang, mark.ref_zh, mark.ref)}</div>
+                  {mark &&
+                  pick(lang, mark.ref_zh, mark.ref, { es: mark.ref_es, ja: mark.ref_ja }) ? (
+                    <div className="ms-ref">
+                      {pick(lang, mark.ref_zh, mark.ref, { es: mark.ref_es, ja: mark.ref_ja })}
+                    </div>
                   ) : null}
                 </div>
               </li>
@@ -268,7 +277,10 @@ export function ItemDrawer({
                 <span className="place-mark" aria-hidden="true" />
                 <div className="place-body">
                   <div className="place-name">
-                    {pick(lang, loc.place_label_zh, loc.place_label_en)}
+                    {pick(lang, loc.place_label_zh, loc.place_label_en, {
+                      es: loc.place_label_es,
+                      ja: loc.place_label_ja,
+                    })}
                   </div>
                   <div className="place-meta">
                     <span className="place-kind">{t(lang, `kind_${loc.kind}` as MessageKey)}</span>
@@ -283,10 +295,13 @@ export function ItemDrawer({
           </ul>
         </section>
 
-        {item.disputed && pick(lang, item.notes, item.notes_en) ? (
+        {item.disputed &&
+        pick(lang, item.notes, item.notes_en, { es: item.notes_es, ja: item.notes_ja }) ? (
           <section className="drawer-section">
             <h3>{t(lang, 'notes')}</h3>
-            <blockquote className="notes">{pick(lang, item.notes, item.notes_en)}</blockquote>
+            <blockquote className="notes">
+              {pick(lang, item.notes, item.notes_en, { es: item.notes_es, ja: item.notes_ja })}
+            </blockquote>
           </section>
         ) : null}
 
@@ -316,7 +331,10 @@ export function ItemDrawer({
             >
               <span className="nav-card-dir">← {t(lang, 'previous')}</span>
               <strong className="nav-card-title">
-                {pick(lang, prevItem.name_zh, prevItem.name_en, { ja: prevItem.name_ja })}
+                {pick(lang, prevItem.name_zh, prevItem.name_en, {
+                  es: prevItem.name_es,
+                  ja: prevItem.name_ja,
+                })}
               </strong>
               <span className="nav-card-year num">{formatYear(lang, prevItem.primary_year)}</span>
             </button>
@@ -332,7 +350,10 @@ export function ItemDrawer({
             >
               <span className="nav-card-dir">{t(lang, 'next')} →</span>
               <strong className="nav-card-title">
-                {pick(lang, nextItem.name_zh, nextItem.name_en, { ja: nextItem.name_ja })}
+                {pick(lang, nextItem.name_zh, nextItem.name_en, {
+                  es: nextItem.name_es,
+                  ja: nextItem.name_ja,
+                })}
               </strong>
               <span className="nav-card-year num">{formatYear(lang, nextItem.primary_year)}</span>
             </button>

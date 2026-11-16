@@ -9,7 +9,9 @@
       "year": 1884,
       "precision": "year",
       "ref": "John Henry Holmes's quick-break switch, Shieldfield, Newcastle upon Tyne",
-      "ref_zh": "霍姆斯在纽卡斯尔希尔德菲尔德发明快速断开开关"
+      "ref_zh": "霍姆斯在纽卡斯尔希尔德菲尔德发明快速断开开关",
+      "ref_es": "John Henry Holmes inventa el interruptor de corte rápido en Shieldfield, Newcastle upon Tyne",
+      "ref_ja": "ジョン・ヘンリー・ホームズがニューカッスル・アポン・タインのシールドフィールドで速断スイッチを発明した"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1916,
       "precision": "year",
       "ref": "Toggle light switch invented by William J. Newton and Morris Goldberg",
-      "ref_zh": "牛顿与戈德堡发明拨动式开关"
+      "ref_zh": "牛顿与戈德堡发明拨动式开关",
+      "ref_es": "William J. Newton y Morris Goldberg inventan el interruptor de luz de palanca",
+      "ref_ja": "ウィリアム・J・ニュートンとモリス・ゴールドバーグがトグル式照明スイッチを発明した"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "英国纽卡斯尔希尔德菲尔德",
       "place_label_en": "Shieldfield, Newcastle upon Tyne, UK",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Shieldfield, Newcastle upon Tyne, Reino Unido",
+      "place_label_ja": "英国ニューカッスル・アポン・タイン、シールドフィールド"
     }
   ],
   "confidence": "year",
@@ -47,13 +53,17 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/light-switch.jpg",
     "alt_zh": "打开面板的墙壁开关和接线盒",
     "alt_en": "A wall light switch with its box opened",
     "credit": "Oleg Alexandrov",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Opened_light_switch.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Opened_light_switch.JPG",
+    "alt_es": "Un interruptor de pared con la caja de conexiones abierta",
+    "alt_ja": "カバーを開けた壁の照明スイッチと配線ボックス"
+  },
+  "name_es": "Interruptor de luz",
+  "summary_es": "John Henry Holmes inventó en Newcastle upon Tyne el interruptor de corte rápido en 1884: separaba los contactos de golpe para reducir el arco eléctrico. El interruptor de palanca apareció en 1916."
 }

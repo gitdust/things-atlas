@@ -9,25 +9,33 @@
       "year": 1904,
       "precision": "year",
       "ref": "Harvey Hubbell patents the separable attachment plug and wall receptacle in Bridgeport, Connecticut",
-      "ref_zh": "哈维·哈贝尔在康涅狄格州布里奇波特取得可拆卸式电源插头与墙面插座专利（US774250）"
+      "ref_zh": "哈维·哈贝尔在康涅狄格州布里奇波特取得可拆卸式电源插头与墙面插座专利（US774250）",
+      "ref_es": "Harvey Hubbell patenta el enchufe separable y la toma de pared en Bridgeport, Connecticut (US774250)",
+      "ref_ja": "ハーヴェイ・ハベルがコネティカット州ブリッジポートで分離式電源プラグと壁コンセントの特許を取得した（US774250）"
     },
     "patent": {
       "year": 1904,
       "precision": "year",
       "ref": "US Patent 774,250 granted to Harvey Hubbell for 'Separable Attachment Plug'",
-      "ref_zh": "美国专利局授予哈贝尔“可分离式附着插头”发明专利"
+      "ref_zh": "美国专利局授予哈贝尔“可分离式附着插头”发明专利",
+      "ref_es": "Se concede a Harvey Hubbell la patente US 774250 para un enchufe de conexión separable",
+      "ref_ja": "米国特許局がハベルに「分離式接続プラグ」の特許774,250を授与した"
     },
     "mass_production": {
       "year": 1916,
       "precision": "year",
       "ref": "Hubbell and several electrical manufacturers establish mass-production standards for parallel flat-blade electrical connectors",
-      "ref_zh": "哈贝尔与多家电气制造商合作建立双平插平行脚电气接口量产标准"
+      "ref_zh": "哈贝尔与多家电气制造商合作建立双平插平行脚电气接口量产标准",
+      "ref_es": "Hubbell y otros fabricantes eléctricos establecen estándares de producción en serie para conectores de dos clavijas planas paralelas",
+      "ref_ja": "ハベルと複数の電機メーカーが平行な2枚の平刃を持つ電源接続の量産規格を確立した"
     },
     "popularization": {
       "year": 1926,
       "precision": "year",
       "ref": "Albert Büttner obtains a German patent for the Schuko grounded plug-and-socket system (DE377000), setting a benchmark for modern electrical safety",
-      "ref_zh": "阿尔伯特·比特纳在德国取得 Schuko 接地保护插头插座专利（DE377000），确立现代用电安全基准"
+      "ref_zh": "阿尔伯特·比特纳在德国取得 Schuko 接地保护插头插座专利（DE377000），确立现代用电安全基准",
+      "ref_es": "Albert Büttner obtiene en Alemania la patente del sistema Schuko con toma de tierra (DE377000), referencia de seguridad eléctrica moderna",
+      "ref_ja": "アルベルト・ビュットナーがドイツで接地保護付きSchukoプラグ・コンセントの特許DE377000を取得し、現代の電気安全の基準を築いた"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "美国康涅狄格州布里奇波特",
       "place_label_en": "Bridgeport, Connecticut, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Bridgeport, Connecticut, EE. UU.",
+      "place_label_ja": "米国コネティカット州ブリッジポート"
     },
     {
       "lat": 49.5108,
@@ -45,7 +55,9 @@
       "place_label_zh": "德国佩格尼茨河畔劳夫",
       "place_label_en": "Lauf an der Pegnitz, Germany",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Lauf an der Pegnitz, Alemania",
+      "place_label_ja": "ドイツ・ラウフ・アン・デア・ペグニッツ"
     }
   ],
   "confidence": "year",
@@ -78,6 +90,10 @@
     "alt_en": "An annotated photograph of a Schuko power plug and socket",
     "credit": "Chameleon, bran & plugwash",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Schuko_plug_and_socket_annotated.png"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Schuko_plug_and_socket_annotated.png",
+    "alt_es": "Fotografía anotada de un enchufe y una toma de corriente Schuko",
+    "alt_ja": "構造の注記が付いたSchuko電源プラグとコンセントの写真"
+  },
+  "name_es": "Enchufe y toma de corriente",
+  "summary_es": "Antes del enchufe separable de Hubbell de 1904, los aparatos domésticos tomaban corriente de los casquillos de las lámparas del techo. Los enchufes y tomas llevaron el acceso seguro a la electricidad a las paredes de los hogares."
 }

@@ -9,7 +9,9 @@
       "year": 105,
       "precision": "year",
       "ref": "Cai Lun presents improved papermaking to Emperor He of Eastern Han (Hou Hanshu)",
-      "ref_zh": "蔡伦向汉和帝献改良造纸法（《后汉书》）"
+      "ref_zh": "蔡伦向汉和帝献改良造纸法（《后汉书》）",
+      "ref_es": "Cai Lun presenta al emperador He de los Han Orientales un método mejorado de fabricación de papel, según el Hou Hanshu",
+      "ref_ja": "蔡倫が後漢の和帝に改良した製紙法を献上した（『後漢書』）"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 300,
       "precision": "century",
       "ref": "Paper in widespread use as a writing medium across China by the 3rd–4th centuries",
-      "ref_zh": "约三四世纪纸在中国已广泛用作书写材料"
+      "ref_zh": "约三四世纪纸在中国已广泛用作书写材料",
+      "ref_es": "El papel se usa ampliamente como soporte de escritura en China hacia los siglos III-IV",
+      "ref_ja": "3〜4世紀頃までに中国で紙が筆記材料として広く使われた"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国河南洛阳（东汉宫廷）",
       "place_label_en": "Luoyang, Henan, China (Eastern Han court)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Luoyang, Henan, China (corte de los Han Orientales)",
+      "place_label_ja": "中国河南省洛陽（後漢の宮廷）"
     },
     {
       "lat": 26.422,
@@ -35,7 +41,9 @@
       "place_label_zh": "中国湖南耒阳（蔡伦故里）",
       "place_label_en": "Leiyang, Hunan, China (Cai Lun’s hometown)",
       "kind": "contested",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Leiyang, Hunan, China (lugar natal de Cai Lun)",
+      "place_label_ja": "中国湖南省耒陽（蔡倫の故郷）"
     }
   ],
   "confidence": "disputed",
@@ -76,13 +84,19 @@
     "writing",
     "materials"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/paper.jpg",
     "alt_zh": "台湾广兴纸寮传统手工抄纸",
     "alt_en": "Traditional handmade papermaking at Goang Xing Paper Mill, Taiwan",
     "credit": "Perrine Aguiar",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Traditional_paper_making_Goang_Xing_Paper_Mill_Taiwan_01.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Traditional_paper_making_Goang_Xing_Paper_Mill_Taiwan_01.jpg",
+    "alt_es": "Fabricación tradicional de papel a mano en Goang Xing Paper Mill, Taiwán",
+    "alt_ja": "台湾の広興紙寮での伝統的な手漉き紙作り"
+  },
+  "name_es": "Papel",
+  "summary_es": "Cai Lun mejoró y promovió la fabricación de papel en el 105 d. C., bajo los Han Orientales. Los hallazgos de papel de cáñamo de los Han Occidentales muestran un origen anterior y debatido. Su uso cotidiano para escribir y envolver se extendió después.",
+  "notes_es": "La tradición atribuye a Cai Lun, eunuco Han Oriental, la presentación al emperador He de papel de corteza, residuos de cáñamo, trapos y redes en el 105 d. C. Pero fragmentos de cáñamo Han Occidental, como los de Fangmatan en Gansu, indican un origen anterior. Se suele considerar a Cai Lun un mejorador y promotor clave, no el único inventor.",
+  "notes_ja": "伝統的には、後漢の宦官蔡倫が105年に樹皮・麻くず・ぼろ布・漁網から作る紙を和帝に献上し、「蔡侯紙」と呼ばれたとされる。しかし甘粛省放馬灘などで前漢の麻紙片が出土しており、起源はさらに古い。学界では蔡倫を唯一の発明者ではなく、重要な製法改良者・普及者と見ることが多い。"
 }

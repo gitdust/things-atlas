@@ -10,7 +10,9 @@
       "year": 1849,
       "precision": "exact",
       "ref": "Walter Hunt's US 6,281 (10 Apr 1849)",
-      "ref_zh": "亨特获美国专利 US 6,281（1849-04-10）"
+      "ref_zh": "亨特获美国专利 US 6,281（1849-04-10）",
+      "ref_es": "Hunt obtiene la patente estadounidense US 6,281 el 10 de abril de 1849.",
+      "ref_ja": "Hunt が1849年4月10日に米国特許 US 6,281 を取得。"
     },
     "mass_production": null,
     "popularization": null
@@ -22,7 +24,9 @@
       "place_label_zh": "美国纽约（亨特）",
       "place_label_en": "New York, USA (Hunt)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Nueva York, EE. UU. (Hunt)",
+      "place_label_ja": "米国ニューヨーク（Hunt）"
     },
     {
       "lat": 52.486,
@@ -31,7 +35,9 @@
       "place_label_en": "Birmingham, UK (Rowley)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1849
+      "year_override": 1849,
+      "place_label_es": "Birmingham, Reino Unido (Rowley)",
+      "place_label_ja": "英国バーミンガム（Rowley）"
     }
   ],
   "confidence": "exact",
@@ -58,14 +64,20 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/safety-pin.jpg",
     "alt_zh": "一枚金属别针",
     "alt_en": "A metal safety pin",
     "credit": "Haragayato",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Safety_Pin.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Safety_Pin.jpg",
+    "alt_es": "Un imperdible metálico",
+    "alt_ja": "金属製の安全ピン"
   },
-  "notes_en": "Charles Rowley of Birmingham patented a similar pin in 1849 as well; the ancient fibula brooch is a functional ancestor."
+  "notes_en": "Charles Rowley of Birmingham patented a similar pin in 1849 as well; the ancient fibula brooch is a functional ancestor.",
+  "name_es": "Imperdible",
+  "summary_es": "El 10 de abril de 1849, el mecánico Walter Hunt patentó el imperdible en Nueva York. Según el relato habitual, lo hizo con un alambre de cobre para saldar una deuda de 15 dólares.",
+  "notes_es": "Charles Rowley, de Birmingham, patentó un imperdible similar ese mismo año. La fíbula antigua es un antecedente funcional.",
+  "notes_ja": "同年、英国バーミンガムの Charles Rowley も類似の安全ピンの特許を取得した。古代のフィブラは機能上の先駆けに当たる。"
 }

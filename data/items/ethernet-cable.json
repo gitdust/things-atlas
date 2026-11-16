@@ -9,20 +9,26 @@
       "year": 1973,
       "precision": "exact",
       "ref": "Metcalfe's Ether Network memo (22 May 1973); first ran 11 Nov 1973, Xerox PARC",
-      "ref_zh": "梅特卡夫写下以太网备忘录（1973-05-22），同年 11 月 11 日首次运行"
+      "ref_zh": "梅特卡夫写下以太网备忘录（1973-05-22），同年 11 月 11 日首次运行",
+      "ref_es": "Memorando Ether Network de Metcalfe, 22 de mayo de 1973; primera operación el 11 de noviembre en Xerox PARC.",
+      "ref_ja": "MetcalfeがEther Networkの覚書を1973年5月22日に作成し、同年11月11日にXerox PARCで初稼働する。"
     },
     "patent": {
       "year": 1977,
       "precision": "year",
       "ref": "US 4,063,220 multipoint data communication system",
-      "ref_zh": "美国专利 US 4,063,220"
+      "ref_zh": "美国专利 US 4,063,220",
+      "ref_es": "Patente US 4063220 de un sistema de comunicación de datos multipunto.",
+      "ref_ja": "マルチポイントデータ通信方式の米国特許US 4063220。"
     },
     "mass_production": null,
     "popularization": {
       "year": 1980,
       "precision": "year",
       "ref": "Ethernet commercially introduced",
-      "ref_zh": "以太网商用推出"
+      "ref_zh": "以太网商用推出",
+      "ref_es": "Se lanza Ethernet comercialmente.",
+      "ref_ja": "Ethernetが商用化される。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国加州帕洛阿尔托（施乐 PARC）",
       "place_label_en": "Palo Alto, California, USA (Xerox PARC)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Palo Alto, California, Estados Unidos (Xerox PARC)",
+      "place_label_ja": "米国カリフォルニア州パロアルト（Xerox PARC）"
     }
   ],
   "confidence": "exact",
@@ -59,14 +67,20 @@
     "computing",
     "media"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/ethernet-cable.jpg",
     "alt_zh": "黄色网线的 RJ45 水晶头",
     "alt_en": "Yellow Ethernet cables with RJ45 plugs",
     "credit": "Wikideas1",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Ethernet_connector.webp"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ethernet_connector.webp",
+    "alt_es": "Cables Ethernet amarillos con conectores RJ45",
+    "alt_ja": "RJ45プラグ付きの黄色いLANケーブル"
   },
-  "notes_en": "Early Ethernet ran on thick coaxial cable, not today's twisted-pair RJ45 cable; this entry dates Ethernet itself."
+  "notes_en": "Early Ethernet ran on thick coaxial cable, not today's twisted-pair RJ45 cable; this entry dates Ethernet itself.",
+  "name_es": "Cable Ethernet",
+  "summary_es": "Robert Metcalfe concibió Ethernet en Xerox PARC en 1973 y logró su primer funcionamiento ese noviembre mediante cable coaxial. Las versiones posteriores adoptaron el par trenzado habitual hoy.",
+  "notes_es": "El Ethernet original utilizaba cable coaxial grueso, no el par trenzado RJ45 actual. La entrada toma como inicio el nacimiento de Ethernet.",
+  "notes_ja": "初期Ethernetは太い同軸ケーブルを使い、現在のRJ45ツイストペアケーブルではなかった。本項はEthernetそのものの誕生を起点とする。"
 }

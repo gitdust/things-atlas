@@ -9,7 +9,9 @@
       "year": -400,
       "precision": "century",
       "ref": "Mozi and Lu Ban traditions credit wooden/bamboo flying frames in the 5th century BCE",
-      "ref_zh": "墨子、鲁班传统记载公元前五世纪木竹飞鸢"
+      "ref_zh": "墨子、鲁班传统记载公元前五世纪木竹飞鸢",
+      "ref_es": "Las tradiciones sobre Mozi y Lu Ban mencionan armazones voladores de madera o bambú en el siglo V a. C.",
+      "ref_ja": "墨子と魯班の伝承に、紀元前5世紀の木や竹の飛行枠が記される"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 900,
       "precision": "century",
       "ref": "Paper kites become popular recreations in Tang–Song China",
-      "ref_zh": "唐宋纸鸢成为流行娱乐"
+      "ref_zh": "唐宋纸鸢成为流行娱乐",
+      "ref_es": "Las cometas de papel se convierten en un entretenimiento popular en la China Tang-Song",
+      "ref_ja": "唐・宋代の中国で紙の凧が人気の娯楽となった"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国山东（鲁地，鲁班传说语境）",
       "place_label_en": "Shandong, China (Lu region; Lu Ban legend context)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Shandong, China (región de Lu, leyendas de Lu Ban)",
+      "place_label_ja": "中国山東省（魯の地、魯班伝説の文脈）"
     },
     {
       "lat": 36.65,
@@ -35,7 +41,9 @@
       "place_label_zh": "中国山东潍坊（后世风筝名城）",
       "place_label_en": "Weifang, Shandong, China (later kite centre)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Weifang, Shandong, China (centro posterior de las cometas)",
+      "place_label_ja": "中国山東省濰坊（後世の凧の名産地）"
     }
   ],
   "confidence": "disputed",
@@ -68,13 +76,19 @@
   "tags": [
     "leisure"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/kite.jpg",
     "alt_zh": "大连海边放风筝",
     "alt_en": "People flying a kite by the sea in Dalian, China",
     "credit": "CEphoto, Uwe Aranas",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Flying-a-kite-01.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Flying-a-kite-01.jpg",
+    "alt_es": "Personas volando una cometa junto al mar en Dalian, China",
+    "alt_ja": "中国大連の海辺で凧を揚げる人々"
+  },
+  "name_es": "Cometa",
+  "summary_es": "Las cometas nacieron en China. Hay relatos de armazones voladores de madera y bambú en torno a los Reinos Combatientes; las de papel se volvieron recreativas en época Tang-Song. Su inventor y su forma inicial siguen en disputa.",
+  "notes_es": "Se suelen citar la cometa de madera de Mozi y la «urraca» de bambú de Lu Ban, pero se discute si equivalían a las cometas recreativas posteriores de papel. Los relatos de medición militar son difíciles de verificar. La tradición es china, con armazones documentados en torno a los Reinos Combatientes y cometas de papel recreativas en época Tang-Song.",
+  "notes_ja": "墨子の「木鳶」や魯班の「竹鵲」は凧の起源としてよく挙げられるが、後世の紙張りの凧と同じものかは議論がある。軍事測距の逸話も個別の実証は難しい。中国に由来する伝統で、戦国時代前後には飛行枠の記録があり、唐・宋代に紙の凧が娯楽化したことは確認できる。"
 }

@@ -9,25 +9,33 @@
       "year": 1957,
       "precision": "year",
       "ref": "Engineers Fielding and Chavannes try heat-sealing two plastic shower curtains into 3D wallpaper in Hawthorne, New Jersey, accidentally trapping sealed air bubbles",
-      "ref_zh": "工程师菲尔丁与沙瓦纳在新泽西州霍桑试图将两张塑料浴帘热压成立体壁纸，意外在其中封入密封气泡"
+      "ref_zh": "工程师菲尔丁与沙瓦纳在新泽西州霍桑试图将两张塑料浴帘热压成立体壁纸，意外在其中封入密封气泡",
+      "ref_es": "Fielding y Chavannes intentan termosellar dos cortinas de ducha de plástico como papel pintado tridimensional en Hawthorne, Nueva Jersey, y atrapan burbujas de aire.",
+      "ref_ja": "FieldingとChavannesがニュージャージー州ホーソーンでシャワーカーテン2枚を熱接着して立体壁紙を作ろうとし、密閉された気泡を生む。"
     },
     "patent": {
       "year": 1959,
       "precision": "year",
       "ref": "Fielding and Chavannes file US Patent 3,142,599 for method of laminating cushioned packaging",
-      "ref_zh": "菲尔丁与沙瓦纳申请气泡缓冲减震材料制作专利（US3142599）"
+      "ref_zh": "菲尔丁与沙瓦纳申请气泡缓冲减震材料制作专利（US3142599）",
+      "ref_es": "Fielding y Chavannes solicitan la patente US 3142599 para laminar embalajes acolchados.",
+      "ref_ja": "FieldingとChavannesが緩衝包装材の積層法の米国特許US 3142599を出願する。"
     },
     "mass_production": {
       "year": 1960,
       "precision": "year",
       "ref": "Sealed Air Corporation founded to manufacture Bubble Wrap as protective packaging",
-      "ref_zh": "希悦尔（Sealed Air）公司成立，将气泡薄膜正式作为保护性工业包装材料投入量产"
+      "ref_zh": "希悦尔（Sealed Air）公司成立，将气泡薄膜正式作为保护性工业包装材料投入量产",
+      "ref_es": "Se funda Sealed Air para fabricar Bubble Wrap como embalaje protector.",
+      "ref_ja": "保護包装材Bubble Wrapを製造するSealed Airが設立される。"
     },
     "popularization": {
       "year": 1960,
       "precision": "year",
       "ref": "IBM adopts Bubble Wrap to protect the newly launched IBM 1401 computer during transit",
-      "ref_zh": "IBM 采购气泡膜用于保护运输中的 IBM 1401 晶体管计算机，促成其在全球物流与快递中风靡"
+      "ref_zh": "IBM 采购气泡膜用于保护运输中的 IBM 1401 晶体管计算机，促成其在全球物流与快递中风靡",
+      "ref_es": "IBM adopta Bubble Wrap para proteger el nuevo ordenador IBM 1401 durante el transporte.",
+      "ref_ja": "IBMが新型IBM 1401コンピューターの輸送保護にBubble Wrapを採用する。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "美国新泽西州霍桑",
       "place_label_en": "Hawthorne, New Jersey, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Hawthorne, Nueva Jersey, Estados Unidos",
+      "place_label_ja": "米国ニュージャージー州ホーソーン"
     },
     {
       "lat": 42.1009,
@@ -45,7 +55,9 @@
       "place_label_zh": "美国纽约州恩迪科特（IBM）",
       "place_label_en": "Endicott, New York, USA (IBM)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Endicott, Nueva York, Estados Unidos (IBM)",
+      "place_label_ja": "米国ニューヨーク州エンディコット（IBM）"
     }
   ],
   "confidence": "year",
@@ -79,6 +91,10 @@
     "alt_en": "A close-up of transparent bubble wrap packaging",
     "credit": "Consequencefree",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Bubble_Wrap.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bubble_Wrap.jpg",
+    "alt_es": "Primer plano de plástico transparente de burbujas para embalaje",
+    "alt_ja": "透明な気泡緩衝材の接写"
+  },
+  "name_es": "Plástico de burbujas",
+  "summary_es": "En 1957, un intento fallido de crear papel pintado tridimensional dio lugar al plástico de burbujas selladas. IBM lo adoptó en 1960 para transportar ordenadores, y se convirtió en material habitual de protección de paquetes."
 }

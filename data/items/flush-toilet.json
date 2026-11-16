@@ -9,13 +9,17 @@
       "year": 1596,
       "precision": "year",
       "ref": "John Harington published a wash-down water closet with a valve, a documented precursor to the modern flush toilet",
-      "ref_zh": "约翰·哈林顿发表带冲洗系统和阀门的水厕设计，是现代抽水马桶的有据可查的前身"
+      "ref_zh": "约翰·哈林顿发表带冲洗系统和阀门的水厕设计，是现代抽水马桶的有据可查的前身",
+      "ref_es": "John Harington publica un retrete con lavado y válvula, precursor documentado del inodoro moderno.",
+      "ref_ja": "John Haringtonが洗浄機構と弁を備えた水洗便所を公表する。現代の水洗便器の記録された前身である。"
     },
     "patent": {
       "year": 1775,
       "precision": "year",
       "ref": "Alexander Cumming received British patent 1105 for a water closet incorporating a water-sealed trap",
-      "ref_zh": "亚历山大·卡明取得英国第1105号水厕专利，利用弯管存水隔绝臭气"
+      "ref_zh": "亚历山大·卡明取得英国第1105号水厕专利，利用弯管存水隔绝臭气",
+      "ref_es": "Alexander Cumming obtiene la patente británica 1105 para un retrete con sifón de cierre hidráulico.",
+      "ref_ja": "Alexander Cummingが水封トラップを組み込んだ水洗便所の英国特許1105を取得する。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "英国巴斯一带（哈林顿早期水厕，位置示意）",
       "place_label_en": "Bath area, England (Harington water closet; approximate)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Zona de Bath, Inglaterra (retrete de Harington; ubicación aproximada)",
+      "place_label_ja": "英国バース周辺（Haringtonの初期水洗便所、概略位置）"
     },
     {
       "lat": 54.0,
@@ -36,7 +42,9 @@
       "place_label_en": "United Kingdom (Cumming water-seal patent; country-level pin)",
       "kind": "patent",
       "confidence": "country",
-      "year_override": 1775
+      "year_override": 1775,
+      "place_label_es": "Reino Unido (patente de cierre hidráulico de Cumming; referencia nacional)",
+      "place_label_ja": "英国（Cummingの水封式便所の特許、国単位の位置）"
     }
   ],
   "confidence": "year",
@@ -64,13 +72,19 @@
     "cleaning",
     "household"
   ],
-  "updated": "2026-11-06",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/flush-toilet.jpg",
     "alt_zh": "打开盖子的白色抽水马桶",
     "alt_en": "A white flush toilet with its lid open",
     "credit": "Kantikkantemirgonov",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Flush_toilet.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flush_toilet.jpg",
+    "alt_es": "Inodoro blanco con la tapa abierta",
+    "alt_ja": "蓋を開けた白い水洗便器"
+  },
+  "name_es": "Inodoro con descarga",
+  "summary_es": "Harington publicó un inodoro con descarga y válvula en 1596. La patente británica de Cumming de 1775 incorporó un sifón lleno de agua para bloquear olores, un paso clave hacia el inodoro moderno.",
+  "notes_es": "1596 corresponde al diseño publicado por Harington, no al primer uso humano del agua para evacuar residuos; se conocen arqueológicamente retretes y desagües anteriores. La aportación patentada de Cumming de 1775 mejoró estructuras como el sifón hidráulico. El inodoro moderno es fruto de muchas mejoras: Harington, Cumming o Crapper no son el inventor único de todos los retretes con descarga.",
+  "notes_ja": "1596年はHaringtonが公表した現代の水洗便器の前身を指し、人類初の水による排泄物処理ではない。以前の便所や排水施設には考古学的記録がある。Cummingの1775年の貢献は水封曲管などの特許改良だった。現代の水洗便器は多くの人の改良によるため、Harington、Cumming、Crapperのいずれも水洗便所全体の唯一の発明者とはいえない。"
 }

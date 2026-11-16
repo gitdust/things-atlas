@@ -82,7 +82,7 @@ export function VersionControl({ lang }: { lang: Lang }) {
             {selectedRelease?.changes.length ? (
               <ul className="release-changes" key={selectedVersion}>
                 {selectedRelease.changes.map((change) => (
-                  <li key={change.id}>{lang === 'zh' ? change.zh : change.en}</li>
+                  <li key={change.id}>{change[lang]}</li>
                 ))}
               </ul>
             ) : (

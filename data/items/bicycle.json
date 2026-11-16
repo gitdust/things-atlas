@@ -9,25 +9,33 @@
       "year": 1817,
       "precision": "year",
       "ref": "Karl Drais invented the steerable two-wheeled Laufmaschine (draisine) in Mannheim",
-      "ref_zh": "卡尔·德莱斯在曼海姆发明双轮木马滑行车（奔跑机）"
+      "ref_zh": "卡尔·德莱斯在曼海姆发明双轮木马滑行车（奔跑机）",
+      "ref_es": "Karl Drais inventa en Mannheim la Laufmaschine, un vehículo de dos ruedas dirigible.",
+      "ref_ja": "Karl Draisがマンハイムで操舵可能な二輪のラウフマシーネを発明する。"
     },
     "patent": {
       "year": 1818,
       "precision": "year",
       "ref": "Karl Drais received a grand-ducal privilege and French patent for his velocipede",
-      "ref_zh": "德莱斯获得巴登特许及法国两轮滑行车专利"
+      "ref_zh": "德莱斯获得巴登特许及法国两轮滑行车专利",
+      "ref_es": "Drais recibe un privilegio del gran duque y una patente francesa para su velocípedo.",
+      "ref_ja": "Draisが二輪車について大公の特権とフランスの特許を得る。"
     },
     "mass_production": {
       "year": 1885,
       "precision": "year",
       "ref": "John Kemp Starley produced the Rover Safety Bicycle with chain drive to the rear wheel in Coventry",
-      "ref_zh": "约翰·肯普·斯塔利在考文垂生产罗孚安全自行车，确立后轮链条驱动标准"
+      "ref_zh": "约翰·肯普·斯塔利在考文垂生产罗孚安全自行车，确立后轮链条驱动标准",
+      "ref_es": "John Kemp Starley fabrica en Coventry la Rover Safety Bicycle, con transmisión por cadena a la rueda trasera.",
+      "ref_ja": "John Kemp Starleyがコヴェントリーで後輪をチェーン駆動するRover安全型自転車を製造する。"
     },
     "popularization": {
       "year": 1888,
       "precision": "year",
       "ref": "Dunlop’s pneumatic tires enter use, sparking the global bicycle boom of the 1890s",
-      "ref_zh": "邓禄普充气轮胎投入使用并引发1890年代全球自行车普及狂潮"
+      "ref_zh": "邓禄普充气轮胎投入使用并引发1890年代全球自行车普及狂潮",
+      "ref_es": "Los neumáticos de Dunlop impulsan el auge mundial de la bicicleta de la década de 1890.",
+      "ref_ja": "Dunlopの空気入りタイヤの導入が1890年代の世界的な自転車ブームを促す。"
     }
   },
   "primary": "invention",
@@ -38,7 +46,9 @@
       "place_label_zh": "德国巴登曼海姆（德莱斯滑行车）",
       "place_label_en": "Mannheim, Baden, Germany (Drais Laufmaschine)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Mannheim, Baden, Alemania (draisiana)",
+      "place_label_ja": "ドイツ、バーデンのマンハイム（Draisの二輪車）"
     },
     {
       "lat": 52.4068,
@@ -46,7 +56,9 @@
       "place_label_zh": "英国考文垂（斯塔利罗孚安全自行车）",
       "place_label_en": "Coventry, UK (Starley Rover safety bicycle)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Coventry, Reino Unido (Rover de Starley)",
+      "place_label_ja": "英国コヴェントリー（StarleyのRover安全型自転車）"
     }
   ],
   "confidence": "year",
@@ -78,13 +90,17 @@
     "travel",
     "leisure"
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/bicycle.jpg",
     "alt_zh": "一辆停在胡同里的经典飞鸽自行车",
     "alt_en": "A classic Flying Pigeon bicycle parked in a hutong",
     "credit": "齐健",
     "license": "CC BY 2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Left_side_of_Flying_Pigeon.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Left_side_of_Flying_Pigeon.jpg",
+    "alt_es": "Bicicleta clásica Flying Pigeon aparcada en un callejón",
+    "alt_ja": "路地に停められた伝統的な飛鴿自転車"
+  },
+  "name_es": "Bicicleta",
+  "summary_es": "La bicicleta es un vehículo ligero de dos ruedas movido por fuerza humana. La draisiana de 1817 precedió a la Rover de Starley de 1885, con cadena y cuadro de diamante; los neumáticos impulsaron su difusión mundial."
 }

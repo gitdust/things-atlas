@@ -9,7 +9,9 @@
       "year": 1962,
       "precision": "year",
       "ref": "Holonyak develops a practical visible red LED at GE; a precursor to white LED lighting",
-      "ref_zh": "霍洛尼亚克在通用电气研制实用红光 LED，是白光照明的技术前驱"
+      "ref_zh": "霍洛尼亚克在通用电气研制实用红光 LED，是白光照明的技术前驱",
+      "ref_es": "Holonyak desarrolla en GE un LED rojo visible práctico, precursor de la iluminación LED blanca",
+      "ref_ja": "ホロニアックがGEで実用的な赤色可視光LEDを開発し、白色LED照明の技術的先駆けとなった"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "美国（通用电气，实用红光 LED）",
       "place_label_en": "United States (GE, practical red LED)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Estados Unidos (GE, LED rojo práctico)",
+      "place_label_ja": "米国（GE、実用的な赤色LED）"
     },
     {
       "lat": 35.1815,
@@ -31,7 +35,9 @@
       "place_label_en": "Nagoya, Japan (Akasaki and Amano’s blue LED research)",
       "kind": "invention",
       "confidence": "city",
-      "year_override": 1990
+      "year_override": 1990,
+      "place_label_es": "Nagoya, Japón (investigación de LED azul de Akasaki y Amano)",
+      "place_label_ja": "日本・名古屋（赤崎勇・天野浩の青色LED研究）"
     },
     {
       "lat": 34.0703,
@@ -40,7 +46,9 @@
       "place_label_en": "Tokushima, Japan (Nichia and Nakamura’s bright blue LED)",
       "kind": "production",
       "confidence": "region",
-      "year_override": 1993
+      "year_override": 1993,
+      "place_label_es": "Tokushima, Japón (Nichia y LED azul de alto brillo de Nakamura)",
+      "place_label_ja": "日本・徳島（日亜化学と中村修二の高輝度青色LED）"
     }
   ],
   "confidence": "year",
@@ -74,13 +82,19 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/led-lamp.jpg",
     "alt_zh": "多种家用 LED 灯泡",
     "alt_en": "Several household LED light bulbs",
     "credit": "Geoffrey.landis at English Wikipedia",
     "license": "CC BY 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:LED_bulbs.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:LED_bulbs.jpg",
+    "alt_es": "Varias bombillas LED domésticas",
+    "alt_ja": "さまざまな家庭用LED電球"
+  },
+  "name_es": "Lámpara LED",
+  "summary_es": "Los LED emiten luz en un semiconductor. Los rojos prácticos surgieron en 1962; los LED azules eficientes desarrollados en Japón en los años noventa hicieron posible la iluminación blanca LED para el hogar.",
+  "notes_es": "Se sigue el paso de los LED semiconductores de indicadores a iluminación cotidiana. 1962 se refiere a un LED rojo visible práctico, no a una bombilla blanca; la electroluminiscencia y los dispositivos infrarrojos son anteriores. Los avances azules de los años noventa hicieron viable la luz blanca. El Nobel de 2014 fue un reconocimiento, no la invención. El mapa muestra los avances japoneses; 1990 representa una década.",
+  "notes_ja": "半導体LEDが表示灯から日常照明へ発展した過程を扱う。1962年は実用的な赤色可視光LEDの年であり、白色電球の登場年ではない。電界発光や赤外線素子はそれ以前にもあった。1990年代の高効率青色LEDにより実用的な白色照明が可能となった。2014年はノーベル賞の受賞年で、発明年ではない。地図は日本の青色LEDの突破を示し、1990年は年代の代表値である。"
 }

@@ -11,13 +11,17 @@
       "year": 1955,
       "precision": "year",
       "ref": "Toshiba launches the ER-4 automatic rice cooker; this marks automatic household models, not all electric rice-cooking devices",
-      "ref_zh": "东芝推出 ER-4 自动电饭煲；此节点指自动控温商品，不是所有电热煮饭器的起点"
+      "ref_zh": "东芝推出 ER-4 自动电饭煲；此节点指自动控温商品，不是所有电热煮饭器的起点",
+      "ref_es": "Toshiba lanza la arrocera automática ER-4; el hito corresponde al control automático de temperatura, no al origen de toda cocción eléctrica de arroz.",
+      "ref_ja": "Toshiba が自動炊飯器 ER-4 を発売。自動温度制御製品の節目であり、電気炊飯器全体の起点ではない。"
     },
     "popularization": {
       "year": 1971,
       "precision": "year",
       "ref": "A survey cited by a Japanese government publication reports rice-cooker ownership in more than 90% of Japanese households",
-      "ref_zh": "日本政府刊物所引调查显示，日本电饭煲家庭持有率超过九成"
+      "ref_zh": "日本政府刊物所引调查显示，日本电饭煲家庭持有率超过九成",
+      "ref_es": "Una encuesta citada por una publicación del Gobierno japonés sitúa la posesión doméstica de arroceras por encima del 90 %.",
+      "ref_ja": "日本政府の刊行物が引用する調査で、炊飯器の世帯普及率が9割を超える。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "日本（东芝及光伸社开发，以东京示意）",
       "place_label_en": "Japan (Toshiba and Koshinsha development; Tokyo shown)",
       "kind": "production",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Japón (desarrollo de Toshiba y Koshinsha; Tokio como referencia)",
+      "place_label_ja": "日本（Toshiba と光伸社による開発。東京に模式表示）"
     },
     {
       "lat": 36.2,
@@ -35,7 +41,9 @@
       "place_label_zh": "日本（家庭普及，国家级示意）",
       "place_label_en": "Japan (household adoption; country-level marker)",
       "kind": "popularization",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Japón (difusión doméstica; ubicación representativa del país)",
+      "place_label_ja": "日本（家庭への普及。国単位の模式表示）"
     }
   ],
   "confidence": "year",
@@ -63,7 +71,7 @@
     "cooking",
     "electric"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "primary": "mass_production",
   "image": {
     "src": "/images/rice-cooker.jpg",
@@ -71,6 +79,12 @@
     "alt_en": "A white electric rice cooker",
     "credit": "Taken by User:Aarchiba; detoured by Rama",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Rice-cooker.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rice-cooker.jpg",
+    "alt_es": "Una arrocera blanca",
+    "alt_ja": "白い炊飯器"
+  },
+  "name_es": "Arrocera",
+  "summary_es": "En 1955, Toshiba lanzó una arrocera automática que cortaba la corriente al terminar la cocción. Después se extendió por los hogares japoneses. Fue un hito de automatización: ya existían aparatos eléctricos no automáticos para cocer arroz.",
+  "notes_es": "La cronología parte de la comercialización de la arrocera doméstica automática. Ya existían aparatos eléctricos para cocer arroz antes de 1955; ese año no es la fecha de invención de todas las arroceras.",
+  "notes_ja": "本項の時間軸は家庭用自動炊飯器の商品化から始まる。電熱式の炊飯器は1955年以前から存在し、この年をすべての炊飯器の発明年とはしない。"
 }

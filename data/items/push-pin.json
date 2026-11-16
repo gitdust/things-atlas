@@ -10,7 +10,9 @@
       "year": 1900,
       "precision": "year",
       "ref": "Edwin Moore applies for a push-pin patent and founds Moore Push-Pin Co.",
-      "ref_zh": "摩尔为「推钉」申请专利并创办 Moore Push-Pin 公司"
+      "ref_zh": "摩尔为「推钉」申请专利并创办 Moore Push-Pin 公司",
+      "ref_es": "Edwin Moore solicita una patente para una chincheta con mango y funda Moore Push-Pin Co.",
+      "ref_ja": "エドウィン・ムーアがつまみ付き押しピンの特許を出願し、Moore Push-Pin社を設立した"
     },
     "mass_production": null,
     "popularization": null
@@ -22,7 +24,9 @@
       "place_label_zh": "美国费城（摩尔）",
       "place_label_en": "Philadelphia, USA (Moore)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Filadelfia, EE. UU. (Moore)",
+      "place_label_ja": "米国フィラデルフィア（ムーア）"
     },
     {
       "lat": 53.21,
@@ -31,7 +35,9 @@
       "place_label_en": "Lychen, Germany (Kirsten)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1903
+      "year_override": 1903,
+      "place_label_es": "Lychen, Alemania (Kirsten)",
+      "place_label_ja": "ドイツ・リューヘン（キルステン）"
     },
     {
       "lat": 48.208,
@@ -40,7 +46,9 @@
       "place_label_en": "Austria (Sachs)",
       "kind": "contested",
       "confidence": "country",
-      "year_override": 1888
+      "year_override": 1888,
+      "place_label_es": "Austria (Sachs)",
+      "place_label_ja": "オーストリア（ザックス）"
     }
   ],
   "confidence": "disputed",
@@ -61,14 +69,20 @@
     "office",
     "fastening"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/push-pin.jpg",
     "alt_zh": "一枚红色推钉",
     "alt_en": "A red push pin",
     "credit": "Slashme",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:RedPushPin_(cropped).jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:RedPushPin_(cropped).jpg",
+    "alt_es": "Una chincheta roja con mango",
+    "alt_ja": "赤いつまみ付き押しピン"
   },
-  "notes_en": "The handled push-pin (Moore, 1900) and the flat thumbtack are distinct forms. The flat tack is credited either to Lychen clockmaker Johann Kirsten (1903) or to Austrian factory owner Heinrich Sachs (1888), who pressed it from a single metal disk; Sachs's city is unverified."
+  "notes_en": "The handled push-pin (Moore, 1900) and the flat thumbtack are distinct forms. The flat tack is credited either to Lychen clockmaker Johann Kirsten (1903) or to Austrian factory owner Heinrich Sachs (1888), who pressed it from a single metal disk; Sachs's city is unverified.",
+  "name_es": "Chincheta",
+  "summary_es": "Edwin Moore solicitó en Estados Unidos una patente para una chincheta con mango en 1900. La chincheta plana tiene dos atribuciones de origen: Alemania en 1903 y Austria en 1888.",
+  "notes_es": "La chincheta con mango de Moore (1900) y la plana son formas distintas. La plana se atribuye al relojero Johann Kirsten de Lychen (1903) o al industrial austríaco Heinrich Sachs (1888), que la estampó de un solo disco metálico. La ciudad de Sachs no está verificada.",
+  "notes_ja": "ムーアのつまみ付き押しピン（1900年）と平頭の画鋲は異なる形態である。平頭型はドイツ・リューヘンの時計職人ヨハン・キルステンが1903年に発明した説と、オーストリアの工場主ハインリヒ・ザックスが1888年に1枚の金属板から打ち抜いた説がある。ザックスの具体的な都市は未確認である。"
 }

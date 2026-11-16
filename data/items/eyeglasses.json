@@ -9,7 +9,9 @@
       "year": 1280,
       "precision": "decade",
       "ref": "Early paired-lens spectacles appeared in Italy around 1285–1290; plotted approximately in the 1280s",
-      "ref_zh": "约1285—1290年意大利出现早期双镜片眼镜；以1280年代近似表示"
+      "ref_zh": "约1285—1290年意大利出现早期双镜片眼镜；以1280年代近似表示",
+      "ref_es": "Aparecen gafas de dos lentes en Italia hacia 1285–1290; se representan aproximadamente en la década de 1280.",
+      "ref_ja": "1285～1290年頃のイタリアに初期の二眼眼鏡が現れる。表示は1280年代の近似とする。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "意大利中北部（早期眼镜，具体地点不详）",
       "place_label_en": "Central/northern Italy (early spectacles; exact place unknown)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Centro y norte de Italia (primeras gafas; lugar exacto desconocido)",
+      "place_label_ja": "イタリア中北部（初期眼鏡、具体的な場所は不明）"
     }
   ],
   "confidence": "decade",
@@ -50,13 +54,19 @@
     "clothing",
     "health"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/eyeglasses.jpg",
     "alt_zh": "眼镜实物",
     "alt_en": "Eyeglasses",
     "credit": "عدنان حليم (Adharass)",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Glasses%20black.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Glasses%20black.jpg",
+    "alt_es": "Gafas",
+    "alt_ja": "眼鏡"
+  },
+  "name_es": "Gafas",
+  "summary_es": "A finales del siglo XIII, artesanos italianos unieron dos lentes en una ayuda de lectura que se podía llevar puesta. Las primeras gafas no tenían patillas; siguen sin conocerse con certeza el inventor ni el lugar exacto.",
+  "notes_es": "Esta entrada trata de gafas correctoras de dos lentes, no de lupas ni piedras de lectura anteriores. Italia hacia 1285–1290 es una atribución aproximada; no se conocen con certeza el inventor ni la ciudad. El mapa muestra una región y 1280 representa una década.",
+  "notes_ja": "本項は二枚の矯正レンズを備えた眼鏡を扱い、以前の拡大鏡や読書石とは区別する。1285～1290年頃のイタリアという推定は概算で、発明者と都市は確定していない。地図は大まかな地域を、1280年は年代の近似を示す。"
 }

@@ -9,20 +9,26 @@
       "year": 1024,
       "precision": "year",
       "ref": "The Northern Song government establishes a jiaozi office in Sichuan and issues official jiaozi paper money (1023–1024)",
-      "ref_zh": "北宋在四川官办交子务并发行官方交子（1023–1024）"
+      "ref_zh": "北宋在四川官办交子务并发行官方交子（1023–1024）",
+      "ref_es": "El gobierno Song del Norte crea una oficina de jiaozi en Sichuan y emite papel moneda oficial en 1023–1024.",
+      "ref_ja": "北宋政府が四川に交子務を設け、1023～1024年に官製の交子を発行する。"
     },
     "patent": null,
     "mass_production": {
       "year": 1260,
       "precision": "decade",
       "ref": "Yuan dynasty expands state paper currency (chao) empire-wide",
-      "ref_zh": "元朝在全国推行钞法"
+      "ref_zh": "元朝在全国推行钞法",
+      "ref_es": "La dinastía Yuan extiende el papel moneda estatal, chao, por todo el imperio.",
+      "ref_ja": "元が国営紙幣の鈔を帝国全域に広める。"
     },
     "popularization": {
       "year": 1368,
       "precision": "year",
       "ref": "The Ming dynasty issued the famous Da Ming Baochao notes",
-      "ref_zh": "明朝发行大明宝钞"
+      "ref_zh": "明朝发行大明宝钞",
+      "ref_es": "La dinastía Ming emite los célebres billetes Da Ming Baochao.",
+      "ref_ja": "明が大明宝鈔を発行する。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "中国四川成都（交子发源地）",
       "place_label_en": "Chengdu, Sichuan, China (jiaozi origin)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Chengdu, Sichuan, China (origen del jiaozi)",
+      "place_label_ja": "中国四川省成都（交子の発祥地）"
     }
   ],
   "confidence": "year",
@@ -65,13 +73,19 @@
   "tags": [
     "trade"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/banknote.jpg",
     "alt_zh": "明代大明宝钞纸币",
     "alt_en": "A Ming dynasty Da Ming Baochao banknote",
     "credit": "Carter, Thomas Francis, 1882-1925",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Banknote_Ming_Dynasty_CarterInventionPrintingChina_0126.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Banknote_Ming_Dynasty_CarterInventionPrintingChina_0126.jpg",
+    "alt_es": "Billete Da Ming Baochao de la dinastía Ming",
+    "alt_ja": "明代の紙幣、大明宝鈔"
+  },
+  "name_es": "Billete",
+  "summary_es": "El primer papel moneda apareció en China: el gobierno Song del Norte emitió jiaozi en Sichuan en 1023–1024. Las dinastías Yuan y Ming continuaron después con la emisión de billetes.",
+  "notes_es": "En Sichuan ya había jiaozi privados a finales del siglo X. Se toma como hito principal su asunción y emisión por el gobierno en 1023–1024.",
+  "notes_ja": "四川では10世紀末頃に民間の交子が存在した。本項は政府が引き継いで発行した1023～1024年を主要年代とする。"
 }

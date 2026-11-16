@@ -1,3 +1,4 @@
+import type { Lang } from './i18n';
 import type { YearKey } from './primaryYear';
 
 export type { YearKey };
@@ -11,6 +12,8 @@ export type YearMark = {
   ref?: string;
   /** Chinese note (UI language ZH). */
   ref_zh?: string;
+  ref_es?: string;
+  ref_ja?: string;
 } | null;
 
 export type CategoryId =
@@ -35,6 +38,8 @@ export type ItemLocation = {
   lng: number;
   place_label_zh: string;
   place_label_en: string;
+  place_label_es: string;
+  place_label_ja: string;
   kind: LocationKind;
   confidence: PlaceConfidence;
   year_override?: number;
@@ -51,6 +56,8 @@ export type ItemImage = {
   src: string;
   alt_zh: string;
   alt_en: string;
+  alt_es: string;
+  alt_ja: string;
   credit?: string;
   license?: string;
   source_url?: string;
@@ -62,7 +69,7 @@ export type ItemImage = {
 
 type ShareMilestone = { yearKey: YearKey; label: string; text: string };
 type ShareEditorial = Record<
-  'zh' | 'en',
+  Lang,
   {
     summary: string;
     ogSummary: string;
@@ -77,6 +84,8 @@ export type EarliestUse = {
   evidence: 'documented_use' | 'archaeological_evidence';
   explanation_zh: string;
   explanation_en: string;
+  explanation_es: string;
+  explanation_ja: string;
   source_urls: string[];
 };
 
@@ -84,6 +93,7 @@ export type AtlasItem = {
   id: string;
   name_zh: string;
   name_en: string;
+  name_es: string;
   name_ja: string;
   category: CategoryId;
   years: {
@@ -101,10 +111,13 @@ export type AtlasItem = {
   disputed: boolean;
   notes?: string;
   notes_en?: string;
+  notes_es?: string;
+  notes_ja?: string;
   image?: ItemImage;
   share?: ShareEditorial;
   summary_zh: string;
   summary_en: string;
+  summary_es: string;
   summary_ja: string;
   tags?: string[];
   updated: string;

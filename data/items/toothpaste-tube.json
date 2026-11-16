@@ -9,14 +9,18 @@
       "year": 1880,
       "precision": "decade",
       "ref": "Washington Sheffield of New London, CT, puts toothpaste in a collapsible tube",
-      "ref_zh": "新伦敦的谢菲尔德把牙膏装进可挤压软管"
+      "ref_zh": "新伦敦的谢菲尔德把牙膏装进可挤压软管",
+      "ref_es": "Sheffield, de New London, envasa dentífrico en un tubo flexible.",
+      "ref_ja": "New London の Sheffield が歯磨き剤を押し出し式の軟質チューブに詰める。"
     },
     "patent": null,
     "mass_production": {
       "year": 1896,
       "precision": "year",
       "ref": "Colgate dental cream sold in collapsible tubes",
-      "ref_zh": "高露洁牙膏开始用软管销售"
+      "ref_zh": "高露洁牙膏开始用软管销售",
+      "ref_es": "Colgate comienza a vender dentífrico en tubos.",
+      "ref_ja": "Colgate がチューブ入り歯磨き剤の販売を開始。"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "美国康涅狄格州新伦敦",
       "place_label_en": "New London, Connecticut, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "New London, Connecticut, EE. UU.",
+      "place_label_ja": "米国コネチカット州ニューロンドン"
     }
   ],
   "confidence": "decade",
@@ -49,14 +55,20 @@
     "cleaning",
     "grooming"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/toothpaste-tube.jpg",
     "alt_zh": "浴室柜里的两支儿童牙膏",
     "alt_en": "Two tubes of children’s toothpaste in a bathroom cabinet",
     "credit": "Thomas Angermann",
     "license": "CC BY-SA 2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Zendium_toothpaste_tubes.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zendium_toothpaste_tubes.jpg",
+    "alt_es": "Dos tubos de dentífrico infantil en un armario de baño",
+    "alt_ja": "浴室の棚にある子ども用歯磨き粉2本"
   },
-  "notes_en": "Dates vary: Wikipedia says 1880, while other sources often give 1892, so only decade precision is used. Toothpaste itself is far older than the tube."
+  "notes_en": "Dates vary: Wikipedia says 1880, while other sources often give 1892, so only decade precision is used. Toothpaste itself is far older than the tube.",
+  "name_es": "Tubo de dentífrico",
+  "summary_es": "Entre las décadas de 1880 y 1890, el dentista Washington Sheffield, de Connecticut, envasó dentífrico en tubos metálicos flexibles. Colgate adoptó el formato en 1896.",
+  "notes_es": "Las fechas difieren: Wikipedia indica 1880 y otras fuentes suelen dar 1892; por eso se usa una precisión de década. El dentífrico es mucho más antiguo que su tubo.",
+  "notes_ja": "年代には食い違いがあり、Wikipedia は1880年、他資料は1892年とすることが多いため、精度は10年単位とする。歯磨き剤そのものはチューブよりはるかに古い。"
 }

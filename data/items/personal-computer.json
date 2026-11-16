@@ -9,20 +9,26 @@
       "year": 1975,
       "precision": "year",
       "ref": "The Altair 8800 kit sparks the personal-computer industry",
-      "ref_zh": "Altair 8800 套件点燃个人电脑产业"
+      "ref_zh": "Altair 8800 套件点燃个人电脑产业",
+      "ref_es": "El kit Altair 8800 impulsa la industria del ordenador personal",
+      "ref_ja": "Altair 8800のキットがパーソナルコンピューター産業の熱潮を生んだ"
     },
     "patent": null,
     "mass_production": {
       "year": 1977,
       "precision": "year",
       "ref": "Apple II, Commodore PET and TRS-80 bring ready-to-use microcomputers to market",
-      "ref_zh": "Apple II、Commodore PET 与 TRS-80 推动成品微型电脑上市"
+      "ref_zh": "Apple II、Commodore PET 与 TRS-80 推动成品微型电脑上市",
+      "ref_es": "Apple II, Commodore PET y TRS-80 llevan al mercado microordenadores listos para usar",
+      "ref_ja": "Apple II・Commodore PET・TRS-80が完成品のマイクロコンピューター市場を広げた"
     },
     "popularization": {
       "year": 1981,
       "precision": "year",
       "ref": "IBM introduces its PC, helping establish a mainstream industry standard",
-      "ref_zh": "IBM 推出 PC，推动个人电脑成为主流并形成产业标准"
+      "ref_zh": "IBM 推出 PC，推动个人电脑成为主流并形成产业标准",
+      "ref_es": "IBM presenta su PC y ayuda a establecer un estándar industrial de uso generalizado",
+      "ref_ja": "IBMがPCを発売し、主流の産業標準の確立を後押しした"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国新墨西哥州阿尔伯克基（MITS）",
       "place_label_en": "Albuquerque, New Mexico, USA (MITS)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Albuquerque, Nuevo México, EE. UU. (MITS)",
+      "place_label_ja": "米国ニューメキシコ州アルバカーキ（MITS）"
     },
     {
       "lat": 37.323,
@@ -41,7 +49,9 @@
       "place_label_en": "Cupertino, California, USA (Apple II)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1977
+      "year_override": 1977,
+      "place_label_es": "Cupertino, California, EE. UU. (Apple II)",
+      "place_label_ja": "米国カリフォルニア州クパチーノ（Apple II）"
     },
     {
       "lat": 26.358,
@@ -50,7 +60,9 @@
       "place_label_en": "Boca Raton, Florida, USA (IBM PC)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1981
+      "year_override": 1981,
+      "place_label_es": "Boca Ratón, Florida, EE. UU. (IBM PC)",
+      "place_label_ja": "米国フロリダ州ボカラトン（IBM PC）"
     }
   ],
   "confidence": "disputed",
@@ -82,7 +94,7 @@
     "office",
     "computing"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "notes": "「个人电脑」可以按个人使用、价格可负担或微处理器架构等标准界定。1971 年 Kenbak-1 被计算机历史博物馆评选为第一台个人电脑，1973 年 Xerox Alto 则开创图形交互；本条以 1975 年 Altair 8800 引发产业热潮为代表节点，并非排除更早先驱。",
   "notes_en": "“Personal computer” can be defined by personal use, affordability or microprocessor architecture. The Computer History Museum named the 1971 Kenbak-1 the first PC, while the 1973 Xerox Alto pioneered graphical interaction. This entry selects the 1975 Altair 8800, which sparked an industry boom, as a representative milestone without excluding earlier pioneers.",
   "image": {
@@ -91,6 +103,12 @@
     "alt_en": "An Altair 8800 personal computer",
     "credit": "Spoilerhead at German Wikipedia",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Altair8800.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Altair8800.JPG",
+    "alt_es": "Un ordenador personal Altair 8800",
+    "alt_ja": "Altair 8800パーソナルコンピューター"
+  },
+  "name_es": "Ordenador personal",
+  "summary_es": "El Altair 8800 de 1975 impulsó el auge del ordenador personal. Apple II, PET y TRS-80 ampliaron el mercado en 1977, y el IBM PC fijó un estándar clave en 1981. La identidad del primero sigue en disputa.",
+  "notes_es": "El ordenador personal puede definirse por el uso individual, el precio asequible o la arquitectura de microprocesador. El Computer History Museum identificó al Kenbak-1 de 1971 como el primero; el Xerox Alto de 1973 fue pionero de la interacción gráfica. Se elige el Altair 8800 de 1975 por el auge industrial que desencadenó, sin excluir precursores.",
+  "notes_ja": "パソコンは個人利用、手頃な価格、マイクロプロセッサ構成などの基準で定義できる。コンピュータ歴史博物館は1971年のKenbak-1を最初とし、1973年のXerox Altoはグラフィカルな操作の先駆けとなった。本項目は産業の熱潮を起こした1975年のAltair 8800を代表的な節目とし、それ以前の先駆者を除外しない。"
 }

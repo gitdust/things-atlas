@@ -9,7 +9,9 @@
       "year": -3500,
       "precision": "century",
       "ref": "Silk textiles over five millennia old excavated at Qingtai, Wanggou and other sites in Henan",
-      "ref_zh": "河南青台/汪沟等地出土约五千多年前丝绸织物"
+      "ref_zh": "河南青台/汪沟等地出土约五千多年前丝绸织物",
+      "ref_es": "Se hallan tejidos de seda de hace más de cinco mil años en Qingtai, Wanggou y otros yacimientos de Henan.",
+      "ref_ja": "河南の青台・汪溝などで約5000年以上前の絹織物が出土。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": -200,
       "precision": "century",
       "ref": "Silk becomes a major Han-dynasty trade good along Eurasian routes",
-      "ref_zh": "汉代丝绸成为欧亚通道上的重要贸易品"
+      "ref_zh": "汉代丝绸成为欧亚通道上的重要贸易品",
+      "ref_es": "Durante la dinastía Han, la seda se convierte en una mercancía importante de las rutas euroasiáticas.",
+      "ref_ja": "漢代に絹がユーラシア交易路の重要な商品となる。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国河南郑州一带（青台等遗址）",
       "place_label_en": "Zhengzhou region, Henan, China (Qingtai and related sites)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Zona de Zhengzhou, Henan, China (Qingtai y otros yacimientos)",
+      "place_label_ja": "中国河南省鄭州周辺（青台などの遺跡）"
     },
     {
       "lat": 30.27,
@@ -35,7 +41,9 @@
       "place_label_zh": "中国浙江（钱山漾等丝绸遗存）",
       "place_label_en": "Zhejiang, China (e.g. Qianshanyang silk remains)",
       "kind": "contested",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Zhejiang, China (restos de seda de Qianshanyang y otros lugares)",
+      "place_label_ja": "中国浙江省（銭山漾などの絹の遺物）"
     }
   ],
   "confidence": "disputed",
@@ -70,13 +78,19 @@
     "materials",
     "trade"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/silk.jpg",
     "alt_zh": "西汉丝绸织物",
     "alt_en": "Western Han silk textile",
     "credit": "Gary Todd",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Western_Han_Silk.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Western_Han_Silk.jpg",
+    "alt_es": "Un tejido de seda de la dinastía Han occidental",
+    "alt_ja": "前漢時代の絹織物"
+  },
+  "name_es": "Seda",
+  "summary_es": "China desarrolló tempranamente la sericultura y el tejido de seda. En Henan se conservan tejidos de hacia el 3500 a. C.; sigue en debate si las proteínas de seda más antiguas halladas en Jiahu demuestran ya su tejido.",
+  "notes_es": "En el suelo de Jiahu se detectaron proteínas de seda de hace unos 8500 años, no tejidos completos; se debate si prueban sericultura y tejido. Los tejidos tempranos más aceptados proceden de Qingtai y otros yacimientos de Henan de hace más de cinco mil años. Esta entrada usa los restos textiles como fecha principal y mantiene la controversia sobre la evidencia bioquímica anterior.",
+  "notes_ja": "賈湖遺跡の土壌から約8500年前の絹タンパク質が検出されたが、完全な織物ではなく、養蚕・製織の証拠といえるかは議論がある。比較的広く認められる初期の織物は、河南の青台などの約5000年以上前の遺物である。本項は織物遺存を主年代とし、それ以前の生化学的証拠には異説を明記する。"
 }

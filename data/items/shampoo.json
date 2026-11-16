@@ -9,20 +9,26 @@
       "year": 1900,
       "precision": "year",
       "ref": "Josef Wilhelm Rausch develops the first liquid hair-washing soap, Emmishofen, Switzerland",
-      "ref_zh": "劳施在瑞士埃米斯霍芬研制出第一种液体洗发皂"
+      "ref_zh": "劳施在瑞士埃米斯霍芬研制出第一种液体洗发皂",
+      "ref_es": "Rausch desarrolla un jabón líquido para el cabello en Emmishofen, Suiza.",
+      "ref_ja": "Rausch がスイスのエミスホーフェンで液体の洗髪石けんを開発。"
     },
     "patent": null,
     "mass_production": {
       "year": 1927,
       "precision": "year",
       "ref": "Schwarzkopf improves liquid shampoo and begins mass production in Berlin",
-      "ref_zh": "施华蔻在柏林改进液体洗发水并量产"
+      "ref_zh": "施华蔻在柏林改进液体洗发水并量产",
+      "ref_es": "Schwarzkopf mejora y fabrica champú líquido en Berlín.",
+      "ref_ja": "Schwarzkopf がベルリンで液体シャンプーを改良・量産。"
     },
     "popularization": {
       "year": 1930,
       "precision": "decade",
       "ref": "Drene, the first shampoo with synthetic surfactants",
-      "ref_zh": "Drene 成为首款使用合成表面活性剂的洗发水"
+      "ref_zh": "Drene 成为首款使用合成表面活性剂的洗发水",
+      "ref_es": "Drene se convierte en el primer champú con tensioactivos sintéticos.",
+      "ref_ja": "Drene が合成界面活性剤を使用した最初のシャンプーとなる。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "瑞士埃米斯霍芬",
       "place_label_en": "Emmishofen, Switzerland",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Emmishofen, Suiza",
+      "place_label_ja": "スイス・エミスホーフェン"
     },
     {
       "lat": 52.52,
@@ -40,7 +48,9 @@
       "place_label_zh": "德国柏林（施华蔻）",
       "place_label_en": "Berlin, Germany (Schwarzkopf)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Berlín, Alemania (Schwarzkopf)",
+      "place_label_ja": "ドイツ・ベルリン（Schwarzkopf）"
     },
     {
       "lat": 50.823,
@@ -49,7 +59,9 @@
       "place_label_en": "Brighton, UK (Mahomed)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1814
+      "year_override": 1814,
+      "place_label_es": "Brighton, Reino Unido (Mahomed)",
+      "place_label_ja": "英国ブライトン（Mahomed）"
     }
   ],
   "confidence": "year",
@@ -70,14 +82,20 @@
     "cleaning",
     "grooming"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/shampoo.jpg",
     "alt_zh": "一瓶多芬洗发水",
     "alt_en": "A bottle of Dove shampoo",
     "credit": "Ranjima np",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Dove_shampoo_bottle.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dove_shampoo_bottle.jpg",
+    "alt_es": "Una botella de champú Dove",
+    "alt_ja": "Dove のシャンプーボトル"
   },
-  "notes_en": "Mahomed originally introduced Indian-style head massage (shampooing), not a liquid product; he opened his Brighton baths in 1821."
+  "notes_en": "Mahomed originally introduced Indian-style head massage (shampooing), not a liquid product; he opened his Brighton baths in 1821.",
+  "name_es": "Champú",
+  "summary_es": "Sake Dean Mahomed llevó el término «shampooing» a Gran Bretaña en 1814. Rausch formuló un jabón líquido para el cabello en Suiza en 1900, y Schwarzkopf inició la producción de champú líquido en Berlín en 1927.",
+  "notes_es": "Mahomed promovió inicialmente en Gran Bretaña el masaje indio de cabeza, llamado shampooing, no un líquido para lavar el cabello. Abrió unos baños en Brighton en 1821.",
+  "notes_ja": "Mahomed が英国で最初に広めたのはインド式の頭部マッサージ shampooing であり、洗髪液ではない。1821年にブライトンで浴場を開いた。"
 }

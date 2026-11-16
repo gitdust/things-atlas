@@ -9,7 +9,9 @@
       "year": -1000,
       "precision": "century",
       "ref": "Go (weiqi) traditionally dated to ancient China in the 2nd–1st millennium BCE",
-      "ref_zh": "围棋传统上追溯至中国公元前二千纪至一千纪"
+      "ref_zh": "围棋传统上追溯至中国公元前二千纪至一千纪",
+      "ref_es": "La tradición sitúa el origen del go (weiqi) en la China del segundo al primer milenio a. C.",
+      "ref_ja": "囲碁は伝統的に中国の紀元前2千年紀から1千年紀にさかのぼるとされる"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": -548,
       "precision": "year",
       "ref": "The Zuo Zhuan records an event in 548 BCE, providing early reliable written evidence",
-      "ref_zh": "《左传》记载公元前548年事，为目前较早可靠书证"
+      "ref_zh": "《左传》记载公元前548年事，为目前较早可靠书证",
+      "ref_es": "El Zuo Zhuan narra un episodio del 548 a. C. y aporta un testimonio escrito temprano y fiable",
+      "ref_ja": "『春秋左氏伝』に紀元前548年の出来事として囲碁の記述があり、早期の信頼できる文献証拠となる"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国中原（早期围棋传统）",
       "place_label_en": "Central Plains, China (early weiqi tradition)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Llanura Central, China (tradición temprana del weiqi)",
+      "place_label_ja": "中国中原（初期の囲碁の伝統）"
     }
   ],
   "confidence": "disputed",
@@ -60,13 +66,19 @@
   "tags": [
     "leisure"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/go.jpg",
     "alt_zh": "围棋棋盘与黑白子",
     "alt_en": "A Go board with black and white stones",
     "credit": "Dietmar Rabich",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Go_(13%C3%9713)_--_2021_--_6741.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Go_(13%C3%9713)_--_2021_--_6741.jpg",
+    "alt_es": "Un tablero de go con piedras blancas y negras",
+    "alt_ja": "囲碁盤と白黒の碁石"
+  },
+  "name_es": "Go",
+  "summary_es": "El go nació en la China antigua; sus inventores legendarios no pueden verificarse. Pudo existir hacia el 1000 a. C.; el Zuo Zhuan narra un episodio del 548 a. C. que constituye un testimonio escrito temprano.",
+  "notes_es": "Las leyendas atribuyen el go a Yao o Shun para educar a sus hijos, pero carecen de pruebas. Su origen en la China antigua se acepta de forma general, aunque no se conoce el siglo. El Zuo Zhuan contiene una referencia temprana fiable. Aquí se usa hacia el 1000 a. C. como fecha aproximada y el testimonio escrito como referencia de difusión.",
+  "notes_ja": "堯や舜が子を教えるために囲碁を発明したという伝説には実証がない。中国古代の起源は広く認められるが、世紀の特定は難しい。『春秋左氏伝』は早期の信頼できる記録である。本項目では紀元前1000年頃を発明の概数とし、文献の年を普及の参考年とする。"
 }

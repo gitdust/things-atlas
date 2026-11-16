@@ -19,6 +19,8 @@ test('approximate and BCE years retain their precision', () => {
   assert.equal(shareYear('zh', { year: -6000, precision: 'century' }), '约 公元前 6000 年');
   assert.equal(shareYear('en', { year: 1560, precision: 'decade' }), 'c. 1560');
   assert.equal(shareYear('en', { year: 1857, precision: 'year' }), '1857');
+  assert.equal(shareYear('ja', { year: -640, precision: 'century' }), '約紀元前640年');
+  assert.equal(shareYear('ja', { year: 1857, precision: 'year' }), '1857年');
 });
 
 test('written evidence retains its context and dates sort chronologically', () => {
@@ -49,7 +51,12 @@ test('content handles disputed origins, missing photos and missing translations'
 test('editorial text replaces the defaults and cannot reference a missing year', () => {
   const item = entry('mirror');
   const editorial = { summary: 'Polished obsidian mirrors', ogSummary: 'Obsidian mirrors' };
-  item.share = { zh: { summary: '磨光黑曜石镜', ogSummary: '黑曜石镜' }, en: editorial };
+  item.share = {
+    zh: { summary: '磨光黑曜石镜', ogSummary: '黑曜石镜' },
+    en: editorial,
+    es: { summary: 'Espejos de obsidiana pulida', ogSummary: 'Espejos de obsidiana' },
+    ja: { summary: '磨かれた黒曜石の鏡', ogSummary: '黒曜石の鏡' },
+  };
   assert.equal(shareContent(item, 'en').ogSummary, editorial.ogSummary);
   item.share.en.milestones = [{ yearKey: 'patent', label: 'Patent', text: 'Example' }];
   assert.throws(() => shareContent(item, 'en'), /years.patent/);

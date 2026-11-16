@@ -9,7 +9,9 @@
       "year": -1200,
       "precision": "century",
       "ref": "Bronze chopsticks excavated from the Ruins of Yin near Anyang (c. 1200 BCE)",
-      "ref_zh": "安阳殷墟出土青铜筷，约公元前 1200 年"
+      "ref_zh": "安阳殷墟出土青铜筷，约公元前 1200 年",
+      "ref_es": "Se hallan palillos de bronce de hacia 1200 a. C. en las ruinas de Yin, cerca de Anyang.",
+      "ref_ja": "安陽付近の殷墟から前1200年頃の青銅製の箸が出土する。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "中国河南安阳殷墟",
       "place_label_en": "Ruins of Yin, Anyang, Henan, China",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Yinxu, Anyang, Henan, China",
+      "place_label_ja": "中国河南省安陽の殷墟"
     }
   ],
   "confidence": "century",
@@ -41,13 +45,17 @@
   "tags": [
     "dining"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/chopsticks.jpg",
     "alt_zh": "各式各样的筷子",
     "alt_en": "An assortment of chopsticks",
     "credit": "FiveRings at English Wikipedia",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Many-chopsticks.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Many-chopsticks.jpg",
+    "alt_es": "Palillos de diversos tipos",
+    "alt_ja": "さまざまな種類の箸"
+  },
+  "name_es": "Palillos",
+  "summary_es": "Los palillos más antiguos conocidos son seis ejemplares de bronce hallados en Yinxu, cerca de Anyang, Henan, de la dinastía Shang, hacia 1200 a. C."
 }

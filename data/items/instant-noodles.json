@@ -9,25 +9,33 @@
       "year": 1958,
       "precision": "year",
       "ref": "Momofuku Ando perfected flash-fried instant ramen in a backyard shed in Ikeda, Osaka",
-      "ref_zh": "安藤百福在大阪府池田市自家后院小屋发明瞬间油热干燥法，研制出方便面"
+      "ref_zh": "安藤百福在大阪府池田市自家后院小屋发明瞬间油热干燥法，研制出方便面",
+      "ref_es": "Momofuku Ando perfecciona el ramen instantáneo secado por fritura rápida en un cobertizo de su casa en Ikeda, Osaka",
+      "ref_ja": "安藤百福が大阪府池田市の自宅裏庭の小屋で瞬間油熱乾燥法を完成させ、即席ラーメンを開発した"
     },
     "patent": {
       "year": 1962,
       "precision": "year",
       "ref": "Japanese manufacturing patent granted to Momofuku Ando (Nissin)",
-      "ref_zh": "安藤百福（日清食品）取得即食拉面制造工艺专利"
+      "ref_zh": "安藤百福（日清食品）取得即食拉面制造工艺专利",
+      "ref_es": "Se concede a Momofuku Ando, de Nissin, una patente japonesa del proceso de fabricación de ramen instantáneo",
+      "ref_ja": "安藤百福（日清食品）が即席ラーメンの製造法の日本特許を取得した"
     },
     "mass_production": {
       "year": 1958,
       "precision": "year",
       "ref": "Nissin Food Products launched Chikin Ramen in Japan on August 25, 1958",
-      "ref_zh": "日清食品于 1958 年 8 月 25 日正式发售‘鸡汤拉面’（Chikin Ramen）"
+      "ref_zh": "日清食品于 1958 年 8 月 25 日正式发售‘鸡汤拉面’（Chikin Ramen）",
+      "ref_es": "Nissin Food Products lanza Chikin Ramen en Japón el 25 de agosto de 1958",
+      "ref_ja": "日清食品が1958年8月25日にチキンラーメンを日本で発売した"
     },
     "popularization": {
       "year": 1971,
       "precision": "year",
       "ref": "Nissin launched Cup Noodles, transforming instant noodles into a global portable staple",
-      "ref_zh": "日清推出容器装‘杯面’（Cup Noodles），推动方便面走向全球普及"
+      "ref_zh": "日清推出容器装‘杯面’（Cup Noodles），推动方便面走向全球普及",
+      "ref_es": "Nissin lanza Cup Noodles, impulsando los fideos instantáneos como alimento portátil mundial",
+      "ref_ja": "日清がカップヌードルを発売し、即席麺の世界的な普及を後押しした"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "日本大阪府池田市（安藤百福发明鸡汤拉面）",
       "place_label_en": "Ikeda, Osaka, Japan (Momofuku Ando invents Chikin Ramen)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Ikeda, Osaka, Japón (Ando crea Chikin Ramen)",
+      "place_label_ja": "日本大阪府池田市（安藤百福がチキンラーメンを開発）"
     }
   ],
   "confidence": "year",
@@ -68,13 +78,17 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/instant-noodles.jpg",
     "alt_zh": "一碗煮好的方便面配蔬菜与鸡蛋",
     "alt_en": "A bowl of prepared instant noodles with vegetables and an egg",
     "credit": "Gaurav Dhwaj Khadka",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Instant_noodles.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Instant_noodles.jpg",
+    "alt_es": "Un cuenco de fideos instantáneos preparados con verduras y huevo",
+    "alt_ja": "野菜と卵を添えた即席麺の一杯"
+  },
+  "name_es": "Fideos instantáneos",
+  "summary_es": "En 1958, Momofuku Ando creó en Ikeda, Japón, ramen deshidratado por fritura que se preparaba con agua hirviendo. Cup Noodles, lanzado en 1971, impulsó su difusión mundial como comida portátil."
 }

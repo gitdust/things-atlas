@@ -9,20 +9,26 @@
       "year": 1989,
       "precision": "year",
       "ref": "GRiDPad is introduced as an early commercial pen-operated tablet",
-      "ref_zh": "GRiDPad 推出早期商用笔操作平板电脑"
+      "ref_zh": "GRiDPad 推出早期商用笔操作平板电脑",
+      "ref_es": "GRiDPad se presenta como una de las primeras tabletas comerciales manejadas con lápiz.",
+      "ref_ja": "GRiDPad が初期の商用ペン入力タブレットとして登場。"
     },
     "patent": null,
     "mass_production": {
       "year": 2002,
       "precision": "year",
       "ref": "Manufacturers ship computers based on Microsoft’s Tablet PC specification",
-      "ref_zh": "厂商推出遵循微软 Tablet PC 规范的电脑"
+      "ref_zh": "厂商推出遵循微软 Tablet PC 规范的电脑",
+      "ref_es": "Los fabricantes lanzan ordenadores que siguen la especificación Tablet PC de Microsoft.",
+      "ref_ja": "各社が Microsoft の Tablet PC 仕様に沿ったパソコンを発売。"
     },
     "popularization": {
       "year": 2010,
       "precision": "year",
       "ref": "Apple iPad brings touch-first tablets to a mass consumer audience",
-      "ref_zh": "苹果 iPad 推动以触控为主的平板电脑进入大众消费市场"
+      "ref_zh": "苹果 iPad 推动以触控为主的平板电脑进入大众消费市场",
+      "ref_es": "El iPad de Apple impulsa la llegada de las tabletas principalmente táctiles al mercado de consumo masivo.",
+      "ref_ja": "Apple の iPad がタッチ操作中心のタブレットを大衆消費市場に広める。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国加州弗里蒙特（GRiDPad）",
       "place_label_en": "Fremont, California, USA (GRiDPad)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Fremont, California, EE. UU. (GRiDPad)",
+      "place_label_ja": "米国カリフォルニア州フリーモント（GRiDPad）"
     },
     {
       "lat": 47.674,
@@ -41,7 +49,9 @@
       "place_label_en": "Redmond, Washington, USA (Microsoft Tablet PC)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 2002
+      "year_override": 2002,
+      "place_label_es": "Redmond, Washington, EE. UU. (Microsoft Tablet PC)",
+      "place_label_ja": "米国ワシントン州レドモンド（Microsoft Tablet PC）"
     },
     {
       "lat": 37.323,
@@ -50,7 +60,9 @@
       "place_label_en": "Cupertino, California, USA (Apple iPad)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 2010
+      "year_override": 2010,
+      "place_label_es": "Cupertino, California, EE. UU. (iPad de Apple)",
+      "place_label_ja": "米国カリフォルニア州クパチーノ（Apple iPad）"
     }
   ],
   "confidence": "disputed",
@@ -88,7 +100,7 @@
     "computing",
     "media"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "notes": "平板电脑并非由 iPad 单独发明，其祖先包括更早的笔输入设备、研究原型与便携计算构想。1989 年 GRiDPad 代表早期商用笔平板，2002 年微软 Tablet PC 是另一条重要路线；本条以 2010 年 iPad 的大众普及为主年份，不把商业成功等同于最早发明。",
   "notes_en": "The iPad was not the first tablet: earlier pen-input devices, research prototypes and portable-computing concepts form its ancestry. The 1989 GRiDPad represents early commercial pen tablets, while Microsoft’s 2002 Tablet PC was another important approach. This entry uses the iPad’s 2010 popularization as its primary year, rather than equating commercial success with first invention.",
   "primary": "popularization",
@@ -98,6 +110,12 @@
     "alt_en": "A first-generation Apple iPad",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:IPad-WiFi-1stGen.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:IPad-WiFi-1stGen.jpg",
+    "alt_es": "Un iPad de Apple de primera generación",
+    "alt_ja": "初代 Apple iPad"
+  },
+  "name_es": "Tableta",
+  "summary_es": "Las tabletas tienen una larga historia de informática con lápiz: GRiDPad fue un temprano modelo comercial en 1989, Microsoft impulsó Tablet PC en 2002 y el iPad llevó la tableta táctil al gran público en 2010.",
+  "notes_es": "El iPad no inventó por sí solo la tableta: hubo antes dispositivos con lápiz, prototipos de investigación e ideas de informática portátil. GRiDPad representa las primeras tabletas comerciales con lápiz y Tablet PC otra vía relevante. Esta entrada usa la difusión del iPad en 2010 como fecha principal, sin equiparar éxito comercial con primera invención.",
+  "notes_ja": "タブレットは iPad だけによる発明ではなく、それ以前のペン入力装置、研究試作機、携帯型計算機の構想を先祖に持つ。1989年の GRiDPad は初期の商用ペン端末、2002年の Microsoft Tablet PC は別の重要な系統である。本項は2010年の iPad の大衆化を主年代とし、商業的成功を最初の発明と同一視しない。"
 }

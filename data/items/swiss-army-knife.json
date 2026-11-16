@@ -9,25 +9,33 @@
       "year": 1891,
       "precision": "year",
       "ref": "Karl Elsener begins producing the Swiss soldier’s knife in Ibach (1891)",
-      "ref_zh": "卡尔·埃尔森纳1891年在伊巴赫开始生产瑞士士兵刀"
+      "ref_zh": "卡尔·埃尔森纳1891年在伊巴赫开始生产瑞士士兵刀",
+      "ref_es": "Karl Elsener comienza a fabricar cuchillos para soldados suizos en Ibach en 1891.",
+      "ref_ja": "Karl Elsener が1891年にイーバッハでスイス兵用ナイフを生産開始。"
     },
     "patent": {
       "year": 1897,
       "precision": "year",
       "ref": "Elsener patents the Swiss Officer’s Knife with an improved spring (1897)",
-      "ref_zh": "埃尔森纳为改进弹簧的瑞士军官刀取得专利（1897）"
+      "ref_zh": "埃尔森纳为改进弹簧的瑞士军官刀取得专利（1897）",
+      "ref_es": "Elsener patenta en 1897 la navaja suiza de oficial con resortes mejorados.",
+      "ref_ja": "Elsener が1897年に改良ばね式のスイス士官ナイフの特許を取得。"
     },
     "mass_production": {
       "year": 1891,
       "precision": "year",
       "ref": "Series production for the Swiss Army begins",
-      "ref_zh": "开始为瑞士军队批量生产"
+      "ref_zh": "开始为瑞士军队批量生产",
+      "ref_es": "Comienza la fabricación en serie para el ejército suizo.",
+      "ref_ja": "スイス軍向けの量産を開始。"
     },
     "popularization": {
       "year": 1909,
       "precision": "year",
       "ref": "Victorinox cross-and-shield trademark registered; later global icon",
-      "ref_zh": "注册维氏十字盾标，日后成为全球图标"
+      "ref_zh": "注册维氏十字盾标，日后成为全球图标",
+      "ref_es": "Se registra el emblema de la cruz y el escudo de Victorinox, que después se hace mundialmente conocido.",
+      "ref_ja": "後に世界的な象徴となる Victorinox の十字と盾の商標を登録。"
     }
   },
   "primary": "patent",
@@ -38,7 +46,9 @@
       "place_label_zh": "瑞士施维茨州伊巴赫（维氏）",
       "place_label_en": "Ibach, Schwyz, Switzerland (Victorinox)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Ibach, cantón de Schwyz, Suiza (Victorinox)",
+      "place_label_ja": "スイス・シュヴィーツ州イーバッハ（Victorinox）"
     }
   ],
   "confidence": "exact",
@@ -70,13 +80,17 @@
     "travel",
     "repair"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/swiss-army-knife.jpg",
     "alt_zh": "打开的瑞士军刀",
     "alt_en": "An open Swiss Army knife",
     "credit": "Jonas Bergsten",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open_20050612_(cropped).jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Swiss_army_knife_open_20050612_(cropped).jpg",
+    "alt_es": "Una navaja suiza con las herramientas desplegadas",
+    "alt_ja": "各ツールを開いたスイスアーミーナイフ"
+  },
+  "name_es": "Navaja suiza",
+  "summary_es": "Karl Elsener comenzó a producir cuchillos para soldados suizos en 1891. Su patente de navaja de oficial de 1897 estableció la estructura de resortes con varias herramientas, después conocida por la marca Victorinox."
 }

@@ -11,7 +11,9 @@
       "year": 1947,
       "precision": "year",
       "ref": "Production of the Rex transverse-blade peeler began; other peeler designs predated it",
-      "ref_zh": "Rex 横刃削皮器开始生产；此前已有其他削皮器形式"
+      "ref_zh": "Rex 横刃削皮器开始生产；此前已有其他削皮器形式",
+      "ref_es": "Comienza la producción del pelador Rex de hoja transversal; ya existían otras formas de pelador.",
+      "ref_ja": "横刃式 Rex ピーラーの生産が始まる。それ以前にも他の形の皮むき器が存在した。"
     },
     "popularization": null
   },
@@ -22,7 +24,9 @@
       "place_label_zh": "瑞士苏黎世（Rex 削皮器设计与生产语境）",
       "place_label_en": "Zurich, Switzerland (Rex peeler design and production context)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Zúrich, Suiza (diseño y producción del pelador Rex)",
+      "place_label_ja": "スイス・チューリヒ（Rex ピーラーの設計・生産に関わる地域）"
     }
   ],
   "confidence": "year",
@@ -49,13 +53,19 @@
   "tags": [
     "cooking"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/vegetable-peeler.jpg",
     "alt_zh": "不同形态的削皮器",
     "alt_en": "Different forms of vegetable peeler",
     "credit": "Pengo",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Peeler_01_Pengo.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Peeler_01_Pengo.jpg",
+    "alt_es": "Peladores de varios diseños",
+    "alt_ja": "さまざまな形の皮むき器"
+  },
+  "name_es": "Pelador de verduras",
+  "summary_es": "El pelador retira capas finas de piel con una hoja ranurada. Existen diseños de mango recto y de hoja transversal; el Rex suizo, cuya producción comenzó en 1947, es un ejemplo clásico de estos últimos.",
+  "notes_es": "El pelador no apareció por primera vez en 1947. Esta entrada registra la producción del modelo Rex de hoja transversal, sin equiparar la comercialización de un diseño con la invención de toda la herramienta.",
+  "notes_ja": "皮むき器は1947年に初めて現れたわけではない。本項は Rex 横刃式の生産を記録し、一つの設計の商品化を道具全体の発明と同一視しない。"
 }

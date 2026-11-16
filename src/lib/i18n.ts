@@ -214,7 +214,7 @@ const dict = {
 export type MessageKey = keyof (typeof dict)['zh'];
 
 const es = {
-  ...dict.en,
+  title: 'Things Atlas',
   tagline: 'Invención, patentes, producción en masa y popularización de los objetos cotidianos',
   year: 'Año',
   close: 'Cerrar',
@@ -308,7 +308,7 @@ const es = {
 } satisfies Record<MessageKey, string>;
 
 const ja = {
-  ...dict.en,
+  title: 'Things Atlas',
   tagline: '日常のものの発明・特許・量産・普及',
   year: '年',
   close: '閉じる',

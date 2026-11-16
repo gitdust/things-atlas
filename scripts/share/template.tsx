@@ -123,7 +123,7 @@ export function ShareCard({ format, lang, content, image, map, qr }: Props) {
             <ul>
               {map.pins.map(({ location }, index) => (
                 <li key={index}>
-                  <b>{index + 1}</b> {location[lang === 'zh' ? 'place_label_zh' : 'place_label_en']}
+                  <b>{index + 1}</b> {location[`place_label_${lang}`]}
                 </li>
               ))}
             </ul>

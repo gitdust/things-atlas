@@ -12,7 +12,9 @@
       "year": 1400,
       "precision": "century",
       "ref": "Cheaper moulded buckles reach the general population in the 15th century",
-      "ref_zh": "15 世纪模铸技术让普通人也能用上带扣"
+      "ref_zh": "15 世纪模铸技术让普通人也能用上带扣",
+      "ref_es": "Las hebillas moldeadas más baratas llegan a la población general en el siglo XV.",
+      "ref_ja": "15世紀に安価な鋳型製のバックルが一般の人々へ広まる。"
     }
   },
   "locations": [
@@ -22,7 +24,9 @@
       "place_label_zh": "欧洲",
       "place_label_en": "Europe",
       "kind": "popularization",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Europa",
+      "place_label_ja": "ヨーロッパ"
     }
   ],
   "confidence": "century",
@@ -43,14 +47,20 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/belt-buckle.jpg",
     "alt_zh": "两条带金属扣的皮带",
     "alt_en": "Two leather belts with metal buckles",
     "credit": "CEphoto, Uwe Aranas",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Germany_Belt-and-Buckle-01.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Germany_Belt-and-Buckle-01.jpg",
+    "alt_es": "Dos cinturones con hebillas metálicas",
+    "alt_ja": "金属製バックル付きのベルト2本"
   },
-  "notes_en": "Weak sourcing: buckles were used in Roman times, but no reliable date exists, so invention is left null and only the 15th-century spread is recorded."
+  "notes_en": "Weak sourcing: buckles were used in Roman times, but no reliable date exists, so invention is left null and only the 15th-century spread is recorded.",
+  "name_es": "Hebilla de cinturón",
+  "summary_es": "En la Edad Media, las hebillas eran en gran medida adornos de los ricos. En el siglo XV, el moldeo abarató su fabricación y las incorporó a la ropa de la población general.",
+  "notes_es": "Las fuentes son limitadas. Ya se usaban hebillas en la antigua Roma, pero no hay una fecha de invención fiable. Se deja vacía y solo se registra su difusión en el siglo XV.",
+  "notes_ja": "出典は弱い。古代ローマですでにバックルが使われていたが、信頼できる具体的な発明年はないため空欄とし、15世紀の普及のみを記録する。"
 }

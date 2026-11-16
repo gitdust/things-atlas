@@ -9,14 +9,18 @@
       "year": -1000,
       "precision": "century",
       "ref": "Bow shears appear in Europe around 1000 BCE",
-      "ref_zh": "约公元前 1000 年欧洲出现弓形剪"
+      "ref_zh": "约公元前 1000 年欧洲出现弓形剪",
+      "ref_es": "Aparecen tijeras de resorte en Europa hacia el 1000 a. C.",
+      "ref_ja": "紀元前1000年頃、ヨーロッパにばね式のはさみが現れる。"
     },
     "patent": null,
     "mass_production": {
       "year": 1761,
       "precision": "year",
       "ref": "Robert Hinchliffe of Sheffield makes cast-steel scissors for the mass market",
-      "ref_zh": "谢菲尔德的欣奇利夫生产面向大众的铸钢剪刀"
+      "ref_zh": "谢菲尔德的欣奇利夫生产面向大众的铸钢剪刀",
+      "ref_es": "Hinchliffe produce tijeras de acero fundido para el mercado general en Sheffield.",
+      "ref_ja": "Sheffield の Hinchliffe が大衆向けの鋳鋼製はさみを生産。"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "欧洲（弓形剪）",
       "place_label_en": "Europe (bow shears)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Europa (tijeras de resorte)",
+      "place_label_ja": "ヨーロッパ（ばね式はさみ）"
     },
     {
       "lat": 53.381,
@@ -35,7 +41,9 @@
       "place_label_zh": "英国谢菲尔德",
       "place_label_en": "Sheffield, UK",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Sheffield, Reino Unido",
+      "place_label_ja": "英国シェフィールド"
     },
     {
       "lat": 30.274,
@@ -44,7 +52,9 @@
       "place_label_en": "Hangzhou, China (Zhang Xiaoquan)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1663
+      "year_override": 1663,
+      "place_label_es": "Hangzhou, China (Zhang Xiaoquan)",
+      "place_label_ja": "中国杭州（張小泉）"
     }
   ],
   "confidence": "century",
@@ -64,14 +74,20 @@
   "tags": [
     "repair"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/scissors.jpg",
     "alt_zh": "一把不锈钢家用剪刀",
     "alt_en": "A pair of stainless-steel household scissors",
     "credit": "Doggerelblogger",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Standard_household_scissors.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Standard_household_scissors.jpg",
+    "alt_es": "Unas tijeras domésticas de acero inoxidable",
+    "alt_ja": "家庭用のステンレス製はさみ"
   },
-  "notes_en": "Early scissors were spring-type bow shears; pivoted scissors became widespread later. Hangzhou’s Zhang Xiaoquan was founded in 1663, and founder Zhang Sijia had pioneered its steel-inlay technique around 1580 in the Ming dynasty."
+  "notes_en": "Early scissors were spring-type bow shears; pivoted scissors became widespread later. Hangzhou’s Zhang Xiaoquan was founded in 1663, and founder Zhang Sijia had pioneered its steel-inlay technique around 1580 in the Ming dynasty.",
+  "name_es": "Tijeras",
+  "summary_es": "Las tijeras de resorte aparecieron en Europa hacia el 1000 a. C. En 1761, Hinchliffe fabricó tijeras de acero fundido en Sheffield; Zhang Xiaoquan producía tijeras de pivote en Hangzhou desde 1663.",
+  "notes_es": "Las primeras tijeras eran de resorte; las de pivote se difundieron después. Zhang Xiaoquan se fundó en Hangzhou en 1663; Zhang Sijia ya había desarrollado su técnica de inserción de acero hacia 1580, durante la dinastía Ming.",
+  "notes_ja": "初期のはさみはばね式で、支点を持つ形式は後に普及した。杭州の張小泉は1663年創業で、張思家は明代の1580年頃にすでに鋼をはめ込む技法を始めていた。"
 }

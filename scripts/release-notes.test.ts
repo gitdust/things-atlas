@@ -12,6 +12,8 @@ const change = (id: string, afterVersion: string) => ({
   afterVersion,
   zh: `更新 ${id}`,
   en: `Change ${id}`,
+  es: `Cambio ${id}`,
+  ja: `更新内容 ${id}`,
 });
 
 test('versions compare numerically, including multi-digit components', () => {
@@ -122,4 +124,17 @@ test('history supports committed versions, uncommitted bumps, and empty initial 
     createReleaseHistory('0.2.0', records, ['0.2.0', '0.1.0']),
     createReleaseHistory('0.2.0', records, ['0.1.0']),
   );
+});
+
+test('release notes retain every supported language and reject incomplete translations', () => {
+  const record = change('translated', '0.1.0');
+  const result = createReleaseManifest('0.2.0', [record], '0.1.0').changes[0];
+  assert.equal(result.es, record.es);
+  assert.equal(result.ja, record.ja);
+  for (const lang of ['es', 'ja']) {
+    assert.throws(
+      () => createReleaseManifest('0.2.0', [{ ...record, [lang]: '' }], '0.1.0'),
+      new RegExp(lang),
+    );
+  }
 });

@@ -9,20 +9,26 @@
       "year": 1770,
       "precision": "year",
       "ref": "Edward Nairne markets rubber erasers in London (noted by Priestley, 15 Apr 1770)",
-      "ref_zh": "奈恩在伦敦出售橡胶擦（普里斯特利 1770 年 4 月 15 日记载）"
+      "ref_zh": "奈恩在伦敦出售橡胶擦（普里斯特利 1770 年 4 月 15 日记载）",
+      "ref_es": "Edward Nairne vende gomas de borrar en Londres; Priestley lo registra el 15 de abril de 1770.",
+      "ref_ja": "Edward Nairneがロンドンでゴム消しを販売する（Priestleyが1770年4月15日に記録）。"
     },
     "patent": {
       "year": 1858,
       "precision": "exact",
       "ref": "Hymen Lipman's pencil-with-eraser patent US 19,783 (30 Mar 1858)",
-      "ref_zh": "李普曼获铅笔加橡皮头专利 US 19,783（1858-03-30）"
+      "ref_zh": "李普曼获铅笔加橡皮头专利 US 19,783（1858-03-30）",
+      "ref_es": "Patente US 19783 de Hymen Lipman para un lápiz con goma, 30 de marzo de 1858.",
+      "ref_ja": "Hymen Lipmanの消しゴム付き鉛筆の米国特許US 19783（1858年3月30日）。"
     },
     "mass_production": null,
     "popularization": {
       "year": 1839,
       "precision": "year",
       "ref": "Charles Goodyear's vulcanization makes rubber durable",
-      "ref_zh": "固特异发明硫化，使橡胶耐用"
+      "ref_zh": "固特异发明硫化，使橡胶耐用",
+      "ref_es": "La vulcanización de Charles Goodyear hace duradero el caucho.",
+      "ref_ja": "Charles Goodyearの加硫法によりゴムの耐久性が増す。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "英国伦敦（奈恩）",
       "place_label_en": "London, UK (Nairne)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Londres, Reino Unido (Nairne)",
+      "place_label_ja": "英国ロンドン（Nairne）"
     },
     {
       "lat": 39.952,
@@ -40,7 +48,9 @@
       "place_label_zh": "美国费城（李普曼）",
       "place_label_en": "Philadelphia, USA (Lipman)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Filadelfia, Estados Unidos (Lipman)",
+      "place_label_ja": "米国フィラデルフィア（Lipman）"
     }
   ],
   "confidence": "year",
@@ -67,14 +77,20 @@
     "office",
     "writing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/eraser.jpg",
     "alt_zh": "两块粉色橡皮",
     "alt_en": "Two pink erasers",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Office-pink-erasers.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Office-pink-erasers.jpg",
+    "alt_es": "Dos gomas de borrar rosas",
+    "alt_ja": "ピンクの消しゴム2個"
   },
-  "notes_en": "Lipman's patent was later invalidated by the US Supreme Court as a mere combination of existing things. Erasers predate vulcanized rubber; Goodyear's 1839 process made them durable."
+  "notes_en": "Lipman's patent was later invalidated by the US Supreme Court as a mere combination of existing things. Erasers predate vulcanized rubber; Goodyear's 1839 process made them durable.",
+  "name_es": "Goma de borrar",
+  "summary_es": "Nairne comenzó a vender gomas de borrar en Londres en 1770; Priestley registró su capacidad de eliminar trazos de lápiz. En 1858, Lipman solicitó una patente para un lápiz con goma.",
+  "notes_es": "El Tribunal Supremo de Estados Unidos anuló después la patente de Lipman por considerar que solo combinaba dos objetos existentes. Las gomas son anteriores al caucho vulcanizado; el proceso de Goodyear de 1839 las hizo más duraderas.",
+  "notes_ja": "Lipmanの特許は既存の二つの物の組合せにすぎないとして、後に米国最高裁で無効となった。消しゴム自体は加硫ゴムより早く、Goodyearの1839年の製法で耐久性が向上した。"
 }

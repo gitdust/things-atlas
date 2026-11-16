@@ -9,7 +9,9 @@
       "year": 1956,
       "precision": "year",
       "ref": "Bette Nesmith Graham's Mistake Out (later Liquid Paper), Dallas",
-      "ref_zh": "格雷厄姆在达拉斯发明 Mistake Out（后称 Liquid Paper）"
+      "ref_zh": "格雷厄姆在达拉斯发明 Mistake Out（后称 Liquid Paper）",
+      "ref_es": "Bette Nesmith Graham crea Mistake Out, posteriormente Liquid Paper, en Dallas.",
+      "ref_ja": "Bette Nesmith GrahamがダラスでMistake Out（後のLiquid Paper）を作る。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "美国得克萨斯州达拉斯",
       "place_label_en": "Dallas, Texas, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Dallas, Texas, Estados Unidos",
+      "place_label_ja": "米国テキサス州ダラス"
     }
   ],
   "confidence": "year",
@@ -48,13 +52,17 @@
     "office",
     "writing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/correction-fluid.jpg",
     "alt_zh": "一瓶 BIC Wite-Out 修正液",
     "alt_en": "A bottle of BIC Wite-Out correction fluid",
     "credit": "J B from USA",
     "license": "CC BY 2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Wite-Out_and_Shadow_(3373550912).jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wite-Out_and_Shadow_(3373550912).jpg",
+    "alt_es": "Frasco de líquido corrector BIC Wite-Out",
+    "alt_ja": "BIC Wite-Out修正液のボトル"
+  },
+  "name_es": "Líquido corrector",
+  "summary_es": "En 1956, la secretaria de Dallas Bette Nesmith Graham utilizó pintura blanca para cubrir errores de mecanografía. Su producto evolucionó hasta convertirse en Liquid Paper."
 }

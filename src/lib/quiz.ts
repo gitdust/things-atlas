@@ -2,7 +2,7 @@ import type { AtlasItem, EarliestUse } from './types';
 
 export type QuizItem = Pick<
   AtlasItem,
-  'id' | 'name_zh' | 'name_en' | 'name_ja' | 'image' | 'sources'
+  'id' | 'name_zh' | 'name_en' | 'name_es' | 'name_ja' | 'image' | 'sources'
 > & {
   earliest_use: EarliestUse;
 };
@@ -32,10 +32,14 @@ export function validateEarliestUse(item: {
     !use.explanation_zh?.trim() ||
     use.explanation_zh.length > 80 ||
     !use.explanation_en?.trim() ||
-    use.explanation_en.length > 220
+    use.explanation_en.length > 220 ||
+    !use.explanation_es?.trim() ||
+    use.explanation_es.length > 320 ||
+    !use.explanation_ja?.trim() ||
+    use.explanation_ja.length > 320
   )
     errors.push(
-      'earliest_use explanations require editorial review (ZH 1–80, EN 1–220 characters)',
+      'earliest_use explanations require editorial review (ZH 1–80, EN 1–220, ES/JA 1–320 characters)',
     );
   if (
     !use.source_urls?.length ||
@@ -76,6 +80,7 @@ export function eligibleQuizItems(items: AtlasItem[]): QuizItem[] {
           id: item.id,
           name_zh: item.name_zh,
           name_en: item.name_en,
+          name_es: item.name_es,
           name_ja: item.name_ja,
           image: item.image,
           sources: item.sources,

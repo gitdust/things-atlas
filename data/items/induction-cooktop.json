@@ -11,13 +11,17 @@
       "year": 1909,
       "precision": "year",
       "ref": "Arthur Francis Berry’s US 932,242 granted for induction heating for cooking; filed in 1906",
-      "ref_zh": "Arthur Francis Berry 的美国感应加热烹饪专利 US 932,242 获批（1906 年申请）"
+      "ref_zh": "Arthur Francis Berry 的美国感应加热烹饪专利 US 932,242 获批（1906 年申请）",
+      "ref_es": "Se concede a Arthur Francis Berry la patente US 932242 para calentamiento por inducción aplicado a la cocina, solicitada en 1906",
+      "ref_ja": "アーサー・フランシス・ベリーの調理用誘導加熱の米国特許932,242が成立した（1906年出願）"
     },
     "mass_production": {
       "year": 1970,
       "precision": "decade",
       "ref": "Modern induction ranges appeared in the 1970s, including Westinghouse models with limited early distribution",
-      "ref_zh": "1970 年代出现 Westinghouse 等企业的现代电磁灶，早期产品销售规模有限"
+      "ref_zh": "1970 年代出现 Westinghouse 等企业的现代电磁灶，早期产品销售规模有限",
+      "ref_es": "Aparecen cocinas de inducción modernas en los años setenta, incluidos modelos de Westinghouse con una distribución inicial limitada",
+      "ref_ja": "1970年代にWestinghouseなどの現代的な電磁調理器が登場したが、初期製品の販売規模は限られていた"
     },
     "popularization": null
   },
@@ -28,7 +32,9 @@
       "place_label_zh": "英国伦敦伊灵（Berry 的专利所载居住地）",
       "place_label_en": "Ealing, London, UK (Berry’s residence recorded in the patent)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Ealing, Londres, Reino Unido (residencia de Berry indicada en la patente)",
+      "place_label_ja": "英国ロンドン・イーリング（特許に記されたベリーの居住地）"
     },
     {
       "lat": 40.441,
@@ -36,7 +42,9 @@
       "place_label_zh": "美国宾夕法尼亚州匹兹堡地区（Westinghouse 研发）",
       "place_label_en": "Pittsburgh region, Pennsylvania, USA (Westinghouse development)",
       "kind": "production",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Pittsburgh, Pensilvania, EE. UU. (desarrollo de Westinghouse)",
+      "place_label_ja": "米国ペンシルベニア州ピッツバーグ周辺（Westinghouseの開発）"
     }
   ],
   "confidence": "year",
@@ -83,6 +91,12 @@
     "alt_en": "A four-zone induction cooktop with a saucepan",
     "credit": "Grillo",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Induktionsh%C3%A4ll.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Induktionsh%C3%A4ll.JPG",
+    "alt_es": "Una placa de inducción de cuatro zonas con un cazo",
+    "alt_ja": "4口の電磁調理器と片手鍋"
+  },
+  "name_es": "Placa de inducción",
+  "summary_es": "Las placas de inducción calientan el recipiente mediante un campo magnético variable. Berry obtuvo una patente temprana en 1909; Westinghouse y otras empresas comercializaron modelos electrónicos modernos en los años setenta.",
+  "notes_es": "La cronología usa una patente temprana documentada; no afirma que la cocina por inducción se inventara únicamente en 1909. Los conceptos iniciales difieren de las placas electrónicas modernas de alta frecuencia, y comercialización en los años setenta no equivale a adopción masiva. Se excluyen las cocinas eléctricas de resistencia.",
+  "notes_ja": "年表では記録のある初期特許を節目とし、1909年を唯一の発明年とは断定しない。初期の誘導加熱の構想と現代の高周波電子式調理器は区別する。1970年代の商品化も大規模な普及を意味しない。一般的な電気抵抗式コンロは対象外である。"
 }

@@ -9,20 +9,26 @@
       "year": 1994,
       "precision": "year",
       "ref": "Masahiro Hara and his team at Denso Wave invent the Quick Response (QR) matrix barcode in Kariya, Japan",
-      "ref_zh": "原昌宏带领日本电装（Denso Wave）团队在爱知县刈谷市发明快速响应矩阵式二维码"
+      "ref_zh": "原昌宏带领日本电装（Denso Wave）团队在爱知县刈谷市发明快速响应矩阵式二维码",
+      "ref_es": "Masahiro Hara y su equipo de Denso Wave inventan el código matricial Quick Response (QR) en Kariya, Japón",
+      "ref_ja": "原昌宏とDenso Waveのチームが日本の刈谷市でQuick Response（QR）マトリックスコードを発明した"
     },
     "patent": {
       "year": 1999,
       "precision": "year",
       "ref": "Japanese patent JP2938338B2 granted; Denso announces royalty-free use of the patent, establishing an open standard",
-      "ref_zh": "日本专利 JP2938338B2 获得授权；电装宣布免费开放专利使用，确立开放标准"
+      "ref_zh": "日本专利 JP2938338B2 获得授权；电装宣布免费开放专利使用，确立开放标准",
+      "ref_es": "Se concede la patente japonesa JP2938338B2; Denso anuncia su uso sin regalías, consolidando un estándar abierto",
+      "ref_ja": "日本特許JP2938338B2が成立し、Densoが特許の無償利用を公表してオープンな標準を確立した"
     },
     "mass_production": null,
     "popularization": {
       "year": 2000,
       "precision": "year",
       "ref": "Approved as international standard ISO/IEC 18004, later surging globally via smartphones and mobile payments",
-      "ref_zh": "获批成为 ISO/IEC 18004 国际标准，后随智能手机与移动支付在全球爆发式普及"
+      "ref_zh": "获批成为 ISO/IEC 18004 国际标准，后随智能手机与移动支付在全球爆发式普及",
+      "ref_es": "Se aprueba como norma internacional ISO/IEC 18004; después se expande globalmente con los móviles y los pagos digitales",
+      "ref_ja": "国際規格ISO/IEC 18004として承認され、その後スマートフォンとモバイル決済により世界的に急速に普及した"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "日本爱知县刈谷市（日本电装 / Denso Wave）",
       "place_label_en": "Kariya, Aichi, Japan (Denso / Denso Wave)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Kariya, Aichi, Japón (Denso / Denso Wave)",
+      "place_label_ja": "日本愛知県刈谷市（Denso／Denso Wave）"
     }
   ],
   "confidence": "year",
@@ -70,13 +78,17 @@
     "computing",
     "trade"
   ],
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/qr-code.jpg",
     "alt_zh": "使用智能手机扫描海报上的二维码",
     "alt_en": "Scanning a QR code on a poster using a smartphone",
     "credit": "BangertNo",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:QR-Code-Anwendung.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:QR-Code-Anwendung.jpg",
+    "alt_es": "Escaneo de un código QR de un cartel con un teléfono inteligente",
+    "alt_ja": "スマートフォンでポスターのQRコードを読み取る様子"
+  },
+  "name_es": "Código QR",
+  "summary_es": "Masahiro Hara, de Denso, creó en 1994 el código QR matricial con tres patrones de posición. El uso sin regalías favoreció su difusión como estándar abierto mundial y transformó los pagos móviles y el intercambio de información."
 }

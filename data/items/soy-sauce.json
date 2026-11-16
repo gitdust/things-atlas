@@ -9,20 +9,26 @@
       "year": 40,
       "precision": "year",
       "ref": "Qingjiang, an early liquid soy-sauce ancestor, listed in Cui Shi’s Simin Yueling (40 CE)",
-      "ref_zh": "崔寔《四民月令》（公元40年）记载清酱，为酱油早期形态"
+      "ref_zh": "崔寔《四民月令》（公元40年）记载清酱，为酱油早期形态",
+      "ref_es": "El Simin Yueling de Cui Shi menciona qingjiang en el año 40, una forma temprana de salsa de soja.",
+      "ref_ja": "崔寔の『四民月令』（西暦40年）が醤油の初期形態に当たる清醤を記録。"
     },
     "patent": null,
     "mass_production": {
       "year": 544,
       "precision": "year",
       "ref": "The Qimin Yaoshu (544) provides the earliest known detailed account of making fermented paste",
-      "ref_zh": "《齐民要术》（544）给出目前最早的制酱详述"
+      "ref_zh": "《齐民要术》（544）给出目前最早的制酱详述",
+      "ref_es": "El Qimin Yaoshu, de 544, ofrece la descripción detallada de elaboración más antigua que se conserva.",
+      "ref_ja": "544年の『斉民要術』に、現存する最初期の詳しい醤造法が記される。"
     },
     "popularization": {
       "year": 1200,
       "precision": "century",
       "ref": "Term jiangyou becomes established in Song texts",
-      "ref_zh": "宋代文献中「酱油」名称逐渐定型"
+      "ref_zh": "宋代文献中「酱油」名称逐渐定型",
+      "ref_es": "El nombre jiangyou se consolida progresivamente en textos de la dinastía Song.",
+      "ref_ja": "宋代の文献で「醤油」の名称が次第に定着。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "中国中原（汉代清酱记载语境）",
       "place_label_en": "Central Plains, China (Han qingjiang context)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Llanura Central, China (contexto de los registros Han sobre qingjiang)",
+      "place_label_ja": "中国中原（漢代の清醤の記録に関わる地域）"
     },
     {
       "lat": 36.65,
@@ -40,7 +48,9 @@
       "place_label_zh": "中国山东（贾思勰《齐民要术》关联地）",
       "place_label_en": "Shandong, China (associated with Jia Sixie’s Qimin Yaoshu)",
       "kind": "production",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Shandong, China (región vinculada al Qimin Yaoshu de Jia Sixie)",
+      "place_label_ja": "中国山東（賈思勰の『斉民要術』に関わる地域）"
     }
   ],
   "confidence": "year",
@@ -71,13 +81,17 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/soy-sauce.jpg",
     "alt_zh": "一碟酱油",
     "alt_en": "A small dish of soy sauce",
     "credit": "국립국어원",
     "license": "CC BY-SA 2.0 kr",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Soy_sauce_2.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Soy_sauce_2.jpg",
+    "alt_es": "Un platillo de salsa de soja",
+    "alt_ja": "小皿に入った醤油"
+  },
+  "name_es": "Salsa de soja",
+  "summary_es": "La salsa de soja evolucionó a partir del líquido de las pastas de soja. El Simin Yueling menciona qingjiang en el año 40; el Qimin Yaoshu detalla su elaboración en 544. El nombre jiangyou se afianzó durante la dinastía Song."
 }

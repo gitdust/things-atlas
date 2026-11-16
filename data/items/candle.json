@@ -9,7 +9,9 @@
       "year": -500,
       "precision": "century",
       "ref": "Smith College teaching material dates Roman dipped candles to about 500 BCE; the wider origin of candles with wicks remains uncertain",
-      "ref_zh": "史密斯学院教学资料以约前500年标示罗马浸制蜡烛；有芯蜡烛的整体起源仍不确定"
+      "ref_zh": "史密斯学院教学资料以约前500年标示罗马浸制蜡烛；有芯蜡烛的整体起源仍不确定",
+      "ref_es": "Material docente de Smith College sitúa las velas romanas por inmersión hacia 500 a. C.; el origen general de las velas con mecha sigue siendo incierto.",
+      "ref_ja": "Smith Collegeの教材はローマの浸し蝋燭を前500年頃とするが、芯のある蝋燭全体の起源は未確定。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1200,
       "precision": "century",
       "ref": "Candle-making became a guild craft in England and France during the 13th century",
-      "ref_zh": "13世纪，英格兰与法国的制烛业已成为行会手艺"
+      "ref_zh": "13世纪，英格兰与法国的制烛业已成为行会手艺",
+      "ref_es": "La fabricación de velas se convierte en oficio gremial en Inglaterra y Francia en el siglo XIII.",
+      "ref_ja": "13世紀のイングランドとフランスで蝋燭製造がギルドの職業となる。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "意大利（罗马浸制蜡烛传统，以罗马示意）",
       "place_label_en": "Italy (Roman dipped-candle tradition; Rome shown)",
       "kind": "contested",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Italia (tradición romana de velas por inmersión; Roma como referencia)",
+      "place_label_ja": "イタリア（ローマの浸し蝋燭の伝統、ローマを代表点とする）"
     },
     {
       "lat": 52,
@@ -36,7 +42,9 @@
       "place_label_en": "England (candle-making guild craft, 13th century)",
       "kind": "popularization",
       "confidence": "country",
-      "year_override": 1200
+      "year_override": 1200,
+      "place_label_es": "Inglaterra (gremios de cereros del siglo XIII)",
+      "place_label_ja": "イングランド（13世紀の蝋燭職人組合）"
     },
     {
       "lat": 46.6,
@@ -45,7 +53,9 @@
       "place_label_en": "France (candle-making guild craft, 13th century)",
       "kind": "popularization",
       "confidence": "country",
-      "year_override": 1200
+      "year_override": 1200,
+      "place_label_es": "Francia (gremios de cereros del siglo XIII)",
+      "place_label_ja": "フランス（13世紀の蝋燭職人組合）"
     }
   ],
   "confidence": "disputed",
@@ -79,13 +89,19 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-06",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/candle.jpg",
     "alt_zh": "黑暗中燃烧的蜡烛",
     "alt_en": "A candle burning in the dark",
     "credit": "User:Paolostefano1412",
     "license": "CC BY 2.5",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Candle.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Candle.jpg",
+    "alt_es": "Vela encendida en la oscuridad",
+    "alt_ja": "暗闇で燃える蝋燭"
+  },
+  "name_es": "Vela",
+  "summary_es": "La vela rodea una mecha de grasa o cera combustible para crear una luz portátil. Las velas romanas por inmersión son una tradición temprana; en el siglo XIII, su fabricación ya era un oficio gremial en Inglaterra y Francia.",
+  "notes_es": "La distinción entre velas con mecha, recipientes de aceite y juncos impregnados de grasa afecta al relato del origen. Smith College fecha la tradición romana hacia 500 a. C.; English Heritage también la atribuye a Roma con reservas. Se usa como referencia tradicional, sin afirmar un único origen mundial ni equiparar los juncos anteriores a velas. El hito gremial del siglo XIII no es una fecha exacta de primera difusión.",
+  "notes_ja": "芯のある蝋燭、油容器、脂を含ませた灯心草の区別によって起源の説明は変わる。Smith Collegeはローマの浸し蝋燭を前500年頃とし、English Heritageも推測を伴ってローマ人に帰す。本項はこの伝統的な年代を表示点とするが、ローマを世界唯一の発明地とせず、以前の灯心草を蝋燭と同一視しない。13世紀の組合も最初の普及の厳密な年ではない。"
 }

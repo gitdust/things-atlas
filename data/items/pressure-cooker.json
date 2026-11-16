@@ -4,7 +4,9 @@
       "year": 1679,
       "precision": "year",
       "ref": "Papin designs an experimental steam digester in England, a precursor of modern pressure cookers",
-      "ref_zh": "帕潘在英国设计实验性高压蒸煮器，为现代压力锅的先驱"
+      "ref_zh": "帕潘在英国设计实验性高压蒸煮器，为现代压力锅的先驱",
+      "ref_es": "Papin diseña en Inglaterra un digestor experimental de vapor a presión, precursor de las ollas modernas",
+      "ref_ja": "パパンが英国で実験用の高圧蒸煮器を設計し、現代の圧力鍋の先駆けとなった"
     },
     "patent": null,
     "mass_production": null,
@@ -12,7 +14,7 @@
   },
   "confidence": "year",
   "disputed": false,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "id": "pressure-cooker",
   "name_zh": "压力锅（高压锅）",
   "name_en": "Pressure cooker",
@@ -25,7 +27,9 @@
       "place_label_zh": "英国伦敦（帕潘蒸煮器研究）",
       "place_label_en": "London, England (Papin’s digester research)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Londres, Inglaterra (investigación del digestor de Papin)",
+      "place_label_ja": "英国ロンドン（パパンの蒸煮器研究）"
     }
   ],
   "sources": [
@@ -62,6 +66,12 @@
     "alt_en": "A stovetop pressure cooker",
     "credit": "Cantons-de-l'Est",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Pressure_cooker_-_Hawkins,_Contura_Model_-_3_litres_-_2.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pressure_cooker_-_Hawkins,_Contura_Model_-_3_litres_-_2.jpg",
+    "alt_es": "Una olla a presión para fogón",
+    "alt_ja": "コンロ用の圧力鍋"
+  },
+  "name_es": "Olla a presión",
+  "summary_es": "El digestor de vapor que Papin diseñó en Inglaterra en 1679 fue precursor de la olla a presión. El vapor encerrado eleva el punto de ebullición del agua; sus pruebas con arroz de 1686 anticiparon una técnica que llegó después a las cocinas domésticas.",
+  "notes_es": "Los términos chinos para olla a presión designan la misma categoría. 1679 se refiere al digestor experimental de Papin, no a la producción en serie ni a la difusión doméstica de las ollas modernas. Se incluyen juntas las ollas para fogón y eléctricas; los autoclaves médicos quedan fuera.",
+  "notes_ja": "圧力鍋と中国語の「高圧鍋」は同じ器具の分類である。1679年はパパンの実験用蒸煮器の節目であり、現代の家庭用鍋の量産・普及年ではない。直火式と電気式の圧力鍋は同じ項目で扱い、医療用滅菌器は含めない。"
 }

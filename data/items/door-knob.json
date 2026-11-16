@@ -9,7 +9,9 @@
       "year": 50,
       "precision": "century",
       "ref": "Doors excavated from Lake Nemi (c. 1st century CE) have knob-shaped handles",
-      "ref_zh": "内米湖出土的约公元 1 世纪的门已带有球形把手"
+      "ref_zh": "内米湖出土的约公元 1 世纪的门已带有球形把手",
+      "ref_es": "Las puertas excavadas en el lago de Nemi, de hacia el siglo I, tienen tiradores con forma de pomo.",
+      "ref_ja": "ネミ湖から出土した1世紀頃の扉には球形の取っ手がある。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "意大利内米湖",
       "place_label_en": "Lake Nemi, Italy",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Lago de Nemi, Italia",
+      "place_label_ja": "イタリア、ネミ湖"
     }
   ],
   "confidence": "century",
@@ -42,14 +46,20 @@
   "tags": [
     "household"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/door-knob.jpg",
     "alt_zh": "加拿大一扇老门上的黑色球形门把手",
     "alt_en": "A black knob on an old door in Canada",
     "credit": "Gogerr",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Old_Door_Knob_in_Canada.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Old_Door_Knob_in_Canada.jpg",
+    "alt_es": "Pomo negro esférico en una puerta antigua de Canadá",
+    "alt_ja": "カナダの古い扉に付いた黒い球形ドアノブ"
   },
-  "notes_en": "Weak sourcing: the Lake Nemi doors are an early documented example, not an invention; locks and handles were mass-produced only after the Industrial Revolution."
+  "notes_en": "Weak sourcing: the Lake Nemi doors are an early documented example, not an invention; locks and handles were mass-produced only after the Industrial Revolution.",
+  "name_es": "Pomo de puerta",
+  "summary_es": "Los tiradores de puerta tienen miles de años de historia. Las puertas halladas en el lago de Nemi, Italia, de alrededor del siglo I, ya tenían pomos esféricos.",
+  "notes_es": "Las fuentes son limitadas: las puertas de Nemi son un ejemplo temprano documentado, no la invención. Las cerraduras y los pomos se fabricaron a gran escala después de la Revolución Industrial.",
+  "notes_ja": "出典は弱く、ネミ湖の扉は記録された初期例で発明そのものではない。錠とドアノブの大量生産は産業革命後に進んだ。"
 }

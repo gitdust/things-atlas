@@ -9,25 +9,33 @@
       "year": 1828,
       "precision": "year",
       "ref": "Bernard Lassimonne, a French mathematician, patents the first mechanical pencil sharpener (French Patent 2444), Paris",
-      "ref_zh": "法国数学家拉西蒙在巴黎取得世界上第一个机械削铅笔刨具专利（法国专利 No.2444）"
+      "ref_zh": "法国数学家拉西蒙在巴黎取得世界上第一个机械削铅笔刨具专利（法国专利 No.2444）",
+      "ref_es": "Bernard Lassimonne, matemático francés, patenta en París el primer sacapuntas mecánico, patente francesa 2444",
+      "ref_ja": "フランスの数学者ベルナール・ラシモンヌがパリで最初の機械式鉛筆削りの特許を取得した（フランス特許2444）"
     },
     "patent": {
       "year": 1828,
       "precision": "year",
       "ref": "French Patent No. 2444 granted to Bernard Lassimonne for 'taille-crayon'",
-      "ref_zh": "法国专利局向拉西蒙颁发削铅笔器专利"
+      "ref_zh": "法国专利局向拉西蒙颁发削铅笔器专利",
+      "ref_es": "Se concede a Bernard Lassimonne la patente francesa n.º 2444 para un taille-crayon",
+      "ref_ja": "フランス特許局がラシモンヌに鉛筆削りの特許2444を授与した"
     },
     "mass_production": {
       "year": 1847,
       "precision": "year",
       "ref": "Thierry des Estivaux invents the handheld prism sharpener with a conical hole and straight blade in Paris",
-      "ref_zh": "埃斯蒂沃在巴黎发明带有锥形导向孔和固定平刃的手持棱柱形卷笔刀，奠定现代小卷笔刀形态"
+      "ref_zh": "埃斯蒂沃在巴黎发明带有锥形导向孔和固定平刃的手持棱柱形卷笔刀，奠定现代小卷笔刀形态",
+      "ref_es": "Thierry des Estivaux inventa en París el sacapuntas portátil prismático con orificio cónico y hoja recta fija",
+      "ref_ja": "ティエリ・デ・エスティヴォーがパリで円錐形の案内穴と固定直刃を備えた手持ち式の角柱型鉛筆削りを発明した"
     },
     "popularization": {
       "year": 1896,
       "precision": "year",
       "ref": "A.B. Dick Company releases the Planetary Pencil Sharpener, Chicago, leading to widespread rotary classroom sharpeners",
-      "ref_zh": "芝加哥 A.B. Dick 公司推出行星齿轮双滚刀手摇卷笔机，随后进入全球中小学教室与办公桌"
+      "ref_zh": "芝加哥 A.B. Dick 公司推出行星齿轮双滚刀手摇卷笔机，随后进入全球中小学教室与办公桌",
+      "ref_es": "A. B. Dick Company lanza en Chicago el Planetary Pencil Sharpener de manivela y doble fresa, que se difunde por aulas y oficinas",
+      "ref_ja": "シカゴのA. B. Dick社が遊星歯車式の二枚刃手回し鉛筆削りを発売し、世界の教室や机上へ広がった"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "法国巴黎",
       "place_label_en": "Paris, France",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "París, Francia",
+      "place_label_ja": "フランス・パリ"
     },
     {
       "lat": 41.8781,
@@ -45,7 +55,9 @@
       "place_label_zh": "美国伊利诺伊州芝加哥",
       "place_label_en": "Chicago, Illinois, USA",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Chicago, Illinois, EE. UU.",
+      "place_label_ja": "米国イリノイ州シカゴ"
     }
   ],
   "confidence": "year",
@@ -71,5 +83,7 @@
     "writing",
     "office"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "name_es": "Sacapuntas",
+  "summary_es": "Lassimonne obtuvo la primera patente de sacapuntas mecánico en 1828; des Estivaux creó el modelo portátil de orificio cónico en 1847. Los de manivela y doble fresa llegaron a finales del XIX, sustituyendo a las navajas."
 }

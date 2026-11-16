@@ -134,10 +134,10 @@ function ShareOptions({ item, lang }: Pick<Props, 'item' | 'lang'>) {
     let result = 'completed';
     try {
       if (nativeShare) {
-        const editorial = lang === 'zh' || lang === 'en' ? item.share?.[lang] : undefined;
+        const editorial = item.share?.[lang];
         await navigator.share({
-          title: lang === 'zh' ? item.name_zh : item.name_en,
-          text: editorial?.ogSummary ?? (lang === 'zh' ? item.summary_zh : item.summary_en),
+          title: item[`name_${lang}`],
+          text: editorial?.ogSummary ?? item[`summary_${lang}`],
           url,
         });
       } else {

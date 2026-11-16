@@ -9,7 +9,9 @@
       "year": 1475,
       "precision": "decade",
       "ref": "First documented in the Housebook of Wolfegg Castle (1475–1490)",
-      "ref_zh": "最早见于沃尔夫埃格城堡《家书》（1475–1490）"
+      "ref_zh": "最早见于沃尔夫埃格城堡《家书》（1475–1490）",
+      "ref_es": "Primera representación conocida en el Libro de la Casa de Wolfegg, de 1475–1490.",
+      "ref_ja": "1475～1490年のヴォルフェック城の『家の書』に最初期の記録が見られる。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "德国沃尔夫埃格（《家书》收藏地）",
       "place_label_en": "Wolfegg, Germany (where the Housebook is kept)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Wolfegg, Alemania (lugar de conservación del Libro de la Casa)",
+      "place_label_ja": "ドイツ・ヴォルフェック（『家の書』の所蔵地）"
     }
   ],
   "confidence": "decade",
@@ -42,14 +46,20 @@
   "tags": [
     "repair"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/screwdriver.jpg",
     "alt_zh": "一把红柄一字螺丝刀",
     "alt_en": "A red-handled flat-blade screwdriver",
     "credit": "Fcb981 at English Wikipedia",
     "license": "CC BY 2.5",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Screw_Driver_display.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Screw_Driver_display.jpg",
+    "alt_es": "Un destornillador plano de mango rojo",
+    "alt_ja": "赤い柄のマイナスドライバー"
   },
-  "notes_en": "Whether it originated in Germany or France is uncertain; the pin marks Wolfegg, where the Housebook is kept, with regional precision."
+  "notes_en": "Whether it originated in Germany or France is uncertain; the pin marks Wolfegg, where the Housebook is kept, with regional precision.",
+  "name_es": "Destornillador",
+  "summary_es": "El destornillador apareció hacia finales del siglo XV en Alemania o Francia. Su primera representación conocida figura en el Libro de la Casa del castillo de Wolfegg, fechado entre 1475 y 1490.",
+  "notes_es": "No se sabe con certeza si se inventó en Alemania o Francia. El mapa señala Wolfegg, donde se conservó el Libro de la Casa, con precisión regional.",
+  "notes_ja": "発明地がドイツかフランスかは確定していない。地図では『家の書』の所蔵地ヴォルフェックを地域精度で示す。"
 }

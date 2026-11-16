@@ -9,13 +9,17 @@
       "year": 1855,
       "precision": "year",
       "ref": "Robert Yeates devises a claw-ended can opener, London",
-      "ref_zh": "伦敦的耶茨发明爪式开罐器"
+      "ref_zh": "伦敦的耶茨发明爪式开罐器",
+      "ref_es": "Robert Yeates crea en Londres un abrelatas con extremo de garra.",
+      "ref_ja": "Robert Yeatesがロンドンで爪型の開缶器を考案する。"
     },
     "patent": {
       "year": 1858,
       "precision": "year",
       "ref": "Ezra Warner of Waterbury, CT, US 19,063",
-      "ref_zh": "沃特伯里的沃纳获专利 US 19,063"
+      "ref_zh": "沃特伯里的沃纳获专利 US 19,063",
+      "ref_es": "Ezra Warner, de Waterbury, Connecticut, obtiene la patente US 19063.",
+      "ref_ja": "コネティカット州ウォーターベリーのEzra Warnerが米国特許US 19063を取得する。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "英国伦敦哈克尼路（耶茨）",
       "place_label_en": "Hackney Road, London, UK (Yeates)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Hackney Road, Londres, Reino Unido (Yeates)",
+      "place_label_ja": "英国ロンドン、ハックニー・ロード（Yeates）"
     },
     {
       "lat": 41.558,
@@ -35,7 +41,9 @@
       "place_label_zh": "美国康涅狄格州沃特伯里（沃纳）",
       "place_label_en": "Waterbury, Connecticut, USA (Warner)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Waterbury, Connecticut, Estados Unidos (Warner)",
+      "place_label_ja": "米国コネティカット州ウォーターベリー（Warner）"
     }
   ],
   "confidence": "year",
@@ -61,14 +69,20 @@
   "tags": [
     "cooking"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/can-opener.jpg",
     "alt_zh": "一把手持齿轮开罐器",
     "alt_en": "A handheld gear-driven can opener",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Kitchen-Modern-Can-Opener.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kitchen-Modern-Can-Opener.jpg",
+    "alt_es": "Abrelatas manual de rueda dentada",
+    "alt_ja": "手持ちの歯車式缶切り"
   },
-  "notes_en": "The familiar rotating-wheel opener came later, with William Lyman's 1870 patent."
+  "notes_en": "The familiar rotating-wheel opener came later, with William Lyman's 1870 patent.",
+  "name_es": "Abrelatas",
+  "summary_es": "Casi medio siglo después de la lata de conserva, Robert Yeates ideó en Londres un abrelatas manual de garra en 1855. Ezra Warner obtuvo una patente estadounidense en 1858.",
+  "notes_es": "El abrelatas de rueda giratoria hoy habitual llegó después, con la patente de William Lyman de 1870.",
+  "notes_ja": "現在一般的な回転刃式缶切りは、William Lymanの1870年の特許など、さらに後に登場した。"
 }

@@ -9,7 +9,9 @@
       "year": -2000,
       "precision": "century",
       "ref": "Noodles preserved at Lajia (Qijia culture), Qinghai, ~4000 years ago",
-      "ref_zh": "青海喇家遗址（齐家文化）出土约四千年前面条遗存"
+      "ref_zh": "青海喇家遗址（齐家文化）出土约四千年前面条遗存",
+      "ref_es": "Se conservan restos de fideos de hace unos 4000 años en Lajia, cultura Qijia, Qinghai",
+      "ref_ja": "青海省の喇家遺跡（斉家文化）で約4000年前の麺の遺存が出土した"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1000,
       "precision": "century",
       "ref": "Wheat noodles become everyday fare across Song China",
-      "ref_zh": "宋代小麦面条成为日常主食之一"
+      "ref_zh": "宋代小麦面条成为日常主食之一",
+      "ref_es": "Los fideos de trigo se convierten en un alimento cotidiano en la China Song",
+      "ref_ja": "宋代の中国で小麦の麺が日常の主食の一つとなった"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国青海民和喇家遗址",
       "place_label_en": "Lajia site, Minhe, Qinghai, China",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Yacimiento de Lajia, Minhe, Qinghai, China",
+      "place_label_ja": "中国青海省民和の喇家遺跡"
     }
   ],
   "confidence": "century",
@@ -60,13 +66,19 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/noodles.jpg",
     "alt_zh": "一碗云南面条",
     "alt_en": "A bowl of noodles in Yunnan",
     "credit": "Matthieu Lelievre",
     "license": "CC BY-SA 2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Bowl_of_noodles,_Yunnan_-_30849911807.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bowl_of_noodles,_Yunnan_-_30849911807.jpg",
+    "alt_es": "Un cuenco de fideos en Yunnan",
+    "alt_ja": "雲南の麺料理の一杯"
+  },
+  "name_es": "Fideos",
+  "summary_es": "Los fideos hallados en Lajia, Qinghai, de hacia el 2000 a. C., son los restos físicos más antiguos conocidos. Los fideos de trigo se hicieron cotidianos en China especialmente a partir de la dinastía Song.",
+  "notes_es": "Los fideos de Lajia se identificaron inicialmente como mijo; experimentos posteriores cuestionaron que una masa de mijo puro pudiera estirarse hasta esa forma. Los isótopos de los huesos humanos del lugar siguen indicando una dieta principalmente de mijo. Se usa la fecha arqueológica sin una marca de disputa aparte.",
+  "notes_ja": "喇家の麺は当初アワ製とされたが、後の実験でアワだけの生地をその形に引き延ばせるか疑問が示された。同遺跡の人骨の同位体は、なおアワ中心の食生活を示す。本項目は考古学的年代を採用し、別途の異説表示は付けていない。"
 }

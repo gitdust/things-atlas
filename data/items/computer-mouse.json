@@ -9,20 +9,26 @@
       "year": 1964,
       "precision": "year",
       "ref": "Douglas Engelbart and Bill English build the first mouse prototype at SRI",
-      "ref_zh": "恩格尔巴特与英格利希在斯坦福研究所制作第一个鼠标原型"
+      "ref_zh": "恩格尔巴特与英格利希在斯坦福研究所制作第一个鼠标原型",
+      "ref_es": "Douglas Engelbart y Bill English construyen el primer prototipo de ratón en SRI.",
+      "ref_ja": "Douglas EngelbartとBill EnglishがSRIで最初のマウス試作機を作る。"
     },
     "patent": {
       "year": 1970,
       "precision": "year",
       "ref": "US 3,541,541 X-Y position indicator for a display system",
-      "ref_zh": "美国专利 US 3,541,541（显示系统 X-Y 位置指示器）"
+      "ref_zh": "美国专利 US 3,541,541（显示系统 X-Y 位置指示器）",
+      "ref_es": "Patente US 3541541 para un indicador de posición X-Y de un sistema de visualización.",
+      "ref_ja": "表示装置用X-Y位置指示器の米国特許US 3541541。"
     },
     "mass_production": null,
     "popularization": {
       "year": 1968,
       "precision": "year",
       "ref": "Public demonstration in \"The Mother of All Demos\"",
-      "ref_zh": "在「演示之母」上公开展示"
+      "ref_zh": "在「演示之母」上公开展示",
+      "ref_es": "Demostración pública en la llamada Madre de todas las demostraciones.",
+      "ref_ja": "「すべてのデモの母」と呼ばれる公開実演で披露される。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国加州门洛帕克（SRI）",
       "place_label_en": "Menlo Park, California, USA (SRI)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Menlo Park, California, Estados Unidos (SRI)",
+      "place_label_ja": "米国カリフォルニア州メンローパーク（SRI）"
     },
     {
       "lat": 51.0,
@@ -41,7 +49,9 @@
       "place_label_en": "Germany (Telefunken Rollkugel)",
       "kind": "contested",
       "confidence": "country",
-      "year_override": 1968
+      "year_override": 1968,
+      "place_label_es": "Alemania (Rollkugel de Telefunken)",
+      "place_label_ja": "ドイツ（TelefunkenのRollkugel）"
     }
   ],
   "confidence": "year",
@@ -74,14 +84,16 @@
     "office",
     "computing"
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/computer-mouse.jpg",
     "alt_zh": "一只微软三键鼠标",
     "alt_en": "A Microsoft three-button mouse",
     "credit": "Darkone",
     "license": "CC BY-SA 2.5",
-    "source_url": "https://commons.wikimedia.org/wiki/File:3-Tasten-Maus_Microsoft.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:3-Tasten-Maus_Microsoft.jpg",
+    "alt_es": "Ratón Microsoft de tres botones",
+    "alt_ja": "Microsoftの3ボタンマウス"
   },
   "notes_en": "Telefunken announced its Rollkugel rolling-ball mouse on 2 October 1968, two months before Engelbart's public demo, as an independent ball-mouse design.",
   "earliest_use": {
@@ -96,6 +108,12 @@
     "explanation_en": "SRI records a working mouse prototype built by Bill English in 1964, using perpendicular wheels and a button.",
     "source_urls": [
       "https://www.sri.com/75-years-of-innovation/75-years-of-innovation-the-computer-mouse/"
-    ]
-  }
+    ],
+    "explanation_es": "SRI documenta un prototipo funcional construido por Bill English en 1964, con ruedas perpendiculares y un botón.",
+    "explanation_ja": "SRIによれば、Bill Englishが1964年に直交する車輪とボタンを備えた動作する試作マウスを製作した。"
+  },
+  "name_es": "Ratón de ordenador",
+  "summary_es": "Douglas Engelbart y Bill English construyeron el primer prototipo en SRI en 1964 y lo demostraron en 1968. Ese mismo año, Telefunken presentó en Alemania un ratón de bola desarrollado de forma independiente.",
+  "notes_es": "Telefunken presentó el ratón de bola Rollkugel el 2 de octubre de 1968, más de dos meses antes de la demostración pública de Engelbart. Fue un desarrollo independiente.",
+  "notes_ja": "Telefunkenは1968年10月2日に、Engelbartの公開実演より2か月以上早く、独自開発のボール式マウスRollkugelを発表した。"
 }

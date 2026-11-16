@@ -10,14 +10,18 @@
       "year": 1885,
       "precision": "year",
       "ref": "Heribert Bauer's German patent \"Federknopf-Verschluss\"",
-      "ref_zh": "鲍尔获德国专利「弹簧纽扣扣件」"
+      "ref_zh": "鲍尔获德国专利「弹簧纽扣扣件」",
+      "ref_es": "Bauer obtiene en Alemania una patente para un cierre de botón con resorte.",
+      "ref_ja": "Bauer がドイツでばね式ボタン留め具の特許を取得。"
     },
     "mass_production": null,
     "popularization": {
       "year": 1903,
       "precision": "year",
       "ref": "Prym begins producing snap fasteners",
-      "ref_zh": "普瑞姆（Prym）开始生产按扣"
+      "ref_zh": "普瑞姆（Prym）开始生产按扣",
+      "ref_es": "Prym comienza a fabricar broches de presión.",
+      "ref_ja": "Prym がスナップボタンの生産を開始。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "德国（鲍尔）",
       "place_label_en": "Germany (Bauer)",
       "kind": "patent",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Alemania (Bauer)",
+      "place_label_ja": "ドイツ（Bauer）"
     },
     {
       "lat": 55.676,
@@ -36,7 +42,9 @@
       "place_label_en": "Denmark (Bertel Sanders)",
       "kind": "contested",
       "confidence": "country",
-      "year_override": 1885
+      "year_override": 1885,
+      "place_label_es": "Dinamarca (Bertel Sanders)",
+      "place_label_ja": "デンマーク（Bertel Sanders）"
     },
     {
       "lat": 45.188,
@@ -45,7 +53,9 @@
       "place_label_en": "Grenoble, France (Raymond)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1886
+      "year_override": 1886,
+      "place_label_es": "Grenoble, Francia (Raymond)",
+      "place_label_ja": "フランス・グルノーブル（Raymond）"
     }
   ],
   "confidence": "disputed",
@@ -66,14 +76,20 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/snap-fastener.jpg",
     "alt_zh": "皮革上的金属按扣",
     "alt_en": "Metal snap fasteners on leather",
     "credit": "Grkauls",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Druckknopf.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Druckknopf.jpg",
+    "alt_es": "Broches de presión metálicos sobre cuero",
+    "alt_ja": "革に付いた金属製スナップボタン"
   },
-  "notes_en": "Disputed: Bauer's 1885 German patent is the earliest, but some credit Denmark's Bertel Sanders, and Raymond of Grenoble introduced a snap in 1886. Cities for Bauer and Sanders are unverified, so locations are marked only at the country level."
+  "notes_en": "Disputed: Bauer's 1885 German patent is the earliest, but some credit Denmark's Bertel Sanders, and Raymond of Grenoble introduced a snap in 1886. Cities for Bauer and Sanders are unverified, so locations are marked only at the country level.",
+  "name_es": "Broche de presión",
+  "summary_es": "En 1885, Heribert Bauer patentó en Alemania un cierre de resorte para pantalones, precursor del broche de presión moderno. También se atribuye su invención al danés Bertel Sanders.",
+  "notes_es": "La autoría se discute: la patente alemana de Bauer de 1885 es la más temprana, pero algunos citan al danés Sanders. Raymond también presentó un broche en Grenoble en 1886. No se han verificado las ciudades de Alemania y Dinamarca; el mapa solo señala los países.",
+  "notes_ja": "発明者には異説がある。Bauer の1885年のドイツ特許が最も早いが、デンマークの Sanders とする説もある。1886年にはフランスの Grenoble の Raymond も製品を発表した。ドイツとデンマークの都市は未確認のため国単位で表示する。"
 }

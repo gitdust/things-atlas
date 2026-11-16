@@ -9,13 +9,17 @@
       "year": 1702,
       "precision": "year",
       "ref": "The earliest reservoir pen of the type described by Bion is inscribed with the year 1702",
-      "ref_zh": "比翁所描述类型的储墨笔，最早一支刻有 1702 年"
+      "ref_zh": "比翁所描述类型的储墨笔，最早一支刻有 1702 年",
+      "ref_es": "El ejemplar más antiguo de pluma con depósito del tipo descrito por Bion lleva inscrito el año 1702.",
+      "ref_ja": "Bionが記述した型の貯墨式ペンで最古のものに1702年の刻印がある。"
     },
     "patent": {
       "year": 1827,
       "precision": "exact",
       "ref": "Petrache Poenaru's French patent (25 May 1827)",
-      "ref_zh": "波埃纳鲁获法国专利（1827-05-25）"
+      "ref_zh": "波埃纳鲁获法国专利（1827-05-25）",
+      "ref_es": "Patente francesa de Petrache Poenaru, 25 de mayo de 1827.",
+      "ref_ja": "Petrache Poenaruのフランス特許（1827年5月25日）。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "法国巴黎（比翁 / 波埃纳鲁）",
       "place_label_en": "Paris, France (Bion / Poenaru)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "París, Francia (Bion / Poenaru)",
+      "place_label_ja": "フランス、パリ（Bion／Poenaru）"
     },
     {
       "lat": 51.507,
@@ -36,7 +42,9 @@
       "place_label_en": "London, UK (Fölsch 1809 patent)",
       "kind": "contested",
       "confidence": "country",
-      "year_override": 1809
+      "year_override": 1809,
+      "place_label_es": "Londres, Reino Unido (patente de Fölsch de 1809)",
+      "place_label_ja": "英国ロンドン（Fölschの1809年の特許）"
     }
   ],
   "confidence": "disputed",
@@ -57,14 +65,20 @@
     "office",
     "writing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/fountain-pen.jpg",
     "alt_zh": "钢笔笔尖在纸上书写",
     "alt_en": "A fountain pen nib writing on paper",
     "credit": "Petar Milošević",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Fountain_pen_writing_(literacy).jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fountain_pen_writing_(literacy).jpg",
+    "alt_es": "Plumín de una estilográfica escribiendo sobre papel",
+    "alt_ja": "紙に書いている万年筆のペン先"
   },
-  "notes_en": "There was no single inventor: Bion documented the reservoir pen, the earliest dated example of which is from 1702. Fölsch received the first English patent in 1809, Poenaru received a French patent in 1827, and late-19th-century makers such as Waterman in New York popularized it. This entry uses 1702 as the invention year."
+  "notes_en": "There was no single inventor: Bion documented the reservoir pen, the earliest dated example of which is from 1702. Fölsch received the first English patent in 1809, Poenaru received a French patent in 1827, and late-19th-century makers such as Waterman in New York popularized it. This entry uses 1702 as the invention year.",
+  "name_es": "Pluma estilográfica",
+  "summary_es": "Las plumas con depósito se remontan a 1702. La primera patente británica llegó en 1809; en 1827, Poenaru obtuvo una patente francesa para una pluma con depósito hecha con un cañón de pluma de ave.",
+  "notes_es": "No hubo un único inventor: Bion describió plumas con depósito cuyo ejemplar fechado más antiguo es de 1702. Fölsch obtuvo la primera patente inglesa en 1809 y Poenaru una francesa en 1827. Fabricantes como Waterman, en Nueva York, las popularizaron a finales del siglo XIX. Se usa 1702 como año de invención.",
+  "notes_ja": "単独の発明者はいない。Bionが記述した貯墨式ペンの最古の年記付き資料は1702年である。Fölschは1809年に英国初の特許を、Poenaruは1827年にフランスの特許を取得し、19世紀末にニューヨークのWatermanなどが普及させた。本項は1702年を発明年とする。"
 }

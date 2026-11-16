@@ -10,19 +10,25 @@
       "year": 1910,
       "precision": "year",
       "ref": "Alva J. Fisher received US patent 966,677 for an electric washing machine",
-      "ref_zh": "阿尔瓦·J·费希尔获得电动洗衣机美国专利966,677号"
+      "ref_zh": "阿尔瓦·J·费希尔获得电动洗衣机美国专利966,677号",
+      "ref_es": "Alva J. Fisher obtiene la patente estadounidense n.º 966,677 de una lavadora eléctrica.",
+      "ref_ja": "Alva J. Fisher が電気洗濯機の米国特許第966,677号を取得。"
     },
     "mass_production": {
       "year": 1908,
       "precision": "year",
       "ref": "Hurley Machine Company began commercial sales of the Thor electric washing machine",
-      "ref_zh": "赫利机器公司开始批量商业销售 Thor 电动洗衣机"
+      "ref_zh": "赫利机器公司开始批量商业销售 Thor 电动洗衣机",
+      "ref_es": "Hurley Machine Company inicia la venta comercial en serie de la lavadora eléctrica Thor.",
+      "ref_ja": "Hurley Machine Company が Thor 電気洗濯機の量産販売を開始。"
     },
     "popularization": {
       "year": 1937,
       "precision": "year",
       "ref": "Bendix Home Appliances introduced the first automatic front-loading washing machine",
-      "ref_zh": "本迪克斯推出首款全自动滚筒家用洗衣机"
+      "ref_zh": "本迪克斯推出首款全自动滚筒家用洗衣机",
+      "ref_es": "Bendix lanza una lavadora doméstica de tambor totalmente automática.",
+      "ref_ja": "Bendix が全自動ドラム式家庭用洗濯機を発売。"
     }
   },
   "primary": "mass_production",
@@ -33,7 +39,9 @@
       "place_label_zh": "美国伊利诺伊州芝加哥（赫利机器公司 / Thor）",
       "place_label_en": "Chicago, Illinois, USA (Hurley Machine Co. / Thor)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Chicago, Illinois, EE. UU. (Hurley Machine Company / Thor)",
+      "place_label_ja": "米国イリノイ州シカゴ（Hurley Machine Company / Thor）"
     }
   ],
   "confidence": "year",
@@ -66,13 +74,17 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/washing-machine.jpg",
     "alt_zh": "一台滚筒式全自动洗衣机",
     "alt_en": "A fully automatic drum-type washing machine",
     "credit": "Gb.select",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Front_loader_Washing_machine.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Front_loader_Washing_machine.jpg",
+    "alt_es": "Una lavadora automática de tambor frontal",
+    "alt_ja": "全自動ドラム式洗濯機"
+  },
+  "name_es": "Lavadora",
+  "summary_es": "La lavadora limpia la ropa con energía mecánica. A comienzos del siglo XX se comercializaron modelos eléctricos en Chicago; en los años treinta llegaron los de tambor totalmente automáticos y transformaron el trabajo doméstico."
 }

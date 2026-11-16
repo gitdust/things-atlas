@@ -9,20 +9,26 @@
       "year": 1565,
       "precision": "decade",
       "ref": "Conrad Gessner describes a wood-held graphite pencil; Borrowdale graphite in use",
-      "ref_zh": "格斯纳记载木杆夹石墨的书写工具；英格兰博罗代尔石墨矿开采"
+      "ref_zh": "格斯纳记载木杆夹石墨的书写工具；英格兰博罗代尔石墨矿开采",
+      "ref_es": "Conrad Gessner describe un lápiz de grafito sujeto en madera; se usa grafito de Borrowdale",
+      "ref_ja": "コンラート・ゲスナーが木の軸に黒鉛を挟んだ筆記具を記述し、ボローデールの黒鉛が使われた"
     },
     "patent": null,
     "mass_production": {
       "year": 1662,
       "precision": "year",
       "ref": "Pencil production recorded in Nuremberg",
-      "ref_zh": "德国纽伦堡出现铅笔生产"
+      "ref_zh": "德国纽伦堡出现铅笔生产",
+      "ref_es": "Se documenta la fabricación de lápices en Núremberg",
+      "ref_ja": "ドイツのニュルンベルクで鉛筆の生産が記録される"
     },
     "popularization": {
       "year": 1795,
       "precision": "year",
       "ref": "Nicolas-Jacques Conté's graphite-and-clay lead, Paris",
-      "ref_zh": "孔戴在巴黎发明石墨与黏土混合笔芯"
+      "ref_zh": "孔戴在巴黎发明石墨与黏土混合笔芯",
+      "ref_es": "Nicolas-Jacques Conté desarrolla en París la mina de grafito y arcilla",
+      "ref_ja": "ニコラ＝ジャック・コンテがパリで黒鉛と粘土を混ぜた芯を開発した"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "英格兰博罗代尔（石墨矿）",
       "place_label_en": "Borrowdale, England (graphite)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Borrowdale, Inglaterra (grafito)",
+      "place_label_ja": "イングランド・ボローデール（黒鉛鉱床）"
     },
     {
       "lat": 49.452,
@@ -40,7 +48,9 @@
       "place_label_zh": "德国纽伦堡",
       "place_label_en": "Nuremberg, Germany",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Núremberg, Alemania",
+      "place_label_ja": "ドイツ・ニュルンベルク"
     },
     {
       "lat": 48.857,
@@ -48,7 +58,9 @@
       "place_label_zh": "法国巴黎（孔戴）",
       "place_label_en": "Paris, France (Conté)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "París, Francia (Conté)",
+      "place_label_ja": "フランス・パリ（コンテ）"
     }
   ],
   "confidence": "decade",
@@ -69,14 +81,20 @@
     "office",
     "writing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/pencil.jpg",
     "alt_zh": "两支削尖的 HB 铅笔",
     "alt_en": "Two sharpened HB pencils",
     "credit": "Original uploader was Dmgerman at en.wikipedia",
     "license": "CC BY 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Pencils_hb.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pencils_hb.jpg",
+    "alt_es": "Dos lápices HB afilados",
+    "alt_ja": "先を削った2本のHB鉛筆"
   },
-  "notes_en": "An Italian couple, the Bernacottis, made a wood-encased prototype around 1560; Gessner's 1565 description is an early written record, so the date is given to the decade."
+  "notes_en": "An Italian couple, the Bernacottis, made a wood-encased prototype around 1560; Gessner's 1565 description is an early written record, so the date is given to the decade.",
+  "name_es": "Lápiz",
+  "summary_es": "En los años 1560 ya se usaba para escribir el grafito de Borrowdale, Inglaterra. La mina de grafito y arcilla desarrollada por Conté en 1795 sentó las bases del lápiz moderno.",
+  "notes_es": "El matrimonio italiano Bernacotti creó un prototipo de grafito revestido de madera hacia 1560. La descripción de Gessner de 1565 es un testimonio escrito temprano; por ello la fecha se da con precisión de década.",
+  "notes_ja": "イタリアのベルナコッティ夫妻は1560年頃に黒鉛を木で包む試作形を作っていた。1565年のゲスナーの記述は早期の文献記録なので、年代精度は十年単位としている。"
 }

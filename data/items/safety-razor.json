@@ -9,13 +9,17 @@
       "year": 1880,
       "precision": "year",
       "ref": "Frederic and Otto Kampfe of Brooklyn file the first \"safety razor\" patent",
-      "ref_zh": "布鲁克林的坎普夫兄弟首次以「安全剃须刀」申请专利"
+      "ref_zh": "布鲁克林的坎普夫兄弟首次以「安全剃须刀」申请专利",
+      "ref_es": "Los hermanos Kampfe de Brooklyn solicitan una patente para una maquinilla con la denominación «de seguridad».",
+      "ref_ja": "ブルックリンの Kampfe 兄弟が「安全剃刀」の名で特許を出願。"
     },
     "patent": {
       "year": 1904,
       "precision": "year",
       "ref": "King Camp Gillette's double-edge disposable-blade razor, US 775,134",
-      "ref_zh": "吉列的双刃可替换刀片剃须刀专利 US 775,134"
+      "ref_zh": "吉列的双刃可替换刀片剃须刀专利 US 775,134",
+      "ref_es": "Gillette obtiene la patente US 775,134 de una maquinilla con hoja sustituible de doble filo.",
+      "ref_ja": "Gillette が両刃の交換式かみそりに関する特許 US 775,134 を取得。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "美国纽约布鲁克林（坎普夫兄弟）",
       "place_label_en": "Brooklyn, New York, USA (Kampfe)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Brooklyn, Nueva York, EE. UU. (hermanos Kampfe)",
+      "place_label_ja": "米国ニューヨーク・ブルックリン（Kampfe 兄弟）"
     },
     {
       "lat": 42.36,
@@ -35,7 +41,9 @@
       "place_label_zh": "美国波士顿（吉列）",
       "place_label_en": "Boston, USA (Gillette)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Boston, EE. UU. (Gillette)",
+      "place_label_ja": "米国ボストン（Gillette）"
     }
   ],
   "confidence": "year",
@@ -61,14 +69,20 @@
   "tags": [
     "grooming"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/safety-razor.jpg",
     "alt_zh": "一把双刃安全剃须刀和刀片",
     "alt_en": "A double-edge safety razor and blade",
     "credit": "Simon A. Eugster",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Parker-76R_Safety_Razor.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Parker-76R_Safety_Razor.jpg",
+    "alt_es": "Una maquinilla de seguridad de doble filo y una hoja",
+    "alt_ja": "両刃の安全かみそりと替え刃"
   },
-  "notes_en": "French cutler Jean-Jacques Perret added a guard to a straight razor around 1762; Gillette applied for a patent in 1901 and was granted one in 1904."
+  "notes_en": "French cutler Jean-Jacques Perret added a guard to a straight razor around 1762; Gillette applied for a patent in 1901 and was granted one in 1904.",
+  "name_es": "Maquinilla de afeitar de seguridad",
+  "summary_es": "En 1880, los hermanos Kampfe de Brooklyn solicitaron una patente para una «maquinilla de seguridad». La hoja desechable de doble filo de Gillette, patentada en 1904, impulsó su difusión.",
+  "notes_es": "Hacia 1762, el cuchillero francés Perret ya había añadido una protección a la navaja de afeitar. Gillette solicitó su patente en 1901 y la obtuvo en 1904.",
+  "notes_ja": "フランスの刃物職人 Perret は1762年頃、すでに西洋かみそりにガードを付けていた。Gillette は1901年に特許を出願し、1904年に取得した。"
 }

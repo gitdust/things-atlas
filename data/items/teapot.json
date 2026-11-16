@@ -9,20 +9,26 @@
       "year": 1533,
       "precision": "year",
       "ref": "Earliest securely dated zisha-related teapot from Wu Jing’s tomb, Nanjing (d. 1533)",
-      "ref_zh": "南京吴经墓出土目前最早可断代的紫砂相关茶壶（卒于1533）"
+      "ref_zh": "南京吴经墓出土目前最早可断代的紫砂相关茶壶（卒于1533）",
+      "ref_es": "La tumba de Wu Jing en Nankín, fallecido en 1533, aporta el ejemplar relacionado con las teteras de arcilla púrpura más antiguo datable.",
+      "ref_ja": "南京の呉経墓（没年1533年）から、年代が特定できる最初期の紫砂関連の茶壺が出土。"
     },
     "patent": null,
     "mass_production": {
       "year": 1600,
       "precision": "century",
       "ref": "Yixing zisha teapots flourish in late Ming literati tea culture",
-      "ref_zh": "晚明宜兴紫砂壶在文人茶事中兴盛"
+      "ref_zh": "晚明宜兴紫砂壶在文人茶事中兴盛",
+      "ref_es": "Las teteras de arcilla púrpura de Yixing prosperan en la cultura del té de los literatos de finales de la dinastía Ming.",
+      "ref_ja": "明末に宜興の紫砂茶壺が文人の茶文化で盛んになる。"
     },
     "popularization": {
       "year": 1700,
       "precision": "century",
       "ref": "Yixing and porcelain teapots are exported to Europe in large numbers in the 17th and 18th centuries",
-      "ref_zh": "十七十八世纪宜兴与瓷壶大量输往欧洲"
+      "ref_zh": "十七十八世纪宜兴与瓷壶大量输往欧洲",
+      "ref_es": "En los siglos XVII y XVIII se exportan a Europa grandes cantidades de teteras de Yixing y de porcelana.",
+      "ref_ja": "17～18世紀に宜興の茶壺や磁器製ティーポットが大量にヨーロッパへ輸出される。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "中国江苏宜兴",
       "place_label_en": "Yixing, Jiangsu, China",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Yixing, Jiangsu, China",
+      "place_label_ja": "中国江蘇省宜興"
     },
     {
       "lat": 32.06,
@@ -40,7 +48,9 @@
       "place_label_zh": "中国江苏南京（吴经墓）",
       "place_label_en": "Nanjing, Jiangsu, China (Wu Jing tomb)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Nankín, Jiangsu, China (tumba de Wu Jing)",
+      "place_label_ja": "中国江蘇省南京（呉経墓）"
     }
   ],
   "confidence": "year",
@@ -71,13 +81,17 @@
   "tags": [
     "dining"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/teapot.jpg",
     "alt_zh": "宜兴紫砂壶",
     "alt_en": "Yixing zisha clay teapot",
     "credit": "NNU-11-Zaclee",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Zisha_teapot_1.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zisha_teapot_1.jpg",
+    "alt_es": "Una tetera de arcilla púrpura de Yixing",
+    "alt_ja": "宜興の紫砂茶壺"
+  },
+  "name_es": "Tetera",
+  "summary_es": "Con la infusión de té en hojas, las teteras de arcilla púrpura de Yixing se convirtieron en recipientes especializados durante la dinastía Ming. La tumba de Wu Jing en Nankín, de 1533, conserva un temprano ejemplar datable."
 }

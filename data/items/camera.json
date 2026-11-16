@@ -9,20 +9,26 @@
       "year": 1839,
       "precision": "year",
       "ref": "Daguerreotype process publicly announced in Paris",
-      "ref_zh": "达盖尔摄影法在巴黎公开"
+      "ref_zh": "达盖尔摄影法在巴黎公开",
+      "ref_es": "El procedimiento del daguerrotipo se anuncia públicamente en París.",
+      "ref_ja": "パリでダゲレオタイプが公表される。"
     },
     "patent": null,
     "mass_production": {
       "year": 1888,
       "precision": "year",
       "ref": "Kodak introduces its roll-film camera",
-      "ref_zh": "柯达推出卷片相机"
+      "ref_zh": "柯达推出卷片相机",
+      "ref_es": "Kodak presenta su cámara de película en rollo.",
+      "ref_ja": "Kodakがロールフィルム式カメラを発売する。"
     },
     "popularization": {
       "year": 1900,
       "precision": "year",
       "ref": "Affordable Kodak Brownie brings photography to a wider public",
-      "ref_zh": "低价柯达 Brownie 让摄影走向大众"
+      "ref_zh": "低价柯达 Brownie 让摄影走向大众",
+      "ref_es": "La asequible Kodak Brownie acerca la fotografía a un público más amplio.",
+      "ref_ja": "低価格のKodak Brownieが写真をより幅広い人々へ広める。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "法国巴黎（达盖尔摄影法）",
       "place_label_en": "Paris, France (daguerreotype)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "París, Francia (daguerrotipo)",
+      "place_label_ja": "フランス、パリ（ダゲレオタイプ）"
     },
     {
       "lat": 43.161,
@@ -41,7 +49,9 @@
       "place_label_en": "Rochester, USA (Kodak Brownie)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1900
+      "year_override": 1900,
+      "place_label_es": "Rochester, Estados Unidos (Kodak Brownie)",
+      "place_label_ja": "米国ロチェスター（Kodak Brownie）"
     }
   ],
   "confidence": "year",
@@ -73,7 +83,7 @@
     "writing",
     "media"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "primary": "popularization",
   "image": {
     "src": "/images/camera.jpg",
@@ -81,6 +91,10 @@
     "alt_en": "A Kodak Brownie Model 2 E still camera",
     "credit": "Marc Carlson from Tulsa, Oklahoma, USA",
     "license": "CC BY 2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Kodak_Brownie_Model_2_E.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kodak_Brownie_Model_2_E.jpg",
+    "alt_es": "Cámara de película Kodak Brownie Model 2 E",
+    "alt_ja": "Kodak Brownie Model 2 Eのフィルムカメラ"
+  },
+  "name_es": "Cámara fotográfica",
+  "summary_es": "El daguerrotipo se dio a conocer en París en 1839. Kodak lanzó su cámara de película en rollo en 1888; la asequible Brownie de 1900 facilitó aún más la fotografía cotidiana para el gran público."
 }

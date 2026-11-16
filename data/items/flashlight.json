@@ -10,13 +10,17 @@
       "year": 1899,
       "precision": "exact",
       "ref": "David Misell's US 617,592 (10 Jan 1899)",
-      "ref_zh": "米塞尔获美国专利 US 617,592（1899-01-10）"
+      "ref_zh": "米塞尔获美国专利 US 617,592（1899-01-10）",
+      "ref_es": "Patente US 617592 de David Misell, 10 de enero de 1899.",
+      "ref_ja": "David Misellの米国特許US 617592（1899年1月10日）。"
     },
     "mass_production": {
       "year": 1899,
       "precision": "year",
       "ref": "American Electrical Novelty and Manufacturing Co. (later Eveready), New York",
-      "ref_zh": "纽约的美国电气新奇制造公司（后来的永备）生产"
+      "ref_zh": "纽约的美国电气新奇制造公司（后来的永备）生产",
+      "ref_es": "Producción en Nueva York por American Electrical Novelty and Manufacturing Co., posteriormente Eveready.",
+      "ref_ja": "ニューヨークのAmerican Electrical Novelty and Manufacturing Co.（後のEveready）が製造する。"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "美国纽约",
       "place_label_en": "New York, USA",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Nueva York, Estados Unidos",
+      "place_label_ja": "米国ニューヨーク"
     }
   ],
   "confidence": "exact",
@@ -65,13 +71,17 @@
     "travel",
     "electric"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/flashlight.jpg",
     "alt_zh": "两支 LED 手电筒",
     "alt_en": "Two LED flashlights",
     "credit": "Brownse10",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:LED_Flashlights.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:LED_Flashlights.jpg",
+    "alt_es": "Dos linternas LED",
+    "alt_ja": "LED懐中電灯2本"
+  },
+  "name_es": "Linterna",
+  "summary_es": "David Misell patentó la linterna el 10 de enero de 1899 y cedió la patente a American Electrical Novelty and Manufacturing Co., de Nueva York, que más tarde se llamaría Eveready."
 }

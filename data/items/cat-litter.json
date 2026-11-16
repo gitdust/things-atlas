@@ -9,20 +9,26 @@
       "year": 1947,
       "precision": "year",
       "ref": "Edward Lowe suggests granulated fuller's earth (bentonite clay) to neighbor Kay Draper in Cassopolis, Michigan",
-      "ref_zh": "密歇根州卡索波利斯的爱德华·洛向前来借沙子的邻居推荐吸湿吸油的漂白土（膨润土）颗粒作猫便砂"
+      "ref_zh": "密歇根州卡索波利斯的爱德华·洛向前来借沙子的邻居推荐吸湿吸油的漂白土（膨润土）颗粒作猫便砂",
+      "ref_es": "Edward Lowe propone tierra de batán granulada (bentonita) a su vecina Kay Draper en Cassopolis, Michigan.",
+      "ref_ja": "Edward Loweがミシガン州カソポリスで隣人Kay Draperに粒状の白土（ベントナイト）を勧める。"
     },
     "patent": null,
     "mass_production": {
       "year": 1947,
       "precision": "year",
       "ref": "Lowe brands bagged clay Kitty Litter, beginning production and sales from his car trunk and local pet shops",
-      "ref_zh": "爱德华·洛将袋装黏土命名为 Kitty Litter，从汽车后备箱和当地宠物店起步量产销售"
+      "ref_zh": "爱德华·洛将袋装黏土命名为 Kitty Litter，从汽车后备箱和当地宠物店起步量产销售",
+      "ref_es": "Lowe vende arcilla envasada como Kitty Litter desde su coche y en tiendas de mascotas.",
+      "ref_ja": "Loweが袋詰めの粘土をKitty Litterとして車のトランクやペット店から売り始める。"
     },
     "popularization": {
       "year": 1984,
       "precision": "year",
       "ref": "Biochemist Thomas Nelson develops clumping sodium-bentonite cat litter, greatly simplifying cleanup and helping it spread worldwide",
-      "ref_zh": "生物化学家托马斯·纳尔逊研发出遇水结团的钠基膨润土猫砂，极大地简化了清理并普及至全球"
+      "ref_zh": "生物化学家托马斯·纳尔逊研发出遇水结团的钠基膨润土猫砂，极大地简化了清理并普及至全球",
+      "ref_es": "El bioquímico Thomas Nelson desarrolla arena aglomerante de bentonita sódica, que facilita la limpieza y su difusión mundial.",
+      "ref_ja": "生化学者Thomas Nelsonが固まるナトリウムベントナイトの猫砂を開発し、掃除を容易にして世界への普及を促す。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国密歇根州卡索波利斯",
       "place_label_en": "Cassopolis, Michigan, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Cassopolis, Michigan, Estados Unidos",
+      "place_label_ja": "米国ミシガン州カソポリス"
     }
   ],
   "confidence": "year",
@@ -65,6 +73,10 @@
     "alt_en": "A close-up of fresh granular cat litter",
     "credit": "CambridgeBayWeather",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Fresh_cat_litter_close_up.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fresh_cat_litter_close_up.JPG",
+    "alt_es": "Primer plano de arena granular para gatos sin usar",
+    "alt_ja": "未使用の粒状の猫砂の接写"
+  },
+  "name_es": "Arena para gatos",
+  "summary_es": "Antes de 1947 se usaban tierra o cenizas. Edward Lowe comercializó arcilla absorbente como Kitty Litter; el control de los olores facilitó que los gatos pasaran de cazar ratones en granjas a convivir dentro de casa."
 }

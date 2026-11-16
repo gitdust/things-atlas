@@ -9,7 +9,9 @@
       "year": 1514,
       "precision": "century",
       "ref": "An early claw hammer appears in Albrecht Dürer's engraving Melencolia I (1514)",
-      "ref_zh": "丢勒 1514 年的版画《忧郁 I》中出现早期羊角锤"
+      "ref_zh": "丢勒 1514 年的版画《忧郁 I》中出现早期羊角锤",
+      "ref_es": "Un martillo de uña temprano aparece en el grabado Melencolia I de Alberto Durero (1514)",
+      "ref_ja": "アルブレヒト・デューラーの版画『メランコリアI』（1514年）に初期の釘抜き付き金槌が描かれている"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "德国纽伦堡（丢勒）",
       "place_label_en": "Nuremberg, Germany (Dürer)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Núremberg, Alemania (Durero)",
+      "place_label_ja": "ドイツ・ニュルンベルク（デューラー）"
     }
   ],
   "confidence": "century",
@@ -48,14 +52,20 @@
   "tags": [
     "repair"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/hammer.jpg",
     "alt_zh": "一把橙柄羊角锤",
     "alt_en": "An orange-handled claw hammer",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg",
+    "alt_es": "Un martillo de uña con mango naranja",
+    "alt_ja": "オレンジ色の柄の釘抜き付き金槌"
   },
-  "notes_en": "1514 is only the earliest confirmed depiction, not an invention date. Stone hammers go back millions of years, far before this atlas's range, and the true origin of the claw hammer is unrecorded."
+  "notes_en": "1514 is only the earliest confirmed depiction, not an invention date. Stone hammers go back millions of years, far before this atlas's range, and the true origin of the claw hammer is unrecorded.",
+  "name_es": "Martillo de uña",
+  "summary_es": "El martillo es una de las herramientas más antiguas. La variante con uña para extraer clavos ya existía en el siglo XVI: aparece en el grabado Melencolia I de Durero, de 1514.",
+  "notes_es": "1514 es solo la representación más antigua confirmada, no la fecha de invención. Los martillos de piedra se remontan a millones de años, fuera del rango del atlas; el verdadero origen del martillo de uña no está documentado.",
+  "notes_ja": "1514年は確認できる最古の図像証拠の年であり、発明年ではない。石の槌は数百万年前にさかのぼり、本図志の年代範囲を大きく外れる。釘抜き付き金槌の真の起源は記録されていない。"
 }

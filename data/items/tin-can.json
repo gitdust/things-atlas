@@ -9,25 +9,33 @@
       "year": 1810,
       "precision": "year",
       "ref": "Nicolas Appert publishes airtight heat-sterilization method; Peter Durand conceives tinplate food preservation",
-      "ref_zh": "阿佩尔在法国出版密封加热灭菌保鲜法；彼得·杜兰德构想出马口铁罐食品保藏"
+      "ref_zh": "阿佩尔在法国出版密封加热灭菌保鲜法；彼得·杜兰德构想出马口铁罐食品保藏",
+      "ref_es": "Appert publica en Francia el método de conservación por calentamiento en recipientes sellados; Peter Durand propone usar hojalata.",
+      "ref_ja": "Appert がフランスで密封加熱による食品保存法を出版し、Peter Durand がブリキ缶での保存を構想。"
     },
     "patent": {
       "year": 1810,
       "precision": "year",
       "ref": "Peter Durand receives food-preservation patent No. 3372 for tin cans, signed by Britain’s King George III",
-      "ref_zh": "彼得·杜兰德取得英国国王乔治三世签署的铁皮罐头食品保藏发明专利（No.3372）"
+      "ref_zh": "彼得·杜兰德取得英国国王乔治三世签署的铁皮罐头食品保藏发明专利（No.3372）",
+      "ref_es": "Peter Durand obtiene la patente británica n.º 3372 de conservación en latas de hojalata, firmada por Jorge III.",
+      "ref_ja": "Peter Durand が国王 George III の署名付き英国特許第3372号を取得し、ブリキ缶による食品保存を特許化。"
     },
     "mass_production": {
       "year": 1813,
       "precision": "year",
       "ref": "Donkin and Hall establish the first commercial cannery in Bermondsey, London, supplying tin-canned meat to the Royal Navy on a large scale",
-      "ref_zh": "唐金与霍尔在伦敦伯蒙西建立世界首家商业罐头工坊，向英国皇家海军大规模供应马口铁肉类罐头"
+      "ref_zh": "唐金与霍尔在伦敦伯蒙西建立世界首家商业罐头工坊，向英国皇家海军大规模供应马口铁肉类罐头",
+      "ref_es": "Donkin y Hall abren en Bermondsey, Londres, una fábrica comercial de conservas de carne para la Marina británica.",
+      "ref_ja": "Donkin と Hall がロンドンのバーモンジーに商用缶詰工場を開き、英国海軍にブリキ缶の肉類を大量供給。"
     },
     "popularization": {
       "year": 1856,
       "precision": "year",
       "ref": "Gail Borden invents canned condensed milk; military food purchases in the Crimean and American Civil Wars help spread canned food to homes worldwide",
-      "ref_zh": "盖尔·博登发明炼乳罐头，加之克里米亚战争与美国内战军粮采购，推动罐头食品走进全球普通家庭"
+      "ref_zh": "盖尔·博登发明炼乳罐头，加之克里米亚战争与美国内战军粮采购，推动罐头食品走进全球普通家庭",
+      "ref_es": "La leche condensada de Gail Borden y las compras militares de las guerras de Crimea y de Secesión impulsan las conservas hacia el hogar.",
+      "ref_ja": "Gail Borden の加糖練乳缶詰とクリミア戦争・南北戦争の軍需調達が、缶詰の一般家庭への普及を促す。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "法国马西（阿佩尔工坊）",
       "place_label_en": "Massy, France (Appert’s workshop)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Massy, Francia (taller de Appert)",
+      "place_label_ja": "フランス・マシー（Appert の工房）"
     },
     {
       "lat": 51.4988,
@@ -45,7 +55,9 @@
       "place_label_zh": "英国伦敦伯蒙西（唐金罐头厂）",
       "place_label_en": "Bermondsey, London, UK (Bryan Donkin factory)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Bermondsey, Londres, Reino Unido (fábrica de Donkin)",
+      "place_label_ja": "英国ロンドン・バーモンジー（Donkin の缶詰工場）"
     }
   ],
   "confidence": "year",
@@ -79,6 +91,10 @@
     "alt_en": "A sealed tin-plated food can",
     "credit": "Rainer Zenz (attributed on Wikimedia Commons)",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Konservendose-1.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Konservendose-1.jpg",
+    "alt_es": "Una lata de hojalata sellada para alimentos",
+    "alt_ja": "密封されたブリキ製食品缶"
+  },
+  "name_es": "Lata de conserva",
+  "summary_es": "En 1810, Appert publicó su método de conservación por calor y Durand patentó la lata de hojalata. En 1813, Donkin abrió una fábrica en Londres para abastecer a la Marina británica, sentando bases de la conservación moderna."
 }

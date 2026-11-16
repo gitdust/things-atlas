@@ -9,13 +9,17 @@
       "year": 1787,
       "precision": "year",
       "ref": "Levi Hutchins builds the first American alarm clock, Concord, NH",
-      "ref_zh": "哈钦斯在新罕布什尔州康科德制作美国第一只闹钟"
+      "ref_zh": "哈钦斯在新罕布什尔州康科德制作美国第一只闹钟",
+      "ref_es": "Levi Hutchins construye el primer despertador estadounidense en Concord, Nuevo Hampshire.",
+      "ref_ja": "Levi Hutchinsがニューハンプシャー州コンコードで米国初の目覚まし時計を作る。"
     },
     "patent": {
       "year": 1847,
       "precision": "year",
       "ref": "Antoine Redier patents the first adjustable mechanical alarm clock, France",
-      "ref_zh": "雷迪耶在法国获得首个可调机械闹钟专利"
+      "ref_zh": "雷迪耶在法国获得首个可调机械闹钟专利",
+      "ref_es": "Antoine Redier patenta en Francia el primer despertador mecánico ajustable.",
+      "ref_ja": "Antoine Redierがフランスで時刻調節式の機械式目覚まし時計の特許を取得する。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "美国新罕布什尔州康科德",
       "place_label_en": "Concord, New Hampshire, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Concord, Nuevo Hampshire, Estados Unidos",
+      "place_label_ja": "米国ニューハンプシャー州コンコード"
     },
     {
       "lat": 48.857,
@@ -35,7 +41,9 @@
       "place_label_zh": "法国（雷迪耶）",
       "place_label_en": "France (Redier)",
       "kind": "patent",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Francia (Redier)",
+      "place_label_ja": "フランス（Redier）"
     }
   ],
   "confidence": "year",
@@ -55,14 +63,20 @@
   "tags": [
     "household"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/alarm-clock.jpg",
     "alt_zh": "一只黑色双铃机械闹钟",
     "alt_en": "A black twin-bell mechanical alarm clock",
     "credit": "Sun Ladder",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:2010-07-20_Black_windup_alarm_clock_face.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:2010-07-20_Black_windup_alarm_clock_face.jpg",
+    "alt_es": "Despertador mecánico negro con dos campanas",
+    "alt_ja": "黒いツインベル式の機械式目覚まし時計"
   },
-  "notes_en": "Adjustable mechanical alarm clocks existed in 15th-century Europe, but no specific year is given. This entry uses Hutchins’s 1787 clock, only the first in America, and takes Redier’s 1847 patent as the starting point for adjustable alarm clocks."
+  "notes_en": "Adjustable mechanical alarm clocks existed in 15th-century Europe, but no specific year is given. This entry uses Hutchins’s 1787 clock, only the first in America, and takes Redier’s 1847 patent as the starting point for adjustable alarm clocks.",
+  "name_es": "Despertador",
+  "summary_es": "En Europa ya había despertadores mecánicos ajustables en el siglo XV. En 1787, Hutchins construyó uno que solo sonaba a las cuatro de la mañana; Redier patentó un modelo ajustable en 1847.",
+  "notes_es": "Europa contaba con despertadores mecánicos ajustables en el siglo XV, sin un año preciso. Se utiliza el reloj de Hutchins de 1787, que solo fue el primero de Estados Unidos, y la patente de Redier de 1847 como hito del modelo ajustable.",
+  "notes_ja": "15世紀の欧州には時刻を設定できる機械式目覚まし時計があったが、具体的な年は不明。本項は米国初にすぎないHutchinsの1787年の時計を採用し、調節式の節目としてRedierの1847年の特許を示す。"
 }

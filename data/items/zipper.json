@@ -9,25 +9,33 @@
       "year": 1913,
       "precision": "year",
       "ref": "Sundback’s improved fastener first marketed",
-      "ref_zh": "桑德贝克改进型拉链首次上市"
+      "ref_zh": "桑德贝克改进型拉链首次上市",
+      "ref_es": "Se comercializa por primera vez la cremallera mejorada de Sundback.",
+      "ref_ja": "Sundback の改良型ファスナーが初めて発売。"
     },
     "patent": {
       "year": 1917,
       "precision": "exact",
       "ref": "US 1,219,881, granted 20 Mar 1917",
-      "ref_zh": "美国专利 US 1,219,881，1917 年 3 月 20 日授权"
+      "ref_zh": "美国专利 US 1,219,881，1917 年 3 月 20 日授权",
+      "ref_es": "Se concede la patente estadounidense US 1,219,881 el 20 de marzo de 1917.",
+      "ref_ja": "1917年3月20日に米国特許 US 1,219,881 が成立。"
     },
     "mass_production": {
       "year": 1913,
       "precision": "year",
       "ref": "Sundback fastener enters production",
-      "ref_zh": "桑德贝克拉链开始生产"
+      "ref_zh": "桑德贝克拉链开始生产",
+      "ref_es": "Comienza la producción de la cremallera de Sundback.",
+      "ref_ja": "Sundback のファスナーの生産を開始。"
     },
     "popularization": {
       "year": 1930,
       "precision": "decade",
       "ref": "Widespread adoption in apparel",
-      "ref_zh": "在服饰中广泛普及"
+      "ref_zh": "在服饰中广泛普及",
+      "ref_es": "Se difunde ampliamente en las prendas de vestir.",
+      "ref_ja": "衣服に広く普及。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "美国宾夕法尼亚州米德维尔",
       "place_label_en": "Meadville, Pennsylvania, USA",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Meadville, Pensilvania, EE. UU.",
+      "place_label_ja": "米国ペンシルベニア州ミードビル"
     },
     {
       "lat": 41.878,
@@ -46,7 +56,9 @@
       "place_label_en": "Chicago, Illinois, USA (Judson clasp locker)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1893
+      "year_override": 1893,
+      "place_label_es": "Chicago, Illinois, EE. UU. (cierre de Judson)",
+      "place_label_ja": "米国イリノイ州シカゴ（Judson の留め具）"
     },
     {
       "lat": 42.374,
@@ -55,7 +67,9 @@
       "place_label_en": "Cambridge, Massachusetts, USA (Howe patent)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1851
+      "year_override": 1851,
+      "place_label_es": "Cambridge, Massachusetts, EE. UU. (patente de Howe)",
+      "place_label_ja": "米国マサチューセッツ州ケンブリッジ（Howe の特許）"
     }
   ],
   "confidence": "year",
@@ -100,14 +114,20 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/zipper.jpg",
     "alt_zh": "牛仔裤上金属拉链与 YKK 拉头特写",
     "alt_en": "Close-up of a metal zipper and YKK slider on blue jeans",
     "credit": "Jorge Barrios",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Macro_YKK_Zipper.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Macro_YKK_Zipper.jpg",
+    "alt_es": "Detalle de una cremallera metálica de vaqueros con tirador YKK",
+    "alt_ja": "ジーンズの金属製ファスナーと YKK スライダーの接写"
   },
-  "notes_en": "Sundback’s improved zipper first went on sale in 1913 and received US patent 1,219,881 in 1917. The year the company moved to Meadville, Pennsylvania, is unverified; in 1913 it may still have been in Hoboken, New Jersey (40.744, −74.032). Earlier related patents — Judson’s US 504,038 (Chicago, 1893) and Howe’s US 8,540 (Cambridge, 1851) — are marked as contested."
+  "notes_en": "Sundback’s improved zipper first went on sale in 1913 and received US patent 1,219,881 in 1917. The year the company moved to Meadville, Pennsylvania, is unverified; in 1913 it may still have been in Hoboken, New Jersey (40.744, −74.032). Earlier related patents — Judson’s US 504,038 (Chicago, 1893) and Howe’s US 8,540 (Cambridge, 1851) — are marked as contested.",
+  "name_es": "Cremallera",
+  "summary_es": "La cremallera mejorada de Sundback salió al mercado en 1913 y recibió patente en 1917. Se difundió en la ropa desde los años treinta, con antecedentes en las patentes de Howe y Judson.",
+  "notes_es": "La mejora de Sundback se comercializó en 1913 y recibió la patente US 1,219,881 en 1917. No se ha verificado cuándo se trasladó la empresa a Meadville; en 1913 quizá seguía en Hoboken, Nueva Jersey (40.744, −74.032). Chicago, con la patente US 504,038 de Judson de 1893, y Cambridge, con US 8,540 de Howe de 1851, representan antecedentes y se marcan como ubicaciones en disputa.",
+  "notes_ja": "Sundback の改良型は1913年に発売され、1917年に米国特許 US 1,219,881 を取得。会社がミードビルへ移転した正確な年は未確認で、1913年にはニュージャージー州ホーボーケン（40.744, −74.032）にあった可能性がある。シカゴ（Judson の1893年 US 504,038）とマサチューセッツ州ケンブリッジ（Howe の1851年 US 8,540）は先行する関連特許の場所として、起源に異説のある地点に分類する。"
 }

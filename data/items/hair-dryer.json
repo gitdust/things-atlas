@@ -10,7 +10,9 @@
       "year": 1911,
       "precision": "year",
       "ref": "Gabriel Kazanjian receives US 994,259 for a handheld hair-drying device, filed in 1908; its fan is manually driven",
-      "ref_zh": "加布里埃尔·卡赞坚的手持式干发装置获 US 994,259 专利；1908 年申请，风扇由手动机构驱动"
+      "ref_zh": "加布里埃尔·卡赞坚的手持式干发装置获 US 994,259 专利；1908 年申请，风扇由手动机构驱动",
+      "ref_es": "Gabriel Kazanjian obtiene la patente US 994259 para un secador portátil, solicitada en 1908; el ventilador se acciona a mano",
+      "ref_ja": "ガブリエル・カザンジャンが手持ち式乾髪装置の米国特許994,259を取得した。出願は1908年で、送風ファンは手動式だった"
     },
     "mass_production": null,
     "popularization": null
@@ -22,7 +24,9 @@
       "place_label_zh": "美国芝加哥（专利所列卡赞坚居住地）",
       "place_label_en": "Chicago, USA (Kazanjian residence named in patent)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Chicago, EE. UU. (residencia de Kazanjian indicada en la patente)",
+      "place_label_ja": "米国シカゴ（特許に記されたカザンジャンの居住地）"
     }
   ],
   "confidence": "year",
@@ -50,7 +54,7 @@
     "grooming",
     "electric"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "primary": "patent",
   "image": {
     "src": "/images/hair-dryer.jpg",
@@ -58,6 +62,12 @@
     "alt_en": "A handheld hair dryer",
     "credit": "Magnus Manske",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Hair_dryer.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hair_dryer.jpg",
+    "alt_es": "Un secador de pelo portátil",
+    "alt_ja": "手持ち式ヘアドライヤー"
+  },
+  "name_es": "Secador de pelo",
+  "summary_es": "Kazanjian patentó en 1911 un secador portátil que combinaba un calentador con un ventilador manual. Un secador eléctrico de hacia 1920 conservado en el Science Museum muestra el paso a los aparatos eléctricos.",
+  "notes_es": "1911 corresponde a la concesión de una patente de mejora concreta, no a la invención del primer secador ni del secador eléctrico moderno. Su ventilador era manual; no se deduce el lugar de fabricación del aparato de museo de hacia 1920.",
+  "notes_ja": "1911年は特定の改良特許の成立年であり、乾髪装置全体や現代の電動ドライヤーの最初の発明年ではない。この特許のファンは手動式である。1920年頃の博物館所蔵品の製造地も、ここからは推定していない。"
 }

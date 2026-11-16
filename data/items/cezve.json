@@ -9,7 +9,9 @@
       "year": 1555,
       "precision": "decade",
       "ref": "Coffeehouses and small long-handled pots appeared in Ottoman Istanbul in the mid-16th century",
-      "ref_zh": "十六世纪中叶奥斯曼伊斯坦布尔出现咖啡馆与长柄小壶"
+      "ref_zh": "十六世纪中叶奥斯曼伊斯坦布尔出现咖啡馆与长柄小壶",
+      "ref_es": "Aparecen cafeterías y pequeñas cafeteras de mango largo en el Estambul otomano a mediados del siglo XVI.",
+      "ref_ja": "16世紀半ばのオスマン帝国のイスタンブールに喫茶店と長柄の小鍋が現れる。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1750,
       "precision": "century",
       "ref": "The lidless cezve form and foamy Turkish coffee become more common in the 18th century",
-      "ref_zh": "无盖cezve形制与带沫土耳其咖啡做法在十八世纪更常见"
+      "ref_zh": "无盖cezve形制与带沫土耳其咖啡做法在十八世纪更常见",
+      "ref_es": "La forma sin tapa del cezve y el café turco espumoso se hacen más comunes en el siglo XVIII.",
+      "ref_ja": "18世紀に蓋のないジェズヴェと泡立つトルココーヒーがより一般化する。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "土耳其伊斯坦布尔",
       "place_label_en": "Istanbul, Türkiye",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Estambul, Turquía",
+      "place_label_ja": "トルコ、イスタンブール"
     }
   ],
   "confidence": "decade",
@@ -60,13 +66,19 @@
   "tags": [
     "dining"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/cezve.jpg",
     "alt_zh": "土耳其铜制咖啡壶（cezve）",
     "alt_en": "A copper Turkish cezve coffee pot",
     "credit": "Eaeeae",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:T%C3%BCrk_Kahvesi_-_Bakir_Cezve.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:T%C3%BCrk_Kahvesi_-_Bakir_Cezve.jpg",
+    "alt_es": "Cafetera turca de cobre, o cezve",
+    "alt_ja": "銅製のトルココーヒー用鍋、ジェズヴェ"
+  },
+  "name_es": "Cezve",
+  "summary_es": "El cezve es una pequeña cafetera de mango largo para café turco. Surgió con las cafeterías de Estambul hacia mediados del siglo XVI; más adelante se consolidó su forma habitual de cobre y sin tapa.",
+  "notes_es": "El café llegó al Imperio otomano hacia mediados del siglo XVI, pero la forma actual del cezve sin tapa puede ser posterior. La fecha exacta de invención está poco documentada; se usa el auge de las cafeterías de Estambul.",
+  "notes_ja": "コーヒーは16世紀半ば頃にオスマン帝国へ入ったが、今日の蓋のないジェズヴェの形は後に成立した可能性がある。正確な発明年の根拠は弱く、イスタンブールの喫茶店が興った時期を主要年代とする。"
 }

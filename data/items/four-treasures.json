@@ -9,7 +9,9 @@
       "year": 100,
       "precision": "century",
       "ref": "Han-period brush, pine-soot inkstick and inkstone form a scholarly writing toolkit (paper covered separately)",
-      "ref_zh": "汉代毛笔、松烟墨与砚台已组成书写工具组合（纸见独立条目）"
+      "ref_zh": "汉代毛笔、松烟墨与砚台已组成书写工具组合（纸见独立条目）",
+      "ref_es": "En época Han, el pincel, la barra de tinta de hollín de pino y la piedra para tinta forman un conjunto de escritura; el papel se trata por separado",
+      "ref_ja": "漢代には毛筆・松煙墨・硯が文房の道具一式を構成していた（紙は別項目で扱う）"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 986,
       "precision": "year",
       "ref": "Northern Song Wenfang sipu (986) describes the four treasures as a named set",
-      "ref_zh": "北宋《文房四谱》（986）将笔墨纸砚作为成套名物记述"
+      "ref_zh": "北宋《文房四谱》（986）将笔墨纸砚作为成套名物记述",
+      "ref_es": "El Wenfang sipu (986), de los Song del Norte, describe los cuatro tesoros como un conjunto con nombre propio",
+      "ref_ja": "北宋の『文房四譜』（986年）が文房四宝を一組の名物として記述した"
     }
   },
   "primary": "popularization",
@@ -28,7 +32,9 @@
       "place_label_zh": "中国陕西西安一带（汉代文房传统）",
       "place_label_en": "Xi’an region, Shaanxi, China (Han scholarly toolkit context)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Xi’an, Shaanxi, China (tradición letrada Han)",
+      "place_label_ja": "中国陝西省西安周辺（漢代の文房文化）"
     },
     {
       "lat": 30.25,
@@ -36,7 +42,9 @@
       "place_label_zh": "中国江南（唐宋文房名品产地）",
       "place_label_en": "Jiangnan, China (region famed for stationery production in the Tang–Song period)",
       "kind": "popularization",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Jiangnan, China (producción de útiles de escritura en época Tang-Song)",
+      "place_label_ja": "中国江南（唐・宋代の文房具の名産地）"
     }
   ],
   "confidence": "year",
@@ -69,13 +77,19 @@
   "tags": [
     "writing"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/four-treasures.jpg",
     "alt_zh": "文房四宝：笔墨纸砚",
     "alt_en": "Four Treasures of the Study: brush, ink, paper, inkstone",
     "credit": "Gary Todd from Xinzheng, China",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Anhui_Four_Treasures_of_the_Study_(9974352754).jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Anhui_Four_Treasures_of_the_Study_(9974352754).jpg",
+    "alt_es": "Los cuatro tesoros del estudio: pincel, tinta, papel y piedra para tinta",
+    "alt_ja": "文房四宝：筆・墨・紙・硯"
+  },
+  "name_es": "Cuatro tesoros del estudio",
+  "summary_es": "Pincel, tinta, papel y piedra para tinta forman los cuatro tesoros del estudio. Ya había conjuntos de pincel, tinta y piedra en época Han; el Wenfang sipu (986), de los Song del Norte, los describió como un conjunto. El papel tiene su propia entrada.",
+  "notes_es": "El papel ya tiene una entrada propia, centrada en Cai Lun. Esta trata los cuatro tesoros como conjunto, con énfasis en la barra y la piedra para tinta, y remite a la entrada del papel sin repetir su historia como uno de los cuatro grandes inventos.",
+  "notes_ja": "紙は蔡倫を軸にした独立項目で扱う。この項目は筆・墨・紙・硯を文房の道具一式として取り上げ、墨と硯に重点を置く。四大発明の紙の物語は繰り返さず、紙の項目を参照する。"
 }

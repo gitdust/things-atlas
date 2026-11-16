@@ -10,7 +10,9 @@
       "year": 1853,
       "precision": "year",
       "ref": "David M. Smith patented a two-arm spring clamp, US10163A; earlier one-piece pegs already existed",
-      "ref_zh": "戴维·史密斯获得双臂弹簧衣夹专利 US10163A；并非所有衣夹的起源"
+      "ref_zh": "戴维·史密斯获得双臂弹簧衣夹专利 US10163A；并非所有衣夹的起源",
+      "ref_es": "David M. Smith patenta una pinza de dos brazos con resorte (US10163A); ya existían pinzas de una sola pieza.",
+      "ref_ja": "David M. Smithが二本の腕とばねを用いるクリップを特許化する（US10163A）。一体型の洗濯ばさみは以前から存在した。"
     },
     "mass_production": null,
     "popularization": null
@@ -22,7 +24,9 @@
       "place_label_zh": "美国佛蒙特州斯普林菲尔德（史密斯弹簧衣夹专利）",
       "place_label_en": "Springfield, Vermont, USA (Smith spring-clamp patent)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Springfield, Vermont, Estados Unidos (patente de Smith)",
+      "place_label_ja": "米国バーモント州スプリングフィールド（Smithのばね式洗濯ばさみの特許）"
     }
   ],
   "confidence": "year",
@@ -50,13 +54,19 @@
     "fastening",
     "cleaning"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/clothespin.jpg",
     "alt_zh": "晾衣绳上的彩色塑料衣夹",
     "alt_en": "Colored plastic clothespins on a line",
     "credit": "Santeri Viinamäki",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Clothes_pegs_2016-05-25_02.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Clothes_pegs_2016-05-25_02.jpg",
+    "alt_es": "Pinzas de plástico de colores sobre un tendedero",
+    "alt_ja": "物干しロープの色とりどりのプラスチック製洗濯ばさみ"
+  },
+  "name_es": "Pinza de la ropa",
+  "summary_es": "La pinza sujeta prendas húmedas al tendedero. La patente de David M. Smith de 1853 introdujo una abrazadera de dos brazos con resorte; ya existían antes pinzas de madera de una sola pieza sin muelle.",
+  "notes_es": "Se toma la patente de la pinza con resorte de 1853 como hito verificable, no como la invención de todas las pinzas de la ropa.",
+  "notes_ja": "検証可能な節目として1853年のばね式洗濯ばさみの特許を採用し、洗濯ばさみ全体の最初の発明とはしない。"
 }

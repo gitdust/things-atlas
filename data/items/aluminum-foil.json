@@ -9,25 +9,33 @@
       "year": 1910,
       "precision": "year",
       "ref": "Robert Victor Neher patented the continuous rolling process for aluminum foil in Switzerland",
-      "ref_zh": "罗伯特·维克多·内埃在瑞士获得铝箔连续压延工艺专利"
+      "ref_zh": "罗伯特·维克多·内埃在瑞士获得铝箔连续压延工艺专利",
+      "ref_es": "Robert Victor Neher patenta en Suiza la laminación continua de papel de aluminio.",
+      "ref_ja": "Robert Victor Neherがスイスでアルミ箔の連続圧延法を特許化する。"
     },
     "patent": {
       "year": 1910,
       "precision": "year",
       "ref": "Swiss Patent 49,634 granted to Robert Victor Neher for aluminum foil rolling",
-      "ref_zh": "内埃获得瑞士铝箔压延专利第49,634号"
+      "ref_zh": "内埃获得瑞士铝箔压延专利第49,634号",
+      "ref_es": "Neher obtiene la patente suiza 49634 sobre la laminación de aluminio.",
+      "ref_ja": "Neherがアルミ箔圧延のスイス特許49634を取得する。"
     },
     "mass_production": {
       "year": 1911,
       "precision": "year",
       "ref": "Neher opened a rolling mill in Kreuzlingen; Toblerone began wrapping chocolate bars in foil",
-      "ref_zh": "内埃在克罗伊茨林根设厂投产，三角巧克力率先采用铝箔包装"
+      "ref_zh": "内埃在克罗伊茨林根设厂投产，三角巧克力率先采用铝箔包装",
+      "ref_es": "Neher abre una laminadora en Kreuzlingen; Toblerone empieza a envolver chocolate en aluminio.",
+      "ref_ja": "Neherがクロイツリンゲンに圧延工場を開き、Tobleroneがアルミ箔でチョコレートを包装し始める。"
     },
     "popularization": {
       "year": 1947,
       "precision": "year",
       "ref": "Reynolds Metals introduced Reynolds Wrap in the US, popularizing household aluminum foil",
-      "ref_zh": "雷诺兹金属在美国推出 Reynolds Wrap 铝箔卷，迅速普及为厨房日用品"
+      "ref_zh": "雷诺兹金属在美国推出 Reynolds Wrap 铝箔卷，迅速普及为厨房日用品",
+      "ref_es": "Reynolds Metals lanza Reynolds Wrap en Estados Unidos y populariza el papel de aluminio doméstico.",
+      "ref_ja": "Reynolds Metalsが米国でReynolds Wrapを発売し、家庭用アルミ箔を普及させる。"
     }
   },
   "primary": "invention",
@@ -38,7 +46,9 @@
       "place_label_zh": "瑞士图尔高州克罗伊茨林根（内埃连续压延铝箔厂）",
       "place_label_en": "Kreuzlingen, Thurgau, Switzerland (Neher aluminum foil rolling mill)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Kreuzlingen, Turgovia, Suiza (laminadora de Neher)",
+      "place_label_ja": "スイス、トゥールガウ州クロイツリンゲン（Neherのアルミ箔工場）"
     },
     {
       "lat": 37.5407,
@@ -46,7 +56,9 @@
       "place_label_zh": "美国弗吉尼亚州里士满（雷诺兹家用铝箔卷）",
       "place_label_en": "Richmond, Virginia, USA (Reynolds Wrap household foil)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Richmond, Virginia, Estados Unidos (Reynolds Wrap)",
+      "place_label_ja": "米国バージニア州リッチモンド（Reynolds Wrap家庭用アルミ箔）"
     }
   ],
   "confidence": "year",
@@ -73,13 +85,17 @@
     "storage",
     "cooking"
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/aluminum-foil.jpg",
     "alt_zh": "一卷展开的厨房用铝箔纸",
     "alt_en": "An unrolled sheet of kitchen aluminum foil",
     "credit": "Pippi",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Aluminium_foil.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aluminium_foil.jpg",
+    "alt_es": "Hoja desplegada de un rollo de papel de aluminio de cocina",
+    "alt_ja": "広げた調理用アルミホイル"
+  },
+  "name_es": "Papel de aluminio",
+  "summary_es": "El papel de aluminio es metal puro laminado muy fino. Neher ideó la laminación continua en Suiza en 1910 para proteger chocolate de la humedad; los rollos domésticos de Reynolds, de 1947, extendieron su uso culinario."
 }

@@ -9,25 +9,33 @@
       "year": 1945,
       "precision": "year",
       "ref": "Percy Spencer discovers microwave heating at Raytheon",
-      "ref_zh": "斯潘塞在雷神公司发现微波加热效应"
+      "ref_zh": "斯潘塞在雷神公司发现微波加热效应",
+      "ref_es": "Percy Spencer descubre el calentamiento por microondas en Raytheon",
+      "ref_ja": "パーシー・スペンサーがRaytheonでマイクロ波による加熱効果を発見した"
     },
     "patent": {
       "year": 1950,
       "precision": "year",
       "ref": "US 2,495,429 method of treating foodstuffs (filed 8 Oct 1945)",
-      "ref_zh": "美国专利 US 2,495,429（1945-10-08 申请）"
+      "ref_zh": "美国专利 US 2,495,429（1945-10-08 申请）",
+      "ref_es": "Patente US 2495429 sobre un método para tratar alimentos, solicitada el 8 de octubre de 1945",
+      "ref_ja": "食品の処理方法に関する米国特許2,495,429（1945年10月8日出願）"
     },
     "mass_production": {
       "year": 1947,
       "precision": "year",
       "ref": "Raytheon Radarange first sold",
-      "ref_zh": "雷神 Radarange 开始销售"
+      "ref_zh": "雷神 Radarange 开始销售",
+      "ref_es": "Comienza la venta del Radarange de Raytheon",
+      "ref_ja": "RaytheonのRadarangeの販売が始まった"
     },
     "popularization": {
       "year": 1967,
       "precision": "year",
       "ref": "Amana introduces the countertop microwave oven",
-      "ref_zh": "Amana 推出台式微波炉"
+      "ref_zh": "Amana 推出台式微波炉",
+      "ref_es": "Amana presenta el horno microondas de encimera",
+      "ref_ja": "Amanaが卓上型電子レンジを発売した"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "美国马萨诸塞州（雷神，以波士顿示意）",
       "place_label_en": "Massachusetts, USA (Raytheon; Boston shown)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Massachusetts, EE. UU. (Raytheon; se muestra Boston)",
+      "place_label_ja": "米国マサチューセッツ州（Raytheon、ボストンで図示）"
     },
     {
       "lat": 41.8,
@@ -45,7 +55,9 @@
       "place_label_zh": "美国艾奥瓦州阿马纳",
       "place_label_en": "Amana, Iowa, USA",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Amana, Iowa, EE. UU.",
+      "place_label_ja": "米国アイオワ州アマナ"
     }
   ],
   "confidence": "year",
@@ -77,14 +89,16 @@
     "cooking",
     "electric"
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/microwave-oven.jpg",
     "alt_zh": "一台松下不锈钢微波炉",
     "alt_en": "A Panasonic stainless-steel microwave oven",
     "credit": "Mrbeastmodeallday",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Panasonic_NN-SD69LS_20220410.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Panasonic_NN-SD69LS_20220410.jpg",
+    "alt_es": "Un horno microondas Panasonic de acero inoxidable",
+    "alt_ja": "Panasonicのステンレス製電子レンジ"
   },
   "earliest_use": {
     "year": 1945,
@@ -98,6 +112,10 @@
     "explanation_en": "The National Inventors Hall of Fame records that Spencer built a device for cooking food with microwaves in 1945.",
     "source_urls": [
       "https://www.invent.org/inductees/percy-l-spencer"
-    ]
-  }
+    ],
+    "explanation_es": "El National Inventors Hall of Fame documenta que Spencer construyó en 1945 un aparato para cocinar alimentos con microondas.",
+    "explanation_ja": "米国発明家殿堂は、スペンサーが1945年にマイクロ波で食品を調理する装置を製作したと記録している。"
+  },
+  "name_es": "Horno microondas",
+  "summary_es": "En 1945, Percy Spencer, de Raytheon, descubrió por azar que las microondas calentaban alimentos. El Radarange comercial apareció en 1947; el modelo de encimera de Amana de 1967 llevó esta técnica a los hogares."
 }

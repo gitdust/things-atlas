@@ -9,7 +9,9 @@
       "year": 1880,
       "precision": "decade",
       "ref": "Mahjong tiles and rules take recognizable form in the 1870s–1880s, often linked to Ningbo",
-      "ref_zh": "麻将牌与规则约在十九世纪七八十年代定型，常与宁波关联"
+      "ref_zh": "麻将牌与规则约在十九世纪七八十年代定型，常与宁波关联",
+      "ref_es": "Las fichas y reglas del mahjong adquieren una forma reconocible en los años 1870-1880, a menudo vinculada a Ningbo",
+      "ref_ja": "1870〜1880年代頃に麻雀牌とルールが現在につながる形となり、寧波と結び付けられることが多い"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1920,
       "precision": "decade",
       "ref": "Mahjong craze spreads across China and to the United States in the 1920s",
-      "ref_zh": "二十世纪二十年代麻将热传遍中国并风行美国"
+      "ref_zh": "二十世纪二十年代麻将热传遍中国并风行美国",
+      "ref_es": "La fiebre del mahjong se extiende por China y llega a Estados Unidos en los años veinte",
+      "ref_ja": "1920年代に麻雀ブームが中国各地と米国に広がった"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国浙江宁波",
       "place_label_en": "Ningbo, Zhejiang, China",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Ningbo, Zhejiang, China",
+      "place_label_ja": "中国浙江省寧波"
     },
     {
       "lat": 26.07,
@@ -35,7 +41,9 @@
       "place_label_zh": "中国福建福州（早期牌具记载之一）",
       "place_label_en": "Fuzhou, Fujian, China (early tile-set attestations)",
       "kind": "contested",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Fuzhou, Fujian, China (testimonios de juegos de fichas tempranos)",
+      "place_label_ja": "中国福建省福州（初期の牌の記録がある地域）"
     }
   ],
   "confidence": "disputed",
@@ -68,13 +76,19 @@
   "tags": [
     "leisure"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/mahjong.jpg",
     "alt_zh": "麻将牌",
     "alt_en": "Mahjong tiles",
     "credit": "バーレンムール",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Mahjong_Tiles_(2).jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mahjong_Tiles_(2).jpg",
+    "alt_es": "Fichas de mahjong",
+    "alt_ja": "麻雀牌"
+  },
+  "name_es": "Mahjong",
+  "summary_es": "El mahjong tomó forma en la costa sudeste de China a finales del siglo XIX; Ningbo suele considerarse un centro clave. Abundan las leyendas sobre su inventor y el año exacto sigue en disputa.",
+  "notes_es": "Las leyendas que atribuyen el mahjong a figuras como Zheng He carecen de pruebas. Es más prudente situar su formación a partir de juegos como madiao y los naipes en la costa de Jiangsu, Zhejiang y Fujian a finales del XIX. Ningbo destaca como centro difusor, pero hay fichas tempranas documentadas en Fuzhou y otros lugares; inventor y año siguen en disputa.",
+  "notes_ja": "鄭和などを発明者とする伝説には実証がない。19世紀後半、江蘇・浙江・福建の沿岸部で馬吊や紙牌などから形を整えたとする見方がより堅実である。寧波は重要な伝播拠点とされるが、福州などにも初期の牌の記録があり、正確な発明者と年代は依然として議論がある。"
 }

@@ -11,7 +11,9 @@
       "year": 1912,
       "precision": "year",
       "ref": "National Biscuit Company introduced and produced Oreo at its Chelsea bakery complex in New York; this is a branded product milestone, not the origin of sandwich cookies",
-      "ref_zh": "美国国家饼干公司在纽约切尔西工厂生产并推出奥利奥；这是品牌产品节点，不是夹心饼干的起源"
+      "ref_zh": "美国国家饼干公司在纽约切尔西工厂生产并推出奥利奥；这是品牌产品节点，不是夹心饼干的起源",
+      "ref_es": "National Biscuit Company produce y lanza Oreo en sus panaderías de Chelsea, Nueva York; es un hito de marca, no el origen de las galletas de sándwich",
+      "ref_ja": "National Biscuit Companyがニューヨークのチェルシー工場でOreoを生産・発売した。ブランド製品の節目であり、サンドイッチクッキー全体の起源ではない"
     },
     "popularization": null
   },
@@ -22,7 +24,9 @@
       "place_label_zh": "美国纽约切尔西（国家饼干公司工厂，今切尔西市场）",
       "place_label_en": "Chelsea, New York City, USA (National Biscuit Company bakeries, now Chelsea Market)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Chelsea, Nueva York, EE. UU. (fábricas de National Biscuit Company, hoy Chelsea Market)",
+      "place_label_ja": "米国ニューヨーク・チェルシー（National Biscuit Company工場、現チェルシーマーケット）"
     }
   ],
   "confidence": "year",
@@ -54,7 +58,7 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "notes_en": "This entry covers Oreo branded chocolate sandwich cookies. The 1912 date marks their introduction and production, not the invention of sandwich cookies; Hydrox preceded them in 1908. The photo shows modern cookies.",
   "image": {
     "src": "/images/oreo.jpg",
@@ -62,6 +66,12 @@
     "alt_en": "Two Oreo chocolate sandwich cookies with white filling",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Oreo-Two-Cookies.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Oreo-Two-Cookies.jpg",
+    "alt_es": "Dos galletas Oreo de chocolate con relleno blanco",
+    "alt_ja": "白いクリームを挟んだ2枚のOreoチョコレートクッキー"
+  },
+  "name_es": "Oreo",
+  "summary_es": "Oreo, galletas de chocolate con relleno blanco, se lanzó en 1912 en la fábrica de National Biscuit Company de Chelsea, Nueva York. Las galletas de sándwich ya existían: esta entrada trata la comercialización de Oreo, no el origen de la categoría.",
+  "notes_es": "La entrada trata las galletas de chocolate con relleno de la marca Oreo. 1912 marca su lanzamiento y producción, no la invención de las galletas de sándwich: Hydrox ya se vendía en 1908. La foto muestra un producto moderno.",
+  "notes_ja": "本項目はOreoブランドのチョコレートサンドイッチクッキーを扱う。1912年は発売・生産の年であり、この食品分類全体の発明年ではない。Hydroxは1908年に先行して発売されていた。写真は現代の製品である。"
 }

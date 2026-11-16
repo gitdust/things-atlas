@@ -9,25 +9,33 @@
       "year": 1902,
       "precision": "year",
       "ref": "Willis Carrier designed the first modern electrical air conditioning system for a Brooklyn printing plant",
-      "ref_zh": "威利斯·开利为布鲁克林印刷厂设计首台现代电力空气调节系统"
+      "ref_zh": "威利斯·开利为布鲁克林印刷厂设计首台现代电力空气调节系统",
+      "ref_es": "Willis Carrier diseña el primer sistema eléctrico moderno de aire acondicionado para una imprenta de Brooklyn.",
+      "ref_ja": "Willis Carrierがブルックリンの印刷工場向けに最初の近代的な電気式空調を設計する。"
     },
     "patent": {
       "year": 1906,
       "precision": "year",
       "ref": "US Patent 808,897 granted to Willis Carrier for Apparatus for Treating Air",
-      "ref_zh": "开利获得空气处理设备美国专利808,897号"
+      "ref_zh": "开利获得空气处理设备美国专利808,897号",
+      "ref_es": "Carrier recibe la patente estadounidense 808897 para un aparato de tratamiento del aire.",
+      "ref_ja": "Carrierが空気処理装置の米国特許808897を取得する。"
     },
     "mass_production": {
       "year": 1931,
       "precision": "year",
       "ref": "H.H. Schultz and J.Q. Sherman developed the first individual room window air conditioning unit",
-      "ref_zh": "舒尔茨与谢尔曼推出首款可安装在窗台的独立窗式空调机组"
+      "ref_zh": "舒尔茨与谢尔曼推出首款可安装在窗台的独立窗式空调机组",
+      "ref_es": "H. H. Schultz y J. Q. Sherman desarrollan el primer equipo individual de aire acondicionado de ventana.",
+      "ref_ja": "H. H. SchultzとJ. Q. Shermanが個室用の窓型エアコンを開発する。"
     },
     "popularization": {
       "year": 1953,
       "precision": "year",
       "ref": "Post-war residential air conditioner sales exceeded one million units annually in the US",
-      "ref_zh": "二战后家用空调在美国年销量突破百万台，进入大众普及阶段"
+      "ref_zh": "二战后家用空调在美国年销量突破百万台，进入大众普及阶段",
+      "ref_es": "Las ventas anuales de equipos domésticos superan el millón en Estados Unidos tras la guerra.",
+      "ref_ja": "戦後の米国で家庭用エアコンの年間販売が100万台を超える。"
     }
   },
   "primary": "invention",
@@ -38,7 +46,9 @@
       "place_label_zh": "美国纽约布鲁克林（萨克特-威廉姆斯印刷厂）",
       "place_label_en": "Brooklyn, New York, USA (Sackett & Wilhelms printing plant)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Brooklyn, Nueva York, Estados Unidos (imprenta Sackett & Wilhelms)",
+      "place_label_ja": "米国ニューヨーク州ブルックリン（Sackett & Wilhelms印刷工場）"
     }
   ],
   "confidence": "year",
@@ -70,13 +80,17 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/air-conditioner.jpg",
     "alt_zh": "安装在室内的分体式空调室内机",
     "alt_en": "An indoor unit of a split air conditioner",
     "credit": "Dinkun Chen",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:DAIKIN_AIR_CONDITIONER_INDOOR_UNIT.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:DAIKIN_AIR_CONDITIONER_INDOOR_UNIT.jpg",
+    "alt_es": "Unidad interior de un aire acondicionado de tipo partido",
+    "alt_ja": "セパレート型エアコンの室内機"
+  },
+  "name_es": "Aire acondicionado",
+  "summary_es": "El aire acondicionado regula la temperatura y la humedad mediante refrigeración. El sistema eléctrico de Carrier de 1902 dio paso a equipos domésticos de ventana y partidos a mediados del siglo XX, transformando ciudades y edificios."
 }

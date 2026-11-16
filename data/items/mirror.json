@@ -9,7 +9,9 @@
       "year": -6000,
       "precision": "century",
       "ref": "Polished obsidian mirrors are attested in Neolithic Anatolia around 6000 BCE; this is an archaeological benchmark, not an invention date",
-      "ref_zh": "约公元前6000年安纳托利亚已有磨光黑曜石镜；这是考古见证年代，并非确定的发明年份"
+      "ref_zh": "约公元前6000年安纳托利亚已有磨光黑曜石镜；这是考古见证年代，并非确定的发明年份",
+      "ref_es": "Hay espejos de obsidiana pulida en Anatolia neolítica hacia el 6000 a. C.; es una referencia arqueológica, no una fecha de invención",
+      "ref_ja": "紀元前6000年頃の新石器時代アナトリアに磨いた黒曜石の鏡が確認される。考古学的な証拠の年代であり、確定した発明年ではない"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "土耳其加泰土丘（新石器时代黑曜石镜）",
       "place_label_en": "Çatalhöyük, Türkiye (Neolithic obsidian mirrors)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Çatalhöyük, Turquía (espejos neolíticos de obsidiana)",
+      "place_label_ja": "トルコ・チャタルヒュユク（新石器時代の黒曜石鏡）"
     },
     {
       "lat": 26.1846,
@@ -31,7 +35,9 @@
       "place_label_en": "Abydos, Egypt (bronze mirror dated ca. 1800–1600 BCE)",
       "kind": "production",
       "confidence": "approximate",
-      "year_override": -1700
+      "year_override": -1700,
+      "place_label_es": "Abidos, Egipto (espejo de bronce de hacia 1800-1600 a. C.)",
+      "place_label_ja": "エジプト・アビドス（紀元前1800〜1600年頃の青銅鏡）"
     }
   ],
   "confidence": "century",
@@ -65,13 +71,19 @@
     "grooming",
     "household"
   ],
-  "updated": "2026-11-06",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/mirror.jpg",
     "alt_zh": "带装饰框与手柄的镜子插图",
     "alt_en": "Illustration of a hand mirror with a decorated frame",
     "credit": "David Ring",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Hand_mirror.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hand_mirror.jpg",
+    "alt_es": "Ilustración de un espejo de mano con marco decorado",
+    "alt_ja": "装飾された枠と柄を持つ手鏡の挿絵"
+  },
+  "name_es": "Espejo",
+  "summary_es": "Los espejos preceden al vidrio: se conservan ejemplares de obsidiana pulida de Anatolia de hacia el 6000 a. C. y otros de bronce de Egipto. Estos hallazgos arqueológicos no permiten identificar un inventor único.",
+  "notes_es": "No se ha establecido un inventor único del espejo artificial. Hacia el 6000 a. C. es la datación general del museo para los primeros espejos de obsidiana; Çatalhöyük representa hallazgos, no un origen exclusivo demostrado. Abidos señala un espejo de bronce conservado de hacia 1800-1600 a. C., con 1700 a. C. como punto medio. No indica la primera aparición del bronce ni una ruta directa entre ambos lugares.",
+  "notes_ja": "人工の鏡に単独の発明者は確認されていない。紀元前6000年頃は博物館による初期の黒曜石鏡の概略年代で、チャタルヒュユクは出土の証拠を示し、唯一の発祥地と証明されたわけではない。アビドスの点は紀元前1800〜1600年頃の現存青銅鏡を示し、中間の紀元前1700年を用いる。青銅鏡がその時初めて現れたことや、両地間の直接的な伝播経路を意味しない。"
 }

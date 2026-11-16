@@ -9,20 +9,26 @@
       "year": 1879,
       "precision": "year",
       "ref": "Edison's carbon-filament lamp at Menlo Park; Swan demonstrates his lamp in Newcastle",
-      "ref_zh": "爱迪生在门洛帕克研制碳丝灯；斯旺在纽卡斯尔演示其灯泡"
+      "ref_zh": "爱迪生在门洛帕克研制碳丝灯；斯旺在纽卡斯尔演示其灯泡",
+      "ref_es": "Edison desarrolla la lámpara de filamento de carbono en Menlo Park; Swan demuestra su bombilla en Newcastle",
+      "ref_ja": "エジソンがメンロパークで炭素フィラメント電球を開発し、スワンがニューカッスルで自作の電球を実演した"
     },
     "patent": {
       "year": 1880,
       "precision": "year",
       "ref": "Edison's US 223,898 (filed 4 Nov 1879, granted Jan 1880)",
-      "ref_zh": "爱迪生美国专利 US 223,898（1879-11-04 申请，1880 年 1 月授权）"
+      "ref_zh": "爱迪生美国专利 US 223,898（1879-11-04 申请，1880 年 1 月授权）",
+      "ref_es": "Patente US 223898 de Edison, solicitada el 4 de noviembre de 1879 y concedida en enero de 1880",
+      "ref_ja": "エジソンの米国特許223,898（1879年11月4日出願、1880年1月成立）"
     },
     "mass_production": null,
     "popularization": {
       "year": 1881,
       "precision": "year",
       "ref": "Swan lamps installed and in daily use in London",
-      "ref_zh": "斯旺灯泡在伦敦安装并日常使用"
+      "ref_zh": "斯旺灯泡在伦敦安装并日常使用",
+      "ref_es": "Las lámparas de Swan se instalan y usan a diario en Londres",
+      "ref_ja": "スワンの電球がロンドンに設置され、日常的に使われた"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国新泽西州门洛帕克（爱迪生）",
       "place_label_en": "Menlo Park, New Jersey, USA (Edison)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Menlo Park, Nueva Jersey, EE. UU. (Edison)",
+      "place_label_ja": "米国ニュージャージー州メンロパーク（エジソン）"
     },
     {
       "lat": 54.978,
@@ -41,7 +49,9 @@
       "place_label_en": "Newcastle upon Tyne, UK (Swan)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1879
+      "year_override": 1879,
+      "place_label_es": "Newcastle upon Tyne, Reino Unido (Swan)",
+      "place_label_ja": "英国ニューカッスル・アポン・タイン（スワン）"
     },
     {
       "lat": 51.507,
@@ -49,7 +59,9 @@
       "place_label_zh": "英国伦敦",
       "place_label_en": "London, UK",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Londres, Reino Unido",
+      "place_label_ja": "英国ロンドン"
     }
   ],
   "confidence": "disputed",
@@ -76,14 +88,20 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/light-bulb.jpg",
     "alt_zh": "黑色背景下点亮的白炽灯泡",
     "alt_en": "A lit incandescent bulb against a dark background",
     "credit": "Basile Morin",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Lamp_with_lit_incandescent_light_bulb_and_black_background.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lamp_with_lit_incandescent_light_bulb_and_black_background.jpg",
+    "alt_es": "Una bombilla incandescente encendida sobre fondo oscuro",
+    "alt_ja": "暗い背景の中で光る白熱電球"
   },
-  "notes_en": "Historians list several incandescent-lamp inventors before Swan and Edison. Swan demonstrated his lamp in Newcastle on 17 January 1879 and it was in daily use in London by 1881; Edison's edge came from a higher vacuum, a high-resistance filament and a complete power system."
+  "notes_en": "Historians list several incandescent-lamp inventors before Swan and Edison. Swan demonstrated his lamp in Newcastle on 17 January 1879 and it was in daily use in London by 1881; Edison's edge came from a higher vacuum, a high-resistance filament and a complete power system.",
+  "name_es": "Bombilla incandescente",
+  "summary_es": "La bombilla tuvo varios precursores. Edison creó una lámpara de carbono práctica y solicitó patente en Menlo Park en 1879; Swan la demostró ese año en Gran Bretaña. Sus lámparas ya se usaban en Londres en 1881.",
+  "notes_es": "Los historiadores identifican varios inventores de lámparas incandescentes anteriores a Swan y Edison. Swan demostró la suya en Newcastle el 17 de enero de 1879 y se usaba a diario en Londres en 1881. Edison destacó por un vacío más alto, un filamento de alta resistencia y un sistema eléctrico completo.",
+  "notes_ja": "歴史家はスワンやエジソン以前の白熱電球の発明者を複数挙げている。スワンは1879年1月17日にニューカッスルで実演に成功し、その電球は1881年にはロンドンで日常的に使われた。エジソンの強みは高真空、高抵抗のフィラメント、電力供給システム全体にあった。"
 }

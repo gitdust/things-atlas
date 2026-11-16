@@ -8,6 +8,7 @@
     "id",
     "name_zh",
     "name_en",
+    "name_es",
     "name_ja",
     "category",
     "years",
@@ -17,18 +18,24 @@
     "disputed",
     "summary_zh",
     "summary_en",
+    "summary_es",
     "summary_ja",
     "tags",
     "updated"
   ],
+  "dependentRequired": {
+    "notes": ["notes_en", "notes_es", "notes_ja"],
+    "notes_en": ["notes", "notes_es", "notes_ja"]
+  },
   "properties": {
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
     },
-    "name_zh": { "type": "string", "minLength": 1 },
-    "name_en": { "type": "string", "minLength": 1 },
-    "name_ja": { "type": "string", "minLength": 1 },
+    "name_zh": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "name_en": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "name_es": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "name_ja": {"type": "string", "minLength": 1, "pattern": "\\S"},
     "category": {
       "type": "string",
       "enum": [
@@ -75,15 +82,19 @@
     "disputed": { "type": "boolean" },
     "notes": { "type": "string", "description": "Chinese dispute / editorial note. Required (≥40 chars) when disputed=true; shown in the drawer only for disputed entries." },
     "notes_en": { "type": "string", "description": "English dispute / editorial note. Required when disputed=true; shown in the drawer only for disputed entries." },
+    "notes_es": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "notes_ja": {"type": "string", "minLength": 1, "pattern": "\\S"},
     "image": {
       "description": "Optional illustrative photo shown in the item drawer. Prefer a local path under /images/.",
       "type": "object",
       "additionalProperties": false,
-      "required": ["src", "alt_zh", "alt_en"],
+      "required": ["src", "alt_zh", "alt_en", "alt_es", "alt_ja"],
       "properties": {
         "src": { "type": "string", "minLength": 1 },
         "alt_zh": { "type": "string", "minLength": 1 },
         "alt_en": { "type": "string", "minLength": 1 },
+        "alt_es": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "alt_ja": {"type": "string", "minLength": 1, "pattern": "\\S"},
         "credit": { "type": "string" },
         "license": { "type": "string" },
         "source_url": { "type": "string", "format": "uri" }
@@ -93,7 +104,9 @@
       "type": "object",
       "required": [
         "zh",
-        "en"
+        "en",
+        "es",
+        "ja"
       ],
       "additionalProperties": false,
       "properties": {
@@ -102,12 +115,15 @@
         },
         "en": {
           "$ref": "#/$defs/shareLocale"
-        }
+        },
+        "es": { "$ref": "#/$defs/shareLocale" },
+        "ja": { "$ref": "#/$defs/shareLocale" }
       }
     },
-    "summary_zh": { "type": "string", "minLength": 1, "maxLength": 160 },
-    "summary_en": { "type": "string", "minLength": 1, "maxLength": 200 },
-    "summary_ja": { "type": "string", "minLength": 1, "maxLength": 240 },
+    "summary_zh": {"type": "string", "minLength": 1, "maxLength": 160, "pattern": "\\S"},
+    "summary_en": {"type": "string", "minLength": 1, "maxLength": 200, "pattern": "\\S"},
+    "summary_es": {"type": "string", "minLength": 1, "pattern": "\\S", "maxLength": 320},
+    "summary_ja": {"type": "string", "minLength": 1, "maxLength": 240, "pattern": "\\S"},
     "tags": {
       "type": "array",
       "minItems": 1,
@@ -130,6 +146,8 @@
         "evidence",
         "explanation_zh",
         "explanation_en",
+        "explanation_es",
+        "explanation_ja",
         "source_urls"
       ],
       "properties": {
@@ -192,6 +210,8 @@
           "maxLength": 220,
           "pattern": "\\S"
         },
+        "explanation_es": {"type": "string", "minLength": 1, "pattern": "\\S", "maxLength": 320},
+        "explanation_ja": {"type": "string", "minLength": 1, "pattern": "\\S", "maxLength": 320},
         "source_urls": {
           "type": "array",
           "minItems": 1,
@@ -261,15 +281,17 @@
     "yearMark": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["year", "precision"],
+      "required": ["year", "precision", "ref", "ref_zh", "ref_es", "ref_ja"],
       "properties": {
         "year": { "type": "integer", "minimum": -7000, "maximum": 2100 },
         "precision": {
           "type": "string",
           "enum": ["exact", "year", "decade", "century"]
         },
-        "ref": { "type": "string", "description": "English note for this year mark (shown when UI is EN)." },
-        "ref_zh": { "type": "string", "description": "Chinese note for this year mark (shown when UI is ZH)." }
+        "ref": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "ref_zh": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "ref_es": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "ref_ja": {"type": "string", "minLength": 1, "pattern": "\\S"}
       }
     },
     "location": {
@@ -280,6 +302,8 @@
         "lng",
         "place_label_zh",
         "place_label_en",
+        "place_label_es",
+        "place_label_ja",
         "kind",
         "confidence"
       ],
@@ -288,6 +312,8 @@
         "lng": { "type": "number", "minimum": -180, "maximum": 180 },
         "place_label_zh": { "type": "string", "minLength": 1 },
         "place_label_en": { "type": "string", "minLength": 1 },
+        "place_label_es": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "place_label_ja": {"type": "string", "minLength": 1, "pattern": "\\S"},
         "kind": {
           "type": "string",
           "enum": [

@@ -10,7 +10,9 @@
       "year": 1894,
       "precision": "exact",
       "ref": "William Painter's hand-held opener patent (6 Feb 1894), Baltimore",
-      "ref_zh": "巴尔的摩的佩因特获手持开瓶器专利（1894-02-06）"
+      "ref_zh": "巴尔的摩的佩因特获手持开瓶器专利（1894-02-06）",
+      "ref_es": "Patente del abrebotellas de mano de William Painter, 6 de febrero de 1894, Baltimore.",
+      "ref_ja": "William Painterが1894年2月6日にボルティモアで手持ち栓抜きを特許化する。"
     },
     "mass_production": null,
     "popularization": null
@@ -22,7 +24,9 @@
       "place_label_zh": "美国巴尔的摩（佩因特）",
       "place_label_en": "Baltimore, USA (Painter)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Baltimore, Estados Unidos (Painter)",
+      "place_label_ja": "米国ボルティモア（Painter）"
     },
     {
       "lat": 37.974,
@@ -31,7 +35,9 @@
       "place_label_en": "Evansville, Indiana, USA (Bernardin)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1893
+      "year_override": 1893,
+      "place_label_es": "Evansville, Indiana, Estados Unidos (Bernardin)",
+      "place_label_ja": "米国インディアナ州エバンズビル（Bernardin）"
     }
   ],
   "confidence": "disputed",
@@ -51,14 +57,20 @@
   "tags": [
     "dining"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/bottle-opener.jpg",
     "alt_zh": "一只钥匙扣开瓶器",
     "alt_en": "A keychain bottle opener",
     "credit": "Santeri Viinamäki",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Bottle_opener_keychain.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bottle_opener_keychain.jpg",
+    "alt_es": "Abrebotellas de llavero",
+    "alt_ja": "キーホルダー型の栓抜き"
   },
-  "notes_en": "Credit usually goes to Painter, inventor of the crown cork, but Bernardin of Evansville, Indiana, patented a table-mounted opener on 11 July 1893, months before Painter."
+  "notes_en": "Credit usually goes to Painter, inventor of the crown cork, but Bernardin of Evansville, Indiana, patented a table-mounted opener on 11 July 1893, months before Painter.",
+  "name_es": "Abrebotellas",
+  "summary_es": "William Painter patentó en Baltimore un abrebotellas de mano en 1894 para sus tapones corona. Bernardin, de Evansville, había patentado un modelo de mesa unos meses antes.",
+  "notes_es": "Suele atribuirse el abrebotellas a Painter, inventor del tapón corona, pero Bernardin, de Evansville, Indiana, obtuvo una patente de abrebotellas de mesa el 11 de julio de 1893, meses antes que él.",
+  "notes_ja": "王冠の発明者Painterに栓抜きも帰されることが多いが、インディアナ州エバンズビルのBernardinは数か月早い1893年7月11日に卓上栓抜きの特許を取得した。"
 }

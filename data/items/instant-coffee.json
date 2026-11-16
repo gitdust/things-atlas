@@ -10,13 +10,17 @@
       "year": 1903,
       "precision": "year",
       "ref": "Satori Kato received US735777A for dry coffee concentrate and its preparation; a process patent, not the first invention of instant coffee",
-      "ref_zh": "加藤悟取得干燥咖啡浓缩物及制法专利US735777A；这是工艺专利，并非速溶咖啡的首次发明"
+      "ref_zh": "加藤悟取得干燥咖啡浓缩物及制法专利US735777A；这是工艺专利，并非速溶咖啡的首次发明",
+      "ref_es": "Satori Kato obtiene la patente US735777A para concentrado seco de café y su preparación; es una patente de proceso, no la primera invención del café soluble",
+      "ref_ja": "加藤悟が乾燥コーヒー濃縮物と製法の特許US735777Aを取得した。製法特許であり、インスタントコーヒーの最初の発明ではない"
     },
     "mass_production": {
       "year": 1938,
       "precision": "year",
       "ref": "Nestlé launched Nescafé in Switzerland and established large-scale extraction and spray-drying production in Orbe",
-      "ref_zh": "雀巢在瑞士推出Nescafé，并在奥尔布建立大规模咖啡萃取与喷雾干燥生产线"
+      "ref_zh": "雀巢在瑞士推出Nescafé，并在奥尔布建立大规模咖啡萃取与喷雾干燥生产线",
+      "ref_es": "Nestlé lanza Nescafé en Suiza y establece en Orbe una producción a gran escala mediante extracción y secado por atomización",
+      "ref_ja": "NestléがスイスでNescaféを発売し、オルブに大規模な抽出・噴霧乾燥の生産設備を設けた"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "美国伊利诺伊州芝加哥（加藤的咖啡浓缩物专利）",
       "place_label_en": "Chicago, Illinois, USA (Kato coffee-concentrate patent)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Chicago, Illinois, EE. UU. (patente de concentrado de café de Kato)",
+      "place_label_ja": "米国イリノイ州シカゴ（加藤のコーヒー濃縮物特許）"
     },
     {
       "lat": 46.728,
@@ -36,7 +42,9 @@
       "place_label_en": "Orbe, Switzerland (large-scale Nescafé production)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1938
+      "year_override": 1938,
+      "place_label_es": "Orbe, Suiza (producción de Nescafé a gran escala)",
+      "place_label_ja": "スイス・オルブ（Nescaféの大規模生産）"
     }
   ],
   "confidence": "year",
@@ -62,7 +70,7 @@
   "tags": [
     "food-drink"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "notes_en": "Instant coffee developed through multiple processes. This entry uses Kato’s 1903 patent and the 1938 Nescafé production line as verifiable milestones, without treating Kato as its sole inventor or Nestlé’s launch as the origin of the entire food type. The photo shows modern granules.",
   "image": {
     "src": "/images/instant-coffee.jpg",
@@ -70,6 +78,12 @@
     "alt_en": "Brown instant coffee granules on a light surface",
     "credit": "Editor at Large",
     "license": "CC BY-SA 2.5",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Instant_coffee.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Instant_coffee.jpg",
+    "alt_es": "Gránulos marrones de café soluble sobre una superficie clara",
+    "alt_ja": "明るい色の面に盛られた茶色のインスタントコーヒー顆粒"
+  },
+  "name_es": "Café soluble",
+  "summary_es": "El café soluble es un extracto deshidratado en polvo o gránulos. Kato patentó un proceso en 1903; Nestlé produjo Nescafé a gran escala en Orbe, Suiza, en 1938. Ninguno de estos hitos es su origen único ni el más antiguo.",
+  "notes_es": "El café soluble evolucionó mediante varios procesos. Se usan la patente de Kato de 1903 y la línea de Nescafé de 1938 como hitos verificables, sin atribuirle la invención exclusiva a Kato ni considerar el lanzamiento de Nestlé el origen de toda la categoría. La foto muestra gránulos modernos.",
+  "notes_ja": "インスタントコーヒーは複数の製法を通じて発展した。本項目では1903年の加藤の特許と1938年のNescafé生産設備を確認できる節目とし、加藤を唯一の発明者とも、Nestléの発売を食品分類全体の起源とも見なさない。写真は現代の顆粒である。"
 }

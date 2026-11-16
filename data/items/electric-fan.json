@@ -9,25 +9,33 @@
       "year": 1882,
       "precision": "year",
       "ref": "Schuyler Skaats Wheeler invented the two-bladed electric desk fan in New York",
-      "ref_zh": "斯凯勒·斯卡茨·惠勒在纽约发明双叶电动台扇"
+      "ref_zh": "斯凯勒·斯卡茨·惠勒在纽约发明双叶电动台扇",
+      "ref_es": "Schuyler Skaats Wheeler inventa en Nueva York el ventilador eléctrico de mesa de dos aspas.",
+      "ref_ja": "Schuyler Skaats Wheelerがニューヨークで2枚羽根の電動卓上扇風機を発明する。"
     },
     "patent": {
       "year": 1882,
       "precision": "year",
       "ref": "Wheeler developed electric desk fans manufactured by Crocker & Curtis Electric Motor Co.",
-      "ref_zh": "惠勒设计的电动风扇由克罗克-柯蒂斯电机公司转化并投产"
+      "ref_zh": "惠勒设计的电动风扇由克罗克-柯蒂斯电机公司转化并投产",
+      "ref_es": "Wheeler desarrolla ventiladores de mesa fabricados por Crocker & Curtis Electric Motor Co.",
+      "ref_ja": "WheelerがCrocker & Curtis Electric Motor製の卓上扇風機を開発する。"
     },
     "mass_production": {
       "year": 1886,
       "precision": "year",
       "ref": "Crocker & Curtis Electric Motor Company begins commercial mass production of electric fans in New York",
-      "ref_zh": "克罗克-柯蒂斯电机公司在纽约实现电风扇商业化批量生产"
+      "ref_zh": "克罗克-柯蒂斯电机公司在纽约实现电风扇商业化批量生产",
+      "ref_es": "Crocker & Curtis Electric Motor Company inicia la producción comercial en serie en Nueva York.",
+      "ref_ja": "Crocker & Curtis Electric Motor Companyがニューヨークで扇風機の商業量産を始める。"
     },
     "popularization": {
       "year": 1910,
       "precision": "year",
       "ref": "Fans with guards and oscillating mechanisms become widespread in European and American homes and offices",
-      "ref_zh": "带防护罩和摇头功能的电风扇在欧美家庭与办公室广泛普及"
+      "ref_zh": "带防护罩和摇头功能的电风扇在欧美家庭与办公室广泛普及",
+      "ref_es": "Los ventiladores con rejilla y oscilación se generalizan en hogares y oficinas de Europa y América.",
+      "ref_ja": "保護網と首振り機構を備えた扇風機が欧米の家庭や事務所に普及する。"
     }
   },
   "primary": "invention",
@@ -38,7 +46,9 @@
       "place_label_zh": "美国纽约（惠勒双叶电动台扇）",
       "place_label_en": "New York City, New York, USA (Wheeler electric desk fan)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Nueva York, Estados Unidos (ventilador de mesa de Wheeler)",
+      "place_label_ja": "米国ニューヨーク（Wheelerの2枚羽根の電動卓上扇風機）"
     }
   ],
   "confidence": "year",
@@ -64,13 +74,17 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/electric-fan.jpg",
     "alt_zh": "一台家用电风扇",
     "alt_en": "A household electric fan",
     "credit": "Garonzi Stefania",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Electric_fan.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Electric_fan.jpg",
+    "alt_es": "Ventilador eléctrico doméstico",
+    "alt_ja": "家庭用の電動扇風機"
+  },
+  "name_es": "Ventilador eléctrico",
+  "summary_es": "Un motor hace girar las aspas para mover aire y facilitar la pérdida de calor. Wheeler inventó el ventilador de mesa eléctrico en 1882; rejillas protectoras y oscilación automática lo convirtieron en un aparato doméstico asequible."
 }

@@ -9,20 +9,26 @@
       "year": 1897,
       "precision": "year",
       "ref": "Mikulicz in Breslau and Berger in Paris introduce gauze face masks into operating rooms to block droplet infection",
-      "ref_zh": "米库利奇与贝格尔分别在布雷斯劳和巴黎将纱布面罩引入手术室以阻断飞沫感染"
+      "ref_zh": "米库利奇与贝格尔分别在布雷斯劳和巴黎将纱布面罩引入手术室以阻断飞沫感染",
+      "ref_es": "Mikulicz, en Breslau, y Berger, en París, introducen mascarillas de gasa en los quirófanos para reducir la infección por gotas.",
+      "ref_ja": "BreslauのMikuliczとパリのBergerが飛沫感染を防ぐガーゼマスクを手術室へ導入する。"
     },
     "patent": null,
     "mass_production": {
       "year": 1911,
       "precision": "year",
       "ref": "Wu Lien-teh designs a double-layer gauze antibacterial mask during the Manchurian plague and organizes mass production and distribution",
-      "ref_zh": "伍连德在东北大鼠疫中设计双层纱布防菌口罩并组织规模化量产与配发"
+      "ref_zh": "伍连德在东北大鼠疫中设计双层纱布防菌口罩并组织规模化量产与配发",
+      "ref_es": "Wu Lien-teh diseña una mascarilla de gasa de dos capas durante la peste de Manchuria y organiza su producción y distribución masivas.",
+      "ref_ja": "伍連徳が中国東北部のペスト流行時に二重ガーゼの防菌マスクを設計し、量産と配布を組織する。"
     },
     "popularization": {
       "year": 1918,
       "precision": "year",
       "ref": "Worldwide civilian and public health adoption of face masks during the 1918 Influenza Pandemic",
-      "ref_zh": "1918 年大流感期间口罩作为公共卫生防护装备在全球民众中被广泛佩戴"
+      "ref_zh": "1918 年大流感期间口罩作为公共卫生防护装备在全球民众中被广泛佩戴",
+      "ref_es": "La población y las autoridades sanitarias adoptan mascarillas en todo el mundo durante la gripe de 1918.",
+      "ref_ja": "1918年のインフルエンザ流行で、マスクが世界各地の一般市民と公衆衛生対策に広まる。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "德国布雷斯劳（现波兰弗罗茨瓦夫，米库利奇引入手术口罩）",
       "place_label_en": "Breslau, Germany (now Wrocław, Poland; Mikulicz-Radecki introduces surgical masks)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Breslau, Alemania (hoy Wrocław, Polonia; mascarillas de Mikulicz)",
+      "place_label_ja": "ドイツ、ブレスラウ（現ポーランド、ヴロツワフ。Mikuliczの手術用マスク）"
     },
     {
       "lat": 48.8566,
@@ -40,7 +48,9 @@
       "place_label_zh": "法国巴黎（贝格尔临床使用口罩）",
       "place_label_en": "Paris, France (Berger operating-room masks)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "París, Francia (mascarillas quirúrgicas de Berger)",
+      "place_label_ja": "フランス、パリ（Bergerの手術室用マスク）"
     },
     {
       "lat": 45.7569,
@@ -49,7 +59,9 @@
       "place_label_en": "Harbin, Heilongjiang, China (Wu Lien-teh designs epidemic plague mask)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1911
+      "year_override": 1911,
+      "place_label_es": "Harbin, Heilongjiang, China (mascarilla contra la peste de Wu Lien-teh)",
+      "place_label_ja": "中国黒竜江省ハルビン（伍連徳による防疫マスクの設計と普及）"
     }
   ],
   "confidence": "year",
@@ -80,13 +92,17 @@
   "tags": [
     "health"
   ],
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/face-mask.jpg",
     "alt_zh": "浅蓝色医用一次性口罩",
     "alt_en": "A light blue disposable medical face mask",
     "credit": "AlexChirkin",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:A_surgical_mask_(2017).jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_surgical_mask_(2017).jpg",
+    "alt_es": "Mascarilla médica desechable azul claro",
+    "alt_ja": "水色の使い捨て医療用マスク"
+  },
+  "name_es": "Mascarilla",
+  "summary_es": "Mikulicz y Berger introdujeron mascarillas quirúrgicas de gasa contra las gotas en 1897. La mascarilla de dos capas de Wu Lien-teh, usada contra la peste en Manchuria en 1911, impulsó su papel en la protección sanitaria pública."
 }

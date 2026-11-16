@@ -9,7 +9,9 @@
       "year": 2002,
       "precision": "exact",
       "ref": "HDMI founders begin developing HDMI 1.0 (16 Apr 2002)",
-      "ref_zh": "HDMI 创始成员开始制定 HDMI 1.0（2002-04-16）"
+      "ref_zh": "HDMI 创始成员开始制定 HDMI 1.0（2002-04-16）",
+      "ref_es": "Los fundadores de HDMI empiezan a desarrollar HDMI 1.0 el 16 de abril de 2002",
+      "ref_ja": "HDMIの創設企業がHDMI 1.0の策定を開始した（2002年4月16日）"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 2003,
       "precision": "year",
       "ref": "HDMI introduced in consumer electronics",
-      "ref_zh": "HDMI 进入消费电子产品"
+      "ref_zh": "HDMI 进入消费电子产品",
+      "ref_es": "HDMI se incorpora a los productos de electrónica de consumo",
+      "ref_ja": "HDMIが家庭用電子機器に導入された"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "日本（日立 / 松下 / 索尼 / 东芝等）",
       "place_label_en": "Japan (Hitachi, Panasonic, Sony, Toshiba…)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Japón (Hitachi, Panasonic, Sony, Toshiba y otras)",
+      "place_label_ja": "日本（日立・パナソニック・ソニー・東芝など）"
     },
     {
       "lat": 37.39,
@@ -35,7 +41,9 @@
       "place_label_zh": "美国加州（Silicon Image）",
       "place_label_en": "California, USA (Silicon Image)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "California, EE. UU. (Silicon Image)",
+      "place_label_ja": "米国カリフォルニア州（Silicon Image）"
     }
   ],
   "confidence": "exact",
@@ -55,13 +63,17 @@
     "computing",
     "media"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/hdmi-cable.jpg",
     "alt_zh": "HDMI 线的接头",
     "alt_en": "An HDMI cable plug",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg",
+    "alt_es": "El conector de un cable HDMI",
+    "alt_ja": "HDMIケーブルの端子"
+  },
+  "name_es": "Cable HDMI",
+  "summary_es": "Hitachi, Panasonic, Philips, Silicon Image, Sony, Thomson y Toshiba empezaron a desarrollar HDMI en abril de 2002. Lanzado en 2003, fue sustituyendo las conexiones de vídeo analógicas."
 }

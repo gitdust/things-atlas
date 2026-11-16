@@ -9,14 +9,18 @@
       "year": 1973,
       "precision": "year",
       "ref": "Martin Cooper of Motorola makes a public handheld cellular call using a DynaTAC prototype in New York",
-      "ref_zh": "摩托罗拉马丁·库珀在纽约使用 DynaTAC 原型机公开拨打手持蜂窝电话"
+      "ref_zh": "摩托罗拉马丁·库珀在纽约使用 DynaTAC 原型机公开拨打手持蜂窝电话",
+      "ref_es": "Martin Cooper, de Motorola, realiza una llamada celular pública con un prototipo DynaTAC de mano en Nueva York",
+      "ref_ja": "Motorolaのマーティン・クーパーがニューヨークでDynaTAC試作機を用い、手持ち式携帯電話の公開通話を行った"
     },
     "patent": null,
     "mass_production": {
       "year": 1983,
       "precision": "exact",
       "ref": "DynaTAC 8000X becomes the first commercial handheld cellular phone",
-      "ref_zh": "DynaTAC 8000X 成为第一款商用手持蜂窝电话"
+      "ref_zh": "DynaTAC 8000X 成为第一款商用手持蜂窝电话",
+      "ref_es": "El DynaTAC 8000X se convierte en el primer teléfono celular comercial de mano",
+      "ref_ja": "DynaTAC 8000Xが初の商用手持ち式携帯電話となった"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "美国纽约（原型机公开通话）",
       "place_label_en": "New York City, USA (public prototype call)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Nueva York, EE. UU. (llamada pública con el prototipo)",
+      "place_label_ja": "米国ニューヨーク（試作機の公開通話）"
     },
     {
       "lat": 42.033,
@@ -36,7 +42,9 @@
       "place_label_en": "Schaumburg, Illinois, USA (Motorola)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1983
+      "year_override": 1983,
+      "place_label_es": "Schaumburg, Illinois, EE. UU. (Motorola)",
+      "place_label_ja": "米国イリノイ州ショームバーグ（Motorola）"
     }
   ],
   "confidence": "exact",
@@ -68,7 +76,7 @@
     "computing",
     "media"
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "primary": "mass_production",
   "image": {
     "src": "/images/mobile-phone.jpg",
@@ -76,7 +84,9 @@
     "alt_en": "A Motorola DynaTAC handheld cellphone",
     "credit": "2007Computex e21Forum-MartinCooper.jpg Rico Shen; derivative work: ויקיג'אנקי",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_DynaTAC.jpg",
+    "alt_es": "Un teléfono móvil de mano Motorola DynaTAC",
+    "alt_ja": "Motorola DynaTACの手持ち式携帯電話"
   },
   "earliest_use": {
     "year": 1973,
@@ -90,6 +100,10 @@
     "explanation_en": "Motorola records Cooper making a public call with a handheld cellular phone prototype in New York in 1973.",
     "source_urls": [
       "https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/cell-phone-development.html"
-    ]
-  }
+    ],
+    "explanation_es": "Motorola documenta que Cooper realizó en Nueva York en 1973 una llamada pública con un prototipo de teléfono celular de mano.",
+    "explanation_ja": "Motorolaは、クーパーが1973年にニューヨークで手持ち式携帯電話の試作機による公開通話を行ったと記録している。"
+  },
+  "name_es": "Teléfono móvil",
+  "summary_es": "En 1973, Martin Cooper, de Motorola, realizó en Nueva York la primera llamada celular pública con un prototipo de mano. El DynaTAC 8000X llegó en 1983 como primer móvil comercial de mano, apodado «el ladrillo»."
 }

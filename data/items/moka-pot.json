@@ -9,25 +9,33 @@
       "year": 1933,
       "precision": "year",
       "ref": "Alfonso Bialetti launches the Moka Express stove-top coffee maker in Italy (1933)",
-      "ref_zh": "阿方索·比亚莱蒂1933年在意大利推出摩卡壶"
+      "ref_zh": "阿方索·比亚莱蒂1933年在意大利推出摩卡壶",
+      "ref_es": "Alfonso Bialetti lanza en Italia la cafetera de fogón Moka Express en 1933",
+      "ref_ja": "アルフォンソ・ビアレッティが1933年にイタリアで直火式コーヒー器具Moka Expressを発売した"
     },
     "patent": {
       "year": 1951,
       "precision": "year",
       "ref": "Related patent filings associated with Luigi De Ponti appear around 1950–51",
-      "ref_zh": "与路易吉·德庞蒂相关的专利约在1950–51年出现"
+      "ref_zh": "与路易吉·德庞蒂相关的专利约在1950–51年出现",
+      "ref_es": "Aparecen hacia 1950-1951 solicitudes de patente relacionadas con Luigi De Ponti",
+      "ref_ja": "1950〜1951年頃、ルイジ・デ・ポンティに関連する特許出願が現れた"
     },
     "mass_production": {
       "year": 1933,
       "precision": "year",
       "ref": "Bialetti began commercial production of the aluminum Moka Express",
-      "ref_zh": "比亚莱蒂开始商业生产铝制摩卡壶"
+      "ref_zh": "比亚莱蒂开始商业生产铝制摩卡壶",
+      "ref_es": "Bialetti comienza la producción comercial de la Moka Express de aluminio",
+      "ref_ja": "Bialettiがアルミニウム製Moka Expressの商業生産を開始した"
     },
     "popularization": {
       "year": 1950,
       "precision": "decade",
       "ref": "Moka pots become everyday Italian household coffee makers after WWII",
-      "ref_zh": "二战后摩卡壶成为意大利家庭日常煮咖啡器具"
+      "ref_zh": "二战后摩卡壶成为意大利家庭日常煮咖啡器具",
+      "ref_es": "Las cafeteras italianas se vuelven habituales en los hogares de Italia tras la Segunda Guerra Mundial",
+      "ref_ja": "第二次世界大戦後、マキネッタがイタリア家庭の日常的なコーヒー器具となった"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "意大利皮埃蒙特十字军镇一带（比亚莱蒂）",
       "place_label_en": "Crusinallo / Omegna area, Piedmont, Italy (Bialetti)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Región de Crusinallo y Omegna, Piamonte, Italia (Bialetti)",
+      "place_label_ja": "イタリア・ピエモンテ州クルジナッロ／オメーニャ周辺（Bialetti）"
     }
   ],
   "confidence": "year",
@@ -70,13 +80,19 @@
   "tags": [
     "dining"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/moka-pot.jpg",
     "alt_zh": "摩卡壶煮咖啡",
     "alt_en": "A Bialetti moka pot brewing coffee",
     "credit": "Berteun Damman (That's I)",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Bialetti_Moka_Express_in_action.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bialetti_Moka_Express_in_action.jpg",
+    "alt_es": "Una cafetera italiana Bialetti preparando café",
+    "alt_ja": "コーヒーを抽出するBialettiのマキネッタ"
+  },
+  "name_es": "Cafetera italiana",
+  "summary_es": "Alfonso Bialetti lanzó la cafetera italiana en 1933. Este aparato para preparar café sobre el fogón se convirtió tras la Segunda Guerra Mundial en un utensilio cotidiano de los hogares italianos.",
+  "notes_es": "La historia de la empresa sitúa la invención en 1933, pero la atribución de las primeras patentes es compleja y a menudo apunta a Luigi De Ponti, no al propio Alfonso Bialetti. Se conserva 1933, año del lanzamiento del producto, como fecha principal.",
+  "notes_ja": "社史は発明を1933年とするが、初期特許の帰属は複雑で、アルフォンソ・ビアレッティ本人ではなくルイジ・デ・ポンティに結び付くものが多い。本項目では製品登場の1933年を主年としている。"
 }

@@ -9,25 +9,33 @@
       "year": 589,
       "precision": "century",
       "ref": "Scholar-official Yan Zhitui mentions using paper for toilet purposes (c. 589)",
-      "ref_zh": "学者颜之推（约 589 年）提到用纸如厕"
+      "ref_zh": "学者颜之推（约 589 年）提到用纸如厕",
+      "ref_es": "El erudito Yan Zhitui menciona el uso de papel para el aseo hacia 589.",
+      "ref_ja": "学者の顔之推が589年頃、用便後に紙を使うことに言及。"
     },
     "patent": {
       "year": 1883,
       "precision": "year",
       "ref": "Seth Wheeler of Albany, NY: earliest US toilet-paper and dispenser patents",
-      "ref_zh": "奥尔巴尼的惠勒获美国最早的卫生纸与纸架专利"
+      "ref_zh": "奥尔巴尼的惠勒获美国最早的卫生纸与纸架专利",
+      "ref_es": "Wheeler, de Albany, obtiene una temprana patente estadounidense de papel higiénico y su soporte.",
+      "ref_ja": "Albany の Wheeler が米国の初期のトイレットペーパーとホルダーの特許を取得。"
     },
     "mass_production": {
       "year": 1393,
       "precision": "year",
       "ref": "Ming court at Nanjing receives 720,000 sheets a year",
-      "ref_zh": "明朝南京宫廷每年供应 72 万张手纸"
+      "ref_zh": "明朝南京宫廷每年供应 72 万张手纸",
+      "ref_es": "La corte Ming de Nankín recibe 720 000 hojas de papel higiénico al año.",
+      "ref_ja": "明代の南京の宮廷に年間72万枚のトイレットペーパーが供給される。"
     },
     "popularization": {
       "year": 1857,
       "precision": "year",
       "ref": "Joseph Gayetty's Medicated Paper, first modern commercial toilet paper in the US",
-      "ref_zh": "盖耶蒂推出「药用纸」，美国最早的现代商品卫生纸"
+      "ref_zh": "盖耶蒂推出「药用纸」，美国最早的现代商品卫生纸",
+      "ref_es": "Gayetty lanza su «papel medicinal», uno de los primeros papeles higiénicos comerciales modernos de Estados Unidos.",
+      "ref_ja": "Gayetty が米国の初期の近代的市販トイレットペーパー「薬用紙」を発売。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "中国（隋唐时期，以长安示意）",
       "place_label_en": "China (Sui–Tang era; Chang'an shown)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "China (época Sui-Tang; Chang’an como referencia)",
+      "place_label_ja": "中国（隋唐期。長安に模式表示）"
     },
     {
       "lat": 32.06,
@@ -45,7 +55,9 @@
       "place_label_zh": "中国南京（明代宫廷）",
       "place_label_en": "Nanjing, China (Ming court)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Nankín, China (corte Ming)",
+      "place_label_ja": "中国南京（明代宮廷）"
     },
     {
       "lat": 39.8,
@@ -53,7 +65,9 @@
       "place_label_zh": "美国（盖耶蒂）",
       "place_label_en": "United States (Gayetty)",
       "kind": "popularization",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Estados Unidos (Gayetty)",
+      "place_label_ja": "米国（Gayetty）"
     },
     {
       "lat": 42.653,
@@ -61,7 +75,9 @@
       "place_label_zh": "美国纽约州奥尔巴尼（惠勒）",
       "place_label_en": "Albany, New York, USA (Wheeler)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Albany, Nueva York, EE. UU. (Wheeler)",
+      "place_label_ja": "米国ニューヨーク州オールバニ（Wheeler）"
     }
   ],
   "confidence": "century",
@@ -81,14 +97,20 @@
   "tags": [
     "cleaning"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/toilet-paper.jpg",
     "alt_zh": "一卷白色卫生纸",
     "alt_en": "A roll of white toilet paper",
     "credit": "Derrick Coetzee (User:Dcoetzee)",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Roll_of_toilet_paper_with_one_sheet_folded_down_in_front.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Roll_of_toilet_paper_with_one_sheet_folded_down_in_front.jpg",
+    "alt_es": "Un rollo de papel higiénico blanco",
+    "alt_ja": "白いトイレットペーパー1巻"
   },
-  "notes_en": "Yan Zhitui's remark only shows paper was already used this way; Chang'an marks the Sui–Tang capital as an approximation. Gayetty's city is unverified, so it is country-level."
+  "notes_en": "Yan Zhitui's remark only shows paper was already used this way; Chang'an marks the Sui–Tang capital as an approximation. Gayetty's city is unverified, so it is country-level.",
+  "name_es": "Papel higiénico",
+  "summary_es": "Hacia 589, Yan Zhitui ya mencionó el papel para el aseo. China lo producía en grandes cantidades en el siglo XIV. En 1857 se comercializó papel higiénico en Estados Unidos y Wheeler patentó un portarrollos en 1883.",
+  "notes_es": "El registro de Yan Zhitui solo prueba que ya se usaba papel para el aseo; el mapa lo representa en Chang’an, capital Sui-Tang. No se ha verificado la ciudad de Gayetty, por lo que se indica solo el país.",
+  "notes_ja": "顔之推の記録は、当時すでに用便後に紙を使う人がいたことのみを示す。位置は隋唐の都・長安に模式表示する。Gayetty の都市は未確認のため国単位で示す。"
 }

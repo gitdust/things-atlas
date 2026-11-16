@@ -9,7 +9,9 @@
       "year": -2800,
       "precision": "century",
       "ref": "Soap-like materials made in ancient Babylon",
-      "ref_zh": "古巴比伦已制作类似肥皂的物质"
+      "ref_zh": "古巴比伦已制作类似肥皂的物质",
+      "ref_es": "Se elaboran sustancias parecidas al jabón en la antigua Babilonia.",
+      "ref_ja": "古代バビロニアで石けんに似た物質が作られる。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "伊拉克巴比伦",
       "place_label_en": "Babylon, Iraq",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Babilonia, Irak",
+      "place_label_ja": "イラク、バビロン"
     }
   ],
   "confidence": "century",
@@ -42,14 +46,20 @@
   "tags": [
     "cleaning"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/bar-soap.jpg",
     "alt_zh": "一块手工香皂",
     "alt_en": "A bar of handmade soap",
     "credit": "Malene Thyssen, simplified by HLHJ",
     "license": "CC BY 2.5",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Handmade_soap_cropped_and_simplified.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Handmade_soap_cropped_and_simplified.jpg",
+    "alt_es": "Pastilla de jabón artesanal",
+    "alt_ja": "手作りの固形石けん"
   },
-  "notes_en": "The Babylonian material was soap-like; true soap-making emerged sometime between then and the 1st century CE, so only century precision is used."
+  "notes_en": "The Babylonian material was soap-like; true soap-making emerged sometime between then and the 1st century CE, so only century precision is used.",
+  "name_es": "Jabón en pastilla",
+  "summary_es": "Hacia 2800 a. C. hay indicios de elaboración de sustancias parecidas al jabón en la antigua Babilonia. Los romanos utilizaban jabón al menos desde el siglo I.",
+  "notes_es": "Las sustancias babilónicas eran similares al jabón. La técnica propiamente jabonera se desarrolló entre esa época y el siglo I; por ello la fecha solo se aproxima al siglo.",
+  "notes_ja": "古代バビロニアのものは石けんに似た物質で、石けん製法はその後から1世紀頃までの間に形成されたため、年代は世紀単位の近似とする。"
 }

@@ -9,7 +9,9 @@
       "year": 300,
       "precision": "century",
       "ref": "Personal table fork in common use in the Byzantine Empire by the 4th century",
-      "ref_zh": "4 世纪拜占庭帝国已普遍使用个人餐叉"
+      "ref_zh": "4 世纪拜占庭帝国已普遍使用个人餐叉",
+      "ref_es": "En el Imperio bizantino se usan tenedores individuales en el siglo IV.",
+      "ref_ja": "4世紀のビザンツ帝国ですでに個人用の食事フォークが使われる。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1004,
       "precision": "year",
       "ref": "Byzantine princess Maria Argyropoulina brings golden forks to Venice",
-      "ref_zh": "拜占庭公主玛丽亚把金叉带到威尼斯"
+      "ref_zh": "拜占庭公主玛丽亚把金叉带到威尼斯",
+      "ref_es": "La princesa bizantina María lleva un tenedor de oro a Venecia.",
+      "ref_ja": "ビザンツの王女 Maria が金のフォークをヴェネツィアに持ち込む。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "君士坦丁堡（今伊斯坦布尔）",
       "place_label_en": "Constantinople (Istanbul)",
       "kind": "invention",
-      "confidence": "approximate"
+      "confidence": "approximate",
+      "place_label_es": "Constantinopla, actual Estambul",
+      "place_label_ja": "コンスタンティノープル（現在のイスタンブール）"
     },
     {
       "lat": 45.44,
@@ -35,7 +41,9 @@
       "place_label_zh": "意大利威尼斯",
       "place_label_en": "Venice, Italy",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Venecia, Italia",
+      "place_label_ja": "イタリア・ヴェネツィア"
     },
     {
       "lat": 36.06,
@@ -44,7 +52,9 @@
       "place_label_en": "Gansu, China (Qijia bone forks)",
       "kind": "contested",
       "confidence": "region",
-      "year_override": -2000
+      "year_override": -2000,
+      "place_label_es": "Gansu, China (tenedores de hueso de la cultura Qijia)",
+      "place_label_ja": "中国甘粛省（斉家文化の骨製フォーク）"
     }
   ],
   "confidence": "century",
@@ -64,14 +74,20 @@
   "tags": [
     "dining"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/table-fork.jpg",
     "alt_zh": "几把不同样式的叉子",
     "alt_en": "An assortment of forks",
     "credit": "Marktaff",
     "license": "CC BY-SA 3.0 us",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Assorted_forks.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Assorted_forks.jpg",
+    "alt_es": "Varios tenedores de distintos diseños",
+    "alt_ja": "形の異なる数本のフォーク"
   },
-  "notes_en": "Bone forks from China's Qijia culture (2400–1900 BCE) and Shang sites, and a 16th-century-BCE Mycenaean bronze fork, are known, but may not have been personal eating forks; the Qijia pin is placed near Lanzhou as an approximation."
+  "notes_en": "Bone forks from China's Qijia culture (2400–1900 BCE) and Shang sites, and a 16th-century-BCE Mycenaean bronze fork, are known, but may not have been personal eating forks; the Qijia pin is placed near Lanzhou as an approximation.",
+  "name_es": "Tenedor de mesa",
+  "summary_es": "El tenedor individual probablemente se originó en el Imperio bizantino, donde se usaba en el siglo IV. En 1004, una princesa bizantina llevó un tenedor de oro a Venecia; su difusión europea fue gradual.",
+  "notes_es": "Se hallaron tenedores de hueso en la cultura Qijia china (2400–1900 a. C.) y en yacimientos Shang, así como tenedores de bronce del siglo XVI a. C. en tumbas micénicas; no necesariamente eran cubiertos individuales. El punto de Qijia representa la zona de Lanzhou.",
+  "notes_ja": "中国の斉家文化（紀元前2400～1900年）や殷代遺跡から骨製フォーク、ミケーネの墓から紀元前16世紀の青銅製フォークが出土したが、個人の食事用とは限らない。斉家文化の位置は蘭州周辺に模式表示する。"
 }

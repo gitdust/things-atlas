@@ -9,25 +9,33 @@
       "year": 1935,
       "precision": "year",
       "ref": "L’Oréal founder Eugène Schueller launches Ambre Solaire in Paris, the first commercial sunscreen oil with a UV filter",
-      "ref_zh": "欧莱雅创始人舒莱尔在巴黎推出第一款含紫外线滤光剂的商用防晒油 Ambre Solaire"
+      "ref_zh": "欧莱雅创始人舒莱尔在巴黎推出第一款含紫外线滤光剂的商用防晒油 Ambre Solaire",
+      "ref_es": "Eugène Schueller, fundador de L’Oréal, lanza en París Ambre Solaire, un aceite solar comercial con filtros UV.",
+      "ref_ja": "L’Oréal 創業者 Eugène Schueller がパリで紫外線フィルターを含む日焼け止めオイル Ambre Solaire を発売。"
     },
     "patent": {
       "year": 1933,
       "precision": "year",
       "ref": "IG Farben patents synthetic UV-absorbing filter compounds in Germany, launching the Delial sun-protection line",
-      "ref_zh": "德国法本公司取得合成紫外线吸收滤剂专利，并推出早期商业防晒产品 Delial"
+      "ref_zh": "德国法本公司取得合成紫外线吸收滤剂专利，并推出早期商业防晒产品 Delial",
+      "ref_es": "IG Farben patenta filtros sintéticos de absorción UV y comercializa el protector Delial.",
+      "ref_ja": "ドイツの IG Farben が合成紫外線吸収剤の特許を取得し、初期の日焼け止め Delial を発売。"
     },
     "mass_production": {
       "year": 1946,
       "precision": "year",
       "ref": "Swiss chemist Franz Greiter develops and produces Glacier Cream (Piz Buin) after being sunburned while climbing Piz Buin",
-      "ref_zh": "瑞士化学家格赖特在攀登皮兹布因峰被晒伤后研制冰川防晒霜（Piz Buin）并投入生产"
+      "ref_zh": "瑞士化学家格赖特在攀登皮兹布因峰被晒伤后研制冰川防晒霜（Piz Buin）并投入生产",
+      "ref_es": "El químico suizo Franz Greiter produce Piz Buin tras desarrollar una crema por las quemaduras sufridas al escalar esa montaña.",
+      "ref_ja": "スイスの化学者 Franz Greiter が Piz Buin 登山時の日焼けを契機に開発した氷河用クリームを生産。"
     },
     "popularization": {
       "year": 1962,
       "precision": "year",
       "ref": "Franz Greiter introduces the Sun Protection Factor (SPF) rating, standardizing global suncare",
-      "ref_zh": "格赖特提出防晒指数（SPF）概念，推动防晒霜全球标准化与日常化"
+      "ref_zh": "格赖特提出防晒指数（SPF）概念，推动防晒霜全球标准化与日常化",
+      "ref_es": "Greiter propone el factor de protección solar (FPS), que favorece la normalización y el uso cotidiano del protector solar.",
+      "ref_ja": "Greiter が紫外線防御指数 SPF を提唱し、日焼け止めの標準化と日常化を促す。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "法国巴黎",
       "place_label_en": "Paris, France",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "París, Francia",
+      "place_label_ja": "フランス・パリ"
     },
     {
       "lat": 50.1109,
@@ -45,7 +55,9 @@
       "place_label_zh": "德国美因河畔法兰克福（德国法本公司）",
       "place_label_en": "Frankfurt am Main, Germany (IG Farben)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Fráncfort del Meno, Alemania (IG Farben)",
+      "place_label_ja": "ドイツ・フランクフルト・アム・マイン（IG Farben）"
     },
     {
       "lat": 46.8453,
@@ -53,7 +65,9 @@
       "place_label_zh": "奥地利/瑞士皮兹布因峰",
       "place_label_en": "Piz Buin, Austria/Switzerland",
       "kind": "production",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Piz Buin, frontera entre Austria y Suiza",
+      "place_label_ja": "オーストリア・スイス国境の Piz Buin 山"
     }
   ],
   "confidence": "year",
@@ -79,5 +93,7 @@
     "health",
     "grooming"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "name_es": "Protector solar",
+  "summary_es": "En los años treinta, Alemania y Francia desarrollaron filtros químicos contra los rayos UV y protectores comerciales. Los usos militares y el factor de protección solar de 1962 ayudaron a convertirlos en cuidado cotidiano."
 }

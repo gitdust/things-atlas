@@ -9,20 +9,26 @@
       "year": 650,
       "precision": "century",
       "ref": "True hard-paste porcelain emerges in Tang China in the 7th century",
-      "ref_zh": "唐代七世纪中国出现真正的硬质瓷器"
+      "ref_zh": "唐代七世纪中国出现真正的硬质瓷器",
+      "ref_es": "Surge la verdadera porcelana dura en la China Tang en el siglo VII",
+      "ref_ja": "唐代7世紀の中国で、本格的な硬質磁器が現れた"
     },
     "patent": null,
     "mass_production": {
       "year": 1004,
       "precision": "year",
       "ref": "Jingdezhen renamed in the Jingde era and rises as the porcelain capital",
-      "ref_zh": "宋景德年间景德镇得名并崛起为瓷都"
+      "ref_zh": "宋景德年间景德镇得名并崛起为瓷都",
+      "ref_es": "Jingdezhen recibe su nombre en la era Jingde de los Song y asciende como capital de la porcelana",
+      "ref_ja": "宋の景徳年間に景徳鎮と命名され、磁器の中心地へと発展した"
     },
     "popularization": {
       "year": 1300,
       "precision": "century",
       "ref": "Yuan–Ming blue-and-white porcelain enters global trade networks",
-      "ref_zh": "元明青花瓷进入全球贸易网络"
+      "ref_zh": "元明青花瓷进入全球贸易网络",
+      "ref_es": "La porcelana azul y blanca Yuan-Ming entra en las redes comerciales mundiales",
+      "ref_ja": "元・明代の青花磁器が世界の交易網に入った"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "中国江西景德镇",
       "place_label_en": "Jingdezhen, Jiangxi, China",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Jingdezhen, Jiangxi, China",
+      "place_label_ja": "中国江西省景徳鎮"
     },
     {
       "lat": 34.26,
@@ -40,7 +48,9 @@
       "place_label_zh": "中国陕西西安一带（北方早期白瓷）",
       "place_label_en": "Xi’an region, Shaanxi, China (northern early white ware)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Xi’an, Shaanxi, China (primeras porcelanas blancas del norte)",
+      "place_label_ja": "中国陝西省西安周辺（北方の初期白磁）"
     }
   ],
   "confidence": "century",
@@ -73,13 +83,17 @@
     "household",
     "trade"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/porcelain.jpg",
     "alt_zh": "明代青花瓷碗",
     "alt_en": "Ming blue-and-white porcelain bowl",
     "credit": "Gary Todd",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Ming_Porcelain_Bowl_01.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ming_Porcelain_Bowl_01.jpg",
+    "alt_es": "Un cuenco de porcelana azul y blanca de época Ming",
+    "alt_ja": "明代の青花磁器の碗"
+  },
+  "name_es": "Porcelana",
+  "summary_es": "La porcelana dura maduró en la China Tang hacia el siglo VII. Desde las dinastías Song y Yuan, Jingdezhen se convirtió en la capital de la porcelana; el comercio llevó las piezas azules y blancas a todo el mundo."
 }

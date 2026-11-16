@@ -9,7 +9,9 @@
       "year": 118,
       "precision": "year",
       "ref": "Sichuan tomb imagery shows one-wheeled barrows by about 118 CE",
-      "ref_zh": "四川墓葬图像约公元118年已见独轮车"
+      "ref_zh": "四川墓葬图像约公元118年已见独轮车",
+      "ref_es": "Imágenes funerarias de Sichuan muestran carretillas hacia el año 118.",
+      "ref_ja": "四川の墓葬図像に118年頃の一輪車が見られる。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 231,
       "precision": "year",
       "ref": "Zhuge Liang’s “wooden ox / gliding horse” supply devices (form disputed)",
-      "ref_zh": "诸葛亮「木牛流马」运输工具（形制有争议）"
+      "ref_zh": "诸葛亮「木牛流马」运输工具（形制有争议）",
+      "ref_es": "Zhuge Liang usa transportes llamados «bueyes de madera y caballos móviles», cuya forma se discute.",
+      "ref_ja": "諸葛亮の輸送具「木牛流馬」が使われるが、その形状には異説がある。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "中国四川（早期独轮车图像）",
       "place_label_en": "Sichuan, China (early wheelbarrow imagery)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Sichuan, China (imágenes tempranas de carretillas)",
+      "place_label_ja": "中国四川省（初期の一輪車図像）"
     },
     {
       "lat": 36.62,
@@ -35,7 +41,9 @@
       "place_label_zh": "中国陕西汉中一带（诸葛亮北伐补给语境）",
       "place_label_en": "Hanzhong region, Shaanxi, China (Zhuge Liang’s northern-expedition supply context)",
       "kind": "contested",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Zona de Hanzhong, Shaanxi, China (abastecimiento de las campañas de Zhuge Liang)",
+      "place_label_ja": "中国陝西省漢中周辺（諸葛亮の北伐補給に関わる地域）"
     }
   ],
   "confidence": "disputed",
@@ -68,13 +76,19 @@
   "tags": [
     "travel"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/wheelbarrow.jpg",
     "alt_zh": "中国独轮车",
     "alt_en": "A Chinese wheelbarrow",
     "credit": "Anna Frodesiak",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Wheelbarrow_in_China_-_01.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wheelbarrow_in_China_-_01.jpg",
+    "alt_es": "Una carretilla china",
+    "alt_ja": "中国の一輪手押し車"
+  },
+  "name_es": "Carretilla",
+  "summary_es": "Las carretillas chinas aparecen en imágenes funerarias de Sichuan hacia el año 118. Se discute si los «bueyes de madera y caballos móviles» de Zhuge Liang eran carretillas de una rueda; no debe atribuirse a él solo su invención.",
+  "notes_es": "Las imágenes chinas de carretillas son anteriores a Zhuge Liang: ya se documentan en Sichuan a comienzos del siglo II. Sus «bueyes de madera y caballos móviles» suelen identificarse como carretillas, pero algunos investigadores los reconstruyen como carros de cuatro ruedas. Por eso no debe atribuírsele sin más su invención. Las carretillas europeas son posteriores y su relación con las chinas se debate por separado.",
+  "notes_ja": "中国の一輪車の図像証拠は諸葛亮より古く、2世紀初頭の四川に記録がある。「木牛流馬」は一輪手押し車と説明されることが多いが、四輪車として復元する研究者もおり、発明を単純に諸葛亮に帰すべきではない。ヨーロッパの一輪車はより後に現れ、中国との系譜関係は別に議論されている。"
 }

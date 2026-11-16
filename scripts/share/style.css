@@ -9,7 +9,8 @@
   --serif: 'Noto Serif SC Subset', 'Source Serif 4 Variable', serif;
 }
 
-html[lang='en'] {
+html[lang='en'],
+html[lang='es'] {
   --sans: 'Inter Variable', 'Noto Sans SC Subset', sans-serif;
   --serif: 'Source Serif 4 Variable', 'Noto Serif SC Subset', serif;
 }

@@ -9,25 +9,33 @@
       "year": 1952,
       "precision": "year",
       "ref": "Sidney Rosenthal in Richmond Hill, New York invents the Magic Marker with a felt capillary-wick tip, able to write on nearly all surfaces, including paper, metal and glass",
-      "ref_zh": "纽约里士满山的西德尼·罗森塔尔发明毛毡毛细吸管笔头 Magic Marker，可在纸张、金属与玻璃等几乎所有材质表面书写"
+      "ref_zh": "纽约里士满山的西德尼·罗森塔尔发明毛毡毛细吸管笔头 Magic Marker，可在纸张、金属与玻璃等几乎所有材质表面书写",
+      "ref_es": "Sidney Rosenthal inventa en Richmond Hill, Nueva York, el Magic Marker de mecha capilar de fieltro, capaz de escribir sobre papel, metal, vidrio y casi cualquier superficie",
+      "ref_ja": "シドニー・ローゼンタールがニューヨークのリッチモンドヒルで、フェルトの毛細管芯により紙・金属・ガラスなどほぼあらゆる面に書けるMagic Markerを発明した"
     },
     "patent": {
       "year": 1910,
       "precision": "year",
       "ref": "Lee Newman patents an early felt-tipped marking pen in the United States (US Patent 946,149)",
-      "ref_zh": "李·纽曼在美国取得早期毛毡头记号笔专利（US946149）"
+      "ref_zh": "李·纽曼在美国取得早期毛毡头记号笔专利（US946149）",
+      "ref_es": "Lee Newman patenta un rotulador temprano de punta de fieltro en Estados Unidos (US 946149)",
+      "ref_ja": "リー・ニューマンが米国で初期のフェルトペンの特許を取得した（US 946,149）"
     },
     "mass_production": {
       "year": 1952,
       "precision": "year",
       "ref": "Speedry Chemical Products begins manufacturing the Magic Marker in New York",
-      "ref_zh": "斯皮德里化学品公司在纽约正式量产并销售 Magic Marker"
+      "ref_zh": "斯皮德里化学品公司在纽约正式量产并销售 Magic Marker",
+      "ref_es": "Speedry Chemical Products empieza a fabricar y vender Magic Marker en Nueva York",
+      "ref_ja": "Speedry Chemical ProductsがニューヨークでMagic Markerの量産・販売を開始した"
     },
     "popularization": {
       "year": 1962,
       "precision": "year",
       "ref": "Yukio Horie of Tokyo Stationery Company (Pentel) invents the modern synthetic acrylic-fiber-tip Sign Pen, which rapidly spreads to offices and studios worldwide",
-      "ref_zh": "日本东京文具公司（派通 Pentel）的堀江幸夫发明现代合成腈纶纤维笔尖签名笔（Sign Pen），迅速风靡全球办公室与画室"
+      "ref_zh": "日本东京文具公司（派通 Pentel）的堀江幸夫发明现代合成腈纶纤维笔尖签名笔（Sign Pen），迅速风靡全球办公室与画室",
+      "ref_es": "Yukio Horie, de Tokyo Stationery Company (Pentel), crea el Sign Pen de fibra acrílica sintética, que se difunde por oficinas y estudios del mundo",
+      "ref_ja": "東京文具（Pentel）の堀江幸夫が合成アクリル繊維のペン先を持つサインペンを開発し、世界のオフィスや制作現場に急速に広まった"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "美国纽约皇后区里士满山",
       "place_label_en": "Richmond Hill, Queens, New York, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Richmond Hill, Queens, Nueva York, EE. UU.",
+      "place_label_ja": "米国ニューヨーク市クイーンズ区リッチモンドヒル"
     },
     {
       "lat": 35.6762,
@@ -45,7 +55,9 @@
       "place_label_zh": "日本东京（派通 Pentel）",
       "place_label_en": "Tokyo, Japan (Pentel)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Tokio, Japón (Pentel)",
+      "place_label_ja": "日本・東京（Pentel）"
     }
   ],
   "confidence": "year",
@@ -78,6 +90,10 @@
     "alt_en": "Colored felt-tip marker pens with their caps removed",
     "credit": "Peng",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Filzstifte1.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Filzstifte1.jpg",
+    "alt_es": "Rotuladores de colores con las puntas de fieltro destapadas",
+    "alt_ja": "キャップを外した色とりどりのフェルトペン"
+  },
+  "name_es": "Rotulador",
+  "summary_es": "Rosenthal inventó el Magic Marker de punta de fieltro en Nueva York en 1952. Yukio Horie desarrolló el Sign Pen de fibra sintética de Pentel en 1962. Después se difundieron los resaltadores y rotuladores de pizarra."
 }

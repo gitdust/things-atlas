@@ -9,25 +9,33 @@
       "year": -2000,
       "precision": "century",
       "ref": "Ancient Mesopotamian and Bronze Age Aegean kitchens widely use flat-bottomed metal and earthenware frying pans (teganon) to cook cut meat and vegetables",
-      "ref_zh": "古代美索不达米亚与爱琴海青铜时代厨房普遍使用平底金属与陶制煎盘（teganon）烹饪切好的肉类和蔬菜"
+      "ref_zh": "古代美索不达米亚与爱琴海青铜时代厨房普遍使用平底金属与陶制煎盘（teganon）烹饪切好的肉类和蔬菜",
+      "ref_es": "En Mesopotamia y el Egeo de la Edad del Bronce se usan sartenes de fondo plano, de metal o cerámica, para cocinar carne y verduras cortadas",
+      "ref_ja": "古代メソポタミアと青銅器時代のエーゲ海地域では、肉や野菜を調理する平底の金属製・陶製の煎り鍋（teganon）が広く使われた"
     },
     "patent": {
       "year": 1954,
       "precision": "exact",
       "ref": "Marc Grégoire patents a method for bonding PTFE (Teflon) to aluminum in France, inventing the modern non-stick pan",
-      "ref_zh": "马克·格雷瓜尔在法国取得将聚四氟乙烯（特氟龙）牢固黏合在铝锅表面的发明专利，开创现代不粘锅"
+      "ref_zh": "马克·格雷瓜尔在法国取得将聚四氟乙烯（特氟龙）牢固黏合在铝锅表面的发明专利，开创现代不粘锅",
+      "ref_es": "Marc Grégoire patenta en Francia un método para adherir PTFE (teflón) al aluminio, dando origen a la sartén antiadherente moderna",
+      "ref_ja": "マルク・グレゴワールがフランスでPTFE（テフロン）をアルミニウムに接着する方法を特許化し、現代の焦げ付き防止フライパンを生み出した"
     },
     "mass_production": {
       "year": 1880,
       "precision": "century",
       "ref": "As modern kitchen stoves spread, foundries such as Griswold and Lodge mass-produce flat-bottomed cast-iron skillets with paired side handles or long handles",
-      "ref_zh": "格里斯沃尔德与洛奇等铸造厂随近代厨房炉灶普及，大规模量产双耳与长柄平底铸铁煎锅"
+      "ref_zh": "格里斯沃尔德与洛奇等铸造厂随近代厨房炉灶普及，大规模量产双耳与长柄平底铸铁煎锅",
+      "ref_es": "Con la difusión de las cocinas modernas, fundiciones como Griswold y Lodge fabrican en serie sartenes de hierro fundido con asas o mango largo",
+      "ref_ja": "近代的な調理用コンロの普及に伴い、GriswoldやLodgeなどの鋳造所が両手・長柄の平底鋳鉄鍋を量産した"
     },
     "popularization": {
       "year": 1956,
       "precision": "year",
       "ref": "Marc Grégoire founds Tefal in Sarcelles, France, bringing non-stick frying pans that need no cooking fat to millions of households worldwide",
-      "ref_zh": "格雷瓜尔在法国萨塞勒创立特福（Tefal），将无需油脂的不粘平底锅推向全球千万家庭厨房"
+      "ref_zh": "格雷瓜尔在法国萨塞勒创立特福（Tefal），将无需油脂的不粘平底锅推向全球千万家庭厨房",
+      "ref_es": "Marc Grégoire funda Tefal en Sarcelles, Francia, y lleva las sartenes antiadherentes que no requieren grasa a millones de hogares",
+      "ref_ja": "グレゴワールがフランスのサルセルでTefalを設立し、油を使わず調理できる焦げ付き防止フライパンを世界の家庭に広めた"
     }
   },
   "primary": "invention",
@@ -38,7 +46,9 @@
       "place_label_zh": "希腊圣托里尼阿克罗蒂里（爱琴青铜煎盘遗迹）",
       "place_label_en": "Akrotiri, Santorini, Greece (Bronze Age frying pans)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Akrotiri, Santorini, Grecia (sartenes de la Edad del Bronce)",
+      "place_label_ja": "ギリシャ・サントリーニ島アクロティリ（青銅器時代の煎り鍋）"
     },
     {
       "lat": 42.0628,
@@ -46,7 +56,9 @@
       "place_label_zh": "美国宾夕法尼亚州伊利（格里斯沃尔德铸铁锅）",
       "place_label_en": "Erie, Pennsylvania, USA (Griswold cast iron)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Erie, Pensilvania, EE. UU. (hierro fundido Griswold)",
+      "place_label_ja": "米国ペンシルベニア州エリー（Griswoldの鋳鉄鍋）"
     },
     {
       "lat": 48.9796,
@@ -54,7 +66,9 @@
       "place_label_zh": "法国萨塞勒（特福不粘锅）",
       "place_label_en": "Sarcelles, France (Tefal non-stick)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Sarcelles, Francia (antiadherentes Tefal)",
+      "place_label_ja": "フランス・サルセル（Tefalの焦げ付き防止鍋）"
     }
   ],
   "confidence": "century",
@@ -86,13 +100,17 @@
     "cooking",
     "materials"
   ],
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/frying-pan.jpg",
     "alt_zh": "一只黑柄不粘平底锅",
     "alt_en": "A non-stick frying pan with a black handle",
     "credit": "User:Lcarsdata",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Frying_pan_with_black_handle.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Frying_pan_with_black_handle.jpg",
+    "alt_es": "Una sartén antiadherente con mango negro",
+    "alt_ja": "黒い柄の焦げ付き防止フライパン"
+  },
+  "name_es": "Sartén",
+  "summary_es": "Las sartenes ya eran comunes en Mesopotamia y el Egeo hace 4000 años. Las de hierro fundido se difundieron con las cocinas modernas a finales del XIX; el revestimiento de teflón desarrollado en Francia en 1954 renovó este utensilio."
 }

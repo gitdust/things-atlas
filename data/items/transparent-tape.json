@@ -9,7 +9,9 @@
       "year": 1930,
       "precision": "year",
       "ref": "Richard Drew of 3M develops transparent cellophane adhesive tape",
-      "ref_zh": "3M 的德鲁研制出透明玻璃纸胶带"
+      "ref_zh": "3M 的德鲁研制出透明玻璃纸胶带",
+      "ref_es": "Drew, de 3M, desarrolla la cinta adhesiva transparente de celofán.",
+      "ref_ja": "3M の Drew が透明セロハン粘着テープを開発。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "美国明尼苏达州圣保罗（3M）",
       "place_label_en": "St. Paul, Minnesota, USA (3M)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Saint Paul, Minnesota, EE. UU. (3M)",
+      "place_label_ja": "米国ミネソタ州セントポール（3M）"
     }
   ],
   "confidence": "year",
@@ -42,13 +46,17 @@
     "office",
     "fastening"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/transparent-tape.jpg",
     "alt_zh": "桌上几盒思高透明胶带",
     "alt_en": "Boxes of Scotch transparent tape on a desk",
     "credit": "Amin",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Scotch_tape.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Scotch_tape.jpg",
+    "alt_es": "Varios paquetes de cinta adhesiva transparente Scotch sobre una mesa",
+    "alt_ja": "机の上の Scotch 透明テープのパッケージ"
+  },
+  "name_es": "Cinta adhesiva transparente",
+  "summary_es": "En 1930, Richard Drew, ingeniero de 3M en Saint Paul, Minnesota, inventó la cinta adhesiva transparente de celofán que se comercializó como Scotch."
 }

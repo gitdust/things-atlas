@@ -27,7 +27,7 @@ const reviewedImages = new Set([
 
 function QuizImage({ item, lang }: { item: QuizItem; lang: Lang }) {
   const [failed, setFailed] = useState(false);
-  const name = pick(lang, item.name_zh, item.name_en, { ja: item.name_ja });
+  const name = pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja });
   if (item.image && reviewedImages.has(item.image.src) && !failed) {
     return (
       <ItemImage
@@ -124,7 +124,10 @@ export default function QuizDialog({
             {selectedId === question.earlierId
               ? t(lang, 'quizCorrect')
               : fill(t(lang, 'quizEarlier'), {
-                  name: pick(lang, earlier.name_zh, earlier.name_en, { ja: earlier.name_ja }),
+                  name: pick(lang, earlier.name_zh, earlier.name_en, {
+                    es: earlier.name_es,
+                    ja: earlier.name_ja,
+                  }),
                 })}
           </p>
         )}
@@ -144,7 +147,9 @@ export default function QuizDialog({
                   onClick={() => answer(item.id)}
                 >
                   <QuizImage item={item} lang={lang} />
-                  <strong>{pick(lang, item.name_zh, item.name_en, { ja: item.name_ja })}</strong>
+                  <strong>
+                    {pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja })}
+                  </strong>
                 </button>
                 {revealed && (
                   <div className="quiz-evidence">

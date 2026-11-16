@@ -9,20 +9,26 @@
       "year": 1952,
       "precision": "year",
       "ref": "Dr. Robert Bruce and Wayne Quinton invent the first motorized medical treadmill for cardiac stress testing at the University of Washington",
-      "ref_zh": "罗伯特·布鲁斯博士与韦恩·昆顿在华盛顿大学发明首台用于心脏负荷检测的电动医用跑步机"
+      "ref_zh": "罗伯特·布鲁斯博士与韦恩·昆顿在华盛顿大学发明首台用于心脏负荷检测的电动医用跑步机",
+      "ref_es": "Robert Bruce y Wayne Quinton desarrollan en la Universidad de Washington una cinta motorizada para pruebas de esfuerzo cardíaco.",
+      "ref_ja": "Robert Bruce と Wayne Quinton がワシントン大学で心臓負荷試験用の電動医療トレッドミルを開発。"
     },
     "patent": null,
     "mass_production": {
       "year": 1968,
       "precision": "year",
       "ref": "William Staub develops and mass-produces the PaceMaster 600, pioneering the home fitness treadmill industry",
-      "ref_zh": "威廉·斯陶布研制并量产 PaceMaster 600，开创家用健身跑步机产业"
+      "ref_zh": "威廉·斯陶布研制并量产 PaceMaster 600，开创家用健身跑步机产业",
+      "ref_es": "William Staub desarrolla y produce la PaceMaster 600, que abre el mercado de cintas domésticas de ejercicio.",
+      "ref_ja": "William Staub が PaceMaster 600 を開発・量産し、家庭用ランニングマシン産業を開く。"
     },
     "popularization": {
       "year": 1975,
       "precision": "decade",
       "ref": "The aerobic jogging boom and spread of gyms make motorized treadmills standard equipment in homes and sports facilities worldwide",
-      "ref_zh": "有氧慢跑热潮与健身房普及使电动跑步机成为全球家庭与运动场馆的标配器械"
+      "ref_zh": "有氧慢跑热潮与健身房普及使电动跑步机成为全球家庭与运动场馆的标配器械",
+      "ref_es": "La popularidad del ejercicio aeróbico y los gimnasios convierte la cinta motorizada en equipamiento habitual de hogares y centros deportivos.",
+      "ref_ja": "有酸素運動やジムの普及により、電動ランニングマシンが家庭や運動施設の定番器具となる。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国华盛顿州西雅图（华盛顿大学，布鲁斯与昆顿发明医用电动跑步机）",
       "place_label_en": "Seattle, Washington, USA (University of Washington; Bruce & Quinton invent motorized medical treadmill)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Seattle, Washington, EE. UU. (Universidad de Washington; cinta médica de Bruce y Quinton)",
+      "place_label_ja": "米国ワシントン州シアトル（ワシントン大学。Bruce と Quinton の電動医療機器）"
     },
     {
       "lat": 40.8584,
@@ -41,7 +49,9 @@
       "place_label_en": "Clifton, New Jersey, USA (William Staub builds PaceMaster home treadmill)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1968
+      "year_override": 1968,
+      "place_label_es": "Clifton, Nueva Jersey, EE. UU. (PaceMaster doméstica de Staub)",
+      "place_label_ja": "米国ニュージャージー州クリフトン（Staub の家庭用 PaceMaster）"
     }
   ],
   "confidence": "year",
@@ -73,13 +83,17 @@
     "health",
     "household"
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/treadmill.jpg",
     "alt_zh": "健身房中运行的现代电动跑步机",
     "alt_en": "A modern motorized exercise treadmill in motion",
     "credit": "Larry D. Moore",
     "license": "CC BY 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Exercise_Treadmill_Convey_Motion.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Exercise_Treadmill_Convey_Motion.jpg",
+    "alt_es": "Una cinta de correr motorizada moderna en uso en un gimnasio",
+    "alt_ja": "ジムで稼働する現代の電動ランニングマシン"
+  },
+  "name_es": "Cinta de correr",
+  "summary_es": "En 1952, Bruce desarrolló en Seattle una cinta motorizada para diagnóstico cardiopulmonar. En 1968, Staub lanzó un modelo doméstico que permitió practicar carrera aeróbica en interiores sin depender del clima."
 }

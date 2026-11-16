@@ -9,25 +9,33 @@
       "year": -210,
       "precision": "century",
       "ref": "Bronze Chariot No. 1 from Qin Shi Huang’s mausoleum has a large round bronze umbrella with precise gear locks and multi-angle pivots, the earliest known surviving mechanically structured umbrella",
-      "ref_zh": "秦始皇陵一号铜车马出土大型青铜圆伞，装配有精密齿轮锁扣与多角度转动机构，为已知最早机械结构伞具实物"
+      "ref_zh": "秦始皇陵一号铜车马出土大型青铜圆伞，装配有精密齿轮锁扣与多角度转动机构，为已知最早机械结构伞具实物",
+      "ref_es": "Un gran parasol de bronce del carro n.º 1 de la tumba de Qin Shihuang presenta cierres dentados y un mecanismo de giro multidireccional.",
+      "ref_ja": "秦始皇陵の1号銅車馬から、精密な歯車状留め具と多方向回転機構を備えた大型青銅傘が出土。最初期の機械構造を持つ傘の実物とされる。"
     },
     "patent": {
       "year": 1852,
       "precision": "exact",
       "ref": "Samuel Fox patents the lightweight U-shaped grooved steel rib ('Paragon' frame) in Sheffield, UK",
-      "ref_zh": "英国设菲尔德的塞缪尔·福克斯取得轻量槽形钢骨伞架专利（Paragon frame），奠定现代雨伞工业构架"
+      "ref_zh": "英国设菲尔德的塞缪尔·福克斯取得轻量槽形钢骨伞架专利（Paragon frame），奠定现代雨伞工业构架",
+      "ref_es": "Samuel Fox, de Sheffield, patenta la estructura Paragon de varillas ligeras de acero acanalado.",
+      "ref_ja": "Sheffield の Samuel Fox が軽量な溝形鋼骨の Paragon 傘骨を特許化し、近代傘産業の構造を築く。"
     },
     "mass_production": {
       "year": 1786,
       "precision": "decade",
       "ref": "Jonas Hanway popularizes umbrellas for everyday rain protection in London, prompting workshops in Britain and France to scale up production",
-      "ref_zh": "乔纳斯·汉威在伦敦推动雨伞作为日常防雨工具普及，促使英法工坊开始规模化量产"
+      "ref_zh": "乔纳斯·汉威在伦敦推动雨伞作为日常防雨工具普及，促使英法工坊开始规模化量产",
+      "ref_es": "Jonas Hanway promueve en Londres el uso cotidiano del paraguas y favorece la producción a escala en talleres británicos y franceses.",
+      "ref_ja": "Jonas Hanway がロンドンで日常の雨具として傘を広め、英仏の工房での規模拡大を促す。"
     },
     "popularization": {
       "year": 1928,
       "precision": "exact",
       "ref": "Hans Haupt in Germany patents the compact telescopic pocket umbrella (Knirps), popularizing folding umbrellas worldwide",
-      "ref_zh": "汉斯·霍普特在德国取得袖珍伸缩折叠伞专利（Knirps），开创全球便携折叠伞普及时代"
+      "ref_zh": "汉斯·霍普特在德国取得袖珍伸缩折叠伞专利（Knirps），开创全球便携折叠伞普及时代",
+      "ref_es": "Hans Haupt patenta en Alemania el paraguas de bolsillo telescópico y plegable Knirps.",
+      "ref_ja": "Hans Haupt がドイツで携帯用の伸縮折り畳み傘 Knirps の特許を取得し、折り畳み傘の普及を開く。"
     }
   },
   "primary": "invention",
@@ -38,7 +46,9 @@
       "place_label_zh": "中国陕西临潼（秦始皇陵铜车马）",
       "place_label_en": "Lintong, Shaanxi, China (Qin Bronze Chariot)",
       "kind": "invention",
-      "confidence": "exact"
+      "confidence": "exact",
+      "place_label_es": "Lintong, Shaanxi, China (carros de bronce de la tumba de Qin Shihuang)",
+      "place_label_ja": "中国陝西省臨潼（秦始皇陵の銅車馬）"
     },
     {
       "lat": 53.4735,
@@ -46,7 +56,9 @@
       "place_label_zh": "英国设菲尔德斯托克斯布里奇（福克斯钢骨伞）",
       "place_label_en": "Stocksbridge, Sheffield, UK (Samuel Fox)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Stocksbridge, Sheffield, Reino Unido (paraguas de acero de Fox)",
+      "place_label_ja": "英国シェフィールド・ストックスブリッジ（Fox の鋼骨傘）"
     },
     {
       "lat": 51.5074,
@@ -54,7 +66,9 @@
       "place_label_zh": "英国伦敦（汉威雨伞普及）",
       "place_label_en": "London, UK (Jonas Hanway)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Londres, Reino Unido (difusión del paraguas por Hanway)",
+      "place_label_ja": "英国ロンドン（Hanway による傘の普及）"
     },
     {
       "lat": 51.1712,
@@ -62,7 +76,9 @@
       "place_label_zh": "德国索林根（Knirps 折叠伞）",
       "place_label_en": "Solingen, Germany (Knirps)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Solingen, Alemania (paraguas plegable Knirps)",
+      "place_label_ja": "ドイツ・ゾーリンゲン（Knirps 折り畳み傘）"
     }
   ],
   "confidence": "century",
@@ -101,13 +117,17 @@
     "health",
     "materials"
   ],
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/umbrella.jpg",
     "alt_zh": "撑开的雨伞实物",
     "alt_en": "An opened umbrella",
     "credit": "Kritzolina",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Folding_umbrella_01.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Folding_umbrella_01.jpg",
+    "alt_es": "Un paraguas abierto",
+    "alt_ja": "開いた傘"
+  },
+  "name_es": "Paraguas",
+  "summary_es": "De los parasoles ceremoniales chinos y el mecanismo de los carros Qin a las varillas ligeras de acero de Fox en 1852 y el modelo plegable alemán de 1928, el paraguas evolucionó durante milenios hasta ser protección portátil cotidiana."
 }

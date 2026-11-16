@@ -10,7 +10,9 @@
       "year": 1837,
       "precision": "year",
       "ref": "Jacob Howe patented an improved removable mop-head holder, US241A; mops already existed",
-      "ref_zh": "雅各布·豪获得可拆装拖把头固定结构专利 US241A；拖把本身更早存在"
+      "ref_zh": "雅各布·豪获得可拆装拖把头固定结构专利 US241A；拖把本身更早存在",
+      "ref_es": "Jacob Howe patenta un soporte mejorado y desmontable para el cabezal de la fregona, US241A; las fregonas ya existían",
+      "ref_ja": "ジェイコブ・ハウが取り外し可能なモップヘッド固定具の改良特許US241Aを取得した。モップ自体はそれ以前から存在した"
     },
     "mass_production": null,
     "popularization": null
@@ -22,7 +24,9 @@
       "place_label_zh": "美国马萨诸塞州伍斯特（豪的拖把头专利）",
       "place_label_en": "Worcester, Massachusetts, USA (Howe mop-head patent)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Worcester, Massachusetts, EE. UU. (patente del cabezal de Howe)",
+      "place_label_ja": "米国マサチューセッツ州ウースター（ハウのモップヘッド特許）"
     },
     {
       "lat": 42.3314,
@@ -31,7 +35,9 @@
       "place_label_en": "Detroit, Michigan, USA (Stewart clamp improvement, 1893)",
       "kind": "patent",
       "confidence": "city",
-      "year_override": 1893
+      "year_override": 1893,
+      "place_label_es": "Detroit, Míchigan, EE. UU. (mejora de la abrazadera de Stewart, 1893)",
+      "place_label_ja": "米国ミシガン州デトロイト（1893年のスチュアートによる固定機構の改良）"
     }
   ],
   "confidence": "year",
@@ -59,13 +65,19 @@
     "cleaning",
     "household"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/mop.jpg",
     "alt_zh": "三种不同的拖把",
     "alt_en": "Three different mops",
     "credit": "Bjornwireen",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Mop,_three_different_mop_handles.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mop,_three_different_mop_handles.jpg",
+    "alt_es": "Tres fregonas diferentes",
+    "alt_ja": "3種類のモップ"
+  },
+  "name_es": "Fregona",
+  "summary_es": "La fregona limpia el suelo con material absorbente en un mango largo. Howe patentó un cabezal desmontable en 1837 y Stewart mejoró la abrazadera en 1893. Son hitos de mejora, no el origen del utensilio.",
+  "notes_es": "Las fregonas son anteriores a estas patentes. La de 1837 solo trata el montaje del cabezal y la de 1893 una abrazadera con resorte y palanca. Ninguna permite atribuir a una persona la invención de todas las fregonas.",
+  "notes_ja": "モップはこれらの特許より前から存在する。1837年の記録はヘッドの取り付け構造のみ、1893年の記録はばねとてこによる固定機構を扱う。いずれも、特定の人物をモップ全体の発明者と認定する根拠にはならない。"
 }

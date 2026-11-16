@@ -56,7 +56,7 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
         .sort((a, b) => a.primary_year - b.primary_year || a.id.localeCompare(b.id))
         .map((item) => ({
           item,
-          terms: [item.name_zh, item.name_en, item.name_ja, item.id].map((name) =>
+          terms: [item.name_zh, item.name_en, item.name_es, item.name_ja, item.id].map((name) =>
             name.normalize('NFKC').toLowerCase(),
           ),
         })),
@@ -207,7 +207,10 @@ export function ItemCatalog({ lang, items, showDisputed, onShowDisputed, onSelec
                   <button type="button" data-item-id={item.id} onClick={() => onSelect(item.id)}>
                     <span className="catalog-year num">{formatYear(lang, item.primary_year)}</span>
                     <span>
-                      {pick(lang, item.name_zh, item.name_en, { ja: item.name_ja })}
+                      {pick(lang, item.name_zh, item.name_en, {
+                        es: item.name_es,
+                        ja: item.name_ja,
+                      })}
                       {item.disputed ? <DisputeIcon label={t(lang, 'disputed')} /> : null}
                     </span>
                   </button>

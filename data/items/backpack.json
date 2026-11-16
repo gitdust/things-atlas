@@ -9,25 +9,33 @@
       "year": -3300,
       "precision": "century",
       "ref": "Ötzi carries a pack with a bent hazel U-frame and larch crosspieces in the Alps, the earliest known surviving framed backpack",
-      "ref_zh": "阿尔卑斯山冰人奥茨携带以弯曲榛木为 U 型外架、以落叶松横木支撑的背囊，为已知最早框架背包实物"
+      "ref_zh": "阿尔卑斯山冰人奥茨携带以弯曲榛木为 U 型外架、以落叶松横木支撑的背囊，为已知最早框架背包实物",
+      "ref_es": "Ötzi lleva en los Alpes una mochila con armazón de avellano en U y travesaños de alerce, el ejemplar con armazón conservado más antiguo conocido.",
+      "ref_ja": "アルプスのエッツィがU字形のハシバミ枠とカラマツの横木を備える背負い袋を携える。現存する既知最古のフレーム付き背負い袋である。"
     },
     "patent": {
       "year": 1908,
       "precision": "year",
       "ref": "Ole F. Bergan patents the ergonomic curved-metal external frame rucksack in Norway (Norwegian Patent 20547)",
-      "ref_zh": "挪威发明家贝尔甘取得贴合人体背部曲线的人体工学外架背包专利（挪威专利 No.20547）"
+      "ref_zh": "挪威发明家贝尔甘取得贴合人体背部曲线的人体工学外架背包专利（挪威专利 No.20547）",
+      "ref_es": "Ole F. Bergan patenta en Noruega una mochila con armazón metálico curvo ergonómico (patente 20547).",
+      "ref_ja": "Ole F. Berganが背中に沿う曲面金属フレームのリュックサックをノルウェーで特許化する（特許20547）。"
     },
     "mass_production": {
       "year": 1938,
       "precision": "year",
       "ref": "Gerry Cunningham first adds zippered pockets to canvas backpacks in Boulder, Colorado, and founds Gerry Outdoors",
-      "ref_zh": "科罗拉多州博尔德的坎宁安在帆布背包上首次引入拉链口袋并创立 Gerry Outdoors"
+      "ref_zh": "科罗拉多州博尔德的坎宁安在帆布背包上首次引入拉链口袋并创立 Gerry Outdoors",
+      "ref_es": "Gerry Cunningham añade bolsillos con cremallera a mochilas de lona en Boulder, Colorado, y funda Gerry Outdoors.",
+      "ref_ja": "Gerry Cunninghamがコロラド州ボルダーで帆布製リュックにファスナー付きポケットを導入し、Gerry Outdoorsを創業する。"
     },
     "popularization": {
       "year": 1967,
       "precision": "year",
       "ref": "Seattle-founded JanSport brings lightweight nylon backpacks to university bookstores, making them everyday student essentials worldwide",
-      "ref_zh": "西雅图创立的 JanSport 将轻量尼龙双肩包引入大学书店，成为全球学生每日随身标配"
+      "ref_zh": "西雅图创立的 JanSport 将轻量尼龙双肩包引入大学书店，成为全球学生每日随身标配",
+      "ref_es": "JanSport, fundada en Seattle, lleva mochilas ligeras de nailon a librerías universitarias y contribuye a convertirlas en un accesorio estudiantil cotidiano.",
+      "ref_ja": "シアトル創業のJanSportが軽いナイロン製リュックを大学書店に広め、学生の日用品へと普及させる。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "奥地利/意大利阿尔卑斯山豪斯拉布约赫（冰人奥茨）",
       "place_label_en": "Hauslabjoch, Ötztal Alps, Austria/Italy (Ötzi)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Hauslabjoch, Alpes de Ötztal, Austria/Italia (Ötzi)",
+      "place_label_ja": "オーストリア／イタリア、エッツタール・アルプスのハウスラープヨッホ（エッツィ）"
     },
     {
       "lat": 59.2675,
@@ -45,7 +55,9 @@
       "place_label_zh": "挪威滕斯贝格（贝尔甘专利）",
       "place_label_en": "Tønsberg, Norway (Ole F. Bergan)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Tønsberg, Noruega (patente de Ole F. Bergan)",
+      "place_label_ja": "ノルウェー、トンスベルグ（Berganの特許）"
     },
     {
       "lat": 47.6062,
@@ -53,7 +65,9 @@
       "place_label_zh": "美国华盛顿州西雅图（JanSport）",
       "place_label_en": "Seattle, Washington, USA (JanSport)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Seattle, Washington, Estados Unidos (JanSport)",
+      "place_label_ja": "米国ワシントン州シアトル（JanSport）"
     }
   ],
   "confidence": "century",
@@ -92,6 +106,10 @@
     "alt_en": "A blue hiking backpack",
     "credit": "WrS.tm.pl",
     "license": "CC0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Plecak_Hiker_50_L_HiMountain.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plecak_Hiker_50_L_HiMountain.jpg",
+    "alt_es": "Mochila azul de senderismo",
+    "alt_ja": "青い登山用リュックサック"
+  },
+  "name_es": "Mochila",
+  "summary_es": "La mochila con armazón de avellano de Ötzi, de 3300 a. C., es la más antigua conocida. El armazón ergonómico noruego de 1908 y las mochilas de nailon de Seattle de 1967 impulsaron su uso diario para estudiar y desplazarse."
 }

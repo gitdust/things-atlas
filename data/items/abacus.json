@@ -9,20 +9,26 @@
       "year": 190,
       "precision": "year",
       "ref": "Xu Yue’s Shushu Jiyi (~190 CE) describes an early bead-and-rod calculation device",
-      "ref_zh": "徐岳《数术记遗》（约190年）描述早期珠算工具"
+      "ref_zh": "徐岳《数术记遗》（约190年）描述早期珠算工具",
+      "ref_es": "El Shushu Jiyi de Xu Yue (hacia 190) describe un instrumento temprano de cálculo con cuentas y varillas.",
+      "ref_ja": "徐岳の『数術記遺』（190年頃）が初期の珠と棒による計算具を記す。"
     },
     "patent": null,
     "mass_production": {
       "year": 1100,
       "precision": "century",
       "ref": "Song paintings and finds show the classic 2/5 suanpan in use",
-      "ref_zh": "宋代绘画与实物可见典型上二下五算盘"
+      "ref_zh": "宋代绘画与实物可见典型上二下五算盘",
+      "ref_es": "Pinturas y hallazgos de época Song muestran el suanpan clásico de dos cuentas arriba y cinco abajo.",
+      "ref_ja": "宋代の絵画や出土品に、上2珠・下5珠の典型的なそろばんが見られる。"
     },
     "popularization": {
       "year": 1600,
       "precision": "century",
       "ref": "Suanpan becomes the standard Chinese commercial calculator into the modern era",
-      "ref_zh": "算盘成为中国商业计算的标准工具直至近现代"
+      "ref_zh": "算盘成为中国商业计算的标准工具直至近现代",
+      "ref_es": "El suanpan se convierte en el instrumento habitual del cálculo comercial chino hasta la época moderna.",
+      "ref_ja": "そろばんが近現代まで中国の商業計算の標準的な道具となる。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "中国（汉代珠算记载，地点不详）",
       "place_label_en": "China (Han bead-calculation texts; place uncertain)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "China (textos de cálculo con cuentas de época Han; lugar incierto)",
+      "place_label_ja": "中国（漢代の珠算の記録、場所不詳）"
     },
     {
       "lat": 34.8,
@@ -40,7 +48,9 @@
       "place_label_zh": "中国河南开封一带（清明上河图所见算盘语境）",
       "place_label_en": "Kaifeng region, Henan, China (abacus depicted in Along the River During the Qingming Festival)",
       "kind": "popularization",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Kaifeng, Henan, China (ábaco representado en A lo largo del río durante el festival Qingming)",
+      "place_label_ja": "中国河南省開封周辺（『清明上河図』に描かれたそろばん）"
     }
   ],
   "confidence": "century",
@@ -74,13 +84,19 @@
     "office",
     "computing"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/abacus.jpg",
     "alt_zh": "中国算盘",
     "alt_en": "A Chinese suanpan abacus",
     "credit": "Felix Winkelnkemper",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Suanpan_Abacus.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Suanpan_Abacus.jpg",
+    "alt_es": "Un ábaco suanpan chino",
+    "alt_ja": "中国式のそろばん"
+  },
+  "name_es": "Ábaco",
+  "summary_es": "El suanpan chino evolucionó de instrumentos de cálculo con cuentas documentados hacia el año 190. Su forma clásica, con dos cuentas arriba y cinco abajo, se extendió desde la dinastía Song.",
+  "notes_es": "Las varillas de cálculo son anteriores; esta entrada trata del suanpan con marco y cuentas. Su forma cambió entre las descripciones de época Han y el diseño clásico de la dinastía Song.",
+  "notes_ja": "算木はさらに古い。本項は枠と珠を備える中国式そろばんを扱う。漢代の記録から宋代以降の定型まで形態は変化した。"
 }

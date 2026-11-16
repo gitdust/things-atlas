@@ -9,7 +9,9 @@
       "year": 1920,
       "precision": "decade",
       "ref": "Luis Marcus, San Francisco cosmetics maker, invents it after WWI",
-      "ref_zh": "旧金山化妆品商马库斯在一战后发明"
+      "ref_zh": "旧金山化妆品商马库斯在一战后发明",
+      "ref_es": "Luis Marcus, fabricante de cosméticos de San Francisco, la inventa tras la Primera Guerra Mundial.",
+      "ref_ja": "サンフランシスコの化粧品業者Luis Marcusが第一次大戦後に発明する。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1920,
       "precision": "decade",
       "ref": "Spreads with the 1920s bob haircut",
-      "ref_zh": "随 1920 年代的波波头流行"
+      "ref_zh": "随 1920 年代的波波头流行",
+      "ref_es": "Se difunde con el corte bob de los años veinte.",
+      "ref_ja": "1920年代のボブカットの流行とともに普及する。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "美国旧金山",
       "place_label_en": "San Francisco, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "San Francisco, Estados Unidos",
+      "place_label_ja": "米国サンフランシスコ"
     },
     {
       "lat": 52.486,
@@ -36,7 +42,9 @@
       "place_label_en": "Birmingham, UK (Kirby Beard, similar pins)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1853
+      "year_override": 1853,
+      "place_label_es": "Birmingham, Reino Unido (horquillas similares de Kirby Beard)",
+      "place_label_ja": "英国バーミンガム（Kirby Beardの類似ヘアピン）"
     }
   ],
   "confidence": "decade",
@@ -56,13 +64,17 @@
     "grooming",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/bobby-pin.jpg",
     "alt_zh": "一枚黑色一字夹",
     "alt_en": "A black bobby pin",
     "credit": "Larry D. Moore",
     "license": "CC BY 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Bobby_pin.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bobby_pin.jpg",
+    "alt_es": "Horquilla de pelo negra",
+    "alt_ja": "黒いヘアピン"
+  },
+  "name_es": "Horquilla de pelo",
+  "summary_es": "Luis Marcus, comerciante de cosméticos de San Francisco, inventó esta horquilla tras la Primera Guerra Mundial. Su nombre inglés, bobby pin, refleja su difusión con el corte de pelo bob de los años veinte."
 }

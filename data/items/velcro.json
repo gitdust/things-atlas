@@ -9,13 +9,17 @@
       "year": 1941,
       "precision": "year",
       "ref": "George de Mestral studies burdock burrs after a hike",
-      "ref_zh": "德梅斯特拉尔在远足后研究牛蒡刺果"
+      "ref_zh": "德梅斯特拉尔在远足后研究牛蒡刺果",
+      "ref_es": "De Mestral estudia los frutos de bardana después de una excursión.",
+      "ref_ja": "de Mestral がハイキング後にゴボウの実を調べる。"
     },
     "patent": {
       "year": 1955,
       "precision": "year",
       "ref": "Swiss patent granted (filed 1951); US 2,717,437",
-      "ref_zh": "瑞士专利获批（1951 年申请）；美国 US 2,717,437"
+      "ref_zh": "瑞士专利获批（1951 年申请）；美国 US 2,717,437",
+      "ref_es": "Se concede la patente suiza, solicitada en 1951; también figura la patente estadounidense US 2,717,437.",
+      "ref_ja": "1951年に出願したスイス特許が成立。米国特許は US 2,717,437。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "瑞士（德梅斯特拉尔）",
       "place_label_en": "Switzerland (de Mestral)",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Suiza (de Mestral)",
+      "place_label_ja": "スイス（de Mestral）"
     }
   ],
   "confidence": "year",
@@ -53,13 +59,17 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/velcro.jpg",
     "alt_zh": "魔术贴钩面的特写",
     "alt_en": "Close-up of the hook side of a hook-and-loop fastener",
     "credit": "Alexander Klink",
     "license": "CC BY 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg",
+    "alt_es": "Detalle de la cara de ganchos de un cierre de gancho y bucle",
+    "alt_ja": "面ファスナーのフック面の接写"
+  },
+  "name_es": "Cierre de gancho y bucle",
+  "summary_es": "En 1941, el ingeniero suizo Georges de Mestral observó los frutos de bardana adheridos al pelo de su perro. Inspirado por sus ganchos, desarrolló el cierre de gancho y bucle y obtuvo una patente en 1955."
 }

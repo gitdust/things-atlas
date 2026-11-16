@@ -9,25 +9,33 @@
       "year": 1870,
       "precision": "decade",
       "ref": "Christopher Latham Sholes devises the QWERTY layout in the early 1870s",
-      "ref_zh": "肖尔斯在 1870 年代初设计 QWERTY 布局"
+      "ref_zh": "肖尔斯在 1870 年代初设计 QWERTY 布局",
+      "ref_es": "Christopher Latham Sholes diseña la distribución QWERTY a comienzos de los años 1870",
+      "ref_ja": "クリストファー・レイサム・ショールズが1870年代初めにQWERTY配列を考案した"
     },
     "patent": {
       "year": 1878,
       "precision": "year",
       "ref": "Sholes's type-writing machine patent US 207,559",
-      "ref_zh": "肖尔斯打字机专利 US 207,559"
+      "ref_zh": "肖尔斯打字机专利 US 207,559",
+      "ref_es": "Patente US 207559 de la máquina de escribir de Sholes",
+      "ref_ja": "ショールズのタイプライター特許US 207,559"
     },
     "mass_production": {
       "year": 1874,
       "precision": "year",
       "ref": "Sholes and Glidden typewriter sold by E. Remington and Sons",
-      "ref_zh": "雷明顿公司开始出售肖尔斯-格利登打字机"
+      "ref_zh": "雷明顿公司开始出售肖尔斯-格利登打字机",
+      "ref_es": "E. Remington and Sons comercializa la máquina de escribir Sholes and Glidden",
+      "ref_ja": "E. Remington and SonsがSholes and Gliddenタイプライターを販売した"
     },
     "popularization": {
       "year": 1878,
       "precision": "year",
       "ref": "Remington No. 2 makes the layout popular",
-      "ref_zh": "雷明顿 2 号让该布局流行开来"
+      "ref_zh": "雷明顿 2 号让该布局流行开来",
+      "ref_es": "La Remington n.º 2 populariza la distribución",
+      "ref_ja": "Remington No. 2によってこの配列が普及した"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "美国威斯康星州基诺沙（肖尔斯）",
       "place_label_en": "Kenosha, Wisconsin, USA (Sholes)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Kenosha, Wisconsin, EE. UU. (Sholes)",
+      "place_label_ja": "米国ウィスコンシン州ケノーシャ（ショールズ）"
     },
     {
       "lat": 43.015,
@@ -45,7 +55,9 @@
       "place_label_zh": "美国纽约州伊利恩（雷明顿）",
       "place_label_en": "Ilion, New York, USA (Remington)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Ilion, Nueva York, EE. UU. (Remington)",
+      "place_label_ja": "米国ニューヨーク州イリオン（Remington）"
     }
   ],
   "confidence": "decade",
@@ -71,13 +83,17 @@
     "office",
     "computing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/keyboard.jpg",
     "alt_zh": "黑色笔记本电脑 QWERTY 键盘",
     "alt_en": "A black laptop QWERTY keyboard",
     "credit": "MichaelMaggs",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:QWERTY_keyboard.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:QWERTY_keyboard.jpg",
+    "alt_es": "Un teclado QWERTY negro de ordenador portátil",
+    "alt_ja": "黒いノートパソコンのQWERTYキーボード"
+  },
+  "name_es": "Teclado",
+  "summary_es": "El periodista Sholes ideó la distribución QWERTY a comienzos de los años 1870. Llegó al mercado con Remington en 1874 y se difundió con el modelo n.º 2 de 1878; sigue presente en los teclados de ordenador."
 }

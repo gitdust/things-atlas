@@ -9,7 +9,9 @@
       "year": 1250,
       "precision": "century",
       "ref": "Functional buttons with buttonholes appear in 13th-century Germany",
-      "ref_zh": "13 世纪德国出现配合扣眼使用的纽扣"
+      "ref_zh": "13 世纪德国出现配合扣眼使用的纽扣",
+      "ref_es": "Aparecen en la Alemania del siglo XIII botones funcionales con ojales.",
+      "ref_ja": "13世紀のドイツに、ボタン穴と組み合わせて服を留めるボタンが現れる。"
     },
     "patent": null,
     "mass_production": null,
@@ -22,7 +24,9 @@
       "place_label_zh": "德国",
       "place_label_en": "Germany",
       "kind": "invention",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Alemania",
+      "place_label_ja": "ドイツ"
     },
     {
       "lat": 27.329,
@@ -31,7 +35,9 @@
       "place_label_en": "Mohenjo-daro, Pakistan (ornamental shell buttons)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": -2000
+      "year_override": -2000,
+      "place_label_es": "Mohenjo-Daro, Pakistán (botones decorativos de concha)",
+      "place_label_ja": "パキスタン、モヘンジョダロ（装飾用の貝製ボタン）"
     }
   ],
   "confidence": "century",
@@ -52,14 +58,20 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/button.jpg",
     "alt_zh": "一堆铜质制服纽扣",
     "alt_en": "A pile of brass uniform buttons",
     "credit": "Europeana staff photographer",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Reserveknapper_til_Hans%27_uniform.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Reserveknapper_til_Hans%27_uniform.jpg",
+    "alt_es": "Montón de botones de uniforme de latón",
+    "alt_ja": "真鍮製の制服用ボタンの山"
   },
-  "notes_en": "It depends on the definition. Mohenjo-daro shell buttons (c. 2000 BCE; Kot Diji even earlier, 2800–2600 BCE) were ornaments, not fasteners. This entry dates the fastening button to the 13th-century German buttonhole."
+  "notes_en": "It depends on the definition. Mohenjo-daro shell buttons (c. 2000 BCE; Kot Diji even earlier, 2800–2600 BCE) were ornaments, not fasteners. This entry dates the fastening button to the 13th-century German buttonhole.",
+  "name_es": "Botón",
+  "summary_es": "En el valle del Indo ya había botones decorativos de concha hacia 2000 a. C. Los botones que cerraban prendas mediante ojales aparecieron en la Alemania del siglo XIII.",
+  "notes_es": "El origen depende de la definición: los botones de concha de Mohenjo-Daro (hacia 2000 a. C.; en Kot Diji, 2800–2600 a. C.) eran adornos, no cierres. Se toma el ojal de la Alemania del siglo XIII como inicio del botón funcional.",
+  "notes_ja": "起点は定義による。モヘンジョダロの貝製ボタン（前2000年頃、コート・ディジでは前2800～前2600年）は装飾品で留め具ではない。本項は13世紀のドイツでボタン穴が現れた時点を、衣服を留めるボタンの起点とする。"
 }

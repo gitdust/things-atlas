@@ -10,19 +10,25 @@
       "year": 1875,
       "precision": "year",
       "ref": "Valentine Fogerty files the first US patent for finger-nail trimmers",
-      "ref_zh": "福格蒂申请美国第一个指甲剪改进专利"
+      "ref_zh": "福格蒂申请美国第一个指甲剪改进专利",
+      "ref_es": "Valentine Fogerty solicita la primera patente estadounidense de un cortauñas mejorado",
+      "ref_ja": "バレンタイン・フォガティが米国で最初の爪切り改良特許を出願した"
     },
     "mass_production": {
       "year": 1896,
       "precision": "year",
       "ref": "\"Gem\" brand clipper, later made by H. C. Cook Co., Ansonia, CT",
-      "ref_zh": "「Gem」牌指甲刀，后由安索尼亚的 H. C. Cook 公司生产"
+      "ref_zh": "「Gem」牌指甲刀，后由安索尼亚的 H. C. Cook 公司生产",
+      "ref_es": "Aparece el cortauñas Gem, fabricado después por H. C. Cook Co. en Ansonia, Connecticut",
+      "ref_ja": "Gemブランドの爪切りが登場し、後にコネティカット州アンソニアのH. C. Cook社が製造した"
     },
     "popularization": {
       "year": 1947,
       "precision": "year",
       "ref": "William Bassett's \"Trim\" clipper",
-      "ref_zh": "巴西特推出「Trim」牌指甲刀"
+      "ref_zh": "巴西特推出「Trim」牌指甲刀",
+      "ref_es": "William Bassett presenta el cortauñas Trim",
+      "ref_ja": "ウィリアム・バセットがTrimブランドの爪切りを発売した"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "美国（福格蒂）",
       "place_label_en": "United States (Fogerty)",
       "kind": "patent",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Estados Unidos (Fogerty)",
+      "place_label_ja": "米国（フォガティ）"
     },
     {
       "lat": 41.346,
@@ -40,7 +48,9 @@
       "place_label_zh": "美国康涅狄格州安索尼亚（H. C. Cook）",
       "place_label_en": "Ansonia, Connecticut, USA (H. C. Cook)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Ansonia, Connecticut, EE. UU. (H. C. Cook)",
+      "place_label_ja": "米国コネティカット州アンソニア（H. C. Cook）"
     }
   ],
   "confidence": "year",
@@ -60,14 +70,20 @@
   "tags": [
     "grooming"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/nail-clipper.jpg",
     "alt_zh": "几把不同款式的指甲刀",
     "alt_en": "Several styles of nail clippers",
     "credit": "Evan-Amos",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Nail-clippers-variety.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nail-clippers-variety.jpg",
+    "alt_es": "Varios modelos de cortauñas",
+    "alt_ja": "さまざまな形の爪切り"
   },
-  "notes_en": "The 1896 Gem date comes from the company president's own claim around 1928 and is not independently confirmed."
+  "notes_en": "The 1896 Gem date comes from the company president's own claim around 1928 and is not independently confirmed.",
+  "name_es": "Cortauñas",
+  "summary_es": "Valentine Fogerty solicitó la primera patente estadounidense de cortauñas en 1875. Los modelos Gem de 1896 y Trim de Bassett de 1947 definieron el cortauñas de palanca actual.",
+  "notes_es": "La fecha de 1896 para Gem procede del testimonio del presidente de la empresa hacia 1928 y no tiene confirmación independiente.",
+  "notes_ja": "Gemの1896年という年代は、1928年頃の同社社長の発言に由来し、独立した裏付けはない。"
 }

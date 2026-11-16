@@ -9,7 +9,9 @@
       "year": 1045,
       "precision": "decade",
       "ref": "Bi Sheng’s clay movable type in the Qingli era (1041–1048), recorded by Shen Kuo in Dream Pool Essays",
-      "ref_zh": "毕昇在庆历年间（1041–1048）发明胶泥活字，沈括《梦溪笔谈》记载"
+      "ref_zh": "毕昇在庆历年间（1041–1048）发明胶泥活字，沈括《梦溪笔谈》记载",
+      "ref_es": "Bi Sheng inventa tipos móviles de arcilla en la era Qingli (1041-1048), según Shen Kuo en los Ensayos del estanque de los sueños",
+      "ref_ja": "畢昇が慶暦年間（1041〜1048年）に膠泥活字を発明し、沈括が『夢渓筆談』に記録した"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 868,
       "precision": "year",
       "ref": "Dated Diamond Sutra woodblock scroll from Dunhuang — earliest complete surviving printed book",
-      "ref_zh": "敦煌出土咸通九年（868）《金刚经》雕版卷子，现存最早完整印刷书籍"
+      "ref_zh": "敦煌出土咸通九年（868）《金刚经》雕版卷子，现存最早完整印刷书籍",
+      "ref_es": "El Sutra del Diamante xilográfico de Dunhuang, fechado en 868, es el libro impreso completo más antiguo conservado",
+      "ref_ja": "敦煌出土の咸通9年（868年）の木版『金剛経』は、現存最古の完全な印刷書籍である"
     }
   },
   "primary": "invention",
@@ -28,7 +32,9 @@
       "place_label_zh": "中国浙江杭州（沈括记载毕昇活字）",
       "place_label_en": "Hangzhou, Zhejiang, China (Shen Kuo’s record of Bi Sheng)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Hangzhou, Zhejiang, China (registro de Shen Kuo sobre Bi Sheng)",
+      "place_label_ja": "中国浙江省杭州（沈括による畢昇の活字の記録）"
     },
     {
       "lat": 40.142,
@@ -37,7 +43,9 @@
       "place_label_en": "Dunhuang, Gansu, China (Tang woodblock Diamond Sutra)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 868
+      "year_override": 868,
+      "place_label_es": "Dunhuang, Gansu, China (Sutra del Diamante xilográfico Tang)",
+      "place_label_ja": "中国甘粛省敦煌（唐代木版の『金剛経』）"
     }
   ],
   "confidence": "decade",
@@ -77,13 +85,19 @@
     "office",
     "writing"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/printing.jpg",
     "alt_zh": "北京中国印刷博物馆展出的毕昇泥活字",
     "alt_en": "Bi Sheng clay movable type on display at the China Printing Museum, Beijing",
     "credit": "Popolon",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Beijing.Musee_imprimerie.caracteres_mobiles.Bisheng.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beijing.Musee_imprimerie.caracteres_mobiles.Bisheng.jpg",
+    "alt_es": "Tipos móviles de arcilla de Bi Sheng expuestos en el Museo de la Imprenta de China, Pekín",
+    "alt_ja": "北京の中国印刷博物館に展示された畢昇の泥活字"
+  },
+  "name_es": "Imprenta",
+  "summary_es": "Bi Sheng inventó los tipos móviles de arcilla hacia 1045 en la China Song del Norte. La xilografía Tang ya estaba extendida, como muestra el Sutra del Diamante de Dunhuang de 868. Los tipos móviles fijan la fecha principal de esta entrada.",
+  "notes_es": "La xilografía maduró en la China Tang; el Sutra del Diamante de Dunhuang de 868 es el impreso completo fechado más antiguo conservado. Bi Sheng creó después los tipos móviles de arcilla en 1041-1048. Con miles de caracteres chinos, la xilografía siguió dominando durante siglos. Se toma el tipo móvil de Bi Sheng, habitual en los cuatro grandes inventos, como fecha principal y se registra la xilografía Tang en difusión.",
+  "notes_ja": "中国では先に唐代の木版印刷が成熟し、敦煌の868年の『金剛経』が現存最古の完本とされる。その後、北宋の畢昇が慶暦年間（1041〜1048年）に膠泥活字を発明した。漢字の数が多いため木版は長く主流であった。本項目は四大発明でよく挙げる畢昇の活字を年表の主年とし、唐代木版は普及年と地点に記載する。"
 }

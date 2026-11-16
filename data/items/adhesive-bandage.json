@@ -9,14 +9,18 @@
       "year": 1920,
       "precision": "year",
       "ref": "Earle Dickson of Johnson & Johnson makes the first Band-Aid, Highland Park, NJ",
-      "ref_zh": "强生员工迪克森在新泽西州高地公园做出第一片邦迪"
+      "ref_zh": "强生员工迪克森在新泽西州高地公园做出第一片邦迪",
+      "ref_es": "Earle Dickson, de Johnson & Johnson, crea el primer Band-Aid en Highland Park, Nueva Jersey.",
+      "ref_ja": "Johnson & JohnsonのEarle Dicksonがニュージャージー州ハイランドパークで最初のBand-Aidを作る。"
     },
     "patent": null,
     "mass_production": {
       "year": 1924,
       "precision": "year",
       "ref": "Johnson & Johnson installs machines to mass-produce Band-Aids",
-      "ref_zh": "强生安装机器量产邦迪"
+      "ref_zh": "强生安装机器量产邦迪",
+      "ref_es": "Johnson & Johnson instala máquinas para producir Band-Aid en serie.",
+      "ref_ja": "Johnson & Johnsonが機械を導入してBand-Aidを量産する。"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "美国新泽西州高地公园",
       "place_label_en": "Highland Park, New Jersey, USA",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Highland Park, Nueva Jersey, Estados Unidos",
+      "place_label_ja": "米国ニュージャージー州ハイランドパーク"
     },
     {
       "lat": 40.486,
@@ -35,7 +41,9 @@
       "place_label_zh": "美国新泽西州新不伦瑞克（强生）",
       "place_label_en": "New Brunswick, New Jersey, USA (Johnson & Johnson)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "New Brunswick, Nueva Jersey, Estados Unidos (Johnson & Johnson)",
+      "place_label_ja": "米国ニュージャージー州ニューブランズウィック（Johnson & Johnson）"
     }
   ],
   "confidence": "year",
@@ -66,13 +74,17 @@
   "tags": [
     "health"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/adhesive-bandage.jpg",
     "alt_zh": "几种形状的创可贴",
     "alt_en": "Adhesive bandages in several shapes",
     "credit": "Foto: Jonn Leffmann",
     "license": "CC BY 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Pl%C3%A5ster_-_Adhesive_bandage_-_2025.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pl%C3%A5ster_-_Adhesive_bandage_-_2025.jpg",
+    "alt_es": "Apósitos adhesivos de varias formas",
+    "alt_ja": "さまざまな形のばんそうこう"
+  },
+  "name_es": "Apósito adhesivo",
+  "summary_es": "En 1920, Earle Dickson, de Johnson & Johnson, colocó gasas sobre cinta para su esposa, que se hería en la cocina, y creó el primer Band-Aid. La fabricación mecanizada comenzó en 1924."
 }

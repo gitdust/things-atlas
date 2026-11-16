@@ -9,25 +9,33 @@
       "year": 1882,
       "precision": "year",
       "ref": "Henry W. Seely invents an electric flatiron with built-in carbon-arc heating in New York City",
-      "ref_zh": "亨利·W·西利在纽约发明内置碳弧加热的电平熨斗"
+      "ref_zh": "亨利·W·西利在纽约发明内置碳弧加热的电平熨斗",
+      "ref_es": "Henry W. Seely inventa en Nueva York una plancha eléctrica con calentamiento por arco de carbono integrado.",
+      "ref_ja": "Henry W. Seelyがニューヨークで炭素アーク加熱を内蔵した電気アイロンを発明する。"
     },
     "patent": {
       "year": 1882,
       "precision": "year",
       "ref": "US Patent 259,054 granted to Henry W. Seely for an Electric Flatiron",
-      "ref_zh": "西利获得电平熨斗美国专利259,054号"
+      "ref_zh": "西利获得电平熨斗美国专利259,054号",
+      "ref_es": "Henry W. Seely obtiene la patente US 259054 para una plancha eléctrica.",
+      "ref_ja": "Henry W. Seelyが電気アイロンの米国特許US 259054を取得する。"
     },
     "mass_production": {
       "year": 1905,
       "precision": "year",
       "ref": "Earl Richardson introduced the lightweight Hotpoint iron with heated tip in Ontario, California",
-      "ref_zh": "厄尔·理查森在加州推出前端集中发热的轻便 Hotpoint 电熨斗"
+      "ref_zh": "厄尔·理查森在加州推出前端集中发热的轻便 Hotpoint 电熨斗",
+      "ref_es": "Earl Richardson presenta en Ontario, California, la ligera Hotpoint con punta calentada.",
+      "ref_ja": "Earl Richardsonがカリフォルニア州オンタリオで先端を加熱する軽量Hotpointアイロンを発売する。"
     },
     "popularization": {
       "year": 1926,
       "precision": "year",
       "ref": "Eldec introduces the first commercial electric steam iron; steam soon becomes widely used for household ironing",
-      "ref_zh": "Eldec 公司推出首款商用电蒸汽熨斗，蒸汽功能迅速普及于家用熨烫"
+      "ref_zh": "Eldec 公司推出首款商用电蒸汽熨斗，蒸汽功能迅速普及于家用熨烫",
+      "ref_es": "Eldec presenta la primera plancha eléctrica de vapor comercial; el vapor se extiende pronto al hogar.",
+      "ref_ja": "Eldecが初の商用電気スチームアイロンを発売し、蒸気機能が家庭へ急速に普及する。"
     }
   },
   "primary": "patent",
@@ -38,7 +46,9 @@
       "place_label_zh": "美国纽约（西利电平熨斗专利）",
       "place_label_en": "New York City, New York, USA (Seely electric flatiron patent)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Nueva York, Estados Unidos (patente de Seely)",
+      "place_label_ja": "米国ニューヨーク（Seelyの電気アイロン特許）"
     },
     {
       "lat": 34.0633,
@@ -46,7 +56,9 @@
       "place_label_zh": "美国加利福尼亚州安大略（理查森 Hotpoint 电熨斗）",
       "place_label_en": "Ontario, California, USA (Richardson Hotpoint iron)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Ontario, California, Estados Unidos (Hotpoint de Richardson)",
+      "place_label_ja": "米国カリフォルニア州オンタリオ（RichardsonのHotpointアイロン）"
     }
   ],
   "confidence": "year",
@@ -73,13 +85,17 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/electric-iron.jpg",
     "alt_zh": "一台现代家用电蒸汽熨斗侧视图",
     "alt_en": "Side view of a modern household electric steam iron",
     "credit": "Sokolikmawwer0",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Teal_and_white_electric_steam_iron_-_side_view.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Teal_and_white_electric_steam_iron_-_side_view.jpg",
+    "alt_es": "Vista lateral de una plancha de vapor eléctrica doméstica moderna",
+    "alt_ja": "現代の家庭用電気スチームアイロンの側面"
+  },
+  "name_es": "Plancha eléctrica",
+  "summary_es": "La plancha alisa tejidos mediante una suela caliente, presión y vapor. Seely inventó una plancha eléctrica en 1882; los termostatos y el vapor del siglo XX la convirtieron en un utensilio habitual del cuidado de la ropa."
 }

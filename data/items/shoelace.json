@@ -9,13 +9,17 @@
       "year": 1150,
       "precision": "century",
       "ref": "Medieval shoes with laces through eyelets, 12th century (Museum of London)",
-      "ref_zh": "12 世纪的中世纪鞋已用鞋带穿过鞋眼（伦敦博物馆）"
+      "ref_zh": "12 世纪的中世纪鞋已用鞋带穿过鞋眼（伦敦博物馆）",
+      "ref_es": "Los zapatos medievales del siglo XII ya llevan cordones pasados por ojales, según el Museo de Londres.",
+      "ref_ja": "ロンドン博物館によると、12世紀の靴にはすでに靴穴に通すひもが使われていた。"
     },
     "patent": {
       "year": 1790,
       "precision": "year",
       "ref": "Harvey Kennedy applies for a UK patent for metal-tipped shoelaces",
-      "ref_zh": "肯尼迪在英国为带金属头的鞋带申请专利"
+      "ref_zh": "肯尼迪在英国为带金属头的鞋带申请专利",
+      "ref_es": "Kennedy patenta en Gran Bretaña cordones con puntas metálicas.",
+      "ref_ja": "Kennedy が金属製の先端を持つ靴ひもの英国特許を出願。"
     },
     "mass_production": null,
     "popularization": null
@@ -27,7 +31,9 @@
       "place_label_zh": "英国伦敦（中世纪鞋履）",
       "place_label_en": "London, UK (medieval footwear)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Londres, Reino Unido (calzado medieval)",
+      "place_label_ja": "英国ロンドン（中世の靴）"
     },
     {
       "lat": 54.0,
@@ -35,7 +41,9 @@
       "place_label_zh": "英国（肯尼迪）",
       "place_label_en": "United Kingdom (Kennedy)",
       "kind": "patent",
-      "confidence": "country"
+      "confidence": "country",
+      "place_label_es": "Reino Unido (Kennedy)",
+      "place_label_ja": "英国（Kennedy）"
     }
   ],
   "confidence": "century",
@@ -56,14 +64,20 @@
     "fastening",
     "clothing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/shoelace.jpg",
     "alt_zh": "一对黑色鞋带",
     "alt_en": "A pair of black shoelaces",
     "credit": "Jonas Bergsten",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Shoelaces_20050719_001.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shoelaces_20050719_001.jpg",
+    "alt_es": "Un par de cordones negros",
+    "alt_ja": "黒い靴ひも1組"
   },
-  "notes_en": "Earlier laces are found on the Areni-1 leather shoe in Armenia (c. 3500 BCE) and Ötzi’s shoes (c. 3300 BCE), before this atlas’s year range. This entry uses 12th-century laced shoes documented by the Museum of London as the starting point for shoelaces in the modern sense."
+  "notes_en": "Earlier laces are found on the Areni-1 leather shoe in Armenia (c. 3500 BCE) and Ötzi’s shoes (c. 3300 BCE), before this atlas’s year range. This entry uses 12th-century laced shoes documented by the Museum of London as the starting point for shoelaces in the modern sense.",
+  "name_es": "Cordón de zapato",
+  "summary_es": "Los zapatos medievales del siglo XII ya se ajustaban con cordones pasados por ojales. En 1790, Harvey Kennedy patentó en Gran Bretaña cordones con puntas rígidas.",
+  "notes_es": "Hay cordones anteriores en el zapato de cuero de Areni-1, Armenia, de hacia el 3500 a. C., y en el calzado de Ötzi, de hacia el 3300 a. C., fuera del intervalo de fechas del sitio. Esta entrada toma como referencia los cordones medievales del siglo XII documentados por el Museo de Londres.",
+  "notes_ja": "さらに古い例としてアルメニアの Areni-1 の革靴（紀元前3500年頃）や Ötzi の靴（紀元前3300年頃）があるが、当サイトの年代範囲より古い。本項はロンドン博物館が記録する12世紀の靴ひもを、現代的な靴ひもの節目として採用する。"
 }

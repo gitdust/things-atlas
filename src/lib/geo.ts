@@ -6,6 +6,7 @@ export type ItemFeatureProps = {
   location_index: number;
   name_zh: string;
   name_en: string;
+  name_es: string;
   name_ja: string;
   category: string;
   primary_year: number;
@@ -13,6 +14,8 @@ export type ItemFeatureProps = {
   kind: string;
   place_label_zh: string;
   place_label_en: string;
+  place_label_es: string;
+  place_label_ja: string;
   year_override: number | null;
 };
 
@@ -32,6 +35,7 @@ export function itemsToGeoJSON(items: AtlasItem[]): FeatureCollection<Point, Ite
           location_index,
           name_zh: item.name_zh,
           name_en: item.name_en,
+          name_es: item.name_es,
           name_ja: item.name_ja,
           category: item.category,
           primary_year: item.primary_year,
@@ -39,6 +43,8 @@ export function itemsToGeoJSON(items: AtlasItem[]): FeatureCollection<Point, Ite
           kind: loc.kind,
           place_label_zh: loc.place_label_zh,
           place_label_en: loc.place_label_en,
+          place_label_es: loc.place_label_es,
+          place_label_ja: loc.place_label_ja,
           year_override: loc.year_override ?? null,
         },
       });

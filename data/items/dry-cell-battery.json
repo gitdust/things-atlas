@@ -9,19 +9,25 @@
       "year": 1880,
       "precision": "decade",
       "ref": "Gassner developed dry cells with immobilized electrolyte in the 1880s",
-      "ref_zh": "Gassner 在 1880 年代研制以固定电解质替代自由流动液体的干电池"
+      "ref_zh": "Gassner 在 1880 年代研制以固定电解质替代自由流动液体的干电池",
+      "ref_es": "Gassner desarrolla en los años 1880 pilas secas con electrolito inmovilizado.",
+      "ref_ja": "Gassnerが1880年代に電解質を固定した乾電池を開発する。"
     },
     "patent": {
       "year": 1887,
       "precision": "year",
       "ref": "Gassner’s US battery patent 373,064 granted",
-      "ref_zh": "Gassner 的美国电池专利 US 373,064 获批"
+      "ref_zh": "Gassner 的美国电池专利 US 373,064 获批",
+      "ref_es": "Gassner obtiene la patente estadounidense de batería 373064.",
+      "ref_ja": "Gassnerが電池の米国特許373064を取得する。"
     },
     "mass_production": {
       "year": 1896,
       "precision": "year",
       "ref": "National Carbon introduced the mass-market sealed Columbia dry cell in the Cleveland area",
-      "ref_zh": "National Carbon 在克利夫兰地区推出面向大众市场的 Columbia 密封干电池"
+      "ref_zh": "National Carbon 在克利夫兰地区推出面向大众市场的 Columbia 密封干电池",
+      "ref_es": "National Carbon presenta la pila seca sellada Columbia para el mercado masivo en la zona de Cleveland.",
+      "ref_ja": "National Carbonがクリーブランド周辺で大衆向けの密閉型Columbia乾電池を発売する。"
     },
     "popularization": null
   },
@@ -32,7 +38,9 @@
       "place_label_zh": "德国美因茨（Gassner 的专利所载居住地）",
       "place_label_en": "Mainz, Germany (Gassner’s residence recorded in the patent)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Maguncia, Alemania (domicilio de Gassner según la patente)",
+      "place_label_ja": "ドイツ、マインツ（特許に記載されたGassnerの居住地）"
     },
     {
       "lat": 41.482,
@@ -40,7 +48,9 @@
       "place_label_zh": "美国俄亥俄州莱克伍德（Columbia 干电池研发工厂）",
       "place_label_en": "Lakewood, Ohio, USA (Columbia dry-cell development plant)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Lakewood, Ohio, Estados Unidos (fábrica de desarrollo de Columbia)",
+      "place_label_ja": "米国オハイオ州レイクウッド（Columbia乾電池の開発工場）"
     }
   ],
   "confidence": "decade",
@@ -74,13 +84,19 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/dry-cell-battery.jpg",
     "alt_zh": "一节圆柱形干电池",
     "alt_en": "A cylindrical dry-cell battery",
     "credit": "Asim18",
     "license": "CC BY 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:02_-_Single_Energizer_Battery.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:02_-_Single_Energizer_Battery.jpg",
+    "alt_es": "Pila seca cilíndrica",
+    "alt_ja": "円筒形の乾電池"
+  },
+  "name_es": "Pila seca",
+  "summary_es": "Gassner desarrolló pilas secas en los años 1880; la Columbia sellada llegó al mercado masivo en 1896. El electrolito inmovilizado y el sellado hicieron la electricidad portátil y de menor mantenimiento, útil para linternas y otros aparatos.",
+  "notes_es": "Seca significa que el electrolito está inmovilizado, no que carezca de agua. La entrada sigue la pila de zinc-carbono y su comercialización. Las pilas de botón son una clasificación por forma y pueden emplear químicas alcalinas o de óxido de plata; se presentan como miniaturización, sin otra entrada por su forma ni tratarlas como una categoría equivalente a la pila seca.",
+  "notes_ja": "「乾」は電解質が固定されている意味で、水が全くないわけではない。本項はマンガン乾電池と消費財化を軸とする。ボタン電池は形状の分類で、アルカリや酸化銀などさまざまな方式を採用する。小型化の展開として紹介し、形だけで別項目を作らず、乾電池と単純に並列しない。"
 }

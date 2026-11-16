@@ -9,20 +9,26 @@
       "year": 1926,
       "precision": "year",
       "ref": "John Logie Baird demonstrates mechanical television in London",
-      "ref_zh": "约翰·洛吉·贝尔德在伦敦演示机械电视"
+      "ref_zh": "约翰·洛吉·贝尔德在伦敦演示机械电视",
+      "ref_es": "John Logie Baird demuestra la televisión mecánica en Londres.",
+      "ref_ja": "John Logie Baird がロンドンで機械式テレビを実演。"
     },
     "patent": null,
     "mass_production": {
       "year": 1936,
       "precision": "year",
       "ref": "BBC launches regular high-definition television from Alexandra Palace",
-      "ref_zh": "BBC 从亚历山德拉宫开播定期高清电视服务"
+      "ref_zh": "BBC 从亚历山德拉宫开播定期高清电视服务",
+      "ref_es": "La BBC inicia emisiones regulares de televisión de alta definición desde Alexandra Palace.",
+      "ref_ja": "BBC がアレクサンドラ・パレスから定期的な高精細テレビ放送を開始。"
     },
     "popularization": {
       "year": 1939,
       "precision": "year",
       "ref": "RCA presents television at the New York World's Fair",
-      "ref_zh": "RCA 在纽约世界博览会推广电视"
+      "ref_zh": "RCA 在纽约世界博览会推广电视",
+      "ref_es": "RCA promueve la televisión en la Feria Mundial de Nueva York.",
+      "ref_ja": "RCA がニューヨーク万国博覧会でテレビを宣伝。"
     }
   },
   "locations": [
@@ -32,7 +38,9 @@
       "place_label_zh": "英国伦敦（贝尔德实验室）",
       "place_label_en": "London, UK (Baird laboratory)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Londres, Reino Unido (laboratorio de Baird)",
+      "place_label_ja": "英国ロンドン（Baird の実験室）"
     },
     {
       "lat": 37.8,
@@ -41,7 +49,9 @@
       "place_label_en": "San Francisco, USA (Farnsworth)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1927
+      "year_override": 1927,
+      "place_label_es": "San Francisco, EE. UU. (Farnsworth)",
+      "place_label_ja": "米国サンフランシスコ（Farnsworth）"
     },
     {
       "lat": 51.594,
@@ -50,7 +60,9 @@
       "place_label_en": "Alexandra Palace, London, UK (BBC)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1936
+      "year_override": 1936,
+      "place_label_es": "Alexandra Palace, Londres, Reino Unido (BBC)",
+      "place_label_ja": "英国ロンドン・アレクサンドラ・パレス（BBC）"
     },
     {
       "lat": 40.747,
@@ -59,7 +71,9 @@
       "place_label_en": "Flushing, New York, USA (World’s Fair)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1939
+      "year_override": 1939,
+      "place_label_es": "Flushing, Nueva York, EE. UU. (Feria Mundial)",
+      "place_label_ja": "米国ニューヨーク・フラッシング（万国博覧会）"
     }
   ],
   "confidence": "disputed",
@@ -102,7 +116,7 @@
   "tags": [
     "media"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "notes": "贝尔德于 1926 年展示的是机械扫描电视；法恩斯沃思于 1927 年在旧金山实现电子电视图像，两者属于不同技术路线。这里以公开机械电视演示为发明节点，1936 年标记定期广播服务，1939 年标记展会推广，并不表示当时已普及到多数家庭。",
   "notes_en": "Baird demonstrated mechanically scanned television in 1926; Farnsworth produced electronic television images in San Francisco in 1927. These are different technical approaches. This entry uses the public mechanical-TV demonstration as the invention milestone, 1936 for regular broadcasting and 1939 for fair promotion; these do not mean TV had reached most households.",
   "image": {
@@ -111,6 +125,12 @@
     "alt_en": "A 1990s CRT television set",
     "credit": "ProtoKiwi",
     "license": "CC BY 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg",
+    "alt_es": "Un televisor de tubo de rayos catódicos de los años noventa",
+    "alt_ja": "1990年代のブラウン管テレビ"
+  },
+  "name_es": "Televisor",
+  "summary_es": "Baird demostró la televisión mecánica en Londres en 1926. La BBC inició emisiones regulares desde Alexandra Palace en 1936 y RCA la promovió en la Feria de Nueva York de 1939. Las vías mecánica y electrónica complican su autoría.",
+  "notes_es": "Baird mostró televisión de barrido mecánico en 1926; Farnsworth obtuvo imágenes electrónicas en San Francisco en 1927. Son vías técnicas distintas. Aquí la demostración mecánica pública marca la invención; 1936 indica emisiones regulares y 1939 la promoción ferial, no una presencia mayoritaria en los hogares.",
+  "notes_ja": "Baird の1926年の実演は機械走査式で、Farnsworth は1927年にサンフランシスコで電子式の映像を実現した。両者は異なる技術系統である。本項では機械式の公開実演を発明の節目、1936年を定期放送、1939年を博覧会での宣伝とし、当時すでに過半数の家庭に普及していたとはしない。"
 }

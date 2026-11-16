@@ -9,7 +9,9 @@
       "year": 1570,
       "precision": "decade",
       "ref": "Dedicated lacquered bento boxes appear in Japan’s Azuchi–Momoyama period",
-      "ref_zh": "日本安土桃山时代出现专用漆器便当盒"
+      "ref_zh": "日本安土桃山时代出现专用漆器便当盒",
+      "ref_es": "Aparecen cajas lacadas destinadas al bentō en el Japón del período Azuchi-Momoyama.",
+      "ref_ja": "安土桃山時代の日本に漆塗りの弁当箱が現れる。"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1603,
       "precision": "year",
       "ref": "Word bentō recorded in early Japanese–Portuguese dictionaries (1603–04)",
-      "ref_zh": "「便当」一词见于1603–04年日葡词典"
+      "ref_zh": "「便当」一词见于1603–04年日葡词典",
+      "ref_es": "La palabra bentō se registra en diccionarios japonés-portugués de 1603–1604.",
+      "ref_ja": "1603～1604年の初期の日葡辞書に「弁当」が記載される。"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "日本京都一带（安土桃山文化圈）",
       "place_label_en": "Kyoto region, Japan (Azuchi–Momoyama cultural sphere)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Kioto, Japón (ámbito cultural Azuchi-Momoyama)",
+      "place_label_ja": "日本の京都周辺（安土桃山文化圏）"
     }
   ],
   "confidence": "decade",
@@ -59,13 +65,17 @@
     "dining",
     "storage"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/bento-box.jpg",
     "alt_zh": "日式便当盒",
     "alt_en": "A Japanese bento box",
     "credit": "Novoklimov",
     "license": "CC BY 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Handmade_bento_03.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Handmade_bento_03.jpg",
+    "alt_es": "Caja japonesa de bentō",
+    "alt_ja": "日本の弁当箱"
+  },
+  "name_es": "Caja de bentō",
+  "summary_es": "La caja de bentō es un recipiente japonés para llevar comida, a menudo dividido en compartimentos. Ya había cajas lacadas en el período Azuchi-Momoyama; la palabra bentō aparece documentada hacia 1603."
 }

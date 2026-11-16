@@ -9,7 +9,9 @@
       "year": -1500,
       "precision": "century",
       "ref": "Basalt mortars used in Mesoamerica by the Early–Middle Formative (~1500 BCE)",
-      "ref_zh": "中美洲形成期早期至中期（约前1500）已使用玄武岩石臼"
+      "ref_zh": "中美洲形成期早期至中期（约前1500）已使用玄武岩石臼",
+      "ref_es": "Los morteros de basalto se usan en Mesoamérica desde el Formativo temprano-medio, hacia el 1500 a. C.",
+      "ref_ja": "メソアメリカでは形成期前期〜中期の紀元前1500年頃までに玄武岩製の石臼が使われていた"
     },
     "patent": null,
     "mass_production": null,
@@ -17,7 +19,9 @@
       "year": 1400,
       "precision": "century",
       "ref": "Aztec and other Postclassic kitchens use molcaxitl for chile sauces",
-      "ref_zh": "后古典期阿兹特克等厨房用molcaxitl研磨辣椒酱"
+      "ref_zh": "后古典期阿兹特克等厨房用molcaxitl研磨辣椒酱",
+      "ref_es": "Las cocinas aztecas y otras del Posclásico usan el molcaxitl para moler salsas de chile",
+      "ref_ja": "後古典期のアステカなどの厨房でmolcaxitlを用いて唐辛子ソースをすり潰した"
     }
   },
   "locations": [
@@ -27,7 +31,9 @@
       "place_label_zh": "墨西哥米却肯一带（早期石磨传统）",
       "place_label_en": "Michoacán region, Mexico (early grinding-stone tradition)",
       "kind": "invention",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Región de Michoacán, México (tradición temprana de piedras de moler)",
+      "place_label_ja": "メキシコ・ミチョアカン周辺（初期の石製粉砕具の伝統）"
     },
     {
       "lat": 19.43,
@@ -35,7 +41,9 @@
       "place_label_zh": "墨西哥谷地（阿兹特克使用语境）",
       "place_label_en": "Valley of Mexico (Aztec use context)",
       "kind": "popularization",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Valle de México (uso azteca)",
+      "place_label_ja": "メキシコ盆地（アステカの使用の文脈）"
     }
   ],
   "confidence": "century",
@@ -66,13 +74,17 @@
   "tags": [
     "cooking"
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/molcajete.jpg",
     "alt_zh": "墨西哥石臼 molcajete",
     "alt_en": "A Mexican molcajete stone mortar",
     "credit": "Tortillovsky",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Molcajete.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Molcajete.jpg",
+    "alt_es": "Un molcajete de piedra mexicano",
+    "alt_ja": "メキシコの石臼モルカヘテ"
+  },
+  "name_es": "Molcajete",
+  "summary_es": "El molcajete es un mortero tradicional mesoamericano de basalto, usado desde hacia el 1500 a. C. Se llama molcaxitl en náhuatl y suele acompañarse de una mano, el tejolote, para moler salsas."
 }

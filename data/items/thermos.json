@@ -9,14 +9,18 @@
       "year": 1892,
       "precision": "year",
       "ref": "James Dewar invents the vacuum flask for cryogenics research",
-      "ref_zh": "杜瓦为低温研究发明真空瓶"
+      "ref_zh": "杜瓦为低温研究发明真空瓶",
+      "ref_es": "Dewar inventa el recipiente de vacío para la investigación de bajas temperaturas.",
+      "ref_ja": "Dewar が低温研究のために真空容器を発明。"
     },
     "patent": null,
     "mass_production": {
       "year": 1904,
       "precision": "year",
       "ref": "Reinhold Burger and Albert Aschenbrenner commercialize it as Thermos, Berlin",
-      "ref_zh": "伯格与阿申布伦纳在柏林将其商业化为 Thermos"
+      "ref_zh": "伯格与阿申布伦纳在柏林将其商业化为 Thermos",
+      "ref_es": "Burger y Aschenbrenner lo comercializan en Berlín como Thermos.",
+      "ref_ja": "Burger と Aschenbrenner がベルリンで Thermos として商品化。"
     },
     "popularization": null
   },
@@ -27,7 +31,9 @@
       "place_label_zh": "英国伦敦（杜瓦）",
       "place_label_en": "London, UK (Dewar)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Londres, Reino Unido (Dewar)",
+      "place_label_ja": "英国ロンドン（Dewar）"
     },
     {
       "lat": 52.52,
@@ -35,7 +41,9 @@
       "place_label_zh": "德国柏林（Thermos）",
       "place_label_en": "Berlin, Germany (Thermos)",
       "kind": "production",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Berlín, Alemania (Thermos)",
+      "place_label_ja": "ドイツ・ベルリン（Thermos）"
     }
   ],
   "confidence": "year",
@@ -56,13 +64,17 @@
     "storage",
     "travel"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/thermos.jpg",
     "alt_zh": "一只红色保温瓶",
     "alt_en": "A red vacuum flask",
     "credit": "Denae Bedard",
     "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Thermos.JPG"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thermos.JPG",
+    "alt_es": "Un termo rojo",
+    "alt_ja": "赤い魔法瓶"
+  },
+  "name_es": "Termo",
+  "summary_es": "En 1892, James Dewar inventó el recipiente de vacío para investigar bajas temperaturas. En 1904, dos vidrieros alemanes lo convirtieron en un termo resistente para el uso cotidiano."
 }

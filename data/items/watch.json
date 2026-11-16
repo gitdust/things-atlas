@@ -9,25 +9,33 @@
       "year": 1868,
       "precision": "year",
       "ref": "Patek Philippe in Geneva makes the earliest known Swiss mechanical wristwatch for Hungary’s Countess Koscowicz, moving timekeeping from pocket to wrist",
-      "ref_zh": "百达翡丽在日内瓦为匈牙利科斯科维奇伯爵夫人制造出已知首只瑞士机械腕表（钟表从怀中走向手腕）"
+      "ref_zh": "百达翡丽在日内瓦为匈牙利科斯科维奇伯爵夫人制造出已知首只瑞士机械腕表（钟表从怀中走向手腕）",
+      "ref_es": "Patek Philippe fabrica en Ginebra para la condesa Koscowicz un temprano reloj mecánico suizo de pulsera, trasladando el reloj del bolsillo a la muñeca.",
+      "ref_ja": "Patek Philippe がジュネーヴで Koscowicz 伯爵夫人のために初期のスイス製機械式腕時計を製作し、時計が懐から腕へ移る。"
     },
     "patent": {
       "year": 1904,
       "precision": "year",
       "ref": "Louis Cartier designs the square-bezel, leather-strapped Santos in Paris for aviation pioneer Santos-Dumont, pioneering the modern practical men’s wristwatch",
-      "ref_zh": "路易·卡地亚在巴黎为飞行先驱杜蒙设计方形表圈皮革表带的“山度士”（Santos），开创现代实用男士腕表"
+      "ref_zh": "路易·卡地亚在巴黎为飞行先驱杜蒙设计方形表圈皮革表带的“山度士”（Santos），开创现代实用男士腕表",
+      "ref_es": "Louis Cartier diseña en París el Santos para el aviador Santos-Dumont, con caja cuadrada y correa de cuero.",
+      "ref_ja": "Louis Cartier がパリで飛行家 Santos-Dumont のために角形ケースと革ベルトの Santos を設計し、実用的な男性用腕時計を開く。"
     },
     "mass_production": {
       "year": 1914,
       "precision": "year",
       "ref": "WWI prompts trench watches with shatter-resistant crystals and luminous hands; soldiers on the muddy Western Front popularize wristwear, breaking with pocket-watch tradition",
-      "ref_zh": "一战爆发催生配有防碎表镜与夜光指针的“战壕表”，士兵在西线泥泞中普及腕戴，彻底打破怀表传统"
+      "ref_zh": "一战爆发催生配有防碎表镜与夜光指针的“战壕表”，士兵在西线泥泞中普及腕戴，彻底打破怀表传统",
+      "ref_es": "La Primera Guerra Mundial impulsa relojes de trinchera con cristales protegidos y agujas luminosas; los soldados popularizan su uso en la muñeca.",
+      "ref_ja": "第一次世界大戦で保護ガラスや夜光針を備えた塹壕時計が広がり、西部戦線の兵士が腕時計を普及させ、懐中時計の慣習を変える。"
     },
     "popularization": {
       "year": 1969,
       "precision": "exact",
       "ref": "Seiko launches the world’s first quartz wristwatch, Astron, in Tokyo, triggering the Quartz Revolution, reducing costs and bringing watches to the masses",
-      "ref_zh": "精工在东京推出世界上第一只石英腕表 Astron，引发全球“石英革命”，大幅降低成本并使其普及至大众"
+      "ref_zh": "精工在东京推出世界上第一只石英腕表 Astron，引发全球“石英革命”，大幅降低成本并使其普及至大众",
+      "ref_es": "Seiko lanza en Tokio el Astron, primer reloj de pulsera de cuarzo, e inicia una revolución que reduce costes y amplía su uso.",
+      "ref_ja": "Seiko が東京で世界初のクオーツ腕時計 Astron を発売。クオーツ革命によって低価格化と大衆化が進む。"
     }
   },
   "primary": "invention",
@@ -38,7 +46,9 @@
       "place_label_zh": "瑞士日内瓦（百达翡丽首只腕表）",
       "place_label_en": "Geneva, Switzerland (Patek Philippe first wristwatch)",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Ginebra, Suiza (reloj de pulsera de Patek Philippe)",
+      "place_label_ja": "スイス・ジュネーヴ（Patek Philippe の腕時計）"
     },
     {
       "lat": 48.8566,
@@ -46,7 +56,9 @@
       "place_label_zh": "法国巴黎（卡地亚山度士腕表）",
       "place_label_en": "Paris, France (Cartier Santos)",
       "kind": "patent",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "París, Francia (Cartier Santos)",
+      "place_label_ja": "フランス・パリ（Cartier Santos）"
     },
     {
       "lat": 51.5074,
@@ -54,7 +66,9 @@
       "place_label_zh": "英国伦敦与一战西线战场（战壕表）",
       "place_label_en": "London, UK / Western Front (WWI trench watches)",
       "kind": "production",
-      "confidence": "region"
+      "confidence": "region",
+      "place_label_es": "Londres y frente occidental de la Primera Guerra Mundial (relojes de trinchera)",
+      "place_label_ja": "英国ロンドンと第一次世界大戦の西部戦線（塹壕時計）"
     },
     {
       "lat": 35.681,
@@ -62,7 +76,9 @@
       "place_label_zh": "日本东京（精工石英革命）",
       "place_label_en": "Tokyo, Japan (Seiko’s Quartz Revolution)",
       "kind": "popularization",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Tokio, Japón (revolución del cuarzo de Seiko)",
+      "place_label_ja": "日本東京（Seiko のクオーツ革命）"
     }
   ],
   "confidence": "year",
@@ -107,6 +123,10 @@
     "alt_en": "An analog wristwatch with a gold case and black strap",
     "credit": "Charles J. Sharp",
     "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Vacheron_Constantin_Patrimony_gold_watch.jpg"
-  }
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vacheron_Constantin_Patrimony_gold_watch.jpg",
+    "alt_es": "Un reloj analógico dorado con correa negra",
+    "alt_ja": "黒いベルトの金色のアナログ腕時計"
+  },
+  "name_es": "Reloj de pulsera",
+  "summary_es": "Patek Philippe fabricó un reloj de pulsera en 1868 y Cartier un modelo de aviador en 1904. Las trincheras de la Primera Guerra Mundial extendieron su uso; el cuarzo y, después, los modelos inteligentes renovaron este objeto cotidiano."
 }

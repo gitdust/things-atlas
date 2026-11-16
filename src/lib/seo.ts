@@ -52,8 +52,11 @@ export function homeMeta(lang: Lang, count: number): PageMeta {
 }
 
 export function itemMeta(lang: Lang, item: AtlasItem): PageMeta {
-  const name = pick(lang, item.name_zh, item.name_en, { ja: item.name_ja });
-  const summary = pick(lang, item.summary_zh, item.summary_en, { ja: item.summary_ja });
+  const name = pick(lang, item.name_zh, item.name_en, { es: item.name_es, ja: item.name_ja });
+  const summary = pick(lang, item.summary_zh, item.summary_en, {
+    es: item.summary_es,
+    ja: item.summary_ja,
+  });
   const title =
     lang === 'zh'
       ? `${name}的起源与历史 · ${SITE_NAME_ZH}`

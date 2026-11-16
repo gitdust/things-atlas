@@ -9,25 +9,33 @@
       "year": 1938,
       "precision": "year",
       "ref": "László Bíró; Hungarian priority 25 Apr 1938",
-      "ref_zh": "拉斯洛·比罗；匈牙利优先权日 1938 年 4 月 25 日"
+      "ref_zh": "拉斯洛·比罗；匈牙利优先权日 1938 年 4 月 25 日",
+      "ref_es": "László Bíró; prioridad húngara del 25 de abril de 1938.",
+      "ref_ja": "László Bíró。ハンガリーでの優先日は1938年4月25日。"
     },
     "patent": {
       "year": 1939,
       "precision": "exact",
       "ref": "GB 498,997 and FR 839,929",
-      "ref_zh": "英国专利 GB 498,997 与法国专利 FR 839,929"
+      "ref_zh": "英国专利 GB 498,997 与法国专利 FR 839,929",
+      "ref_es": "Patentes británica GB 498997 y francesa FR 839929.",
+      "ref_ja": "英国特許GB 498997とフランス特許FR 839929。"
     },
     "mass_production": {
       "year": 1945,
       "precision": "exact",
       "ref": "Reynolds Rocket sold at Gimbels, New York",
-      "ref_zh": "雷诺兹 Rocket 在纽约金贝尔百货开售"
+      "ref_zh": "雷诺兹 Rocket 在纽约金贝尔百货开售",
+      "ref_es": "El Reynolds Rocket se vende en los grandes almacenes Gimbels de Nueva York.",
+      "ref_ja": "Reynolds RocketがニューヨークのGimbels百貨店で発売される。"
     },
     "popularization": {
       "year": 1950,
       "precision": "decade",
       "ref": "Bic Cristal becomes widely used",
-      "ref_zh": "Bic Cristal 普及"
+      "ref_zh": "Bic Cristal 普及",
+      "ref_es": "El Bic Cristal se difunde ampliamente.",
+      "ref_ja": "Bic Cristalが広く普及する。"
     }
   },
   "locations": [
@@ -37,7 +45,9 @@
       "place_label_zh": "匈牙利布达佩斯",
       "place_label_en": "Budapest, Hungary",
       "kind": "invention",
-      "confidence": "city"
+      "confidence": "city",
+      "place_label_es": "Budapest, Hungría",
+      "place_label_ja": "ハンガリー、ブダペスト"
     },
     {
       "lat": -34.604,
@@ -46,7 +56,9 @@
       "place_label_en": "Buenos Aires, Argentina",
       "kind": "patent",
       "confidence": "city",
-      "year_override": 1943
+      "year_override": 1943,
+      "place_label_es": "Buenos Aires, Argentina",
+      "place_label_ja": "アルゼンチン、ブエノスアイレス"
     },
     {
       "lat": 40.75,
@@ -55,7 +67,9 @@
       "place_label_en": "New York, USA (Gimbels)",
       "kind": "production",
       "confidence": "city",
-      "year_override": 1945
+      "year_override": 1945,
+      "place_label_es": "Nueva York, Estados Unidos (Gimbels)",
+      "place_label_ja": "米国ニューヨーク（Gimbels）"
     },
     {
       "lat": 48.905,
@@ -64,7 +78,9 @@
       "place_label_en": "Clichy, France (Bic)",
       "kind": "popularization",
       "confidence": "city",
-      "year_override": 1950
+      "year_override": 1950,
+      "place_label_es": "Clichy, Francia (Bic)",
+      "place_label_ja": "フランス、クリシー（Bic）"
     },
     {
       "lat": 42.218,
@@ -73,7 +89,9 @@
       "place_label_en": "Weymouth, Massachusetts, USA (Loud)",
       "kind": "contested",
       "confidence": "city",
-      "year_override": 1888
+      "year_override": 1888,
+      "place_label_es": "Weymouth, Massachusetts, Estados Unidos (Loud)",
+      "place_label_ja": "米国マサチューセッツ州ウェイマス（Loud）"
     }
   ],
   "confidence": "disputed",
@@ -124,14 +142,20 @@
     "office",
     "writing"
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/ballpoint-pen.jpg",
     "alt_zh": "圆珠笔尖在纸上书写的微距照片",
     "alt_en": "Macro photo of a ballpoint tip writing on paper",
     "credit": "Daniel Schwen",
     "license": "CC BY-SA 2.5",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Macro_Biro_writing2.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Macro_Biro_writing2.jpg",
+    "alt_es": "Primer plano de la punta de un bolígrafo escribiendo sobre papel",
+    "alt_ja": "紙に書くボールペンの先端の接写"
   },
-  "notes_en": "Two origin accounts coexist. John J. Loud’s US 392,046 (1888) describes a ball-tip pen that could only mark rough surfaces such as leather and was never mass-produced. László Bíró’s 1938 Budapest design (Hungarian priority 25 April 1938), patented in Britain and France in 1939 and submitted for a US patent from Buenos Aires in 1943, was the practical everyday ballpoint. No primary source was found for the claimed 1931 prototype, so it is not used here."
+  "notes_en": "Two origin accounts coexist. John J. Loud’s US 392,046 (1888) describes a ball-tip pen that could only mark rough surfaces such as leather and was never mass-produced. László Bíró’s 1938 Budapest design (Hungarian priority 25 April 1938), patented in Britain and France in 1939 and submitted for a US patent from Buenos Aires in 1943, was the practical everyday ballpoint. No primary source was found for the claimed 1931 prototype, so it is not used here.",
+  "name_es": "Bolígrafo",
+  "summary_es": "El bolígrafo práctico suele atribuirse a Bíró (1938), pero la patente de Loud de 1888 hace que su origen se considere discutido. Se produjo en Nueva York en 1945 y Bic lo popularizó en los años cincuenta.",
+  "notes_es": "Coexisten dos relatos: la patente US 392046 de John J. Loud (1888) describía una punta de bola que solo marcaba superficies rugosas, como el cuero, y nunca se produjo en serie. El diseño de Bíró en Budapest (prioridad húngara del 25 de abril de 1938), patentado en Gran Bretaña y Francia en 1939 y presentado para patente estadounidense desde Buenos Aires en 1943, era apto para escribir a diario. Se omite el supuesto prototipo de 1931 por falta de una fuente primaria.",
+  "notes_ja": "起源には二つの説がある。John J. Loudの米国特許US 392046（1888年）は革など粗い面への印付け用で、量産されなかった。Bíróのブダペストでの設計（ハンガリー優先日1938年4月25日）は日常筆記に実用的で、1939年に英仏で特許を得て1943年にブエノスアイレスから米国特許を出願した。「1931年の試作」説は一次資料が見つからず採用していない。"
 }
