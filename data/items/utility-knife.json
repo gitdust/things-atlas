@@ -69,5 +69,13 @@
     "repair",
     "office"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/utility-knife.jpg",
+    "alt_zh": "伸出折刃式刀片的红色美工刀",
+    "alt_en": "A red snap-off utility knife with its blade extended",
+    "credit": "Evan-Amos",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Box-cutter.jpg"
+  }
 }

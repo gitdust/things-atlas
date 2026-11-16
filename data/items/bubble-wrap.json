@@ -72,5 +72,13 @@
     "materials",
     "household"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/bubble-wrap.jpg",
+    "alt_zh": "透明气泡缓冲包装膜的近照",
+    "alt_en": "A close-up of transparent bubble wrap packaging",
+    "credit": "Consequencefree",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bubble_Wrap.jpg"
+  }
 }

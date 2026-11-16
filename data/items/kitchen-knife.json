@@ -66,5 +66,13 @@
     "cooking",
     "dining"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/kitchen-knife.jpg",
+    "alt_zh": "黑柄不锈钢厨师刀",
+    "alt_en": "A stainless steel chef’s knife with a black handle",
+    "credit": "WLU",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eight_inch_Zwilling_J.A._Henckels_chef_knife.JPG"
+  }
 }

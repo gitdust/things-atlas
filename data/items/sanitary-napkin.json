@@ -85,5 +85,13 @@
     "health",
     "grooming"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/sanitary-napkin.jpg",
+    "alt_zh": "两片一次性卫生巾，其中一片带护翼",
+    "alt_en": "Two disposable sanitary pads, one with wings",
+    "credit": "KaurJmeb",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sanitary_towel.jpg"
+  }
 }

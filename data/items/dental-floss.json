@@ -71,5 +71,13 @@
     "health",
     "grooming"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/dental-floss.jpg",
+    "alt_zh": "打开的牙线盒与拉出的牙线",
+    "alt_en": "An open dental floss dispenser with a length of floss",
+    "credit": "Texas Lane",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dental_Floss.jpg"
+  }
 }

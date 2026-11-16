@@ -80,5 +80,13 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/toaster.jpg",
+    "alt_zh": "双槽弹跳式电烤面包机",
+    "alt_en": "A two-slot pop-up electric toaster",
+    "credit": "Consumer Reports",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Consumer_Reports_-_Hamilton_Beach_Digital_toaster.tiff"
+  }
 }

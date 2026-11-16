@@ -72,5 +72,13 @@
     "storage",
     "cooking"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/tin-can.jpg",
+    "alt_zh": "密封的马口铁食品罐",
+    "alt_en": "A sealed tin-plated food can",
+    "credit": "Rainer Zenz (attributed on Wikimedia Commons)",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Konservendose-1.jpg"
+  }
 }

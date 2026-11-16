@@ -87,13 +87,13 @@
     "health",
     "clothing"
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "image": {
     "src": "/images/contact-lens.jpg",
-    "alt_zh": "指尖托起的一枚透明水润软性隐形眼镜",
-    "alt_en": "A clear soft contact lens resting on a fingertip",
-    "credit": "Peter Clarke",
-    "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Contact_Lens.jpg"
+    "alt_zh": "指尖上的硬性透气隐形眼镜",
+    "alt_en": "A rigid gas-permeable contact lens on a fingertip",
+    "credit": "BillC",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:KC-lens.jpg"
   }
 }

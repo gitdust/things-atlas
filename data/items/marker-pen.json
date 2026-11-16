@@ -71,5 +71,13 @@
     "writing",
     "office"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/marker-pen.jpg",
+    "alt_zh": "多支打开笔帽的彩色毡尖记号笔",
+    "alt_en": "Colored felt-tip marker pens with their caps removed",
+    "credit": "Peng",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Filzstifte1.jpg"
+  }
 }

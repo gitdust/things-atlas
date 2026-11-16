@@ -85,5 +85,13 @@
     "travel",
     "storage"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/backpack.jpg",
+    "alt_zh": "蓝色双肩登山背包",
+    "alt_en": "A blue hiking backpack",
+    "credit": "WrS.tm.pl",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plecak_Hiker_50_L_HiMountain.jpg"
+  }
 }

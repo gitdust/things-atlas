@@ -71,5 +71,13 @@
     "electric",
     "household"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/power-plug-and-socket.jpg",
+    "alt_zh": "Schuko 电源插头与插座的结构标注照片",
+    "alt_en": "An annotated photograph of a Schuko power plug and socket",
+    "credit": "Chameleon, bran & plugwash",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Schuko_plug_and_socket_annotated.png"
+  }
 }

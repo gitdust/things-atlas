@@ -39,6 +39,14 @@
       840
     ]
   },
+  "backpack.jpg": {
+    "width": 960,
+    "height": 624,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "ballpoint-pen.jpg": {
     "width": 1200,
     "height": 846,
@@ -142,6 +150,14 @@
       265
     ]
   },
+  "bubble-wrap.jpg": {
+    "width": 1200,
+    "height": 900,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "button.jpg": {
     "width": 1200,
     "height": 795,
@@ -169,6 +185,14 @@
   "candle.jpg": {
     "width": 960,
     "height": 1445,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "cat-litter.jpg": {
+    "width": 1200,
+    "height": 900,
     "widths": [
       480,
       960
@@ -255,11 +279,11 @@
     ]
   },
   "contact-lens.jpg": {
-    "width": 1600,
-    "height": 974,
+    "width": 555,
+    "height": 511,
     "widths": [
       480,
-      960
+      555
     ]
   },
   "corkscrew.jpg": {
@@ -284,6 +308,14 @@
     "widths": [
       480,
       640
+    ]
+  },
+  "dental-floss.jpg": {
+    "width": 900,
+    "height": 1200,
+    "widths": [
+      480,
+      900
     ]
   },
   "disposable-diaper.jpg": {
@@ -471,8 +503,8 @@
     ]
   },
   "induction-cooktop.jpg": {
-    "width": 1158,
-    "height": 778,
+    "width": 960,
+    "height": 720,
     "widths": [
       480,
       960
@@ -513,6 +545,14 @@
   "keyboard.jpg": {
     "width": 1200,
     "height": 800,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "kitchen-knife.jpg": {
+    "width": 960,
+    "height": 720,
     "widths": [
       480,
       960
@@ -572,6 +612,14 @@
     "widths": [
       480,
       960
+    ]
+  },
+  "marker-pen.jpg": {
+    "width": 579,
+    "height": 400,
+    "widths": [
+      480,
+      579
     ]
   },
   "match.jpg": {
@@ -741,6 +789,14 @@
       960
     ]
   },
+  "power-plug-and-socket.jpg": {
+    "width": 1052,
+    "height": 504,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "pressure-cooker.jpg": {
     "width": 1600,
     "height": 1067,
@@ -826,6 +882,13 @@
     "widths": [
       480,
       960
+    ]
+  },
+  "sanitary-napkin.jpg": {
+    "width": 368,
+    "height": 345,
+    "widths": [
+      368
     ]
   },
   "scissors.jpg": {
@@ -956,6 +1019,14 @@
       960
     ]
   },
+  "t-shirt.jpg": {
+    "width": 870,
+    "height": 681,
+    "widths": [
+      480,
+      870
+    ]
+  },
   "table-fork.jpg": {
     "width": 1200,
     "height": 1064,
@@ -1006,6 +1077,22 @@
   "thermos.jpg": {
     "width": 999,
     "height": 1200,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "tin-can.jpg": {
+    "width": 960,
+    "height": 1038,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "toaster.jpg": {
+    "width": 960,
+    "height": 920,
     "widths": [
       480,
       960
@@ -1083,6 +1170,14 @@
       960
     ]
   },
+  "utility-knife.jpg": {
+    "width": 1200,
+    "height": 685,
+    "widths": [
+      480,
+      960
+    ]
+  },
   "vacuum-cleaner.jpg": {
     "width": 1280,
     "height": 2387,
@@ -1110,6 +1205,14 @@
   "washing-machine.jpg": {
     "width": 1280,
     "height": 1527,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "watch.jpg": {
+    "width": 1025,
+    "height": 1200,
     "widths": [
       480,
       960

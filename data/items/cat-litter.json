@@ -58,5 +58,13 @@
     "household",
     "cleaning"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/cat-litter.jpg",
+    "alt_zh": "未使用的颗粒状猫砂近照",
+    "alt_en": "A close-up of fresh granular cat litter",
+    "credit": "CambridgeBayWeather",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fresh_cat_litter_close_up.JPG"
+  }
 }

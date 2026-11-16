@@ -100,5 +100,13 @@
     "clothing",
     "materials"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/watch.jpg",
+    "alt_zh": "黑色表带的金色指针式手表",
+    "alt_en": "An analog wristwatch with a gold case and black strap",
+    "credit": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vacheron_Constantin_Patrimony_gold_watch.jpg"
+  }
 }

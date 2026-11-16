@@ -73,5 +73,13 @@
   "tags": [
     "clothing"
   ],
-  "updated": "2026-11-09"
+  "updated": "2026-11-16",
+  "image": {
+    "src": "/images/t-shirt.jpg",
+    "alt_zh": "印有维基百科标志的白色短袖 T 恤",
+    "alt_en": "A white short-sleeved T-shirt with the Wikipedia logo",
+    "credit": "Wikimedia Deutschland",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:T-Shirt_Wikipedia_white.jpg"
+  }
 }
