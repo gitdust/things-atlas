@@ -189,6 +189,7 @@ export function ItemDrawer({
         {item.image ? (
           <figure className="drawer-figure">
             <ItemImage
+              lang={lang}
               image={item.image}
               alt={pick(lang, item.image.alt_zh, item.image.alt_en, {
                 es: item.image.alt_es,

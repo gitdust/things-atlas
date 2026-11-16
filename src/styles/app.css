@@ -854,6 +854,47 @@ button {
   color: var(--ink-3);
 }
 
+.item-image {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.item-image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.item-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity var(--dur) var(--ease);
+}
+.item-image[data-state='loading'] img,
+.item-image[data-state='failed'] img {
+  opacity: 0;
+  transition: none;
+}
+.item-image-status {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-2);
+  padding: var(--s-3);
+  color: var(--ink-3);
+  font-size: var(--fs-ui-sm);
+  text-align: center;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .item-image img {
+    transition: none;
+  }
+}
+
 .drawer-figure {
   position: relative;
   margin: var(--s-5) 0 0;

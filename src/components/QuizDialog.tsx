@@ -31,12 +31,13 @@ function QuizImage({ item, lang }: { item: QuizItem; lang: Lang }) {
   if (item.image && reviewedImages.has(item.image.src) && !failed) {
     return (
       <ItemImage
+        lang={lang}
         className="quiz-image"
         image={item.image}
         alt={name}
         sizes="(max-width: 760px) 64px, 280px"
         eager
-        onError={() => setFailed(true)}
+        onFailure={() => setFailed(true)}
       />
     );
   }

@@ -216,6 +216,9 @@
   object-fit: contain;
   border-radius: var(--r-sm);
 }
+.quiz-image .item-image-message {
+  display: none;
+}
 @media (max-width: 760px) {
   .quiz-image {
     width: 64px;
